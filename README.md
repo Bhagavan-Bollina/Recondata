@@ -42,3 +42,5 @@ It means the request contains incorrect syntax or cannot be fulfilled.
 
  5xx: Server Error
 It means the server failed to fulfill an apparently valid request.
+
+Feel free to open issue or PR!
