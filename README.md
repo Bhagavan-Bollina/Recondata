@@ -20,3 +20,20 @@ the server
   >>  prod*
   >>  stage*
   >>  stg*
+  
+ #Status_Codes 
+ 
+ 1xx: Informational
+It means the request has been received and the process is continuing.
+
+ 2xx: Success
+It means the action was successfully received, understood, and accepted.
+
+ 3xx: Redirection
+It means further action must be taken in order to complete the request.
+
+ 4xx: Client Error
+It means the request contains incorrect syntax or cannot be fulfilled.
+
+ 5xx: Server Error
+It means the server failed to fulfill an apparently valid request.
