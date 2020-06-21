@@ -3,10 +3,14 @@ Actively collected internet-wide assets' data, this project is meant to enhance 
 
 Hey all,
 
+
 #This repo basically helpfull for the people who are working in Vulnerability-Assesment
 
 #This is a collection of subdomains and alive hosts of a domain and some of them has the out folder which contains the request and response from 
 the server
+
+#NOTE
+Some subdomains are more than 50000 so..you have to visit via RAW(visit raw)
 
 #Domains  >>  Subdomains
 
