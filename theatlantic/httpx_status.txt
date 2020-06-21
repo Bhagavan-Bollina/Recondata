@@ -1,0 +1,6 @@
+https://*.ampbeta.theatlantic.com [[31m403[0m] [[36m403 Forbidden[0m]
+https://support.theatlantic.com [[33m301[0m] [[36m[0m]
+https://*.sponsorbeta.theatlantic.com [[31m403[0m] [[36m403 Forbidden[0m]
+https://food.theatlantic.com [[31m403[0m] [[36m403 Forbidden[0m]
+https://subscribe.theatlantic.com [[32m200[0m] [[36mCDS Global : w1.buysub.com[0m]
+https://metrics.theatlantic.com [[32m200[0m] [[36m[0m]
