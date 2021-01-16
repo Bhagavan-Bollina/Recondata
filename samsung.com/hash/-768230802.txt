@@ -1,0 +1,4 @@
+http://b2bindia.samsung.com/favicon.ico
+https://b2bindia.samsung.com/favicon.ico
+https://channelusa.samsung.com/favicon.ico
+http://channelusa.samsung.com/favicon.ico

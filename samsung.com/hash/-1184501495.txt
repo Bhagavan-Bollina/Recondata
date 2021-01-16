@@ -1,0 +1,2 @@
+http://humantech.samsung.com/favicon.ico
+https://humantech.samsung.com/favicon.ico

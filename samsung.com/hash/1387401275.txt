@@ -1,0 +1,2 @@
+https://eu.mobilecare.svc.samsung.com/favicon.ico
+http://eu.mobilecare.svc.samsung.com/favicon.ico

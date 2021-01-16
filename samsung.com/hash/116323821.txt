@@ -1,0 +1,4 @@
+http://galaxystore.samsung.com/favicon.ico
+https://galaxystore.samsung.com/favicon.ico
+https://research.samsung.com/favicon.ico
+http://research.samsung.com/favicon.ico

@@ -1,0 +1,4 @@
+https://spwa.sec.samsung.com/favicon.ico
+https://spna.sec.samsung.com/favicon.ico
+http://spna.sec.samsung.com/favicon.ico
+http://spwa.sec.samsung.com/favicon.ico

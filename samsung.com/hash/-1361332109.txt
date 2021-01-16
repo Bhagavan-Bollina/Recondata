@@ -1,0 +1,2 @@
+http://account.samsung.com/favicon.ico
+https://account.samsung.com/favicon.ico

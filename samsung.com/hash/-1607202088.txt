@@ -1,0 +1,3 @@
+https://mi.samsung.com/favicon.ico
+http://pvi.samsung.com/favicon.ico
+https://pvi.samsung.com/favicon.ico

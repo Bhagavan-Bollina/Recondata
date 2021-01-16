@@ -1,0 +1,6 @@
+https://stg-findmymobile.samsung.com/favicon.ico
+https://findmymobile.samsung.com/favicon.ico
+http://findmymobile.samsung.com/favicon.ico
+http://stg-findmymobile.samsung.com/favicon.ico
+https://dev-findmymobile.samsung.com/favicon.ico
+http://dev-findmymobile.samsung.com/favicon.ico
