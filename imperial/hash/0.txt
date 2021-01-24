@@ -1,0 +1,10 @@
+http://staff-hub.imperial.ac.uk/favicon.ico
+https://staff-hub.imperial.ac.uk/favicon.ico
+https://data.hpc.imperial.ac.uk/favicon.ico
+http://data.hpc.imperial.ac.uk/favicon.ico
+http://exec-info.imperial.ac.uk/favicon.ico
+https://exec-info.imperial.ac.uk/favicon.ico
+https://payments.imperial.ac.uk/favicon.ico
+http://payments.imperial.ac.uk/favicon.ico
+https://data.rcs.imperial.ac.uk/favicon.ico
+http://data.rcs.imperial.ac.uk/favicon.ico

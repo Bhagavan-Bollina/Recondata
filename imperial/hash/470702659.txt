@@ -1,0 +1,4 @@
+https://www5.imperial.ac.uk/favicon.ico
+http://www5.imperial.ac.uk/favicon.ico
+http://www1.imperial.ac.uk/favicon.ico
+https://www1.imperial.ac.uk/favicon.ico

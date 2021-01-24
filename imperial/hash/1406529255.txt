@@ -1,0 +1,2 @@
+https://astro.imperial.ac.uk/favicon.ico
+http://astro.imperial.ac.uk/favicon.ico

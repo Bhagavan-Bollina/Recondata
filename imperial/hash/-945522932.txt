@@ -1,0 +1,4 @@
+http://wwwe.imperial.ac.uk/favicon.ico
+https://wwwe.imperial.ac.uk/favicon.ico
+http://redirects.cc.imperial.ac.uk/favicon.ico
+https://redirects.cc.imperial.ac.uk/favicon.ico

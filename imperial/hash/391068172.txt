@@ -1,0 +1,2 @@
+http://remotehelp.imperial.ac.uk/favicon.ico
+https://remotehelp.imperial.ac.uk/favicon.ico

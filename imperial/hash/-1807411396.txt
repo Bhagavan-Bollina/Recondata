@@ -1,0 +1,6 @@
+http://lyncdialin.imperial.ac.uk/favicon.ico
+https://lyncdialin.imperial.ac.uk/favicon.ico
+https://lyncmeet.imperial.ac.uk/favicon.ico
+http://lyncmeet.imperial.ac.uk/favicon.ico
+http://lyncweb.imperial.ac.uk/favicon.ico
+https://lyncweb.imperial.ac.uk/favicon.ico

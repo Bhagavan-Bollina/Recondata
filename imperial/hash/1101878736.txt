@@ -1,0 +1,12 @@
+https://spiral.imperial.ac.uk/favicon.ico
+http://spiral.imperial.ac.uk/favicon.ico
+https://eprints.imperial.ac.uk/favicon.ico
+http://eprints.imperial.ac.uk/favicon.ico
+https://www.imperial.ac.uk/favicon.ico
+http://www.imperial.ac.uk/favicon.ico
+http://imperial.ac.uk/favicon.ico
+https://cpd-booking.imperial.ac.uk/favicon.ico
+https://imperial.ac.uk/favicon.ico
+http://cpd-booking.imperial.ac.uk/favicon.ico
+https://mech-learn.imperial.ac.uk/favicon.ico
+http://mech-learn.imperial.ac.uk/favicon.ico

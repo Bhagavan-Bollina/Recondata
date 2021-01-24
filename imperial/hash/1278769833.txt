@@ -1,0 +1,6 @@
+http://my.imperial.ac.uk/favicon.ico
+https://my.imperial.ac.uk/favicon.ico
+https://execed.imperial.ac.uk/favicon.ico
+http://execed.imperial.ac.uk/favicon.ico
+http://my-dev.imperial.ac.uk/favicon.ico
+https://my-dev.imperial.ac.uk/favicon.ico

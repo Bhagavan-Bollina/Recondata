@@ -1,0 +1,6 @@
+https://ictprintservice-mobile.imperial.ac.uk/favicon.ico
+http://ictprintservice-mobile.imperial.ac.uk/favicon.ico
+https://ictprintservice-mono.cc.imperial.ac.uk/favicon.ico
+http://ictprintservice-mono.cc.imperial.ac.uk/favicon.ico
+http://ictprintservice-colour.cc.imperial.ac.uk/favicon.ico
+https://ictprintservice-colour.cc.imperial.ac.uk/favicon.ico

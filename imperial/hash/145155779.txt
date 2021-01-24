@@ -1,0 +1,8 @@
+http://wowza.imperial.ac.uk/favicon.ico
+https://wowza.imperial.ac.uk/favicon.ico
+http://hml.imperial.ac.uk/favicon.ico
+https://hml.imperial.ac.uk/favicon.ico
+http://mediaupload.imperial.ac.uk/favicon.ico
+https://mediaupload.imperial.ac.uk/favicon.ico
+https://media.imperial.ac.uk/favicon.ico
+http://media.imperial.ac.uk/favicon.ico

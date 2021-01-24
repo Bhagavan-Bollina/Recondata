@@ -1,0 +1,2 @@
+http://kaizen.imperial.ac.uk/favicon.ico
+https://kaizen.imperial.ac.uk/favicon.ico

@@ -1,0 +1,2 @@
+http://lyncdiscover.imperial.ac.uk/favicon.ico
+https://lyncdiscover.imperial.ac.uk/favicon.ico

@@ -1,0 +1,2 @@
+https://learn.imperial.ac.uk/favicon.ico
+http://learn.imperial.ac.uk/favicon.ico

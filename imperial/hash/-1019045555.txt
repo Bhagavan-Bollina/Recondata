@@ -1,0 +1,2 @@
+http://library-search.imperial.ac.uk/favicon.ico
+https://library-search.imperial.ac.uk/favicon.ico

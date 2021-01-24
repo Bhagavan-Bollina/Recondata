@@ -1,0 +1,4 @@
+https://union.imperial.ac.uk/favicon.ico
+http://union.imperial.ac.uk/favicon.ico
+http://www.union.imperial.ac.uk/favicon.ico
+https://www.union.imperial.ac.uk/favicon.ico

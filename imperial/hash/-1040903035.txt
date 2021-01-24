@@ -1,0 +1,2 @@
+http://halls.imperial.ac.uk/favicon.ico
+https://halls.imperial.ac.uk/favicon.ico
