@@ -1,0 +1,15 @@
+https://sso-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sso-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Fri, 20 Apr 2012 12:26:18 GMT
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 0
+< Set-Cookie: NSC_333333_wjq_192.230.226.222*443=ffffffff090e163d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:04:55 GMT
+< Accept-Ranges: bytes
+< Etag: W/"0-1334924778000"
+

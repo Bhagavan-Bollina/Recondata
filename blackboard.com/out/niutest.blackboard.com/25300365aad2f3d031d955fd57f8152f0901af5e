@@ -1,0 +1,27 @@
+https://niutest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: niutest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1547822906000"
+< Content-Type: text/html
+< Set-Cookie: NSC_306839_wjq_69.196.225.239*443=ffffffff090e1ee445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:58 GMT
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:03:58 GMT
+< X-Blackboard-Appserver: fgtd-306839-49610-app001.mhint
+< Last-Modified: Fri, 18 Jan 2019 14:48:26 GMT
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.1-rel.59+219b762
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,31 @@
+https://pucpr-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pucpr-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Last-Modified: Thu, 04 Jan 2001 13:04:25 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=UTF-8
+< Location: https://ava.pucpr.br
+< Content-Language: pt-BR-110718
+< Expires: Sat, 04 Jan 2020 13:04:25 GMT
+< Content-Length: 0
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-224-251.ec2.internal
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=01ECA3D004DEF3BA4B3A5EF616EF398A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776265,id:B1D5B6E8551BE442717F4782F41A8BC9,signature:851c33f2f5d19b3a55e9d0670c3d2933e26559b5b9ae912dfed774f57765a32a,site:024ff96e-3460-4b5a-bbeb-56d93cb8c20a,v:2,xsrf:a92b4388-fdf1-4a5b-afd4-2e132d030d61; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=D925515108141E60630276BC569657ECD85CB1E8CE5972B426C3BD04805279870ED4DF4500F710F43E5867F7238979DD3C77CCFE73640865E2F8D98844AF770644A8A8996E;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=D925515108141E60630276BC569657ECD85CB1E8CE5972B426C3BD04805279870ED4DF4500F710F43E5867F7238979DD3C77CCFE73640865E2F8D98844AF770644A8A8996E;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:25 GMT
+

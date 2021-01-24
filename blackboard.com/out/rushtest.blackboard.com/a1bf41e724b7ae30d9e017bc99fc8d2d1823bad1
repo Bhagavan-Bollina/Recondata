@@ -1,0 +1,45 @@
+https://rushtest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: rushtest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:04:41 GMT
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:04:41 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.6-rel.12+96497c7
+< Pragma: private
+< Set-Cookie: s_session_id=510DA17F0C271F5316A38A0B4131A33E; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=54D50AD2D5F787A04FA201217D66CECE; Path=/; Secure
+< Set-Cookie: NSC_301104_wjq_69.196.230.53*443=ffffffff090d1ee645525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Appserver: fgtd-301104-155928-app001.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:04:41 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+<head>
+
+<title>Blackboard Learn - Redirect</title>
+
+<meta http-equiv="REFRESH" content="0;url=https://rushtest.blackboard.com/auth-saml/saml/login?apId=_6322_1&redirectUrl=https%3A%2F%2Frushtest.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab"></HEAD>
+
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; ">
+
+Redirecting... <a style="color:grey" href="https://rushtest.blackboard.com/auth-saml/saml/login?apId=_6322_1&redirectUrl=https%3A%2F%2Frushtest.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab">Go to login page</a> if you are not automatically redirected.
+
+</BODY>
+
+</HTML>
+
+

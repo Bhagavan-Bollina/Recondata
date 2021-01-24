@@ -1,0 +1,47 @@
+https://seistage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: seistage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776288,id:162C7BC288BD77FF3E8B7594C3B5BB6D,signature:2d9a9e1ba9961bca7d4069503720f7b1520bfb0cbbc871e83cfaaa41c6e3a485,site:76562a59-5ed0-4ecf-9db8-b773ecdab6ba,v:2,xsrf:55c4bb5f-104f-4ac9-ac4f-65c53303501f; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=53451D0D1E9204506E7E7F27E1EBD6B30A5FEE46F6087896BE1AE6BBDFE25B6924F00212A4F9A50D871F8E5F5986941B07F7769DBD2C2B2B0D84024CA21B81E9F5FDF5A645;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=53451D0D1E9204506E7E7F27E1EBD6B30A5FEE46F6087896BE1AE6BBDFE25B6924F00212A4F9A50D871F8E5F5986941B07F7769DBD2C2B2B0D84024CA21B81E9F5FDF5A645;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:48 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:48 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:04:48 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-238-46.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fseistage.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;seistage.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

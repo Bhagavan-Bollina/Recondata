@@ -1,0 +1,29 @@
+https://ccu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ccu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:02:36 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:36 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-145-25-89.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:02:36 GMT
+< Location: /auth-saml/saml/login?apId=_269_1&redirectUrl=https%3A%2F%2Fccu.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776156,id:CF9E2997746477DACF42FBDB0BF6FA63,signature:2fdeb7f537168f5b9773a66c6918149e1128ef6370c90e6cfad804836e9fb21a,site:a5750ac2-e334-469f-95e1-3a3ca417872e,v:2,xsrf:98b20024-42c5-4af6-b8c2-4dfc1962fb31; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=3DAF09411092B4EE526552717652770E32F875FB098A5B29DCDB793B8CDA96D4C7EAEBD7C3D2D32E59FD8F69478ECABEC276CC9F7BE7F73807E7EE978A4D9A400300C1C333;PATH=/
+< Set-Cookie: AWSELBCORS=3DAF09411092B4EE526552717652770E32F875FB098A5B29DCDB793B8CDA96D4C7EAEBD7C3D2D32E59FD8F69478ECABEC276CC9F7BE7F73807E7EE978A4D9A400300C1C333;PATH=/;SECURE;SAMESITE=None
+

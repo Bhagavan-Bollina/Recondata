@@ -1,0 +1,28 @@
+https://k12private.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: k12private.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sat, 24 Feb 2018 19:54:46 GMT
+< Accept-Ranges: bytes
+< Etag: W/"89-1519502086000"
+< Expires: Sat, 04 Jan 2020 13:03:30 GMT
+< Set-Cookie: NSC_113175_wjq_69.196.231.72*443=ffffffff090d151545525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.7-rel.7+2fae8ea
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< Content-Length: 89
+< Server: Apache-Coyote/1.1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-113175-216310-app004.mhint
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:03:30 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,28 @@
+https://mhwebtech1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mhwebtech1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Etag: W/"89-1570043576000"
+< Server: Apache-Coyote/1.1
+< X-Blackboard-Appserver: fgprd-525632-sf160377-app002.mhint
+< Pragma: private
+< Last-Modified: Wed, 02 Oct 2019 19:12:56 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.8-rel.132+a99c92b
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:03:47 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:03:47 GMT
+< Set-Cookie: NSC_525632_wjq_64.125.200.10*443=ffffffff091f1e4e45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

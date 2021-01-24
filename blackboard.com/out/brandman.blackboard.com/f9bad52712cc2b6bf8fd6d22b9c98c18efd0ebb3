@@ -1,0 +1,29 @@
+https://brandman.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: brandman.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: BbRouter=expires:1609776144,id:69F2CCC49BB89A848B93ED51B04F5767,signature:454300a6f357c9234da38d1c05876561908e4e1c50ce04634b55ca1d1f41cd75,site:423548f9-a68e-496b-af94-a9e493cc6f99,v:2,xsrf:9a5b9270-1648-46ea-be92-534e63ec47b7; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=B11777251225C476561E8E2F92A0F4C6279CFA1AE9DCAD404F900A4FA18A454DA5EED28D4498F1B4304B135DC56FC4660D19CDC87A75A4F05829CEAAA392F7D99927D1CB06;PATH=/
+< Set-Cookie: AWSELBCORS=B11777251225C476561E8E2F92A0F4C6279CFA1AE9DCAD404F900A4FA18A454DA5EED28D4498F1B4304B135DC56FC4660D19CDC87A75A4F05829CEAAA392F7D99927D1CB06;PATH=/;SECURE;SAMESITE=None
+< Date: Mon, 04 Jan 2021 13:02:24 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5b7ade7761e43/execute/casLogin?cmd=login&authProviderId=_105_1&redirectUrl=https%3A%2F%2Fbrandman.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-146-211-14.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Server: openresty/1.9.3.1
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:02:24 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:24 GMT
+

@@ -1,0 +1,20 @@
+https://www.cloudbb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: www.cloudbb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Type: text/html
+< Content-Length: 151
+< Cf-Ray: 60c52c410a332e37-BOM
+< Server: cloudflare
+< Date: Mon, 04 Jan 2021 13:05:45 GMT
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>

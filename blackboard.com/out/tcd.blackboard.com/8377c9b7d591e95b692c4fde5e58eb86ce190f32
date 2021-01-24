@@ -1,0 +1,21 @@
+https://tcd.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: tcd.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Location: https://tcd.blackboard.com/webapps/login
+< Content-Length: 224
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: NSC_300200.qspe1_wjq1*443=ffffffff090b1ceb45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:03 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://tcd.blackboard.com/webapps/login">here</a>.</p>
+</body></html>

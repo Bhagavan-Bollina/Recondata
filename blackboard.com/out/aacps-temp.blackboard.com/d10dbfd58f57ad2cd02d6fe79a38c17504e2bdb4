@@ -1,0 +1,21 @@
+https://aacps-temp.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: aacps-temp.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:02:05 GMT
+< Server: Apache
+< Location: https://aacps-temp.blackboard.com/webapps/login
+< Content-Length: 231
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: NSC_167372_wjq_69.196.230.112*443=ffffffff090d10be45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://aacps-temp.blackboard.com/webapps/login">here</a>.</p>
+</body></html>

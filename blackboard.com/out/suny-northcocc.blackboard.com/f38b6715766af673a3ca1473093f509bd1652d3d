@@ -1,0 +1,47 @@
+https://suny-northcocc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: suny-northcocc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Pragma: private
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-146-234-226.ec2.internal
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:04:59 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:59 GMT
+< Set-Cookie: BbRouter=expires:1609776299,id:0CC27DD1D03500479BC4BB64313E1689,signature:d44c10681bb48225e806de5e2b852e69bb33a0e07ac009b7310dee12c5878831,site:607ab3c7-27ba-4883-97c8-d43664e7895f,v:2,xsrf:9d8006d9-ddb4-46ad-93fd-14c2fba38a66; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=85F1ED5F0ACFE4D21E086C0D62BD467207A9391A7DA9AD560986165C18C18ADEC4EEB2641363DCB1AF37E4D1747F66A7A28E4E68A9B8F774257BAA70D03E9C139845F5B1F3;PATH=/
+< Set-Cookie: AWSELBCORS=85F1ED5F0ACFE4D21E086C0D62BD467207A9391A7DA9AD560986165C18C18ADEC4EEB2641363DCB1AF37E4D1747F66A7A28E4E68A9B8F774257BAA70D03E9C139845F5B1F3;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:04:59 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fsuny\x2Dnorthcocc.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;suny-northcocc.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

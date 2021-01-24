@@ -1,0 +1,47 @@
+https://regent.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: regent.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-146-213-75.ec2.internal
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:04:31 GMT
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:04:31 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776271,id:CE08AAA40036BAFC37AD05FD7B66C9AB,signature:66d8b367c00475acd2bb3e76183d1dec51f70ca5a505c28af75968352416846c,site:3cc870fb-7738-4657-8394-082f050e677e,v:2,xsrf:884b70c6-aaff-4eab-a33d-4f5030675e6a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=EBF3B5DD162D756A48760D8AD5A50F8D9716DC3A0307CCE2531ED99A707B7F828995F1C55ED4CB42DECE9BE466430663201A14F6616DBFD81F24BB427D8CE97955091A4D4A;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=EBF3B5DD162D756A48760D8AD5A50F8D9716DC3A0307CCE2531ED99A707B7F828995F1C55ED4CB42DECE9BE466430663201A14F6616DBFD81F24BB427D8CE97955091A4D4A;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:04:31 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fregent.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;regent.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

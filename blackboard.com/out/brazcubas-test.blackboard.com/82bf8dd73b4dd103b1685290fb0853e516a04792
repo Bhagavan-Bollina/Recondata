@@ -1,0 +1,27 @@
+https://brazcubas-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: brazcubas-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:02:25 GMT
+< Set-Cookie: NSC_521301_wjq_192.230.225.174*443=ffffffff090d1f2e45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:25 GMT
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3300.0.1-rel.37+c07f12a
+< Last-Modified: Fri, 28 Jun 2019 23:22:59 GMT
+< Content-Length: 89
+< X-Blackboard-Appserver: fgtd-521301-sf544579-app001.mhint
+< Etag: W/"89-1561764179000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

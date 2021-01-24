@@ -1,0 +1,27 @@
+https://cfi-formations.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cfi-formations.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:02:33 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Set-Cookie: NSC_522410_wjq_46.183.240.155*443=ffffffff090b1c2f45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< Content-Security-Policy: frame-ancestors self' https://*.blackboard.com https://*.respondus2.com https://*.mediapluspro.com https://www.fun-mooc.fr https://studio.fun-mooc.fr 'dummy.local
+< Content-Length: 89
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Blackboard-Appserver: fgprd-522410-0sf098823-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.7-rel.34+6f3e777
+< Last-Modified: Sun, 08 Sep 2019 22:37:33 GMT
+< Etag: W/"89-1567982253000"
+< Date: Mon, 04 Jan 2021 13:02:33 GMT
+< P3p: CP="CAO PSA OUR"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

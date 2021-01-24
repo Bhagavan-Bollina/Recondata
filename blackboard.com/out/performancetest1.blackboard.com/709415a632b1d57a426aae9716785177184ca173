@@ -1,0 +1,44 @@
+https://performancetest1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: performancetest1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: s_session_id=729F1DB552D1715F9A01483E05B9D86A; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_313871_wjq_69.196.226.28*443=ffffffff090e1cf745525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: fgprd-313871-226477-app002.mhint
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:04:14 GMT
+< Expires: Sat, 04 Jan 2020 13:04:14 GMT
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:04:14 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.3-rel.12+b4d1082
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://performancetest1.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://performancetest1.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

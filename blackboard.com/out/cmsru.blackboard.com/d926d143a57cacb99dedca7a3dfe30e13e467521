@@ -1,0 +1,27 @@
+https://cmsru.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cmsru.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Security-Policy: frame-ancestors self' https://*.blackboard.com https://*.echo360.org 'dummy.com
+< Set-Cookie: session_id=6BD36276907BCF60C1F4E2472568A655; Path=/; HttpOnly
+< Set-Cookie: s_session_id=373DE455BCC642D389534A2450A9D264; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_514358_wjq_69.196.227.169*443=ffffffff090e1c2745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:02:36 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: /webapps/bb-auth-provider-cas-BBLEARN/execute/casLogin?cmd=login&authProviderId=_122_1&redirectUrl=https%3A%2F%2Fcmsru.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:02:36 GMT
+< Date: Mon, 04 Jan 2021 13:02:36 GMT
+< X-Blackboard-Appserver: fgprd-514358-246660-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Length: 0
+

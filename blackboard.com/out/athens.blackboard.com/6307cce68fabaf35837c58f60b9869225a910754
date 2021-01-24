@@ -1,0 +1,47 @@
+https://athens.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: athens.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:02:15 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-146-211-195.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:15 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776135,id:3B3438E65C8F43AB6CB5BD10D732DDEB,signature:c9c3ca6c0a8ed1318ecc7dbee5fefb79f1db72cc950f5bc56acdedee168bdbd6,site:f47dbeec-fa48-4c49-8cc8-605dbb9bb841,v:2,xsrf:e70e0a3c-8838-4147-bd4d-6854862fe0c1; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=CF651F250A0869857ACEE681ECB67F51802D04D36544FD1DEC6B2D5AD9F3350C47E11714024100F2AB25AE0B7CDF8BD2E406907269EB1F5DD0BCE66F3F03A9478302879CCF;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=CF651F250A0869857ACEE681ECB67F51802D04D36544FD1DEC6B2D5AD9F3350C47E11714024100F2AB25AE0B7CDF8BD2E406907269EB1F5DD0BCE66F3F03A9478302879CCF;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:15 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fathens.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;athens.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

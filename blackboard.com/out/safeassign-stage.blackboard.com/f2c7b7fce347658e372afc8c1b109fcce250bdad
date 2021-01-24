@@ -1,0 +1,80 @@
+https://safeassign-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: safeassign-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Blackboard-Product: Blackboard SafeAssign MDB, bamboo 962150db71ff8d091293e85d3fc9381b1b0c5356, git timestamp SAFESVC-BMB-222, timestamp 2020-12-11T12:05:29.657Z
+< Vary: accept-encoding
+< Content-Type: text/html;charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:04:43 GMT
+< Server: Apache-Coyote/1.1
+< Cache-Control: private
+< Last-Modified: Fri, 11 Dec 2020 17:05:38 GMT
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Etag: W/"1817-1607706338000"
+< P3p: CP="CAO PSA OUR"
+< Accept-Ranges: bytes
+
+<?xml version="1.0" encoding="windows-1251"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <title>SafeAssign by BlackBoard</title>
+  <link href="css/base.css" rel="stylesheet" type="text/css" media="screen" />
+  <script type="text/javascript" src="js/popup.js">
+  </script>
+  <style type="text/css">
+    *html #container {
+      height: 100%;
+    }
+
+    #container {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<!--[if lt IE 6]><body class="ie"><![endif]-->
+<body>
+
+<div id="container">
+
+<div id="header">
+
+<div id="logo">
+<img src="img/logo.jpg"
+alt="SafeAssign by Blackboard" width="250" height="79" border="0" /></a></div>
+
+<div id="navcontainer">      <ul id="navlist">      </ul>    </div>  </div>
+
+
+<div id="promo">
+
+<div class="content">
+<p>SafeAssign is a tool used to prevent plagiarism and to create opportunities
+to help students identify how to properly attribute sources rather than
+paraphrase. SafeAssign is effective as both a deterrent and an educational
+tool.</p>
+
+<p>SafeAssign compares submitted assignments against a set of sources to
+identify areas of overlap between the submitted assignment and existing
+works.</p>
+
+<ul>
+  <li>Available for <a href="http://blackboardlearn.com/">Blackboard Learn</a></li>
+  <li><a href="https://help.blackboard.com/SafeAssign">Get help with SafeAssign</a></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

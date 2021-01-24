@@ -1,0 +1,16 @@
+https://bbdemo-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bbdemo-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Length: 58
+< Set-Cookie: NSC_Bobmzujdt.CCEfnp_TTM_wjq1*443=ffffffff09061b7e45525d5f4f58455e445a4a423660;expires=Mon, 04-Jan-2021 16:21:03 GMT;path=/;secure;SameSite=None
+< Content-Type: text/html
+< Server: Microsoft-IIS/8.5
+< Www-Authenticate: Basic realm="bbdemo-analytics.blackboard.com"
+< X-Powered-By: ASP.NET
+< Date: Mon, 04 Jan 2021 13:02:15 GMT
+
+You do not have permission to view this directory or page.

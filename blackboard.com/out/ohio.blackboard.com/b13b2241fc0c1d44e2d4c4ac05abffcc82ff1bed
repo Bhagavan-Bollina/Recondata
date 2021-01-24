@@ -1,0 +1,29 @@
+https://ohio.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ohio.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:04:06 GMT
+< Expires: Sat, 04 Jan 2020 13:04:06 GMT
+< Set-Cookie: BbRouter=expires:1609776246,id:05742CA86705B80E13D27C8089B99EC9,signature:7acde9a1690edf8336ff75616b2bf1a056e1a96c6034bf453b3df9e573ddc688,site:ac7ddd3e-2f94-4673-96c2-655c2a7a1da8,v:2,xsrf:640c7e2c-78a5-4906-8a43-0a585db98307; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=294FED3116BFA95A4541C8CCB5401DA4916E4D83BCA3912E5337B7B2B5D93345C2EB72E50BF8A3DBD18A92746AF4C225FADFA9457D449C893B651E37035301913177BA2C2B;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=294FED3116BFA95A4541C8CCB5401DA4916E4D83BCA3912E5337B7B2B5D93345C2EB72E50BF8A3DBD18A92746AF4C225FADFA9457D449C893B651E37035301913177BA2C2B;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:04:06 GMT
+< Location: /auth-saml/saml/login?apId=_287_1&redirectUrl=https%3A%2F%2Fohio.blackboard.com%2Fultra
+< Content-Length: 0
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-228-43.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+

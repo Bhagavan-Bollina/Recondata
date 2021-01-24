@@ -1,0 +1,48 @@
+https://analyticsdemo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: analyticsdemo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Jan 2021 13:02:10 GMT
+< Content-Type: text/html
+< Accept-Ranges: bytes
+< X-Powered-By: ASP.NET
+< Content-Length: 1493
+< Last-Modified: Thu, 18 Sep 2014 16:30:43 GMT
+< Etag: "ae4b93e45dd3cf1:0"
+< Server: Microsoft-IIS/7.5
+
+<html>
+<head>
+<title>...Blackboard Analytics analyticsdemo.blackboard.com Demo Portal...</title>
+		<link type="text/css" href="css/custom-theme/jquery-ui-1.8.17.custom.css" rel="stylesheet" />	
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+		</head>
+<body>
+
+<style type="text/css">
+a:link{
+	color:#145932 !important;
+}
+</style>
+
+
+<h1><img src="http://analyticsdemo.blackboard.com/Demo/Bb_crop.jpg" alt="Blackboard Analytics Demo Portal" /></h1><br>
+
+<h2>
+<a title="Analytic reports and dashboards" href="http://analyticsdemo.blackboard.com/Pyramid/" target="_blank">PyramidAnalytics</a></br>
+<a title="Operational reports with parameters" href="http://analyticsdemo.blackboard.com/Reports" target="_blank">Parameterized Reports</a></br>
+<a title="Example A4L reports normally accessed from within Learn" href="http://analyticsdemo.blackboard.com/Demo/LearnIntegratedReportsLinks.htm" target="_blank">Analytics for Learn Integrated Reports</a></br>
+</h2>
+
+<b>Support Information</b></br>
+During business hours (9-5 Eastern Time) contact Bb Analytics Demo Support at AnalyticsDemoSupport@blackboard.com</br>
+Outside business hours email MNS Group at emergencyticket@mnsgroup.com or call 888-640-6674 and 
+tell them you are having an "emergency problem with the Blackboard Analytics analyticsdemo.blackboard.com Demo Environment"</br>
+<br>
+
+</body>
+</html>

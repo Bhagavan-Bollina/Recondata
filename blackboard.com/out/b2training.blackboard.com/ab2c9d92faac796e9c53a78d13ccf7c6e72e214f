@@ -1,0 +1,46 @@
+https://b2training.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: b2training.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: session_id=5B2545932EF21088405E9949B3856A2D; Path=/; HttpOnly
+< Set-Cookie: s_session_id=D897285F026E045B27B14119B1C290F3; Path=/; Secure; HttpOnly
+< Set-Cookie: web_client_cache_guid=e0dca035-18df-4636-a513-215582a52845; Path=/; Secure
+< Set-Cookie: NSC_555555_wjq_69.196.224.234*443=ffffffff090e117545525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Vary: Accept-Encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.9-rel.12+78adef1
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-555555-41817-app001.mhint
+< Last-Modified: Thu, 04 Jan 2001 13:02:18 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:02:18 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:18 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://b2training.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://b2training.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

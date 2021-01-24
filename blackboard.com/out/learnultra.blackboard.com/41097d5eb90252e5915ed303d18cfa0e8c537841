@@ -1,0 +1,17 @@
+https://learnultra.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: learnultra.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=3600
+< Location: https://www.blackboard.com/learnultra
+< Cf-Ray: 60c5291b7f433217-BOM
+< Expires: Mon, 04 Jan 2021 14:03:36 GMT
+< Cf-Request-Id: 076f18052b0000321786232000000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Date: Mon, 04 Jan 2021 13:03:36 GMT
+

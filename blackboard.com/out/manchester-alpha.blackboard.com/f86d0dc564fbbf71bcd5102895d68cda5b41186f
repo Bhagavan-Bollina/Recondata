@@ -1,0 +1,59 @@
+https://manchester-alpha.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: manchester-alpha.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Server: openresty/1.9.3.1
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=762A4489DF17E22D81E208374C160700; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776221,id:A6E8D2E891BA69AB2BA656648ABC36CE,signature:e76b3879a6c4133ce5eeed67cf1f9f0a5e693ab63aae1db726efd18b0e174f0c,site:c2943a88-cfac-4ee9-b631-dd232ae05723,v:2,xsrf:22877fcb-f26e-4a66-be1e-0ffedfb42715; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=1371AD911ED93E50F26B93FE8593342166ABFBFCDB7228353E629362B24EB013E9568078F0BA76AFB4626FD4B52FD60C212996BBE9969C205A6391BFF0B5900AA33430EED1;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=1371AD911ED93E50F26B93FE8593342166ABFBFCDB7228353E629362B24EB013E9568078F0BA76AFB4626FD4B52FD60C212996BBE9969C205A6391BFF0B5900AA33430EED1;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Date: Mon, 04 Jan 2021 13:03:41 GMT
+< Expires: Sat, 04 Jan 2020 13:03:41 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:41 GMT
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-148-197-25.eu-central-1.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head>
+<script type="text/javascript">
+// author = Garry Harper
+// contributor = David Cartwright
+
+var server = "https://manchester-alpha.blackboard.com";
+var serverEnc = "https%3A%2F%2Fmanchester-alpha.blackboard.com";
+// Below is found by looking at the edit settings link for your chosen auth provider
+var authProviderID = '_28_1';
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return results[2].replace(/\+/g, " ");
+}
+
+var newLoc = getParameterByName('new_loc');
+
+var shibStub   =  "/auth-saml/saml/login?apId="+authProviderID+"&redirectUrl="
+
+window.location.href = server+shibStub+serverEnc+newLoc;
+ 
+</script>
+</head>
+<body></body>
+</html>

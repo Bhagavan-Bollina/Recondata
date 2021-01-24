@@ -1,0 +1,27 @@
+https://secal.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: secal.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgprd-525626-sf163668-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.0-rel.44+9fb1e0e
+< Pragma: private
+< Last-Modified: Sun, 06 Jan 2019 06:52:15 GMT
+< Etag: W/"89-1546757535000"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:04:48 GMT
+< Set-Cookie: NSC_525626_wjq_192.230.224.245*443=ffffffff090d18b745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Content-Length: 89
+< Expires: Sat, 04 Jan 2020 13:04:48 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

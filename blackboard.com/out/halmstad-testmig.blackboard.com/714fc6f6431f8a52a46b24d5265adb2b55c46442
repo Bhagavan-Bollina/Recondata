@@ -1,0 +1,29 @@
+https://halmstad-testmig.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: halmstad-testmig.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Location: /auth-saml/saml/login?apId=_395_1&redirectUrl=https%3A%2F%2Fhalmstad-testmig.blackboard.com%2Fultra
+< Expires: Sat, 04 Jan 2020 13:03:14 GMT
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:14 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:14 GMT
+< X-Blackboard-Appserver: ip-10-148-209-97.eu-central-1.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776194,id:D85E6A9F0380A51B97024361DDEDC7D4,signature:99eeaee9c872e01ea1f889ae6bae3de7717c34df546c7ff5b0f48bbdbba6b846,site:dfd0a04c-5ae7-4936-8b0f-a930a9e19284,v:2,xsrf:af1237fd-fe32-4b0d-9006-74ba9236f1c7; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=A3C1B54718B008FE14F46DC38271DD1790F81FDBE3BAE0C7E1ABA3AF407C996688F7C482E9A39981CD4C4F9392ACBB19CBC96B8F5FC6C6BD69812212E1C228DF265F69F2DF;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=A3C1B54718B008FE14F46DC38271DD1790F81FDBE3BAE0C7E1ABA3AF407C996688F7C482E9A39981CD4C4F9392ACBB19CBC96B8F5FC6C6BD69812212E1C228DF265F69F2DF;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< P3p: CP="CAO PSA OUR"
+

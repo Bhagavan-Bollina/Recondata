@@ -1,0 +1,31 @@
+https://cadmv.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cadmv.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< X-Blackboard-Appserver: ip-10-146-208-213.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Content-Language: en-US-x-lvariant-pro
+< Content-Type: text/html;charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:02:27 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=57993A893CB8C6CCE42EDC99482CE25D; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776147,id:5D990370FA4E078A28EC0FC50C5E6BB1,signature:29f0b33ae77b279e0d59f68bb0a4b78ee9d9df823d1293d380de90d3976fe75c,site:b7331285-b339-419f-b471-4a915ad66c22,v:2,xsrf:19aa34ae-a7e6-402e-a86a-5890296bfe22; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=C3CD9DFB1A1FB0EDA20609AB3C250A7C88D119B63020322FA1CDE7BDCDE38685E6BBE12C07228581F8EE39B173B2B01B7C156C09F68CF345AF4D8E895B4BF05C895C6A2EF6;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=C3CD9DFB1A1FB0EDA20609AB3C250A7C88D119B63020322FA1CDE7BDCDE38685E6BBE12C07228581F8EE39B173B2B01B7C156C09F68CF345AF4D8E895B4BF05C895C6A2EF6;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:02:27 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:27 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: https://cadmv.geniussis.com/Logout.aspx
+

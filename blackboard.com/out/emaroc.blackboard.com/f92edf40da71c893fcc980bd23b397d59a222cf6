@@ -1,0 +1,27 @@
+https://emaroc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: emaroc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1568276513000"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Pragma: private
+< Content-Length: 89
+< X-Blackboard-Appserver: fgprd-523259-sf164749-app002.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 12 Sep 2019 08:21:53 GMT
+< Expires: Sat, 04 Jan 2020 13:02:57 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NSC_523259_wjq_46.183.241.176*443=ffffffff090b1d3045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:57 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

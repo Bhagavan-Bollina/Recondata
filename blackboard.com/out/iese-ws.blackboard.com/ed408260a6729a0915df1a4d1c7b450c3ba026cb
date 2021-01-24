@@ -1,0 +1,27 @@
+https://iese-ws.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: iese-ws.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:03:20 GMT
+< Set-Cookie: s_session_id=97BA5EF1DD012708CC99D9DF320BD488; Max-Age=473040000; Expires=Tue, 01-Jan-2036 13:03:20 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=76A45F220D1F70214050CA30F184BF39; Path=/; Secure
+< Set-Cookie: NSC_346896_wjq_46.183.240.105*443=ffffffff090b1eb745525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:03:20 GMT
+< X-Blackboard-Appserver: fgprd-346896-226843-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.7-rel.16+bf839b4
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:03:20 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: https://iese-ws.blackboard.com/auth-saml/saml/login?apId=_6540_1
+< Content-Length: 0
+

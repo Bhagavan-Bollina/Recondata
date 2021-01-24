@@ -1,0 +1,12 @@
+https://darwin-pyramid2018-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: darwin-pyramid2018-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Location: http://darwin-pyramid2018-analytics.blackboard.com/login/login.html
+< Date: Mon, 04 Jan 2021 13:02:49 GMT
+< Content-Length: 0
+

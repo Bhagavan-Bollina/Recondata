@@ -1,0 +1,46 @@
+https://saxion.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: saxion.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:04:44 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=16C6F530F89234F4170A19251E666EC5; Path=/; Secure
+< Set-Cookie: session_id=093C8EB84EBD6449EE4B712010477369; Max-Age=473040000; Expires=Tue, 01-Jan-2036 13:04:45 GMT; Path=/; HttpOnly
+< Set-Cookie: s_session_id=36CADD9E64777A002485E94CF18A8378; Max-Age=473040000; Expires=Tue, 01-Jan-2036 13:04:45 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_329908.qspe1_wjq1*443=ffffffff090b1ae845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Last-Modified: Thu, 04 Jan 2001 13:04:45 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.7-rel.21+54e64bd
+< X-Blackboard-Appserver: fgprd-329908-139060-app006.mhint
+< Expires: Sat, 04 Jan 2020 13:04:45 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors self' https: 'dummy.com
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://saxion.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://saxion.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

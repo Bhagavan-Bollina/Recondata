@@ -1,0 +1,50 @@
+https://mobileorderdemo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mobileorderdemo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Thu, 16 Jul 2020 20:02:24 GMT
+< Accept-Ranges: bytes
+< X-Powered-By: ASP.NET
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Mon, 04 Jan 2021 13:03:49 GMT
+< Cache-Control: max-age=86400,max-age=86400
+< Etag: "088925ac5bd61:0"
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/10.0
+< Content-Type: text/html
+< X-Frame-Options: sameorigin
+< X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sandbox</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
+    <link href="assets/css/react-toggle-style.css" rel="stylesheet" type="text/css" >
+    <link href="assets/css/react-select.css" rel="stylesheet" >
+    <link href="assets/css/react-bootstrap-table.min.css" rel="stylesheet" >
+    <link href="assets/css/daterangepicker.css"  rel="stylesheet" />
+    <link href="assets/css/react-drop-n-crop.css"  rel="stylesheet" />
+    <link href="assets/css/sweetalert.css"  rel="stylesheet" />
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/notifications.css" rel="stylesheet" type="text/css" >
+    <link rel="icon"  href="favicon.ico"  />
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+<body>
+    <div id="app" class="hangry-app page-wrap"></div>
+    <footer>
+        <p id="footer">&copy; 2020 Hangry Solutions Inc. All Rights Reserved.</p>
+    </footer>
+    <script src="scripts/lib/jquery/jquery.min.js"></script>
+    <script src="scripts/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="scripts/main1.js"></script>
+
+</body>
+</html>

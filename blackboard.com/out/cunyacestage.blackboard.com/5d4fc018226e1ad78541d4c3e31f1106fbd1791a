@@ -1,0 +1,27 @@
+https://cunyacestage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cunyacestage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Pragma: private
+< Content-Type: text/html
+< Set-Cookie: NSC_100211_wjq_69.196.231.190*443=ffffffff090d15cf45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Etag: W/"89-1567056676000"
+< X-Blackboard-Appserver: fgstg-100211-sf058889-app002.mhint
+< Last-Modified: Thu, 29 Aug 2019 05:31:16 GMT
+< Expires: Sat, 04 Jan 2020 13:02:46 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:46 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

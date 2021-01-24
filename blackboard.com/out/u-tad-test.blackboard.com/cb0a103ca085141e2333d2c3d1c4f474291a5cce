@@ -1,0 +1,38 @@
+https://u-tad-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: u-tad-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: ip-10-148-209-207.eu-central-1.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:09 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:09 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Pragma: private
+< Set-Cookie: JSESSIONID=CD03CE9D60248F9529DDABBE916EF41D; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776309,id:E6B32D34AF07D710D6D2BB476F8FD981,signature:88a3c13f370c8abb9df15b3f36612bd78f795a7854b20cbd8fff97bac4ed528f,site:7c650765-40fc-4312-8dcf-4ceb18a39913,v:2,xsrf:b145c077-e448-4417-9a79-f0c1cb2891e1; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=A569F12EB1FE73A21BE3B52839A7B2AC64F44136C731A2D66E9A225EF536E0FD94F34770DFBA1CC48DC46CE73896A79EA4A53E1AC0443489EDE2FF141156C66B2192C876;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=A569F12EB1FE73A21BE3B52839A7B2AC64F44136C731A2D66E9A225EF536E0FD94F34770DFBA1CC48DC46CE73896A79EA4A53E1AC0443489EDE2FF141156C66B2192C876;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< Date: Mon, 04 Jan 2021 13:05:09 GMT
+< P3p: CP="CAO PSA OUR"
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Learn - Redirect</title>
+<meta http-equiv="REFRESH" content="0;url=https://u-tad-test.blackboard.com/auth-saml/saml/login?apId=_122_1&redirectUrl=https%3A%2F%2Fu-tad-test.blackboard.com%2Fultra"></HEAD>
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; ">
+Redirecting... <a style="color:grey" href="https://u-tad-test.blackboard.com/auth-saml/saml/login?apId=_122_1&redirectUrl=https%3A%2F%2Fu-tad-test.blackboard.com%2Fultra">Go to login page</a> if you are not automatically redirected.
+</BODY>
+</HTML>

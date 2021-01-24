@@ -1,0 +1,27 @@
+https://mmsholdings.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mmsholdings.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgprd-526836-sf216310-app001.mhint
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:03:48 GMT
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Mon, 26 Aug 2019 09:10:43 GMT
+< Set-Cookie: NSC_526836_wjq_192.230.225.158*443=ffffffff090d118745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:03:48 GMT
+< Etag: W/"89-1566810643000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

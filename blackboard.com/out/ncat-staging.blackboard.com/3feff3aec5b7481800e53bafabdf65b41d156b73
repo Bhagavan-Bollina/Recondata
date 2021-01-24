@@ -1,0 +1,47 @@
+https://ncat-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ncat-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Thu, 04 Jan 2001 13:03:53 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776233,id:0076C4677A27DE0510451AEC7CCF3304,signature:1128255acf02a1415aed3d94f633616000f8625af9a841f243a954e45a10964f,site:a75257b2-7c59-4279-b367-722025c74134,v:2,xsrf:c9b8a834-e7d6-4481-bfaa-7c379a62564e; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=FFD949191AFFDA1A6D38CC0447FD4304493F7D5DFC0EF19C595300B22587DF3E515D5EB3A31BBDE53808F644F5355E709B0729AFE666D7831EEFEB9E0CAB0FB2D702BEE397;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=FFD949191AFFDA1A6D38CC0447FD4304493F7D5DFC0EF19C595300B22587DF3E515D5EB3A31BBDE53808F644F5355E709B0729AFE666D7831EEFEB9E0CAB0FB2D702BEE397;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-238-1.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:53 GMT
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:03:53 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fncat\x2Dstaging.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ncat-staging.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

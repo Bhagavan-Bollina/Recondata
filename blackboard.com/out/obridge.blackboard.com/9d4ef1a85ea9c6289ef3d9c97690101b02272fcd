@@ -1,0 +1,28 @@
+https://obridge.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: obridge.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Etag: W/"89-1556363223000"
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Sat, 27 Apr 2019 11:07:03 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:04:05 GMT
+< Set-Cookie: JSESSIONID=33F5628FAC1CEB093C6586A494B441D1; Path=/; Secure
+< Set-Cookie: NSC_448023_wjq_69.196.224.250*443=ffffffff090e162645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.5-rel.48+1fc210f
+< X-Blackboard-Appserver: fgprd-448023-221960-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:04:05 GMT
+< Content-Type: text/html
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

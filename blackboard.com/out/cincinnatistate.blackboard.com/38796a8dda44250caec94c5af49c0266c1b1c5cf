@@ -1,0 +1,47 @@
+https://cincinnatistate.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cincinnatistate.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: ip-10-146-216-144.ec2.internal
+< Server: openresty/1.9.3.1
+< Expires: Sat, 04 Jan 2020 13:02:36 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:36 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776156,id:AC9A047C814120E7F85B9F9EDB595E0F,signature:8026c56186d3e3807b1e36c8f2f026ea625bf8b06cef99349cd014ec1e70adc4,site:5b461399-6862-4c14-a16a-57088fb973c6,v:2,xsrf:0f861200-0575-432f-a19e-5f231ded3d5c; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=511B4F250EE04EBBA4F8475C0D9D09E8BEA95B9E54F3159992A8499B6CD7AA3309820163DC68866B93472DA33E144DDADFC50528ACD5409CF02B5E0D8E7FC5F3B696CB4C87;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=511B4F250EE04EBBA4F8475C0D9D09E8BEA95B9E54F3159992A8499B6CD7AA3309820163DC68866B93472DA33E144DDADFC50528ACD5409CF02B5E0D8E7FC5F3B696CB4C87;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:36 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+< Vary: accept-encoding
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fcincinnatistate.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;cincinnatistate.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

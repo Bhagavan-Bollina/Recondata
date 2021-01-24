@@ -1,0 +1,45 @@
+https://fredericktest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fredericktest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:07 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:03:07 GMT
+< Expires: Sat, 04 Jan 2020 13:03:07 GMT
+< Vary: accept-encoding
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgtd-100136-114939-app001.mhint
+< Set-Cookie: JSESSIONID=DC913A588B645A7394D755B4D041B973; Path=/; Secure
+< Set-Cookie: s_session_id=83B6CB01E3DB05F1BAF0E151CF05ECDD; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_100136_wjq_69.196.224.125*443=ffffffff090e1e2e45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.0.0-rel.42+47a7c9a
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Ffredericktest.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;fredericktest.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

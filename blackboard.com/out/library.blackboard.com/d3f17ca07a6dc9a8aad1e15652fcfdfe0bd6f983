@@ -1,0 +1,24 @@
+https://library.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: library.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Microsoft-IIS/8.5
+< Date: Mon, 04 Jan 2021 13:03:38 GMT
+< Last-Modified: Wed, 10 Jun 2020 14:07:18 GMT
+< Etag: "6e26473303fd61:0"
+< X-Powered-By: ASP.NET
+< Content-Type: text/html
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+
+<html>
+<head>
+	<meta http-equiv="refresh" content="5;url=https://behind.blackboard.com">
+</head>
+<body>
+	This site is not accessed directly. Please go to <a href="https://behind.blackboard.com/">https://behind.blackboard.com/</a> for reference materials. You will be redirected automatically in 5 seconds.
+</body>
+</html>

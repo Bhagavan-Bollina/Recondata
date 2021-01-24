@@ -1,0 +1,15 @@
+https://belmont-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: belmont-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://idp.quicklaunchsso.com/samlsso?tenantDomain=belmont.edu&SAMLRequest=nVNdb9owFP0rkd%2FzOSirRUAMVA2p2yJI%2B9AX5Ng3xapjp75OC%2F9%2BJsCEtLVCkyIlur4%2B59xzbsbTXaOCN7Aojc5JGiUkAM2NkPo5Jw%2FlXfiVTCdjZI1q6axzW72C1w7QBf6eRtof5KSzmhqGEqlmDSB1nK5nP%2B5pFiW0tcYZbhQJZohgnSeaG41dA3YN9k1yeFjd52TrXIs0jitQjdEuZJqpvZMco0ox%2FlIZZkXETRMr8yx1zJlSla%2BTYOHVSM1cP8AZRYo2eu0kf1Gs03yLaPq7B7n%2Be%2BpAM%2B0WpmFS5yfGCERHguUiJ5uMc15no8FA3NyOIElHo7quxWA4gGp4k9XeoyViB0uNzsPkJEuyNEz8MyjTLzTJaDqKbpPhEwmK0%2FDfpD5a%2BplT1bEJ6feyLMLi17okweM5Gt9AzkH07Pb6CNjZeDL5y96wY7hp95Y1UmywHceXFEfCrKU%2FPeZyURgl%2Bf6CN7s%2Be6XM%2B9wCc5ATZzsgwZ2xDXMfA6RR2lekCOu%2BlYLPS82EsIBI4j%2FiTisJol9Qv1wOdu6%2FVM5N0zIr8WA47Bh3J8vpJfJceT9XUF8wXG3%2Fp22c8gO0Lxf%2B9W6sOKwPcD9ZaZnG1lh3zOefeibHs48MmZyjvfyNJ78B&RelayState=%2F
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ARR/3.0
+< X-Powered-By: ASP.NET
+< Date: Mon, 04 Jan 2021 13:02:17 GMT
+< Content-Length: 0
+< Set-Cookie: NSC_JO151c2vcxzagv2djiznaseqrfchtd3=ffffffff09061e5e45525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 16:21:05 GMT;path=/;secure;SameSite=None
+

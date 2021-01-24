@@ -1,0 +1,917 @@
+https://uop-saas.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uop-saas.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Language: en-US
+< Last-Modified: Thu, 04 Jan 2001 13:05:28 GMT
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-148-215-217.eu-central-1.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:05:28 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:05:28 GMT
+< Set-Cookie: JSESSIONID=2613C6B4DC8CD89D7D552E8BB616B755; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776328,id:32EEE8F131DE9895838ADFD82D0A5C35,signature:0c66b724980b9adcf317513fe8f369458f1b0607a61bd9eecdd547680ee48c87,site:31516c69-6807-4c83-af91-6014b2d491b4,v:2,xsrf:eaa7834b-d38f-4889-9b8d-8ac184121a11; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=11EB916F18FFCD55ED14FD63B79C5E8301C741645FB3020149F6EBC6FB87F5669ABF6D154312661E3D7127E58CC0F9CBFA8925295E29169FA9D48E7E80676D75C85EED7C27;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=11EB916F18FFCD55ED14FD63B79C5E8301C741645FB3020149F6EBC6FB87F5669ABF6D154312661E3D7127E58CC0F9CBFA8925295E29169FA9D48E7E80676D75C85EED7C27;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+
+<!-- This login.jsp file is tagged with comments identifying sections for easy editing -->
+
+<!-- This section below calls various servlets from the Learn environment  and other things you don't want to touch. Do not delete anything in this section -->
+
+<!DOCTYPE HTML ><!-- Calls CSS and js files for elements appearing in the page -->
+
+<html  lang="en-US">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"243052658"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon3.ico">
+     <link rel="stylesheet" type="text/css" href="/ui-ultra/css/ultra.css?v=3900.2.0-rel.34+4ad580a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.2.0-rel.34+4ad580a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a" id="css_2">
+          <style type="text/css">
+
+/*------------main quick changes-----------*/
+/*login button*/
+input#entry-login {
+    background-color: #f9a21d;
+}
+/*background image*/
+body#learn-oe-body {
+    background-image: url(https://temas.s3.amazonaws.com/Blackboard/coverBlack.jpg);
+}
+/*background color left block*/
+div#loginblockmain {
+    background-color: white;
+}
+/*Background color right block*/
+div#contentblock {
+    background-color: rgba(71, 118, 189, 0.6);
+}
+
+/*-----------main body blocks-----------*/
+div#mainblocks {
+    max-width: 800px;
+    margin: 15% auto;
+}
+div#mainblocks .row {
+    margin: 0;
+}
+div#loginblockmain, div#contentblock {
+    padding: 2em;
+}
+body#learn-oe-body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*-------------Login block-------------*/
+.bb-login #login-block {
+    margin: 0 auto;
+    min-width: 15rem;
+    max-width: 20rem;
+}
+
+.bb-login .login-form ul input[type='text'], .bb-login .login-form ul input[type='password'] {
+    border: 1px solid black;
+    border-radius: 2em;
+}
+.bb-login .login-form ul input[type='text']:focus, .bb-login .login-form ul input[type='password']:focus {
+    border-bottom-color: black;
+}
+.bb-login .login-form ul label.float-above {
+    margin-top: -6px;
+    color: #272726;
+}
+.bb-login .login-form ul label {
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+input#entry-login {
+  margin-bottom: 2em;
+    border-radius: 2em;
+    margin-top: 1em;
+    width: 100%;
+    max-width: 70%;
+    color: black;
+    border: 0px;
+    box-shadow: 0 0 0 0px #fff inset;
+}
+div#loginblockmain {
+    margin: -20px 0;
+}
+
+.bb-login .login-form ul label {
+    color: black;
+}
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+padding: 1rem;
+}
+.bb-login .login-form ul input[type='text'], .bb-login .login-form ul input[type='password'] {
+    color: black;
+}
+
+/*------------logo-----------------*/
+h1.login-logo.new-logo.customized-logo {
+    margin: 5% 0;
+}
+.bb-login .new-logo.customized-logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    max-width: 70%;
+}
+/*-------------Announcements------------*/
+.bb-login .login-page-announcements {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+.bb-login .login-page-announcements #loginAnnouncements>ul>li {
+    border-radius: 2px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2em;
+    max-width: 350px;
+    padding: 1.5em !important;
+}
+.bb-login .login-page-announcements #loginAnnouncements>ul>li strong {
+    padding: 0;
+}
+div#loginAnnouncements {
+    max-height: 200px;
+    overflow: scroll;
+}
+/*------------Footer-----------*/
+.bb-login #gatewayButtons {
+    margin-bottom: 0;
+}
+div#gatewayButtons ul {
+    margin-bottom: 0;
+}
+div#gatewayButtons ul li a {
+    color: white !important;
+    font-weight: bold;
+}
+.bb-login #copyright {
+    margin-top: 0;
+    color: white;
+}
+#footernew {
+    position: absolute;
+    bottom: 0;
+    width: 85%;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+div#loginOptions, div#copyright {
+    margin: 0 auto;
+}
+
+/*-----------media queries-----------*/
+@media (max-width: 576px){
+  div#loginblockmain {
+    margin: 0;
+}
+}
+</style>
+
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.2.0-rel.34+4ad580a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.2.0-rel.34+4ad580a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Point Values are limited to 5 decimal places: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments but did not select any alignable content to copy.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myschool.edu) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrollment option conflicts with the selection of {instructor} Led enrollment.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Point Values are limited to 5 decimal places.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Check to select all items';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contains';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrollment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrollment option conflicts with the self-enrollment selection.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid percent value between -100 and 100 must be entered.';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Uncheck to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Too many decimal places. Maximum is 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/D90E5B0784E7223D992BDFCF73253B2B.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/ui-ultra/js/hide-focus-outline.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/ui-ultra/js/login-page.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/55FEBF63DFF4A8A4FD0F0F248E6246E1.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/4DEE87E0312E581AD7497F81E6F48956.js?v=3900.2.0-rel.34+4ad580a"></script>
+    </head>
+  <body id="learn-oe-body" class='bb-login hide-focus-outline'>
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+<!-- If you wanted to call your own css file and keep the css outside of the login.jsp file you could call it from here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+<!-- The jsBlock contains the js you would add in an html header. If you wanted to change the fonts on the page or insert js elements such as the countdown time you would insert them here -->
+
+  <!-- INSERT YOUR CUSTOM CSS IN THIS SECTION IF PROVIDING INLINE CSS. The bbng:cssBlock tag does not come in the default template file. You need to add it separately -->
+ <!-- END OF CUSTOM CSS -->
+
+<!-- This is the call for the cookie disclosure statement which appears when you first arrive at the login page. -->
+  <!-- This controls the login lang select button that appears on the top left of the page by default. Don't remove it unless you don't want it to be available. -->
+
+  <div id="loginLang" class="clearfix">
+    
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+    <script>
+  function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+
+	      function displayLanguages() {
+	     	 var $langButton = $('lang-select-button');
+			   var $langMenu = $('lang-list');
+
+		    function showMenu() {
+		        $langMenu.removeClassName('hide');
+		        $langMenu.setAttribute('aria-hidden', 'false');
+		        $langMenu.setAttribute('aria-expanded', 'true');
+		        $langMenu.setAttribute('aria-pressed', 'true');
+		        $langButton.setAttribute('aria-expanded', 'true');
+		        $langButton.addClassName('expanded');
+            $langMenu.firstDescendant().firstDescendant().focus();
+		    }
+
+		    function hideMenu() {
+		        $langMenu.addClassName('hide');
+		        $langMenu.setAttribute('aria-hidden', 'true');
+		        $langMenu.setAttribute('aria-expanded', 'false');
+		        $langMenu.setAttribute('aria-pressed', 'false');
+		        $langButton.setAttribute('aria-expanded', 'false');
+		        $langButton.removeClassName('expanded');
+		    }
+
+		    //toggle logic
+		    if ($langMenu.hasClassName('hide')) {
+		        showMenu();
+		    } else {
+		        hideMenu();
+		    }
+
+		    //Press ESC hides the menu
+		    $(document).on('keydown', function (e) {
+		        if (e.which == 27) {
+		            hideMenu();
+		        }
+		    });
+
+        $(document).on('click', function (e) {
+            hideMenu();
+        });
+	    }
+
+		// reveal available languages on click
+	  $('lang-select-button').on('click', 'button', function (e) {
+        displayLanguages();
+        e.stopPropagation();
+    });
+
+		});
+  </script>
+    
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	
+	<button type="button" class="icon-languages" id="lang-select-button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-list" aria-owns="lang-list" aria-pressed="false" aria-label="Select Language Current Language English (United States&#x202D;)&#x202C;"></button>
+	<ul id="lang-list" class="hide" aria-hidden="true" aria-expanded="false" role="menu">
+              <li aria-label="English (United States&#x202D;)&#x202C;"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+              <li aria-label="Français (France&#x202D;)&#x202C;"><a href="javascript:loadLocale('fr_FR');" title="Français (France&#x202D;)&#x202C;" lang="fr_FR" >Français (France&#x202D;)&#x202C;</a></li>
+          </ul>
+
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+
+<div class="container" id="mainblocks">
+   <div class="row"> 
+  <div class="col-lg-6 col-md-6 col-sm-12" id="loginblockmain">
+  	<div id="login-block" class="loginblocks">
+ 
+    <!-- This is the default Blackboard logo which appears in/above the login block -->
+  		
+<h1 class="login-logo new-logo customized-logo" >
+    <span>Blackboard Learn &#8482;</span>
+    <img src="/branding/_1_1/loginLogo/CustomLoginLogo.jpg?m=kin7k85a" alt="" />
+</h1>
+<!-- the "login-form" contains the username and password fields in the login block -->
+  		<div id="login-form" class="login-form">
+  			
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Please enable JavaScript in your browser for the Blackboard application to function.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/turn-plgnhndl-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/evk-EvalKIT-EUIBB-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/oslt-auth-provider-autosignon-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/hsks-GoalExporter-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gu-certofcomp-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dtii-AppID-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-MarksAndFeedback-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb32-Blackboard-TurningPoint-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/pso-lti-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/oslt-jshack-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/qut-tweakbb-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/UWE-GroupsViewer2-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/uofs-addteststudent-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wa-webassign-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-bb-extended-monitoring-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-qa-fit-fixtures-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mindlinks-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/usf-impersonate-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-WileyPLUS-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-bb_learn_analytics-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ispr-unique87234-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dur-browserCheck-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/york-dsk-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BB5bfc08ba3f1dc", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Username</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Password</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Sign In" name="login" class="button expand inverse outline"/>
+        </li>
+  </ul>
+
+	<div class="login-form-footer row collapse">
+		<div class="stay-signed-in small-6 columns text-left">
+    		</div>
+			</div>
+	  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='5774db68-8510-46ea-bccf-b36e7088e905'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Sign in with third-party account</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/webapps/oslt-auth-provider-autosignon-BB5bfc08ba3f1dc/service/login/_8886_1" ><div class="defaultProviderIcon"></div>UP Portal Single Sign-on</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+</div>
+    </div>
+  </div>
+
+  <div class="col-lg-6 col-md-6 col-sm-12" id="contentblock">
+     <!-- login-page-announcements contains system announcements displayed on the login page. This appears below the "login-block" by default. -->
+    <div class="login-page-announcements">
+      
+<div id="loginAnnouncements">
+  <h3>System Announcements</h3>
+  <ul>
+          <li>
+        <strong>clickUP Ultra Navigation</strong> 
+                  <em class="announcementDate">
+            (Sunday, December 13, 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p>Welcome to the new look for clickUP for 2021.</p>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+</div>
+
+    
+    
+    <!-- this class contains the course catalog styling if course catalog is enabled. --> 
+   <div class="container" id="footernew">
+      <div class="row align-items-end">
+        <!-- this calls the copyright notice -->
+        <div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. All Rights Reserved.
+  	</div>
+  	  </div>
+
+  </div><div id="loginOptions">
+          
+</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</div>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+      function loadLoginPage() {
+        if(document.forms.login.user_id != undefined)
+        {
+          verify_username_password(document.forms.login);
+        }
+        setTimeout("triggerScreenreaderAlert()", 500);
+      }
+
+      function triggerScreenreaderAlert() {
+        if (document.getElementById('loginErrorMessage')) {
+          $('loginErrorMessage').update($('loginErrorMessage').innerHTML);
+        }
+      }
+    </script>
+  
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       <!-- Global site tag (gtag.js) - Google Analytics --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52477571-1"></script> 
+<script> 
+window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date()); 
+
+gtag('config', 'UA-52477571-1'); 
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":17,"applicationID":"243052658","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script>
+</body>
+</html>

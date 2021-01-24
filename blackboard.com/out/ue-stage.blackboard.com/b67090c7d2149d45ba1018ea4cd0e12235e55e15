@@ -1,0 +1,27 @@
+https://ue-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ue-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:05:17 GMT
+< Set-Cookie: s_session_id=79AC5B21E88568578799DCF5647A9D4F; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=5953D2ABE26831DEDC307C9D974C7F09; Path=/; Secure
+< Set-Cookie: NSC_450025_wjq_192.230.224.232*443=ffffffff090d1f2a45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:16 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.3-rel.12+b4d1082
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: fgstg-450025-sf577283-app001.mhint
+< Location: https://uestaging.geniussis.com/Login2.aspx
+< Last-Modified: Thu, 04 Jan 2001 13:05:17 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 0
+

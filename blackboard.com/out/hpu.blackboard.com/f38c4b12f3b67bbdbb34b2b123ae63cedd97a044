@@ -1,0 +1,29 @@
+https://hpu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hpu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Appserver: ip-10-146-218-179.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776199,id:4FA5D9EF9DCEA387685D80754CE1D781,signature:322ddfd8086e28962ce0e4e1f8fb34477b729f5e17c4d528b9c195e834aab0cd,site:5881c7a2-0425-48ed-912f-8e58aba31f73,v:2,xsrf:92346a2d-41e2-4588-99a7-05abffaab10b; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=5707C3870C0227C09A2A7CF67AF8A6F7912FA8923E63E93972006BE57DA07E1550B2DBA20FF6D788817CDADA42E05183F98FBFFF7EB6E05A2A76FCE23C45E306B3A943DA5F;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=5707C3870C0227C09A2A7CF67AF8A6F7912FA8923E63E93972006BE57DA07E1550B2DBA20FF6D788817CDADA42E05183F98FBFFF7EB6E05A2A76FCE23C45E306B3A943DA5F;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+< Date: Mon, 04 Jan 2021 13:03:19 GMT
+< Location: /auth-saml/saml/login?apId=_359_1&redirectUrl=https%3A%2F%2Fhpu.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+

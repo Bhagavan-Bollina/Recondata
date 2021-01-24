@@ -1,0 +1,27 @@
+https://leidenarchief.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: leidenarchief.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgarch-100084-sf740976-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1564224507000"
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Content-Length: 89
+< Set-Cookie: NSC_100084_wjq_46.183.240.44*443=ffffffff090b1f9245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.2-rel.36+fbf2221
+< Last-Modified: Sat, 27 Jul 2019 10:48:27 GMT
+< Expires: Sat, 04 Jan 2020 13:03:37 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:03:37 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

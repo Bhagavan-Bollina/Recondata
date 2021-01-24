@@ -1,0 +1,47 @@
+https://ncjtc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ncjtc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:03:53 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-145-20-141.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:03:53 GMT
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:53 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776233,id:983FA22400953AB8A8A9808A1673E630,signature:73044dade3d461d11d32afb76fc381602c48fbb7ccb4fed0d8424815e9336959,site:9c554ff5-ea77-43ed-b93e-b928f732adc4,v:2,xsrf:ba7d2e85-4489-4df3-92c7-016560b8fea5; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=9D9927C4136703016B6177DDC196AD07C7C7EDB44C42EC762130D874036F017850DB4D3869DBFB4B153EFAD54CC0E28FF3281D3FD47A8866A48041BBBC2CCB194F9B04E1;PATH=/
+< Set-Cookie: AWSELBCORS=9D9927C4136703016B6177DDC196AD07C7C7EDB44C42EC762130D874036F017850DB4D3869DBFB4B153EFAD54CC0E28FF3281D3FD47A8866A48041BBBC2CCB194F9B04E1;PATH=/;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fncjtc.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ncjtc.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,28 @@
+https://excelsior-api.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: excelsior-api.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Powered-By: Express
+< Access-Control-Allow-Origin: *
+< Access-Control-Allow-Credentials: true
+< Content-Security-Policy: default-src 'none'
+< X-Content-Type-Options: nosniff
+< Server: nginx/1.10.3 (Ubuntu)
+< Date: Mon, 04 Jan 2021 13:03:01 GMT
+< Content-Type: text/html; charset=utf-8
+< Access-Control-Allow-Methods: GET, POST, OPTIONS, PUT, PATCH, DELETE
+< Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, X-Access-Token, token
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot GET /</pre>
+</body>
+</html>

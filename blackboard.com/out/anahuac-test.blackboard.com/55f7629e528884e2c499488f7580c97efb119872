@@ -1,0 +1,27 @@
+https://anahuac-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: anahuac-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.4-rel.19+9180e36
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Etag: W/"89-1552034984000"
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_301966_wjq_69.196.228.225*443=ffffffff090d183745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-301966-sf229235-app001.mhint
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:10 GMT
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Fri, 08 Mar 2019 08:49:44 GMT
+< Expires: Sat, 04 Jan 2020 13:02:10 GMT
+< Content-Type: text/html
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

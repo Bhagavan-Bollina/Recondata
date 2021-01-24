@@ -1,0 +1,1389 @@
+https://hom-senacpr.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hom-senacpr.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.7-rel.16+bf839b4
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 12:03:18 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: pt-BR-x-lvariant-2
+< Date: Mon, 04 Jan 2021 13:03:18 GMT
+< Expires: Sat, 04 Jan 2020 13:03:18 GMT
+< Content-Type: text/html;charset=UTF-8
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Set-Cookie: s_session_id=E662340A4A70610EE3D2FD694BDD2D19; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=EE0F245DF84B98F2A6127376AF7BCEBF; Path=/; Secure
+< Set-Cookie: NSC_515118_wjq_69.196.231.99*443=ffffffff090d182b45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgstg-515118-sf030756-app001.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: Accept-Encoding
+
+<!DOCTYPE HTML >
+<html  lang="pt-BR-2">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Todos os direitos reservados. Patente dos EUA Nº 7.493.396 e 7.558.853. Patentes adicionais pendentes.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3800.0.7-rel.16+bf839b4" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/SENAC_2020/theme.css?v=3800.0.7-rel.16+bf839b4" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/branding/colorpalettes/SENAC_SP8/generated/colorpalette.generated.modern.css?v=3800.0.7-rel.16+bf839b4" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3800.0.7-rel.16+bf839b4_3800.0.7-rel.16+bf839b4" id="css_3">
+          <style type="text/css">
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700|Sanchez');
+
+    *, :after, :before {
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box; }
+  
+    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+      background: transparent;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      font-size: 100%;
+      vertical-align: center; }
+    
+    html {
+      height: 100%;
+      -ms-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent; }
+  
+    body {
+      background: #f4f4f4;
+      background-size: cover;
+      color: #333;
+      height: 100%;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      margin: 0;
+      min-height: inherit !important;
+      min-width: inherit !important;
+      position: inherit !important; }
+  
+    img { border: 0; }
+  
+    blockquote, q { quotes: none; }
+    blockquote:before, blockquote:after, q:before, q:after {
+      content: '';
+      content: none; }
+    /* remember to define focus styles! */
+    :focus { outline: 0; }
+    /* remember to highlight inserts somehow! */
+    ins { text-decoration: none; }
+    del { text-decoration: line-through; }
+    /* tables still need 'cellspacing="0"' in the markup */
+    table {
+      border-collapse: collapse;
+      border-spacing: 0; }
+  
+    /*====================================*/
+  
+    .fundoescuro {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #7D818A;
+      left: 0;
+      top: 0;
+      opacity: 0.8;
+      filter: alpha(opacity=80); }
+    div.content { padding: 0; }
+    div.popup {
+      background: rgb(228,228,228);
+      border: solid 10px #BBB;
+      width: 90%;
+      max-width: 800px;
+      height: 520px;
+      display: none;
+      z-index: 101; }
+    #box_tabela {
+      background-color: #FFF;
+      padding: 5px 20px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      height: 500px; }
+    .overlay {
+      background: #010101;
+      border: none;
+      display: none; /* initially overlay is hidden */
+      opacity: 0.5;
+      padding: inherit;
+      position: fixed;
+      text-align: inherit;
+      width: auto;
+      z-index: 100;
+
+      top: 0px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+
+      -webkit-border-radius: 0;
+         -moz-border-radius: 0;
+              border-radius: 0; }
+    
+    /* default close button positioned on upper right corner */
+    div.close {
+      background-image: url(/bbcswebdav/institution/login/image/botaoFechar.png);
+      _background-image: none;
+      _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/bbcswebdav/institution/login/images/botaoFechar.png", sizingMethod="scale");
+      position: absolute;
+      right: -25px;
+      top: -25px;
+      cursor: pointer;
+      height: 35px;
+      width: 35px; }
+  
+    /*====================================*/
+  
+    .table_border { border: 1px solid #999999; }
+    .td_header {
+      text-align: center;
+      background: #CCCCCC;
+      border: 1px solid #999999;
+      padding: 3px; }
+    .td_cell {
+      text-align: center;
+      background: #ffffff;
+      border: 1px solid #999999;
+      padding: 3px; }
+      
+    h3 { font-size: 18px; margin: 15px 0 10px; }
+    .table_verify .td_header { width: 25%; }	
+    .table_verify .td_cell { padding: 10px 15px; text-align: left; clear: both; }
+    .check { margin-right: 5px; float: left; }
+    .labelBB { float: left; line-height: 25px; }
+    
+    #box_tabela p { margin-bottom: 10px; }
+    #box_tabela ul { list-style-type: disc; padding-left: 40px; margin-bottom: 10px; }
+    #box_tabela li { margin-bottom: 5px; }
+    
+    footer { margin-top: 40px; }
+    .pFooter { margin-bottom: 0 !important; text-align: center; }
+    #labelOS, #labelIdioma { margin-left: 30px; }
+    
+    /* ================================== */
+  
+    #errorLoginMessageDisplay {
+      color: #f00 !important;
+      margin-bottom: 25px;
+      font-family: 'OpenSansBold', sans-serif;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    /* ================================== */
+    /* CONTENT */
+    .content-tabela { 
+      display: table; 
+      height: 100%;
+      width: 100%; }
+    
+    .content-central {
+      display: table-cell;
+      vertical-align: middle;
+        width: 100%; }
+    
+    .content-login {
+        background: #FFFFFF;
+        margin: 2% auto 0;
+        padding: 30px 0 20px;
+        max-width: 640px;
+        width: auto; }
+    .content-header { margin: 0 auto; }
+    
+    .content-header img {
+        display: block;
+        margin: 15px auto; }
+    .content-header h1 {
+        color: #3852a0;
+        font-family: 'Sanchez', sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 150%;
+        padding-bottom: 10px;
+        position: relative;
+        text-align: center;
+    }
+    .content-header h1:before {
+        background-color: #e09431;
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        left: 13%;
+        height: 4px;
+        width: 74%;
+    }
+    .content-header h1:after {
+        background-color: #f1f1f2;
+        content: ' ';
+        position: absolute;
+        bottom: -6px;
+        left: 13%;
+        height: 6px;
+        width: 74%;
+    }    
+    .content-logout {
+      display: block;
+      margin: 30px auto;
+      width: 75%; }
+    .content-logout h2 {
+      color: #6d6e70;
+      font-family: 'Roboto', Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 150%;
+      margin-bottom: 30px;
+      text-align: center;
+      text-transform: uppercase; }
+    
+    #linkRetorno { 
+      background-color: #3852a0;
+        border: 0;
+        border-radius: 0;
+        color: #fff;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+      height: 40px;
+        width: 60%;
+        
+      -webkit-transition:all ease-out 0.3s;
+        -moz-transition:all ease-out 0.3s;
+        -o-transition:all ease-out 0.3s;
+          transition:all ease-out 0.3s; }
+    #linkRetorno:hover { 
+      background-color: #e09431;
+      cursor: pointer; }
+      
+    #linkRetorno a {
+      color: #FFF;
+      line-height: 40px;
+      text-decoration: none; }
+    #linkRetorno a:hover {
+      color: #FFF;
+      line-height: 40px;
+      text-decoration: none; }
+    
+    .content-form {
+        display: block;
+        margin: 30px auto 40px;
+        width: 75%; }
+    .content-input {
+        display: block;
+        margin: 0 auto 15px;
+        position: relative;
+        max-width: 75%; }
+    .content-input label { display: none; }
+    
+    .content-form p {
+        color: #6d6e70;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 300;
+        margin: 20px 0;
+        text-align: center;
+    }
+    
+    /* CAIXA DE TEXTO */
+    .content-input .input-text {
+      background-color: #f1f1f2;
+        border: 0;
+        border-left: 10px solid #3852a0; 
+        border-radius: 0;
+        float: left;
+      font-family: 'Roboto', Arial, sans-serif;
+        font-size: 15px !important;
+        height: 38px;
+        width: 100%;
+        padding: 0 0 0 15px; }
+    .content-input .input-text.temp {
+      position: absolute;
+      left: 0;
+      z-index: 9;
+      
+      -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+                box-shadow: none; }
+    
+    .content-input .input-text:focus { outline: none; }
+    
+    .content-input .input-text::-webkit-input-placeholder { /* Chrome/Opera/Safari */ color: #d0d1d3; }
+    .content-input .input-text::-moz-placeholder { /* Firefox 19+ */ color: #d0d1d3; }
+    .content-input .input-text:-ms-input-placeholder { /* IE 10+ */ color: #d0d1d3; }
+    .content-input .input-text:-moz-placeholder { /* Firefox 18- */ color: #d0d1d3; }
+    
+    /* BOTÃO DE SUBMIT */
+    .form-submit {
+      background-image: none !important;
+        background-color: #3852a0;
+        border: 0;
+        border-radius: 0;
+        color: #fff;
+        display: block;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0 auto;
+        height: 40px;
+        max-width: 120px;
+        width: 100%;
+        
+      -webkit-transition:all ease-out 0.3s;
+        -moz-transition:all ease-out 0.3s;
+        -o-transition:all ease-out 0.3s;
+          transition:all ease-out 0.3s; }
+    
+    .form-submit:hover { 
+      background-color: #e09431;
+      cursor: pointer; }
+      
+    /* LINKS */
+    .content-links { 
+        margin: 15px auto 25px;
+        max-width: 75%;
+    }
+    .content-links .forgot a { border: 0; }
+    hr { margin: 15px 0; border: 0; border-top: solid 1px #808080; }
+    .form-link {
+        color: #3852a0;
+      display: inline-block;
+        font-family: 'Roboto', Arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+      text-decoration: none; }
+    .form-link:hover, .form-link:focus { color: #e09431; text-decoration: underline; }
+    
+    .form-link:first-child { margin-right: 20px;}
+    
+    .clearfix { clear: both; }
+    .clearfix:after, .clearfix:before, .content-input:after, .content-input:before {
+        clear: both;
+        display: table;
+        content: " ";
+        box-sizing: border-box; }
+    
+    .placeholder { color: #d0d1d3; line-height: 38px; }
+    
+    @media screen and (max-width: 767px) {
+      body { background-size: auto; background-position: center center; }
+      div.popup { width: 90%; height: 80%; }
+      #box_tabela { height: auto; position: absolute; top: 0; left: 0; right: 0; bottom: 0; }
+    
+      .content-login { width: 460px; }
+        .content-header h1 { font-size: 19px; }
+        
+        .content-form p { font-size: 14px; }
+      
+      /* LOGOUT */
+      .content-logout { width: 60%; }
+      .content-logout h2 { font-size: 16px; }	
+      #linkRetorno { font-size: 16px; }
+    
+      /* CAIXA DE TEXTO */
+      .input-text { font-size: 16px; }
+      /* BOTÃO DE SUBMIT */
+      .form-submit { font-size: 16px; border: 0; border-radius: 3px; background-color: #004bb5; }
+      /* LINKS */
+      .form-link { font-size: 14px; margin-bottom: 10px; text-align: center; display: block; }
+      .form-link:first-child { margin: 0 0 10px; font-size: 100%; }
+        
+      #box_tabela { overflow-x: auto; }
+    }
+    
+    @media screen and (max-width:479px) {
+      .content-login { width: 96%; padding: 20px 0; margin: 0 auto; }
+      .content-header { width: 80%; }
+      .content-header img { margin: 0 auto 20px; }
+      .content-header h1 { font-size: 17px; }
+      .content-header h1:before { left: 0; width: 100%; }
+      .content-header h1:after { left: 0; width: 100%; }
+        
+      .content-form p { font-size: 13px; }
+      
+      /* LOGOUT */
+      .content-logout { width: 80%; }
+      .content-logout h2 { font-size: 17px; }	
+      #linkRetorno { font-size: 17px; }
+    
+      .content-form { width: 90%; margin: 20px auto 10px; }
+      .content-input { margin: 0 auto 15px; max-width: 85%; }
+      /* CAIXA DE TEXTO */
+      .input-text { font-size: 17px; }
+      /* BOTÃO DE SUBMIT */
+      .form-submit { font-size: 17px; }
+      /* LINKS */
+      .form-link { font-size: 15px; }
+    }
+  </style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3800.0.7-rel.16+bf839b4">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3800.0.7-rel.16+bf839b4"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Um endereço de e-mail totalmente qualificado (por exemplo, info@blackboard.com) deve ser inserido.';
+    JS_RESOURCES['validation.radio.required'] = 'Selecione para continuar.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'As perguntas a seguir podem estar incompletas:\n {0}\nClique em cancelar para retornar à pesquisa. Clique em OK para salvar a resposta incompleta.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Termos da pesquisa';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Os valores de pontos são limitados a 5 casas decimais: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = '{0} não pode conter mais de {1} caracteres.\nReduza o tamanho da entrada em {2} caracteres.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'As perguntas a seguir podem estar incompletas:\n {0}\nClique em cancelar para retornar ao teste. Clique em OK para salvar a resposta incompleta.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'A caixa de multi-seleção deve conter no mínimo {0} número de itens.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Deve-se informar um valor para {0}\nquando o campo {1} não estiver vazio';
+    JS_RESOURCES['warning.email'] = 'É obrigatório o fornecimento de um E-mail. Não será possível aos usuários utilizar parte do sistema se não fornecerem um E-mail.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Não deve conter mais que {0} caracteres.\nReduza o tamanho da entrada em 1 caractere.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'A caixa de multi-seleção não deve conter mais de {0} número de itens.';
+    JS_RESOURCES['validation.number'] = 'Deve-se informar um valor numérico válido para {0}.';
+    JS_RESOURCES['validation.date.required'] = 'Um valor de data completo deve ser fornecido: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Excluir: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Mostrar texto de ajuda';
+    JS_RESOURCES['validation.password'] = 'A senha não pode estar em branco nem conter apenas espaços.';
+    JS_RESOURCES['validation.percent'] = 'Deve-se informar um valor de percentagem válido entre 0 e 100.';
+    JS_RESOURCES['validation.mismatch'] = 'Os valores informados para {0} não correspondem.\nConfirme {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Não deve conter mais que {0} caracteres.\nReduza o tamanho da entrada em {1} caracteres.';
+    JS_RESOURCES['validation.invalid_value'] = 'Valor numérico inválido fornecido: {0}.';
+    JS_RESOURCES['field_name.substitute'] = 'campo de introdução {0}';
+    JS_RESOURCES['validation.required'] = 'Deve-se informar um valor para {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Especificar um valor no campo de texto da pesquisa';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Você selecionou alinhamentos, mas não selecionou qualquer conteúdo alinhável para copiar.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" não é permitido no início de um código de função.';
+    JS_RESOURCES['validation.date_past'] = 'A data de término não pode ser anterior a data de início.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contém caracteres ilegais: {0}.\nExcluir estes caracteres: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Este item {0} será excluído. Continuar?';
+    JS_RESOURCES['hide.helptext'] = 'Ocultar Texto de Ajuda';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Menos de {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'A hora está no passado.\nManter esta hora?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Inserir um nome do usuário e senha.';
+    JS_RESOURCES['validation.negative'] = 'Um valor válido não negativo deve ser informado: {0}.';
+    JS_RESOURCES['validation.url'] = 'Um URL válido (por exemplo, http://www.myschool.edu) deve ser inserido.';
+    JS_RESOURCES['validate.range.overlap'] = 'critérios ({0}) sobrepõem-se aos critérios ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Entre {0} e {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Excluir: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'As informações de itens associados poderiam ter sido atualizadas.\nClique em "OK" para atualizar a lista ou clique em "Cancelar" para manter a página atual.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'A opção do Código do acesso da inscrição está em conflito com a seleção da inscrição liderada por {instructor}.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Os valores de pontos são limitados a 5 casas decimais.';
+    JS_RESOURCES['validation.option.required'] = 'Pelo menos uma opção da lista deve ser selecionada.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Marcar para selecionar todos os itens';
+    JS_RESOURCES['active.filter.changed.alert'] = 'os critérios agora contêm';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Especifique um nome para Salvar como objeto reutilizável.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Insira um número válido em vez de {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Código do Curso contém caracteres inválidos ou caracteres de vários bytes.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'As perguntas a seguir podem estar incompletas:\n {0}\nClique em cancelar para retornar ao teste. Clique em OK para enviar a avaliação.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Aviso: Escolha a opção Liderada por {instructor} ou a  Auto-inscrição.';
+    JS_RESOURCES['validation.date_equal'] = 'A data de início não pode ser igual a data de término.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = '{0} não pode ser utilizado sem um valor {1} correspondente.';
+    JS_RESOURCES['validation.time.required'] = 'Um valor de data completo deve ser fornecido: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'É necessário inserir um valor numérico inteiro: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Não deve conter mais de 255 caracteres';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'A opção de inscrição por e-mail selecionada está em conflito com a seleção da auto-inscrição.';
+    JS_RESOURCES['invalid_char.space'] = 'espaço';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Mais de {0}';
+    JS_RESOURCES['notification.submit'] = 'Esta ação já foi enviada.\nAguarde até a ação estar concluída.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Para mostrar equações corretamente neste documento, tem de selecionar o formato Texto Inteligente ou HTML .\nClique em OK para salvar no formato Texto Simples selecionado ou clique em Cancelar para selecionar um novo formato.';
+    JS_RESOURCES['invalid_char.comma'] = 'vírgula';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Deve ser inserido um valor percentual válido entre - 100 e 100.';
+    JS_RESOURCES['confirm.remove_item'] = 'Essa ação é final e não pode ser desfeita. Continuar?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Desmarcar para remover a seleção de todos os itens';
+    JS_RESOURCES['validation.maximum_length.singular'] = '{0} não pode conter mais de {1} caracteres.\nRetire um carácter ao tamanho da entrada.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Excesso de casas decimais. O máximo é 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'Deve-se informar um mínimo de {0} caracteres para {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Especificar um local para o Objeto reutilizável.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'As perguntas a seguir podem estar incompletas:\n {0}\nClique em cancelar para retornar à pesquisa. Clique em OK para enviar a avaliação.';
+    JS_RESOURCES['validation.image_type'] = '{0} não é um tipo de imagem conhecida e pode não aparecer corretamente.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Espaço';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'DOM SEG TER QUA QUI SEX SÁB';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bem-vindo, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Fev Mar Abr Maio Jun Jul Ago Set Out Nov Dez';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, dd/MM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'DOM SEG TER QUA QUI SEX SÁB';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Domingo Segunda-feira Terça-feira Quarta-feira Quinta-feira Sexta-feira Sábado';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, dd/MM';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'DOM SEG TER QUA QUI SEX SÁB';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Janeiro Fevereiro Março Abril Maio Junho Julho Agosto Setembro Outubro Novembro Dezembro';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bem-vindo, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Fev Mar Abr Maio Jun Jul Ago Set Out Nov Dez';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, dd/MM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'DOM SEG TER QUA QUI SEX SÁB';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Domingo Segunda-feira Terça-feira Quarta-feira Quinta-feira Sexta-feira Sábado';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, dd/MM';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/javascript/prototype.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery.min.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery-noconflict.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/fastinit.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/ngui/page.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/validateForm.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/numberLocalizer.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/popup.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/cookie.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/lz-string.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/client_cache.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/ngui/globalNavigation.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/esapi-compressed.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/i18n/ESAPI_Standard_en_US.properties.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/Base.esapi.properties.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/effects.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/ngui/lightbox.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3800.0.7-rel.16+bf839b4_3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/validate_login.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/browserSpecificBehavior.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/webapps/videointegration/js/video-integration.js?v=3800.0.7-rel.16+bf839b4_3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/builder.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/dragdrop.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/controls.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/slider.js?v=3800.0.7-rel.16+bf839b4"></script>
+    <script type="text/javascript" src="/javascript/quick_links.js?v=3800.0.7-rel.16+bf839b4"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <div class="content-tabela">
+  <div class="content-central">
+    <div id="login" class="content-login">
+        <div class="content-header">
+            <img src="/bbcswebdav/institution/login/images/logoSenac.png" alt="Logotipo do SENAC" width="auto" height="auto" />
+            <h1>Bem-vindo ao Ambiente Virtual do Senac</h1>
+        </div>
+        
+        <div class="content-form">
+            <p>Insira USUÁRIO e SENHA e clique no botão ENTRAR.</p>
+            
+            <div>
+              
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Ative o JavaScript no seu navegador para que o aplicativo Blackboard funcione.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/axis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/soap", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/xythosremoteadmin", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/visualization", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloud-profiles", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-transition-planning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ME-modulo_centro_notas_senac-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ga-lista-cursos-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ga-lista-comunidades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/snc-icf-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/tae-sql_display-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/tae-bv-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/social-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/tae-ssobv-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ME-acesso_alunos-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ME-modulo_relatorio_senac-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ME-notas_sei-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/snc-tae-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/tae-galeria-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/me-batch-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ga-licenseReportController_GA-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ME-modulo_gerencia_simulado-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-BbStats-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BBLEARN", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Possui uma conta?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Insira suas credenciais e clique no botão <b>Logon</b> abaixo.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Nome de usuário</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Senha</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Logon" name="login" class="button expand"/>
+        </li>
+    <li class="clearfix">
+  	  <span class="forgot"><a href="/webapps/blackboard/password" onclick="login_openForgotPassword('/webapps/blackboard/password');return false;" >Esqueceu sua senha?</a>
+	  	    <span class="hideoff">(nova janela)</span>
+	  	  </span>
+      </li>
+  </ul>
+
+  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='cc226350-8653-4326-b2c9-b4d5e87e7489'>
+</form>
+</div>
+        </div>
+    </div>
+
+    <div id="logoff" class="content-login">
+        <div class="content-header">
+            <img src="/bbcswebdav/institution/login/images/logoSenac.png" alt="Logotipo do SENAC" width="auto" height="auto" />
+        </div>
+        <div class="content-logout">
+            <h2>A sessão do Ambiente Virtual de Aprendizagem (AVA) foi finalizada ou expirou.</h2>
+            
+            <h2>Retorne para o Portal para acessar novamente o AVA.</h2>
+        </div>
+    </div>
+  </div>
+  
+  
+</div>
+
+<div class="overlay" id="overlay_pop"></div>
+<div class="popup" id="popup">
+    <div class="close" rel="1"></div>
+    <div class="content">
+        <div id="box_tabela" class="fontFamily ftNormal_11">
+            <div>
+              <div id="bb_checker">
+                    <h3>Verificação da Compatibilidade do Browser:</h3>
+                    <p>Verifica se o Blackboard suporta o seu browser e sistema operacional.<br/> Seu navegador e sistema operacional é: <span id="labelBB"></span></p>
+                    <table width="100%" cellspacing="0" class="table_border table_verify">
+                        <tr>
+                            <td class="td_header"><strong>OS</strong></td>
+                            <td class="td_cell"><div id="labelOS"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>Idioma</strong></td>
+                            <td class="td_cell"><div id="labelIdioma"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>Browser</strong></td>
+                            <td class="td_cell"><div id="labelBrowser"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>Cookies</strong></td>
+                            <td class="td_cell"><div id="labelCookies"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>JAVA</strong></td>
+                            <td class="td_cell"><div id="labelJava"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>JRE</strong></td>
+                            <td class="td_cell"><div id="labelJRE"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>Popup</strong></td>
+                            <td class="td_cell"><div id="labelPopup"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>Flash</strong></td>
+                            <td class="td_cell"><div id="labelFlash"></div></td>
+                        </tr>
+                        <tr>
+                            <td class="td_header"><strong>PDF</strong></td>
+                            <td class="td_cell"><div id="labelPDF"></div></td>
+                        </tr>
+                    </table>
+                </div>
+                
+                <h3>Sistemas e navegadores compatíveis:</h3>
+                <table width="100%" cellspacing="0" class="table_border">
+                    <tr>
+                        <td width="14%" class="td_header">&nbsp;</td>
+                        <td width="17%" class="td_header"><strong>Internet Explorer 10</strong></td>
+                        <td width="17%" class="td_header"><strong>Internet Explorer 9</strong></td>
+                        <td width="17%" class="td_header"><strong>Internet Explorer 8</strong></td>
+                        <td width="17%" class="td_header"><strong>Firefox <br />(Final Release Channel)<sup>1</sup></strong></td>
+                        <td width="17%" class="td_header"><strong>Google Chrome<br />(Stable Channel)<sup>2</sup></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows XP <br/>(32-bit)</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell"  style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell">Compatível</td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows Vista <br/>(32-bit)</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell">Compatível</td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows Vista <br/>(64-bit)</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell">Compatível</td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows 7 <br/>(32-bit)</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows 7 <br/>(64-bit)</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows 8<br/>(32-bit)</strong></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Windows 8<br/>(64-bit)</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Microsoft</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                </table>
+                
+                <br />
+                
+                <table width="100%" cellspacing="0" class="table_border">
+                    <tr>
+                        <td width="14%" class="td_header">&nbsp;</td>
+                        <td width="14%" class="td_header"><strong>Safari 6.0.1</strong></td>
+                        <td width="14%" class="td_header"><strong>Safari 5.1</strong></td>
+                        <td width="14%" class="td_header"><strong>Safari 5.0</strong></td>
+                        <td width="14%" class="td_header"><strong>Safari 4.0</strong></td>
+                        <td width="16%" class="td_header"><strong>Firefox<br/>(Final  Release Channel)<sup>1</sup></strong></td>
+                        <td width="14%" class="td_header"><strong>Google Chrome<br/>(Stable Channel)<sup>2</sup></strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Mac OSX <br />10.6</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Apple</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell">Compatível</td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Mac OSX <br />10.7</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado<br />(10.7.5)</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Apple</del></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Apple</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                    <tr>
+                        <td class="td_header"><strong>Mac OSX <br />10.8</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado<br />(10.8.2)</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Apple</del></td>
+                        <td class="td_cell" style="color:#F00"><del>Não Suportado pela Apple</del></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                        <td class="td_cell" style="color:#060"><strong>Certificado</strong></td>
+                    </tr>
+                </table>
+                
+                <br/>
+                
+                <p><span style="color:#F00; font-weight:normal"><del>Não Suportado</del></span> - Não possui compatibilidade.</p>
+                <p><span style="font-weight:normal">Compatível</span> - Possui compatibilidade parcial, podendo haver alguns erros de funcionamento.</p>
+                <p><span style="font-weight:bold; color:#060">Certificado</span> - Compatível com  o sistema e o navegador.</p>
+                <p><sup>1</sup>O Firefox Release Channel é a versão integralmente testada pelo Mozilla e que visa ser a mais estável. Esse canal é 
+                atualizado a cada 6 semanas, aproximadamente.</p>
+                <p><sup>2</sup>O Chrome Stable Channel é a versão integralmente testada pela Google e visa ser a mais estável. Esse canal é atualizado a cada 2 ou 3 semanas, aproximadamente, para lançamentos menores, e a cada 6 semanas para
+                lançamentos maiores.</p>
+                
+                <br/>
+                
+                <h3>Softwares:</h3>
+                <ul type="disc">
+                    <li>Não ter softwares com função de bloquear de pop-ups.</li>
+                    <li>Para ver animações e conteúdo do curso:<br/>
+                        <strong>Flash Player</strong> (<a href="http://get.adobe.com/br/flashplayer/?promoid=BUIGP" target="blank">clique aqui para baixar</a>)</li>
+                    <li>Para leitura de arquivos em formato &ldquo;.pdf&rdquo;:<br/>
+                        <strong>Acrobat Reader</strong> (<a href="http://get.adobe.com/br/reader/?promoid=BUIGO" target="blank">clique aqui para baixar</a>)</li>
+                    <li>Para armazenar informações do aluno:<br />
+                        Java Runtime Environment - A tecnologia Java permite trabalhar  e jogar em um ambiente de computação seguro.<strong><br />
+                        Java</strong> (<a href="http://www.java.com/pt_BR/" target="blank">clique  aqui para baixar</a>)</li>
+                </ul>
+                
+                <h3>Hardware:</h3>
+              <p><strong>Windows</strong></p>
+                <ul type="disc">
+                    <li>Processadores de arquitetura x86 (ou compatível) de 2.33GHz ou superior, ou Intel® Atom™ de 1.6GHz ou superior para netbooks;</li>
+                    <li>1GB de RAM;</li>
+                    <li>Adaptador de vídeo e monitor super VGA (1024 x 768) ou superior;</li>
+                    <li>Teclado e Mouse ou dispositivo apontador compatível;</li>
+                    <li>Placa de som com alto-falantes ou fones de ouvido. (não é pré-requisito para todas as modalidades)</li>
+                </ul>
+                
+                <p><strong>Mac OS</strong></p>
+                <ul type="disc">
+                    <li>Intel Core Duo 1.33GHz ou superior;</li>
+                    <li>1GB de RAM;</li>
+                    <li>Adaptador de vídeo e monitor super VGA (1024 x 768) ou superior;</li>
+                    <li>Teclado e Mouse ou dispositivo apontador compatível;</li>
+                    <li>Placa de som com alto-falantes ou fones de ouvido. (não é pré-requisito para todas as modalidades)</li>
+                </ul>
+                
+                <p><strong>Linux</strong></p>
+                <ul type="disc">
+                    <li>Processadores de arquitetura x86 (ou compatível) de 2.33GHz ou superior, ou Intel® Atom™ de 1.6GHz ou superior para netbooks;</li>
+                    <li>1GB de RAM;</li>
+                    <li>Adaptador de vídeo e monitor super VGA (1024 x 768) ou superior;</li>
+                    <li>Teclado e Mouse ou dispositivo apontador compatível;</li>
+                    <li>Placa de som com alto-falantes ou fones de ouvido. (não é pré-requisito para todas as modalidades)</li>
+                </ul>
+                
+                <p><strong>Conexão de internet</strong></p>
+                <ul type="disc">
+                    <li>128kbs (recomendado 512kbs para vídeos).</li>
+                </ul>
+            </div>
+            
+            <footer><p align="center"><strong>Senac - Copyright © 2007-2019. - Todos os direitos reservados.</strong></p></footer>
+        </div>
+    </div>
+</div>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Fechar');page.bundle.addKey('inlineconfirmation.refresh','Atualizar');page.bundle.addKey('hidden.link.close.menu','Fim do menu. Clique para retornar ao item associado.');page.bundle.addKey('hidden.link.close.form','Fim do formulário. Clique para retornar ao item associado.');page.bundle.addKey('lightbox.loading','Carregando...');page.bundle.addKey('yt.stopped','Interrompido:');page.bundle.addKey('yt.playing','Reproduzindo:');page.bundle.addKey('yt.cued','Marcado:');page.bundle.addKey('yt.buffering','Armazenar em buffer:');page.bundle.addKey('yt.paused','Pausado:');page.bundle.addKey('yt.ended','Finalizado:');page.bundle.addKey('yt.play','Reproduzir');page.bundle.addKey('yt.pause','Pausa');page.bundle.addKey('yt.mute','Mudo');page.bundle.addKey('yt.unmute','Cancelar mudo');page.bundle.addKey('lightbox.overlay','{0} foi aberto como uma página atual de sobreposição de lightbox.');page.bundle.addKey('display.playerControls','Controles do reprodutor');page.bundle.addKey('display.videoPlayerControls','Controles do reprodutor de vídeo');page.bundle.addKey('display.play','Reproduzir');page.bundle.addKey('display.stop','Parar');page.bundle.addKey('display.volumeUp','Aumentar volume');page.bundle.addKey('display.volumeDown','Diminuir volume');page.bundle.addKey('display.mute','Mudo');page.bundle.addKey('display.videoStatus','Status de vídeo');page.bundle.addKey('display.closePlayerControls','Fechar controles do reprodutor');page.bundle.addKey('display.embeddedVideoPlayer','Reprodutor de vídeo incorporado');page.bundle.addKey('display.of','de');page.bundle.addKey('display.view.on.flickr','Exibir foto no Flickr');page.bundle.addKey('mashups.content.data.msg','Não foi possível exibir o conteúdo de Mashup. Isso acontece se o sistema detectar um URL inválido. Remova o item de Mashup e tente novamente para resolver este problema.');page.bundle.addKey('contextmenu.frame.title','Quadro do menu');page.bundle.addKey('frameset.contentframe.title','Conteúdo');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script src="/bbcswebdav/institution/login/scripts/jquery.min.js"></script>
+    <script src="/bbcswebdav/institution/login/scripts/jquery.placeholder.js"></script>
+    <script type="text/javascript">
+      document.title = 'Ambiente Virtual do Senac';
+      var isTouchDevice = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry|Windows Phone)/);
+
+      var sURL = window.location.origin; 
+      var arrayURL = sURL.split("//");
+      var urlFrom = arrayURL[1].split(".");
+      namePage = urlFrom[0];
+
+      var url = new URL(window.location); 
+      var nonce = url.searchParams.get("nonce"); 
+
+      if(nonce === '0') {
+        nonce = document.getElementsByName('blackboard.platform.security.NonceUtil.nonce')[0].value;
+        document.location.replace('https://www.sp.senac.br/login-unico/LoginMobileBlackBoard?frames=mobile&nonce='+nonce);
+      }
+
+      $(document).ready(function(e) {
+        setTimeout(function() {
+            $('#user_id').addClass('input-text').attr('placeholder','Usuário').parent().addClass('content-input');
+
+            var prefixo = 'BRA';
+            
+            //ALTERADO TESTE window.location.hostname
+            var host = window.location.hostname;
+            
+            if (host.indexOf('senac.blackboard.com') !== -1 || host.indexOf('tec') !== -1) {
+              $clone = $('#user_id').clone();
+              $clone.attr('id', 'user_tmp').attr('name', 'user_tmp').addClass('temp');
+              $clone.prependTo($('.content-input').first());
+              $clone.bind('focusout', function(){ $('#user_id').val(prefixo + $(this).val()); });
+              
+              $('#user_id').attr('tabindex','999').on('focus', function(){ $clone.focus(); });
+            }
+            
+            $('#password').addClass('input-text').attr('placeholder','Senha').parent().addClass('content-input').attr('tabindex','2');
+            $('#entry-login').removeAttr('class').val('Entrar').addClass('form-submit');
+            $('input').placeholder();
+            
+            $("#loginFormList").find('li').last().addClass('content-links');
+
+            $totalLi = $("#loginFormList").find('li').length - 1;
+            $("#loginFormList").find('li').eq($totalLi).after($("#loginFormList").find('li').eq($totalLi-1));
+
+            $('.content-links').append('<a class="form-link chamaPopup" href="javascript:void(0)" rel="1">Pré-requisitos técnicos </a>');
+            $('.content-links').find('.forgot').children('a').addClass('form-link');
+
+            /* VERIFICA SE A PLATAFORMA É MOBILE */
+            if (isTouchDevice == null) {
+            // LOAD FILES
+            function loadjscssfile(filename, filetype){
+              if (filetype=="js"){ //if filename is a external JavaScript file
+                var fileref=document.createElement('script')
+                fileref.setAttribute("type","text/javascript")
+                fileref.setAttribute("src", filename)
+              }
+              else if (filetype=="css"){ //if filename is an external CSS file
+                var fileref=document.createElement("link")
+                fileref.setAttribute("rel", "stylesheet")
+                fileref.setAttribute("type", "text/css")
+                fileref.setAttribute("href", filename)
+              }
+              if (typeof fileref!="undefined")
+                document.getElementsByTagName("head")[0].appendChild(fileref)
+            }
+          } else {
+            $('#bb_checker').css('display', 'none'); }
+          
+            /* POPUP COM REQUISITOS */
+            var altura;
+            var largura;
+            var popup_visivel = false;
+            var addFile = false;
+
+            /* REDIMENSIONA A TELA */
+            function redimensiona() {
+              largura =  ($(window).width() - $('#popup').width()) / 2;
+              altura = ($(window).height() - $('#popup').height())  / 2;
+            }
+            
+            /* ABRE POPUP */
+            $(".chamaPopup").click(function(){
+              if (isTouchDevice == null) {
+                if (!addFile) {
+                  addFile = true;
+                loadjscssfile("https://www.java.com/js/deployJava.js", "js");
+                loadjscssfile("/bbcswebdav/institution/login/scripts/bb.browserChecker.js", "js"); }}
+                
+              popup_visivel = true;
+              redimensiona();
+              $('#overlay_pop').css('filter', 'alpha(opacity=50)');
+              $('#overlay_pop').fadeIn('fast',function(){
+                $('#popup').css({ display:'block', position: 'absolute', left: largura });
+                $('#popup').animate({'top': altura+'px'},500);
+              });
+            });
+            /* FECHA POPUP */
+            $('.close').click(function(){	
+                popup_visivel = false;	
+                var popCenter =  $('#popup').height();
+                $('#popup').animate({'top': '-' + popCenter + 'px'},500,function(){
+                $('#popup').css({display:'none'});
+                $('#overlay_pop').fadeOut('fast');
+              });
+            });
+            $('#overlay_pop').click(function() { $('.close').trigger('click'); });
+
+            /* FECHA POPUP COM TECLADO */
+            $(document).keyup(function(event){
+                if (event.keyCode == 27) {
+                  popup_visivel = false;  
+                  var popCenter =  $('#popup').height();
+                  $('#popup').animate({'top': '-' + popCenter + 'px'},500,function(){
+                    $('#popup').css({display:'none'});
+                    $('#overlay_pop').fadeOut('fast');
+                  });
+                }
+            });
+        
+            /* QUANDO REDIMENSIONAR A TELA, AJUSTA O POPUP */		
+            $(window).resize(function() {
+              if(popup_visivel == true) {
+                redimensiona();
+                $('#popup').css({'left': largura+'px'});
+                $('#popup').css({'top': altura+'px'});
+              }
+            });
+
+            // ALTERADO TESTE
+            var str = window.location.hostname;
+            if (str.indexOf('corp') !== -1 || str.indexOf('senac.blackboard.com') !== -1 || str.indexOf('tec') !== -1 ) {
+              $('#logoff').hide();
+            } else { 
+              $('#login').hide();
+              $('#logoff').show();
+            }
+        }, 100);
+      });
+
+      function loadLoginPage()
+      {
+    	  if ( top != self )
+    	  {
+    		  top.location.replace( self.location.href );
+    		}
+    	  if(document.forms.login.user_id != undefined)
+    		{
+    		  document.forms.login.user_id.focus();
+    		}
+    	  setTimeout("triggerScreenreaderAlert()", 500);
+      }
+      
+      function triggerScreenreaderAlert()
+      {
+    	if ( document.getElementById( 'loginErrorMessage' ) )
+  	    {
+    	  $( 'loginErrorMessage' ).update( $('loginErrorMessage').innerHTML );
+  	    }
+      }
+    </script>
+  
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-131913137-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+https://hvcc-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hvcc-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:03:19 GMT
+< Location: https://hvcc-test.blackboard.com/webapps/bb-auth-provider-cas-BB570d481b60ba7/execute/casLogin?cmd=login&authProviderId=_142_1&redirectUrl=https%3A%2F%2Fhvcc-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Set-Cookie: JSESSIONID=3F3ED3798FAFB37DAB3EC3FEDD5CBAF7; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776199,id:CC09BF84EC0B516689FBD1675AAF7494,signature:6579a237b04b492e878b252635369753518b44c4ebbe483376939174df87ec24,site:c9e45ef9-16ae-4717-8288-55cbd8487355,v:2,xsrf:49e2fc46-c84d-40c7-b157-de17805de193; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=BB710F3B12F69A2B4AACC9C6FFDC12FC0A418FD820A8BA1F191BE1EB6CF59CD32ED50C3A3E802F45D4022B7F069B6584BA45777730D9B859DD73868BBB581D44D921076AA7;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=BB710F3B12F69A2B4AACC9C6FFDC12FC0A418FD820A8BA1F191BE1EB6CF59CD32ED50C3A3E802F45D4022B7F069B6584BA45777730D9B859DD73868BBB581D44D921076AA7;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-224-44.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+

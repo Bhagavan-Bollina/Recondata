@@ -1,0 +1,27 @@
+https://edudevel-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: edudevel-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.3-rel.33+7014650
+< Expires: Sat, 04 Jan 2020 13:02:56 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< X-Blackboard-Appserver: fgtd-527550-sf670537-app001.mhint
+< Etag: W/"89-1538043241000"
+< Set-Cookie: NSC_527550_wjq_46.183.240.182*443=ffffffff090b1fa345525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:56 GMT
+< Last-Modified: Thu, 27 Sep 2018 10:14:01 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,30 @@
+https://rcgc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: rcgc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Last-Modified: Thu, 04 Jan 2001 13:04:30 GMT
+< Location: https://mycourses.rcgc.edu/webapps/bb-auth-provider-cas-BB5cd4476807909/execute/casLogin?cmd=login&authProviderId=_12_1&redirectUrl=https%3A%2F%2Fmycourses.rcgc.edu%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:04:30 GMT
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:04:30 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: JSESSIONID=373D0F60566933F581C06C46EB01E7B4; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776270,id:384FA7D7FE524FDEA04AABB96BD2EE58,signature:d0312d5f8229f0e677bf208ac407dc39e33e500ed826bcce54b8e4e84b62927a,site:8aa32652-6ec8-403b-afac-243ed12f7597,v:2,xsrf:b89eae6d-0746-4147-97ed-0ea5521f546f; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=65B3136F028B34CDCDF7849EB8D16B4A562E0D0BBFB408D6056B4F26BB06355A9B012450DA795086817C75A003E4854A6EE496B1D5C1315839873BCC3559B12129A408C3A1;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=65B3136F028B34CDCDF7849EB8D16B4A562E0D0BBFB408D6056B4F26BB06355A9B012450DA795086817C75A003E4854A6EE496B1D5C1315839873BCC3559B12129A408C3A1;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-210-161.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Content-Type: text/html;charset=ISO-8859-1
+

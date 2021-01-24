@@ -1,0 +1,19 @@
+https://sgc.signin.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sgc.signin.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform
+< Strict-Transport-Security: max-age=31536000
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 52
+< X-Auth0-Requestid: 8e2e4b85c6177df90cc4
+< Location: https://signin.blackboard.com/
+< X-Robots-Tag: noindex, nofollow, nosnippet, noarchive
+< Server: nginx
+< Date: Mon, 04 Jan 2021 13:04:49 GMT
+< Vary: Accept
+
+Found. Redirecting to https://signin.blackboard.com/

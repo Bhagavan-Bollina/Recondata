@@ -1,0 +1,47 @@
+https://jcpsonline-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jcpsonline-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.0.0-rel.42+47a7c9a
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Connection: keep-alive
+< Last-Modified: Thu, 04 Jan 2001 13:03:27 GMT
+< Expires: Sat, 04 Jan 2020 13:03:27 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: JSESSIONID=000F51C5D677511D543540FA7872ECB9; Path=/; Secure
+< Set-Cookie: s_session_id=A9A7F1EFF3935DE0D5698E50E0DD9C9D; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_304815_wjq_192.230.226.28*443=ffffffff090e157645525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Keep-Alive: timeout=20
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgtd-304815-sf048652-app001.mhint
+< Date: Mon, 04 Jan 2021 13:03:27 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fjcpsonline\x2Dtest.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;jcpsonline-test.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

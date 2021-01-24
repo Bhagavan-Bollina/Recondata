@@ -1,0 +1,29 @@
+https://catawba.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: catawba.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< Expires: Sat, 04 Jan 2020 13:02:29 GMT
+< X-Blackboard-Appserver: ip-10-146-233-116.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:02:29 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:02:29 GMT
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776149,id:DDE454DE2CDBCF7FC3210D98C8133E3B,signature:84c5da5e333290ce07ad488431cea578805bebede3cb19e1c9f5b4bc73484edc,site:8edc9fa5-04be-4cd3-80ef-3f6b8294f440,v:2,xsrf:f111ba95-2108-450e-9d1c-5a859f547239; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=1127A35706E14A2B96A48979B2A660DB1007A83C902FA3226F9334E20468ADE80AB7F14E4D83E54A52F95C211E0506A4D21FEC50AE4A8C18F7F9152025899B05ABB4748A54;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=1127A35706E14A2B96A48979B2A660DB1007A83C902FA3226F9334E20468ADE80AB7F14E4D83E54A52F95C211E0506A4D21FEC50AE4A8C18F7F9152025899B05ABB4748A54;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Location: /webapps/bb-auth-provider-cas-BB5eb9a42386be7/execute/casLogin?cmd=login&authProviderId=_168_1&redirectUrl=https%3A%2F%2Fcatawba.blackboard.com%2Fultra
+

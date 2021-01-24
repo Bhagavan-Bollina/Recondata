@@ -1,0 +1,231 @@
+https://san-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: san-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:04:41 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=CAABD68870BF5E0011C195B634EBC1A7; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776281,id:D9F925C6AC1BF8A2E4BA7C376EDE22D9,signature:71cbabdd89b97eae84b3da59be1e1d75aa4749e820b35b63c898b19babde11c8,site:a5b8638e-33f2-47d4-9745-53e1b18ce26a,v:2,xsrf:a90ae65b-b6d2-4367-ab65-a143ea6f9832; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=91233FC5081C5549651B12DB81BF72FFB04091A3B2D0FE61E1A08BC7A211273F3060B4D5247E82ADF63745232EB013C4821B371423AE9E2FDB35AF06D8083D1002729EA4F4;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=91233FC5081C5549651B12DB81BF72FFB04091A3B2D0FE61E1A08BC7A211273F3060B4D5247E82ADF63745232EB013C4821B371423AE9E2FDB35AF06D8083D1002729EA4F4;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:41 GMT
+< Expires: Sat, 04 Jan 2020 13:04:41 GMT
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Content-Type: text/html;charset=ISO-8859-1
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-148-201-16.eu-central-1.compute.internal
+< X-Frame-Options: SAMEORIGIN
+
+<bbNG:jsFile href="/javascript/scriptaculous/effects.js" />
+<bbNG:jsFile href="/javascript/ngui/lightbox.js" />
+<bbNG:jsFile href="/javascript/cookie.js" />
+<bbNG:jsFile href="/webapps/privacy-disclosure/js/cookieConsent.js" />
+
+<bbNG:jsBlock>
+  <c:if test="true">
+    <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  </c:if>
+
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+</bbNG:jsBlock>
+<!DOCTYPE HTML>
+<html lang=PL">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Platforma Blackboard Learn TEST - Polska Akademia Otwarta - Spo&#322;eczna Akademia Nauk</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">	
+<style type="text/css">
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	background-image: url(https://pao.pl/wgrane-pliki/bg-01.jpg); 
+	background-position:top center; 
+	background-repeat:no-repeat; 
+	background-attachment:fixed; 
+	background-size:cover; 
+	background-color:078dde;
+	color: #ffffff;
+	font-family:'Lato', sans-serif;
+}
+
+a:link, a:visited {
+	background-color:red; 
+	color:white; 
+	padding:14px 25px; 
+	text-align:center; 
+	text-decoration:none; 
+	font-weight:900; 
+	font-size:120%;
+}
+
+a:hover, a:active {
+	background-color: #e2001a;
+}
+
+h1, h2, h3 {
+	margin:0;
+	padding:0;
+}
+
+article {
+	width:100%; 
+	margin:auto;    
+}
+
+section {
+	width:90%;
+	text-align:center;
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+
+section h1 {
+	font-size: 600%;
+	font-weight: 900;
+	line-height: 88%;
+	margin-top: 12%;
+}
+
+section h2 {
+	font-size: 200%;
+	font-weight: 700;
+	line-height: 121%;
+	margin-top: 5%;
+}
+
+section h3 {
+	font-size: 150%;
+	font-weight: 500;
+	line-height: 144%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+
+section p {
+	margin-top:3%;		
+}
+
+@media only screen and (orientation:portrait) {
+	
+article {
+	width:100%; 
+	margin:auto;
+}
+	
+section {
+	width:90%;
+	margin-left:2%;
+}
+
+section h1 {
+	line-height:150%;	
+	font-weight:900;
+	font-size:200%;
+	margin-top:12%;
+}
+
+section h2 {
+	line-height:150%;	
+	font-weight:700;
+	font-size:120%;
+	margin-top:5%;
+}
+
+section h3 {
+	line-height:150%;	
+	font-weight:400;
+	font-size:100%;
+	margin-top:5%;
+	margin-bottom:8%;		
+}
+
+section p {
+	margin-top:5%;		
+}
+
+a:link, a:visited {
+	background-color:red; 
+	color:white; 
+	padding:14px 25px; 
+	text-align:center; 
+	text-decoration:none; 
+	font-weight:700;
+	font-size:120%;
+}
+		
+a:hover, a:active {
+	background-color:#e2001a;
+}	
+
+</style>
+	
+</head>
+
+<body>
+	<article>
+		<section>
+			<h1>Blackboard Learn TEST</h1>
+			<h2>Testowa Platforma e-learningowa Polskiej Akademii Otwartej</h2>
+			<h3>Zaloguj si&#281; u&#380;ywaj&#261;c <b>identyfikatora SANet</b> (jak do Office 365 i Teams)</h3>
+			<a title="Zaloguj si&#281; u&#380;ywaj&#261;c identyfikatora SANet" href="https://online-test.san.edu.pl/auth-saml/saml/login?apId=_20_1&redirectUrl=https://online-test.san.edu.pl/ultra/" target="_self">ZALOGUJ SI&#280;</a> <p><img onmouseover='style="cursor: pointer;", big(this)' onclick="location.href='https://adfs.san.edu.pl/adfs/ls/idpinitiatedsignon.aspx';" onmouseout="normal(this)" alt="B&#322;&#261;d logowania? Wyloguj si&#281; z Sesji pojedynczego logowania SANet" title="B&#322;&#261;d logowania? Wyloguj si&#281; z Sesji pojedynczego logowania SANet" src="https://pao.pl/wgrane-pliki/blackboard_session.jpg" /></p>
+			<script>
+			function big(x) {
+			  x.style.height = "57px";
+			  x.style.width = "173px";
+			}
+			function normal(x) {
+			  x.style.height = "57px";
+			  x.style.width = "171px";
+			}
+			</script>
+		</section>
+	</article>
+</body>
+</html>

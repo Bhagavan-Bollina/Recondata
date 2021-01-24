@@ -1,0 +1,15 @@
+https://preview.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: preview.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html; charset=UTF-8
+< Location: https://coursesites.com
+< Server: Microsoft-IIS/10.0
+< Date: Mon, 04 Jan 2021 13:04:27 GMT
+< Content-Length: 146
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://coursesites.com">here</a></body>

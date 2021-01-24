@@ -1,0 +1,47 @@
+https://tgelearning.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: tgelearning.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776304,id:9A553A34F27A1B6F2365849A9BBF0451,signature:22558d2143840dbebca840b2fcc99a112b84a4fbbae54ce472ead3aa7eeaf10b,site:59d98c4e-3cc2-4922-b556-8a0badc62d78,v:2,xsrf:ae9f5673-9422-4ce2-8275-d7fbda28c58d; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=1DDD9393103D63854B2889524B95A80550F3227B18ADD7942CE7E3386CB32A795195DAF3E942D965FA326057527890BCE93659979A54C2F1E3BEF7A223A67586483621FDFB;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=1DDD9393103D63854B2889524B95A80550F3227B18ADD7942CE7E3386CB32A795195DAF3E942D965FA326057527890BCE93659979A54C2F1E3BEF7A223A67586483621FDFB;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-144-230-113.ap-southeast-1.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:05:04 GMT
+< Expires: Sat, 04 Jan 2020 13:05:04 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:04 GMT
+< Pragma: private
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Ftgelearning.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;tgelearning.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,44 @@
+https://bristol-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bristol-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:02:24 GMT
+< Vary: Accept-Encoding
+< Set-Cookie: s_session_id=A1EEB84AE27BF57F6936397A264519E8; Max-Age=473040000; Expires=Tue, 01-Jan-2036 13:02:24 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_113292_wjq_46.183.241.46*443=ffffffff090b1b7945525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.4-rel.9+8bf5305
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:02:24 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:24 GMT
+< X-Blackboard-Appserver: fgstg-113292-sf542977-app001.mhint
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://bristol-staging.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://bristol-staging.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

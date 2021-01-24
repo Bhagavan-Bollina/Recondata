@@ -1,0 +1,48 @@
+https://morgan.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: morgan.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:03:50 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=E73157B937DCE203555957153029AAA4; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776230,id:F5332C37BDD364C5853A0C7AA5D6E6F8,signature:e648a41bbda1878e08f2a9a37edec65a0960e1494a513856c55e23fc34bb0da3,site:d5bddc75-d584-4774-846c-f6dabca84230,v:2,xsrf:aaca2674-f83c-41f7-9d19-3bd7ce985d6a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=DDFF853312101066CA859DDBC988D186F86095DCF28256968604B1851E58268C9B121746BF8D99C2AE9B47A2220C1381B4ADDF27F769C11DD2307139DF84BAB2C94EDD4C25;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=DDFF853312101066CA859DDBC988D186F86095DCF28256968604B1851E58268C9B121746BF8D99C2AE9B47A2220C1381B4ADDF27F769C11DD2307139DF84BAB2C94EDD4C25;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Expires: Sat, 04 Jan 2020 13:03:50 GMT
+< X-Blackboard-Appserver: ip-10-146-235-186.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:50 GMT
+< Pragma: private
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fmorgan.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;morgan.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

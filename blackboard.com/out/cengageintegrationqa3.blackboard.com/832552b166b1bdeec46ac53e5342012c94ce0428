@@ -1,0 +1,27 @@
+https://cengageintegrationqa3.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cengageintegrationqa3.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Length: 89
+< Last-Modified: Tue, 15 May 2018 11:52:46 GMT
+< Expires: Sat, 04 Jan 2020 13:02:32 GMT
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1526385166000"
+< Date: Mon, 04 Jan 2021 13:02:32 GMT
+< Set-Cookie: NSC_313871_wjq_69.196.228.46*443=ffffffff090d1f5645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-313871-203473-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.1-rel.56+af64d14
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

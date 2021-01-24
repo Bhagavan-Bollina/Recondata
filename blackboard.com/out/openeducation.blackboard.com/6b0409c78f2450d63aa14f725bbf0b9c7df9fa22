@@ -1,0 +1,47 @@
+https://openeducation.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: openeducation.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Set-Cookie: BbRouter=expires:1609776253,id:806ED9E35CC88DCB2BCA95B5AAA0CCB2,signature:63aace109e905236fab7965d5a9a7abf4eee65cd72ba542d23c81556fd089d41,site:5e6b470b-55b8-4da9-96e1-c630beeb8723,v:2,xsrf:ff9476d4-38b9-495b-9886-261f236178ee; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=1FE5E33D1EA7ABF57E991B5D56B68B5BDA06C9AA1FA5803478A656C633DC9B8F248141D54DF3EF3EAA7A1B12C6C9DDE78A57434B20DA494F55058B6B39D37163D1B8549719;PATH=/
+< Set-Cookie: AWSELBCORS=1FE5E33D1EA7ABF57E991B5D56B68B5BDA06C9AA1FA5803478A656C633DC9B8F248141D54DF3EF3EAA7A1B12C6C9DDE78A57434B20DA494F55058B6B39D37163D1B8549719;PATH=/;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:04:13 GMT
+< Expires: Sat, 04 Jan 2020 13:04:13 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:13 GMT
+< X-Blackboard-Appserver: ip-10-145-17-36.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fopeneducation.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;openeducation.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

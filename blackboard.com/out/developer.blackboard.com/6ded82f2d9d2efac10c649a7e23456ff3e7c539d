@@ -1,0 +1,279 @@
+https://developer.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: developer.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Jan 2021 13:02:50 GMT
+< Server: nginx/1.17.7
+< Set-Cookie: PLAY_SESSION=1f73225538bb4d5e2d86d3686dda8ad7cdb5c767-csrfToken=526522694ce94f4467ab22b74a3f26a844295bfc-1609765370975-9c77b16458a6c40c5894a1a0; Path=/; Secure; HTTPOnly; SameSite=None
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=utf-8
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en-US" class="no-js">
+  <head>
+    <title>Blackboard API Services</title>
+
+    
+
+    <meta charset='utf-8'/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900&subset=latin,latin-ext'
+    rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic'
+    rel='stylesheet' type='text/css'/>
+
+    <link href="/assets/portal/menu-styles.css" rel='stylesheet' type='text/css' />
+    <link href="/assets/portal/main-styles.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/portal/styles_ultra.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/lib/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/lib/jquery-ui/jquery-ui.structure.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/lib/jquery-ui/jquery-ui.theme.min.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/lib/select2/dist/css/select2.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/portal/dev-portal.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="/assets/lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/lib/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/assets/lib/jquery_jeditable/jquery.jeditable.js"></script>
+    <script type="text/javascript" src="/assets/javascript/hamburger-menu.js"></script>
+    <script type="text/javascript" src="/assets/lib/select2/dist/js/select2.js"></script>
+
+    <script type="text/javascript">
+
+            "use strict";
+
+            var appManagementUrl = "/portal/applications";
+            var orgManagementUrl = "/portal/organizations";
+
+            var siteRegManagementUrl = "/portal/siteRegistrations";
+
+            var loginMarkupUrl = "/portal/login";
+            var loginAjaxUrl = "/portal/login";
+            var loginForwardUrl = appManagementUrl;
+
+            var resetPasswordMarkupUrl = "/portal/resetPassword";
+            var resetPasswordAjaxUrl = "/portal/resetPassword";
+            var resetPasswordForwardUrl = appManagementUrl;
+
+            var passwordResetInitiatedMarkupUrl = "/portal/passwordResetInitiated";
+
+            var changePasswordMarkupUrl = "/portal/developers/changePassword";
+            var changePasswordAjaxUrl = "/portal/developers/changePassword";
+
+            var termsAndConditionsMarkupUrl = "/portal/applications/termsAndConditions";
+            var termsAndConditionsDeveloperAgreementStatusUrl = "/portal/developers/termsAndConditions";
+
+            var createAccountMarkupUrl = "/portal/developers/create";
+            var createAccountAjaxUrl = "/portal/developers/create";
+            var createAccountForwardUrl = appManagementUrl;
+
+            var appCreateMarkupUrl = "/portal/applications/create";
+            var editAccountMarkupUrl = "/portal/developers/edit";
+            var editAccountAjaxUrl = "/portal/developers/edit";
+
+            var appCreateAjaxUrl = "/portal/applications/create";
+            var appCreateForwardUrl = appManagementUrl;
+
+            var appEditId = '00000000-0000-0000-0000-000000000000';
+            var appEditAjaxUrl = "/portal/applications/edit/00000000-0000-0000-0000-000000000000";
+
+
+            var appDisplayNewKeyMarkupUrl = "/portal/applications/appDisplayNewKey";
+            var appDisplayNewKeyForwardUrl = appManagementUrl;
+
+            var passwordStrengthAjaxUrl = "/portal/passwordStrength";
+
+            var passwordChangedMessage = 'Password has been changed.';
+
+            var passwordStrengthWeakWord = 'Weak';
+            var passwordStrengthFairWord = 'Fair';
+            var passwordStrengthStrongWord = 'Strong';
+
+            const placementAppId = '00000000-0000-0000-0000-000000000000';
+            const placementManagementUrl = "/portal/applications/00000000-0000-0000-0000-000000000000/placements";
+            const placementCreateAjaxUrl = "/portal/applications/placements/create";
+            const placementCreateForwardUrl = placementManagementUrl;
+            const placementEditAjaxUrl = "/portal/applications/placements/edit/00000000-0000-0000-0000-000000000000";
+
+            $.fn.editable.defaults.onblur="submit";
+
+    </script>
+
+    <script type="text/javascript" src="/assets/javascript/misc-utils.js"></script>
+    <script type="text/javascript" src="/assets/javascript/ajax-utils.js"></script>
+    <script type="text/javascript" src="/assets/javascript/password-strength.js"></script>
+    <script type="text/javascript" src="/assets/javascript/dev-portal-dialog-utils.js"></script>
+    <script type="text/javascript" src="/assets/javascript/terms-and-conditions-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/login-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/reset-password-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/change-password-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/create-account-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/edit-account-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/app-create.js"></script>
+    <script type="text/javascript" src="/assets/javascript/app-edit.js"></script>
+    <script type="text/javascript" src="/assets/javascript/app-display-new-key-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/site-app-create-dialog.js"></script>
+    <script type="text/javascript" src="/assets/javascript/switch-light.js"></script>
+    <script type="text/javascript" src="/assets/javascript/placement-create.js"></script>
+    <script type="text/javascript" src="/assets/javascript/placement-edit.js"></script>
+
+    <script type="text/javascript">
+
+            jQuery(document).ready(function ($) {
+
+              $("#headerAccountLink").click(function(e) {
+                editAccountDialog();
+                e.preventDefault();
+              });
+
+              $("#loginButton").click(function() {
+                $(this).blur();
+                loginDialog();
+              });
+
+              $("#signupButton").click(function() {
+                $(this).blur();
+                termsAndConditionsDialog();
+              });
+
+              $("#logoutButton").click(function() {
+                $(this).blur();
+                location.href = "/portal/logout";
+              });
+
+              renderSelects();
+              renderSwitchLights();
+
+              
+              
+            });
+
+    </script>
+
+    <link rel="shortcut icon" type="image/x-icon" href='/assets/portal/favicon.ico'>
+
+  </head>
+
+  <body class="sub-page landing-page-background">
+
+    <div id="content">
+
+      <div id="header" class='header-min-width'>
+        <div id="header-logos">
+          <div id="header-logos-left-container">
+            <a id="bb-home-logo-link" href="http://www.blackboard.com" target="_blank"><img class="bb-home-logo-image" src="/assets/images/bb_logo_subpages.png" alt="Blackboard"/></a>
+            
+              <a id="bb-community-link" class="header-section-link" href='https://docs.blackboard.com' target="_blank">Community</a>
+            
+            
+              <a id="bb-api-link" class="header-section-link" href="/portal/displayApi">Explore APIs</a>
+            
+            
+            
+          </div>
+          <div id="header-logos-right-container">
+            
+              <button id="loginButton" class="header-button inverse outline large">Login</button>
+            
+            
+              <button id="signupButton" class="header-button inverse outline large">Sign Up</button>
+            
+            
+            
+            
+            
+            
+
+          </div>
+          <br class="clearBoth"/>
+        </div>
+        
+        
+          <div class="wrap">
+            <div id="subhead-section" class="subhead-icon-header-interaction">
+              <h1>API Dev Portal</h1>
+            </div>
+          </div>
+        
+      </div>
+
+      <div id="content2">
+      
+
+  <script>
+    jQuery(document).ready(function ($) {
+      if (getParameterByName('action') === 'resetPassword') {
+        resetPasswordDialog();
+      }
+    });
+  </script>
+
+  <div id="landing-dropped-background">
+
+    <div id="landing-header">
+      <div class="wrap">
+        <p id="landing-intro-text">Browse Blackboard REST APIs and register your REST application for use by the Blackboard Community.</p>
+        <p id="landing-contact-text">
+          
+            Questions? Contact <a href="mailto:developers@blackboard.com">developers@blackboard.com</a>.
+          
+        </p>
+      </div>
+    </div>
+
+    <div id="additional-content" class="landing-content">
+      <div class="wrap">
+
+        <div class="additional-content-half-item landing-col-container" id="browse-apis">
+          <p class="landing-col-header">Browse APIs</p>
+          <hr class="landing-col-separator"/>
+          <img class="landing-col-header-image" src="/assets/images/browse-apis.png"/>
+          <p class="landing-col-description">API documentation is the cornerstone to successful development.<br/><br/>Explore Blackboard REST APIs that you can use in your applications!</p>
+          <div class="button-container"><button id="exploreButton" type="button">Explore</button></div>
+          <script type="text/javascript">
+              document.getElementById("exploreButton").onclick = function () {
+                location.href = "/portal/displayApi";
+              };
+            </script>
+        </div>
+        <div class="additional-content-half-item landing-col-container" id="register-application">
+          <p class="landing-col-header">Register and Manage Your Applications</p>
+          <hr class="landing-col-separator"/>
+          <img class="landing-col-header-image" src="/assets/images/registerapp.png"/>
+          <p class="landing-col-description">Ready to test and release your application?<br/><br/>Sign Up for a Blackboard developer account, register your application, and gain access to the tools necessary for testing and releasing your application to the Blackboard Community.</p>
+          <div class="button-container"><button id="registerButton" type="button">Register</button></div>
+          <script type="text/javascript">
+              document.getElementById("registerButton").onclick = function () {
+                
+                  termsAndConditionsDialog(false);
+                
+              };
+            </script>
+        </div>
+
+        <div class="legal-container">
+          <p>&nbsp;</p>
+          <img class="black-bb-logo" src="/assets/images/Bb_wordmark_1C_black.png" alt="Blackboard"/>
+          <p class="legal-footer-text">© 1997 - 2020 Blackboard Inc. All Rights Reserved.<br/><br/>Copyright © 1997 - 2020. Blackboard Inc. All rights reserved. Blackboard, the Blackboard Logo, BbWorld, Blackboard Learn, Blackboard Transact, Blackboard Connect, Blackboard Mobile, Blackboard Collaborate, Blackboard Analytics, Blackboard Engage, Blackboard Student Services, the Mosaic logo, Behind the Blackboard, and Connect-ED are trademarks or registered trademarks of Blackboard Inc, or its subsidiaries in the United States and/or other countries. Blackboard products and services may be covered by one or more of the following U.S. Patents.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+      </div>
+    </div>
+
+  </body>
+
+
+</html>
+

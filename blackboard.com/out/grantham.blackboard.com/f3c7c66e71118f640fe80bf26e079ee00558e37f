@@ -1,0 +1,27 @@
+https://grantham.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: grantham.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:03:13 GMT
+< Set-Cookie: NSC_317520_wjq_69.196.227.148*443=ffffffff090e159645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.2-rel.55+a4a9325
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sat, 25 Aug 2018 05:17:47 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1535174267000"
+< X-Blackboard-Appserver: fgprd-317520-221303-app004.mhint
+< Expires: Sat, 04 Jan 2020 13:03:13 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

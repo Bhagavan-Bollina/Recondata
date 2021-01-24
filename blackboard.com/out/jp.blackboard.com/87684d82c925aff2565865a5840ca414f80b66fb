@@ -1,0 +1,20 @@
+https://jp.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jp.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cf-Cache-Status: EXPIRED
+< Cf-Request-Id: 076f17e7bf0000321d06b39000000001
+< Date: Mon, 04 Jan 2021 13:03:29 GMT
+< Content-Type: text/html; charset=UTF-8
+< Set-Cookie: __cfduid=d0fd2a723346d64b312f77fb89b9ba43d1609765408; expires=Wed, 03-Feb-21 13:03:28 GMT; path=/; domain=.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Location: https://www.blackboard.com/ja-jp
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 60c528ec6edb321d-BOM
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.blackboard.com/ja-jp">here</a></body>

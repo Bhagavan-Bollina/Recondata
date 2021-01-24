@@ -1,0 +1,28 @@
+https://au.signin.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: au.signin.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Vary: Accept, Accept-Encoding
+< Ot-Baggage-Auth0-Request-Id: 60c52720bff92e4c
+< Ot-Tracer-Spanid: 16c4a29933f8115d
+< Ot-Tracer-Traceid: 2893000b1159bcfc
+< Server: cloudflare
+< Set-Cookie: __cfduid=d67ca18182a733577271b964d0b8d17931609765335; expires=Wed, 03-Feb-21 13:02:15 GMT; path=/; domain=.au.signin.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform
+< Content-Length: 52
+< Location: https://signin.blackboard.com/
+< Cf-Ray: 60c52720bff92e4c-BOM
+< Strict-Transport-Security: max-age=31536000
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 076f16c87700002e4ce7231000000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Ot-Tracer-Sampled: true
+< Date: Mon, 04 Jan 2021 13:02:15 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Auth0-Requestid: e4563cffd38b9a5d35ca
+< X-Content-Type-Options: nosniff
+
+Found. Redirecting to https://signin.blackboard.com/

@@ -1,0 +1,30 @@
+https://sunyhvcc-prod.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sunyhvcc-prod.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:04:59 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:04:59 GMT
+< X-Blackboard-Appserver: ip-10-146-214-125.ec2.internal
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:59 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=80FAD926F50ABE09841E59813D011280; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776299,id:933B23AAD19441ACCA3904877F2E68D4,signature:7d833a26284ff49da639821f35f3209b184eb4831ec0621c59012e14b125c28e,site:ed0d744a-7cc7-43f0-8fc7-f1af6941b86f,v:2,xsrf:f236e169-11fd-472c-be1d-f9a094f043d2; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=ED83310F06BB53D54AE1C09393D14E8F70894CFD75DA2F579BFD03C5C1240F1989B6267C859335F56F766520B808DB912780781A0382CD365F53744FBB2EE6EA4DC59FD325;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=ED83310F06BB53D54AE1C09393D14E8F70894CFD75DA2F579BFD03C5C1240F1989B6267C859335F56F766520B808DB912780781A0382CD365F53744FBB2EE6EA4DC59FD325;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Length: 0
+< Location: https://bbprod.hvcc.edu/webapps/bb-auth-provider-cas-BB5e836a0131a81/execute/casLogin?cmd=login&authProviderId=_5_1&redirectUrl=https%3A%2F%2Fbbprod.hvcc.edu%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+

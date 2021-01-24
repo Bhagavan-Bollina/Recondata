@@ -1,0 +1,21 @@
+https://sftptransfer.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sftptransfer.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirected
+< Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval'; frame-ancestors 'self'; frame-src 'self' https://www.google.com/recaptcha/ *.duosecurity.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google.com/recaptcha/ https://www.gstatic.com/recaptcha/; img-src 'self' data: blob:; media-src 'self' blob:
+< Referrer-Policy: same-origin
+< Location: /login
+< Set-Cookie: cftpSID=Akf1vwmV9Y1def-u4M4HwHLGogSK_I3OI83usH4VKN4; Path=/; Secure; HttpOnly; SameSite=Lax;
+< Content-Length: 106
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Cache-Control: private, must-revalidate
+< Content-Type: text/html;charset=utf-8
+< Date: Mon, 04 Jan 2021 13:04:50 GMT
+< Server: CerberusFTPServer/11.0
+< X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE html><html><head><title>302 Redirected</title></head><body><h1>302 Redirected</h1></body></html>

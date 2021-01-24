@@ -1,0 +1,28 @@
+https://usac.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: usac.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:30 GMT
+< Server: Apache-Coyote/1.1
+< X-Blackboard-Appserver: fgprd-332994-sf188618-app001.mhint
+< Content-Type: text/html
+< Content-Length: 89
+< Set-Cookie: NSC_332994_wjq_192.230.225.94*443=ffffffff090d18f845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Last-Modified: Fri, 29 Jun 2018 06:37:13 GMT
+< Expires: Sat, 04 Jan 2020 13:05:30 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Etag: W/"89-1530254233000"
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.5-rel.94+071908f
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

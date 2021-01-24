@@ -1,0 +1,20 @@
+http://splunk.cloudbb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: splunk.cloudbb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Type: text/html
+< Content-Length: 185
+< Location: https://splunk.cloudbb.blackboard.com:8000/
+< Server: nginx/1.1.19
+< Date: Mon, 04 Jan 2021 13:04:58 GMT
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.1.19</center>
+</body>
+</html>

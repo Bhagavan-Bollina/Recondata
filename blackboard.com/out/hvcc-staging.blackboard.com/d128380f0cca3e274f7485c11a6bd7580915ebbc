@@ -1,0 +1,30 @@
+https://hvcc-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hvcc-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.11.0-rel.23+7619f1a
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:03:19 GMT
+< Set-Cookie: JSESSIONID=E86F72AB6C9557252D3C97918803DC29; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776199,id:BF9DC32FC31B23899C9A57B109F2856F,signature:7956d94359c0acf5c2679f2e46f23eea5fb8f53e6a8e188b5037382086f9c721,site:bb9c8828-7bb1-4c10-8be2-5213b7f644c5,v:2,xsrf:c1ad8970-b77c-44b0-a856-08bf0cbcfa34; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=FDAB39290A5DDDB6E54F4E1CD0259ACACA4B43713DC15539E2AF7FFB5D66819C9B83DE7374A68DB45A6FE78997835F8FEBB5B859358DF6FB31AFF25E0064393A3A62215F23;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=FDAB39290A5DDDB6E54F4E1CD0259ACACA4B43713DC15539E2AF7FFB5D66819C9B83DE7374A68DB45A6FE78997835F8FEBB5B859358DF6FB31AFF25E0064393A3A62215F23;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-236-24.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: https://hvcc-staging.blackboard.com/webapps/bb-auth-provider-cas-BB5ee16e8164e69/execute/casLogin?cmd=login&authProviderId=_5_1&redirectUrl=https%3A%2F%2Fhvcc-staging.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Type: text/html;charset=ISO-8859-1
+

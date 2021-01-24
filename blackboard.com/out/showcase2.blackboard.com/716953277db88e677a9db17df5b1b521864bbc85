@@ -1,0 +1,27 @@
+https://showcase2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: showcase2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: NSC_222222_wjq_69.196.227.141*443=ffffffff090e102145525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Last-Modified: Mon, 18 Jun 2018 08:02:51 GMT
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:04:51 GMT
+< Expires: Sat, 04 Jan 2020 13:04:51 GMT
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Product: Blackboard Learn &#8482; 3300.0.1-rel.60+a05276c
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Accept-Ranges: bytes
+< Etag: W/"89-1529308971000"
+< X-Blackboard-Appserver: fgstg-222222-129576-app001.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

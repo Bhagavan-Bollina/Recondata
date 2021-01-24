@@ -1,0 +1,14 @@
+https://das.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: das.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:02:49 GMT
+< Server: Apache/2.2.15 (CentOS)
+< X-Powered-By: PHP/5.4.35
+< Location: admin/welcome
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+

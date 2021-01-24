@@ -1,0 +1,29 @@
+https://uti.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uti.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: BbRouter=expires:1609776333,id:5BCE9205E79AD939CF028018A0A29105,signature:0bb29325ba78e17b59d6d0fcdc2af42078badccc54a7429c658f5e7c29638554,site:af3d90dc-ffe0-492a-ac1b-13178ea210b3,v:2,xsrf:d97586f9-bd3b-4813-895d-f35ea1ba8226; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=CFD11B5110F7ECBDFDDDE74D83ECC7354BCD17A6F7B18F7CC8F2231075AF2B33266B54DBB1455C7425E323522D3D81DCE41C82CE41B3BAEE06B4217142C8856BB667203C9E;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=CFD11B5110F7ECBDFDDDE74D83ECC7354BCD17A6F7B18F7CC8F2231075AF2B33266B54DBB1455C7425E323522D3D81DCE41C82CE41B3BAEE06B4217142C8856BB667203C9E;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-146-238-128.ec2.internal
+< Expires: Sat, 04 Jan 2020 13:05:33 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:33 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:05:33 GMT
+< Location: /auth-saml/saml/login?apId=_378_1&redirectUrl=https%3A%2F%2Futi.blackboard.com%2Fultra
+< Pragma: private
+

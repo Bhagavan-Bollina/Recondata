@@ -1,0 +1,31 @@
+https://gia.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: gia.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=BC393F2651BC66A0C0C5D9303567E58D; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776190,id:5DEE69FA2E07A20F4041DE12EB742B4C,signature:e07ef365441e14631657f8803fd5602b8feb2fa77b250fab991b6d14b44b4c2f,site:283ec853-0808-4c80-a025-3fda31c222d7,v:2,xsrf:da1d7dd0-7d3e-4c9d-be2c-8ed9b55e9405; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=5FF515031A67AA3DB91B39EEA260ECB2F381535B08ACCF9306B76014849A0D219729E6231DEF7E1CDC7C056341D68D51E9ECE88CBC6E65B73F3BA3EE899A2FCA004150C706;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=5FF515031A67AA3DB91B39EEA260ECB2F381535B08ACCF9306B76014849A0D219729E6231DEF7E1CDC7C056341D68D51E9ECE88CBC6E65B73F3BA3EE899A2FCA004150C706;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Date: Mon, 04 Jan 2021 13:03:10 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:10 GMT
+< Location: /webapps/login?action=guest_login
+< X-Blackboard-Appserver: ip-10-146-213-40.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=UTF-8
+< Pragma: private
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Language: en-US-x-lvariant-pro
+< Expires: Sat, 04 Jan 2020 13:03:10 GMT
+

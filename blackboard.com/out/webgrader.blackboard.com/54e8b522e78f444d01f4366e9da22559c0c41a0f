@@ -1,0 +1,16 @@
+https://webgrader.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: webgrader.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=UTF-8
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Date: Mon, 04 Jan 2021 13:05:41 GMT
+< Location: /en_US/
+< Server: Apache
+< Set-Cookie: PHPSESSID=69fun83c8n3mg78dhb5b7mibga; path=/; HttpOnly
+< Content-Length: 0
+

@@ -1,0 +1,46 @@
+https://cnm-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cnm-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:02:37 GMT
+< Set-Cookie: session_id=F6391831B7AF2809A4D9ABAE255E6463; Path=/; HttpOnly
+< Set-Cookie: s_session_id=23E3BE14702347B7752580B023A8AFE6; Path=/; Secure; HttpOnly
+< Set-Cookie: web_client_cache_guid=1f6f88d4-216d-49df-9f8d-04e9856a86f9; Path=/; Secure
+< Set-Cookie: NSC_302979_wjq_69.196.226.70*443=ffffffff090e1e3245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Vary: Accept-Encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.12-rel.2+9ac85d6
+< Expires: Sat, 04 Jan 2020 13:02:37 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:37 GMT
+< X-Blackboard-Appserver: fgtd-302979-156974-app001.mhint
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://cnm-test.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://cnm-test.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,28 @@
+https://union-psce.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: union-psce.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3300.0.1-rel.37+c07f12a
+< Expires: Sat, 04 Jan 2020 13:05:25 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:05:25 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=3765BEA067695AFB43D724FF7998F4E9; Path=/; Secure
+< Set-Cookie: NSC_100928_wjq_69.196.226.21*443=ffffffff090e132945525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgprd-100928-133832-app002.mhint
+< Last-Modified: Fri, 06 Jul 2018 06:49:56 GMT
+< Content-Type: text/html
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1530859796000"
+< Content-Length: 89
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

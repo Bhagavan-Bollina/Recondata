@@ -1,0 +1,27 @@
+https://review.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: review.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Fri, 29 Jun 2018 06:56:44 GMT
+< Date: Mon, 04 Jan 2021 13:04:33 GMT
+< X-Blackboard-Appserver: fgprd-301364-sf162087-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3300.0.1-rel.37+c07f12a
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Set-Cookie: NSC_301364_wjq_192.230.224.216*443=ffffffff090d13b245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:04:33 GMT
+< Content-Type: text/html
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1530255404000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

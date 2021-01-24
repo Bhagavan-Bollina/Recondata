@@ -1,0 +1,15 @@
+https://blackboard.com/
+
+> GET / HTTP/1.1
+> Host: blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.blackboard.com/
+< Server: Microsoft-IIS/10.0
+< Date: Mon, 04 Jan 2021 13:02:22 GMT
+< Content-Length: 150
+< Content-Type: text/html; charset=UTF-8
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.blackboard.com/">here</a></body>

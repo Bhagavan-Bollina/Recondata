@@ -1,0 +1,67 @@
+https://qpc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: qpc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Connection: Close &lt;br&gt;Content-Type:text/html
+
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+   <head> 
+      <title>An Error Occurred</title> 
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+       
+      <style type="text/css"> 
+         body{ 
+            margin: 0px; 
+            font-family: Verdana, sans-serif; 
+            font-size: 12px; 
+         } 
+          
+         div#box{ 
+            width: 475px; 
+            border: solid 1px #5183b4; 
+            text-align: left; 
+         } 
+          
+         h1{ 
+            font-size: 22px; 
+            color: #D70637; 
+            font-weight: bold; 
+            text-align: center; 
+         } 
+          
+         a{ 
+            color: black; 
+         } 
+          
+         a:hover{ 
+            color: #5183b4; 
+         } 
+      </style> 
+   </head> 
+   <body><br /> 
+      <center> 
+         <div id="box"> 
+            <div style="padding: 5px;"> 
+               <h1 style="position: relative; left: -4px;">An Error Occurred</h1> 
+                  <div style="width: 400px; text-align: left;"> 
+               <span style="position: relative; left: 36px; top: 5px;"> 
+                  We apologize for the inconvenience. 
+                  <br /><br /> 
+                  If the issue persists, please contact support and provide the following Reference ID:  
+               </span><br /><br /> 
+                  </div> 
+                  <div style="width: 400px;"> 
+                     <b style="font-size: 13pt; position: relative; left: 120px; top :5px;">176cd7fb79a-2091f464</b> 
+                     <br /> 
+                     <br /><br /><br /><br /> 
+                  </div> 
+                     <span style="font-size: 5px;">&nbsp;</font> 
+               </center> 
+            </div> 
+         </div> 
+      </center> 
+   </body> 
+</html>

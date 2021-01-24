@@ -1,0 +1,31 @@
+https://fmuniv.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fmuniv.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:03:07 GMT
+< Location: https://ecampus.fmuniv.edu/auth-saml/saml/login?redirectUrl=https%3A%2F%2Fecampus.fmuniv.edu%2Fwebapps&apId=_163_1
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Length: 0
+< Content-Language: en-US
+< Content-Type: text/html;charset=UTF-8
+< Last-Modified: Thu, 04 Jan 2001 13:03:07 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=5960266C987837536B70B915579D67B5; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776187,id:59381987952E239FC00651CA540D866E,signature:dafd5852123306b1b84b1b729ae4d619a36b72e4aa343e21372f502fa20b2bfd,site:d8ec4655-081c-4dc9-90a0-a44ed27ac27f,v:2,xsrf:290815e4-1dce-4d17-bdf6-3cb7413b0030; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=B115CF881497776E6E8CCB14E7956ABDA549FCBBAF98D3A54CD0A11B7DB2CD73345D312BF4B48CB2A4DEA321D2F4C2A07C9D6DFC49B8C58B0B9D1DA226F20FC662256817;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=B115CF881497776E6E8CCB14E7956ABDA549FCBBAF98D3A54CD0A11B7DB2CD73345D312BF4B48CB2A4DEA321D2F4C2A07C9D6DFC49B8C58B0B9D1DA226F20FC662256817;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:07 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Appserver: ip-10-145-17-109.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+

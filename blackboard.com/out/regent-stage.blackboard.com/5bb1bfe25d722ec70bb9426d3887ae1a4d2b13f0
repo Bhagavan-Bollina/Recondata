@@ -1,0 +1,47 @@
+https://regent-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: regent-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< X-Frame-Options: SAMEORIGIN
+< Vary: accept-encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:04:31 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776271,id:F6771297CE7681DF3EF27F00FEF620C3,signature:012e5cf7e6483a527910d796d9db7a18f32391656dde09e8f11e762ec0b728cd,site:3d9a3c79-9b1f-4018-9ce9-1455721b52dc,v:2,xsrf:a76aaf42-716f-4a48-aef3-f5e66291af4b; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=51F5932D024DB79F944A98B38F47FFC0411D1E909259D9BCB110FEADC2F3884A42A74DEAF194832DD8542492A2F6717FA63D6CD6AAAFA6E4C19EFF45FB3A68BB9F3DB14A08;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=51F5932D024DB79F944A98B38F47FFC0411D1E909259D9BCB110FEADC2F3884A42A74DEAF194832DD8542492A2F6717FA63D6CD6AAAFA6E4C19EFF45FB3A68BB9F3DB14A08;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:04:31 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:31 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-218-126.ec2.internal
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fregent\x2Dstage.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;regent-stage.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,29 @@
+https://udc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: udc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776315,id:4CB459BF93C6E0123B6FECA8435CCD94,signature:40b05d93c91bfab3886b816f70cf2999baffec1f0171790ae91d3c1cb12d3ead,site:75de7f03-7509-44d7-9dfe-01e429fd60fa,v:2,xsrf:88856d4e-95fc-40f9-8f8d-fb1dcabaa4bc; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=E7CD23AF0833812A95ED3D4C0947BC3C96955B6600CBC2721913B655131DC0B0D0D60BF43213585AE00FD8FE22248DE2E6B1C01CC20188BF80DE183B9424FA9F01143A87DE;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=E7CD23AF0833812A95ED3D4C0947BC3C96955B6600CBC2721913B655131DC0B0D0D60BF43213585AE00FD8FE22248DE2E6B1C01CC20188BF80DE183B9424FA9F01143A87DE;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-238-98.ec2.internal
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:05:15 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5d4aeeab116b2/execute/casLogin?cmd=login&authProviderId=_149_1&redirectUrl=https%3A%2F%2Fudc.blackboard.com%2Fultra
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Date: Mon, 04 Jan 2021 13:05:15 GMT
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Thu, 04 Jan 2001 13:05:15 GMT
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+

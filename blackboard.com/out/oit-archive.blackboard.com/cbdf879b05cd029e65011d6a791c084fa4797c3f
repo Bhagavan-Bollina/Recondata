@@ -1,0 +1,28 @@
+https://oit-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: oit-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Content-Length: 89
+< Pragma: private
+< Set-Cookie: NSC_303415_wjq_69.196.229.174*443=ffffffff090d1f6d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Fri, 29 Jun 2018 06:37:21 GMT
+< Expires: Sat, 04 Jan 2020 13:04:06 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1530254241000"
+< Date: Mon, 04 Jan 2021 13:04:06 GMT
+< Server: Apache-Coyote/1.1
+< X-Blackboard-Appserver: fgarch-303415-sf707273-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.7-rel.7+2fae8ea
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

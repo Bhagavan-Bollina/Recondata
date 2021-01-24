@@ -1,0 +1,225 @@
+https://maven.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: maven.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Last-Modified: Mon, 04 Jan 2021 13:03:43 GMT
+< Cache-Control: post-check=0, pre-check=0
+< Date: Mon, 04 Jan 2021 13:03:43 GMT
+< Server: Nexus/2.14.18-01
+< Content-Length: 8088
+< Pragma: no-cache
+< Expires: 0
+< Set-Cookie: NSC_348046_wjq_69.196.225.81*443=ffffffff090e1e7745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Nexus Repository Manager</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <!--[if IE]>
+  <link rel="SHORTCUT ICON" href="favicon.ico"/>
+  <![endif]-->
+
+  <link rel="stylesheet" href="static/ext-3.4.1.1/resources/css/ext-all.css"
+        type="text/css" media="screen" charset="utf-8"/>
+  <link rel="stylesheet" href="static/ext-3.4.1.1/resources/css/xtheme-gray.css"
+        type="text/css" media="screen" charset="utf-8"/>
+  <link rel="stylesheet" href="style/202005181002/sonatype-all.css"
+        type="text/css" media="screen" title="no title" charset="utf-8"/>
+
+          <script src="static/ext-3.4.1.1/adapter/ext/ext-base.js" type="text/javascript" charset="utf-8"></script>
+    <script src="static/ext-3.4.1.1/ext-all.js" type="text/javascript" charset="utf-8"></script>
+  
+  <script src="js/202005181002/sonatype-lib.js" type="text/javascript" charset="utf-8"></script>
+
+    
+  <script type="text/javascript" charset="utf-8">
+    requirejs.config({
+      baseUrl: 'static/js',
+      paths: {
+        // css modules need to escape from js base url
+        'static/css': '../css'
+      },
+      urlArgs: "nexusVersion=2.14.18-01"
+    });
+
+    var initUI = function (require, files) {
+      require(['require', 'extjs', 'Nexus/ui', 'Sonatype/all'], function (require, Ext, Nexus, Sonatype) {
+        var all = files.length + 17;
+        loaded = 0;
+
+        function init() {
+          loaded += 1;
+
+          if (loaded < all) {
+            return;
+          }
+
+          var alreadyDone = false;
+
+          function init() {
+            if (!Ext.isReady || alreadyDone) {
+              return;
+            }
+            alreadyDone = true;
+
+            if (Ext.isIE6 || Ext.isIE7) {
+              Ext.MessageBox.alert('Unsupported Browser',
+                      'You are using a version of Internet Explorer that is not supported.<br/>See the <a href="http://links.sonatype.com/products/nexus/oss/docs/browsers">knowledge base article</a> for details.')
+            }
+
+            Nexus.Log.debug('Initializing UI...');
+            Sonatype.init();
+            Sonatype.view.init();
+            Nexus.Log.debug('Loading Nexus Status...');
+            Sonatype.utils.loadNexusStatus();
+          };
+
+          Nexus.Log.debug('Loaded plugins');
+          Ext.onReady(init);
+          init();
+        }
+
+        function errorCallback(error) {
+          if (Nexus.error !== undefined) {
+            Nexus.error.handle(new Error(error.requireType + ': ' + error.requireModules));
+          }
+          else if (console !== undefined) {
+            console.log(new Error(error.requireType + ': ' + error.requireModules));
+          }
+          init();
+        }
+
+        Ext.each(files, function (js) {
+          require([js], init, errorCallback);
+        });
+
+        var deps = ['require'];
+        var bootModules = [];
+
+                                      deps.push('static/js/nexus-outreach-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-outreach-plugin-boot');
+                              deps.push('static/js/nexus-rrb-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-rrb-plugin-boot');
+                              deps.push('static/js/nexus-plugin-console-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-plugin-console-plugin-boot');
+                              deps.push('css!static/css/nexus-indexer-lucene-plugin-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-indexer-lucene-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-indexer-lucene-plugin-boot');
+                              deps.push('css!static/css/nexus-analytics-plugin-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-analytics-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-analytics-plugin-boot');
+                              deps.push('static/js/nexus-site-repository-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-site-repository-plugin-boot');
+                              deps.push('static/js/nexus-ldap-realm-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-ldap-realm-plugin-boot');
+                              deps.push('static/js/nexus-lvo-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-lvo-plugin-boot');
+                              deps.push('static/js/nexus-timeline-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-timeline-plugin-boot');
+                              deps.push('css!static/css/nexus-logging-plugin-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-logging-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-logging-plugin-boot');
+                              deps.push('css!static/css/nexus-healthcheck-base-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-healthcheck-base-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-healthcheck-base-boot');
+                              deps.push('static/js/nexus-nuget-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-nuget-plugin-boot');
+                              deps.push('static/js/nexus-npm-repository-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-npm-repository-plugin-boot');
+                              deps.push('css!static/css/nexus-capabilities-plugin-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-capabilities-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-capabilities-plugin-boot');
+                              deps.push('css!static/css/nexus-atlas-plugin-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-atlas-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-atlas-plugin-boot');
+                              deps.push('css!static/css/nexus-wonderland-plugin-all.css?v=2.14.18-01');
+                      deps.push('static/js/nexus-wonderland-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-wonderland-plugin-boot');
+                              deps.push('static/js/nexus-siesta-plugin-all.js?v=2.14.18-01');
+          
+          bootModules.push('nexus-siesta-plugin-boot');
+        
+        require(deps, function (require) {
+          Ext.each(bootModules, function (mod) {
+            require([mod], init, errorCallback);
+          });
+        });
+      });
+    }
+
+    var dependencies = [];
+    
+    
+    requirejs([
+      'require'
+              , 'js/202005181002/nx-all.js'
+          ], function (require) {
+      require(['require', 'NX/bootstrap'], function (require) {
+        require([
+          'require'
+                      , 'js/202005181002/sonatype-all.js'
+                  ], function (require) {
+          initUI(require, dependencies);
+        })
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+<div id="header">
+  <div id="branding" class="left-side">
+    <img src="images/NexusRepoMngr_horiz_white+color@2x.png" alt="Sonatype Nexus" class="nxrm-logo">
+  </div>
+  <div class="right-side">
+    <div><span id="head-link-l" class="head-link"></span><span id="head-link-m" class="head-link"></span><span
+            id="head-link-r" class="head-link"></span></div>
+    <div id="logo">
+      <span>
+        Nexus Repository Manager OSS 2.14.18-01
+      </span>
+    </div>
+  </div>
+</div>
+
+<div id="welcome-tab" class="little-padding">
+    <div id="loadmask" class="ext-el-mask-msg x-mask-loading"
+       style="margin-left: auto; margin-right: auto; margin-top: 200px; width: 150px; position: relative;">
+    <div>Loading Nexus UI...</div>
+  </div>
+</div>
+
+<form id="history-form" class="x-hidden">
+  <input type="hidden" id="x-history-field"/>
+  <iframe id="x-history-frame"></iframe>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+https://tr.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: tr.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.blackboard.com/tr-tr
+< Cf-Request-Id: 076f196529000032065e355000000001
+< Server: cloudflare
+< Cf-Ray: 60c52b4eaf3b3206-BOM
+< Set-Cookie: __cfduid=d79f9d7ddbf6f8aafb0c9df3d9a0a3a041609765506; expires=Wed, 03-Feb-21 13:05:06 GMT; path=/; domain=.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:05:07 GMT
+< Content-Type: text/html; charset=UTF-8
+< Cf-Cache-Status: EXPIRED
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.blackboard.com/tr-tr">here</a></body>

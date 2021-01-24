@@ -1,0 +1,802 @@
+https://ibisacam.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ibisacam.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-148-214-101.eu-central-1.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Date: Mon, 04 Jan 2021 13:03:19 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=D4925167236EBB664C296CFE15079BCE; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776199,id:42A7FA661DBD24F70AF7CF0AF4947BE9,signature:628d4dfb6a8520b8e68fb2a46fa64de12256d6e44dfac7beb6bdfcbf5aa56bf1,site:4ec816bc-faa6-4f6c-a445-2309a5657458,v:2,xsrf:08103c19-e474-4322-83a0-200d798295ef; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=FFFF53B31EDE9F27AD022EF9208B6FD11A75C96D0F61960A6017A9140BE46E5AC4394B70CC5CEBBEC2EDB9BC994E4B35852D91CE4D025F5A25B8F854F8D6424B776D64D227;PATH=/
+< Set-Cookie: AWSELBCORS=FFFF53B31EDE9F27AD022EF9208B6FD11A75C96D0F61960A6017A9140BE46E5AC4394B70CC5CEBBEC2EDB9BC994E4B35852D91CE4D025F5A25B8F854F8D6424B776D64D227;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=UTF-8
+< Vary: accept-encoding
+< Content-Language: de-DE-updated
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+
+<!DOCTYPE HTML >
+<html  lang="de-DE-updated">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Alle Rechte vorbehalten. US-Patente Nr. 7.493.396 und 7.558.853. Weitere Patente angemeldet.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"113360379"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon3.ico">
+     <link rel="stylesheet" type="text/css" href="/ui-ultra/css/ultra.css?v=3900.2.0-rel.34+4ad580a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.2.0-rel.34+4ad580a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a" id="css_2">
+      <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.2.0-rel.34+4ad580a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.2.0-rel.34+4ad580a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Sie müssen eine vollständige, gültige E-Mail-Adresse eingeben (z. B. info@blackboard.com).';
+    JS_RESOURCES['validation.radio.required'] = 'Treffen Sie eine Auswahl, um fortzufahren.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'Die folgenden Fragen sind möglicherweise unvollständig:\n {0}\nKlicken Sie auf <b>Abbrechen</b>, um zur Umfrage zurückzukehren. Klicken Sie auf OK, um die unvollständige Antwort zu speichern.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Suchbegriffe';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Punktwerte können maximal 5 Dezimalstellen aufweisen: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Darf nicht mehr als {1} Zeichen enthalten: {0}.\nVerkürzen Sie die Eingabe um {2} Zeichen.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'Die folgenden Fragen sind möglicherweise unvollständig:\n {0}\nKlicken Sie auf \'\'Abbrechen\'\', um zum Test zurückzukehren. Klicken Sie auf OK, um die unvollständige Antwort zu speichern.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Mehrfachauswahlfeld sollte mindestens {0} Elemente enthalten.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Ein Wert muss angegeben werden für {0}\nwenn das Feld für {1} nicht leer ist';
+    JS_RESOURCES['warning.email'] = '\'E-Mail-Adresse\' ist ein empfohlenes Feld. Teile des Systems können ohne E-Mail-Adresse nicht von den Benutzern verwendet werden.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Darf nicht mehr als {0} Zeichen enthalten.\nVerkürzen Sie die Eingabe um ein Zeichen.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Mehrfachauswahlfeld darf nicht mehr als {0} Elemente enthalten.';
+    JS_RESOURCES['validation.number'] = 'Ein gültiger numerischer Wert muss angegeben werden: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'Ein vollständiger Datumswert muss angegeben werden: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Löschen: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Hilfetext anzeigen';
+    JS_RESOURCES['validation.password'] = 'Kennwort darf nicht leer sein oder nur Leerzeichen enthalten.';
+    JS_RESOURCES['validation.percent'] = 'Ein gültiger Prozentwert zwischen 0 und 100 muss angegeben werden.';
+    JS_RESOURCES['validation.mismatch'] = 'Die eingegebenen Werte stimmen nicht überein: {0}.\nBestätigung: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Darf nicht mehr als {0} Zeichen enthalten.\nVerkürzen Sie die Eingabe um {1} Zeichen.';
+    JS_RESOURCES['validation.invalid_value'] = 'Ungültiger numerischer Wert angegeben: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\'-Eingabefeld';
+    JS_RESOURCES['validation.required'] = 'Ein Wert muss angegeben werden: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Geben Sie einen Wert für das Suchtextfeld an.';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Sie haben Ausrichtungen, aber keine ausrichtbaren Inhalte zum Kopieren ausgewählt.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" ist am Anfang einer Funktions-ID nicht zulässig.';
+    JS_RESOURCES['validation.date_past'] = 'Das Enddatum darf nicht vor dem Anfangsdatum liegen.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Enthält unzulässige Zeichen: {0}.\nLöschen Sie diese Zeichen: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Dieses Element {0} wird gelöscht. Fortfahren?';
+    JS_RESOURCES['hide.helptext'] = 'Hilfetext ausblenden';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Weniger als {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'Der Zeitpunkt liegt in der Vergangenheit.\nMit diesem Zeitpunkt fortfahren?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Geben Sie Benutzername und Kennwort ein.';
+    JS_RESOURCES['validation.negative'] = 'Ein gültiger nicht negativer Wert muss angegeben werden: {0}.';
+    JS_RESOURCES['validation.url'] = 'Sie müssen eine gültige URL (z. B. http://www.myschool.edu) eingegeben.';
+    JS_RESOURCES['validate.range.overlap'] = 'Kriterium ({0}) überschneidet sich mit Kriterium ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Zwischen {0} und {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Löschen: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'Die verknüpften Elementdaten wurden möglicherweise aktualisiert.\nKlicken Sie auf \'OK\', um die Liste zu aktualisieren, oder auf \'Abbrechen\', um die aktuelle Seite beizubehalten.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'Die Option zur Anmeldung über einen Zugriffscode steht in Konflikt mit der Auswahl der {instructor}seitigen Anmeldung.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Punktwerte können maximal 5 Dezimalstellen aufweisen.';
+    JS_RESOURCES['validation.option.required'] = 'Sie müssen mindestens eine Option in der Liste auswählen.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Aktivieren, um alle Elemente auszuwählen';
+    JS_RESOURCES['active.filter.changed.alert'] = 'Kriterium enthält jetzt';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Geben Sie einen Namen ein, um es als wiederverwendbares Objekt zu speichern.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Geben Sie anstelle von {0} eine gültige Zahl ein.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Die Kurs-ID enthält ungültige Zeichen oder Multibyte-Zeichen.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'Die folgenden Fragen sind möglicherweise unvollständig:\n {0}\nKlicken Sie auf \'\'Abbrechen\'\', um zum Test zurückzukehren. Klicken Sie auf \'\'Senden\'\' und anschließend auf \'\'OK\'\'.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warnung: Wählen Sie entweder die Option \'{instructor}seitig\' oder \'Persönliche Anmeldung\' aus.';
+    JS_RESOURCES['validation.date_equal'] = 'Das Anfangsdatum darf nicht mit dem Enddatum übereinstimmen.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = '{0} kann nicht ohne einen entsprechenden Wert für {1} verwendet werden.';
+    JS_RESOURCES['validation.time.required'] = 'Ein vollständiger Zeitwert muss angegeben werden: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Ein gültiger ganzzahliger numerischer Wert muss angegeben werden: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Darf nicht mehr als 255 Zeichen enthalten';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'Die ausgewählte Option für die E-Mail-Anmeldung steht in Konflikt mit der Auswahl der persönlichen Anmeldung.';
+    JS_RESOURCES['invalid_char.space'] = 'Leerzeichen';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Mehr als {0}';
+    JS_RESOURCES['notification.submit'] = 'Aktion wurde bereits übermittelt.\nWarten Sie, bis die Aktion abgeschlossen ist.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Damit in diesem Dokument Gleichungen korrekt angezeigt werden, muss als Format \'Smart Text\' oder \'HTML\' ausgewählt sein.\nKlicken Sie auf \'OK\', um in dem ausgewählten Format \'Nur Text\' zu speichern, oder klicken Sie auf \'Abbrechen\', um ein neues Format auszuwählen.';
+    JS_RESOURCES['invalid_char.comma'] = 'Komma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Ein gültiger Prozentwert zwischen -100 und 100 muss angegeben werden.';
+    JS_RESOURCES['confirm.remove_item'] = 'Diese Aktion ist endgültig und kann nicht rückgängig gemacht werden. Fortfahren?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Deaktivieren, um die Auswahl aller Elemente aufzuheben';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Darf nicht mehr als {1} Zeichen enthalten: {0}.\nVerringern Sie die Anzahl der eingegebenen Zeichen um 1.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Zu viele Dezimalstellen. Maximal möglich sind 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'Es müssen mindestens {0} Zeichen eingegeben werden: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Geben Sie einen Speicherort für das wiederverwendbare Objekt ein.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'Die folgenden Fragen sind möglicherweise unvollständig:\n {0}\nKlicken Sie auf <b>Abbrechen</b>, um zur Umfrage zurückzukehren. Klicken Sie auf OK, um die Umfrage zu übermitteln.';
+    JS_RESOURCES['validation.image_type'] = 'Unbekannter Grafiktyp: {0}. Die Grafik wird möglicherweise nicht korrekt angezeigt.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Speicherplatz';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd.MM.yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MO DI MI DO FR SA SO';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd.[ MMM][ yyyy]{\'&#8212;\'d. MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Januar Februar März April Mai Juni Juli August September Oktober November Dezember';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Willkommen {1}!';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Januar Februar März April Mai Juni Juli August September Oktober November Dezember';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, dd.MM.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'MO DI MI DO FR SA SO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d. MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Montag Dienstag Mittwoch Donnerstag Freitag Samstag Sonntag';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'TT/MM/JJ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, dd.MM.';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd.MM.yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MO DI MI DO FR SA SO';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd.[ MMM][ yyyy]{\'&#8212;\'d. MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Januar Februar März April Mai Juni Juli August September Oktober November Dezember';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Willkommen {1}!';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Januar Februar März April Mai Juni Juli August September Oktober November Dezember';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, dd.MM.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'MO DI MI DO FR SA SO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d. MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Montag Dienstag Mittwoch Donnerstag Freitag Samstag Sonntag';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'TT/MM/JJ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, dd.MM.';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/D90E5B0784E7223D992BDFCF73253B2B.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/ui-ultra/js/hide-focus-outline.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/ui-ultra/js/login-page.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/55FEBF63DFF4A8A4FD0F0F248E6246E1.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/4DEE87E0312E581AD7497F81E6F48956.js?v=3900.2.0-rel.34+4ad580a"></script>
+    </head>
+  <body id="learn-oe-body" class='bb-login hide-focus-outline'>
+  
+  <div id="loginLang" class="clearfix">
+    
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+    <script>
+  function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+
+	      function displayLanguages() {
+	     	 var $langButton = $('lang-select-button');
+			   var $langMenu = $('lang-list');
+
+		    function showMenu() {
+		        $langMenu.removeClassName('hide');
+		        $langMenu.setAttribute('aria-hidden', 'false');
+		        $langMenu.setAttribute('aria-expanded', 'true');
+		        $langMenu.setAttribute('aria-pressed', 'true');
+		        $langButton.setAttribute('aria-expanded', 'true');
+		        $langButton.addClassName('expanded');
+            $langMenu.firstDescendant().firstDescendant().focus();
+		    }
+
+		    function hideMenu() {
+		        $langMenu.addClassName('hide');
+		        $langMenu.setAttribute('aria-hidden', 'true');
+		        $langMenu.setAttribute('aria-expanded', 'false');
+		        $langMenu.setAttribute('aria-pressed', 'false');
+		        $langButton.setAttribute('aria-expanded', 'false');
+		        $langButton.removeClassName('expanded');
+		    }
+
+		    //toggle logic
+		    if ($langMenu.hasClassName('hide')) {
+		        showMenu();
+		    } else {
+		        hideMenu();
+		    }
+
+		    //Press ESC hides the menu
+		    $(document).on('keydown', function (e) {
+		        if (e.which == 27) {
+		            hideMenu();
+		        }
+		    });
+
+        $(document).on('click', function (e) {
+            hideMenu();
+        });
+	    }
+
+		// reveal available languages on click
+	  $('lang-select-button').on('click', 'button', function (e) {
+        displayLanguages();
+        e.stopPropagation();
+    });
+
+		});
+  </script>
+    
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	
+	<button type="button" class="icon-languages" id="lang-select-button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-list" aria-owns="lang-list" aria-pressed="false" aria-label="Sprache auswählen Aktuelle Sprache Deutsch"></button>
+	<ul id="lang-list" class="hide" aria-hidden="true" aria-expanded="false" role="menu">
+              <li aria-label="čeština (Česká republika&#x202D;)&#x202C;"><a href="javascript:loadLocale('cs_CZ');" title="čeština (Česká republika&#x202D;)&#x202C;" lang="cs_CZ" >čeština (Česká republika&#x202D;)&#x202C;</a></li>
+              <li aria-label="Deutsch"><a href="javascript:loadLocale('de_DE_updated');" title="Deutsch" lang="de_DE_updated" >Deutsch</a></li>
+              <li aria-label="English (United States&#x202D;)&#x202C;"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+              <li aria-label="Español (España&#x202D;)&#x202C;"><a href="javascript:loadLocale('es_ES');" title="Español (España&#x202D;)&#x202C;" lang="es_ES" >Español (España&#x202D;)&#x202C;</a></li>
+              <li aria-label="Français (France&#x202D;)&#x202C;"><a href="javascript:loadLocale('fr_FR');" title="Français (France&#x202D;)&#x202C;" lang="fr_FR" >Français (France&#x202D;)&#x202C;</a></li>
+              <li aria-label="Italiano (Italia&#x202D;)&#x202C;"><a href="javascript:loadLocale('it_IT');" title="Italiano (Italia&#x202D;)&#x202C;" lang="it_IT" >Italiano (Italia&#x202D;)&#x202C;</a></li>
+              <li aria-label="Nederlands (Nederland&#x202D;)&#x202C;"><a href="javascript:loadLocale('nl_NL');" title="Nederlands (Nederland&#x202D;)&#x202C;" lang="nl_NL" >Nederlands (Nederland&#x202D;)&#x202C;</a></li>
+              <li aria-label="Polski (Polska&#x202D;)&#x202C;"><a href="javascript:loadLocale('pl_PL');" title="Polski (Polska&#x202D;)&#x202C;" lang="pl_PL" >Polski (Polska&#x202D;)&#x202C;</a></li>
+              <li aria-label="Português (Brasil&#x202D;)&#x202C;"><a href="javascript:loadLocale('pt_BR');" title="Português (Brasil&#x202D;)&#x202C;" lang="pt_BR" >Português (Brasil&#x202D;)&#x202C;</a></li>
+              <li aria-label="Türkçe (Türkiye&#x202D;)&#x202C;"><a href="javascript:loadLocale('tr_TR');" title="Türkçe (Türkiye&#x202D;)&#x202C;" lang="tr_TR" >Türkçe (Türkiye&#x202D;)&#x202C;</a></li>
+              <li aria-label="Русский (Россия&#x202D;)&#x202C;"><a href="javascript:loadLocale('ru_RU');" title="Русский (Россия&#x202D;)&#x202C;" lang="ru_RU" >Русский (Россия&#x202D;)&#x202C;</a></li>
+              <li aria-label="العربية"><a href="javascript:loadLocale('ar_SA');" title="العربية" lang="ar_SA" >العربية</a></li>
+              <li aria-label="中文 (中国&#x202D;)&#x202C;"><a href="javascript:loadLocale('zh_CN');" title="中文 (中国&#x202D;)&#x202C;" lang="zh_CN" >中文 (中国&#x202D;)&#x202C;</a></li>
+          </ul>
+
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+  
+  <div style="background: #fff url(https://www.ibisacam.at/wp-content/uploads/2020/01/weiterbildung.png) no-repeat center center; background-size: contain; position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></div>
+
+  <div class="row">
+  	<div id="login-block" class="small-11 small-centered medium-12 medium-centered text-center columns" style="background-color: #272727; padding-top:30px; min-height: 100vh;">
+  		
+<h1 class="login-logo new-logo customized-logo" >
+    <span>Blackboard Learn &#8482;</span>
+    <img src="/branding/_142_1/loginLogo/CustomLoginLogo.jpeg?m=k9n2lkmf" alt="" />
+</h1>
+<div id="login-form" class="login-form">
+  			
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Aktivieren Sie JavaScript in Ihrem Browser, um die Funktion der Blackboard-Anwendung zu gewährleisten.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ldc-b4-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbmh-info-gathering-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mindlinks-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/lttM-browserCheck-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mbs-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mylab_mastering_b2-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5a33b28497020", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Benutzername</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Kennwort</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Anmelden" name="login" class="button expand inverse outline"/>
+        </li>
+  </ul>
+
+	<div class="login-form-footer row collapse">
+		<div class="stay-signed-in small-6 columns text-left">
+    		</div>
+				<div class="small-6 columns text-right">
+	  		<a href="/webapps/blackboard/password" onclick="login_openForgotPassword('/webapps/blackboard/password');return false;">Kennwort vergessen?</a>
+		</div>
+			</div>
+		<div class="trial-registration">
+		<a href="/webapps/blackboard/execute/selfCreateUser?context=self_add&src=gateway">Einen Account erstellen</a>
+    	</div>
+	  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='76be9ffe-892f-414e-bad9-cc959cc94e3b'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Mit Drittanbieterkonto anmelden</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_1145_1&redirectUrl=https%3A%2F%2Fibisacam.blackboard.com%2Fultra" ><div class="defaultProviderIcon"></div>Azure Anmeldung</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+</div>
+    </div>
+	<style type="text/css">
+		.bb-login .login-page-announcements #loginAnnouncements>ul>li {
+			background-color: #fff;
+			color: #0058a2;
+		}
+		
+		.bb-login .login-page-announcements #loginAnnouncements>ul>li .vtbegenerated::-webkit-scrollbar-thumb {
+			background: #fcc700;
+		}
+		
+		.bb-login .login-page-announcements #loginAnnouncements>ul>li .vtbegenerated::-webkit-scrollbar-track {
+			background: #0058a2;
+		}
+		
+		.bb-login .login-form ul label {
+			font-size: 1rem;
+		}
+		
+		.bb-login .login-form #loginRedirectProviderList {
+			background-color: transparent;
+		}
+		
+		.bb-login .login-form #loginRedirectProviders .button.dropdown, .bb-login .login-form #loginRedirectProviderList li a {
+			background-color: transparent;
+			box-shadow: 0 0 0 2px #fff inset;
+			transition: background-color 250ms,color 250ms,box-shadow 250ms,opacity 250ms;
+		}
+		
+		.bb-login .login-form #loginRedirectProviders .button.dropdown:hover, .bb-login .login-form #loginRedirectProviderList li a:hover {
+			background-color: #fff;
+			color: #333;
+			text-decoration: none;
+		}
+		
+		.trial-registration a {
+			color: #969696;
+		}
+		
+		.bb-login #lang-select-button {
+			box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
+			background-color: #fff;
+			top: 20px;
+			left: 20px;
+		}
+		
+		.bb-login #lang-select-button:before {
+			color: #0058A2;
+		}
+		
+		.bb-login #lang-select-button:hover, .bb-login #lang-select-button.expanded {
+			background-color: #272727;
+		}
+		
+		.bb-login #lang-select-button:hover:before, .bb-login #lang-select-button.expanded:before {
+			color: #FCC700;
+		}
+		
+		.bb-login #lang-list {
+			background-color: #272727;
+			top: 50px;
+			left: 20px;
+		}
+		.bb-login #lang-list:before {
+			border-color: transparent transparent #FCC700 transparent;
+		}
+		
+		.bb-login #lang-list li a {
+			color: #e5e5e5;
+			border: none;
+			padding: .625rem;
+		}
+		
+		.bb-login #lang-list li:hover a {
+			background-color: #FCC700;
+			color: #272727;
+		}
+		
+		#ibisLink {
+			color: #969696;
+			margin-top: 15px;
+			margin-bottom: -20px;
+			font-size: .75rem;
+		}
+		
+		#ibisLink a {
+			text-decoration: underline;
+			color: #969696;
+		}
+		
+		#ibisLink a:hover {
+			color: #969696;
+		}
+	</style>
+    <div class="login-page-announcements"  style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2); -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.2);">
+      
+</div>
+    <div class="small-12 small-centered text-center columns">
+      <p id="ibisLink">Lernmanagementsystem der <a href="https://www.ibisacam.at" target="_blank">ibis acam Bildungs GmbH</a></p>
+      <div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. Alle Rechte vorbehalten.
+  	</div>
+  	  </div>
+
+  </div><div id="loginOptions">
+        
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+      
+    
+      <li id="help-link"><a href="https://help.blackboard.com/de-de" target="_blank" title="Bb Anmeldehilfe">Hilfe</a></li>
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="Datenschutz und Nutzungsbedingungen">Datenschutz und Nutzungsbedingungen</a></li>
+</ul>
+</div>
+</div>
+    </div>
+  </div>
+ 
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Schließen');page.bundle.addKey('inlineconfirmation.refresh','Aktualisieren');page.bundle.addKey('hidden.link.close.menu','Ende des Menüs. Klicken Sie, um zum verknüpften Element zurückzukehren.');page.bundle.addKey('hidden.link.close.form','Ende des Formulars. Klicken Sie, um zum verknüpften Element zurückzukehren.');page.bundle.addKey('lightbox.loading','Ladevorgang läuft...');page.bundle.addKey('yt.stopped','Gestoppt:');page.bundle.addKey('yt.playing','Wiedergabe:');page.bundle.addKey('yt.cued','Positioniert:');page.bundle.addKey('yt.buffering','Puffern:');page.bundle.addKey('yt.paused','Angehalten:');page.bundle.addKey('yt.ended','Beendet:');page.bundle.addKey('yt.play','Wiedergeben');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Ton aus');page.bundle.addKey('yt.unmute','Ton an');page.bundle.addKey('lightbox.overlay','{0} wurde als helles Feld geöffnet, das die aktuelle Seite überlagert.');page.bundle.addKey('display.playerControls','Steuerelemente des Players');page.bundle.addKey('display.videoPlayerControls','Steuerelemente des Videoplayers');page.bundle.addKey('display.play','Wiedergeben');page.bundle.addKey('display.stop','Stopp');page.bundle.addKey('display.volumeUp','Lautstärke erhöhen');page.bundle.addKey('display.volumeDown','Lautstärke verringern');page.bundle.addKey('display.mute','Ton aus');page.bundle.addKey('display.videoStatus','Videostatus');page.bundle.addKey('display.closePlayerControls','Steuerelemente des Players schließen');page.bundle.addKey('display.embeddedVideoPlayer','Videoplayer einbetten');page.bundle.addKey('display.of','von');page.bundle.addKey('display.view.on.flickr','Foto auf Flickr anzeigen');page.bundle.addKey('mashups.content.data.msg','Mashup-Inhalt kann nicht angezeigt werden. Das passiert, wenn das System eine ungültige URL entdeckt. Entfernen Sie das Mashup-Element und versuchen Sie erneut, dieses Problem zu lösen.');page.bundle.addKey('contextmenu.frame.title','Menü-Frame');page.bundle.addKey('frameset.contentframe.title','Inhalt');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+      function loadLoginPage() {
+        if(document.forms.login.user_id != undefined)
+        {
+          verify_username_password(document.forms.login);
+        }
+        setTimeout("triggerScreenreaderAlert()", 500);
+      }
+
+      function triggerScreenreaderAlert() {
+        if (document.getElementById('loginErrorMessage')) {
+          $('loginErrorMessage').update($('loginErrorMessage').innerHTML);
+        }
+      }
+    </script>
+  
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":18,"applicationID":"113360379","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script>
+</body>
+</html>

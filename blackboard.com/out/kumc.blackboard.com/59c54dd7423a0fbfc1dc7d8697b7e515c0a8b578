@@ -1,0 +1,29 @@
+https://kumc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: kumc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:03:34 GMT
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: ip-10-145-21-171.ec2.internal
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:34 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776214,id:05446B7BE1B24AFEBEF8493CBFABA157,signature:7170593ccde616160edd46e020b14a9edf59b3e3386842c565c4f855936d0262,site:b25d69d9-b17a-4df5-87e1-d05a912bf4fb,v:2,xsrf:f392fcab-948b-4f2c-bebf-a260e870109e; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=B3B5490914EBC183805B0E9DC69905537A17A4328525521EB6BB1A847632A46BFC74573429D9AA4F867E9615E84CC1D7BF8071CCE2B6383EA032D5A4C638C2226870D7A889;PATH=/
+< Set-Cookie: AWSELBCORS=B3B5490914EBC183805B0E9DC69905537A17A4328525521EB6BB1A847632A46BFC74573429D9AA4F867E9615E84CC1D7BF8071CCE2B6383EA032D5A4C638C2226870D7A889;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Expires: Sat, 04 Jan 2020 13:03:34 GMT
+< Location: /webapps/bb-auth-provider-cas-BB591ec10969219/execute/casLogin?cmd=login&authProviderId=_3_1&redirectUrl=https%3A%2F%2Fkumc.blackboard.com%2Fultra
+< Server: openresty/1.9.3.1
+

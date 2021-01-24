@@ -1,0 +1,28 @@
+https://bblearndemo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bblearndemo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.0-rel.23+4c6d4de
+< Date: Mon, 04 Jan 2021 13:02:19 GMT
+< Expires: Sat, 04 Jan 2020 13:02:20 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: JSESSIONID=0AB935326634B86B3C1E688123D10867; Path=/; Secure
+< Set-Cookie: NSC_222222_wjq_69.196.231.40*443=ffffffff090d1c7345525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgprd-222222-213558-app002.mhint
+< Last-Modified: Sat, 25 May 2019 06:22:23 GMT
+< Content-Type: text/html
+< Pragma: private
+< Accept-Ranges: bytes
+< Etag: W/"89-1558765343000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

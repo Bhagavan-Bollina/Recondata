@@ -1,0 +1,47 @@
+https://bd-partner-a-original.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bd-partner-a-original.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: ip-10-145-20-189.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:21 GMT
+< Expires: Sat, 04 Jan 2020 13:02:21 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:21 GMT
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.10+9fc85c4
+< Set-Cookie: BbRouter=expires:1609776141,id:29FAA76AAAC4A2F54E7A59041B001AD2,signature:f6201942f3e4067f39b6c711ea0114c2f44112adc9197de2115484adf75433bc,site:a2c73c27-803a-48de-a1e8-3a71bf3fce0a,v:2,xsrf:dd8a4616-5c6a-42e0-8778-42f917833bdd; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=F7AD613312C38048250E5608A15A21358F9B6F6A03AE0848B4C4B8570BC07CE82661165DC82C2030CB9AA18834CF70682314E208DA31DE53D1F860B2FFD26074660E89A93B;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=F7AD613312C38048250E5608A15A21358F9B6F6A03AE0848B4C4B8570BC07CE82661165DC82C2030CB9AA18834CF70682314E208DA31DE53D1F860B2FFD26074660E89A93B;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fbd\x2Dpartner\x2Da\x2Doriginal.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;bd-partner-a-original.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

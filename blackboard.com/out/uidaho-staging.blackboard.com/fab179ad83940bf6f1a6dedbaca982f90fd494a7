@@ -1,0 +1,27 @@
+https://uidaho-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uidaho-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: NSC_301804_wjq_69.196.227.46*443=ffffffff090e1d1b45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Last-Modified: Mon, 03 Jun 2019 03:08:13 GMT
+< Content-Type: text/html
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgstg-301804-sf665597-app001.mhint
+< Pragma: private
+< Date: Mon, 04 Jan 2021 13:05:19 GMT
+< Expires: Sat, 04 Jan 2020 13:05:19 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 89
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Etag: W/"89-1559531293000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

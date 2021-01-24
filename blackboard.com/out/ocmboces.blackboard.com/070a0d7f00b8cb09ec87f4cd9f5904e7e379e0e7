@@ -1,0 +1,47 @@
+https://ocmboces.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ocmboces.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:04:05 GMT
+< Set-Cookie: BbRouter=expires:1609776245,id:8099A79F22E0DCAEE8658C198B02F69C,signature:946b37871e9a5287f793543b3684f65fa801ab636632a78544ab30923060c4c4,site:fc181f42-4518-4084-ba72-7199341e0ad5,v:2,xsrf:52a47753-d560-4eec-97e6-b36560bdc271; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=C755DF0506E9B333D3D28B362D42A58AEC6325BC8E7CF55300CA451760CBD2D5264BC48981F7CAB238746F70A3B74D27FF1B8CE69239CE94AB7493D2C3454EA3D35607A07D;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=C755DF0506E9B333D3D28B362D42A58AEC6325BC8E7CF55300CA451760CBD2D5264BC48981F7CAB238746F70A3B74D27FF1B8CE69239CE94AB7493D2C3454EA3D35607A07D;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-221-131.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Date: Mon, 04 Jan 2021 13:04:05 GMT
+< Server: openresty/1.9.3.1
+< Expires: Sat, 04 Jan 2020 13:04:05 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Focmboces.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ocmboces.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

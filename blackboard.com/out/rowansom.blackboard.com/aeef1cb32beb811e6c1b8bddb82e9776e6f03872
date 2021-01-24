@@ -1,0 +1,28 @@
+https://rowansom.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: rowansom.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Pragma: private
+< Set-Cookie: session_id=6C670DF5E2A5892EC2CC0C92655C6504; Path=/; HttpOnly
+< Set-Cookie: s_session_id=5341B4CDA98A387F8B9EF2EE8D82FAA5; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=902117CF80E5BC43DFB4B6480F667AB7; Path=/; Secure
+< Set-Cookie: NSC_523172_wjq_69.196.243.113*443=ffffffff090e0ec245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.11-rel.23+c620db7
+< Expires: Sat, 04 Jan 2020 13:04:35 GMT
+< Location: https://rowansom.blackboard.com/webapps/bb-auth-provider-cas-BBLEARN/execute/casLogin?cmd=login&authProviderId=_102_1&redirectUrl=https%3A%2F%2Frowansom.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Content-Length: 0
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-523172-sf119021-app003.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:35 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:04:35 GMT
+< X-Frame-Options: SAMEORIGIN
+

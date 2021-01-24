@@ -1,0 +1,47 @@
+https://rotc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: rotc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:04:36 GMT
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-146-179-156.us-gov-west-1.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:04:36 GMT
+< Set-Cookie: BbRouter=expires:1609776276,id:7097F2FD3923FC060C69DA3A8B0E774D,signature:9d8ded638e1f2b2b1f21687d1dbf4ba7ada5cb8a372f34371dab9715ace5dfb1,site:4e2e53d6-a7f0-49c2-b948-b48bbc532daa,v:2,xsrf:3bd55d9f-f705-4c5b-b950-cc71b7904204; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=2DF3F19918030A6A95B399BC9C8531C3DD481368CFD5B3FC0D1A495FCED4EE448439BA9674462CC02CF21D4778E3EE9B3E6AEBE1CB1405BC6C70F160257EF7166C20741132;PATH=/
+< Set-Cookie: AWSELBCORS=2DF3F19918030A6A95B399BC9C8531C3DD481368CFD5B3FC0D1A495FCED4EE448439BA9674462CC02CF21D4778E3EE9B3E6AEBE1CB1405BC6C70F160257EF7166C20741132;PATH=/;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:04:36 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Frotc.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;rotc.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

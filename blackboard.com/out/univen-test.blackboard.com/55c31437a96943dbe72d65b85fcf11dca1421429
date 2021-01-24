@@ -1,0 +1,27 @@
+https://univen-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: univen-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< Set-Cookie: NSC_512986.uftu1_wjq1*443=ffffffff090b1c5d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgtd-512986-sf082654-app001.mhint
+< Last-Modified: Wed, 24 Jul 2019 07:39:06 GMT
+< Etag: W/"89-1563953946000"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.2-rel.36+fbf2221
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:05:28 GMT
+< Content-Length: 89
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:05:28 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

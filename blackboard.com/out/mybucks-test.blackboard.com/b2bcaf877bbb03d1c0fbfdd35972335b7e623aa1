@@ -1,0 +1,825 @@
+https://mybucks-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mybucks-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.10-rel.12+2ad3637
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:03:52 GMT
+< X-Blackboard-Appserver: fgtd-126631-12622-app001.mhint
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=UTF-8
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=918BB4E7C8050D07D37CCC63590FE2DE; Path=/; Secure
+< Set-Cookie: session_id=E53E7520583B7B12053CE0F896A490D9; Path=/; HttpOnly
+< Set-Cookie: s_session_id=A6C98B80B0A280833DD8093629C515E3; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_126631.uftu1_wjq1*443=ffffffff090b1e0745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Last-Modified: Thu, 04 Jan 2001 13:03:52 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:52 GMT
+< Content-Language: en-GB-BucksLP
+
+<!DOCTYPE HTML >
+<html  lang="en-GB-BucksLP">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3700.0.10-rel.12+2ad3637" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2015/theme.css?v=3700.0.10-rel.12+2ad3637" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3700.0.10-rel.12+2ad3637_3700.0.10-rel.12+2ad3637" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/allyintegration/css/ally-integration.css?v=3700.0.10-rel.12+2ad3637_3700.0.10-rel.12+2ad3637" id="css_3">
+          <style type="text/css">
+		body.login-page {
+			background-color: #F8F8F8 !important;
+		}
+		div.loginBody {
+			background: url(/bbcswebdav/institution/Front_Page/logoC.png) no-repeat transparent;
+		}
+		.bb-login .login-logo {
+			margin-top : 35px !important;
+			margin-bottom : 20px !important;
+		}
+		.login-button {
+			margin-top : 35px !important;
+			margin-bottom : 20px !important;
+			-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+			-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+			box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
+			background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);
+			background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);
+			background:-o-linear-gradient(top, #637aad 5%, #5972a7 100%);
+			background:-ms-linear-gradient(top, #637aad 5%, #5972a7 100%);
+			background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);
+			background-color:#637aad;
+			border:1px solid #314179;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:13px;
+			font-weight:bold;
+			padding:6px 12px;
+			text-decoration:none;
+		}
+		.login-button:hover {
+			background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5972a7), color-stop(1, #637aad));
+			background:-moz-linear-gradient(top, #5972a7 5%, #637aad 100%);
+			background:-webkit-linear-gradient(top, #5972a7 5%, #637aad 100%);
+			background:-o-linear-gradient(top, #5972a7 5%, #637aad 100%);
+			background:-ms-linear-gradient(top, #5972a7 5%, #637aad 100%);
+			background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+			filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5972a7', endColorstr='#637aad',GradientType=0);
+			background-color:#5972a7;
+		}
+		.login-button:active {
+			position:relative;
+			top:1px;
+		}
+
+		/*log in info style*/
+		#loginBox {
+			color: #000000
+		}
+		.button {
+			background-color: #008CBA; /* Blue */
+			border: none;
+			color: white;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 18px !important;
+			font-weight: bold;
+			margin: -18px 0 14px 0;
+			-webkit-transition-duration: 0.4s; /* Safari */
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+		.admin-login-button {
+			background-color: #008CBA;
+			color: #FFFFFF;
+			border: 2px solid #008CBA;
+		}
+		.admin-login-button:hover {
+			background-color: #FFFFFF;
+			color: black;
+		}
+		#admin-link {
+			font-size: 16px !important;
+			font-weight: bold !important;
+			text-decoration: underline;
+		}
+		#admin-link:link {
+			color: #00539B;
+		}
+		#admin-link:visited {
+			color: #00539B;
+		}
+		#admin-link:hover {
+			text-decoration: none;
+			color: #00539B;
+		}
+		#admin-link:active {
+			color: red;
+			text-decoration: none
+		}
+		.forgot a {
+			border-bottom: 1px dotted #0099b6;
+			color: #1874a4;
+		}
+		.student-partners {
+			font-size: 16px !important;
+			font-weight: 600;
+		}
+		
+		.loginhelp-text {
+			font-size: 12px !important;
+			font-weight: 600;
+			text-align: left;
+		}
+		
+		#LoginHelpInfo {
+			width: 100%;
+			padding: 50px;
+			text-align: left;
+			background-color: lightblue;
+			margin-top: 20px;
+			font-size: 12px;
+			display: none;
+		}
+		
+		.btnLoginHelpInfo {
+			border: none;
+			background-color: inherit;
+			padding: 14px 28px;
+			font-size: 12px;
+			cursor: pointer;
+			display: inline-block;
+		}
+		
+		.logininfo {
+			color: DarkBlue;
+		}
+
+		.logininfo:hover {
+			background: #2196F3;
+			color: white;
+		}
+	</style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3700.0.10-rel.12+2ad3637">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3700.0.10-rel.12+2ad3637"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/javascript/prototype.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery-noconflict.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/fastinit.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/ngui/page.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/validateForm.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/numberLocalizer.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/popup.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/cookie.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/lz-string.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/client_cache.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/ngui/globalNavigation.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/esapi-compressed.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/i18n/ESAPI_Standard_en_US.properties.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/Base.esapi.properties.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/validate_login.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/browserSpecificBehavior.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/webapps/videointegration/js/video-integration.js?v=3700.0.10-rel.12+2ad3637_3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/webapps/allyintegration/js/ally-integration.js?v=3700.0.10-rel.12+2ad3637_3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/builder.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/effects.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/dragdrop.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/controls.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/slider.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/ngui/lightbox.js?v=3700.0.10-rel.12+2ad3637"></script>
+    <script type="text/javascript" src="/javascript/quick_links.js?v=3700.0.10-rel.12+2ad3637"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <div id="loginPageContainer">
+	<div id="loginPane">
+		<div class="topRound loginBack">
+			<b class="outer"></b>
+			<b class="middle"></b>
+			<b class="inner"></b>
+		</div>
+		<div id="loginContainer">
+			<div id="loginHeader" class="clearfix">
+				<h1 class="hideoff">Blackboard Learn &#8482;</h1>
+				<img src="/images/ci/logos/Bb_newLogo_060.png" alt="Blackboard Learn &#8482;" class="productLogo" />
+				
+<h2 class="hideoff">View Options</h2>
+<ul>
+  <li class="font-size">
+    <img src="/images/ci/ng/fonts.gif" alt="" /> 
+    <a href="#" title="Change Text Size" 
+          onClick="page.showChangeTextSizeHelp()">Change Text Size</a>
+  </li>
+  <li class="contrast">
+    <img src="/images/ci/ng/contrast.gif" alt="" /> 
+    <a href="#" title="High Contrast Setting" onclick="page.showAccessibilityOptions(); return false;">High Contrast Setting</a>
+  </li>
+</ul>
+</div>
+			
+			<div id="loginLang" class="clearfix">
+				
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+      <script>
+      function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+        Event.observe( $( 'loginLang' ), 'mouseover', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'mouseout', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'focus', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'blur', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+
+	});
+    </script>
+      
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	 
+    <h2>
+      <a href="#"><span>Available languages:</span></a>
+      <span>Available languages:</span>
+    </h2>
+
+    <ul id="langMenu" aria-hidden="true" role="menu">
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_GB_BucksLP');" title="Bucks Language Pack" lang="en_GB_BucksLP" >Bucks Language Pack</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_GB_Bucks');" title="English (Bucks)" lang="en_GB_Bucks" >English (Bucks)</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_GB');" title="English (United Kingdom&#x202D;)&#x202C;" lang="en_GB" >English (United Kingdom&#x202D;)&#x202C;</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+
+      
+    </ul>
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+			
+			<div class="clearfix loginBody" >
+				<div id="loginBox">
+					
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Please enable JavaScript in your browser for the Blackboard application to function.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/axis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/soap", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloud-profiles", null, true);
+      deleteCookie("JSESSIONID", "/webapps/visualization", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-BbStats-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-studymate_intg-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/turn-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/QW-qwickly-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mbs-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-reports-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-nbc-content-integration-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/real-helixmedia-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/qut-tweakbb-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/BNU-bucksessentials.course-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-transition-planning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-WileyPLUS-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-GradeJourney-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/BNU-personal-tutor-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-word-cleanup-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/social-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/BNU-Buddy-finder-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/tees-eatrssfeeds-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sp-hdlsche-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-qa-fit-fixtures-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-OpenBadgesmashup-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/oslt-jshack-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-cafescribe-integration-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osc-BasicLTI-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/BU02-attendance-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/lttM-browserCheck-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027979249287-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cv-clickview-video-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Have an account?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Please enter your credentials and click the <b>Login</b> button below.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Username</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Password</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Login" name="login" class="button expand"/>
+        </li>
+    <li class="clearfix">
+  	  <span class="forgot"><a href="https://mypassword.bucks.ac.uk" onclick="login_openForgotPassword('https://mypassword.bucks.ac.uk');return false;" >Forgot Your Password?</a>
+	  	    <span class="hideoff">(new window)</span>
+	  	  </span>
+      </li>
+  </ul>
+
+
+
+
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='265e92ed-3da8-4ebc-9306-cf0c19499883'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Sign in with third-party account</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_175_1&redirectUrl=https%3A%2F%2Fmybucks-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>ADSF Login</a></li>
+               <li><a href="/auth-saml/saml/login?apId=_176_1&redirectUrl=https%3A%2F%2Fmybucks-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>AzureAD</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+<div id="toggle">
+						<a class="button admin-login-button" id="login-link" href="/auth-saml/saml/login?apId=_176_1&redirectUrl=https%3A%2F%2Fmybucks-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab">
+							<font size="4">Sign in</font>
+						</a>
+						<br />
+						<button class="btnLoginHelpInfo logininfo" onclick="displayLoginHelp()">Help with login</button>
+						<div id="LoginHelpInfo">
+							<p class="student-partners">Please login using username and password provided by the university:</p>
+							<br />
+							<p class="loginhelp-text"><strong>Students:</strong> StudentID@bucks.ac.uk <strong>(e.g. 12345678@bucks.ac.uk)</strong></p>
+							<br />
+							<p class="loginhelp-text"><strong>Bucks staff:</strong> Bucks email <strong>(e.g. john.smith@bucks.ac.uk)</strong></p>
+							<p class="loginhelp-text"><strong>Partner college staff:</strong>  FirstName.LastName@partner.bucks.ac.uk <br /> <strong>(e.g. joe.bloggs@partner.bucks.ac.uk)</strong></p>
+							<br />
+						</div>
+						<br />
+						<br />
+						<br />
+						
+						<!--LDAP Login Removed-->
+						<!--
+						<a id="admin-link" href="/?internal" onclick="setLoginBox(true);return false;" onkeydown="setLoginBox(true);return false;">
+							All other users sign in
+						</a>
+						<br /><br />
+						<p>Login using current <b>Username and Password</b></p>
+						<br />
+						-->
+						<span class="forgot">
+							<a href="https://mypassword.bucks.ac.uk" onclick="login_openForgotPassword('https://mypassword.bucks.ac.uk');return false;">
+								Forgot Your Password?
+							</a>
+						</span>
+					</div>
+					
+					<div id="loginOptions">
+						
+</div>
+				</div>
+				
+				
+
+<div id="loginImage"><img src="/images/ci/logos/Gateway_Learn.jpg" alt="Blackboard Learn" /></div>
+<div id="loginText">
+<p>Welcome to the Blackboard e-Education platform&#8212;designed to enable educational innovations everywhere by connecting people and technology.</p>
+</div></div>
+			
+			
+<div id="loginAnnouncements">
+  <h3>System Announcements</h3>
+  <ul>
+          <li>
+        <strong>New Blackboard Login</strong> 
+                  <em class="announcementDate">
+            (Wednesday, 18 September 2019)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p style="margin: 0px 0px 4px; padding: 0px; border: 0px; outline: 0px; font-weight: 300; font-style: normal; font-family: 'Lucida Grande', Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">We have changed the way students, including partner students, and Bucks staff login. Login details&nbsp;for all&nbsp;other users remains unchanged.</p> 
+   <p style="margin: 0px 0px 4px; padding: 0px; border: 0px; outline: 0px; font-weight: 300; font-style: normal; font-family: 'Lucida Grande', Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;</p> 
+   <p style="margin: 0px 0px 4px; padding: 0px; border: 0px; outline: 0px; font-weight: 300; font-style: normal; font-family: 'Lucida Grande', Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">If you experience any problems, please contact the IT Service Desk at IT@bucks.ac.uk.&nbsp;(<span style="font-family: arial, helvetica, sans-serif;"><span style="color: #000000; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;">01494 605000 or Ext 5000)&nbsp;</span>&nbsp;</span></p>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+<div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	  <div class="logo">
+  	    <img src="/images/ci/logos/bb_signature/Bb_Signature_StdMed.png" alt="Blackboard Learn" />
+  	  </div>
+  	  	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.
+  	</div>
+  	      <div class="additionalInfo">
+        <p><a href="http://access.blackboard.com" id="accessibilityLink">Accessibility information</a></p>
+              </div>
+  	  </div>
+
+  </div></div>
+	</div>
+</div>
+
+<script type="text/javascript">
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;		
+		name = name.replace(/[\[\]]/g, '\$&');
+		var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+		results = regex.exec(url);		
+		if (!results) return '';
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, ' '));
+	}
+	
+	var redirectUrl = getParameterByName('redirectUrl');
+	var link = ""
+	if (!redirectUrl || 0 === redirectUrl.length) {
+		redirectUrl = getParameterByName('new_loc');
+	}
+	
+	link = document.getElementById("admin-link").getAttribute("href") + "&new_loc=" + encodeURIComponent(redirectUrl);
+	document.getElementById("admin-link").setAttribute("href",link);
+	
+	if (redirectUrl) redirectUrl = window.location.origin + redirectUrl;
+	
+	link = document.getElementById("login-link").getAttribute("href") + encodeURIComponent(redirectUrl);
+	document.getElementById("login-link").setAttribute("href",link);
+</script>
+
+<script>
+function displayLoginHelp() {
+  var x = document.getElementById("LoginHelpInfo");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+		function setLoginBoxOnload() {
+			var useForm=(window.location.href).indexOf('internal')>0?true:false;
+			setLoginBox(useForm);
+		}
+		function setLoginBox(useForm) {
+			if (useForm) {
+				// show normal login 
+				document.getElementById('loginFormTitle').style.visibility='visible';
+				document.getElementById('loginFormText').style.visibility='visible';
+				document.getElementById('loginFormFields').style.visibility='visible';
+				document.getElementById('loginFormTitle').style.display='';
+				document.getElementById('loginFormText').style.display='';
+				document.getElementById('loginFormFields').style.display='';
+				// hide external provider logins
+				document.getElementById('loginRedirectProviders').style.visibility='hidden';
+				document.getElementById('loginRedirectProviders').style.display='none';
+				document.getElementById('toggle').style.display='none';
+				document.getElementById('toggle').style.visibility='hidden';
+			}
+			else {
+				// hide normal login
+				document.getElementById('loginFormTitle').style.visibility='hidden';
+				document.getElementById('loginFormText').style.visibility='hidden';
+				document.getElementById('loginFormFields').style.visibility='hidden';
+				document.getElementById('loginFormTitle').style.display='none';
+				document.getElementById('loginFormText').style.display='none';
+				document.getElementById('loginFormFields').style.display='none';
+				// HIDE external provider logins
+				document.getElementById('loginRedirectProviders').style.visibility='hidden';
+				document.getElementById('loginRedirectProviders').style.display='none';
+				document.getElementById('toggle').style.display='';
+				document.getElementById('toggle').style.visibility='visible';
+			}
+			
+		}
+	</script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             AllyIntegration.initJWT('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJBTExZIiwic3ViIjoiQUxMWV9UT0tFTiIsImZpbGVJZHMiOltdLCJjb3Vyc2VSb2xlIjoiIiwiaXNzIjoiMnJpVlVOak5SekxINFVtZFpRazFNMjlRU3Bkc0hpOXciLCJleHAiOjE2MDk3NjU3MzIsImlhdCI6MTYwOTc2NTQzMiwiY291cnNlSWQiOiIiLCJ1c2VySWQiOiIifQ.QpHUEdurFQwnYmxjc9TEclru5vmcDgxtRRhGPE6jwIg');
+                                                             AllyIntegration.initAllyJSConfigs('prod-eu-central-1.ally.ac','356');
+                                                             jQuery.getScript('//' + window.ALLY_CFG.baseUrl + '/integration/learn/ally.js');
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                if (document.forms.login.user_id != undefined) document.forms.login.user_id.focus(); setLoginBoxOnload();
+               });
+   </script>
+       <!-- Global site tag (gtag.js) - Google Analytics --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127474616-1"></script> 
+<script> 
+window.dataLayer = window.dataLayer || []; 
+function gtag(){dataLayer.push(arguments);} 
+gtag('js', new Date()); 
+
+gtag('config', 'UA-127474616-1'); 
+</script>
+
+</body>
+</html>

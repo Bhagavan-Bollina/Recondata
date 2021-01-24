@@ -1,0 +1,27 @@
+https://myasutest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: myasutest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Date: Mon, 04 Jan 2021 13:03:53 GMT
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgtd-101256-157808-app001.mhint
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1528802113000"
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Last-Modified: Tue, 12 Jun 2018 11:15:13 GMT
+< Expires: Sat, 04 Jan 2020 13:03:53 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_101256_wjq_69.196.226.144*443=ffffffff090e136e45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3100.0.6-rel.3+cd2a24d
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

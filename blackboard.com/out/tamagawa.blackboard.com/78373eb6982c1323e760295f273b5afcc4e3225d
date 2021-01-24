@@ -1,0 +1,47 @@
+https://tamagawa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: tamagawa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:05:00 GMT
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:00 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-144-230-200.ap-southeast-1.compute.internal
+< Last-Modified: Thu, 04 Jan 2001 13:05:00 GMT
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776300,id:EE451428B839DBD9C54348CAC56DADE7,signature:46aecf52c0ebec84f1ae72588d707cb2e8c945dc348d1c1050c39b1f3b78a9ce,site:adfa2d6c-0fa6-41cc-b29c-e07b2604944e,v:2,xsrf:98aa7d43-7dd4-4969-8940-666390b8b5c4; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=F3D159490CBF1CB02FFB920AE82488DD04F6731970F34ED61C6ACC3414DF6004C3B18BB1577A3A61855BC0F1365E18200FBE02A24F7D16E131978AFC10A6CDBCFBE5A02895;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=F3D159490CBF1CB02FFB920AE82488DD04F6731970F34ED61C6ACC3414DF6004C3B18BB1577A3A61855BC0F1365E18200FBE02A24F7D16E131978AFC10A6CDBCFBE5A02895;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Ftamagawa.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>????????????????</strong>
+<p><strong>???????...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;tamagawa.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>???????????????????????????????</strong></A></div>
+</BODY></HTML>

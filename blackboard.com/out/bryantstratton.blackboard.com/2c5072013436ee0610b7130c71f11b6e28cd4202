@@ -1,0 +1,47 @@
+https://bryantstratton.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bryantstratton.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:02:25 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:25 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-208-240.ec2.internal
+< Date: Mon, 04 Jan 2021 13:02:25 GMT
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776145,id:580BA76E286B75979EAA2702493E249B,signature:f519ac191551603f21bfd46202105f8238012c49aeb3a6af49a96c680fec5bdc,site:ce49e73f-c278-4878-beb2-e4989508c14f,v:2,xsrf:4a1ee217-4b94-48b3-8286-58c5a61abc6d; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=F597E31712FA4AB18EB57D45030A69DCC2A07BEE05F5043FCC35038F99100FBB17DDBA8D53AB1AC2F278B14BBE1F9DB30D0FC9DE5095310BA830824F7E4F29B5DC844FB77A;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=F597E31712FA4AB18EB57D45030A69DCC2A07BEE05F5043FCC35038F99100FBB17DDBA8D53AB1AC2F278B14BBE1F9DB30D0FC9DE5095310BA830824F7E4F29B5DC844FB77A;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fbryantstratton.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;bryantstratton.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

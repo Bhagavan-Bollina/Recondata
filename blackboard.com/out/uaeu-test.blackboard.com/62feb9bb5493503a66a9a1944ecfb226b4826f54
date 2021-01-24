@@ -1,0 +1,68 @@
+https://uaeu-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uaeu-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:05:10 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:10 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Pragma: private
+< Set-Cookie: JSESSIONID=64012CCDC085A3F6380F464F954F761B; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776310,id:2B3AE04078ECFB50C679DE0342F3CC5A,signature:d1dfc0bc11a2f452ad6f01fd750e4a1dcae3d155f57f5cd809b6df3d61bc0def,site:783c0fe4-0c61-47cd-8e27-0790a68de59b,v:2,xsrf:bd820e11-8f9e-47a8-852e-abb2af958b4e; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=E30BAF890E5D903BAFA2F8FD3BBBA777678FD018F1299C69A004DBA52EA648294ACFD252D21DDFBF4AF1AEE829C4B6F5D6CE479A804290FC2B85C649F3A60832BDA469553F;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=E30BAF890E5D903BAFA2F8FD3BBBA777678FD018F1299C69A004DBA52EA648294ACFD252D21DDFBF4AF1AEE829C4B6F5D6CE479A804290FC2B85C649F3A60832BDA469553F;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-148-215-206.eu-central-1.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:05:10 GMT
+< Vary: accept-encoding
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Learn - SSO Redirect</title>
+<style> body { background-color: #000000; } </style>
+</head>
+
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; ">
+
+<script type="text/javascript">
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return '';
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var redirectUrl = getParameterByName('redirectUrl');
+
+if (!redirectUrl || 0 === redirectUrl.length) {
+    redirectUrl = getParameterByName('new_loc');
+}
+if (redirectUrl) redirectUrl = encodeURIComponent(window.location.origin + redirectUrl);
+
+//alert(redirectUrl);
+
+setTimeout(function() {
+    window.location.href = window.location.origin + "/auth-saml/saml/login?apId=_162_1&redirectUrl=" + redirectUrl;}, 0);
+</script>
+
+
+Redirecting... <a style="color:grey" href="https://uaeu-test.blackboard.com/auth-saml/saml/login?apId=_162_1&redirectUrl=https%3A%2F%2Fuaeu-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab">Go to login page</a> if you are not automatically redirected.
+</BODY>
+</HTML>
+
+

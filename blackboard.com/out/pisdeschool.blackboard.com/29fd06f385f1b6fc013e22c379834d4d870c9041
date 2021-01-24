@@ -1,0 +1,47 @@
+https://pisdeschool.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pisdeschool.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:04:23 GMT
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-146-239-84.ec2.internal
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:04:23 GMT
+< Expires: Sat, 04 Jan 2020 13:04:23 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776263,id:7D032A958CE68DCDEE780ABE1F97E6A7,signature:4b2bee7dccff7578b005ee7b32dceaa0cdf083db329a162a126af9a777b32b52,site:1c56d800-78a1-4dc8-932b-98d49e22bf97,v:2,xsrf:0fb951e4-e4ef-405c-8da0-48fdb7bcd41a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=DB6BB1611EC248230C3EF1BDDD9A5D3C503ECA80CD24257780263B3EAC2926DF2E1007FD6B14EC16D1B4E76759D9AA54CA1CFFC0D4081F1469EBA73F2B064AB25473DE74CE;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=DB6BB1611EC248230C3EF1BDDD9A5D3C503ECA80CD24257780263B3EAC2926DF2E1007FD6B14EC16D1B4E76759D9AA54CA1CFFC0D4081F1469EBA73F2B064AB25473DE74CE;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fpisdeschool.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;pisdeschool.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

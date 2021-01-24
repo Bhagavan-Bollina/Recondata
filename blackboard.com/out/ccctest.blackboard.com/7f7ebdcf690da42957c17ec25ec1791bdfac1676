@@ -1,0 +1,27 @@
+https://ccctest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ccctest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.2-rel.37+f07d42b
+< Last-Modified: Sun, 20 May 2018 05:43:41 GMT
+< Expires: Sat, 04 Jan 2020 13:02:30 GMT
+< Accept-Ranges: bytes
+< X-Blackboard-Appserver: fgtd-100195-000011896-app001.mhint
+< Pragma: private
+< Etag: W/"89-1526795021000"
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:30 GMT
+< Set-Cookie: NSC_100195_wjq_69.196.228.7*443=ffffffff090d1f7045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

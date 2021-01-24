@@ -1,0 +1,28 @@
+https://us.settings.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: us.settings.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Ot-Tracer-Spanid: 0803da4920493d2c
+< Ot-Tracer-Traceid: 1dc40fe732a3966f
+< Ot-Tracer-Sampled: true
+< Content-Length: 54
+< Cf-Ray: 60c52bdfdbe03199-BOM
+< Strict-Transport-Security: max-age=31536000
+< X-Auth0-Requestid: 207fb1e3694c824b75ad
+< Vary: Accept, Accept-Encoding
+< Ot-Baggage-Auth0-Request-Id: 60c52bdfdbe03199
+< Location: https://settings.blackboard.com/
+< Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 076f19bfe500003199b68ab000000001
+< X-Content-Type-Options: nosniff
+< Date: Mon, 04 Jan 2021 13:05:30 GMT
+< Content-Type: text/plain; charset=utf-8
+< Set-Cookie: __cfduid=d118dfecac11a7a703731d1339a7035011609765529; expires=Wed, 03-Feb-21 13:05:29 GMT; path=/; domain=.us.settings.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Server: cloudflare
+
+Found. Redirecting to https://settings.blackboard.com/

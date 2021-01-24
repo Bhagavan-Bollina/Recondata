@@ -1,0 +1,29 @@
+https://mdc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mdc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:03:44 GMT
+< Expires: Sat, 04 Jan 2020 13:03:44 GMT
+< Set-Cookie: BbRouter=expires:1609776224,id:CF296274DB1B464F3861F74D13C40989,signature:d6db09b03ee1fa7d5f115276967dd1aad2fe6b93fb7a24093f5b36a3ea782e4b,site:aaaad53d-6c3d-4a09-8666-e9ef79523733,v:2,xsrf:61ba40ee-15d0-49bf-884b-b3cac191da26; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=EB81CFDF16E7FB1C76C13428A8BD156DE0E8D1909311A210D4A153F991CB64B1D4FD73A031EDA444853794FFE52277503139F651169C9763D43BE8C94982BD25F3A858F9BF;PATH=/
+< Set-Cookie: AWSELBCORS=EB81CFDF16E7FB1C76C13428A8BD156DE0E8D1909311A210D4A153F991CB64B1D4FD73A031EDA444853794FFE52277503139F651169C9763D43BE8C94982BD25F3A858F9BF;PATH=/;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:03:44 GMT
+< Location: /auth-saml/saml/login?apId=_1019_1&redirectUrl=https%3A%2F%2Fmdc.blackboard.com%2Fultra
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-209-48.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+

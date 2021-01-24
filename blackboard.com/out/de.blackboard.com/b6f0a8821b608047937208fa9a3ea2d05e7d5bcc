@@ -1,0 +1,20 @@
+https://de.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: de.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Mon, 04 Jan 2021 13:02:50 GMT
+< Content-Type: text/html; charset=UTF-8
+< Set-Cookie: __cfduid=d32112bf373528a02e09e29441e5c6e511609765369; expires=Wed, 03-Feb-21 13:02:49 GMT; path=/; domain=.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Location: https://www.blackboard.com/de-de
+< Server: cloudflare
+< Cf-Ray: 60c527f548086999-BOM
+< Cf-Cache-Status: EXPIRED
+< Cf-Request-Id: 076f174d4e00006999a232e000000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.blackboard.com/de-de">here</a></body>

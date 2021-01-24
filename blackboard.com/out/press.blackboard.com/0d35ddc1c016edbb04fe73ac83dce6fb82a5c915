@@ -1,0 +1,1171 @@
+https://press.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: press.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Cf-Ray: 60c52a4ac93431fa-BOM
+< Content-Type: text/html; charset=UTF-8
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Set-Cookie: __cfduid=d860b6b925748e81fffafa40bf61d02261609765464; expires=Wed, 03-Feb-21 13:04:24 GMT; path=/; domain=.press.blackboard.com; HttpOnly; SameSite=Lax
+< Set-Cookie: PHPSESSID=pqpaphclnm4us3io0ha77648c1; path=/; secure; HttpOnly
+< Set-Cookie: __cfruid=197638aa8230583e0adcf20a2ee5da717bff6544-1609765466; path=/; domain=.press.blackboard.com; HttpOnly; Secure; SameSite=None
+< X-Ua-Compatible: IE=Edge
+< Cache-Control: public, no-cache
+< Cf-Request-Id: 076f18c2bc000031fa83bbd000000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Date: Mon, 04 Jan 2021 13:04:26 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+
+	<!DOCTYPE html>
+	<html dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# " class="no-js" lang="en">
+
+	<head>
+<!-- begin spin_special_output(head_start) -->
+<style type="text/css" wd_script_id="search_form_style">
+		.wd_search_form .wd_input_datepicker {
+			margin-right: 2px;
+		}
+		.wd_search_type_checkbox {
+			margin-left: 20px;
+		}
+		</style>
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js"></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js"></script>
+<script type="text/javascript" wd_script_id="search_form_script">
+			function wd_toggle_search_form(link, advanced) {
+				var $ = webDriver.jQuery;
+				var $container = $(link).closest(".wd_search_form_container");
+				var basic_form = $container.find(".wd_search_form_basic");
+				var basic_query = basic_form.find('input[name="query"]');
+				var advanced_form = $container.find(".wd_search_form_advanced");
+				var advanced_query = advanced_form.find('input[name="query"]');
+
+				if (advanced) {
+					advanced_query.val(basic_query.val());
+					advanced_form.show();
+					basic_form.hide();
+				} else {
+					basic_query.val(advanced_query.val());
+					basic_form.show();
+					advanced_form.hide();
+				}
+			}
+
+			function wd_toggle_search_type_checkboxes(radio) {
+				var $ = webDriver.jQuery;
+				var $radio = $(radio);
+				var all = $radio.val() == "All" ? $radio.is(":checked") : !$radio.is(":checked");
+				var $checkboxes = $radio.closest(".wd_form_field").find(".wd_search_type_checkbox");
+				$checkboxes.find('input[type="checkbox"]').prop("disabled", all);
+				$checkboxes.toggle(!all);
+			}
+
+			webDriver.jQuery(function ($) {
+				$('.wd_search_type_radio input[type="radio"]').each(function() {wd_toggle_search_type_checkboxes(this);});
+			});
+		</script>
+<script type="text/javascript">webDriver.push_jQuery();</script>
+<script type="text/javascript" src="js/jquery.touchwipe.min.js" wd_script_id="jquery.touchwipe.min.js"></script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="template teaser_list:newsfeed_releases:system style">
+.wd_newsfeed_releases-teaser .wd_date {
+	font-weight: bold;
+}
+.wd_newsfeed_releases-teaser .wd_title {
+	font-weight: bold;
+}
+.wd_newsfeed_releases-teaser .subscribe_link {
+	margin-bottom: 1em;
+}
+.wd_newsfeed_releases-teaser span.wd_subscribe_email-icon {  
+	font-size: 1.2em; 
+}</style>
+<style type="text/css" wd_script_id="featureboxes_style">
+		.wd_featurebox_icon {
+			display: inline;
+		}
+		.wd_featurebox_icon img {
+			vertical-align: middle;
+		}
+		div.wd_featurebox_group div.wd_tabs_wrapper {
+			border: none;
+			border-bottom: 1px solid #E1E1E1;
+			padding: 0 0 5px 0;
+		}
+		div.wd_featurebox_group div.wd_featurebox {
+			border: none;
+			padding: 8px 0 0 0;
+		}
+		div.wd_featurebox_group li.wd_tab {
+			float: none;
+			color: #666666;
+		}
+		div.wd_featurebox_group li.wd_tab-active {
+			border: none;
+			background-color: transparent;
+			color: #000000;
+			font-weight: bold;
+		}
+		div.wd_featurebox_group li.wd_tab-inactive {
+			cursor: auto;
+		}
+	</style>
+<script type="text/javascript">webDriver.pop_jQuery();</script>
+
+<!-- end spin_special_output(head_start) -->
+
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+		<script type="text/javascript">
+			var _elqQ = _elqQ || [];
+										  _elqQ.push(['elqSetSiteId', '2376']);
+										  _elqQ.push(['elqTrackPageView']);
+									
+										  (function () {
+											function async_load() {
+											  var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+											  s.src = '//img.en25.com/i/elqCfg.min.js';
+											  var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+											}
+											if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+											else if (window.attachEvent) window.attachEvent('onload', async_load);
+										  })();
+		</script>
+
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			(window.NREUM||(NREUM={})).loader_config={licenseKey:"752acdc9f5",applicationID:"288190740"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);
+		</script>
+		<script async="" src="js/js"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-1394520-1", {"groups":"default","anonymize_ip":true});
+		</script>
+
+		<link rel="apple-touch-icon-precomposed" href="icons/apple-touch-icon-57x57-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="icons/apple-touch-icon-72x72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="icons/apple-touch-icon-114x114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="icons/apple-touch-icon-144x144-precomposed.png">
+
+		<meta name="MobileOptimized" content="width">
+		<meta name="HandheldFriendly" content="true">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="icons/favicon.ico" type="image/vnd.microsoft.icon">
+
+		<title>
+			Blackboard News and Events Overview		</title>
+		
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta property="og:site_name" content="MediaRoom" />
+ <meta property="og:url" content="https://press.blackboard.com/overview" />
+
+			<link rel="stylesheet" media="all" href="css/css_JQyZ9StD4-4I5jikYtL8icbvn1b-f6xMTWUzpXDhKlc.css">
+			<link rel="stylesheet" media="all" href="css/css_FSL3eY0P2dAiA15WB4qJF1hbZbBwvh-KSKTpgZVYKzI.css">
+			<link rel="stylesheet" media="all" href="css/motion-ui.css">
+
+			<!--[if lte IE 8]>
+	<script src="js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+	<![endif]-->
+
+			<link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+			<link rel="alternate" href="https://press.blackboard.com/press-releases?pagetemplate=rss" type="application/rss+xml" title="MediaRoom">
+	
+<!-- begin spin_special_output(head_end) -->
+<link href="css/single_slider_responsive.css" type="text/css" rel="stylesheet" wd_script_id="single_slider_responsive.css">
+<script type="text/javascript" wd_script_id="single_slider_carousel_function">
+!function ($) {
+
+  "use strict"; // jshint ;_;
+
+
+  /* CSS TRANSITION SUPPORT (http://www.modernizr.com/)
+   * ======================================================= */
+
+  webDriver.jQuery(function ($) {
+
+    $.support.transition = (function () {
+
+      var transitionEnd = (function () {
+
+        var el = document.createElement("bootstrap")
+          , transEndEventNames = {
+               "WebkitTransition" : "webkitTransitionEnd"
+            ,  "MozTransition"    : "transitionend"
+            ,  "OTransition"      : "oTransitionEnd otransitionend"
+            ,  "transition"       : "transitionend"
+            }
+          , name
+
+        for (name in transEndEventNames){
+          if (el.style[name] !== undefined) {
+            return transEndEventNames[name]
+          }
+        }
+
+      }())
+
+      return transitionEnd && {
+        end: transitionEnd
+      }
+
+    })()
+
+  })
+
+}(webDriver.jQuery);
+
+!function ($) {
+
+  "use strict"; // jshint ;_;
+
+
+ /* CAROUSEL CLASS DEFINITION
+  * ========================= */
+
+  var Carousel = function (element, options) {
+    this.$element = $(element)
+    this.$indicators = this.$element.find(".single_slider_carousel_indicators")
+    this.options = options
+    this.options.pause == "hover" && this.$element
+      .on("mouseenter", $.proxy(this.pause, this))
+      .on("mouseleave", $.proxy(this.cycle, this))
+  }
+
+  Carousel.prototype = {
+
+    cycle: function (e) {
+      if (!e) this.paused = false
+      if (this.interval) clearInterval(this.interval);
+      this.options.interval
+        && !this.paused
+        && (this.interval = setInterval($.proxy(this.next, this), this.options.interval))
+      return this
+    }
+
+  , getActiveIndex: function () {
+      this.$active = this.$element.find(".item.active")
+      this.$items = this.$active.parent().children()
+      return this.$items.index(this.$active)
+    }
+
+  , to: function (pos) {
+      var activeIndex = this.getActiveIndex()
+        , that = this
+
+      if (pos > (this.$items.length - 1) || pos < 0) return
+
+      if (this.sliding) {
+        return this.$element.one("slid", function () {
+          that.to(pos)
+        })
+      }
+
+      if (activeIndex == pos) {
+        return this.pause().cycle()
+      }
+
+      return this.slide(pos > activeIndex ? "next" : "prev", $(this.$items[pos]))
+    }
+
+  , pause: function (e) {
+      if (!e) this.paused = true
+      if (this.$element.find(".next, .prev").length && $.support.transition.end) {
+        this.$element.trigger($.support.transition.end)
+        this.cycle(true)
+      }
+      clearInterval(this.interval)
+      this.interval = null
+      return this
+    }
+
+  , next: function () {
+      if (this.sliding) return
+      return this.slide("next")
+    }
+
+  , prev: function () {
+      if (this.sliding) return
+      return this.slide("prev")
+    }
+
+  , slide: function (type, next) {
+  	  if (!$.support.transition && this.$element.hasClass("slide")) { // block added for IE CSS3 transition support
+  	      this.$element.find(".item").stop(true, true); // finish animation and jump to end.
+  	  }
+      var $active = this.$element.find(".item.active")
+        , $next = next || $active[type]()
+        , isCycling = this.interval
+        , direction = type == "next" ? "left" : "right"
+        , fallback  = type == "next" ? "first" : "last"
+        , that = this
+        , e = $.Event("slide")
+
+      this.sliding = true
+
+      isCycling && this.pause()
+
+      $next = $next.length ? $next : this.$element.find(".item")[fallback]()
+
+      e = $.Event("slide", {
+        relatedTarget: $next[0]
+      , direction: direction
+      })
+
+      if ($next.hasClass("active")) return
+
+      if (this.$indicators.length) {
+        this.$indicators.find(".active").removeClass("active")
+        this.$element.one("slid", function () {
+          var $nextIndicator = $(that.$indicators.children()[that.getActiveIndex()])
+          $nextIndicator && $nextIndicator.addClass("active")
+        })
+      }
+
+      if ($.support.transition && this.$element.hasClass("slide")) {
+        this.$element.trigger(e)
+        if (e.isDefaultPrevented()) return
+        $next.addClass(type)
+        $next[0].offsetWidth // force reflow
+        $active.addClass(direction)
+        $next.addClass(direction)
+        this.$element.one($.support.transition.end, function () {
+          $next.removeClass([type, direction].join(" ")).addClass("active")
+          $active.removeClass(["active", direction].join(" "))
+          that.sliding = false
+          setTimeout(function () { that.$element.trigger("slid") }, 0)
+        })
+      } else if(!$.support.transition && this.$element.hasClass("slide")) { // block added for IE CSS3 transition support
+        this.$element.trigger(e)
+        if (e.isDefaultPrevented()) return
+        $active.animate({left: (direction == "right" ? "100%" : "-100%")}, 600, function(){
+            $active.removeClass("active")
+            that.sliding = false
+            setTimeout(function () { that.$element.trigger("slid") }, 0)
+        })
+        $next.addClass(type).css({left: (direction == "right" ? "-100%" : "100%")}).animate({left: "0"}, 600,  function(){
+            $next.removeClass(type).addClass("active")
+        })
+       } else {
+        this.$element.trigger(e)
+        if (e.isDefaultPrevented()) return
+        $active.removeClass("active")
+        $next.addClass("active")
+        this.sliding = false
+        this.$element.trigger("slid")
+      }
+
+      isCycling && this.cycle()
+
+      return this
+    }
+
+  }
+
+ /* CAROUSEL PLUGIN DEFINITION
+  * ========================== */
+
+  var old = $.fn.carousel
+
+  $.fn.carousel = function (option) {
+    return this.each(function () {
+      var $this = $(this)
+        , data = $this.data("carousel")
+        , options = $.extend({}, $.fn.carousel.defaults, typeof option == "object" && option)
+        , action = typeof option == "string" ? option : options.slide
+      if (!data) $this.data("carousel", (data = new Carousel(this, options)))
+      if (typeof option == "number") data.to(option)
+      else if (action) data[action]()
+      else if (options.interval) data.cycle()
+    })
+  }
+
+  $.fn.carousel.defaults = {
+    interval: 5000
+  , pause: "hover"
+  }
+
+  $.fn.carousel.Constructor = Carousel
+
+
+ /* CAROUSEL NO CONFLICT
+  * ==================== */
+
+  $.fn.carousel.noConflict = function () {
+    $.fn.carousel = old
+    return this
+  }
+
+ /* CAROUSEL DATA-API
+  * ================= */
+
+  $(document).on(("ontouchend" in document.documentElement) ? "touchend.carousel.data-api" : "click.carousel.data-api", "[data-slide], [data-slide-to]", function (e) {
+    var $this = $(this), href
+      , $target = $($this.attr("data-target") || (href = $this.attr("href")) && href.replace(/.*(?=#[^\s]+$)/, "")) //strip for ie7
+      , options = $.extend({}, $target.data(), $this.data())
+      , slideIndex
+      
+    $target.carousel(options)
+        
+    if (slideIndex = $this.attr("data-slide-to")) {
+      $target.data("carousel").pause().to(slideIndex).cycle()
+    }
+    
+    e.preventDefault()
+  })
+
+}(webDriver.jQuery);
+</script>
+<link rel="canonical" href="https://press.blackboard.com/" />
+<!-- end spin_special_output(head_end) -->
+<script async src='/cdn-cgi/bm/cv/669835187/api.js'></script></head>
+
+	<body class="language-dir-ltr language-en wd_pageid_20303" cz-shortcut-listen="true">
+
+		<a href="#main-content" class="visually-hidden focusable">
+	  Skip to main content
+	</a>
+
+		<div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+
+			<div class="layout-container">
+
+				<header role="banner" class="bb_header">
+					<div class="bb_header--mobile" data-responsive-toggle="bb_header-menu-toggle" data-hide-for="large">
+						<div class="bb_header--mobile__logo">
+							<a href="https://www.blackboard.com/">
+							<svg role="img" focusable="no" class="Signature" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 17.68">
+								<defs><style>.cls-1{fill:#fefefe;}</style></defs>
+								<path d="M13,5a4,4,0,0,1-2.39,3.74c1.95.67,3.31,1.79,3.31,4.08,0,3-2.45,4.6-6.17,4.6H0V.71H7.48C10.84.71,13,2.36,13,5ZM10,5.46C10,4.1,9,3.31,7.1,3.31H2.88V7.74h4C8.77,7.74,10,7,10,5.46Zm.93,7c0-1.43-1.12-2.26-3.43-2.26H2.88V14.8H7.74C9.75,14.8,11,14,11,12.49Z"></path><path d="M15.85,17.4V0h2.88V17.4Z"></path><path d="M29,17.4V15.85a5.09,5.09,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05A10.64,10.64,0,0,1,29,10.2V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.85,10.85,0,0,1,4.8-1c3.71,0,5.52,2,5.52,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.91,0,3.33-1.07,3.33-2.65Z"></path><path d="M39.92,17.68a6.43,6.43,0,0,1-6.51-6.52,6.5,6.5,0,0,1,6.53-6.61,6.27,6.27,0,0,1,5,2.17L43.18,8.65a4.22,4.22,0,0,0-3.26-1.57,3.78,3.78,0,0,0-3.62,4,3.83,3.83,0,0,0,3.76,4.07,4.44,4.44,0,0,0,3.27-1.57l1.74,1.71A6.36,6.36,0,0,1,39.92,17.68Z"></path><path d="M58.29,17.4H55L51.17,12,49.41,13.8v3.6H46.52V0h2.89V10.39l5.21-5.58h3.51l-5,5.13Z"></path><path d="M67,17.66a5.12,5.12,0,0,1-4.26-2.22v2H59.84V0h2.89V6.91A5,5,0,0,1,67,4.55c3,0,5.87,2.36,5.87,6.56S70,17.66,67,17.66ZM66.33,7.05a3.8,3.8,0,0,0-3.68,4.06,3.79,3.79,0,0,0,3.68,4.05c2,0,3.59-1.55,3.59-4.05S68.28,7.05,66.33,7.05Z"></path><path d="M80.6,17.68a6.51,6.51,0,0,1-6.67-6.52,6.71,6.71,0,1,1,6.67,6.52Zm0-10.6a3.79,3.79,0,0,0-3.79,4,3.89,3.89,0,0,0,3.84,4.07,3.79,3.79,0,0,0,3.81-4A3.9,3.9,0,0,0,80.6,7.08Z"></path><path d="M96.78,17.4V15.85a5.07,5.07,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05a10.64,10.64,0,0,1,3.48.52V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.84,10.84,0,0,1,4.79-1c3.72,0,5.54,2,5.54,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.9,0,3.33-1.07,3.33-2.65Z"></path><path d="M104.77,17.4h-2.88V4.81h2.88V7.65a4.45,4.45,0,0,1,4.46-3.07V7.63h-.17c-2.53,0-4.29,1.64-4.29,5Z"></path><path d="M119.67,17.4V15.3a5,5,0,0,1-4.29,2.36c-3,0-5.84-2.36-5.84-6.55s2.83-6.56,5.84-6.56a5.22,5.22,0,0,1,4.29,2.22V0h2.88V17.4Zm-3.6-10.35c-2,0-3.63,1.53-3.63,4.06a3.74,3.74,0,0,0,3.63,4.05,3.79,3.79,0,0,0,3.64-4.05A3.79,3.79,0,0,0,116.07,7.05Z"></path><path d="M126,1a1,1,0,1,1-1-1A1,1,0,0,1,126,1Zm-1.83,0a.82.82,0,0,0,.81.82.83.83,0,1,0-.81-.82Zm.88-.54c.27,0,.39.1.39.33a.27.27,0,0,1-.12.23c.08.05.09.08.1.28s0,.2.07.24h-.3a.42.42,0,0,1,0-.18c0-.22,0-.23-.16-.23h-.18v.41h-.25V.48Zm-.23.46H125c.13,0,.17,0,.17-.12s0-.12-.17-.12h-.19Z"></path>
+							</svg>
+								<span class="show-for-sr">Blackboard Newsroom</span>
+							</a>
+						</div>
+						<div class="bb_header--mobile__toggle" data-toggle="bb_header-menu-toggle">
+							<i class="fas fa-bars"></i>
+						</div>
+						<div class="bb_header--mobile__menu" id="bb_header-menu-toggle">
+							<div>
+								<div id="block-bbgroupsearch-3">
+									<div class="bb_header__menu__search wd_fullsite-search">
+										<div class="wd_fullsite-search-icon"></div>
+										<div class="wd_search_form_container"><form name="basic_search" method="get" action="https://press.blackboard.com/index.php?s=20322" class="wd_search_form wd_search_form_basic"><input type="hidden" name="s" value="search_results" /><input type="text" name="query" value="" size="32" placeholder="Search News" title="Search News" /> <input type="submit" name="submit" value="Submit"></form>
+</div>											<!-- END SITE SEARCH -->
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<div>
+									<div class="menu main" id="block-currentmenuprimarynavigation-2">
+
+										<nav aria-labelledby="currentmenuprimarynavigation_2">
+											<h2 id="currentmenuprimarynavigation_2" class="show-for-sr">Main Menu</h2>
+
+											<!-- Mobile Menu -->
+
+											<ul class="bb_component--menu--main menu menu-level-0" data-responsive-menu="accordion large-dropdown" data-hide-for="large">
+<li class=""><a href="https://press.blackboard.com/overview" target="_self">Overview</a></li>
+<li class=""><a href="https://press.blackboard.com/press-releases" target="_self">Press Releases</a></li>
+<li class=""><a href="https://press.blackboard.com/in-the-news" target="_self">In the News</a></li>
+<li class=""><a href="https://www.blackboard.com/events" target="_self">Blackboard Events</a></li>
+</ul>
+
+										</nav>
+
+									</div>
+
+								</div>
+
+							</div>
+							<div class="bb_header--mobile__menu__menu-secondary">
+								<div>
+									<div class="menu secondary" id="block-currentmenusecondarynavigation-2">
+
+										<nav aria-labelledby="">
+											<h2 id="" class="show-for-sr">Audience Menu</h2>
+											<ul class="menu vertical large-horizontal bb_component--menu--secondary" data-dropdown-menu="">
+												<li>
+													<a href="https://www.blackboard.com/about-us">About</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/about-us/leadership">Leadership</a>
+												</li>
+												<li>
+													<a href="https://blog.blackboard.com/">Blog</a>
+												</li>
+											</ul>
+										</nav>
+
+									</div>
+
+								</div>
+
+								<div>
+
+									<!-- 								<nav aria-labelledby="regionselector_2">
+									<ul id="block-regionselector-2" class="menu bb_component--menu--secondary bb_component--menu-region-selector" data-responsive-menu="accordion large-dropdown">
+										<li>
+											<a href="#" id="regionselector_2">Region</a>
+											<ul class="menu" data-no-home-link="1">
+												<li>
+													<a href="https://www.blackboard.com/" data-drupal-link-system-path="&lt;front&gt;">North America (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/es-lac" data-drupal-link-system-path="group/131">América Latina y el Caribe (Español)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/en-apac" data-drupal-link-system-path="group/136">Asia Pacific (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/en-eu" data-drupal-link-system-path="group/156">Europe (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/en-uk" data-drupal-link-system-path="group/111">United Kingdom (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/en-mea" data-drupal-link-system-path="group/141">Middle East &amp; Africa (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/ar-sa" data-drupal-link-system-path="group/121">المملكة العربية السعودية عربى</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/ko-kr" data-drupal-link-system-path="group/81"> 대한민국 (한국어)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/ja-jp" data-drupal-link-system-path="group/11">日本 (日本語)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/en-afr" data-drupal-link-system-path="group/151">Africa (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/pt-br" data-drupal-link-system-path="group/96">Brasil (Português)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/es-es" data-drupal-link-system-path="group/71">España (Español)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/de-de" data-drupal-link-system-path="group/101">Deutschland (Deutsch)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/fr-fr" data-drupal-link-system-path="group/106">France (Français)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/it-it" data-drupal-link-system-path="group/76">Italia (Italiano)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/en-me" data-drupal-link-system-path="group/91">Middle East (English)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/pl-pl" data-drupal-link-system-path="group/86">Polska (Polski)</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/tr-tr" data-drupal-link-system-path="group/116">Türkiye (Türkçe)</a>
+												</li>
+											</ul>
+
+										</li>
+									</ul>
+								</nav> -->
+
+									<div class="menu service" id="block-currentmenuservicenavigation-2">
+
+										<!-- 									<nav aria-labelledby="">
+										<h2 id="" class="show-for-sr">Service Menu</h2>
+										<ul class="menu vertical large-horizontal bb_component--menu--secondary" data-dropdown-menu="">
+											<li>
+												<a href="https://community.blackboard.com/" target="_blank">Community</a>
+											</li>
+											<li>
+												<a href="https://www.blackboard.com/forms/contact-us" data-drupal-link-system-path="node/401">Contact Us</a>
+											</li>
+											<li>
+												<a href="https://www.blackboard.com/partnerships" data-drupal-link-system-path="node/1006">Partnerships</a>
+											</li>
+										</ul>
+									</nav> -->
+
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="bb_header--desktop">
+						<div class="bb_header--desktop__sub-nav">
+							<div class="bb_component__contents">
+								<div class="bb_component__main-content">
+									<div class="bb_component__grid-item bb_header--desktop__sub-nav__inner">
+										<div class="bb_header--desktop__sub-nav__menu--secondary">
+											<div class="menu secondary" id="block-currentmenusecondarynavigation">
+
+												<nav aria-labelledby="">
+													<h2 id="" class="show-for-sr">Audience Menu</h2>
+													<ul class="menu vertical large-horizontal bb_component--menu--secondary" data-dropdown-menu="">
+														<li>
+															<a href="https://www.blackboard.com/about-us">About</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/about-us/leadership">Leadership</a>
+														</li>
+														<li>
+															<a href="https://blog.blackboard.com/">Blog</a>
+														</li>
+													</ul>
+												</nav>
+
+											</div>
+
+										</div>
+										<div class="bb_header--desktop__sub-nav__menu--service">
+
+											<!-- 										<nav aria-labelledby="regionselector">
+											<ul id="block-regionselector" class="menu bb_component--menu--secondary bb_component--menu-region-selector" data-responsive-menu="accordion large-dropdown">
+												<li>
+													<a href="#" id="regionselector">Region</a>
+													<ul class="menu" data-no-home-link="1">
+														<li>
+															<a href="https://www.blackboard.com/" data-drupal-link-system-path="&lt;front&gt;">North America (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/es-lac" data-drupal-link-system-path="group/131">América Latina y el Caribe (Español)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/en-apac" data-drupal-link-system-path="group/136">Asia Pacific (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/en-eu" data-drupal-link-system-path="group/156">Europe (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/en-uk" data-drupal-link-system-path="group/111">United Kingdom (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/en-mea" data-drupal-link-system-path="group/141">Middle East &amp; Africa (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/ar-sa" data-drupal-link-system-path="group/121">المملكة العربية السعودية عربى</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/ko-kr" data-drupal-link-system-path="group/81"> 대한민국 (한국어)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/ja-jp" data-drupal-link-system-path="group/11">日本 (日本語)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/en-afr" data-drupal-link-system-path="group/151">Africa (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/pt-br" data-drupal-link-system-path="group/96">Brasil (Português)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/es-es" data-drupal-link-system-path="group/71">España (Español)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/de-de" data-drupal-link-system-path="group/101">Deutschland (Deutsch)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/fr-fr" data-drupal-link-system-path="group/106">France (Français)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/it-it" data-drupal-link-system-path="group/76">Italia (Italiano)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/en-me" data-drupal-link-system-path="group/91">Middle East (English)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/pl-pl" data-drupal-link-system-path="group/86">Polska (Polski)</a>
+														</li>
+														<li>
+															<a href="https://www.blackboard.com/tr-tr" data-drupal-link-system-path="group/116">Türkiye (Türkçe)</a>
+														</li>
+													</ul>
+
+												</li>
+											</ul>
+										</nav> -->
+
+											<div class="menu service" id="block-currentmenuservicenavigation">
+
+												<!-- 											<nav aria-labelledby="">
+												<h2 id="" class="show-for-sr">Service Menu</h2>
+												<ul class="menu vertical large-horizontal bb_component--menu--secondary" data-dropdown-menu="">
+													<li>
+														<a href="https://community.blackboard.com/" target="_blank">Community</a>
+													</li>
+													<li>
+														<a href="https://www.blackboard.com/forms/contact-us" data-drupal-link-system-path="node/401">Contact Us</a>
+													</li>
+													<li>
+														<a href="https://www.blackboard.com/partnerships" data-drupal-link-system-path="node/1006">Partnerships</a>
+													</li>
+												</ul>
+											</nav> -->
+
+											</div>
+
+											<div>
+												<div id="block-bbgroupsearch-2">
+
+													<div class="bb_header__menu__search wd_fullsite-search">
+														<div class="wd_fullsite-search-icon"></div><div class="wd_search_form_container"><form name="basic_search" method="get" action="https://press.blackboard.com/index.php?s=20322" class="wd_search_form wd_search_form_basic"><input type="hidden" name="s" value="search_results" /><input type="text" name="query" value="" size="32" placeholder="Search News" title="Search News" /> <input type="submit" name="submit" value="Submit"></form>
+</div>															<!-- END SITE SEARCH -->
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="bb_header--desktop__primary-nav">
+							<div class="bb_component__contents">
+								<div class="bb_component__main-content">
+									<div class="bb_component__grid-item bb_header--desktop__primary-nav__inner">
+										<div class="bb_header--desktop__primary-nav__logo">
+											<a href="https://www.blackboard.com/">
+												<svg role="img" focusable="no" class="Signature" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 17.68">
+  <defs><style>.cls-1{fill:#231f20;}</style></defs>
+  <path d="M13,5a4,4,0,0,1-2.39,3.74c1.95.67,3.31,1.79,3.31,4.08,0,3-2.45,4.6-6.17,4.6H0V.71H7.48C10.84.71,13,2.36,13,5ZM10,5.46C10,4.1,9,3.31,7.1,3.31H2.88V7.74h4C8.77,7.74,10,7,10,5.46Zm.93,7c0-1.43-1.12-2.26-3.43-2.26H2.88V14.8H7.74C9.75,14.8,11,14,11,12.49Z"></path><path d="M15.85,17.4V0h2.88V17.4Z"></path><path d="M29,17.4V15.85a5.09,5.09,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05A10.64,10.64,0,0,1,29,10.2V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.85,10.85,0,0,1,4.8-1c3.71,0,5.52,2,5.52,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.91,0,3.33-1.07,3.33-2.65Z"></path><path d="M39.92,17.68a6.43,6.43,0,0,1-6.51-6.52,6.5,6.5,0,0,1,6.53-6.61,6.27,6.27,0,0,1,5,2.17L43.18,8.65a4.22,4.22,0,0,0-3.26-1.57,3.78,3.78,0,0,0-3.62,4,3.83,3.83,0,0,0,3.76,4.07,4.44,4.44,0,0,0,3.27-1.57l1.74,1.71A6.36,6.36,0,0,1,39.92,17.68Z"></path><path d="M58.29,17.4H55L51.17,12,49.41,13.8v3.6H46.52V0h2.89V10.39l5.21-5.58h3.51l-5,5.13Z"></path><path d="M67,17.66a5.12,5.12,0,0,1-4.26-2.22v2H59.84V0h2.89V6.91A5,5,0,0,1,67,4.55c3,0,5.87,2.36,5.87,6.56S70,17.66,67,17.66ZM66.33,7.05a3.8,3.8,0,0,0-3.68,4.06,3.79,3.79,0,0,0,3.68,4.05c2,0,3.59-1.55,3.59-4.05S68.28,7.05,66.33,7.05Z"></path><path d="M80.6,17.68a6.51,6.51,0,0,1-6.67-6.52,6.71,6.71,0,1,1,6.67,6.52Zm0-10.6a3.79,3.79,0,0,0-3.79,4,3.89,3.89,0,0,0,3.84,4.07,3.79,3.79,0,0,0,3.81-4A3.9,3.9,0,0,0,80.6,7.08Z"></path><path d="M96.78,17.4V15.85a5.07,5.07,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05a10.64,10.64,0,0,1,3.48.52V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.84,10.84,0,0,1,4.79-1c3.72,0,5.54,2,5.54,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.9,0,3.33-1.07,3.33-2.65Z"></path><path d="M104.77,17.4h-2.88V4.81h2.88V7.65a4.45,4.45,0,0,1,4.46-3.07V7.63h-.17c-2.53,0-4.29,1.64-4.29,5Z"></path><path d="M119.67,17.4V15.3a5,5,0,0,1-4.29,2.36c-3,0-5.84-2.36-5.84-6.55s2.83-6.56,5.84-6.56a5.22,5.22,0,0,1,4.29,2.22V0h2.88V17.4Zm-3.6-10.35c-2,0-3.63,1.53-3.63,4.06a3.74,3.74,0,0,0,3.63,4.05,3.79,3.79,0,0,0,3.64-4.05A3.79,3.79,0,0,0,116.07,7.05Z"></path><path d="M126,1a1,1,0,1,1-1-1A1,1,0,0,1,126,1Zm-1.83,0a.82.82,0,0,0,.81.82.83.83,0,1,0-.81-.82Zm.88-.54c.27,0,.39.1.39.33a.27.27,0,0,1-.12.23c.08.05.09.08.1.28s0,.2.07.24h-.3a.42.42,0,0,1,0-.18c0-.22,0-.23-.16-.23h-.18v.41h-.25V.48Zm-.23.46H125c.13,0,.17,0,.17-.12s0-.12-.17-.12h-.19Z"></path>
+</svg>
+												<span class="show-for-sr">Blackboard home</span>
+											</a>
+											<!-- <div class="wd_site-title">News</div> -->
+										</div>
+										<!-- 									<div class="bb_header--desktop__primary-nav__cta">
+										<div>
+											<div id="block-currentgroupcta">
+
+												<a href="https://www.blackboard.com/try" class="bb_cta--solid">Try Blackboard</a>
+
+											</div>
+
+										</div>
+									</div> -->
+										<div class="bb_header--desktop__primary-nav__menu">
+											<div>
+												<div class="menu main" id="block-currentmenuprimarynavigation">
+
+													<nav aria-labelledby="currentmenuprimarynavigation">
+														<h2 id="currentmenuprimarynavigation" class="show-for-sr">Main Menu</h2>
+
+														<!-- Desktop Menu -->
+
+														<ul class="bb_component--menu--main menu menu-level-0" data-responsive-menu="accordion large-dropdown" data-hide-for="large">
+<li class=""><a href="https://press.blackboard.com/overview" target="_self">Overview</a></li>
+<li class=""><a href="https://press.blackboard.com/press-releases" target="_self">Press Releases</a></li>
+<li class=""><a href="https://press.blackboard.com/in-the-news" target="_self">In the News</a></li>
+<li class=""><a href="https://www.blackboard.com/events" target="_self">Blackboard Events</a></li>
+</ul>
+
+													</nav>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+				<main role="main">
+<!-- 					<div>
+						<div data-drupal-messages-fallback="" class="hidden"></div>
+
+					</div> -->
+
+					<a id="main-content" tabindex="-1"></a>
+					<div class="layout-content">
+						<div>
+							<div id="block-blackboard-content">
+
+								<article role="article" about="/about-us" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
+
+									<span property="schema:name" content="About Us" class="hidden"></span>
+
+									<div class="node__content">
+
+										<!-- Homepage Slideshow -->
+										
+											<div class="paragraph paragraph--type--header-background-image paragraph--view-mode--default bb_theme--palette-black bb_component--header-background-image wd_slideshow" style="background-image: url('/image/christian-wiediger-WkfDrhxDMC8-unsplash.jpg')">
+												<div class="wd_overlay">
+													<div class="wd_slideshow-container">
+														
+	<div id="single_slider_responsive" class="single_slider_carousel slide">
+		<ol class="single_slider_carousel_indicators">
+			<li data-target="#single_slider_responsive" data-slide-to="0"><span></span></li><li data-target="#single_slider_responsive" data-slide-to="1"><span></span></li><li data-target="#single_slider_responsive" data-slide-to="2"><span></span></li>		</ol>
+		<div class="single_slider_carousel_container">
+			<div class="single_slider_carousel_inner">
+			<div class="item"><a href="https://press.blackboard.com/2020-09-09-K-12-School-Closures-and-the-Sudden-Shift-to-Remote-Learning-Exposes-Existing-Inequities-in-Education" target="_blank">https://press.blackboard.com/2020-09-09-K-12-School-Closures-and-the-Sudden-Shift-to-Remote-Learning-Exposes-Existing-Inequities-in-Education</a><div class="single_slider_carousel_caption"><h4><a href="https://press.blackboard.com/2020-09-09-K-12-School-Closures-and-the-Sudden-Shift-to-Remote-Learning-Exposes-Existing-Inequities-in-Education" target="_blank">K-12 School Closures and the Sudden Shift to Remote Learning Exposes Existing Inequities in Education</a></h4><p class="single_slider_carousel_description">New report documents differences in students’ learning experiences in school and at home
+
+<p class="more-white"><a href="https://press.blackboard.com/2020-09-09-K-12-School-Closures-and-the-Sudden-Shift-to-Remote-Learning-Exposes-Existing-Inequities-in-Education">Read More</a></p</p></div></div><div class="item"><a href="https://www.usnews.com/education/best-colleges/articles/useful-apps-for-college-students" target="_blank">https://www.usnews.com/education/best-colleges/articles/useful-apps-for-college-students</a><div class="single_slider_carousel_caption"><h4><a href="https://www.usnews.com/education/best-colleges/articles/useful-apps-for-college-students" target="_blank">12 Useful Apps for College Students</a></h4><p class="single_slider_carousel_description"><i>U.S. News &amp; World Report</i><br>
+Students can use these apps for taking notes, managing time and staying up to date on campus news.
+
+
+
+<p class="more-white"><a href="https://www.usnews.com/education/best-colleges/articles/useful-apps-for-college-students">Read More</a></p</p></div></div><div class="item"><a href="https://www.spokesman.com/stories/2020/jun/10/for-washington-state-virtual-learning-has-taken-pr/" target="_blank">https://www.spokesman.com/stories/2020/jun/10/for-washington-state-virtual-learning-has-taken-pr/</a><div class="single_slider_carousel_caption"><h4><a href="https://www.spokesman.com/stories/2020/jun/10/for-washington-state-virtual-learning-has-taken-pr/" target="_blank">For Washington State, virtual learning has taken precedent in an unprecedented manner</a></h4><p class="single_slider_carousel_description"><i>The Spokesman-Review</i><br>
+
+<p class="more-white"><a href="https://www.spokesman.com/stories/2020/jun/10/for-washington-state-virtual-learning-has-taken-pr/">Read More</a></p</p></div></div>			</div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="single_slider_carousel_control left" href="#single_slider_responsive" data-slide="prev">&lsaquo;</a>
+		<a class="single_slider_carousel_control right" href="#single_slider_responsive" data-slide="next">&rsaquo;</a>
+	</div>
+	<div class="single_slider_carousel_bottom"></div>
+													</div>
+												</div>
+											</div>
+											
+													<!-- @todo: remove the include here -->
+
+													<div class="paragraph paragraph--type--events paragraph--view-mode--default bb_component--events wd_content-wrapper">
+														<div class="bb_component--events__cvent-embed wd_container">
+															<div class="wd_content">
+																
+																<div class="wd_fb-wrap wd_top-fb">
+																	<div class="wd_featureboxes_top_left wd_featureboxes-horizontal">
+<div id="wd_featurebox-teaser_825" class="wd_featurebox_container wd_featurebox-teaser"><div class="wd_featurebox_title">Latest News</div><div class="wd_featurebox">
+<div class="wd_newsfeed_releases-teaser">
+<div class="subscribe_link"><a href="https://press.blackboard.com/email-alerts"><span class="wd_subscribe_email-icon fa fa-envelope-o"></span></a> <a href="https://press.blackboard.com/email-alerts">Email Alerts</a></div>
+
+	
+		<div class="item">
+			
+			<div class="wd_date">December 15, 2020</div>
+			<div class="wd_title"><a href="https://press.blackboard.com/2020-12-15-New-report-How-the-pandemic-is-driving-a-shift-in-student-directed-learning-and-agency">New report: How the pandemic is driving a shift in student-directed learning and agency  </a></div>
+			<div class="wd_summary"><p>IRVINE, CA – Project Tomorrow, a national, education nonprofit supporting the implementation of research-based learning experiences, and Blackboard, a leading EdTech software and solutions company, today released the final installment in a series of reports...</p></div>
+		</div>
+	
+		<div class="item">
+			
+			<div class="wd_date">December 14, 2020</div>
+			<div class="wd_title"><a href="https://press.blackboard.com/2020-12-14-Cairo-University-Selects-Blackboard-to-Enhance-its-Digital-Teaching-and-Learning-Infrastructure">Cairo University Selects Blackboard to Enhance its Digital Teaching and Learning Infrastructure</a></div>
+			<div class="wd_summary"><p>CAIRO, 14 December 2020 -- Blackboard Inc., a leading global EdTech software and solutions company, today announced that it has partnered with Cairo University, a leading university in Egypt, to...</p></div>
+		</div>
+	
+		<div class="item">
+			
+			<div class="wd_date">December 10, 2020</div>
+			<div class="wd_title"><a href="https://press.blackboard.com/2020-12-10-St-Dominic-College-of-Asia-selects-Blackboard-Learn-to-Improve-Online-Learning">St. Dominic College of Asia selects Blackboard Learn to Improve Online Learning</a></div>
+			<div class="wd_summary"><p>[CAVITE], PHILIPPINES, 10 December, 2020 – Blackboard Inc., a leading EdTech software and solutions company, today announced that St. Dominic College of Asia has selected the company’s leading...</p></div>
+		</div>
+	
+
+
+</div>
+<p class="more"><a href="https://press.blackboard.com/press-releases">All Releases</a></p>
+</div></div></div>
+																	<div class="wd_divider"></div>
+																	<div class="wd_featureboxes_top_right wd_featureboxes-vertical">
+<div id="wd_featurebox-teaser_1377" class="wd_featurebox_container wd_featurebox-teaser"><div class="wd_featurebox_title">In the News</div><div class="wd_featurebox">
+<div class="wd_news_headlines-teaser">
+<div class="item"><div class="item_date">September 21, 2020</div><div class="item_name"><a href="https://aws.amazon.com/blogs/big-data/bringing-the-power-of-embedded-analytics-to-your-apps-and-services-with-amazon-quicksight/" target="_blank">Bringing the power of embedded analytics to your apps and services with Amazon QuickSight</a></div></div>
+<div class="item"><div class="item_date">September 06, 2020</div><div class="item_name"><a href="https://womenlovetech.com/blackboard-is-a-must-know-enterprise-learning-management-system/" target="_blank">Blackboard is a Must-Know Enterprise Learning Management System</a></div></div>
+<div class="item"><div class="item_date">September 03, 2020</div><div class="item_name"><a href="https://www.localsyr.com/back-to-school/scsd-su-team-up-to-help-train-teachers-on-virtual-learning/" target="_blank">SCSD, SU team up to help train teachers on virtual learning</a></div></div>
+
+</div>
+<p class="more"><a href="https://press.blackboard.com/in-the-news">More News</a></p>
+</div></div></div>
+																</div>
+																
+																<div id="wd_printable_content">
+<div class="wd_standard">
+
+</div>
+</div>																</div>
+																<!-- END CONTENT -->
+
+																																<div class="wd_fb-wrap wd_middle-fb">
+																	<div class="wd_featureboxes_middle wd_featureboxes-horizontal">
+<div id="wd_featurebox-rss_454" class="wd_featurebox_container wd_featurebox-rss"><div class="wd_featurebox_title">Latest Blog Posts</div><div class="wd_featurebox">
+				<script language="javascript">
+					var featurebox_rss_ids = new Array();
+					var featurebox_rss_old_onload = window.onload;
+
+					function featurebox_rss_schedule() {
+						if (typeof featurebox_rss_old_onload == "function")
+								featurebox_rss_old_onload();
+
+						for (var i = 0; i < featurebox_rss_ids.length; i++)
+							featurebox_rss_request(i, featurebox_rss_ids[i]);
+					}
+
+					window.onload = featurebox_rss_schedule;
+
+					function featurebox_rss_update(request, index, id) {
+						// ready state and "OK" status
+						if (request.readyState == 4 && request.status == 200) {
+							var rss_html = request.responseText;
+							var rss_div = document.getElementById("featurebox_rss_" + index);
+							if (rss_div)
+								rss_div.innerHTML = rss_html;
+						}
+					}
+
+					function featurebox_rss_request(index, id) {
+						var request;
+
+						if (window.XMLHttpRequest) {
+							request = new XMLHttpRequest();
+							if (request.overrideMimeType)
+								request.overrideMimeType("text/xml");
+						} else if (window.ActiveXObject) {
+							request = new ActiveXObject("Microsoft.XMLHTTP");
+						}
+
+						if (!request)
+							return;
+
+						var url = "index.php?ajax=featureboxes_rss_ajax&ITEM="+id;
+
+						request.onreadystatechange = function (){featurebox_rss_update(request,index,id);};
+						request.open("GET", url, true);
+						request.send(null);
+					}
+
+				</script>
+			
+			<div id="featurebox_rss_0">
+				Loading...
+			</div>
+			<script language="javascript">
+				featurebox_rss_ids[0] = 454;
+			</script>
+		<p class="more"><a href="http://blog.blackboard.com/">More At Blackboard Blog</a></p>
+</div></div></div>
+																</div>
+																
+																																<div class="wd_fb-wrap wd_bottom-fb">
+																	<div class="wd_featureboxes_bottom_left wd_featureboxes-vertical">
+<div id="wd_featurebox-standard_2350" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Media Gallery</div><div class="wd_featurebox"><p><iframe allowfullscreen="" frameborder="0" height="191" src="https://www.youtube.com/embed/jcvAQ0wEY-A" width="340"></iframe></p>
+
+<p>Blackboard: Education&rsquo;s Global Partner in Change</p>
+
+<p>Oct 25, 2017</p>
+</div></div><div id="wd_featurebox-standard_3515" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Media Gallery 2</div><div class="wd_featurebox"><p><iframe allowfullscreen="" frameborder="0" height="191" src="https://www.youtube.com/embed/pQZa0UrKn1Y" width="340"></iframe></p>
+
+<p>Building Blackboard Collaborate with an Accessibility-First Approach with the University of Montana.</p>
+
+<p>Aug 27, 2017</p>
+</div></div><div id="wd_featurebox-standard_3516" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Media Gallery 3</div><div class="wd_featurebox"><p><iframe allowfullscreen="" frameborder="0" height="191" src="https://www.youtube.com/embed/R905cyDYZhE" width="340"></iframe></p>
+
+<p>Check out the BbWorld 2017 recap</p>
+
+<p>Oct 5, 2017</p>
+</div></div><div id="wd_featurebox-standard_3517" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Media Gallery 4</div><div class="wd_featurebox"><p><iframe allowfullscreen="" frameborder="0" height="191" src="https://www.youtube.com/embed/Qya2MrXNA1o" width="340"></iframe></p>
+
+<p>Blackboard Collaborate: A one click virtual classroom</p>
+
+<p>Feb 2, 2017</p>
+</div></div></div>
+																	<div class="wd_featureboxes_bottom_right wd_featureboxes-vertical">
+<div id="wd_featurebox-standard_3512" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Media Contacts</div><div class="wd_featurebox"><p>D&rsquo;Anthony White<br />
+<a href="mailto:danthony.white@blackboard.com">danthony.white@blackboard.com</a><br />
+&nbsp;</p>
+
+<p>Phil Johnson<br />
+<a href="mailto:phil.johnson@blackboard.com">phil.johnson@blackboard.com</a><br />
+&nbsp;</p>
+
+<p>Please email general press inquiries to <a href="mailto:press@blackboard.com">press@blackboard.com</a> or call 202-303-9314.<br />
+&nbsp;</p>
+</div></div></div>
+																</div>
+																
+																</div>
+																<!-- END CONTENT-WRAPPER -->
+																</div>
+																</div>
+																</div>
+
+																																<div class="paragraph paragraph--type--cta-area paragraph--view-mode--default bb_theme--palette-black bb_component--cta-area">
+																	<div class="bb_component__contents">
+																		<div class="bb_component__main-content">
+																			<div class="wd_featureboxes_subscribe wd_featureboxes-horizontal">
+<div id="wd_featurebox-standard_3510" class="wd_featurebox_container wd_featurebox-standard"><div class="wd_featurebox_title">Subscribe to receive the latest Blackboard news</div><div class="wd_featurebox"><p class="more-yellow"><a href="email-alerts">SUBSCRIBE NOW</a></p>
+</div></div></div>
+																		</div>
+																	</div>
+																</div>
+																
+						</div>
+
+						</article>
+
+					</div>
+
+			</div>
+		</div>
+		</main>
+
+		<footer role="contentinfo" class="bb_footer">
+			<div class="bb_footer__contents">
+				<div class="bb_component__main-content">
+					<div class="bb_component__grid-item">
+						<div class="bb_footer__top">
+							<div class="bb_footer__logo">
+								<a href="https://www.blackboard.com/">
+									<svg role="img" focusable="no" class="Signature" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 17.68">
+  <defs><style>.cls-1{fill:#231f20;}</style></defs>
+  <path d="M13,5a4,4,0,0,1-2.39,3.74c1.95.67,3.31,1.79,3.31,4.08,0,3-2.45,4.6-6.17,4.6H0V.71H7.48C10.84.71,13,2.36,13,5ZM10,5.46C10,4.1,9,3.31,7.1,3.31H2.88V7.74h4C8.77,7.74,10,7,10,5.46Zm.93,7c0-1.43-1.12-2.26-3.43-2.26H2.88V14.8H7.74C9.75,14.8,11,14,11,12.49Z"></path><path d="M15.85,17.4V0h2.88V17.4Z"></path><path d="M29,17.4V15.85a5.09,5.09,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05A10.64,10.64,0,0,1,29,10.2V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.85,10.85,0,0,1,4.8-1c3.71,0,5.52,2,5.52,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.91,0,3.33-1.07,3.33-2.65Z"></path><path d="M39.92,17.68a6.43,6.43,0,0,1-6.51-6.52,6.5,6.5,0,0,1,6.53-6.61,6.27,6.27,0,0,1,5,2.17L43.18,8.65a4.22,4.22,0,0,0-3.26-1.57,3.78,3.78,0,0,0-3.62,4,3.83,3.83,0,0,0,3.76,4.07,4.44,4.44,0,0,0,3.27-1.57l1.74,1.71A6.36,6.36,0,0,1,39.92,17.68Z"></path><path d="M58.29,17.4H55L51.17,12,49.41,13.8v3.6H46.52V0h2.89V10.39l5.21-5.58h3.51l-5,5.13Z"></path><path d="M67,17.66a5.12,5.12,0,0,1-4.26-2.22v2H59.84V0h2.89V6.91A5,5,0,0,1,67,4.55c3,0,5.87,2.36,5.87,6.56S70,17.66,67,17.66ZM66.33,7.05a3.8,3.8,0,0,0-3.68,4.06,3.79,3.79,0,0,0,3.68,4.05c2,0,3.59-1.55,3.59-4.05S68.28,7.05,66.33,7.05Z"></path><path d="M80.6,17.68a6.51,6.51,0,0,1-6.67-6.52,6.71,6.71,0,1,1,6.67,6.52Zm0-10.6a3.79,3.79,0,0,0-3.79,4,3.89,3.89,0,0,0,3.84,4.07,3.79,3.79,0,0,0,3.81-4A3.9,3.9,0,0,0,80.6,7.08Z"></path><path d="M96.78,17.4V15.85a5.07,5.07,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05a10.64,10.64,0,0,1,3.48.52V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.84,10.84,0,0,1,4.79-1c3.72,0,5.54,2,5.54,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.9,0,3.33-1.07,3.33-2.65Z"></path><path d="M104.77,17.4h-2.88V4.81h2.88V7.65a4.45,4.45,0,0,1,4.46-3.07V7.63h-.17c-2.53,0-4.29,1.64-4.29,5Z"></path><path d="M119.67,17.4V15.3a5,5,0,0,1-4.29,2.36c-3,0-5.84-2.36-5.84-6.55s2.83-6.56,5.84-6.56a5.22,5.22,0,0,1,4.29,2.22V0h2.88V17.4Zm-3.6-10.35c-2,0-3.63,1.53-3.63,4.06a3.74,3.74,0,0,0,3.63,4.05,3.79,3.79,0,0,0,3.64-4.05A3.79,3.79,0,0,0,116.07,7.05Z"></path><path d="M126,1a1,1,0,1,1-1-1A1,1,0,0,1,126,1Zm-1.83,0a.82.82,0,0,0,.81.82.83.83,0,1,0-.81-.82Zm.88-.54c.27,0,.39.1.39.33a.27.27,0,0,1-.12.23c.08.05.09.08.1.28s0,.2.07.24h-.3a.42.42,0,0,1,0-.18c0-.22,0-.23-.16-.23h-.18v.41h-.25V.48Zm-.23.46H125c.13,0,.17,0,.17-.12s0-.12-.17-.12h-.19Z"></path>
+</svg>
+									<span class="show-for-sr">Blackboard home</span>
+								</a>
+							</div>
+							<div class="bb_footer__menu">
+								<div>
+									<div class="menu footer" id="block-currentmenufooternavigation">
+
+										<nav aria-labelledby="footer-menu">
+											<h2 id="footer-menu" class="show-for-sr">Footer Menu</h2>
+											<ul class="menu bb_footer__menu__menu">
+												<li>
+													<a href="https://www.blackboard.com/blackboard-accessibility-commitment" data-drupal-link-system-path="node/176">Accessibility</a>
+												</li>
+												<li>
+													<a href="https://help.blackboard.com/CA_Privacy_Notice#your-california-consumer-privacy-rights_OTP-4" target="_blank">Do Not Sell My PI</a>
+												</li>
+												<li>
+													<a href="https://help.blackboard.com/Privacy_Statement" target="_blank">Privacy Statement</a>
+												</li>
+												<li>
+													<a href="https://help.blackboard.com/Learn/Administrator/Hosting/Security/Security_Assurance/Vulnerability_Management_Commitment_and_Disclosure_Policy" target="_blank">Security</a>
+												</li>
+												<li>
+													<a href="https://help.blackboard.com/Terms_of_Use" target="_blank">Terms of Use</a>
+												</li>
+												<li>
+													<a href="https://www.blackboard.com/sitemap" data-drupal-link-system-path="node/6276">Sitemap</a>
+												</li>
+											</ul>
+										</nav>
+
+									</div>
+									<div id="cookie-disclosure" class="cookie-alert eu-cookie-compliance-banner">
+										<div class="eu-cookie-compliance-content">
+											<div class="eu-cookie-compliance-message">
+
+												<div>
+													<p>This website uses cookies for analytics, personalized content and marketing. By clicking “I understand” or continuing to browse our website you consent to all cookies in accordance with our&nbsp;<a href="https://www.blackboard.com/legal/cookie-statement.html"><strong>Cookie Statement</strong></a>. You can manage and opt out of cookies using your browser or device settings.&nbsp;<a href="https://www.blackboard.com/legal/cookie-statement.html"><strong>Learn more.</strong></a></p>
+												</div>
+
+											</div>
+											<div class="eu-cookie-compliance-message">
+												<button id="cookie-compliance-control" class="eu-cookie-compliance-default-button">I Understand</button>
+											</div>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+						</div>
+						<div class="bb_footer__bottom">
+							<div class="bb_footer__social">
+								<a href="https://twitter.com/Blackboard" target="_blank" aria-label="Twitter">
+									<i class="fab fa-twitter fa-2x"></i>
+								</a>
+								<a href="https://www.facebook.com/blackboard" target="_blank" aria-label="Facebook">
+									<i class="fab fa-facebook-square fa-2x"></i>
+								</a>
+								<a href="https://www.youtube.com/user/BlackboardTV" target="_blank" aria-label="YouTube">
+									<i class="fab fa-youtube fa-2x"></i>
+								</a>
+								<a href="https://www.linkedin.com/company/blackboard" target="_blank" aria-label="LinkedIn">
+									<i class="fab fa-linkedin fa-2x"></i>
+								</a>
+							</div>
+							<span class="bb_footer__copyright">Copyright © 2020. Blackboard Inc. All rights reserved. 
+						  <a href="https://www.blackboard.com/trademarks-patent-numbers">See Blackboard trademarks and patents.</a>
+					  </span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		</div>
+		</div>
+
+		<script type="application/json" data-drupal-selector="drupal-settings-json">
+			{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/161","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","google_analytics":{"account":"UA-1394520-1","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"user":{"uid":0,"permissionsHash":"0576762e422050d66d3980309b6a6f4a6cf680b16c1d61a1dac58f8819ab0bc6"}}
+		</script>
+		<script src="js/js_LEIRebt3neFUdiGE1Tx-MLUg7vYpH24O8jibGOduSFA.js"></script>
+<!-- 		<script src="js/all.js"></script> -->
+		<script src="js/parallax.js"></script>
+
+		<script type="text/javascript" src="js/com.js"></script>
+		<script type="text/javascript">
+			window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"752acdc9f5","applicationID":"288190740","transactionName":"YQcEYBEHWUIAABBeCVhNJ1cXD1hfTicWQhZXDjpaDAJSbSIMCkMUWQ4KURE6eV4FBjJeA0EhCVoXFFhdDQYWGlhACwND","queueTime":0,"applicationTime":353,"atts":"TUAHFlkdSkw=","errorBeacon":"bam.nr-data.net","agent":""}
+		</script>
+
+		<!-- MediaRoom Scripts -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+									$('.wd_featureboxes_bottom_left').prepend('<div class="wd_bottom-left-title">Media Gallery</div>');
+				
+				//Make whole tile a link
+				
+				//Link opens in a new window
+							});
+		</script>
+
+	
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "Standard", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "Overview", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 3467]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=3467&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		<script type="text/javascript" wd_script_id="single_slider_responsive_script">
+	webDriver.jQuery(".single_slider_carousel").carousel({
+		interval: 8000000,
+		pause: ""
+	});
+	webDriver.jQuery(".single_slider_carousel, .single_slider_carousel_bottom").css("visibility","visible");
+	webDriver.jQuery(".single_slider_carousel_indicators li:first, .single_slider_carousel_inner .item:first").addClass("active");
+	webDriver.jQuery(".single_slider_carousel_control").click(function(e) {
+		e.preventDefault();
+	});
+	webDriver.jQuery(".single_slider_carousel").touchwipe({
+		 wipeLeft: function() { webDriver.jQuery(".single_slider_carousel").carousel("next"); },
+		 wipeRight: function() { webDriver.jQuery(".single_slider_carousel").carousel("prev"); },
+		 preventDefaultEvents: true
+	});	
+</script>
+
+<!-- end spin_special_output(body_end) -->
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'60c52a4ac93431fa',m:'51cd8eee2cf48d793079220a2a950b4e0152d21f-1609765466-1800-AR5SLZ8sjKGn5owRcIkA861GnVRGuYTEoj1x3AH33fL9H3XfDFJkB9TLtgrrEhLGVbaGCnkL8RvcMRG7SDIQbbhV+Hl0uLGKp7aVwjLN3mzCrI7uLN39yrkbuIsBixPDTA==',s:[0xa0ab7cead4,0x213704a53f],}})();</script></body>
+
+	</html>

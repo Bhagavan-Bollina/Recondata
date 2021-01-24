@@ -1,0 +1,31 @@
+https://phoenix.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: phoenix.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Set-Cookie: JSESSIONID=9C874F04C793D4D9D153997E51D61305; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776256,id:1046F11FEA99C187D05F451B797CE5FF,signature:8da9062ef17aec938dc55b596b8461047f6c62fbca96157a8af02c5d2ceac292,site:c7c10971-493b-4e27-bac9-e4589704e4dc,v:2,xsrf:abf5bb9c-de82-41ff-b6f4-49ae84ac58c0; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=973D47B6527ACC453ED726DF8FFC3181FAD44928937EEA3C8598853AA7E1838F99DD5E136E1AE5DA903BB5F4ED2383D3CD252B63C34E8F64159B4522099BA4374E911302;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=973D47B6527ACC453ED726DF8FFC3181FAD44928937EEA3C8598853AA7E1838F99DD5E136E1AE5DA903BB5F4ED2383D3CD252B63C34E8F64159B4522099BA4374E911302;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Language: en-US
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=UTF-8
+< Expires: Sat, 04 Jan 2020 13:04:16 GMT
+< X-Blackboard-Appserver: ip-10-145-25-197.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Last-Modified: Thu, 04 Jan 2001 13:04:16 GMT
+< Date: Mon, 04 Jan 2021 13:04:16 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Location: https://vle.phoenix.edu/auth-saml/saml/login?redirectUrl=https%3A%2F%2Fvle.phoenix.edu%2Fultra&apId=_322_1
+

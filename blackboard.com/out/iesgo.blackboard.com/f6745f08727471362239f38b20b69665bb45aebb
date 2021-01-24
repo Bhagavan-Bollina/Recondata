@@ -1,0 +1,27 @@
+https://iesgo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: iesgo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.0-rel.44+9fb1e0e
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Appserver: fgprd-525626-sf163668-app003.mhint
+< Last-Modified: Sun, 06 Jan 2019 06:52:15 GMT
+< Expires: Sat, 04 Jan 2020 13:03:21 GMT
+< Etag: W/"89-1546757535000"
+< Content-Type: text/html
+< Set-Cookie: NSC_525626_wjq_192.230.224.245*443=ffffffff090d1d1245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Date: Mon, 04 Jan 2021 13:03:20 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,29 @@
+https://uafs.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uafs.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:10 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776310,id:8BBF85B5403FEF3BE2855497F5BF3209,signature:5716811a44e6e21cb336aaeb19f6f50cb9fecb5bff23d9d322b4ff6d7bf32f0d,site:fc2cd241-abf6-4183-bb3c-24768d453bde,v:2,xsrf:126446ec-3ac3-4de1-86b5-6a03773a1144; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=15B38D431C82F08ABED07E7927ABB8F2237752892F8527CC295F329646E2E752BB187D8B1BAECAE7C586251599F52FFE2816C89CF6206889B689DD841BE72A7EB40A4F0293;PATH=/
+< Set-Cookie: AWSELBCORS=15B38D431C82F08ABED07E7927ABB8F2237752892F8527CC295F329646E2E752BB187D8B1BAECAE7C586251599F52FFE2816C89CF6206889B689DD841BE72A7EB40A4F0293;PATH=/;SECURE;SAMESITE=None
+< Date: Mon, 04 Jan 2021 13:05:10 GMT
+< X-Blackboard-Appserver: ip-10-145-26-54.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:05:10 GMT
+< Location: /webapps/bb-auth-provider-cas-BB590baa1acb203/execute/casLogin?cmd=login&authProviderId=_102_1&redirectUrl=https%3A%2F%2Fuafs.blackboard.com%2Fultra
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+

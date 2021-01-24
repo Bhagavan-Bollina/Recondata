@@ -1,0 +1,30 @@
+https://uwa-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uwa-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Last-Modified: Thu, 04 Jan 2001 13:05:36 GMT
+< Set-Cookie: JSESSIONID=384E16A3B9285EF642E6FFA880FB464A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776336,id:4E8D7358795DE07E6C14C672AFC3DBEA,signature:3015b47bfefca6e6557cb18affe38196b340f3b55daf54b1864eae2672b64b4a,site:0d777806-3850-406d-a10a-7024f8df19d2,v:2,xsrf:8ec5bec2-e9a9-474b-b102-a592102c776c; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=9F6FB597128C920693B8303AD5F7314D8C61A5A1DF9A1F2C7F3B35602CA24D78080320B1DABD30AFC279CD0FF3299C9E4D1832FCC9A9C8ADB8EB27C1F9DA5C1054A8340956;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=9F6FB597128C920693B8303AD5F7314D8C61A5A1DF9A1F2C7F3B35602CA24D78080320B1DABD30AFC279CD0FF3299C9E4D1832FCC9A9C8ADB8EB27C1F9DA5C1054A8340956;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Length: 0
+< Location: https://staging.lms.uwa.edu.au/auth-saml/saml/login?apId=_753_1
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:36 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:05:36 GMT
+< X-Blackboard-Appserver: ip-10-144-123-138.ap-southeast-2.compute.internal
+< X-Frame-Options: SAMEORIGIN
+

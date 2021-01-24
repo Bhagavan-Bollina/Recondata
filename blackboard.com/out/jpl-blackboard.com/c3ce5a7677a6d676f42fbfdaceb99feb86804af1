@@ -1,0 +1,21 @@
+https://jpl-blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jpl-blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 214
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Mon, 04 Jan 2021 13:03:29 GMT
+< Server: Apache
+< X-Frame-Options: SAMEORIGIN
+< Location: https://www.jpl-blackboard.com
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://www.jpl-blackboard.com">here</a>.</p>
+</body></html>

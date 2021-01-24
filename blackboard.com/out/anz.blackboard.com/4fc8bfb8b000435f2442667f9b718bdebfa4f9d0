@@ -1,0 +1,20 @@
+https://anz.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: anz.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://www.blackboard.com/en-apac
+< Cf-Cache-Status: EXPIRED
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Server: cloudflare
+< Cf-Ray: 60c52707bae03224-BOM
+< Date: Mon, 04 Jan 2021 13:02:12 GMT
+< Content-Type: text/html; charset=UTF-8
+< Set-Cookie: __cfduid=de58e09d7ab160e880d1498cc6214848e1609765331; expires=Wed, 03-Feb-21 13:02:11 GMT; path=/; domain=.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Cf-Request-Id: 076f16b8d400003224f7318000000001
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://www.blackboard.com/en-apac">here</a></body>

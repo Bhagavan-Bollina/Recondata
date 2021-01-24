@@ -1,0 +1,47 @@
+https://ccps.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ccps.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:02:36 GMT
+< Expires: Sat, 04 Jan 2020 13:02:36 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:36 GMT
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776156,id:464E3296BD62F296CFA291DEE92B242B,signature:bb1ded875883f71396d3d984171d673792bf3c4512979e382adef6e9e8fab5a8,site:ef43ffaa-c4c0-4503-9250-fdf23d5f0b27,v:2,xsrf:74b20518-7ace-432e-bc04-e062d433f0a3; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=699DF99D0CE632E1EE648DE3E1D9A5B026599F6550E6AE53A399FB3968FAD25D2E7105A93D659A8885C5F58B641509D4C927F535E498E62071817BC547AEC60842B11AE042;PATH=/
+< Set-Cookie: AWSELBCORS=699DF99D0CE632E1EE648DE3E1D9A5B026599F6550E6AE53A399FB3968FAD25D2E7105A93D659A8885C5F58B641509D4C927F535E498E62071817BC547AEC60842B11AE042;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-145-52-215.ec2.internal
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fccps.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ccps.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

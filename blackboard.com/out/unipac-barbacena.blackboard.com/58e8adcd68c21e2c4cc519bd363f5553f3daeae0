@@ -1,0 +1,27 @@
+https://unipac-barbacena.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: unipac-barbacena.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Expires: Sat, 04 Jan 2020 13:05:25 GMT
+< Etag: W/"89-1549196824000"
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:25 GMT
+< Set-Cookie: NSC_523218_wjq_69.196.243.144*443=ffffffff090e175445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-523218-sf107134-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.2-rel.32+19c67cc
+< Last-Modified: Sun, 03 Feb 2019 12:27:04 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

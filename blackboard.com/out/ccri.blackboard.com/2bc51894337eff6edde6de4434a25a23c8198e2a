@@ -1,0 +1,29 @@
+https://ccri.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ccri.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Expires: Sat, 04 Jan 2020 13:02:36 GMT
+< Location: /webapps/bb-auth-provider-cas-BB589ab7cf1b570/execute/casLogin?cmd=login&authProviderId=_122_1&redirectUrl=https%3A%2F%2Fccri.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:02:36 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776156,id:FB79F7A1D1E5DB3793E64C5E7F84BB8F,signature:e61b38cab6ba89d90c4ed0b30e08f2ea3f85df32cc0b344af3b15ffd8d81409a,site:39a2977b-7f17-452e-b311-60df08a0c034,v:2,xsrf:084071a1-b6f2-4a6a-9160-801d41e01f1a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=73CF7F7F089B18A93433CE338E9BC9CD01259B496C025F12AFE0304B81CFC2301A4C6A9F555F367191829C63EF2A2A2D5532B8AC08D45B4CBF1F274A961FFA6745303BBBCA;PATH=/
+< Set-Cookie: AWSELBCORS=73CF7F7F089B18A93433CE338E9BC9CD01259B496C025F12AFE0304B81CFC2301A4C6A9F555F367191829C63EF2A2A2D5532B8AC08D45B4CBF1F274A961FFA6745303BBBCA;PATH=/;SECURE;SAMESITE=None
+< Date: Mon, 04 Jan 2021 13:02:36 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-145-94-183.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+

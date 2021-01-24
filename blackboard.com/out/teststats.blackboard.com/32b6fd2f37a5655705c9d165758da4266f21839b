@@ -1,0 +1,18 @@
+https://teststats.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: teststats.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Powered-By: PHP/5.5.35
+< Keep-Alive: timeout=5, max=100
+< Connection: Keep-Alive
+< X-Pad: avoid browser bug
+< Server: Apache/2.2.31 (Unix) mod_ssl/2.2.31 OpenSSL/1.0.1e-fips PHP/5.5.35
+< Content-Length: 52
+< Content-Type: text/html
+< Set-Cookie: NSC_JOqiethieky2erkextrqnrbcbsqk3e3=ffffffff09021e2d45525d5f4f58455e445a4a42378b;path=/;secure
+< Date: Mon, 04 Jan 2021 13:05:05 GMT
+
+<script>document.location.href='./access/'</script>

@@ -1,0 +1,28 @@
+https://famutest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: famutest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.2-rel.55+a4a9325
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Etag: W/"89-1533645797000"
+< Pragma: private
+< Last-Modified: Tue, 07 Aug 2018 12:43:17 GMT
+< Expires: Sat, 04 Jan 2020 13:03:06 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:03:06 GMT
+< Set-Cookie: JSESSIONID=C6096F41469E1E6C2582B8447FC5A0D7; Path=/; Secure
+< Set-Cookie: NSC_100532_wjq_69.196.227.86*443=ffffffff090e1e5845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-100532-146783-app001.mhint
+< X-Frame-Options: SAMEORIGIN
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

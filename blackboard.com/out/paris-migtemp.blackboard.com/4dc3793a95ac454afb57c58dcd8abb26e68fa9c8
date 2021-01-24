@@ -1,0 +1,27 @@
+https://paris-migtemp.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: paris-migtemp.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Appserver: fgstg-445657-213945-app001.mhint
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:04:10 GMT
+< Etag: W/"89-1546437255000"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.1-rel.90+b74efee
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:04:10 GMT
+< Set-Cookie: NSC_445657_wjq_46.183.240.115*443=ffffffff090b1e8d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Wed, 02 Jan 2019 13:54:15 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

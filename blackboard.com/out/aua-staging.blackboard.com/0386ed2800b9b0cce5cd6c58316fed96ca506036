@@ -1,0 +1,27 @@
+https://aua-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: aua-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Date: Mon, 04 Jan 2021 13:02:16 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< X-Blackboard-Appserver: fgstg-314838-sf743341-app001.mhint
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:02:16 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_314838_wjq_69.196.243.229*443=ffffffff090e1f0e45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Last-Modified: Sun, 23 Jun 2019 05:56:59 GMT
+< Etag: W/"89-1561269419000"
+< Content-Type: text/html
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

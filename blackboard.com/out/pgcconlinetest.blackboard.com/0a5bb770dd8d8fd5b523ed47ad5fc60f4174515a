@@ -1,0 +1,45 @@
+https://pgcconlinetest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pgcconlinetest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: Accept-Encoding
+< Pragma: private
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.5-rel.26+874a2ce
+< Date: Mon, 04 Jan 2021 13:04:15 GMT
+< Expires: Sat, 04 Jan 2020 13:04:16 GMT
+< Set-Cookie: JSESSIONID=868292422CA0EED65F90A1593E83CE68; Path=/; Secure
+< Set-Cookie: s_session_id=BCCE57B410C67012B5F0C3D7594D1E52; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_100429_wjq_69.196.224.151*443=ffffffff090e141b45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-100429-000011796-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:04:16 GMT
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://pgcconlinetest.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://pgcconlinetest.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

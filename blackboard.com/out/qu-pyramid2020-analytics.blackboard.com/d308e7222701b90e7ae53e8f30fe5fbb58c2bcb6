@@ -1,0 +1,13 @@
+https://qu-pyramid2020-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: qu-pyramid2020-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Location: https://qu-pyramid2020-analytics.blackboard.com/login/login.html
+< Content-Length: 0
+< Set-Cookie: NSC_Bobmzujdt.RV2018_TTM_wjq1*443=ffffffff09793e0045525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 14:53:26 GMT;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:04:24 GMT
+

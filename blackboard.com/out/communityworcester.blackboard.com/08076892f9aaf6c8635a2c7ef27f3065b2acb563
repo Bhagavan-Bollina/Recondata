@@ -1,0 +1,46 @@
+https://communityworcester.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: communityworcester.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:02:38 GMT
+< Vary: Accept-Encoding
+< Last-Modified: Thu, 04 Jan 2001 13:02:38 GMT
+< X-Blackboard-Appserver: fgprd-100397-40498-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.9-rel.12+78adef1
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: session_id=6A322A68B5D27EBE6E30A9DB823E30AB; Path=/; HttpOnly
+< Set-Cookie: s_session_id=21FBF92F9B09E2CAE76928E0D1DF68E1; Path=/; Secure; HttpOnly
+< Set-Cookie: web_client_cache_guid=2d606638-96fc-4a21-a684-38e362d4846d; Path=/; Secure
+< Set-Cookie: NSC_100397_wjq_69.196.226.96*443=ffffffff090e100b45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:38 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://communityworcester.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://communityworcester.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

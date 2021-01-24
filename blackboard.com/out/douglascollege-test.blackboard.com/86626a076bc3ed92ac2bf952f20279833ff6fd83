@@ -1,0 +1,1587 @@
+https://douglascollege-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: douglascollege-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: JSESSIONID=7B9702AFE54D34E09ACEC53A3EAD07C5; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776172,id:A577C0372461BE1AF60413401BCD588F,signature:fa78bf8e032ff342e41ee3e14161e20a35138f0dccfe74c86c3f337d3439e5bb,site:78be395a-0b3f-42e5-9ba8-acbc8e2e5c42,v:2,xsrf:3e0df5ef-7ce5-4cb2-abf5-f3c126e897fc; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=FBE191A91C4F59E413DE50A31BB3A6C4F3EAD335963C6A5E7633EEFF135929030F347B2853779ACF476C8E8738CA7165CC665D84CADAEC6D6A7AF52AC67D799F1A96174AE5;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=FBE191A91C4F59E413DE50A31BB3A6C4F3EAD335963C6A5E7633EEFF135929030F347B2853779ACF476C8E8738CA7165CC665D84CADAEC6D6A7AF52AC67D799F1A96174AE5;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-147-128-69.ca-central-1.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Language: en-US
+< Content-Type: text/html;charset=UTF-8
+< Server: openresty/1.9.3.1
+< Expires: Sat, 04 Jan 2020 13:02:52 GMT
+< Pragma: private
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:52 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:52 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+
+<!-- This login.jsp filee has been marked up with comments identifying sections to make it easier to make changees to the default login page for Blackboard Learn with the Ultra Expeerience enabled. This marked up template was downloaded from a Blackboard Learn environment running release 3800.19.0 on Thursday, October 15, 2020. The file was marked up by Santiago Vanegas from Blackboard. To ask questions and get support, please visit the Blackboard Community Site at https://community.blackboard.com/-->
+
+<!-- This section below calls various servlets from the Learn environment  and other things you don't want to touch. Do not delete anything in this section -->
+<!DOCTYPE HTML ><!-- Calls CSS and js files for elements appearing in the page -->
+                        
+<html  lang="en-US">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon3.ico">
+     <link rel="stylesheet" type="text/css" href="/ui-ultra/css/ultra.css?v=3900.4.0-rel.17+f210f75" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.4.0-rel.17+f210f75" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.4.0-rel.17+f210f75_3900.4.0-rel.17+f210f75" id="css_2">
+          <style type="text/css">
+                                    /*-----------Main Changes----------*/
+                                    /*banner top image and border top*/
+                                    .bannertopimg {
+                                        background: url(https://douglascollege-test.blackboard.com/bbcswebdav/xid-14023_1) no-repeat top center;
+                                        border-top: 0px solid #B2BB1E;
+                                    }
+
+                                    /*Create an account*/
+                                    .trial-registration a {
+                                        color: #4776be;
+                                    }
+
+                                    /*login button*/
+                                    input#entry-login {
+                                        background-color: white;
+                                        border: 3px solid #4776be;
+                                        color: #4776be;
+                                    }
+
+                                    /*Course Catalogue*/
+                                    div#ultraCourseCatalogLink a {
+                                        color: #4776be !important;
+                                        background-color: transparent;
+                                        border: 3px solid #4776be;
+                                    }
+
+                                    h1 {
+                                        font-weight: lighter !important;
+                                        text-transform: uppercase;
+                                    }
+
+                                    html {
+                                        height: 100%;
+                                    }
+
+                                    .bannertopimg {
+                                        min-height: 300px;
+                                        margin-bottom: 3em;
+                                        background-size: cover;
+                                    }
+
+                                    .row {
+                                        width: 100%;
+                                        max-width: 100%;
+                                    }
+
+                                    .small-12.small-centered.text-center.columns.footerblock {
+                                        width: 100%;
+                                        max-width: 100%;
+                                    }
+
+                                    #loginHeader {
+                                        position: absolute;
+                                        right: 0;
+                                        top: 0;
+                                        background-color: #d81b21;
+                                        width: 100%;
+                                    }
+
+                                    body#learn-oe-body {
+                                        background-color: white;
+                                        position: relative;
+                                        min-height: 100%;
+                                        height: auto;
+                                    }
+
+                                    div#bodyContent {
+                                        width: 100%;
+                                        max-width: 100%;
+                                    }
+
+                                    .login-form-footer.row.collapse a {
+                                        text-decoration: underline;
+                                    }
+
+                                    div#ultraCourseCatalogLink a {
+                                        text-align: center;
+                                        text-decoration: none !important;
+                                    }
+
+                                    div.loginBody {
+                                        background-position: center 25%;
+                                        width: 90%;
+                                    }
+
+                                    input#entry-login {
+                                        width: 100%;
+                                        min-width: 100% !important;
+                                        max-width: 100%;
+                                        display: block;
+                                    }
+
+                                    ul#loginFormList {
+                                        width: 100%;
+                                        background-color: transparent;
+                                        padding: 0;
+                                        margin: 0;
+                                    }
+
+                                    input#entry-login {
+                                        border-radius: 0;
+                                        padding: 1em 0;
+                                    }
+
+                                    .forgot a {
+                                        border-bottom: 1px solid #c76dd5;
+                                        color: #c76dd5;
+                                        margin-bottom: 10px;
+                                    }
+
+                                    .login-page #copyright .newCopyright {
+                                        width: 100%;
+                                        padding: 1em;
+                                        background: #E8E3DB;
+                                        bottom: -20px;
+                                        border-bottom: 10px solid #d81b21;
+                                    }
+
+                                    .login-page #copyright {
+                                        width: 100%;
+                                    }
+
+                                    .additionalInfo p:first-child a {
+                                        border-bottom: 1px solid;
+                                        padding-right: 0;
+                                    }
+
+                                    #loginBox input[type="text"],
+                                    #loginBox input[type="password"],
+                                    #loginRedirectProviders button {
+                                        -moz-border-radius: 5px 5px 5px 5px;
+                                        -webkit-border-radius: 5px 5px 5px 5px;
+                                        border-radius: 5px 5px 5px 5px;
+                                        background: white;
+                                        padding: 6px;
+                                        border: 0px solid #777;
+                                        color: #666;
+                                        margin: 0;
+                                        box-sizing: border-box;
+                                    }
+
+                                    #loginBox li label,
+                                    .portlet #loginBoxFull li label {
+                                        color: white;
+                                        display: block;
+                                        font-size: 120%;
+                                        letter-spacing: 1px;
+                                        padding: 0 0 3px;
+                                        text-align: left;
+                                        text-transform: uppercase;
+                                        width: 100%;
+                                        font-weight: 200;
+                                        margin-bottom: 0.5em;
+                                        margin-top: 0.8em;
+                                    }
+
+                                    #loginPageContainer {
+                                        width: 100%;
+                                        position: absolute;
+
+                                    }
+
+                                    a,
+                                    .portlet .subCategories li a,
+                                    .blockGroups .itemHead,
+                                    .blockGroups .itemHeadOpen {
+                                        color: #d81b21;
+                                    }
+
+                                    .blockBTNlogin h1,
+                                    .bbResources h1 {
+                                        text-align: center;
+                                    }
+
+                                    .systemAnnouncementsLogin {
+                                        border-right: 1px solid #e9e9e9;
+                                        border-left: 1px solid #e9e9e9;
+                                    }
+
+                                    .bb-login #gatewayButtons .inline-list {
+                                        float: right;
+                                        display: inline-block;
+                                    }
+
+                                    .bbResources,
+                                    .systemAnnouncementsLogin,
+                                    div#login-form {
+                                        padding: 2%;
+                                    }
+
+                                    .bb-login #ultraCourseCatalogLink a,
+                                    .bb-login #ultraCourseCatalogLink a:visited,
+                                    .bb-login #ultraCourseCatalogLink a:active {
+                                        font-size: 14px;
+                                    }
+
+                                    #loginBox form li+li+li {
+                                        margin-top: 2em;
+                                        width: 100%;
+                                    }
+
+                                    .systemAnnouncementsLogin h1,
+                                    .systemAnnouncementsLogin p {
+                                        color: black;
+                                        text-align: center;
+                                        margin-top: 0;
+                                        margin-bottom: 15px;
+                                    }
+
+                                    div#login-form h1 {
+                                        font-weight: lighter;
+                                        margin-top: 0;
+                                        color: black;
+                                        text-align: center;
+                                        text-transform: uppercase;
+                                    }
+
+                                    .blockBTNlogin p {
+                                        color: black;
+                                        text-align: center;
+                                        margin-bottom: 5px;
+                                        font-size: 12.4px;
+                                    }
+
+                                    .loginBTN {
+                                        text-align: center;
+                                        padding: 0.5em 1em;
+                                        border-radius: 5px;
+                                        background-color: #995ca5;
+                                    }
+
+                                    .loginBTN a {
+                                        color: white;
+                                    }
+
+                                    .blockBTNlogin {
+                                        padding: 0.8em 0;
+                                        border-top: 1px solid black;
+                                    }
+
+                                    img.btnblocks {
+                                        margin-right: 2em;
+                                    }
+
+                                    div#loginBox img {
+                                        width: 100%;
+                                    }
+
+                                    div.loginBody {
+                                        padding: 190px 0 0;
+                                        background: none;
+                                    }
+
+                                    p.hashtag {
+                                        font-size: 30px;
+                                        color: #985ca5;
+                                        font-weight: bold;
+                                    }
+
+                                    .systemAnnouncementsLogin ul li {
+                                        color: white;
+                                        text-align: center;
+                                        margin-bottom: 0px;
+                                        font-size: 13px;
+                                    }
+
+                                    .systemAnnouncementsLogin ul li b {
+                                        font-size: 20px;
+                                        margin: 0px 5px;
+                                    }
+
+                                    .bb-login .new-logo.customized-logo img {
+                                        width: 100%;
+                                        height: auto;
+                                        border-radius: 0;
+                                    }
+
+                                    .bb-login .new-logo {
+                                        margin-top: 0;
+                                    }
+
+                                    .bb-login #login-block {
+                                        margin-top: 0;
+                                        padding: 0;
+                                        min-width: 15rem;
+                                        max-width: 90%;
+                                        margin-bottom: 0;
+                                    }
+
+                                    .systemAnnouncementsLogin h1,
+                                    .bbResources h1 {
+                                        font-family: "Open Sans", sans-serif;
+                                        font-size: 22px;
+                                        font-weight: bold;
+                                    }
+
+                                    .systemAnnouncementsLogin ul {
+                                        list-style: none;
+                                        margin-left: 0;
+                                        margin-bottom: 0;
+                                        margin-left: 0;
+                                    }
+
+                                    .systemAnnouncementsLogin p {
+                                        font-size: 13px;
+                                    }
+
+                                    .bbResources h1 {
+                                        color: black;
+                                    }
+
+                                    .bb-login .login-form .button {
+                                        background-color: transparent;
+                                        box-shadow: 0 0 0 0px #fff inset;
+                                        margin-top: 1.8rem;
+                                        margin-bottom: .3125rem;
+                                    }
+
+
+                                    .footerblock {
+                                        width: 90% !important;
+                                        padding: 1em !important;
+                                        background: #f9a21d;
+                                        border-bottom: 0px solid #007396;
+                                        margin: 6em 5% 0 5% !important;
+                                        display: block;
+                                    }
+
+                                    div#gatewayButtons ul {
+                                        margin-bottom: 0;
+                                    }
+
+                                    i#help-link a {
+                                        color: #995ca5;
+                                    }
+
+                                    .bb-login #copyright {
+                                        font-size: .75rem;
+                                        color: black;
+                                        margin-top: 0;
+                                    }
+
+                                    div#login-form h1.login-logo.new-logo.customized-logo,
+                                    .systemAnnouncementsLogin h1.welcome {
+                                        display: none;
+                                    }
+
+                                    h1.welcome {
+                                        font-family: "Open Sans", sans-serif;
+                                        font-size: 22px;
+                                        font-weight: bold;
+                                        color: white;
+                                    }
+
+                                    .systemAnnouncementsLogin img {
+                                        width: 100%;
+                                        max-width: 400px;
+                                        margin-bottom: 1em;
+                                    }
+
+                                    .systemAnnouncementsLogin h1.login-logo.new-logo.customized-logo {
+                                        margin-bottom: 0;
+                                    }
+
+                                    .trial-registration {
+                                        margin-top: 0.5em;
+                                    }
+
+                                    img.monumentLogo {
+                                        width: 100%;
+                                        max-width: 100%;
+                                        margin-bottom: 2em;
+                                        margin-top: 2em;
+                                    }
+
+                                    #login-form img.monumentLogo {
+                                        display: none;
+                                    }
+
+                                    a.appimg img {
+                                        width: 28%;
+                                        margin: 0 2% !important;
+                                    }
+
+                                    input#user_id {
+                                        margin-bottom: 0;
+                                    }
+
+                                    div#ultraCourseCatalogLink a {
+                                        width: 100%;
+                                        display: block;
+                                        padding: 1em;
+                                    }
+
+                                    div#ultraCourseCatalogLink {
+                                        margin-top: 15px !important;
+                                    }
+
+                                    .small-12.small-centered.text-center.columns {
+                                        padding: 0;
+                                    }
+
+                                    .login-form-footer.row.collapse .small-6 {
+                                        width: 100%;
+                                        text-align: center !important;
+                                    }
+
+                                    .round-border {
+                                        border: 1px solid #eee;
+                                        border: 1px solid rgba(0, 0, 0, 0.05);
+                                        -webkit-border-radius: 4px;
+                                        -moz-border-radius: 4px;
+                                        border-radius: 4px;
+                                        padding: 10px;
+                                        margin-bottom: 5px;
+                                    }
+
+                                    div#collapse1 {
+                                        margin-top: -11px;
+                                        margin-left: -11px;
+                                        background-color: white;
+                                        z-index: 9999999;
+                                        position: absolute;
+                                        width: 100%;
+                                    }
+
+                                    .buttoncolapsed {
+                                        position: absolute;
+                                        z-index: 9999999999;
+                                        margin: 20px 35%;
+                                        left: 0;
+                                        right: 0;
+                                        width: 30%;
+                                    }
+
+                                    button.nav-toggle {
+                                        background-color: #733F6F;
+                                        width: 100%;
+                                        color: white;
+                                        border-radius: 5px;
+                                        box-shadow: inset 0 0 0 0 #333;
+                                        font-size: 22px;
+                                    }
+
+                                    .accessblock {
+                                        margin: 0 0 4% 2% !important;
+                                    }
+
+                                    div#copyright,
+                                    #loginOptions {
+                                        width: 50%;
+                                        vertical-align: top;
+                                        display: inline-block;
+                                    }
+
+                                    div#copyright {
+                                        text-align: left;
+                                    }
+
+                                    .bb-login #gatewayButtons {
+                                        margin-bottom: 0 !important;
+                                    }
+
+                                    .login-form-footer {
+                                        margin-top: 2.5em !important;
+                                    }
+
+                                    .bb-login .login-form #loginRedirectProviders .button.dropdown {
+                                        background-color: transparent;
+                                        box-shadow: none;
+                                        color: #fff;
+                                        font-family: "Open Sans";
+                                        font-size: .8rem;
+                                        margin-bottom: .375rem;
+                                        margin-top: 1.8em;
+                                        padding: 0.8em 1.5em;
+                                        text-align: left;
+                                        border: 1px solid white;
+                                        border-radius: 0;
+                                    }
+
+                                    .login-form-footer {
+                                        margin-top: 1em !important;
+                                    }
+
+                                    .bb-login .login-form-footer {
+                                        padding-top: 0;
+                                    }
+
+                                    div#pagefooter {
+                                        position: absolute;
+                                        bottom: 0;
+                                    }
+
+                                    .bb-login .login-form ul input[type='text']:focus,
+                                    .bb-login .login-form ul input[type='password']:focus {
+                                        box-shadow: none;
+                                        border-bottom-color: #B2BB1E !important;
+                                    }
+
+                                    .bb-login .login-form ul label {
+                                        color: black;
+                                    }
+
+                                    /*---------Login Block-----------*/
+
+                                    .bb-login .login-form ul input[type='text'],
+                                    .bb-login .login-form ul input[type='password'] {
+                                        background-color: transparent;
+                                        border: none;
+                                        color: #000;
+                                        border-bottom: 2px solid #f9a21d;
+                                        margin: 1.25rem 0;
+                                        font-size: .875rem;
+                                        outline-offset: -.125rem;
+                                    }
+
+                                    /*-----------Announcements-----------*/
+                                    div#loginAnnouncements ul li {
+                                        color: white;
+                                        border-bottom: 1px solid #cdcdcd;
+                                        background-color: transparent !important;
+                                        width: 100%;
+                                        display: inline-block !important;
+                                        padding: 1em !important;
+                                        margin: 1%;
+                                    }
+
+                                    div#loginAnnouncements ul li:first-child {
+                                        margin-left: 0;
+                                    }
+
+                                    div#loginAnnouncements ul li:nth-child(3n) {
+                                        margin-right: 0;
+                                    }
+
+                                    div#loginAnnouncements {
+                                        background: white;
+                                        width: 100%;
+                                        padding: 0 2em;
+                                        border-top: 1px solid #f9a21d;
+                                    }
+
+                                    .bb-login .login-page-announcements {
+                                        margin-bottom: 6em;
+                                    }
+
+                                    .bb-login .login-form-footer a {
+                                        color: black;
+                                    }
+
+                                    .bb-login .login-form ul li {
+                                        margin: 0 0 15px 0;
+                                    }
+
+                                    .vtbegenerated p {
+                                        background-color: transparent !important;
+                                        color: black !important;
+                                    }
+
+                                    .bb-login .login-form ul label.float-above {
+                                        color: black;
+                                        transform: translate(0, 0) scale(0.85);
+                                    }
+
+                                    .bb-login .login-page-announcements #loginAnnouncements>ul>li {
+                                        color: black !important;
+                                    }
+
+                                    .bb-login .login-page-announcements #loginAnnouncements {
+                                        max-width: 100%;
+                                    }
+
+                                    @media (max-width: 800px) {
+
+                                        /*-----------Announcements-----------*/
+                                        div#loginAnnouncements ul li {
+                                            width: 100%;
+                                            display: inline-block !important;
+                                            padding: 1em !important;
+                                            margin: 0%;
+                                        }
+
+                                        div#loginAnnouncements ul li:first-child {
+                                            margin-left: 0;
+                                        }
+
+                                        div#loginAnnouncements ul li:nth-child(3n) {
+                                            margin-right: 0;
+                                        }
+
+                                        div#loginAnnouncements {
+                                            width: 100%;
+                                            max-width: 90% !important;
+                                            padding: 0 2em;
+                                        }
+
+                                        .systemAnnouncementsLogin .Coursecataloguespace {
+                                            display: block;
+                                        }
+
+                                        .bb-login .new-logo.customized-logo img {
+                                            max-width: 400px;
+                                        }
+
+                                        div#login-form h1.welcome,
+                                        .systemAnnouncementsLogin img {
+                                            display: none;
+                                        }
+
+                                        div#login-form h1.login-logo.new-logo.customized-logo,
+                                        .systemAnnouncementsLogin h1.welcome {
+                                            display: block;
+                                        }
+
+                                        .systemAnnouncementsLogin {
+                                            margin: 2em 0;
+                                        }
+
+                                        #login-form img.monumentLogo {
+                                            display: block;
+                                            margin: 0 auto;
+                                            width: 100%;
+                                        }
+                                    }
+
+                                    @media (max-width: 420px) {
+
+                                        #login-form img.monumentLogo {
+                                            display: block;
+                                            margin: 0 auto;
+                                        }
+
+                                        .bbResources,
+                                        .systemAnnouncementsLogin {
+                                            width: 100%;
+                                            padding: 10%;
+                                        }
+
+                                        div#loginBox {
+                                            width: 81%;
+                                        }
+
+                                        .systemAnnouncementsLogin {
+                                            margin: 20px 0;
+                                        }
+
+                                        video {
+                                            position: fixed;
+                                            top: 79%
+                                        }
+
+                                        .systemAnnouncementsLogin {
+                                            margin: 2em 0;
+                                        }
+                                    }
+                                </style>
+
+                            
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.4.0-rel.17+f210f75">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.4.0-rel.17+f210f75"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Point Values are limited to 5 decimal places: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments but did not select any alignable content to copy.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myschool.edu) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrollment option conflicts with the selection of {instructor} Led enrollment.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Point Values are limited to 5 decimal places.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Check to select all items';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contains';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrollment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrollment option conflicts with the self-enrollment selection.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid percent value between -100 and 100 must be entered.';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Uncheck to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Too many decimal places. Maximum is 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/2CD3D430286DACB156061266254D942A.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/ui-ultra/js/hide-focus-outline.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/ui-ultra/js/login-page.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/groupjs/E8885824131B5E2627E3C6ABA80D10AE.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.4.0-rel.17+f210f75_3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/groupjs/535A183D7531F58AAEC34D5A77CB047A.js?v=3900.4.0-rel.17+f210f75"></script>
+    </head>
+  <body id="learn-oe-body" class='bb-login hide-focus-outline'>
+  
+  <!-- If you wanted to call your own css file and keep the css outside of the login.jsp file you could call it from here...-->
+
+                            <link rel="stylesheet"
+                                href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                                crossorigin="anonymous">
+
+                            <!--...To here -->
+
+                            <!-- The jsBlock contains the js you would add in an html header. If you wanted to change the fonts on the page or insert js elements such as the countdown time you would insert them here -->
+                            <!-- INSERT YOUR CUSTOM CSS IN THIS SECTION IF PROVIDING INLINE CSS. The bbng:cssBlock tag does not come in the default template file. You need to add it separately -->
+
+                            <!-- END OF CUSTOM CSS -->
+
+                            <!-- This is the call for the cookie disclosure statement which appears when you first arrive at the login page. -->
+                            <div id="loginLang" class="clearfix">
+                                    
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+  
+
+  </form>
+</div>
+
+                                <div class="bannertopimg"></div>
+
+                                <div class="container">
+                                    <div class="row" id="bodyContent">
+
+                                        <div id="login-form" class="login-form loginBox col-md-4 col-sm-12">
+                                            <!--
+                                            <h1 class="welcome">Log in to Blackboard Learn Portal</h1>
+                                             This is the default Blackboard logo which appears in/above the login block 
+                                            
+<h1 class="login-logo new-logo" >
+    <span>Blackboard Learn &#8482;</span>
+    <img src="/images/ci/logos/bb-corp-logo.png" alt="" />
+</h1>
+
+                                             the "login-form" contains the username and password fields in the login block 
+                                            <div id="login-form" class="login-form">
+                                                
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Please enable JavaScript in your browser for the Blackboard application to function.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-section-merge-tool-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BB5ec2a56194f96", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Username</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Password</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Sign In" name="login" class="button expand inverse outline"/>
+        </li>
+  </ul>
+
+	<div class="login-form-footer row collapse">
+		<div class="stay-signed-in small-6 columns text-left">
+    		</div>
+			</div>
+	
+</div>
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='07136c5b-647a-4e0c-9e94-3be6c830346c'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Sign in with third-party account</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_7_1&redirectUrl=https%3A%2F%2Fdouglascollege-test.blackboard.com%2Fultra" ><div class="defaultProviderIcon"></div>Sign in with College Network Access (CNA) Credentials</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+</div>
+                                            -->
+
+                                            <div id="loginPaneShort">
+                                                <div id="loginBoxFull"><!--<h3 id="anonymous_element_6">You are not logged in</h3>--><noscript> 
+                                                   <div class="receipt bad editmode alert-box alert">
+                                                     Please enable JavaScript in your browser for the Blackboard application to function. 
+                                                   </div> 
+                                                  </noscript><form>
+                                                <script type="text/javascript">/*<![CDATA[*/
+                                                function login_openForgotPassword( url )
+                                                 {
+                                                   var passwordWin = window.open( url, &#039;forgotPasswordWindow&#039;, &#039;menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480&#039; );
+                                                   passwordWin.focus();
+                                                 }
+                                                
+                                                  FastInit.addOnLoad(function()
+                                                 {
+                                                   
+                                                  if( typeof ClientCache !== &#039;undefined&#039; )
+                                                  {
+                                                    ClientCache.clear();
+                                                  }
+                                                      var startingJSessionCookie = getCookie("JSESSIONID");
+                                                  var guestLocaleCookie = getCookie("guest.session.locale");
+                                                      deleteCookie("JSESSIONID", "/@@", null, true);
+                                                      deleteCookie("JSESSIONID", "/courses", null, true);
+                                                      deleteCookie("JSESSIONID", "/sessions", null, true);
+                                                      deleteCookie("JSESSIONID", "/systemdata", null, true);
+                                                      deleteCookie("JSESSIONID", "/images", null, true);
+                                                      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+                                                      deleteCookie("JSESSIONID", "/reports", null, true);
+                                                      deleteCookie("JSESSIONID", "/modules", null, true);
+                                                      deleteCookie("JSESSIONID", "/groupjs", null, true);
+                                                      deleteCookie("JSESSIONID", "/branding", null, true);
+                                                      deleteCookie("JSESSIONID", "/sponsors", null, true);
+                                                      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+                                                      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+                                                      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+                                                      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+                                                      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+                                                      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+                                                      deleteCookie("JSESSIONID", "/avatar", null, true);
+                                                      deleteCookie("JSESSIONID", "/deployment", null, true);
+                                                      deleteCookie("JSESSIONID", "/content_area", null, true);
+                                                      deleteCookie("JSESSIONID", "/portfolio", null, true);
+                                                      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+                                                      deleteCookie("JSESSIONID", "/public", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/axis", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+                                                      deleteCookie("JSESSIONID", "", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/soap", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+                                                      deleteCookie("JSESSIONID", "/xythosremoteadmin", null, true);
+                                                      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+                                                      deleteCookie("JSESSIONID", "/admin", null, true);
+                                                      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+                                                      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+                                                      deleteCookie("JSESSIONID", "/common", null, true);
+                                                      deleteCookie("JSESSIONID", "/fonts", null, true);
+                                                      deleteCookie("JSESSIONID", "/javascript", null, true);
+                                                      deleteCookie("JSESSIONID", "/lib", null, true);
+                                                      deleteCookie("JSESSIONID", "/login", null, true);
+                                                      deleteCookie("JSESSIONID", "/themes", null, true);
+                                                      deleteCookie("JSESSIONID", "/ui", null, true);
+                                                      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+                                                      deleteCookie("JSESSIONID", "/learn/api", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-gate-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-operational-data-store-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/cloud-profiles", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbmh-info-gathering-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/blue-dp_bluecourseevaluation-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/thm-tophatsync-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/oslt-signUpList-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbgs-WileyPLUS-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbcs-bbpatch-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/social-connector", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/wscc-wsccmymessages-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbgs-coursemergetool-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbgs-mylab_mastering_b2-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/uofs-addteststudent-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/usf-impersonate-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bgsg-Send Two-Way SMS-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bbgs-internships_integration-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-1027979249287-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-sct-gateway-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bnbn-bnbn-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-ims-cc-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-cookie-disclosure-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-qa-fit-fixtures-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/grcc-BbStats-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-esapi-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-admin-console-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/Bb-textbook-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/Bb-sync-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/expl-BluePulse-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BBLEARNT", null, true);
+                                                      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+                                                    
+                                                  if (guestLocaleCookie != null)
+                                                  {
+                                                    setCookie("guest.session.locale", guestLocaleCookie);
+                                                  }
+                                                  setCookie("JSESSIONID", startingJSessionCookie);
+                                                   });
+                                                /*]]>*/</script>
+                                                <div id="loginFormText"></div>
+                                                </form></div>
+                                                </div>
+                                                <form>
+                                                <p style="margin-left: 30px;"><input id="login" style="width: 80px; padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #B2BB1E; color: #ffffff; border-radius: 8px; border: 0.001px solid #B2BB1E; font-size: 100%;" type="button" value="Login" onclick="window.location.href = '/auth-saml/saml/login?apId=_275_1&amp;redirectUrl=https%3A%2F%2Fdouglascollege.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2Ftabs%2FtabAction?tab_tab_group_id=_1_1'" onmouseover="this.style.backgroundColor='#6C8735';" onmouseout="this.style.backgroundColor='#B2BB1E';" /></p>
+                                                </form>
+                                                <form>
+                                                    <p style="margin-left: 30px;"><input id="loginadmin" style="width: 80px; padding: 10px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #0000ff; color: #ffffff; border-radius: 8px; border: 0.001px solid #0000ff; font-size: 100%;" type="button" value="Admin" onclick="window.location.href='https://douglascollege-test.blackboard.com/webapps/login/?action=default_login'" onmouseover="this.style.backgroundColor='#0080ff';" onmouseout="this.style.backgroundColor='#0000ff';" /></p>
+                                                </form>
+                                                <div style="margin-left: 5px;">
+                                                <ul>
+                                                <li><a href="https://douglascollege.blackboard.com/bbcswebdav/xid-3036557_1" target="_blank" rel="noopener">Get Login Help</a></li>
+                                                <li><a href="https://help.blackboard.com/Learn/Student/Getting_Started/Browser_Support/Browser_Checker" target="_blank" rel="noopener">Check Browser</a></li>
+                                                <li><a href="#" title="Change Text Size" onclick="page.showChangeTextSizeHelp()">Change Text Size</a></li>
+                                                <li><a href="#" title="High Contrast Setting" onclick="page.showAccessibilityOptions(); return false;">Change Contrast</a></li>
+                                                </ul>
+                                                </div>
+                                                <p></p>
+                                        </div>
+
+                                        <!--
+                                            
+                                       
+                                        <div class="systemAnnouncementsLogin col-md-4 col-sm-12">
+
+                                            <h1>Welcome to Blackboard Learn Portal</h1>
+                                            <div class="logo align-self-center monumentLogo">
+                                                This is the default Blackboard logo which appears in/above the login block
+                                                
+<h1 class="login-logo new-logo" >
+    <span>Blackboard Learn &#8482;</span>
+    <img src="/images/ci/logos/bb-corp-logo.png" alt="" />
+</h1>
+</div>
+                                            <p>Welcome to Blackboard Learn Portal, learning made possible, be sure to
+                                                 created just for you</p>
+                                            <div class="Coursecataloguespace">
+                                                <div id="ultraCourseCatalogLink">
+                                                        <a
+                                                            href="/webapps/login/?action=guest_login&new_loc=/ultra/catalog">View Course Catalog</a>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        -->
+
+                                        <div class="bbResources col-md-8 col-sm-12">
+                                            <div width="100%">
+                                                <table style="width: 100%; table-layout: fixed;">
+                                                <tbody>
+                                                <tr>
+                                                <td><a href="https://douglascollege.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_648_1"><img src="https://douglascollege.blackboard.com/bbcswebdav/xid-1091040_1" title="Student Resources" alt="Student Resources" width="100%" /> </a></td>
+                                                <td><a href="https://douglascollege.blackboard.com/webapps/portal/frameset.jsp?tab_tab_group_id=_461_1"><img src="https://douglascollege.blackboard.com/bbcswebdav/xid-954756_1" title="Faculty Resources" alt="Faculty Resources" width="100%" /> </a></td>
+                                                <td><a href="https://douglascollege.blackboard.com/webapps/portal/frameset.jsp?tab_tab_group_id=_281_1"><img src="https://douglascollege.blackboard.com/bbcswebdav/xid-954752_1" title="Library" alt="Library" width="100%" /> </a></td>
+                                                </tr>
+                                                <tr>
+                                                <td><a href="https://password.douglascollege.ca/" target="_blank" rel="noopener"><img src="https://douglascollege.blackboard.com/bbcswebdav/xid-1915054_1" title="Password Reset" alt="Password Reset" width="100%" /> </a></td>
+                                                <td><a href="https://douglascollege.blackboard.com/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_281_1"><img src="https://douglascollege.blackboard.com/bbcswebdav/xid-954742_1" title="Peer Tutoring" alt="Peer Tutoring" width="100%" /> </a></td>
+                                                <td><a href="https://www.douglascollege.ca/student-services/essential-resources/it-services/it-servicedesk" target="_blank" rel="noopener"><img src="https://douglascollege.blackboard.com/bbcswebdav/xid-1540730_1" title="Service Desk" alt="Service Desk" width="100%" /> </a></td>
+                                                </tr>
+                                                </tbody>
+                                                </table>
+
+                                            </div>
+                                        <div id="login-block"
+                                            class="small-11 small-centered medium-12 medium-centered text-center columns">
+                                        </div>
+
+
+                                        <!-- login-page-announcements contains system announcements displayed on the login page. This appears below the "login-block" by default. -->
+                                        <div class="login-page-announcements col-md-12">
+                                            
+<div id="loginAnnouncements">
+  <h3>System Announcements</h3>
+  <ul>
+          <li>
+        <strong>Collaborate -  Scheduled maintenance: Nov 11 (Wed) 11:00 PM - Nov 12  (Thu) 3:00 AM</strong> 
+                  <em class="announcementDate">
+            (Wednesday, December 16, 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p>Blackboard will be performing scheduled maintenance for Collaborate Ultra in all regions. Collaborate Ultra customers will experience intermittent availability during these maintenance window.<br><br>Canada: Nov 11 (Wed) 11:00 PM - Nov 12&nbsp; (Thu) 3:00 AM</p> 
+   <p>Please address any questions or concerns to the Service Desk via <a href="mailto:servicedesk@douglascollege.ca">servicedesk@douglascollege.ca</a>.</p>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+</div>
+
+                                        <!-- this class contains the course catalog styling if course catalog is enabled. -->
+                                        <div class="small-12 small-centered text-center columns">
+
+                                            <!-- this calls the copyright notice -->
+                                            <div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. All Rights Reserved.
+  	</div>
+  	  </div>
+
+  </div><div id="loginOptions">
+                                                
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+      
+    
+      <li id="help-link"><a href="https://help.blackboard.com/001_000en_US" target="_blank" title="Bb Login Help">Help</a></li>
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="Privacy and Terms of Use">Privacy and Terms of Use</a></li>
+</ul>
+</div>
+</div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+                                    function loadLoginPage() {
+                                        if (document.forms.login.user_id != undefined) {
+                                            verify_username_password(document.forms.login);
+                                        }
+                                        setTimeout("triggerScreenreaderAlert()", 500);
+                                    }
+
+                                    function triggerScreenreaderAlert() {
+                                        if (document.getElementById('loginErrorMessage')) {
+                                            $('loginErrorMessage').update($('loginErrorMessage').innerHTML);
+                                        }
+                                    }
+                                </script>
+                            
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+</body>
+</html>

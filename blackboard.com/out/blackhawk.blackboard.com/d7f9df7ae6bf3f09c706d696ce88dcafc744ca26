@@ -1,0 +1,47 @@
+https://blackhawk.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: blackhawk.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Set-Cookie: BbRouter=expires:1609776142,id:CC23D389CFAC60643E91E8A6E1770993,signature:c1051db89bb326bea3819eb87a0cf838a08cd7c7b5783ccd276b5d5a82b7850a,site:ea7fcce3-5d3f-4fa9-b5ed-9d1c0d31eb47,v:2,xsrf:8648c838-2adf-4bc8-a8c2-14853c51a59a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=91415B88BB5BE256498B2A18873CC4D0FE4D2F215DF19667D4309248A428573059D01C727045A54AFC49B26FE34AEB1F4B887CC958F09097F1C7BA0ABB82322FAF5FD4E2;PATH=/
+< Set-Cookie: AWSELBCORS=91415B88BB5BE256498B2A18873CC4D0FE4D2F215DF19667D4309248A428573059D01C727045A54AFC49B26FE34AEB1F4B887CC958F09097F1C7BA0ABB82322FAF5FD4E2;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:02:22 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-145-24-153.ec2.internal
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:22 GMT
+< Expires: Sat, 04 Jan 2020 13:02:22 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fblackhawk.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;blackhawk.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

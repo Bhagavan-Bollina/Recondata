@@ -1,0 +1,29 @@
+https://curtin.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: curtin.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:47 GMT
+< Expires: Sat, 04 Jan 2020 13:02:47 GMT
+< Set-Cookie: BbRouter=expires:1609776167,id:D7591C1F02B44CEBB22CB9834CAEE046,signature:3f32a30cf0e459de799236fbf94607e8d21c870bfe52c6c85b90d9a48e3ba56e,site:96ad5232-74b1-4b82-90b0-558b10d3ebd5,v:2,xsrf:44316a8c-ae56-4867-adad-987262aa1978; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=4147170706FFF7A8F7400320B9E58A73C051D53E96DF946B971501DE34689E237E62287B02DD159206FBC1CD673DCFC0124E4710DA333E75162F3D0687522B0707C7E311BC;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=4147170706FFF7A8F7400320B9E58A73C051D53E96DF946B971501DE34689E237E62287B02DD159206FBC1CD673DCFC0124E4710DA333E75162F3D0687522B0707C7E311BC;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-144-118-165.ap-southeast-2.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:02:47 GMT
+< Location: /auth-saml/saml/login?apId=_124_1&redirectUrl=https%3A%2F%2Fcurtin.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Content-Length: 0
+

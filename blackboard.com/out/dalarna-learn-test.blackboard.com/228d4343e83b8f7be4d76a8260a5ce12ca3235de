@@ -1,0 +1,29 @@
+https://dalarna-learn-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: dalarna-learn-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Location: /webapps/bb-auth-provider-cas-BB58bc9e84b50a9/execute/casLogin?cmd=login&authProviderId=_122_1&redirectUrl=https%3A%2F%2Fdalarna-learn-test.blackboard.com%2Fultra
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Expires: Sat, 04 Jan 2020 13:02:47 GMT
+< Set-Cookie: BbRouter=expires:1609776167,id:BA97A466AF72E6DF6D519799417EC564,signature:cd347270c0f1295812661bee9b4f32cae085b31fb1a688c885a7a2a93c359a5b,site:633dedf0-d2da-4bd2-95f2-c9ddc53e14cc,v:2,xsrf:a34ad8cd-dd07-454f-8517-8b2321f6f980; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=1763332914945ABFF85CB3DC7153BF51ACFC4C32828E08EAA070CF9417CBF2000B4FF7B9D2AD225B63FC1E1A5B6308055FF51709FB81EC926B783F9E8EB626DDB227A4B0FF;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=1763332914945ABFF85CB3DC7153BF51ACFC4C32828E08EAA070CF9417CBF2000B4FF7B9D2AD225B63FC1E1A5B6308055FF51709FB81EC926B783F9E8EB626DDB227A4B0FF;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:02:47 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:47 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-148-212-198.eu-central-1.compute.internal
+< Content-Type: text/html;charset=ISO-8859-1
+

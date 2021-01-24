@@ -1,0 +1,13 @@
+https://sereducacional-pyramid2018-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sereducacional-pyramid2018-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://SEREDUCACIONAL-pyramid2018-analytics.blackboard.com/login/login.html
+< Content-Length: 0
+< Set-Cookie: NSC_JOoadkdbey05lnlcvry0lbc0eff5kb3=ffffffff09061b9845525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 16:23:33 GMT;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:04:49 GMT
+< X-Content-Type-Options: nosniff
+

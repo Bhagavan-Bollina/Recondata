@@ -1,0 +1,44 @@
+https://bb-integration-mc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bb-integration-mc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.7-rel.16+bf839b4
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:18 GMT
+< X-Blackboard-Appserver: fgprd-304225-153009-app002.mhint
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:02:19 GMT
+< Expires: Sat, 04 Jan 2020 13:02:19 GMT
+< Set-Cookie: s_session_id=8F6F386CA92806C9396634826046C23D; Max-Age=473040000; Expires=Tue, 01-Jan-2036 13:02:19 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_304225_wjq_69.196.229.23*443=ffffffff090d140345525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Vary: Accept-Encoding
+< P3p: CP="CAO PSA OUR"
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://bb-integration-mc.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://bb-integration-mc.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

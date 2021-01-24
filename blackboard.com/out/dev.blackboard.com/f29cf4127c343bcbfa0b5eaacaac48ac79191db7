@@ -1,0 +1,24 @@
+https://dev.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: dev.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Cf-Cache-Status: MISS
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Server: cloudflare
+< Date: Mon, 04 Jan 2021 13:02:50 GMT
+< Set-Cookie: __cfduid=d8ae7d99d846f89783fa8c42dfcc662dd1609765370; expires=Wed, 03-Feb-21 13:02:50 GMT; path=/; domain=.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< X-Cache: MISS
+< Cf-Ray: 60c527fb7ae46acf-BOM
+< X-Geo-Country: IN
+< Vary: X-Geo-Country, Accept-Encoding
+< Content-Type: text/html; charset=UTF-8
+< Www-Authenticate: Basic realm="This site is protected"
+< X-Request-Id: v-268901c2-4e8d-11eb-b696-3f16e6f74ff5
+< Cf-Request-Id: 076f17512b00006acf3e114000000001
+< X-Ah-Environment: dev
+< Via: varnish
+
+Access denied

@@ -1,0 +1,27 @@
+https://teste-senacsc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: teste-senacsc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:05:06 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:05:06 GMT
+< Set-Cookie: NSC_347085_wjq_69.196.226.182*443=ffffffff090e1faf45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgtd-347085-sf030777-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.3-rel.29+ca7bfde
+< Pragma: private
+< Last-Modified: Mon, 20 Aug 2018 07:10:32 GMT
+< Etag: W/"89-1534749032000"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

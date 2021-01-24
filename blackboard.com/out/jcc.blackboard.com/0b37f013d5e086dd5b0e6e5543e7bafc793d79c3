@@ -1,0 +1,21 @@
+https://jcc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jcc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: NSC_304795_wjq_69.196.226.200*443=ffffffff090e0e9145525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:03:27 GMT
+< Server: Apache
+< Location: https://jcc.blackboard.com/webapps/login
+< Content-Length: 224
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://jcc.blackboard.com/webapps/login">here</a>.</p>
+</body></html>

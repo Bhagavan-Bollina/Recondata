@@ -1,0 +1,791 @@
+https://sponsorships.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sponsorships.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Aspnet-Version: 4.0.30319
+< P3p: CP=UNI NOI ADM DEV PSAi COM NAV OUR OTR STP IND DEM
+< Vary: Accept-Encoding
+< Set-Cookie: ASP.NET_SessionId=kus4auzwjqce43o24hzhpgk3; path=/; HttpOnly; SameSite=Lax
+< Date: Mon, 04 Jan 2021 13:04:56 GMT
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+< Server: 
+
+
+
+
+
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><title>
+	Conference Management and Registration | Event Producers
+</title><meta id="MetaDescription" name="DESCRIPTION" content="From exhibition management, sponsorship program design and sales to event planning and registration services, we create the ultimate conference experience for companies and nonprofit organizations of all sizes. " /><meta id="MetaKeywords" name="KEYWORDS" content="event management, events management, event services, online registration, online registration form, exhibition and trade show management,conference services, sponsorship program, event sponsorships, site selection, conference registration, registration services, exhibition management, conference management, meeting planning, sponsorship development, exhibit booth sales, event technology, exposition, trade show, tradeshow, exhibit hall, expo" /><meta id="MetaRobots" name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+    <link href="/Portals/_default/default.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    <link href="/Resources/Search/SearchSkinObjectPreview.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    <link href="/DesktopModules/HTML/module.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    <link href="/Portals/_default/Skins/Porto/skin.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    <link href="/Portals/0/portal.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    <link href="/DesktopModules/LiveSlider/Resources/LayerSlider/css/layerslider.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    <script src="/Resources/libraries/jQuery/01_09_01/jquery.js?cdv=84" type="text/javascript"></script>
+    <script src="/Resources/libraries/jQuery-Migrate/01_02_01/jquery-migrate.js?cdv=84" type="text/javascript"></script>
+    <script src="/Resources/libraries/jQuery-UI/01_10_03/jquery-ui.js?cdv=84" type="text/javascript"></script>
+    <script type='text/javascript'>
+        //]]>
+    </script>
+    <meta id="Porto_Viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><!--[if IE 8 ]><script type="text/javascript">jQuery("html").addClass("ie ie8");</script><![endif]--><!--[if IE 9 ]><script type="text/javascript">jQuery("html").addClass("ie ie9");</script><![endif]-->
+    <link rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Porto/Resources/css/base.min.css" /><!--[if IE]><link rel="stylesheet" type="text/css" href="/Portals/_default/Skins/Porto/Resources/css/ie.css" /><![endif]--><!--[if lte IE 8]><script src="/Portals/_default/Skins/Porto/Resources/js/respond.min.js"></script><script src="/Portals/_default/Skins/Porto/Resources/js/excanvas.min.js"></script><![endif]-->
+    <link rel='SHORTCUT ICON' href='/Portals/0/epsmalllogo_5l8_icon.ico?ver=2015-11-19-131040-937' type='image/x-icon' />
+   
+    <link rel="stylesheet" href="/DesktopModules/LiveHTML/Resources/Tabs/Style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/DesktopModules/LiveBlog/Resources/CSS/jackbox.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="/DesktopModules/LiveBlog/Themes/Porto_NoWidgets/Style/Style.css" type="text/css" media="all" />
+
+      <!-- Insert to your webpage before the </head> -->
+    <script src="/Resources/sliderengine/jquery.js"></script>
+    <script src="/Resources/sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="/Resources/sliderengine/amazingslider-1.css">
+    <script src="/Resources/sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+
+</head>
+<body id="Body">
+    
+
+
+<script type="text/javascript">
+    //<![CDATA[
+    var theForm = document.forms['Form'];
+    if (!theForm) {
+        theForm = document.Form;
+    }
+    function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+    //]]>
+</script>
+
+
+
+
+<script type="text/javascript" src="/Portals/_default/Skins/Porto/Resources/Menu/menu.min.js"></script>
+
+   
+<script src="/js/dnn.js?cdv=84" type="text/javascript"></script>
+<script src="/js/dnn.modalpopup.js?cdv=84" type="text/javascript"></script>
+<script src="/Resources/Shared/Scripts/jquery/jquery.iframe-transport.js?cdv=84" type="text/javascript"></script>
+<script src="/Resources/Shared/Scripts/jquery/jquery.fileupload.js?cdv=84" type="text/javascript"></script>
+<script src="/js/dnn.servicesframework.js?cdv=84" type="text/javascript"></script>
+<script src="/DesktopModules/DNNCorp/EvoqContentLibrary/ClientScripts/dnn.analytics.Injected.js?cdv=84" type="text/javascript"></script>
+<script src="/js/dnncore.js?cdv=84" type="text/javascript"></script><script src="/Resources/Search/SearchSkinObjectPreview.js?cdv=84" type="text/javascript"></script>
+<script type="text/javascript">
+    //<![CDATA[
+    Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+    //]]>
+</script>
+
+        
+        
+        
+<link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"     rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=EB+Garamond" />
+<div class="body">
+    <header id="header">
+            <div class="container">
+                <h1 class="logo">
+                    <a id="dnn_LOGO1_hypLogo" title="Event Producers - Creating the Ultimate Conference Experience" href="/Home.aspx"><img id="dnn_LOGO1_imgLogo" src="/Portals/0/EventProducersLogoNoTag.png?ver=2015-09-17-144945-987" alt="Event Producers - Creating the Ultimate Conference Experience" /></a>
+                </h1>
+
+                <div class="search">
+                    <div class="input-group">
+                        <span style="position: relative; top:-14px; left:-26px; color: rgb(6, 89, 83); font-weight: 600;"><em class="icon icon-phone"></em> Phone +1 425.420.1680&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="https://www.eventproducers.events/clientsupport/login.asp"  style="color: rgb(6, 89, 83); font-weight: 600; text-decoration:none;">Client Login</a>
+
+                        </span>
+                        <span id="dnn_dnnSearch_ClassicSearch">
+                        </span>
+
+
+                        <script type="text/javascript">
+                            $(function () {
+                                if (typeof dnn != "undefined" && typeof dnn.searchSkinObject != "undefined") {
+                                    var searchSkinObject = new dnn.searchSkinObject({
+                                        delayTriggerAutoSearch: 400,
+                                        minCharRequiredTriggerAutoSearch: 2,
+                                        searchType: 'S',
+                                        enableWildSearch: true,
+                                        cultureCode: 'en-US',
+                                        portalId: -1
+                                    }
+                                    );
+                                    searchSkinObject.init();
+
+                                    // attach classic search
+                                    var siteBtn = $('#dnn_dnnSearch_SiteRadioButton');
+                                    var webBtn = $('#dnn_dnnSearch_WebRadioButton');
+                                    var clickHandler = function () {
+                                        if (siteBtn.is(':checked')) searchSkinObject.settings.searchType = 'S';
+                                        else searchSkinObject.settings.searchType = 'W';
+                                    };
+                                    siteBtn.on('change', clickHandler);
+                                    webBtn.on('change', clickHandler);
+                                }
+                            });
+                        </script>
+
+                    </div>
+                </div>
+                 <div class="language">
+                    <div class="language-object" ></div>
+                </div>
+                <button type="button" class="btn btn-responsive-nav btn-inverse" style="margin-top: 12px;" data-toggle="collapse" data-target=".nav-main-collapse">
+                    <em class="fa fa-bars"></em>
+                </button>
+            </div>
+            <div class="navbar-collapse nav-main-collapse collapse">
+                <div class="container">
+                    <!--div class="social-icons">
+                        <ul class="social-icons">
+                            <li class="linkedin"><a href="https://www.linkedin.com/company/225401?trk=prof-0-ovw-prev_pos" target="_blank" title="Linkedin">Linkedin</a></li>
+                        </ul>
+                    </div-->
+                    <nav class="nav-main mega-menu">
+                        <ul class="nav nav-pills nav-main" id="mainMenu">
+                            <li data-col="" class="          dropdown dropdown-full-color dropdown-primary"><a href="/Services.aspx" class="dropdown-toggle">Event Services</a><ul class="dropdown-menu">
+                                <li><a href="/Event-Services/Exhibition-Management.aspx">Exhibition Management</a></li>
+                                <li><a href="/Event-Services/Sponsorship-Program-Design-and-Sales.aspx">Sponsorship Program Design and Sales</a></li>
+                                <li><a href="/Event-Services/Event-Planning-and-Management.aspx">Event Planning and Management</a></li>
+                                <li><a href="/Event-Services/Registration-Services.aspx">Registration Services</a></li>
+                              </ul>
+                            </li>
+                            <li class="  dropdown-full-color dropdown-primary"><a href="/Client-Success.aspx">Client Success</a></li>
+                            <li class="  dropdown-full-color dropdown-primary"><a href="/people.aspx">Our People</a></li>
+                            <li class="  dropdown-full-color dropdown-primary"><a href="/About-Us.aspx">About Us</a></li>
+                            <li class="  dropdown-full-color dropdown-primary"><a href="/UltimateBlog.aspx">Blog</a></li>
+                            <li class="  dropdown-full-color dropdown-primary"><a href="/Contact-Us.aspx">Contact Us</a></li>
+                       </ul>
+
+                    </nav>
+                </div>
+            </div>
+        </header>
+     <div class="main">
+
+
+
+
+ 
+             <div class="content full">
+                     <!--div id="dnn_TopUpperPaneFull"-->
+                    <!-- Insert to your webpage where you want to display the slider -->
+          <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:100%;margin:0 auto;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="/resources/AmazingSlider_Images/Tradeshow_FloorEmpty.jpg" alt="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;"  title="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;" data-description="&lt;span style=&quot;font-style:italic;font-weight:700&quot;&gt;Hiring Event Producers was one of the best decisions I&apos;ve made as Executive Director.&lt;/span&gt;&lt;br/&gt;—Will Waidelich, Executive Director, AMLE" data-texteffect="Left text" data-duration="6000" />
+<a href="/contact-Us.aspx" target="_self"><button class="as-btn-whiteborder-medium">&gt; See how we can help you</button></a>
+                </li>
+                <li><img src="/resources/AmazingSlider_Images/Tradeshow_FloorFull.jpg" alt="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;"  title="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;" data-description="&lt;span style=&quot;font-style:italic;font-weight:700&quot;&gt;Event Producers team is a seamless extension of our internal team. Our collaboration&lt;br&gt;leads to viable concepts, and to flawless execution.&lt;/span&gt;&lt;br/&gt;—Vinh Nguyen, former Director, Conservative Political Action Conference" data-texteffect="Left text" />
+<a href="/contact-Us.aspx"><button class="as-btn-whiteborder-medium">&gt; See how we can help you</button></a>
+                </li>
+                <li><img src="/resources/AmazingSlider_Images/2-larger.jpg" alt="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;"  title="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;" data-description="&lt;span style=&quot;font-style:italic;font-weight:700&quot;&gt;We never have to worry and feel 100% confident that the Event Producers team will do&lt;br&gt;an awesome job. &lt;/span&gt;-—Liz Culkin, Director, Conference and Event Management for Independent Sector" data-texteffect="Left text" />
+<a href="/contact-Us.aspx"><button class="as-btn-whiteborder-medium">&gt; See how we can help you</button></a>
+                </li>
+                <li><img src="/resources/AmazingSlider_Images/Deere.jpg" alt="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;"  title="&lt;div style=&quot;display:block;&quot;&gt;&lt;span style=&quot;color: #95cc37;&quot;&gt;CREATING&lt;/span&gt; THE ULTIMATE&lt;/div&gt; &lt;div style=&quot;display:block;margin-top:.6em;&quot;&gt;CONFERENCE EXPERIENCE&lt;span style=&quot;font-size:40%;position:relative;top:-1em&quot;&gt;&trade;&lt;/span&gt;&lt;/div&gt;" data-description="&lt;span style=&quot;font-style:italic;font-weight:700&quot;&gt;Event Producers understands our association and our approach to working with our corporate partners.&lt;br&gt;They promote and represent CUPA-HR in the best possible way.&lt;/span&gt;&lt;br/&gt;—Shiona Christensen, Director of Conferences & Events – Partner Management, CUPA-HR" data-texteffect="Left text" />
+<a href="/contact-Us.aspx"><button class="as-btn-whiteborder-medium">&gt; See how we can help you</button></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of Amazing Slider-->
+                <!--/div-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="dnn_TopPane">
+                                <div class="DnnModule DnnModule-DNN_HTML DnnModule-3730 DnnVersionableControl"><a name="3730"></a><div id="dnn_ctr3730_ContentPane">
+                                    <!-- Start_Module_3730 -->
+                                    <div id="dnn_ctr3730_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	                                    <div id="dnn_ctr3730_HtmlModule_lblContent"><br><br>
+                                            <div class="owl-carousel" data-plugin-options="{'items': 4, 'autoplay': true, 'autoplayTimeout': 3000}">
+                                                <div>
+                                                   <img class="img-responsive" alt="AMLE" src="/portals/0/img/bw_amle_logo.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="APAP" src="/portals/0/img/bw_apap_logo.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="AACC" src="/portals/0/img/AACC_logo_web.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="CUPA-HR" src="/portals/0/img/bw_cupa_logo.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="ICG" src="/portals/0/img/bw_ICG_Trans.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="Modernizing Medicine" src="/portals/0/img/bw_MMILogo_K.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="NACCU" src="/portals/0/img/bw_NACCU_logo.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="PCAPPA" src="/portals/0/img/pcappa_logo_bw.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="WWA" src="/portals/0/img/wwa_bw_logo.jpg">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="Seattle Boat Show" src="/portals/0/img/bw_SBSLogo.png">
+                                                </div>
+                                                <div>
+                                                    <img class="img-responsive" alt="Strayer University" src="/portals/0/img/bw_Strayer_logo.png">
+                                                </div>
+                                                </div>
+	                                        </div>
+
+                                        </div>
+                                    <!-- End_Module_3730 -->
+                                   </div>
+                                </div>
+                                <div class="DnnModule DnnModule-DNN_HTML DnnModule-3731 DnnVersionableControl"><a name="3731"></a></div>
+                                <div class="DnnModule DnnModule-DNN_HTML DnnModule-3732 DnnVersionableControl"><a name="3732"></a>
+                                    <div id="dnn_ctr3732_ContentPane">
+                                    <!-- Start_Module_3732 -->
+                                        <div id="dnn_ctr3732_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	                                        <div id="dnn_ctr3732_HtmlModule_lblContent"><br>
+                                                <hr class="tall">
+                                                <br>
+                                                <div class="center">
+	                                                <h2 class="short word-rotator-title">
+	                                                <span style="color: rgb(147, 202, 49); font-weight: 700;">	Event services</span>
+	                                                <span style="color: rgb(119, 119, 119); font-weight: 500;">	we offer:	</span>
+	                                                </h2>
+                                                </div>
+                                                <div class="row featured-boxes">
+	                                                <div class="col-md-3">
+		                                                <div class="featured-box featured-box-tertiary featured-box-effect-1" style="height: 399px;">
+			                                                <div class="box-content">
+				                                                <em class="icon-featured fa fa-compass"></em>
+				                                                <h4 style="color: black; font-size: 16px; font-weight: 600;">Exhibition Management</h4>
+				                                                <p>
+					                                                Trust every detail to us, from selling space to reservations to payments and more.<a class="lnk-tertiary learn-more" href="Event-Services/Exhibition-Management.aspx"> <strong>learn more <em class="icon icon-angle-right"></em></strong></a>
+				                                                </p>
+			                                                </div>
+		                                                </div>
+	                                                </div>
+	                                                <div class="col-md-3">
+		                                                <div class="featured-box featured-box-primary featured-box-effect-1" style="height: 399px;">
+			                                                <div class="box-content">
+				                                                <em class="icon-featured fa fa-line-chart"></em>
+				                                                <h4 style="color: black; font-size: 16px; font-weight: 600;">Sponsorship Program Design and Sales</h4>
+				                                                <p>
+					                                                Make the most of sponsorship opportunities with our expert program and sales team.<a class="lnk-tertiary learn-more" href="Event-Services/Sponsorship-Program-Design-and-Sales.aspx"> <strong>learn more <em class="icon icon-angle-right"></em></strong> </a>
+				                                                </p>
+			                                                </div>
+		                                                </div>
+	                                                </div>
+	                                                <div class="col-md-3">
+		                                                <div class="featured-box featured-box-quaternary featured-box-effect-1" style="height: 399px;">
+			                                                <div class="box-content">
+				                                                <em class="icon-featured fa fa-calendar-check-o "></em>
+				                                                <h4 style="color: black; font-size: 16px; font-weight: 600;">Event Planning and Management</h4>
+				                                                <p>
+					                                                Rely on our decades of experience to make your event an unqualified success.<a class="lnk-tertiary  learn-more" href="Event-Services/Event-Planning-and-Management.aspx"> <strong>learn more <em class="icon icon-angle-right"></em></strong></a>
+				                                                </p>
+			                                                </div>
+		                                                </div>
+	                                                </div>
+	                                                <div class="col-md-3">
+		                                                <div class="featured-box featured-box-secondary featured-box-effect-1" style="height: 399px;">
+			                                                <div class="box-content">
+				                                                <em class="icon-featured fa fa-laptop"></em>
+				                                                <h4 style="color: black; font-size: 16px; font-weight: 600;">Registration Services
+				                                                </h4>
+				                                                <p>
+					                                                Bring your event vision to life with a branded website and easy registration process. 
+                                                                    <a class="lnk-tertiary learn-more" href="Event-Services/Registration-Services.aspx"> <strong>learn more <em class="icon icon-angle-right"></em></strong></a>
+				                                                </p>
+			                                                </div>
+		                                                </div>
+	                                                </div>
+                                                </div>
+                                                <hr class="tall"><br>
+                                            </div>
+                                        </div><!-- End_Module_3732 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="dnn_TopLowerPaneFull">
+                    <div class="DnnModule DnnModule-LiveHTML DnnModule-3729"><a name="3729"></a>
+                        <div id="dnn_ctr3729_ContentPane">
+                            <!-- Start_Module_3729 -->
+                            <div id="dnn_ctr3729_ModuleContent" class="DNNModuleContent ModLiveHTMLC">
+	                            <div id="LiveHTMLWrapper3729" class="livehtml">
+                                <section class="parallax section section-text-light section-parallax section-center mt-none mb-none" style="background-position: 0% -92.41px; background-image: url('/Portals/0/img/TestamonialPhotoDark.jpg');" data-stellar-background-ratio="0.5">
+                                <div class="container">
+                                <div class="row">
+                                <div class="col-md-10 col-md-offset-1">
+                                <div class="owl-carousel nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'autoplay': true, 'autoplayTimeout': 10000}">
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>For me, it's all about trust and the ability to communicate effectively with all key-players top down. Vendors should be a seamless extension of your internal team. This is why Molli Moss and Event Producers stand out. Collaboration leads to viable concepts, and eventually into flawless execution and delivery of a quality product. Plans and concerns are communicated with great clarity. Creative solutions are sought to achieve results within parameters of an event.
+                                <br />
+                                Molli and her team not only met but exceeded our expectations.
+                                </p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Vinh Nguyen</strong><span> former Director, Conservative Political Action Conference</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>The partnership between CUPA-HR and Event Producers is completely seamless. Our exhibitors have come to think of Event Producers as part of the association family and our account team is missed if they aren&rsquo;t on site. My Event Producers colleagues have taken the time to understand our association and our approach to working with our corporate partners. I have complete confidence that they promote and represent CUPA-HR in the best possible way. </p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Shiona Christensen</strong><span>Director of Conferences &amp; Events &ndash; Partner Management, CUPA-HR</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>We know our attendees are in good hands with the Event Producers team. Their full service approach to the registration process results in great customer service and a smooth online experience. It also frees us up to coordinate other aspects of the conference. We never have to worry about registration and feel 100% confident that the Event Producers team will do an awesome job, both in the pre-registration period and on site at the conference. </p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Liz Culkin</strong><span>Director, Conference and Event Management for Independent Sector</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>Jason consistently meets and exceeds our expectations. Furthermore, he is always available to us and ready to jump in when situations arise. He anticipates areas we may have overlooked and ensures we are aware for proper execution. For better or worse, we consider him a valuable member of the APAP team.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Gil Gonzales</strong><span>Director, Conference and Meetings, APAP (The Association of Performing Arts Presenters)</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>  I manage several events throughout the year, and this year the majority of them have moved to online registration/management &ndash; I have found Event Producer's system to be the easiest, most intuitive to use, hands down! </p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong> Kenny Fry</strong><span>Executive Administrative Assistant, Latin Affairs, Coca-Cola North America (Event Sponsor)</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>Kaylee is a great resource and support to our overall efforts. Her willingness and timely responses have been outstanding. This past year she was tasked in a bit of a different role onsite, which allowed for a successful launch of our first self-service kiosk.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Gil Gonzales</strong><span>Director, Conference and Meetings, APAP (The Association of Performing Arts Presenters)</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>Hiring Event Producers was one of the best decisions I&rsquo;ve made as Executive Director.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Will Waidelich</strong><span>Executive Director, AMLE</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>When issues arise on our end, Event Producers has been willing to respond quickly to come up with workarounds and solutions that have supported our efforts to ensure member satisfaction. This support is invaluable to us and the entire team greatly appreciates it. </p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Gil Gonzales</strong><span>Director, Conference and Meetings, APAP (The Association of Performing Arts Presenters)</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                <div>
+                                <div class="col-md-12">
+                                <div class="testimonial testimonial-style-2 testimonial-with-quotes mb-none">
+                                <blockquote>
+                                <p>Molli is fantastic at organizing her team in a way that allows some flexibility when internal APAP IT issues arise. She has been flexible with products we use and spending time working through specific issues. It has been an extremely positive experience and I look forward to the continuation of our partnership.</p>
+                                </blockquote>
+                                <div class="testimonial-author">
+                                <p><strong>Gil Gonzales</strong><span>Director, Conference and Meetings, APAP (The Association of Performing Arts Presenters)</span></p>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </div>
+                                </section>
+
+	                            </div>
+                            </div><!-- End_Module_3729 -->
+                        </div>
+                     </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div id="dnn_TopLeftPane" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="dnn_TopMiddlePane" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="dnn_TopRightPane" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div id="dnn_TopLeftSidebar" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="dnn_TopLeftSidebarOuter" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div id="dnn_TopRightSidebarOuter" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="dnn_TopRightSidebar" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div id="dnn_LeftSidebar" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div id="dnn_LeftSidebarOuter" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div id="dnn_RightSidebarOuter" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="dnn_RightSidebar" class="DNNEmptyPane">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="dnn_contentPane">
+                                <div class="DnnModule DnnModule-LiveHTML DnnModule-3728"><a name="3728"></a><div id="dnn_ctr3728_ContentPane">
+                                    <!-- Start_Module_3728 --><div id="dnn_ctr3728_ModuleContent" class="DNNModuleContent ModLiveHTMLC">
+	                                <div id="LiveHTMLWrapper3728" class="livehtml"><br /><br /><br />
+                                        <div class="center">
+                                            <h2 class="short word-rotator-title">
+                                            <span style="color: #93ca31; font-weight: 700;">	Advantages </span>
+                                            <span style="color: #777777; font-weight: 500;">	of working with Event Producers:	</span>
+                                            </h2>
+                                            <span style="font-size: 125%;">Here&rsquo;s why clients love working with us.</span>
+                                        </div>
+                                    <br />
+                                    <div class="featured-boxes featured-boxes-style-4">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="featured-box featured-box-primary  featured-box-effect-4">
+                                                    <div class="box-content">
+                                                        <em class="icon-featured fa fa-binoculars" style="width: 110px; height: 110px; color: #e6e6e6; line-height: 110px; font-size: 76px;"></em>
+                                                        <h1 class="mb-sm" style="color: #7f7f7f;"><strong>Expertise</strong></h1>
+                                                        <p style="font-size: 115%;"> With 35 years in the event producing business, we have a wealth of knowledge and the perspective to use it well.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="featured-box featured-box-primary featured-box-effect-4">
+                                                    <div class="box-content">
+                                                        <em class="icon-featured fa fa-code" style="width: 110px; height: 110px; color: #e6e6e6; line-height: 110px; font-size: 76px;"></em>
+                                                        <h1 class="mb-sm" style="color: #7f7f7f;"><strong>Technology</strong></h1>
+                                                        <p style="font-size: 115%;">Our professionals bring solutions that integrate seamlessly with your systems, from CRM to payment processing.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="featured-box featured-box-primary featured-box-effect-4">
+                                                    <div class="box-content">
+                                                        <em class="icon-featured fa fa-check-circle-o" style="width: 110px; height: 110px; color: #e6e6e6; line-height: 110px; font-size: 76px;"></em>
+                                                        <h1 class="mb-sm" style="color: #7f7f7f;"><strong> Results</strong></h1>
+                                                        <p style="font-size: 115%;">At Event Producers, you get a team with the experience, tools, and resources to plan and manage a conference built for results.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <br />
+                                    </div>
+                                    <div class="center">
+                                        <a href="/About-Us.aspx" class="btn btn-primary mr-xs mb-sm">Learn more about us</a>   <br /><br />
+                                    </div>
+	                            </div>
+                            </div><!-- End_Module_3728 -->
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+                    <div class="row">
+                        <div id="dnn_ContentLowerPane" class="DNNEmptyPane">
+                        </div>
+                    </div>
+                </div>
+                <div id="dnn_BottomPaneFull" class="DNNEmptyPane">
+                </div>
+            </div>
+       
+
+ 
+
+
+
+
+</div>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="dnn_FooterTop" class="DNNEmptyPane">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="dnn_FooterLeft" class="DNNEmptyPane">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div id="dnn_FooterRight" class="DNNEmptyPane">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="dnn_FooterLeftPane" class="DNNEmptyPane">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="dnn_FooterMiddlePane" class="DNNEmptyPane">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div id="dnn_FooterRightPane" class="DNNEmptyPane">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="dnn_FooterLeftOuter">
+                        <div class="DnnModule DnnModule-DNN_HTML DnnModule-1535 DnnVersionableControl"><a name="1535"></a>
+                            <h4><span id="dnn_ctr1535_dnnTITLE_titleLabel" class="Head">Read our Blog!</span></h4>
+                            <div id="dnn_ctr1535_ContentPane">
+                                <!-- Start_Module_1535 -->
+                                <div id="dnn_ctr1535_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	                                <div id="dnn_ctr1535_HtmlModule_lblContent">
+                                        <p>Cool news and inspiring ideas for your next event! From Attendee Engagement  and Marketing & Promotion  to Event Technology and Trends. <a href="/UltimateBlog.aspx">Click here to read</a> our latest blog and view all categories and authors.  </p>
+	                                </div>
+                                </div><!-- End_Module_1535 -->
+                            </div>
+                            <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="dnn_FooterLeftInner">
+                            <div class="DnnModule DnnModule-DNN_HTML DnnModule-1536 DnnVersionableControl"><a name="1536"></a>
+                                <div id="dnn_ctr1536_ContentPane"><!-- Start_Module_1536 -->
+                                    <div id="dnn_ctr1536_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	                                    <div id="dnn_ctr1536_HtmlModule_lblContent">
+                                            <div style="font-size: 125%; font-weight: 400; margin-left: 50px;">
+	                                            <p>
+		                                            <a href="/About-Us.aspx">About Us</a><br>
+		                                            <a href="/people.aspx">
+		                                            Our People</a><br>
+		                                            <a href="/Services.aspx">
+		                                            Event Services</a><br>
+		                                            <a href="/Client-Success.aspx">Client Success</a><br>
+		                                            <a href="/clientsupport/login.asp">Client Login</a>
+	                                            </p>
+                                            </div>
+	                                    </div>
+                                    </div><!-- End_Module_1536 -->
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div id="dnn_FooterRightInner">
+                            <div class="DnnModule DnnModule-DNN_HTML DnnModule-1537 DnnVersionableControl"><a name="1537"></a>
+                                <h4><span id="dnn_ctr1537_dnnTITLE_titleLabel" class="Head">Contact Us</span></h4>
+                                <div id="dnn_ctr1537_ContentPane">
+                                <!-- Start_Module_1537 --><div id="dnn_ctr1537_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	                                <div id="dnn_ctr1537_HtmlModule_lblContent"><div class="contact-details">
+                                     <ul class="contact">    
+                                        <li>
+                                            <p style="color: white;"> <strong>Event Producers</strong></p></li><li><p style="color: white;"><em class="icon icon-map-marker"></em>14090 Fryelands Boulevard SE<br> Suite 342,  Monroe, WA 98272</p>
+                                        </li>
+                                        <li>  
+                                            <p style="color: white;"><em class="icon icon-phone"></em> (425) 420-1680</p>
+                                        </li>
+                                        <li>
+                                            <p><em class="icon icon-envelope"></em>  <a href="mailto:info@eventproducers.events">info@eventproducers.events</a></p>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!-- End_Module_1537 -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div id="dnn_FooterRightOuter">
+                    <div class="DnnModule DnnModule-DNN_HTML DnnModule-1538 DnnVersionableControl"><a name="1538"></a>
+                    <h4><span id="dnn_ctr1538_dnnTITLE_titleLabel" class="Head">Connect With Us</span></h4>
+                        <div id="dnn_ctr1538_ContentPane">
+                        <!-- Start_Module_1538 -->
+                            <div id="dnn_ctr1538_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	                            <div id="dnn_ctr1538_HtmlModule_lblContent">
+                                    <div class="social-icons">
+	                                    <ul class="social-icons">
+		                                    <li class="linkedin"><a title="" href="http://www.linkedin.com/company/ultimate-conference-experience" target="_blank" rel="tooltip" data-original-title="Linkedin" data-placement="bottom">Linkedin</a></li><li class="facebook"><a title="" href="https://www.facebook.com/Event-Producers-398723367134987/" target="_blank" rel="tooltip" data-original-title="facebook" data-placement="bottom">facebook</a></li><li class="googleplus"><a title="" href="https://plus.google.com/b/112927229327793781006/112927229327793781006" target="_blank" rel="tooltip" data-original-title="Googleplus" data-placement="bottom">Googleplus</a></li>
+	                                    </ul>
+                                    </div>
+                                </div>
+                            </div><!-- End_Module_1538 -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+             </div>
+         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="dnn_FooterBottom" class="DNNEmptyPane">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <div class="layout_trigger"></div>
+</div><!--CDF(Css|/Portals/_default/Skins/Porto/Home.theme.css?cdv=84)--><!--CDF(Javascript|/Portals/_default/Skins/Porto/Home.js?cdv=84)-->
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-73091521-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/`,`sf_tabId`:`1949`,`evoq_TabId`:`1949`,`evoq_PageLanguage`:`en-US`,`evoq_ContentItemId`:`-1`,`evoq_UrlReferrer`:``,`evoq_UrlPath`:`http%3a%2f%2fwww.eventproducers.events%2f`,`evoq_UrlQuery`:`%3fTabId%3d1949%26language%3den-US`,`evoq_ContentItemReferrer`:`-1`,`evoq_PersonalizedUrlReferrer`:`-1`,`evoq_DisableAnalytics`:`False`}" />
+        <script type="text/javascript" src="//maps.google.com/maps/api/js?sensor=false"></script><input name="__RequestVerificationToken" type="hidden" value="VmzHzAl4grm3zh0ot4eo9Y3qYs6GyINRtyIUJ1VolPhTbxuifFkrR2mpH2kzvM0g14J-ctYq5dvuFh4H8iedQQIH9PMvw2wPSem_jI0evy3WbdZM4aQhWNJxuO81" /><script src="/Portals/_default/Skins/Porto/Resources/js/base.js?cdv=84" type="text/javascript"></script><script src="/Portals/_default/Skins/Porto/Home.js?cdv=84" type="text/javascript"></script><link href="/Portals/_default/Skins/Porto/Home.theme.css?cdv=84" media="all" type="text/css" rel="stylesheet"/>
+    
+<script type='text/javascript'>
+    //<![CDATA[
+    (function () {
+
+        var analyticsSettings;
+        var initAnalyticsSettings = function (e) {
+            analyticsSettings = {
+                pageStart: analytics_page_startTime,
+                servicesFramework: $.ServicesFramework(-1)
+            };
+        };
+        if (window.addEventListener) {
+            window.addEventListener('load', initAnalyticsSettings, false);
+        } else {
+            window.attachEvent('onload', initAnalyticsSettings);
+        };
+
+        var eventName = (window.onpagehide || window.onpagehide === null) ? 'pagehide' : 'unload';
+        if (window.addEventListener) {
+            window.addEventListener(eventName, function (e) {
+                if (analyticsSettings) {
+                    analyticsSettings.eventSource = 'pagehide';
+                    if (dnn && dnn.analytics) { dnn.analytics.clientUnloading(e, analyticsSettings); }
+                }
+            }, false);
+        } else {
+            window.attachEvent('on' + eventName, function (e) {
+                if (analyticsSettings) {
+                    analyticsSettings.eventSource = 'pagehide';
+                    if (dnn && dnn.analytics) { dnn.analytics.clientUnloading(e, analyticsSettings); }
+                }
+            });
+        }
+
+    })();
+    //]]>
+</script>
+
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script>
+<script type="text/javascript">
+    //<![CDATA[
+    toggleClick = function (ModuleId) { var wrapper = jQuery('#LiveHTMLWrapper' + ModuleId); if (wrapper.find('#ReviewComment').is(":hidden")) { wrapper.find('#ReviewComment').slideDown('slow'); wrapper.find('#toggle').addClass('close'); } else { wrapper.find('#ReviewComment').slideUp('slow'); wrapper.find('#toggle').removeClass('close'); } };//]]>
+</script>
+
+    
+    
+</body>
+</html>

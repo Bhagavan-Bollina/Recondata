@@ -1,0 +1,47 @@
+https://fcps1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fcps1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:03:02 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:02 GMT
+< Expires: Sat, 04 Jan 2020 13:03:02 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: BbRouter=expires:1609776182,id:D44534740B5669C3B08608025A534B67,signature:4cc091215ff939048d0323e8799ef73ccb6787d75090d4b910ecd15e76b41b51,site:10a97992-0343-4b4c-a801-fc78f5b74ecf,v:2,xsrf:13479d1a-3345-4796-8045-699d203adab9; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=310BFDC91CF63C27272B3DC48383BA00C39BE9D34CBA8FA6C7164B6C85F3FA619894DB9E88AE70A7E5938AE496FEE4F0FD6F516895F2438B0B7A46D0532BC492B0D20FF7B6;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=310BFDC91CF63C27272B3DC48383BA00C39BE9D34CBA8FA6C7164B6C85F3FA619894DB9E88AE70A7E5938AE496FEE4F0FD6F516895F2438B0B7A46D0532BC492B0D20FF7B6;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-146-236-211.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Server: openresty/1.9.3.1
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Ffcps1.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;fcps1.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

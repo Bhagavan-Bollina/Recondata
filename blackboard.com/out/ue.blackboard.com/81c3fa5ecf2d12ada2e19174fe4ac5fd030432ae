@@ -1,0 +1,27 @@
+https://ue.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ue.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Appserver: fgprd-450025-sf191836-app003.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.3-rel.12+b4d1082
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 0
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: s_session_id=FADCC68EDBE31ECF9AF5250A851A292C; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=6E446E9A4E6B66CF33409F3B341BC5E8; Path=/; Secure
+< Set-Cookie: NSC_450025_wjq_69.196.228.204*443=ffffffff090d11d045525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:16 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:17 GMT
+< Expires: Sat, 04 Jan 2020 13:05:17 GMT
+< Location: https://learn.ue.org/Login2.aspx
+

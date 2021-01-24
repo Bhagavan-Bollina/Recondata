@@ -1,0 +1,54 @@
+https://data.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: data.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Cache: Miss from cloudfront
+< Via: 1.1 87605ae55b0e98e151571f681764e9c7.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: n2y8fmiAIXkZFTaoNfhQaHXLpAgYLMfNVdLp3usg6mqNRYF1vQFxPg==
+< Content-Type: text/html
+< Last-Modified: Fri, 11 Dec 2020 22:00:31 GMT
+< Etag: W/"9f94cc6cb5bb963471af4783823e89a2"
+< Server: AmazonS3
+< X-Amz-Server-Side-Encryption: AES256
+< X-Amz-Version-Id: 7AkA4Ek1ApqWtJU5nONoFGSO4f3A54xm
+< Date: Mon, 04 Jan 2021 13:02:52 GMT
+< Vary: Accept-Encoding
+< Cache-Control: max-age=0
+< X-Amz-Cf-Pop: MAA51-C1
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script type="text/javascript" src="/newRelic/newRelic.js"></script>
+        <link
+            href="https://fonts.googleapis.com/css?family=Noto+Serif%7COpen+Sans:400,600,700"
+            rel="stylesheet"
+        />
+        <title>Blackboard Data</title>
+        <!-- insertion-point-jss -->
+    </head>
+    <body class="preload" tabindex="-1">
+        <script>
+            window.version = '2.1.2';
+        </script>
+        <div id="app"></div>
+        <script>
+            var beamer_config = {
+                product_id: 'vAqvXpHb7672', //DO NOT CHANGE: This is your product code on Beamer
+                selector:
+                    '#beamer-whats-new' /*Optional: Id, class (or list of both) of the HTML element to use as a button*/,
+                bounce: false,
+            };
+        </script>
+        <script
+            type="text/javascript"
+            src="https://app.getbeamer.com/js/beamer-embed.js"
+            defer="defer"
+        ></script>
+    <script type="text/javascript" src="/runtime.d30aae64b25476d01691.js"></script><script type="text/javascript" src="/vendors~app.3636d298624beffdf93c.js"></script><script type="text/javascript" src="/app.c8e18d78e633b4e041d6.js"></script></body>
+</html>

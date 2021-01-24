@@ -1,0 +1,13 @@
+https://mercy-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mercy-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:03:44 GMT
+< X-Content-Type-Options: nosniff
+< Location: https://eis-prod.ec.mercy.edu:443/samlsso?SAMLRequest=nZNfb9owFMW%2FSuT3%2FIfCLJKKgaohdRuCtA97mRz7trXm2Jmv08K3rwkw5WFUqFKkSNc35xz%2F7s3sdteo4BUsSqMLkkYJCUBzI6R%2BLshDdRdOyW05Q9aols4796I38LcDdIH%2FTiPtDwrSWU0NQ4lUswaQOk638%2B%2F3NIsS2lrjDDeKBHNEsM4bLYzGrgG7BfsqOTxs7gvy4lyLNI59me9DppnaO8kxqhXjf2rDrIi4aWJlnqWOOVOq9nUSLH0WqZnr4581QGLobUUEPOr1IhAdHY3y%2BJAX0ZBgtSzI73Fds%2FTLZJJP8imwccLzsRjDTQqiztL6ZurbEDtYaXRMu4JkSZaGiX9GVZrTJPeS0TRPfpFgfbrkV6mP6D4iUh%2BbkH6rqnW4%2FrmtSPB4HoFvIGfgvbu9HjU7AyblZYyzeCh%2BtMpa%2BsOrrZZroyTfDxyz66erlHlbWGAOCuJsByS4M7Zh7rJAGqV9RYrwqW%2Bl0DCp5kJYQCTxv3CnpQPRr6BfHwc796mUC9O0zEo8oIYd4%2B4Emw6VF8qT3MDTwOFq8B%2B2ccoP0r689q83Y8VhcYD7m1WWaWyNdcf5%2FDdPeTy7BKQ8j3b4o5bv&RelayState=%2F#redirect=https://eis-prod.ec.mercy.edu:443/samlsso?SAMLRequest=nZNfb9owFMW%2FSuT3%2FIfCLJKKgaohdRuCtA97mRz7trXm2Jmv08K3rwkw5WFUqFKkSNc35xz%2F7s3sdteo4BUsSqMLkkYJCUBzI6R%2BLshDdRdOyW05Q9aols4796I38LcDdIH%2FTiPtDwrSWU0NQ4lUswaQOk638%2B%2F3NIsS2lrjDDeKBHNEsM4bLYzGrgG7BfsqOTxs7gvy4lyLNI59me9DppnaO8kxqhXjf2rDrIi4aWJlnqWOOVOq9nUSLH0WqZnr4581QGLobUUEPOr1IhAdHY3y%2BJAX0ZBgtSzI73Fds%2FTLZJJP8imwccLzsRjDTQqiztL6ZurbEDtYaXRMu4JkSZaGiX9GVZrTJPeS0TRPfpFgfbrkV6mP6D4iUh%2BbkH6rqnW4%2FrmtSPB4HoFvIGfgvbu9HjU7AyblZYyzeCh%2BtMpa%2BsOrrZZroyTfDxyz66erlHlbWGAOCuJsByS4M7Zh7rJAGqV9RYrwqW%2Bl0DCp5kJYQCTxv3CnpQPRr6BfHwc796mUC9O0zEo8oIYd4%2B4Emw6VF8qT3MDTwOFq8B%2B2ccoP0r689q83Y8VhcYD7m1WWaWyNdcf5%2FDdPeTy7BKQ8j3b4o5bv&RelayState=%2F
+< Content-Length: 0
+< Set-Cookie: NSC_JOjdlvj0c2hk24hcusdsgddplj3yre3=ffffffff09061e5845525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 16:22:32 GMT;path=/;secure;SameSite=None
+

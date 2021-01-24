@@ -1,0 +1,21 @@
+https://umassonline-umlday-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: umassonline-umlday-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:05:23 GMT
+< Server: Apache
+< Location: https://umassonline-umlday-stage.blackboard.com/webapps/login
+< Content-Length: 245
+< Content-Type: text/html; charset=iso-8859-1
+< Set-Cookie: NSC_120440_wjq_192.230.225.11*443=ffffffff090d10f245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://umassonline-umlday-stage.blackboard.com/webapps/login">here</a>.</p>
+</body></html>

@@ -1,0 +1,24 @@
+https://store.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: store.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Keep-Alive: timeout=5, max=100
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Mon, 04 Jan 2021 13:04:59 GMT
+< Location: http://bbbb.blackboard.com/BlackboardStore
+< Vary: Accept-Encoding
+< Connection: Keep-Alive
+< Server: Apache
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="http://bbbb.blackboard.com/BlackboardStore">here</a>.</p>
+<hr>
+<address>Apache Server at store.blackboard.com Port 443</address>
+</body></html>

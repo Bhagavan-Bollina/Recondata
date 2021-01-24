@@ -1,0 +1,3192 @@
+https://moodlerooms.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: moodlerooms.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Pragma: no-cache
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Set-Cookie: ELOQUA=GUID=762177A64B9E4549B54908D788BDFEDF&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:03:50 GMT; path=/;SameSite=None; secure
+< Date: Mon, 04 Jan 2021 13:03:50 GMT
+< Cache-Control: private,no-store
+< Expires: -1
+< X-Xss-Protection: 1; mode=block
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< X-Content-Type-Options: nosniff
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport"><!-- Meta tags edited here -->
+    <meta content="Demo webinars of Moodlerooms, Blackboard Collaborate, Blackboard Ally and SafeAssign" name="description">
+    <meta content="Blackboard Inc" name="author">
+    <meta content="Moodlerooms, Blackboard Collaborate, Blackboard Ally, SafeAssign" name="keywords">
+    <meta content="Live Demo Webinar Series" property="og:title">
+    <meta content="Demo webinars of Moodlerooms, Blackboard Collaborate, Blackboard Ally and SafeAssign" property="og:description">
+    <meta content="http://moodlerooms.blackboard.com/demo-webinar-series" property="og:url">
+    <meta content="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B8e9e78cb-b283-43e3-8af0-36ccbbc37a2b%7D_InnovateEducate-Home.png" property="og:image">
+    <link href="http://uki.blackboard.com/static/img/BbFav.png" rel="shortcut icon">
+    <title>Live Demo Webinar Series</title>
+    <script type="text/javascript">
+     /* FORM CONFIGURATION OPTIONS */
+     /* If you don't want to use a particular option leave it blank, do not remove it */
+         
+     var eventType = "Webinar"; // Either "Webinar", "Event" or "Download"  
+     var sharedListID = "15988"; //Shared List ID
+     var ConfirmationEmail = ""; //Confirmation Email ID
+     var ThankYouPage = "http://moodlerooms.blackboard.com/demo-webinar-series-ty"; //Confirmation Page
+     var notificationEmailSubject = "[Registered] Live Demo Webinar Series"; //Notification Email Subject Line
+     var notificationEmailRecipient = "martin.hellhake@blackboard.com"; //Notification Email Recipient
+     var defaultLeadSource = "Web"; //Default Lead Source
+     var defaultWhatProblem = "Learning Solutions"; //Default What Problem
+     var submitButtonText = "Register Now"; //Text for Submit Button
+     var sfdcCampaignId = "";
+     var googleAnalyticsId = 'UA-113314956-2';
+     var landingPageID = "8457";
+     var EventSeries = ["15116881","81118813","30910118","18518138","88461818","11151515","52174250","44510114"];
+     var SeriesLength = EventSeries.length;        
+     
+    </script><!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"><!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif|Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700" rel="stylesheet"><!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+    <link href="https://s3-eu-west-1.amazonaws.com/13public/style.css" rel="stylesheet">
+    <style>
+     
+     
+    /* ## Eloqua Checkbox Style Overrides
+--------------------------------------------- */
+.elq-form #formElement0.item-padding,    
+.elq-form #formElement1.item-padding,
+.elq-form #formElement2.item-padding,
+.elq-form #formElement3.item-padding,
+.elq-form #formElement4.item-padding,
+.elq-form #formElement5.item-padding,
+.elq-form #formElement6.item-padding,
+.elq-form #formElement7.item-padding,
+.elq-form #formElement8.item-padding,
+.elq-form #formElement9.item-padding {
+    width: 100%;
+    float: none;
+    margin-top: 0px;
+    min-height: 20px;
+}
+
+.elq-form #formElement0 h3,
+.elq-form #formElement5 h3 {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 25px;
+    max-width: 100%;
+}      
+     
+.elq-form #formElement0.item-padding,
+.elq-form #formElement5.item-padding {
+        margin: 0px;
+        padding: 0px;
+}        
+      
+.elq-form #formElement1 .checkbox-label,
+.elq-form #formElement2 .checkbox-label,
+.elq-form #formElement3 .checkbox-label,
+.elq-form #formElement4 .checkbox-label,
+.elq-form #formElement6 .checkbox-label,
+.elq-form #formElement7 .checkbox-label,
+.elq-form #formElement8 .checkbox-label,
+.elq-form #formElement9 .checkbox-label {
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    max-width: 90%;
+        
+}
+      
+/* Mobile styles */
+@media only screen and (max-device-width: 768px), only screen and (max-width: 768px) {
+
+
+.elq-form #formElement10.item-padding {
+
+    padding-top: 20px;
+}        
+        
+  
+  .elq-form #formElement0.item-padding, 
+  .elq-form #formElement5.item-padding {
+          margin: 20px 0px 0px 0px;
+          display: inline-block;
+  }
+        
+  .elq-form #formElement1 input[type=checkbox],
+  .elq-form #formElement2 input[type=checkbox],
+  .elq-form #formElement3 input[type=checkbox],
+  .elq-form #formElement4 input[type=checkbox],
+  .elq-form #formElement6 input[type=checkbox],
+  .elq-form #formElement7 input[type=checkbox],
+  .elq-form #formElement8 input[type=checkbox],
+  .elq-form #formElement9 input[type=checkbox] {
+        
+		display: inline-block;
+        position: relative;
+        bottom: 1px;
+  		margin-bottom: 0; /* I added this after I posted my reply */
+  		vertical-align: middle; /* Fixes any weird issues in Firefox and IE */
+  }
+ 
+  .elq-form #formElement1 .checkbox-label,
+  .elq-form #formElement2 .checkbox-label,
+  .elq-form #formElement3 .checkbox-label,
+  .elq-form #formElement4 .checkbox-label,
+  .elq-form #formElement6 .checkbox-label,
+  .elq-form #formElement7 .checkbox-label,
+  .elq-form #formElement8 .checkbox-label,
+  .elq-form #formElement9 .checkbox-label {
+		width: 80%;
+		display: inline-block;
+  		margin-bottom: 0; /* I added this after I posted my reply */
+  		vertical-align: middle; /* Fixes any weird issues in Firefox and IE */
+
+  }        
+        
+}
+      
+    </style>
+
+<!-- Google Analytics Start -->  
+  <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     ga('create', googleAnalyticsId, 'auto');
+     ga('send', 'pageview');
+    </script>
+<!-- Google Analytics End -->  
+
+<!-- LinkedIn Insight Tag Start -->  
+  <script type="text/javascript">
+_linkedin_data_partner_id = "58245";
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script>
+<!-- LinkedIn Insight Tag End --> 
+  
+<!-- Code for Action: Blackboard Universal Pixel -->
+<!-- Begin Rocket Fuel Conversion Action Tracking Code Version 9 -->
+<script type='text/javascript'>
+(function() {
+	var w = window, d = document;
+	var s = d.createElement('script');
+	s.setAttribute('async', 'true');
+	s.setAttribute('type', 'text/javascript');
+	s.setAttribute('src', '//c1.rfihub.net/js/tc.min.js');
+	var f = d.getElementsByTagName('script')[0];
+	f.parentNode.insertBefore(s, f);
+	if (typeof w['_rfi'] !== 'function') {
+		w['_rfi']=function() {
+			w['_rfi'].commands = w['_rfi'].commands || [];
+			w['_rfi'].commands.push(arguments);
+		};
+	}
+	_rfi('setArgs', 'ver', '9');
+	_rfi('setArgs', 'rb', '34272');
+	_rfi('setArgs', 'ca', '20793058');
+	_rfi('setArgs', '_o', '34272');
+	_rfi('setArgs', '_t', '20793058');
+	_rfi('track');
+})();
+</script>
+<noscript>
+  <iframe src='//20793058p.rfihub.com/ca.html?rb=34272&ca=20793058&_o=34272&_t=20793058&ra=REPLACE_ME_WITH_YOUR_CACHE_BUSTING' style='display:none;padding:0;margin:0' width='0' height='0'>
+</iframe>
+</noscript>
+<!-- End Rocket Fuel Conversion Action Tracking Code Version 9 --> 
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '417063748722910');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=417063748722910&ev=PageView&noscript=1"></noscript>
+<!-- End Facebook Pixel Code -->
+<!-- Twitter universal website tag code -->
+<script>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','nz76d');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code -->
+
+
+  
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=58245&fmt=gif">
+</noscript>
+</head>
+<body class="index purple-orange" id="page-top"><!-- You can choose the color schema with the following values: green-red, purple-orange, red-green, purple-blue, yellow-blue -->
+    <div id="skipnav">
+        <a href="#maincontent" title="Skip to main content">Skip to main content</a>
+    </div><!-- NAVIGATION START -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="mainNav">
+        <div class="container">
+            <!-- Mobile Navigation -->
+            <div class="navbar-header page-scroll">
+                <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i></button> <a class="navbar-brand" href="#page-top" title="Moodlerooms"><!-- Logo -->
+                 <img alt="Moodlerooms" class="logo mobile-logo" src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B23c794f4-b0e9-4001-8f55-5ff9fd93331b%7D_Moodlerooms_Logo.png"></a>
+            </div><!-- Navigation Links -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="TopMenu" href="http://www.moodlerooms.com?elqTrackId=d3c5237218a44a2e8a9e94db6e81dd8f&elqaid=8457&elqat=2" target="_blank">About Moodlerooms</a>
+                    </li>
+                    <li class="page-scroll">
+                         <a class="TopMenu" href="https://www.moodlerooms.com/contact-us/?elqTrackId=56f3e81a9cf748968afebe9de413d5b7&elqaid=8457&elqat=2" target="_blank">Contact Us</a>
+                    </li> 
+                    <li class="page-scroll top-nav-divider-mobile">
+                        <a class="top-nav-divider" href="#"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="register-text" href="#registertoday" title="Register Today">Register Today</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!-- NAVIGATION END -->
+    <!-- BANNER START-->
+    <!-- Header Text -->
+    <div class="intro-header">
+        <div class="intro-bg-image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="intro-message-container">
+                            <div class="intro-message">
+                                <!-- Header text edited here -->
+                                <h1>Live Demo Webinar Series</h1><!-- Subeader text edited here -->
+                              <h3>Upcoming  demo sessions - Tuesday 8th May</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Text -->
+    <!-- Intro Text -->
+    <div class="intro-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="box-banner">
+                        <div class="col-md-12 col-sm-12 col-xs-1">
+                            <h2>Learn about Moodlerooms, Blackboard Ally, Blackboard Collaborate and Blackboard SafeAssign in one of our weekly webinars.</h2>
+                            <p class="box-banner-info-text">
+                            Join our regularly scheduled demos provided by our Solutions Engineering teams from around the globe. These demos are for anyone interested in learning more about the capabilities and latest features about products such as Moodlerooms, Collaborate, Ally and SafeAssign.<br><br> 
+
+ 
+
+By joining a demo, you’ll get a brief and interactive overview of the main functionalities of our Blackboard Solutions for Moodle, as well as get in touch with a member of our Solutions Engineering team who can provide guidance and support on any questions you might have about our solutions. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Intro Text -->
+    <div class="button-cta page-scroll"><a class="button-cta-text" title="Register Today" href="#register">SELECT YOUR WEBINARS</a></div>
+    <!-- Webinar Banner Box 1 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box-banner">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-xs-1 box-banner-divider">
+                            <!-- Text for banner box edited here -->
+                          <p class="box-banner-title-text">Why Moodlerooms SaaS?</p>
+                          <p class="box-banner-info-text"><strong>Tue 8th May: 11:00 am - 12:00 pm EST</strong></p>
+                             <!-- Replace the # with the link where to check the local time -->
+                          <!--  <p class="box-banner-info-text" style="font-size:13px">(CET 5:00 pm | CST 10:00 am | PST 8:00 am)</p> -->
+<br>
+                          <p class="box-banner-info-text"><strong>Tue 8th May: 1:00 pm - 2:00 pm AEST </strong></p>
+                             <!-- Replace the # with the link where to check the local time -->
+                            <!--  <p class="box-banner-info-text" style="font-size:13px">(SGT 11:00 am | IST 8:30 am)</p> -->
+                        </div>
+
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <p class="box-banner-title-text">Presenter:</p>
+                            <p class="box-banner-text">Moodlerooms Solutions Engineer</p>
+                            <!-- <p class=""><a href="#presenters">View Bio</a></p> -->
+                            <!-- CTA Button Banner Box START -->
+                           
+                       </div>
+
+                    </div>
+
+                </div>
+                <div style="clear:both"></div>
+                    <div class="box-banner accordion" id="expanded">
+                        <div>
+                            <input id="ac-1" name="accordion-1" type="checkbox">
+                            <label class="text-center" for="ac-1">More information »</label>
+                                <div class="article ac-small">
+                                    <p>Moodlerooms is an open source learning platform based on Moodle, the most popular LMS in the world.  </p>
+
+                                    <p>Institutions and organizations that leverage the strengths of open source software, but also want first-class reliability, a superior user experience and proven innovation, can achieve that perfect balance with Moodlerooms. Join our Moodlerooms demo to learn about its great user experience, personalized learning capabilities, accessibility features, seamless integration with other Blackboard solutions, and much more. 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Webinar BANNER END -->
+
+
+  <!-- Webinar Banner Box 2 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box-banner">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-xs-1 box-banner-divider">
+                            <!-- Text for banner box edited here -->
+
+                          <p class="box-banner-title-text">Content Accessibility with Ally</p>
+                          <p class="box-banner-info-text"><strong>Tue 8th May: 12:00 pm - 1:00 pm EST</strong></p>
+                             <!-- Replace the # with the link where to check the local time -->
+                            <!--  <p class="box-banner-info-text" style="font-size:13px">(CET 6:00 pm | CST 11:00 am | PST 9:00 am)</p> -->
+                    
+<br>
+                          
+                          <p class="box-banner-info-text"><strong>Tue 8th May: 2:00 pm - 3:00 pm AEST</strong> </p>
+                             <!-- Replace the # with the link where to check the local time -->
+                            <!--  <p class="box-banner-info-text" style="font-size:13px">(SGT 12:00 pm | IST 9:30 am)</p> -->
+                        </div>
+
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <p class="box-banner-title-text">Presenter:</p>
+                            <p class="box-banner-text">Blackboard Ally Solutions Engineer</p>
+                            <!-- <p class=""><a href="#presenters">View Bio</a></p> -->
+                            <!-- CTA Button Banner Box START -->
+                           
+                       </div>
+
+                    </div>
+
+                </div>
+                <div style="clear:both"></div>
+                    <div class="box-banner accordion" id="expanded">
+                        <div>
+                            <input id="ac-3" name="accordion-3" type="checkbox">
+                            <label class="text-center" for="ac-3">More information »</label>
+                                <div class="article ac-small">
+                                    <p>Blackboard Ally is a revolutionary product that focuses on making digital course content more accessible. </p>
+
+                                    <p>As accessibility of digital course content is becoming an increasingly important topic worldwide, institutions must address long-standing and often overbearing challenges on this front. Join this demo to learn how Blackboard Ally addresses these challenges by providing alternative accessible formats, instructor feedback and institutional reporting. 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Webinar BANNER END -->  
+  
+  <!-- Webinar Banner Box 3 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="box-banner">
+                    <div class="row">
+                        <div class="col-md-7 col-sm-7 col-xs-1 box-banner-divider">
+                            <!-- Text for banner box edited here -->
+
+                            <p class="box-banner-title-text">Effective Virtual Classrooms</p>
+                          <p class="box-banner-info-text"><strong>Tue 8th May: 1:00 pm - 2:00 pm EST</strong></p>
+                             <!-- Replace the # with the link where to check the local time -->
+                            <!-- <p class="box-banner-info-text" style="font-size:13px">(CET 6:00 pm | CST 11:00 am | PST 9:00 am)</p> -->
+                    
+<br>
+                          
+                          <p class="box-banner-info-text"><strong>Tue 8th May: 3:00 pm - 4:00 pm AEST</strong> </p>
+                             <!-- Replace the # with the link where to check the local time -->
+                            <!-- <p class="box-banner-info-text" style="font-size:13px">(SGT 12:00 pm | IST 9:30 am)</p> -->
+                        </div>
+
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <p class="box-banner-title-text">Presenter:</p>
+                            <p class="box-banner-text"> Blackboard Collaborate Solutions Engineer</p>
+                            <!-- <p class=""><a href="#presenters">View Bio</a></p> -->
+                            <!-- CTA Button Banner Box START -->
+                           
+                       </div>
+
+                    </div>
+
+                </div>
+                <div style="clear:both"></div>
+                    <div class="box-banner accordion" id="expanded">
+                        <div>
+                            <input id="ac-5" name="accordion-5" type="checkbox">
+                            <label class="text-center" for="ac-5">More information »</label>
+                                <div class="article ac-small">
+                                    <p>Blackboard Collaborate is a simple, convenient, and reliable online collaborative learning solution. .</p>
+
+                                    <p>Today’s learners want new ways to engage and collaborate. Virtual classrooms and online professional development, offer new opportunities to meet your learners where they are. Join this demo to learn how Blackboard Collaborate can help inspire and engage your learners with this easy-to-use online collaborative solution. 
+                                    </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Webinar BANNER END -->
+  
+  <!-- Webinar Banner Box 4 -->
+ 
+  <!-- Webinar Banner Box 4 END -->
+
+    <div class="button-cta page-scroll"><a class="button-cta-text" title="Register Today" href="#register">SELECT YOUR WEBINARS</a></div>
+    <!-- BLOCK 1 START -->
+    <!-- Intro block -->
+    <section class="block-white">
+        <div class="container-fluid">
+            <div class="row about-block">
+                <div class="col-lg-12 text-center">
+                    <!-- Intro block title edited here -->
+                    <h2 class="dark-text-title">Meet Our Solutions</h2>
+                    <hr class="divider-short">
+                </div>
+            </div>
+            <div class="row about-block">
+                <div class="col-lg-6">
+                    <div class="about-left">
+                        <div class="icon-about-information"><!-- Intro block 1st info icon edited here -->
+                        <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B1da28024-184b-403d-8428-b05f355e002e%7D_icon_about.png"></div><!-- Intro block 1st info text edited here -->
+                        <h4 class="about-title-mobile">Moodlerooms </h4>
+                        <p class="about-paragraph" style="margin-bottom: 0px; margin-top: 24px; max-width:340px;">Moodlerooms is an open source learning platform based on Moodle, the most popular LMS in 
+the world. By using Moodlerooms, students can learn and edu cators can teach in ways that work best for them, creating a more engaged and personalized learning experience. With various service and product components, Moodlerooms takes your Moodle experience to the next level. <br><br><br></p>
+                    </div>
+                </div>
+                <hr class="divider-grey-mobile">
+                <div class="col-lg-6">
+                    <div class="about-right">
+                        <div class="icon-about-information"><!-- Intro block 2nd info icon edited here -->
+                        <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B1da28024-184b-403d-8428-b05f355e002e%7D_icon_about.png"></div><!-- Intro block 2nd info text edited here -->
+                        <h4 class="about-title-mobile">Blackboard Ally </h4>
+                        <p class="about-paragraph" style="margin-bottom: 0px; margin-top: 24px; max-width:340px;">Blackboard Ally is a revolutionary product that focuses on making digital course content more accessible. Using inclusivity, sustainability, and automation as its key pillars, Blackboard Ally 
+helps you understand and tackle accessibility in a way that benefits all students. <br><br><br></p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center"></div>
+            </div>
+        </div>
+      <div class="row about-block">
+                <div class="col-lg-6">
+                    <div class="about-left">
+                        <div class="icon-about-information"><!-- Intro block 1st info icon edited here -->
+                        <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B1da28024-184b-403d-8428-b05f355e002e%7D_icon_about.png"></div><!-- Intro block 1st info text edited here -->
+                        <h4 class="about-title-mobile">Blackboard Collaborate</h4>
+                        <p class="about-paragraph" style="margin-bottom: 0px; margin-top: 24px; max-width:340px;">Blackboard Collaborate is a simple, convenient, and reliable on line collaborative learning solution. This fully redesigned solution delivers a level of engagement that makes learners feel like they’re together in the same room via collaboration and conference tools. <br><br><br></p>
+                    </div>
+                </div>
+                <hr class="divider-grey-mobile">
+                <div class="col-lg-6">
+                    <div class="about-right">
+                        <div class="icon-about-information"><!-- Intro block 2nd info icon edited here -->
+                        <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B1da28024-184b-403d-8428-b05f355e002e%7D_icon_about.png"></div><!-- Intro block 2nd info text edited here -->
+                        <h4 class="about-title-mobile">Blackboard SafeAssign</h4>
+                        <p class="about-paragraph" style="margin-bottom: 0px; margin-top: 24px; max-width:340px;">Blackboard SafeAssign is the plagiarism prevention tool that allows users to compare documents from different sources and offers an interactive way to teach students about the value of original writing as well as proper citation. </p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center"></div>
+            </div>
+          </section><!-- BLOCK 1 END -->
+      <!-- BLOCK 2 START -->
+    <!-- Icons block -->
+    <section class="block-darkgrey">
+        <div class="container-fluid white-text">
+            <div class="row row-centered">
+                <div class="col-lg-12 text-center white-text">
+                    <!-- Icons block title edited here -->
+                    <h2 class="white-text-title">Why Should You Join?</h2>
+                    <hr class="divider-short-icon">
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="block-icon">
+                    <div class="container-fluid">
+                        <div class="row row-centered block-icon">
+                            <div class="col-lg-12 text-center white-text">
+                                <div class="col-md-4 col-centered col-max">
+                                    <div class="item">
+                                        <div class="content">
+                                            <div class="circle-icon icon-left"><!-- 1st icon image edited here -->
+                                            <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7B016b71ce-e27e-4dc3-b017-1847103d81d9%7D_icon_notes.png"></div>
+                                            <div class="icon-text">
+                                                <!-- 1st icon text edited here -->
+                                                <p>Get a quick overview of 
+
+the Blackboard 
+
+Solutions for Moodle </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-centered col-max">
+                                    <div class="item">
+                                        <div class="content">
+                                            <div class="circle-icon icon-middle"><!-- 2nd icon image edited here -->
+                                            <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7Bd4e20d1f-695b-4952-98dc-41f894025a3c%7D_icon_screen.png"></div>
+                                            <div class="icon-text">
+                                                <!-- 2nd icon text edited here -->
+                                                <p>See a live demo of the 
+
+Blackboard Solution of 
+
+your choice </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-centered col-max">
+                                    <div class="item">
+                                        <div class="content">
+                                            <div class="circle-icon icon-right"><!-- 3rd icon image edited here -->
+                                            <img src="http://images.email.blackboard.com/EloquaImages/clients/BlackboardInc/%7Bd189e75a-e99f-43fb-ba81-1320f4a40ae0%7D_icon_mobile.png"></div>
+                                            <div class="icon-text">
+                                                <!-- 3rd icon text edited here -->
+                                                <p>Ask your product-related questions to our team of experts </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <div id="FormStart"></div>
+        <!-- BLOCK 5 START -->
+    <!-- Form block -->
+    <div class="form-bg-image">
+        <div class="form-bg">
+            <div class="form-container container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <!-- Form block title edited here -->
+                        <h2 class="white-text-title">SELECT YOUR WEBINARS!</h2>
+                        <hr class="divider-short">
+                    </div>
+                </div>
+                <div class="row white-text form-text-box">
+                    <div class="col-lg-12 text-center">
+                        <!-- Form block text edited here -->
+                        <p><b>Please select at least one webinar. You can also register for multiple webinars.</b></p><br>
+                      <p id="selectone" style="display: none; color: #ff0000;"><b>You have to select at least one webinar!</b></p>
+                        <p class="form-text mobile-form-text">
+                    </div>
+                </div>
+                <!-- FORM -->
+                <!-- START -->
+                <div class="row" id="register">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div>
+  <form method="post" name="GDC_2018_CROSS_FormCentre_MR_Demo_Webinar_Series" action="http://moodlerooms.blackboard.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form4014 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form4014" class="elq-form">
+    <input value="GDC_2018_CROSS_FormCentre_MR_Demo_Webinar_Series" type="hidden" name="elqFormName">
+    <input value="2376" type="hidden" name="elqSiteId">
+    <input name="elqCampaignId" type="hidden">
+    <div id="formElement0" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="section-break">
+        <h3 class="heading">
+          North America Eastern Time Zone Sessions:
+        </h3>
+      </div>
+    </div>
+    <div id="formElement1" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="W1_box" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  1. Why Moodlerooms SaaS? (Tue 8th May: 11:00 am - 12:00 pm EST)
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement2" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="W2_box" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  2. Content Accessibilty with Ally (Tue 8th May: 12:00 pm - 1:00 pm EST)
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+     <div class="field-wrapper"> </div>
+     <div class="individual field-wrapper">
+       <div class="_100 field-style">
+         <p class="field-p">
+           <span class="checkbox-span field-size-top-large">
+             <span class="list-order oneColumn">
+               <input name="W3_box" type="checkbox" value="on">
+               <label class="checkbox-label"> 
+                  3. Effective Virtual Classrooms (Tue 8th May: 1:00 pm - 2:00 pm EST)
+                </label>
+             </span>
+           </span>
+         </p>
+       </div>
+     </div>
+    </div>
+<!--    <div id="formElement4" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="W4_box" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  4. Using Analytics to Improve Course Performance  (Thursdays: 10:00 am - 11:00 am ET)
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <div id="formElement5" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="section-break">
+        <h3 class="heading">
+          Australian Eastern Daylight Time  Sessions:
+        </h3>
+      </div>
+    </div>
+    <div id="formElement6" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="W5_box" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  1. Why Moodlerooms SaaS? (Tue 8th May: 1:00 pm - 2:00 pm AEST)
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement7" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="W6_box" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  2. Content Accessibilty with Ally (Tue 8th May: 2:00 pm - 3:00 pm AEST)
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+   <div id="formElement8" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+     <div class="field-wrapper">
+     </div>
+     <div class="individual field-wrapper">
+       <div class="_100 field-style">
+         <p class="field-p">
+          <span class="checkbox-span field-size-top-large">
+             <span class="list-order oneColumn">
+               <input name="W7_box" type="checkbox" value="on">
+               <label class="checkbox-label">
+                  3. Effective Virtual Classrooms (Tue 8th May: 3:00 pm - 4:00 pm AEST)
+                </label>
+             </span>
+           </span>
+         </p>
+       </div>
+     </div>
+   </div>
+<!--    <div id="formElement9" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="W8_box" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  4. Using Analytics to Improve Course Performance  (Thursdays: 2:00 pm - 3:00 pm AEST)
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <div id="formElement10" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field10" class="label-position top ">
+              Email Address
+            </label>
+            <input id="field10" name="emailAddress" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement11" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field11" class="label-position top ">
+              First name
+            </label>
+            <input id="field11" name="firstName" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement12" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field12" class="label-position top ">
+              Last name
+            </label>
+            <input id="field12" name="lastName" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement13" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field13" class="label-position top ">
+              Job title
+            </label>
+            <input id="field13" name="title" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement14" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field14" class="label-position top ">
+              Company name
+            </label>
+            <input id="field14" name="company" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement15" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field15" class="label-position top ">
+              Your country
+            </label>
+            <select id="field15" name="country" data-value="" class="field-size-top-large">
+  <option value="" selected="selected">
+    --Please Select--
+  </option>
+  <option value="United Kingdom">
+    United Kingdom
+  </option>
+  <option value="Ireland">
+    Ireland
+  </option>
+  <option value="Afghanistan">
+    Afghanistan
+  </option>
+  <option value="Albania">
+    Albania
+  </option>
+  <option value="Algeria">
+    Algeria
+  </option>
+  <option value="American Samoa">
+    American Samoa
+  </option>
+  <option value="Andorra">
+    Andorra
+  </option>
+  <option value="Angola">
+    Angola
+  </option>
+  <option value="Anguilla">
+    Anguilla
+  </option>
+  <option value="Antigua and Barbuda">
+    Antigua and Barbuda
+  </option>
+  <option value="Argentina">
+    Argentina
+  </option>
+  <option value="Armenia">
+    Armenia
+  </option>
+  <option value="Aruba">
+    Aruba
+  </option>
+  <option value="Australia">
+    Australia
+  </option>
+  <option value="Austria">
+    Austria
+  </option>
+  <option value="Azerbaijan">
+    Azerbaijan
+  </option>
+  <option value="Bahrain">
+    Bahrain
+  </option>
+  <option value="Bangladesh">
+    Bangladesh
+  </option>
+  <option value="Barbados">
+    Barbados
+  </option>
+  <option value="Belarus">
+    Belarus
+  </option>
+  <option value="Belgium">
+    Belgium
+  </option>
+  <option value="Belize">
+    Belize
+  </option>
+  <option value="Benin">
+    Benin
+  </option>
+  <option value="Bermuda">
+    Bermuda
+  </option>
+  <option value="Bhutan">
+    Bhutan
+  </option>
+  <option value="Bolivia">
+    Bolivia
+  </option>
+  <option value="Bonaire">
+    Bonaire
+  </option>
+  <option value="Bosnia & Herzegovina">
+    Bosnia &amp; Herzegovina
+  </option>
+  <option value="Botswana">
+    Botswana
+  </option>
+  <option value="Brazil">
+    Brazil
+  </option>
+  <option value="British Indian Ocean Territory">
+    British Indian Ocean Territory
+  </option>
+  <option value="Brunei Darussalam">
+    Brunei
+  </option>
+  <option value="Bulgaria">
+    Bulgaria
+  </option>
+  <option value="Burkina Faso">
+    Burkina Faso
+  </option>
+  <option value="Burundi">
+    Burundi
+  </option>
+  <option value="Cambodia">
+    Cambodia
+  </option>
+  <option value="Cameroon">
+    Cameroon
+  </option>
+  <option value="Canada">
+    Canada
+  </option>
+  <option value="Cape Verde">
+    Cape Verde
+  </option>
+  <option value="Cayman Islands">
+    Cayman Islands
+  </option>
+  <option value="Central African Republic">
+    Central African Republic
+  </option>
+  <option value="Chad">
+    Chad
+  </option>
+  <option value="Chile">
+    Chile
+  </option>
+  <option value="China">
+    China
+  </option>
+  <option value="Christmas Island">
+    Christmas Island
+  </option>
+  <option value="Cocos (Keeling) Islands">
+    Cocos (Keeling) Islands
+  </option>
+  <option value="Colombia">
+    Colombia
+  </option>
+  <option value="Comoros">
+    Comoros
+  </option>
+  <option value="Congo, the Democratic Republic of the">
+    Congo (Democratic Republic of)
+  </option>
+  <option value="Congo">
+    Congo
+  </option>
+  <option value="Cook Islands">
+    Cook Islands
+  </option>
+  <option value="Costa Rica">
+    Costa Rica
+  </option>
+  <option value="Croatia">
+    Croatia
+  </option>
+  <option value="Cuba">
+    Cuba
+  </option>
+  <option value="Curacao">
+    Curacao
+  </option>
+  <option value="Cyprus">
+    Cyprus
+  </option>
+  <option value="Czech Republic">
+    Czech Republic
+  </option>
+  <option value="Denmark">
+    Denmark
+  </option>
+  <option value="Djibouti">
+    Djibouti
+  </option>
+  <option value="Dominica">
+    Dominica
+  </option>
+  <option value="Dominican Republic">
+    Dominican Republic
+  </option>
+  <option value="East Timor">
+    East Timor
+  </option>
+  <option value="Ecuador">
+    Ecuador
+  </option>
+  <option value="Egypt">
+    Egypt
+  </option>
+  <option value="El Salvador">
+    El Salvador
+  </option>
+  <option value="Equatorial Guinea">
+    Equatorial Guinea
+  </option>
+  <option value="Eritrea">
+    Eritrea
+  </option>
+  <option value="Estonia">
+    Estonia
+  </option>
+  <option value="Ethiopia">
+    Ethiopia
+  </option>
+  <option value="Falkland Islands (malvinas)">
+    Falkland Islands
+  </option>
+  <option value="Faroe Islands">
+    Faroe Islands
+  </option>
+  <option value="Fiji">
+    Fiji
+  </option>
+  <option value="Finland">
+    Finland
+  </option>
+  <option value="France">
+    France
+  </option>
+  <option value="French Guiana">
+    French Guiana
+  </option>
+  <option value="French Southern Territorie">
+    French Southern Territorie
+  </option>
+  <option value="Gabon">
+    Gabon
+  </option>
+  <option value="Gambia">
+    Gambia
+  </option>
+  <option value="Georgia">
+    Georgia
+  </option>
+  <option value="Germany">
+    Germany
+  </option>
+  <option value="Ghana">
+    Ghana
+  </option>
+  <option value="Gibraltar">
+    Gibraltar
+  </option>
+  <option value="Greece">
+    Greece
+  </option>
+  <option value="Greenland">
+    Greenland
+  </option>
+  <option value="Grenada">
+    Grenada
+  </option>
+  <option value="Guadeloupe">
+    Guadeloupe
+  </option>
+  <option value="Guatemala">
+    Guatemala
+  </option>
+  <option value="Guinea">
+    Guinea
+  </option>
+  <option value="Guinea-Bissau">
+    Guinea-Bissau
+  </option>
+  <option value="Guyana">
+    Guyana
+  </option>
+  <option value="Haiti">
+    Haiti
+  </option>
+  <option value="Holy See (Vatican City State)">
+    Holy See (Vatican City State)
+  </option>
+  <option value="Honduras">
+    Honduras
+  </option>
+  <option value="Hong Kong">
+    Hong Kong
+  </option>
+  <option value="Hungary">
+    Hungary
+  </option>
+  <option value="Iceland">
+    Iceland
+  </option>
+  <option value="India">
+    India
+  </option>
+  <option value="Indonesia">
+    Indonesia
+  </option>
+  <option value="Iran (Islamic Republic Of)">
+    Iran (Islamic Republic Of)
+  </option>
+  <option value="Iraq">
+    Iraq
+  </option>
+  <option value="Israel">
+    Israel
+  </option>
+  <option value="Italy">
+    Italy
+  </option>
+  <option value="Cote d'Ivoire">
+    Ivory Coast (Cote D'Ivoire)
+  </option>
+  <option value="Jamaica">
+    Jamaica
+  </option>
+  <option value="Japan">
+    Japan
+  </option>
+  <option value="Jordan">
+    Jordan
+  </option>
+  <option value="Kazakhstan">
+    Kazakhstan
+  </option>
+  <option value="Kenya">
+    Kenya
+  </option>
+  <option value="Kiribati">
+    Kiribati
+  </option>
+  <option value="Kuwait">
+    Kuwait
+  </option>
+  <option value="Kyrgyzstan">
+    Kyrgyzstan
+  </option>
+  <option value="Lao People's Democratic Rep">
+    Laos
+  </option>
+  <option value="Latvia">
+    Latvia
+  </option>
+  <option value="Lebanon">
+    Lebanon
+  </option>
+  <option value="Lesotho">
+    Lesotho
+  </option>
+  <option value="Liberia">
+    Liberia
+  </option>
+  <option value="Libyan Arab Jamahiriya">
+    Libya
+  </option>
+  <option value="Liechtenstein">
+    Liechtenstein
+  </option>
+  <option value="Lithuania">
+    Lithuania
+  </option>
+  <option value="Luxembourg">
+    Luxembourg
+  </option>
+  <option value="Macau">
+    Macau
+  </option>
+  <option value="Fmr Yugoslav Rep of Macedonia">
+    Macedonia
+  </option>
+  <option value="Madagascar">
+    Madagascar
+  </option>
+  <option value="Malawi">
+    Malawi
+  </option>
+  <option value="Malaysia">
+    Malaysia
+  </option>
+  <option value="Maldives">
+    Maldives
+  </option>
+  <option value="Mali">
+    Mali
+  </option>
+  <option value="Malta">
+    Malta
+  </option>
+  <option value="Marshall Islands">
+    Marshall Islands
+  </option>
+  <option value="Martinique">
+    Martinique
+  </option>
+  <option value="Mauritania">
+    Mauritania
+  </option>
+  <option value="Mauritius">
+    Mauritius
+  </option>
+  <option value="Mayotte">
+    Mayotte
+  </option>
+  <option value="Mexico">
+    Mexico
+  </option>
+  <option value="Micronesia, Federated States">
+    Micronesia
+  </option>
+  <option value="Moldova, Republic of">
+    Moldova
+  </option>
+  <option value="Monaco">
+    Monaco
+  </option>
+  <option value="Mongolia">
+    Mongolia
+  </option>
+  <option value="Montenegro">
+    Montenegro
+  </option>
+  <option value="Montserrat">
+    Montserrat
+  </option>
+  <option value="Morocco">
+    Morocco
+  </option>
+  <option value="Mozambique">
+    Mozambique
+  </option>
+  <option value="Myanmar">
+    Myanmar
+  </option>
+  <option value="Namibia">
+    Namibia
+  </option>
+  <option value="Nauru">
+    Nauru
+  </option>
+  <option value="Nepal">
+    Nepal
+  </option>
+  <option value="The Netherlands">
+    Netherlands
+  </option>
+  <option value="New Caledonia">
+    New Caledonia
+  </option>
+  <option value="New Zealand">
+    New Zealand
+  </option>
+  <option value="Nicaragua">
+    Nicaragua
+  </option>
+  <option value="Niger">
+    Niger
+  </option>
+  <option value="Nigeria">
+    Nigeria
+  </option>
+  <option value="Niue">
+    Niue
+  </option>
+  <option value="Norfolk Island">
+    Norfolk Island
+  </option>
+  <option value="North Korea">
+    North Korea
+  </option>
+  <option value="Northern Mariana Islands">
+    Northern Mariana Islands
+  </option>
+  <option value="Norway">
+    Norway
+  </option>
+  <option value="Oman">
+    Oman
+  </option>
+  <option value="Pakistan">
+    Pakistan
+  </option>
+  <option value="Palau">
+    Palau
+  </option>
+  <option value="Panama">
+    Panama
+  </option>
+  <option value="Papua New Guinea">
+    Papua New Guinea
+  </option>
+  <option value="Paraguay">
+    Paraguay
+  </option>
+  <option value="Peru">
+    Peru
+  </option>
+  <option value="Philippines">
+    Philippines
+  </option>
+  <option value="Poland">
+    Poland
+  </option>
+  <option value="French Polynesia">
+    Polynesia
+  </option>
+  <option value="Portugal">
+    Portugal
+  </option>
+  <option value="Qatar">
+    Qatar
+  </option>
+  <option value="Reunion">
+    Reunion
+  </option>
+  <option value="Romania">
+    Romania
+  </option>
+  <option value="Russian Federation">
+    Russia
+  </option>
+  <option value="Rwanda">
+    Rwanda
+  </option>
+  <option value="Saint Helena">
+    Saint Helena
+  </option>
+  <option value="Saint Kitts and Nevis">
+    Saint Kitts and Nevis
+  </option>
+  <option value="Saint Lucia">
+    Saint Lucia
+  </option>
+  <option value="Saint Martin">
+    Saint Martin
+  </option>
+  <option value="Saint Pierre and Miquelon">
+    Saint Pierre and Miquelon
+  </option>
+  <option value="St Vincent and the Grenadines">
+    South Georgia and South Sandwich Islands
+  </option>
+  <option value="Samoa">
+    Samoa
+  </option>
+  <option value="San Marino">
+    San Marino
+  </option>
+  <option value="Sao Tome and Principe">
+    Sao Tome and Principe
+  </option>
+  <option value="Saudi Arabia">
+    Saudi Arabia
+  </option>
+  <option value="Senegal">
+    Senegal
+  </option>
+  <option value="Serbia">
+    Serbia
+  </option>
+  <option value="Seychelles">
+    Seychelles
+  </option>
+  <option value="Sierra Leone">
+    Sierra Leone
+  </option>
+  <option value="Singapore">
+    Singapore
+  </option>
+  <option value="Slovakia">
+    Slovakia
+  </option>
+  <option value="Slovenia">
+    Slovenia
+  </option>
+  <option value="Solomon Islands">
+    Solomon Islands
+  </option>
+  <option value="Somalia">
+    Somalia
+  </option>
+  <option value="South Africa">
+    South Africa
+  </option>
+  <option value="Korea, Republic of">
+    South Korea
+  </option>
+  <option value="South Sudan">
+    South Sudan
+  </option>
+  <option value="Spain">
+    Spain
+  </option>
+  <option value="Sri Lanka">
+    Sri Lanka
+  </option>
+  <option value="Sudan">
+    Sudan
+  </option>
+  <option value="Suriname">
+    Suriname
+  </option>
+  <option value="Svalbard and Jan Mayen">
+    Svalbard and Jan Mayen
+  </option>
+  <option value="Swaziland">
+    Swaziland
+  </option>
+  <option value="Sweden">
+    Sweden
+  </option>
+  <option value="Switzerland">
+    Switzerland
+  </option>
+  <option value="Syrian Arab Republic">
+    Syria
+  </option>
+  <option value="Taiwan">
+    Taiwan
+  </option>
+  <option value="Tajikistan">
+    Tajikistan
+  </option>
+  <option value="Tanzania">
+    Tanzania
+  </option>
+  <option value="Thailand">
+    Thailand
+  </option>
+  <option value="Togo">
+    Togo
+  </option>
+  <option value="Tokelau">
+    Tokelau
+  </option>
+  <option value="Tonga">
+    Tonga
+  </option>
+  <option value="Trinidad and Tobago">
+    Trinidad and Tobago
+  </option>
+  <option value="Tunisia">
+    Tunisia
+  </option>
+  <option value="Turkey">
+    Turkey
+  </option>
+  <option value="Turkmenistan">
+    Turkmenistan
+  </option>
+  <option value="Turks and Caicos Islands">
+    Turks and Caicos Islands
+  </option>
+  <option value="Tuvalu">
+    Tuvalu
+  </option>
+  <option value="Uganda">
+    Uganda
+  </option>
+  <option value="Ukraine">
+    Ukraine
+  </option>
+  <option value="United Arab Emirates">
+    United Arab Emirates
+  </option>
+  <option value="Uruguay">
+    Uruguay
+  </option>
+  <option value="US Minor Outlying Islands">
+    US Minor Outlying Islands
+  </option>
+  <option value="USA">
+    USA
+  </option>
+  <option value="Uzbekistan">
+    Uzbekistan
+  </option>
+  <option value="Vanuatu">
+    Vanuatu
+  </option>
+  <option value="Venezuela">
+    Venezuela
+  </option>
+  <option value="Vietnam">
+    Vietnam
+  </option>
+  <option value="Virgin Islands (British)">
+    Virgin Islands (British)
+  </option>
+  <option value="Wallis and Futuna Islands">
+    Wallis and Futuna Islands
+  </option>
+  <option value="Western Sahara">
+    Western Sahara
+  </option>
+  <option value="Yemen">
+    Yemen
+  </option>
+  <option value="Zambia">
+    Zambia
+  </option>
+  <option value="Zimbabwe">
+    Zimbabwe
+  </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement16" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field16" class="label-position top ">
+              Your state
+            </label>
+            <select id="field16" name="stateProv" class="field-size-top-large">
+              <option value="">
+                -- Please Select -- 
+              </option>
+              <option value="AA">
+                Armed Forces Americas
+              </option>
+              <option value="AE">
+                Armed Forces Europe
+              </option>
+              <option value="AK">
+                Alaska
+              </option>
+              <option value="AL">
+                Alabama
+              </option>
+              <option value="AP">
+                Armed Forces Pacific
+              </option>
+              <option value="AR">
+                Arkansas
+              </option>
+              <option value="AS">
+                American Samoa
+              </option>
+              <option value="AZ">
+                Arizona
+              </option>
+              <option value="CA">
+                California
+              </option>
+              <option value="CO">
+                Colorado
+              </option>
+              <option value="CT">
+                Connecticut
+              </option>
+              <option value="DC">
+                District of Columbia
+              </option>
+              <option value="DE">
+                Delaware
+              </option>
+              <option value="FL">
+                Florida
+              </option>
+              <option value="GA">
+                Georgia
+              </option>
+              <option value="GU">
+                Guam
+              </option>
+              <option value="HI">
+                Hawaii
+              </option>
+              <option value="IA">
+                Iowa
+              </option>
+              <option value="ID">
+                Idaho
+              </option>
+              <option value="IL">
+                Illinois
+              </option>
+              <option value="IN">
+                Indiana
+              </option>
+              <option value="KS">
+                Kansas
+              </option>
+              <option value="KY">
+                Kentucky
+              </option>
+              <option value="LA">
+                Louisiana
+              </option>
+              <option value="MA">
+                Massachusetts
+              </option>
+              <option value="MD">
+                Maryland
+              </option>
+              <option value="ME">
+                Maine
+              </option>
+              <option value="MI">
+                Michigan
+              </option>
+              <option value="MN">
+                Minnesota
+              </option>
+              <option value="MO">
+                Missouri
+              </option>
+              <option value="MS">
+                Mississippi
+              </option>
+              <option value="MT">
+                Montana
+              </option>
+              <option value="NC">
+                North Carolina
+              </option>
+              <option value="ND">
+                North Dakota
+              </option>
+              <option value="NE">
+                Nebraska
+              </option>
+              <option value="NH">
+                New Hampshire
+              </option>
+              <option value="NJ">
+                New Jersey
+              </option>
+              <option value="NM">
+                New Mexico
+              </option>
+              <option value="NV">
+                Nevada
+              </option>
+              <option value="NY">
+                New York
+              </option>
+              <option value="OH">
+                Ohio
+              </option>
+              <option value="OK">
+                Oklahoma
+              </option>
+              <option value="OR">
+                Oregon
+              </option>
+              <option value="PA">
+                Pennsylvania
+              </option>
+              <option value="PR">
+                Puerto Rico
+              </option>
+              <option value="RI">
+                Rhode Island
+              </option>
+              <option value="SC">
+                South Carolina
+              </option>
+              <option value="SD">
+                South Dakota
+              </option>
+              <option value="TN">
+                Tennessee
+              </option>
+              <option value="TX">
+                Texas
+              </option>
+              <option value="UT">
+                Utah
+              </option>
+              <option value="VA">
+                Virginia
+              </option>
+              <option value="VI">
+                Virgin Islands
+              </option>
+              <option value="VT">
+                Vermont
+              </option>
+              <option value="WA">
+                Washington
+              </option>
+              <option value="WI">
+                Wisconsin
+              </option>
+              <option value="WV">
+                West Virginia
+              </option>
+              <option value="WY">
+                Wyoming
+              </option>
+              <option value="AB">
+                Alberta
+              </option>
+              <option value="BC">
+                British Columbia
+              </option>
+              <option value="MB">
+                Manitoba
+              </option>
+              <option value="NB">
+                New Brunswick
+              </option>
+              <option value="NF">
+                Newfoundland
+              </option>
+              <option value="NL">
+                Newfoundland and Labrador
+              </option>
+              <option value="NS">
+                Nova Scotia
+              </option>
+              <option value="NT">
+                Northwest Territories
+              </option>
+              <option value="NU">
+                Nunavut
+              </option>
+              <option value="ON">
+                Ontario
+              </option>
+              <option value="PE">
+                Prince Edward Island
+              </option>
+              <option value="QC">
+                Quebec
+              </option>
+              <option value="SK">
+                Saskatchewan
+              </option>
+              <option value="YT">
+                Yukon
+              </option>
+              <option value="ZZ">
+                Beyond the limits of any Prov.
+              </option>
+              <option value="ACT">
+                Austl. Cap. Terr.
+              </option>
+              <option value="NSW">
+                New South Wales
+              </option>
+              <option value="NT">
+                Northern Territory
+              </option>
+              <option value="QLD">
+                Queensland
+              </option>
+              <option value="SA">
+                South Australia
+              </option>
+              <option value="TAS">
+                Tasmania
+              </option>
+              <option value="VIC">
+                Victoria
+              </option>
+              <option value="WA">
+                Western Australia
+              </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement17" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field17" class="label-position top ">
+              Which best describes your industry?
+            </label>
+            <select id="field17" name="industry1" data-value="" class="field-size-top-large">
+  <option value="">
+    -- Please select --
+  </option>
+  <option value="Higher Ed. - For Profit Ed.">
+    Higher Ed. - For Profit Ed.
+  </option>
+  <option value="Higher Ed. - Not for Profit Ed.">
+    Higher Ed. - Not for Profit Ed.
+  </option>
+  <option value="Higher Ed. - Other Vocation Education">
+    Higher Ed. - Other Vocation Education
+  </option>
+  <option value="Further Education">
+    Further Education
+  </option>
+  <option value="K12">
+    K12
+  </option>
+  <option value="Corporate">
+    Corporate
+  </option>
+  <option value="Non-Corporate Organization">
+    Non-Corporate Organization
+  </option>
+  <option value="Government - DoD">
+    Government - DoD
+  </option>
+  <option value="Government - Other">
+    Government - Other
+  </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement18" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field18" class="label-position top ">
+              Your organisation/institution size
+            </label>
+            <select id="field18" name="numberOfUsersANZ1" class="field-size-top-large">
+              <option value="">
+                Please Select
+              </option>
+              <option value="0-100">
+                0-100
+              </option>
+              <option value="101-500">
+                101-500
+              </option>
+              <option value="501-1000">
+                501-1000
+              </option>
+              <option value="1001-4000">
+                1001-4000
+              </option>
+              <option value="4001-8000">
+                4001-8000
+              </option>
+              <option value="8001-15000">
+                8001-15000
+              </option>
+              <option value="15000+">
+                15000+
+              </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement19" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field19" class="label-position top ">
+              Your job title
+            </label>
+            <select id="field19" name="jobTitleCategory1" data-value="" class="field-size-top-large">
+  <option value="">
+    -- Please select ---
+  </option>
+  <option value="Executive (President, Chancellor, Provost, CEO, CIO, CAO, CTO, COO)">
+    Executive (President, Chancellor, Provost, CEO, CIO, CAO, CTO, COO)
+  </option>
+  <option value="Vice President/Vice Provost/Vice Chancellor/Executive Vice President">
+    Vice President/Vice Provost/Vice Chancellor/Executive Vice President
+  </option>
+  <option value="Associate Vice President/Associate Provost">
+    Associate Vice President/Associate Provost
+  </option>
+  <option value="Dean">
+    Dean
+  </option>
+  <option value="Director">
+    Director
+  </option>
+  <option value="Associate Director">
+    Associate Director
+  </option>
+  <option value="Manager">
+    Manager
+  </option>
+  <option value="Professor/Instructor">
+    Professor/Instructor
+  </option>
+  <option value="Consultant">
+    Consultant
+  </option>
+  <option value="Administrator/Assistant/Coordinator">
+    Administrator/Assistant/Coordinator
+  </option>
+  <option value="Technician/Specialist">
+    Technician/Specialist
+  </option>
+  <option value="Student">
+    Student
+  </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement20" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field20" class="label-position top ">
+              Your role
+            </label>
+            <select id="field20" name="primaryRole1" data-value="" class="field-size-top-large">
+  <option value="">
+    -- Please select --
+  </option>
+  <option value="Academic Affairs">
+    Academic Affairs
+  </option>
+  <option value="Academic Tech/Information Tech (IT)/Information Services">
+    Academic Tech/Information Tech (IT)
+  </option>
+  <option value="Academic Technology/Instructional Technology">
+    Academic Technology/Instructional Technology
+  </option>
+  <option value="Accounting & Finance">
+    Accounting &amp; Finance
+  </option>
+  <option value="Admin Srvcs/Food Srvcs/Bookstore">
+    Admin Srvcs/Food Srvcs/Bookstore
+  </option>
+  <option value="Admissions/Enrollment Mangement">
+    Admissions/Enrollment Mangement
+  </option>
+  <option value="Analyst">
+    Analyst
+  </option>
+  <option value="Assessment">
+    Assessment
+  </option>
+  <option value="Athletics">
+    Athletics
+  </option>
+  <option value="Auxiliary Services">
+    Auxiliary Services
+  </option>
+  <option value="Billing">
+    Billing
+  </option>
+  <option value="Business Development">
+    Business Development
+  </option>
+  <option value="Campus Card Services">
+    Campus Card Services
+  </option>
+  <option value="Career/Placement/Workforce development">
+    Career/Placement/Workforce development
+  </option>
+  <option value="Communications">
+    Communications
+  </option>
+  <option value="Consultant">
+    Consultant
+  </option>
+  <option value="Contracts">
+    Contracts
+  </option>
+  <option value="County Administration">
+    County Administration
+  </option>
+  <option value="Course Design/Course Development/Instructional Design">
+    Course Design/Course Development/Instructional Design
+  </option>
+  <option value="Course Design/Development">
+    Course Design/Development
+  </option>
+  <option value="Courts">
+    Courts
+  </option>
+  <option value="Curriculum & Instruction">
+    Curriculum &amp; Instruction
+  </option>
+  <option value="Customer Service">
+    Customer Service
+  </option>
+  <option value="Distance Learning/eLearning/Online Learning">
+    Distance Learning/eLearning/Online Learning
+  </option>
+  <option value="Emergency Management">
+    Emergency Management
+  </option>
+  <option value="Emergency Management/Safety & Security">
+    Emergency Management/Safety &amp; Security
+  </option>
+  <option value="Executive Management">
+    Executive Management
+  </option>
+  <option value="Executive Management/Administration">
+    Executive Management/Administration
+  </option>
+  <option value="Executive Management/Executive Leadership">
+    Executive Management/Executive Leadership
+  </option>
+  <option value="Facilities">
+    Facilities
+  </option>
+  <option value="Facilities/Operations/Compliance">
+    Facilities/Operations/Compliance
+  </option>
+  <option value="Faculty Development">
+    Faculty Development/ Training &amp; Development
+  </option>
+  <option value="Faculty Development/Professional Development">
+    Faculty Development/Professional Development
+  </option>
+  <option value="Finance">
+    Finance
+  </option>
+  <option value="Financial Aid">
+    Financial Aid
+  </option>
+  <option value="Fire Department">
+    Fire Department
+  </option>
+  <option value="Funding Management">
+    Funding Management
+  </option>
+  <option value="Government Contractor">
+    Government Contractor
+  </option>
+  <option value="Human Resources">
+    Human Resources
+  </option>
+  <option value="Information Tech (IT)/Information Services">
+    Information Tech (IT)/Information Services
+  </option>
+  <option value="Information Technology (IT)">
+    Information Technology (IT)
+  </option>
+  <option value="Institutional Advancement/Alumni Relations">
+    Institutional Advancement/Alumni Relations
+  </option>
+  <option value="Institutional Research">
+    Institutional Research
+  </option>
+  <option value="Instructional Technology">
+    Instructional Technology
+  </option>
+  <option value="Legal">
+    Legal
+  </option>
+  <option value="Library Services">
+    Library Services
+  </option>
+  <option value="Management">
+    Management
+  </option>
+  <option value="Marketing">
+    Marketing
+  </option>
+  <option value="Marketing/Communications/PR">
+    Marketing/Communications/PR
+  </option>
+  <option value="Military">
+    Military
+  </option>
+  <option value="Municipality Administration">
+    Municipality Administration
+  </option>
+  <option value="Operations">
+    Operations
+  </option>
+  <option value="Police Department">
+    Police Department
+  </option>
+  <option value="PR">
+    PR
+  </option>
+  <option value="Press/Analyst">
+    Press/Analyst
+  </option>
+  <option value="Procurement">
+    Procurement
+  </option>
+  <option value="Product Development">
+    Product Development
+  </option>
+  <option value="Professional Development">
+    Professional Development
+  </option>
+  <option value="Public Works">
+    Public Works
+  </option>
+  <option value="Regulatory Operations/Compliance">
+    Regulatory Operations/Compliance
+  </option>
+  <option value="Residential Life/Housing">
+    Residential Life/Housing
+  </option>
+  <option value="Safety">
+    Safety
+  </option>
+  <option value="Safety/Security">
+    Safety/Security
+  </option>
+  <option value="Sales">
+    Sales
+  </option>
+  <option value="School Board/ Board of Trustees">
+    School Board/ Board of Trustees
+  </option>
+  <option value="Security">
+    Security
+  </option>
+  <option value="Student">
+    Student
+  </option>
+  <option value="Student Affairs/Student Services">
+    Student Affairs/Student Services
+  </option>
+  <option value="Student Employee">
+    Student Employee
+  </option>
+  <option value="Talent Management">
+    Talent Management
+  </option>
+  <option value="Training & Development">
+    Training &amp; Development
+  </option>
+  <option value="Utilities">
+    Utilities
+  </option>
+  <option value="Web Services">
+    Web Services
+  </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement21" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field21" class="label-position top ">
+              Which LMS do you currently use?
+            </label>
+            <select id="field21" name="currentLMS1" class="field-size-top-large">
+              <option value="" selected="selected">
+                --Please Select--
+              </option>
+              <option value="ANGEL">
+                ANGEL
+              </option>
+              <option value="Blackboard">
+                Blackboard
+              </option>
+              <option value="Canvas">
+                Canvas
+              </option>
+              <option value="Desire2Learn">
+                Desire2Learn
+              </option>
+              <option value="Moodle">
+                Moodle
+              </option>
+              <option value="Moodlerooms">
+                Moodlerooms
+              </option>
+              <option value="None">
+                None
+              </option>
+              <option value="Other">
+                Other
+              </option>
+              <option value="Sakai">
+                Sakai
+              </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement22" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field22" class="label-position top ">
+              Do you have an online program in place today?
+            </label>
+            <select id="field22" name="onlineProgramInPlace1" class="field-size-top-large">
+              <option value="">
+                -- Please Select --
+              </option>
+              <option value="Yes">
+                Yes
+              </option>
+              <option value="No">
+                No
+              </option>
+              <option value="Ramping Up">
+                Ramping Up
+              </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement23" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field23" class="label-position top ">
+              Your city
+            </label>
+            <input id="field23" name="city" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement24" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field24" class="label-position top ">
+              Your phone number
+            </label>
+            <input id="field24" name="busPhone" type="text" value="" class="field-size-top-large">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement25" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <label for="field25" class="label-position top ">
+              What problem are you trying to solve?
+            </label>
+            <select id="field25" name="whatProblemAreYouTryingToSolve1" data-value="" class="field-size-top-large">
+  <option value="Academic Integrity">
+    Academic Integrity
+  </option>
+  <option value="Accessibility">
+    Accessibility
+  </option>
+  <option value="Alert Notification">
+    Alert Notification
+  </option>
+  <option value="Assessment and Accreditation">
+    Assessment and Accreditation
+  </option>
+  <option value="Attendance Tracking">
+    Attendance Tracking
+  </option>
+  <option value="Campus Store and Retail Management">
+    Campus Store and Retail Management
+  </option>
+  <option value="Campus Transactions and Credentials">
+    Campus Transactions and Credentials
+  </option>
+  <option value="Collaboration/Web Conferencing">
+    Collaboration/Web Conferencing
+  </option>
+  <option value="Enterprise Consulting">
+    Enterprise Consulting
+  </option>
+  <option value="File & Document Management">
+    File &amp; Document Management
+  </option>
+  <option value="Financial Payments">
+    Financial Payments
+  </option>
+  <option value="K12 Classroom & School Websites">
+    K12 Classroom &amp; School Websites
+  </option>
+  <option value="Learning Solutions">
+    Learning Solutions
+  </option>
+  <option value="LMS/SIS Reporting & Dashboards">
+    LMS/SIS Reporting &amp; Dashboards
+  </option>
+  <option value="Managed Hosting">
+    Managed Hosting
+  </option>
+  <option value="Mobile Solutions">
+    Mobile Solutions
+  </option>
+  <option value="Open Source Solutions">
+    Open Source Solutions
+  </option>
+  <option value="Strategic Marketing & Recruiting Services">
+    Strategic Marketing &amp; Recruiting Services
+  </option>
+  <option value="Student Pathway Services">
+    Student Pathway Services
+  </option>
+  <option value="Student Safety and Campus Security">
+    Student Safety and Campus Security
+  </option>
+  <option value="Technology Adoption">
+    Technology Adoption
+  </option>
+            </select>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement26" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field26" type="hidden" name="utm_source" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement27" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field27" type="hidden" name="src" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement28" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field28" type="hidden" name="utm_medium" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement29" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field29" type="hidden" name="utm_term" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement30" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field30" type="hidden" name="utm_content" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement31" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field31" type="hidden" name="utm_campaign" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement32" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field32" type="hidden" name="cid" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement33" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field33" type="hidden" name="eid" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement34" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field34" type="hidden" name="hiddenField6" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement35" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field35" type="hidden" name="e" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement36" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field36" type="hidden" name="c" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement37" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field37" type="hidden" name="p" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement38" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field38" type="hidden" name="BbCID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement39" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field39" type="hidden" name="BbH_IP" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement40" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field40" type="hidden" name="BbH_Continent" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement41" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field41" type="hidden" name="BbH_Country" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement42" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field42" type="hidden" name="BbH_Region" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement43" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field43" type="hidden" name="BbH_PostalCode" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement44" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field44" type="hidden" name="BbH_City" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement45" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field45" type="hidden" name="notificationEmailRecipient" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement46" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field46" type="hidden" name="notificationEmailSubject" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement47" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field47" type="hidden" name="sharedListID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement48" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field48" type="hidden" name="submitButtonText" value="Access Now">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement49" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field49" type="hidden" name="hotLead" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement50" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field50" type="hidden" name="W1_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement51" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field51" type="hidden" name="W2_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement52" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field52" type="hidden" name="W3_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement53" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field53" type="hidden" name="W4_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement54" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field54" type="hidden" name="W5_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement55" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field55" type="hidden" name="W6_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement56" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field56" type="hidden" name="W7_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement57" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field57" type="hidden" name="W8_regID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement58" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field58" type="hidden" name="W1_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement59" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field59" type="hidden" name="W2_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement60" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field60" type="hidden" name="W3_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement61" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field61" type="hidden" name="W4_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement62" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field62" type="hidden" name="W5_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement63" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field63" type="hidden" name="W6_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement64" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field64" type="hidden" name="W7_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement65" class="sc-view form-design-field sc-static-layout  sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input id="field65" type="hidden" name="W8_EventID" value="">
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement66" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <span class="checkbox-span field-size-top-large">
+              <span class="list-order oneColumn">
+                <input name="OptIn" type="checkbox" value="on">
+                <label class="checkbox-label">
+                  Sign me up for emails with exclusive insights, upcoming events, and updates on Blackboard solutions.
+                </label>
+              </span>
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="formElement67" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size">
+      <div class="field-wrapper">
+      </div>
+      <div class="individual field-wrapper">
+        <div class="_100 field-style">
+          <p class="field-p">
+            <input type="submit" value="Submit" class="submit-button" style="font-size: 100%; height: 24px; width: 100px">
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+  <script src="https://img.en25.com/i/livevalidation_standalone.compressed.js" type="text/javascript">
+  </script>
+  <style type="text/css" media="screen">
+    .LV_validation_message{
+      font-weight:bold;
+      margin: 0 0 0 5px;
+    }
+    .LV_valid{
+      color:#00CC00;
+      display:none;
+    }
+    .LV_invalid{
+      color:#CC0000;
+      font-size:10px;
+    }
+    .LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active {
+      outline: 1px solid #00CC00;
+    }
+    .LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active {
+      outline: 1px solid #CC0000;
+    }
+  </style>
+  <script type="text/javascript">
+    var dom10 = document.querySelector('#form4014 #field10');
+    var field10 = new LiveValidation(dom10, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom11 = document.querySelector('#form4014 #field11');
+    var field11 = new LiveValidation(dom11, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom12 = document.querySelector('#form4014 #field12');
+    var field12 = new LiveValidation(dom12, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom13 = document.querySelector('#form4014 #field13');
+    var field13 = new LiveValidation(dom13, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom14 = document.querySelector('#form4014 #field14');
+    var field14 = new LiveValidation(dom14, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom15 = document.querySelector('#form4014 #field15');
+    var field15 = new LiveValidation(dom15, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom16 = document.querySelector('#form4014 #field16');
+    var field16 = new LiveValidation(dom16, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom17 = document.querySelector('#form4014 #field17');
+    var field17 = new LiveValidation(dom17, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom18 = document.querySelector('#form4014 #field18');
+    var field18 = new LiveValidation(dom18, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom19 = document.querySelector('#form4014 #field19');
+    var field19 = new LiveValidation(dom19, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom20 = document.querySelector('#form4014 #field20');
+    var field20 = new LiveValidation(dom20, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom21 = document.querySelector('#form4014 #field21');
+    var field21 = new LiveValidation(dom21, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom22 = document.querySelector('#form4014 #field22');
+    var field22 = new LiveValidation(dom22, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom23 = document.querySelector('#form4014 #field23');
+    var field23 = new LiveValidation(dom23, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom24 = document.querySelector('#form4014 #field24');
+    var field24 = new LiveValidation(dom24, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    var dom25 = document.querySelector('#form4014 #field25');
+    var field25 = new LiveValidation(dom25, {
+      validMessage: "", onlyOnBlur: false, wait: 300}
+                                    );
+    function resetSubmitButton(e){
+      var submitButtons = e.target.form.getElementsByClassName('submit-button');
+      for(var i=0;i<submitButtons.length;i++){
+        submitButtons[i].disabled = false;
+      }
+    }
+    function addChangeHandler(elements){
+      for(var i=0; i<elements.length; i++){
+        elements[i].addEventListener('change', resetSubmitButton);
+      }
+    }
+    var form = document.getElementById('form4014');
+    addChangeHandler(form.getElementsByTagName('input'));
+    addChangeHandler(form.getElementsByTagName('select'));
+    addChangeHandler(form.getElementsByTagName('textarea'));
+    var nodes = document.querySelectorAll('#form4014 input[data-subscription]');
+    if (nodes) {
+      for (i = 0, len = nodes.length; i < len; i++) {
+        var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+        if(status ==='true') {
+          nodes[i].checked = true;
+        }
+      }
+    };
+    var nodes = document.querySelectorAll('#form4014 select[data-value]');
+    if (nodes) {
+      for (var i = 0; i < nodes.length; i++) {
+        var node = nodes[i];
+        var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+        if (selectedValue) {
+          for (var j = 0; j < node.options.length; j++) {
+            if(node.options[j].value === selectedValue) {
+              node.options[j].selected = 'selected';
+              break;
+            }
+          }
+        }
+      }
+    }
+  </script>
+</div>
+
+                        <span class="remove-absolute" style="display: block"></span> 
+                        <!-- FORM -->
+                        <!-- Shared Content Privacy
+                        <span elqid="9697" elqtype="Section" class="remove-absolute" style="display: block"></span> -->
+                        <div id="reset" style="padding: 6px 15px 9px 19px;">
+                            <p><i>Not your details? <a href="#" id="resetForm" title="Reset Form">Click here</a></i></p>
+                        </div>
+                        <div id="privacy"><p class="small"><div id="privacy" style="padding: 6px 15px 9px 6px;">
+<p style="font-size: 12px"><i>Your privacy is important to us. You can change your email preferences or unsubscribe at any time. We will only use the information you have provided to send you details related to this form submission unless we have permission to send you our email communications. We may share your information with the relevant local Blackboard channel partners (resellers) if your organization is located in an area managed by Blackboard partners <a href="http://www.blackboard.com/about-us/locations/find-a-channel-partner.html?elqTrackId=a9c796679c84401a91fe8e6f49bd1228&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=" target="_blank">(see list here)</a>. View our <a href="http://www.blackboard.com/footer/privacy-policy.html?elqTrackId=637ad491d5614beda8691b3f4c41f6a4&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=" target="_blank">Privacy Statement for more details.</a></i></p>
+</div>
+</p></div>
+
+                        <!-- END -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- BLOCK 5 END -->
+    
+    <!-- FOOTER START -->
+  
+    <!-- Footer -->
+    <footer class="text-center"><style type="text/css">.fa {
+  font-size:20px;
+  
+  }
+  .fa:hover{
+    color: #f76793!important;  
+    text-decoration:none;  
+  }
+  
+  .fa-facebook:before{
+    padding:4px;
+  }
+</style>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<div class="footer-above">
+<div class="container">
+<div class="row">
+<div class="footer-col col-md-12">
+<ul class="list-inline">
+	<li><span style="font-size:20px;"><a class="fa fa-facebook" href="https://www.facebook.com/BlackboardEMEA/?elqTrackId=294d9788b60e4d0b91922886f0087907&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" style=" border: 1px solid #ff0066; border-radius:100%; padding: 15px; color: #ff0066; text-decoration:none;"><span class="sr-only">Facebook</span></a></span></li>
+	<li><span style="font-size:20px;"><a class="fa fa-twitter" href="https://twitter.com/blackboardemea?elqTrackId=c86028a599304a8daf93802b45d07df6&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" style=" border: 1px solid #ff0066; border-radius:100%; padding: 15px; color: #ff0066; text-decoration:none;"><span class="sr-only">Twitter</span></a></span></li>
+	<li><span style="font-size:20px;"><a class="fa fa-linkedin" href="https://www.linkedin.com/showcase/5368634/?elqTrackId=e5652190a94c431494fbccab224dbd95&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" style=" border: 1px solid #ff0066; border-radius:100%; padding: 15px; color: #ff0066; text-decoration:none;"><span class="sr-only">Linked In</span></a></span></li>
+	<li><span style="font-size:20px;"><a class="fa fa-youtube-play" href="https://www.youtube.com/user/BlackboardTV?elqTrackId=ef8dc498cd944a07adca7f3ae5be46cd &elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" style=" border: 1px solid #ff0066; border-radius:100%; padding: 15px; color: #ff0066; text-decoration:none;"><span class="sr-only">YouTube</span></a></span></li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="footer-below">
+<div class="container"><!--begin row -->
+<div class="row"><!--begin col-md-12 -->
+<div class="col-md-12 text-center"><!--begin copyright -->
+<div class="copyright">
+<p><a href="https://www.blackboard.com?elqTrackId=4d7f02ad97b04373a608ba24b6761b79&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942">Blackboard.com</a> | <a href="https://uki.blackboard.com/footer/terms-of-use.aspx?elqTrackId=3ea3c4761bc34e31896cf1e36bc0c899&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" target="_blank">Terms of use</a> | <a href="https://uki.blackboard.com/footer/privacy-center.aspx?elqTrackId=e2440fc4942c4bcc83c1d1a13115e14b&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" target="_blank">Privacy center</a> | <a href="mailto:AskUs@blackboard.com" target="_blank">AskUs@blackboard.com</a></p>
+
+<p style="text-align: central; font-size: 14px;"><b>Blackboard Inc</b> | Washington, DC | 1111 19th Street N.W. | Washington, DC 20036 | USA</p>
+
+<p style="text-align: central; font-size: 14px;"><b>Blackboard International</b> | 175 Oxford Street, Fourth Floor | London, W1D 2JS | United Kingdom</p>
+
+<p style="font-size: 12px; text-align: left; margin-top: 10px;">&copy; 1997 - 2018 Blackboard Inc. All Rights Reserved. Blackboard, the Blackboard Logo, BbWorld, Blackboard Learn, Blackboard Transact, Blackboard Connect, Blackboard Mobile, Blackboard Collaborate, Blackboard Analytics, Blackboard Engage, Blackboard Student Services, the Mosaic logo, Behind the Blackboard, and Connect-ED are trademarks or registered trademarks of Blackboard Inc, or its subsidiaries in the United States and/or other countries. Blackboard products and services may be covered by one or more of the following <a href="https://uki.blackboard.com/legal/patent-pledge.aspx?elqTrackId=d4ad969c05e14433b552eb093456bff2&elq=00000000000000000000000000000000&elqaid=8457&elqat=2&elqCampaignId=&elqcst=272&elqcsid=9942" style="font-size: 12px;">U.S. Patents</a>.</p>
+</div>
+<!--end copyright --></div>
+<!--end col-md-12 --></div>
+<!--end row --></div>
+</div>
+</div>
+</footer>
+    <!-- FOOTER END -->
+    
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+    
+    
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Fancybox Lightbox JavaScript -->  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+    <!-- jQuery Cookie JavaScript -->  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>    
+
+    <!-- Form Centre Lookup JavaScript -->    
+    <script src="http://images.email.blackboard.com/Web/BlackboardInc/{3b2f39e9-353d-4537-a84d-26e0304fc5e6}_Country-Lookup.js"></script>
+  
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    
+    <!-- Theme JavaScript -->
+    <script>
+        (function($) {
+            "use strict"; // Start of use strict
+
+            // jQuery for page scrolling feature - requires jQuery Easing plugin
+            /* $('.page-scroll a').bind('click', function(event) {
+                var $anchor = $(this);
+                $('html, body').animate({
+                    scrollTop: ($($anchor.attr('href')).offset().top - 100)
+                }, 750);
+                event.preventDefault();
+            });*/
+
+            // Closes the Responsive Menu on Menu Item Click
+            $('.navbar-collapse ul li a').click(function(){ 
+                    $('.navbar-toggle:visible').click();
+            });
+
+            /* Offset for Main Navigation
+            $('#mainNav').affix({
+                offset: {
+                    top: 100
+                }
+            })*/
+    
+            $('.checkbox-span').parents('.form-design-field').addClass('checkbox-div'); 
+            
+        })(jQuery);
+
+    /* DO NOT MODIFY ANYTHING BELOW THIS LINE */
+    
+      var emailAddress = ""; //Do Not Change This 
+
+      
+$(window).bind("load", function() {
+  
+      
+      // Initialization
+      var iLabel = 1;  
+      var AnyOneSelected = false;
+      var EventsSelected = '';
+      var TYLink = '';
+
+      for (i = 0; i < SeriesLength; i++) {
+        iLabel = i + 1;  
+        $('[name=W' + iLabel + '_regID]').val( emailAddress + "-" + EventSeries[i] );
+        $('[name=W' + iLabel + '_EventID]').val( EventSeries[i] );        
+      }    
+        
+      // Capture Change
+      $( "[name=emailAddress]" ).change(function() {
+		  emailAddress = $("input[name=emailAddress]").val();
+          for (i = 0; i < SeriesLength; i++) {
+            iLabel = i + 1;  
+            $('[name=W' + iLabel + '_regID]').val( emailAddress + "-" + EventSeries[i] );
+          }          
+          
+      });      
+      
+      // Capture Submit
+      $( "form" ).submit(function( event ) {
+          
+          EventsSelected = "?se="
+          for (i = 0; i < SeriesLength; i++) {
+            if ( $('[name=W' + (i + 1) + '_box]').is(':checked') ) {
+                AnyOneSelected = true;
+                EventsSelected += EventSeries[i] + "X";
+            }  
+          }
+          if (EventsSelected.charAt(EventsSelected.length - 1) == 'X') {
+              EventsSelected = EventsSelected.slice(0, -1);
+          }
+          EventsSelected = $("[name='c']").val() + EventsSelected;
+         
+        
+          if (AnyOneSelected == false) {
+            $("#selectone").css({"display":"block"});
+            document.getElementById('FormStart').scrollIntoView();
+        	return false;
+          } else {
+            $("#selectone").css({"display":"none"});
+            console.log('Set TY value to: ' + EventsSelected);
+            $("[name='c']").val(EventsSelected); 
+                       
+          }
+      });       
+        
+});
+               
+  </script> 
+    
+    <!-- Form Centre Lookup JavaScript -->
+    <script src="http://images.email.blackboard.com/Web/BlackboardInc/{339286d8-fc2c-4f58-b843-6294cf3e0053}_ProgPro-2018-04-30.js"></script>
+
+<script type='text/javascript'><!--
+window.setTimeout('window.location=\'https://www.blackboardopenlms.com/\';',1000);
+//--></script>
+</body>
+</html><img style="display:none" src="https://s2376.t.eloqua.com/visitor/v200/svrGP?pps=60&siteid=2376&PURLSiteID=16&optin=country&PURLSiteAlternateDNSID=0&LandingPageID=8457&PURLRecordID=0&PURLGUID=762177A64B9E4549B54908D788BDFEDF&UseRelativePath=False&elq={00000000-0000-0000-0000-000000000000}&firstPartyCookieDomain=blackboard.com&elqGUID=762177a6-4b9e-4549-b549-08d788bdfedf&elq_ck=0&isOptedIn=1" border=0 width=1 height=1 alt="">

@@ -1,0 +1,13 @@
+https://uaqu-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uaqu-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< Location: https://UAQU-analytics.blackboard.com/login/login.html
+< Content-Length: 0
+< Set-Cookie: NSC_Bobmzujdt.VBRV_TTM_wjq1*443=ffffffff09793e0745525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 14:54:11 GMT;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:09 GMT
+

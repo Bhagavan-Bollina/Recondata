@@ -1,0 +1,12 @@
+http://mail1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mail1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Object Moved
+< Location: https://mail1.blackboard.com/
+< Content-Type: text/html
+< Cache-Control: private
+
+<head><body> This object may be found <a HREF="https://mail1.blackboard.com/">here</a> </body>

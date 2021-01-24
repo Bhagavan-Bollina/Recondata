@@ -1,0 +1,27 @@
+https://utdallasstaging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: utdallasstaging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.7-rel.16+bf839b4
+< Last-Modified: Thu, 04 Jan 2001 13:05:33 GMT
+< Location: https://elearningstaging.utdallas.edu/auth-saml/saml/login?apId=_133_1&redirectUrl=https%3A%2F%2Felearningstaging.utdallas.edu%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:05:33 GMT
+< Set-Cookie: s_session_id=400A4B9E47090BF9E1330F3765FAFADB; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=9B7A05C4CC53B49F00D72854DC05F0D4; Path=/; Secure
+< Set-Cookie: NSC_100946_wjq_69.196.228.98*443=ffffffff090d1d0c45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Length: 0
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgstg-100946-206117-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:33 GMT
+

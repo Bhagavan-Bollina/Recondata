@@ -1,0 +1,14 @@
+https://letmeinstg.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: letmeinstg.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 302
+< Date: Mon, 04 Jan 2021 13:03:38 GMT
+< Server: Apache/2.4.18 (Ubuntu)
+< Set-Cookie: JSESSIONID=1A8DD3CE2B2805EE2660A49281A0176A;path=/;Secure;HttpOnly
+< Location: /router
+< Content-Type: text/html;charset=UTF-8
+< Content-Length: 0
+

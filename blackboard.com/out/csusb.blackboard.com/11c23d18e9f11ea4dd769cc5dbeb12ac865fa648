@@ -1,0 +1,30 @@
+https://csusb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: csusb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Expires: Sat, 04 Jan 2020 13:02:44 GMT
+< Set-Cookie: JSESSIONID=7B5FCAD1F06E687F97953DF1533DF785; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776164,id:AC008BF4D56C17FEDBE2FF387723E123,signature:1e6112d0e2d840c93159a47867b0fcdbca8e118158d12c068c2716745a013432,site:ef1e8c1b-3391-4388-81fc-d271f59c70e2,v:2,xsrf:69800fff-3848-4a2e-b117-f8d60002631d; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=FF41E597045853B77D7E1C841B098F2EE48B04D5665E698107E45306781A4CACF1EC0E8C752CF2478BA6C2E14AC351BC1EBA30B9310510C3D85CC5FC693A6E7305D5A568FD;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=FF41E597045853B77D7E1C841B098F2EE48B04D5665E698107E45306781A4CACF1EC0E8C752CF2478BA6C2E14AC351BC1EBA30B9310510C3D85CC5FC693A6E7305D5A568FD;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Location: https://csusb.blackboard.com/auth-saml/saml/login?apId=_129_1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Date: Mon, 04 Jan 2021 13:02:44 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:44 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-222-205.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+

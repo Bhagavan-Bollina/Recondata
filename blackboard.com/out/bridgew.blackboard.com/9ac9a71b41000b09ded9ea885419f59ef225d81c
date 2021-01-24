@@ -1,0 +1,36 @@
+https://bridgew.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bridgew.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:02:25 GMT
+< Expires: Sat, 04 Jan 2020 13:02:25 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Last-Modified: Thu, 04 Jan 2001 13:02:25 GMT
+< X-Blackboard-Appserver: ip-10-146-223-243.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Set-Cookie: JSESSIONID=2A4B235E035CE670C557B2418631EA6C; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776145,id:37DE9706E8BF2EBEA9D6C3010656DB10,signature:de3dbc7c779df1724aa93a740291b1b608abc074f9875668c5e9274b674a9701,site:c9ad33f2-7ba1-4cef-a33d-b75f827d95f4,v:2,xsrf:206d742e-ce11-48d2-b27b-c85c947fb28f; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=E7F79BE869CA1359466A918B46026CF93ADBDF487194C6A2C8E78B7DE664E8DD0C6DA91DCB6A832172819CCE0245C88584B9DA109CD41F63D33951D34F11F47D1049168B;PATH=/
+< Set-Cookie: AWSELBCORS=E7F79BE869CA1359466A918B46026CF93ADBDF487194C6A2C8E78B7DE664E8DD0C6DA91DCB6A832172819CCE0245C88584B9DA109CD41F63D33951D34F11F47D1049168B;PATH=/;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+
+<html>
+<script>
+window.onload = function() {
+    window.location.href = "https://bridgew.blackboard.com/auth-saml/saml/login?apId=_592_1&redirectUrl=https%3A%2F%2Fbridgew.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab";
+}
+</script>
+</html>

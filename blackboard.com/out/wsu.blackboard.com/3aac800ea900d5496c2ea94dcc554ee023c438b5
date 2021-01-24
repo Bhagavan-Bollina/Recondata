@@ -1,0 +1,27 @@
+https://wsu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wsu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgprd-300102-sf083311-app003.mhint
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_300102_wjq_192.230.224.48*443=ffffffff090d16e745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:44 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sun, 01 Sep 2019 06:38:25 GMT
+< Accept-Ranges: bytes
+< Etag: W/"89-1567319905000"
+< Content-Type: text/html
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:05:44 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

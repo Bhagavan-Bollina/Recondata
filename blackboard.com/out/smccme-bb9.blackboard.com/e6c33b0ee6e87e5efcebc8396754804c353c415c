@@ -1,0 +1,30 @@
+https://smccme-bb9.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: smccme-bb9.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:04:53 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-210-207.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:04:53 GMT
+< Location: /auth-saml/saml/login?apId=_164_1&redirectUrl=https%3A%2F%2Fsmccme-bb9.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Set-Cookie: JSESSIONID=FE002B64343E4032C16FC9D98BB3A2D6; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776293,id:978522387B2D4E1570F5D178695F4749,signature:135f967eb2c40963d08d9d133dccebadfedbbd383b86d204f46268a48490d868,site:fb51e1b8-52ed-4147-a629-eb3061637c97,v:2,xsrf:537083ca-9947-43ca-a925-5d2ac3af63b2; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=6527F31912725EDF284D1EFBF52C813CA2438D0A452CA820C9E8742AA55C521C3B7BC05FB4F42B5BEB4973321698EDAAEB170B75C05B0201C3A73DD29F02D3BA20416BBD9D;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=6527F31912725EDF284D1EFBF52C813CA2438D0A452CA820C9E8742AA55C521C3B7BC05FB4F42B5BEB4973321698EDAAEB170B75C05B0201C3A73DD29F02D3BA20416BBD9D;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Length: 0
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Date: Mon, 04 Jan 2021 13:04:53 GMT
+< P3p: CP="CAO PSA OUR"
+

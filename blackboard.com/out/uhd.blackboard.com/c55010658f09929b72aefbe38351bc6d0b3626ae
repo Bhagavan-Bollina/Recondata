@@ -1,0 +1,46 @@
+https://uhd.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uhd.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-500810-sf145248-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.12-rel.2+9ac85d6
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:05:18 GMT
+< Expires: Sat, 04 Jan 2020 13:05:18 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Set-Cookie: session_id=73FC6C39B0A15A02291993F3BB72AED5; Path=/; HttpOnly
+< Set-Cookie: s_session_id=17B8DD9D2650B39199497559A767777C; Path=/; Secure; HttpOnly
+< Set-Cookie: web_client_cache_guid=744c7b50-6be3-49b1-afc2-79fead34621c; Path=/; Secure
+< Set-Cookie: NSC_500810_wjq_69.196.228.183*443=ffffffff090d122545525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:05:18 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://uhd.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://uhd.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

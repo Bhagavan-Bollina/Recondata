@@ -1,0 +1,29 @@
+https://think.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: think.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:05:06 GMT
+< Expires: Sat, 04 Jan 2020 13:05:05 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:05 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5c07149a959f5/execute/casLogin?cmd=login&authProviderId=_184_1&redirectUrl=https%3A%2F%2Fthink.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Set-Cookie: BbRouter=expires:1609776306,id:D09E1A3150FD7F9987EB049121C2AF36,signature:46f0d47550d3c2cffb8247893c01ae9c8b108dc396cf3a04e530321599668ddb,site:f56ce71e-f968-4f3b-813c-52934ae50b0a,v:2,xsrf:1efa11d7-e165-46b6-9841-5c2c5453813c; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=CBCF7B5D16DB5051426968384301962BD57985F014D37D7FACB34E6066DBCB30DE057524AD6BF11A51E0A8C67C46ADA674391B0C5B06B2078C2F07B833631660DA58FF658E;PATH=/
+< Set-Cookie: AWSELBCORS=CBCF7B5D16DB5051426968384301962BD57985F014D37D7FACB34E6066DBCB30DE057524AD6BF11A51E0A8C67C46ADA674391B0C5B06B2078C2F07B833631660DA58FF658E;PATH=/;SECURE;SAMESITE=None
+< Content-Length: 0
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-144-123-81.ap-southeast-2.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+

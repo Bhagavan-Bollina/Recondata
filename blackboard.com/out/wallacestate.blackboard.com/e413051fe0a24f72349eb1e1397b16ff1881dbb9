@@ -1,0 +1,47 @@
+https://wallacestate.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wallacestate.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776339,id:6FB1F81C8AD540456FDF12ED424618C6,signature:06797437aff542177a1a02ca34ba968760a3e3f83c9d2ba2f8c953951b5d9c65,site:3a265606-54da-433c-821a-8d9ae6bd0a3b,v:2,xsrf:f899b0f1-f464-42dd-941b-6501b8d04ad2; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=9DF18B483DF738BB3924EB5822F2012DF150DA1E3FB6A6AD21013BCF8635A3AD1EDC2F4A79A319E672A01580BBB01DE734F23D6C6C89DFE4116B764B3CB495925781BBE2;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=9DF18B483DF738BB3924EB5822F2012DF150DA1E3FB6A6AD21013BCF8635A3AD1EDC2F4A79A319E672A01580BBB01DE734F23D6C6C89DFE4116B764B3CB495925781BBE2;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:39 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:39 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Date: Mon, 04 Jan 2021 13:05:39 GMT
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: ip-10-146-219-79.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fwallacestate.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;wallacestate.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

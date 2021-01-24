@@ -1,0 +1,19 @@
+http://autodiscover.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: autodiscover.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< X-Requestid: 2e860607-922b-44ec-b924-dc59864af5fe
+< Date: Mon, 04 Jan 2021 13:02:15 GMT
+< Location: https://outlook.office365.com/owa/?realm=blackboard.com&vd=autodiscover
+< Server: Microsoft-IIS/10.0
+< Request-Id: 3b92e093-fa44-412c-a46f-ba1a95a85358
+< X-Feserver: PN2PR01CA0056
+< X-Feserver: PN2PR01CA0056
+< X-Powered-By: ASP.NET
+< Cache-Control: no-cache
+< Pragma: no-cache
+< Content-Length: 0
+

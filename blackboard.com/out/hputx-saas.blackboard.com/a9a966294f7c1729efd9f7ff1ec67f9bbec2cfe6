@@ -1,0 +1,29 @@
+https://hputx-saas.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hputx-saas.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-218-242.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Location: /auth-saml/saml/login?apId=_122_1&redirectUrl=https%3A%2F%2Fhputx-saas.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Set-Cookie: BbRouter=expires:1609776199,id:BAB754B914B876AE67325B75D1F8D46F,signature:9d3720e7654bd5ec9938b6e7ccaf0077cc1634288c6c3da78fbda92e4ad3dbf3,site:9c38b40d-6eee-4e33-bfa5-abbd958a82b1,v:2,xsrf:fd3f9c7c-e2c5-4d9e-ad79-87634c690f56; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=D553A575044AB1CCD6809FEBACBEBAA1DFB72CD8CC27D009D32F69093A036B99F9986528040558F37647CCAA327BDE3709CC1D701F6DEE866344F536C80572DC9247EBC773;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=D553A575044AB1CCD6809FEBACBEBAA1DFB72CD8CC27D009D32F69093A036B99F9986528040558F37647CCAA327BDE3709CC1D701F6DEE866344F536C80572DC9247EBC773;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:19 GMT
+

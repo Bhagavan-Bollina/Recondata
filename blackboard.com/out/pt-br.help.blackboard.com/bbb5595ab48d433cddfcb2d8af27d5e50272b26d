@@ -1,0 +1,16 @@
+https://pt-br.help.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pt-br.help.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 157
+< Content-Type: text/html; charset=UTF-8
+< Location: https://help.blackboard.com/pt-br/
+< Server: Microsoft-IIS/7.0
+< X-Powered-By: ASP.NET
+< Date: Mon, 04 Jan 2021 13:04:26 GMT
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="https://help.blackboard.com/pt-br/">here</a></body>

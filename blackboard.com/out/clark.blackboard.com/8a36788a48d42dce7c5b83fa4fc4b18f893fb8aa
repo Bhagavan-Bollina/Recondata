@@ -1,0 +1,30 @@
+https://clark.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: clark.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=0A2A47F08A8381643D253696115A784F; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776156,id:100AB8CBD9D78B0DB16FC25966379E74,signature:37c586eb55cbfd57bcc117e7c56727897fc6a05dc08714fe4092fcf022df13f6,site:e7693846-bdef-454c-83d3-314ceee1dc6f,v:2,xsrf:eb450b72-107b-4e32-bd4c-3818664787b6; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=89097BFB10DB0A9594B8C91E73203DD7C473DA417C0EF411790DDD8D175E7B9308A815A1F489AF97DAF60D507C9ED714349055F1AC20EB427C3359F460A92F26DB07E82DE4;PATH=/
+< Set-Cookie: AWSELBCORS=89097BFB10DB0A9594B8C91E73203DD7C473DA417C0EF411790DDD8D175E7B9308A815A1F489AF97DAF60D507C9ED714349055F1AC20EB427C3359F460A92F26DB07E82DE4;PATH=/;SECURE;SAMESITE=None
+< Expires: Sat, 04 Jan 2020 13:02:36 GMT
+< Location: /auth-saml/saml/login?apId=_156_1&redirectUrl=https%3A%2F%2Fbb.clarkstate.edu%2Fultra
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-254-138.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Date: Mon, 04 Jan 2021 13:02:36 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:36 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+

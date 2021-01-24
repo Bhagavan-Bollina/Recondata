@@ -1,0 +1,19 @@
+https://community.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: community.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: Apache
+< Set-Cookie: swl_blackboard_sess=jkionoios39ll5ndja87mp9pj1; expires=Tue, 05-Jan-2021 01:02:39 GMT; Max-Age=43200; path=/; domain=.community.blackboard.com; secure; HttpOnly
+< Set-Cookie: swl_blackboard_sess=jkionoios39ll5ndja87mp9pj1; expires=Tue, 05-Jan-2021 01:02:39 GMT; Max-Age=43200; path=/; domain=.community.blackboard.com; secure; HttpOnly
+< Set-Cookie: swl_debug=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; HttpOnly
+< Expires: Thu, 19 Nov 1981 08:52:00 GMT
+< Cache-Control: no-store, no-cache, must-revalidate
+< Pragma: no-cache
+< Date: Mon, 04 Jan 2021 13:02:39 GMT
+< Location: https://community.blackboard.com/home
+< Content-Length: 0
+< Content-Type: text/html; charset=UTF-8
+

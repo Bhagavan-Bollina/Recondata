@@ -1,0 +1,27 @@
+https://fsu-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fsu-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Fri, 29 Jun 2018 06:37:09 GMT
+< Expires: Sat, 04 Jan 2020 13:03:07 GMT
+< Accept-Ranges: bytes
+< Etag: W/"89-1530254229000"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Date: Mon, 04 Jan 2021 13:03:07 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Set-Cookie: NSC_151098_wjq_192.230.224.133*443=ffffffff090d1bb645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3100.0.6-rel.3+cd2a24d
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgarch-151098-sf202500-app001.mhint
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

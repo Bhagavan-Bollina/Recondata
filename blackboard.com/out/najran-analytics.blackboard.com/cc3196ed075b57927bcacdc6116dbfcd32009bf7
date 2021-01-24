@@ -1,0 +1,13 @@
+https://najran-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: najran-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:03:49 GMT
+< X-Content-Type-Options: nosniff
+< Location: https://NAJRAN-analytics.blackboard.com/login/login.html
+< Content-Length: 0
+< Set-Cookie: NSC_JO5t2uskdlbor4ybefnrd1bkkitbie3=ffffffff09793e0945525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 14:52:51 GMT;path=/;secure;SameSite=None
+

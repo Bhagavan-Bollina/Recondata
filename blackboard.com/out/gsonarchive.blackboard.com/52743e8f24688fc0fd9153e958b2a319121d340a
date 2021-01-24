@@ -1,0 +1,27 @@
+https://gsonarchive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: gsonarchive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:14 GMT
+< X-Blackboard-Appserver: fgarch-307119-sf710464-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.6-rel.144+bd33835
+< Expires: Sat, 04 Jan 2020 13:03:14 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1524720751000"
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Thu, 26 Apr 2018 05:32:31 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_307119_wjq_192.230.225.254*443=ffffffff090d1edf45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Type: text/html
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

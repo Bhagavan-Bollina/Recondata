@@ -1,0 +1,28 @@
+https://mcdowelltecharchive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mcdowelltecharchive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgarch-100628-sf719832-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1557458949000"
+< Content-Type: text/html
+< Pragma: private
+< Last-Modified: Fri, 10 May 2019 03:29:09 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: JSESSIONID=E44B1E26F24E0A07C6ACFB0003E82C33; Path=/; Secure
+< Set-Cookie: NSC_100628_wjq_69.196.243.204*443=ffffffff090e1f9845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.9-rel.28+b95bdac
+< Expires: Sat, 04 Jan 2020 13:03:44 GMT
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:03:44 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

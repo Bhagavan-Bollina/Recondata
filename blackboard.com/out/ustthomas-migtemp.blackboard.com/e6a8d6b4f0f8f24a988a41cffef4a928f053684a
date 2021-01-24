@@ -1,0 +1,27 @@
+https://ustthomas-migtemp.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ustthomas-migtemp.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:05:32 GMT
+< Content-Type: text/html
+< Last-Modified: Sat, 08 Sep 2018 11:47:07 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:05:32 GMT
+< Content-Length: 89
+< Set-Cookie: NSC_445657_wjq_69.196.243.215*443=ffffffff090e1f1645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Pragma: private
+< Etag: W/"89-1536407227000"
+< X-Blackboard-Appserver: fgstg-445657-213941-app001.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

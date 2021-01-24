@@ -1,0 +1,48 @@
+https://daytonacollege.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: daytonacollege.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:02:51 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: accept-encoding
+< Date: Mon, 04 Jan 2021 13:02:51 GMT
+< Set-Cookie: JSESSIONID=D425FBF55F541FDD03471E27B580DF1A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776171,id:9AA75B3A7D5E3BCF3986512DE5A6E9BF,signature:435debb095196a5a6c81f90883b3a77e16fc039d0099422256303b30c59ad923,site:86249a40-3a5f-4841-92de-dee78c8c4ee2,v:2,xsrf:4da7d6d3-bd13-4508-88d3-8518456c867f; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=E9F143B90CD3AC2BBFE8D752F32CB9F6E877A357F6640997762CC58D355714C7BAA7F45641837C9175E22C42AF015541899C80CF4BFD576DDCEF3A7B52FD3159533715F266;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=E9F143B90CD3AC2BBFE8D752F32CB9F6E877A357F6640997762CC58D355714C7BAA7F45641837C9175E22C42AF015541899C80CF4BFD576DDCEF3A7B52FD3159533715F266;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-253-113.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:02:51 GMT
+< P3p: CP="CAO PSA OUR"
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fdaytonacollege.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;daytonacollege.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

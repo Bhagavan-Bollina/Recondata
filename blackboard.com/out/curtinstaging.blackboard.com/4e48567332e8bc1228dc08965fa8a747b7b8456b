@@ -1,0 +1,31 @@
+https://curtinstaging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: curtinstaging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:02:48 GMT
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en-GB
+< P3p: CP="CAO PSA OUR"
+< Content-Type: text/html;charset=UTF-8
+< Last-Modified: Thu, 04 Jan 2001 13:02:48 GMT
+< Location: https://sso-uat.curtin.edu.au/openam/XUI/#login/&realm=/&forward=true&spEntityID=Blackboard_saas_stg2&goto=%2FSSORedirect%2FmetaAlias%2Fidp%3FReqID%3Da2ci17jhgej8cchj1733j55a2g582f6%26index%3Dnull%26acsURL%3Dhttps%253A%252F%252Fcurtinstaging.blackboard.com%252Fauth-saml%252Fsaml%252FSSO%26spEntityID%3DBlackboard_saas_stg2%26binding%3Durn%253Aoasis%253Anames%253Atc%253ASAML%253A2.0%253Abindings%253AHTTP-POST&AMAuthCookie=
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=8EAF661ECDD8612D53EA12F9BB872836; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776168,id:227020D806F5F22DD9D0FAA3985A782B,signature:255241380a3dbb69c77e0c3ba4d52f763505b32c925aab014a1c09de26964901,site:e23d2001-9b80-4ca3-9234-190332509397,v:2,xsrf:5066c186-22f9-4bfb-abe2-8197b082131b; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=A971DF0D0E037C23FF2B28A60E3E463DD86049EDC7137B30C6DFC3C991D89B132AD919756847B0EFE5C43554D91D20B101B210D377DDACCACB74C6B1208F24CAC93CF4D752;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=A971DF0D0E037C23FF2B28A60E3E463DD86049EDC7137B30C6DFC3C991D89B132AD919756847B0EFE5C43554D91D20B101B210D377DDACCACB74C6B1208F24CAC93CF4D752;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-144-125-34.ap-southeast-2.compute.internal
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:48 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Length: 0
+

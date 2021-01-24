@@ -1,0 +1,29 @@
+https://ualr-saas-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ualr-saas-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:12 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-222-51.ec2.internal
+< Last-Modified: Thu, 04 Jan 2001 13:05:12 GMT
+< Location: /auth-saml/saml/login?apId=_1682_1&redirectUrl=https%3A%2F%2Fualr-saas-staging.blackboard.com%2Fultra
+< Pragma: private
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Set-Cookie: BbRouter=expires:1609776312,id:FB330E40B52FA4F80FDB2ECAEFDBD4E4,signature:93f50418efa2b97f5ba8f7163ef699941097939c8ed776593d6dea3f8bd06aa0,site:ecb02f66-b71d-41d0-87fd-5bce6da47609,v:2,xsrf:05e0e247-2bf9-4c89-9ceb-58c7f121b685; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=97C19D9F18C94555C51B43CACE9BDB0E62CC8E76B6D00A4A920BC168FE331577EB1AF47F0E2082789176AC2DC27DC7B4747C868C2C1C6B2660E3AAC4F7815145C0414CFE60;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=97C19D9F18C94555C51B43CACE9BDB0E62CC8E76B6D00A4A920BC168FE331577EB1AF47F0E2082789176AC2DC27DC7B4747C868C2C1C6B2660E3AAC4F7815145C0414CFE60;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:05:12 GMT
+< P3p: CP="CAO PSA OUR"
+

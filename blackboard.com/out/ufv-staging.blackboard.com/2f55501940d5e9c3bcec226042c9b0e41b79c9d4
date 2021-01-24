@@ -1,0 +1,47 @@
+https://ufv-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ufv-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:05:18 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-147-130-102.ca-central-1.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:05:18 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:18 GMT
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776318,id:76FCAC1D5C58765AF6CD103EBDF9D779,signature:bc5fb75a733836ee1765b02faa3b99ca4eb42734d79f3865d6d9d4df8443048f,site:3f0f4f17-3f1d-49e5-aeda-660c9da27314,v:2,xsrf:9652144a-9ecb-444e-908a-0924af098393; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=F507911ED11B37CB078B549540AD70FBB83086850AE210B0003ECA768423EB0307903E2A3DE6256E89E2CA64F90EEC56474C32CBF42A7CEC0C1AA09CBD91651437A9F432;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=F507911ED11B37CB078B549540AD70FBB83086850AE210B0003ECA768423EB0307903E2A3DE6256E89E2CA64F90EEC56474C32CBF42A7CEC0C1AA09CBD91651437A9F432;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fufv\x2Dstaging.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ufv-staging.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,27 @@
+https://traveltraining.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: traveltraining.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Expires: Sat, 04 Jan 2020 13:05:07 GMT
+< X-Blackboard-Appserver: fgprd-528328-sf632645-app002.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sat, 14 Sep 2019 13:24:01 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:07 GMT
+< Set-Cookie: NSC_528328_wjq_192.230.225.226*443=ffffffff090d1a6d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1568467441000"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

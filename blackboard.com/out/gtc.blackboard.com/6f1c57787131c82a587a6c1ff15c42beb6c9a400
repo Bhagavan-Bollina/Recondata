@@ -1,0 +1,29 @@
+https://gtc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: gtc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Expires: Sat, 04 Jan 2020 13:03:14 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: BbRouter=expires:1609776194,id:015FBD56300DBA61382F261C57B70C4C,signature:853c071f1f962c7f33c350475203356ffa30e10166eb7d1c6626baaf2af23cd8,site:dc7e6da1-dc46-4b0b-9c26-2949e4e990b7,v:2,xsrf:710c5e36-f301-4516-9b0c-d7ed033ce8a6; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=131B494116FBFD7D0C27E4CA0CD48BDB3C286517FC6AE30304F2783149B279C92C1A2007F7265E009CFB8FDF5E5D3B674D3490946AC2487EEDF79C21125B9F0D8DE0E67849;PATH=/
+< Set-Cookie: AWSELBCORS=131B494116FBFD7D0C27E4CA0CD48BDB3C286517FC6AE30304F2783149B279C92C1A2007F7265E009CFB8FDF5E5D3B674D3490946AC2487EEDF79C21125B9F0D8DE0E67849;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< P3p: CP="CAO PSA OUR"
+< Location: /auth-saml/saml/login?apId=_192_1&redirectUrl=https%3A%2F%2Fgtc.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:14 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:14 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-253-16.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+

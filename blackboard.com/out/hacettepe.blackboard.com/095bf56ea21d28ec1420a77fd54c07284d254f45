@@ -1,0 +1,1045 @@
+https://hacettepe.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hacettepe.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:14 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.1-rel.42+75c791f
+< Last-Modified: Thu, 04 Jan 2001 14:03:14 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: s_session_id=7532D537D075B66EABF6A224496E6B6B; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=90A39616C33C9800335A98611A55BE06; Path=/; Secure
+< Set-Cookie: NSC_306494_wjq_46.183.241.130*443=ffffffff090b1eb045525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Language: tr-TR
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:03:14 GMT
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Type: text/html;charset=UTF-8
+< X-Blackboard-Appserver: fgprd-306494-sf134970-app003.mhint
+
+<!DOCTYPE HTML >
+<html  lang="tr-TR">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Tüm Hakları Saklıdır. ABD Patent No. 7.493.396 ve 7.558.853. Ek Patentler Bekliyor.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"e99ceaa32b",applicationID:"10073225"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3800.0.1-rel.42+75c791f" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/Hacettepe_Theme2019/theme.css?v=3800.0.1-rel.42+75c791f" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f" id="css_2">
+          <style type="text/css">
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translatex(-50%) translatey(-50%);
+}
+body {
+    height: auto;
+}
+body.login-page {
+    background-image: url(http://yunus.hacettepe.edu.tr/~tekeli10/hacettepe/beytepe1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+
+}
+#loginHeader {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #9a5ca5;
+    width: 100%;
+    /* border-bottom: 4px solid #9a5ca5; */
+}
+div.loginBody {
+    background-position: center 25%;
+    width:90%;
+}
+input#entry-login {
+    width: 100%;
+    min-width: 100% !important;
+    max-width: 100%;
+    display: block;
+}
+ul#loginFormList {
+    width:100%;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+input#entry-login {
+    background-color: #9a5ca5;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.forgot a {
+    border-bottom: 1px solid #9a5ca5;
+    color: #9a5ca5;
+    margin-bottom: 10px;
+}
+#loginOptions ul li a, #loginOptions ul li.subOption a {
+    border-bottom: 1px solid #9a5ca5;
+}
+#loginOptions {
+    display: none;
+}
+.login-page #copyright .newCopyright {
+    width: 100%;
+    padding: 1em;
+    background: rgba(0,0,0,0.5);
+    bottom: -20px;
+}
+.login-page #copyright{
+    width:100%;
+}
+.additionalInfo p:first-child a {
+    border-bottom: 1px solid;
+    padding-right: 0;
+}
+#loginBox input[type="text"], #loginBox input[type="password"], #loginRedirectProviders button {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background: white;
+    padding: 6px;
+    border: 0px solid #777;
+    color: #666;
+    margin: 0;
+    box-sizing: border-box;
+}
+#loginBox li label, .portlet #loginBoxFull li label {
+    color: white;
+    display: block;
+    font-size: 120%;
+    letter-spacing: 1px;
+    padding: 0 0 3px;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 200;
+    margin-bottom: 0.5em;
+    margin-top: 0.8em;
+}
+#loginPageContainer{
+  width:100%;
+
+}
+a, .portlet .subCategories li a, .blockGroups .itemHead, .blockGroups .itemHeadOpen {
+    color: #9a5ca5;
+}
+
+.bbResources, #loginBox{
+    width:26.666667%;
+}
+.systemAnnouncementsLogin {
+    margin: 0 2% 4% 2%;
+}
+
+.bbResources, div#loginBox, .systemAnnouncementsLogin {
+    background-color: rgba(0, 0, 0, .6);
+    display: inline-block;
+    vertical-align: top;
+    padding: 2%;
+    min-height: 385px;
+}
+#loginBox form li+li+li {
+  margin-top:2em;
+    width: 100%;
+}
+.systemAnnouncementsLogin h1, .systemAnnouncementsLogin p {
+    color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.bbResources h1 {
+    margin-top: 0;
+    color: white;
+    text-align: center;
+}
+.blockBTNlogin p {
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 11px;
+}
+.loginBTN {
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    background-color: #9a5ca5;
+}
+.loginBTN a {
+    color: white;
+}
+.blockBTNlogin {
+    padding: 0.8em 0;
+    border-top: 1px solid white;
+}
+img.btnblocks {
+    margin-right: 2em;
+}
+div#loginBox img {
+    width: 100%;
+}
+div.loginBody {
+    padding:190px 0 0;
+    background: none;
+}
+p.hashtag {
+    font-size: 30px;
+    color: #985ca5;
+    font-weight: bold;
+}
+.systemAnnouncementsLogin ul li {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.systemAnnouncementsLogin ul li b {
+    font-size: 20px;
+    margin: 0px 5px;
+}
+.systemAnnouncementsLogin {
+    width: 28.666666%;
+}
+
+div#loginBox img, .systemAnnouncementsLogin h1.welcome {
+    display: none;
+}
+h1.welcome {
+    color: white;
+}
+.systemAnnouncementsLogin img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 1em;
+}
+img.monumentLogo {
+    margin: 3em auto;
+    width: 40%;
+    max-width: 220px;
+    display: block;
+}
+#login-form img.monumentLogo{
+  display:none;
+}
+a.appimg img {
+    height:auto;
+    width: 28%;
+    margin: 0 2% !important;
+}
+.legal {
+    color: white;
+}
+.logo {
+    background-image: url(http://temas.s3.amazonaws.com/Blackboard/bg-logowhite.png);
+    height: 20px;
+    width: 110px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.logo img {
+    display: none;
+}
+@media (max-width: 800px){
+.bbResources, .systemAnnouncementsLogin {
+    width: 91%;
+    padding: 2em;
+    height: auto !important;
+    margin-top: 2em;
+    min-height: auto;
+}
+.systemAnnouncementsLogin {
+    margin: 0;
+}
+.bbResources, .systemAnnouncementsLogin, div#login-form{
+    width:93%;
+    padding: 1em;
+    min-height:auto !important;
+    margin-top:2em;
+    min-height: auto;
+}
+#loginBox{
+   width:93%;
+    padding: 10%;
+    margin-top:2em;
+} 
+
+/*-------------Third party button-----------*/
+
+#loginBox ul, #loginRedirectProviders {
+    margin: 0 auto;
+    width: 100% !important;
+}
+#loginRedirectProviders {
+    margin: 10px auto 0px auto;
+}
+ul#loginFormList li {
+    margin-top: 5px !important;
+}
+span.forgot a {
+    color: white;
+}
+button#redirectProvidersDropdownButton {
+    display: block;
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 1em 0.2em;
+    background: #995ca5;
+    color: white;
+    font-size: 14px;
+    border-radius: 0;
+}
+#loginRedirectProviders ul {
+    z-index: 2;
+    position: inherit;
+}
+#loginRedirectProviders ul {
+    z-index: 2;
+    position: inherit;
+    border: 0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+/*-------------End Third party button-----------*/
+
+div#loginBox img {
+    margin:0 auto;
+    max-width: 400px;
+}
+div#loginBox h1.welcome, .systemAnnouncementsLogin img {
+    display:none;
+  }
+div#loginBox img, .systemAnnouncementsLogin h1.welcome {
+    display: block;
+}
+}
+
+@media (max-width: 420px){
+.bbResources, .systemAnnouncementsLogin{
+    width:81%;
+    padding: 10%;
+    margin-top:2em;
+}
+div#loginBox {
+    width: 97%;
+}
+.systemAnnouncementsLogin {
+    margin: 2em 0;
+}
+video {
+    position: fixed;
+    top: 79%
+}
+.systemAnnouncementsLogin {
+    margin: 2em 0;
+}
+}
+</style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3800.0.1-rel.42+75c791f">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3800.0.1-rel.42+75c791f"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Tam bir e-posta adresi (örneğin, info@blackboard.com) girilmelidir.';
+    JS_RESOURCES['validation.radio.required'] = 'Devam etmek için bir seçim yapın.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'Aşağıdaki sorular tamamlanmamış olabilir:\n {0}\nAnkete geri dönmek için İptal\'\'i tıklatın. Tamamlanmayan yanıtı kaydetmek için Tamam\'\'ı tıklatın.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Terimleri Ara';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Puan Değerleri en fazla 5 ondalık basamak içerebilir: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = '{1} karakterden fazlasını içermemeli: {0}.\nGirişin boyunu {2} karakter azaltın.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'Aşağıdaki sorular tamamlanmamış olabilir:\n {0}\nTeste geri dönmek için İptal\'\'i tıklatın. Tamamlanmayan yanıtı kaydetmek için Tamam\'\'ı tıklatın.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Çoklu seçim kutusunda en az {0} öğe sayısı bulunmalıdır.';
+    JS_RESOURCES['validation.cmp_field.required'] = '{0} için bir değer belirtilmeli\n({1} alanı boş değilse)';
+    JS_RESOURCES['warning.email'] = 'E-posta adresi tavsiye edilen bir alandır. Kullanıcılar bir e-posta adresi olmadan sistemin tüm kısımlarını kullanamaz.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = '{0} karakterden fazlasını içermemeli.\nGirişin boyunu bir karakter azaltın.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Çoklu Seçim kutusunda {0} adetten fazla öğe sayısı bulunmalıdır.';
+    JS_RESOURCES['validation.number'] = 'Sayısal bir değer girilmeli: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'Eksiksiz bir tarih değeri belirtilmeli: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Sil: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Yardım Metnini Göster';
+    JS_RESOURCES['validation.password'] = 'Şifre boş olamaz ya da sadece boşluklardan oluşamaz.';
+    JS_RESOURCES['validation.percent'] = '0 ve 100 arasında geçerli bir yüzde değeri girilmeli.';
+    JS_RESOURCES['validation.mismatch'] = 'Girilen değerler eşleşmiyor: {0}.\nOnayla: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = '{0} karakterden fazlasını içermemeli.\nGirişin boyunu {1} karakter azaltın.';
+    JS_RESOURCES['validation.invalid_value'] = 'Geçersiz sayısal değer sağlandı: {0}';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' girdi alanı';
+    JS_RESOURCES['validation.required'] = 'Bir değer belirtilmeli: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Arama metni alanı için bir değer belirt';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Hizalamaları seçtiniz ancak herhangi bir kopyalanacak hizalanabilir içerik seçmediniz.';
+    JS_RESOURCES['validation.system_role.reserve'] = 'Bir rol kodunun başına "bb" gelemez.';
+    JS_RESOURCES['validation.date_past'] = 'Bitiş tarihi başlangıç tarihinden önce olamaz.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Geçersiz karakterler içeriyor: {0}.\nBu karakterleri silin: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Bu öğe {0} silinecek. Devam edilsin mi?';
+    JS_RESOURCES['hide.helptext'] = 'Yardım Metnini Gizle';
+    JS_RESOURCES['validate.range.lessthen.str'] = '{0} Adetten Az';
+    JS_RESOURCES['validation.date_past.confirm'] = 'Bu saat geçmişte.\nBu saatle devam edilsin mi?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Bir kullanıcı adı ve şifre girin.';
+    JS_RESOURCES['validation.negative'] = 'Geçerli ve negatif olmayan bir değer girilmeli: {0}.';
+    JS_RESOURCES['validation.url'] = 'Geçerli bir URL (örneğin, http://www.myschool.edu) girilmelidir.';
+    JS_RESOURCES['validate.range.overlap'] = 'ölçütler ({0}) ölçütlerle ({1}) çakışıyor.';
+    JS_RESOURCES['validate.range.between.str'] = '{0} ve {1} arasında';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Sil: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'İlişkilendirilmiş öğeler bilgisi güncellenmiş olabilir.\nListeyi yenilemek için \'Tamam\'ı tıklatın veya geçerli sayfayı korumak için \'İptal\'i tıklatın.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'Erişim Koduyla Kayıt seçeneği, {instructor} tarafından yönetilen Kayıt seçeneğiyle çelişiyor.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Puan Değerleri en fazla 5 ondalık basamak içerebilir.';
+    JS_RESOURCES['validation.option.required'] = 'Listeden en az bir seçeneğin seçilmesi gerekiyor.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Tüm öğeleri seçmek için işaretle';
+    JS_RESOURCES['active.filter.changed.alert'] = 'ölçütler şimdi şunları içeriyor';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Yeniden Kullanılabilir Nesneyi Farklı Kaydetmek için bir Ad belirtin.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Lütfen {0} yerine geçerli bir sayı girin.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Kurs kimliği geçersiz karakterler veya çok baytlı karakterler içeriyor.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'Aşağıdaki sorular tamamlanmamış olabilir:\n {0}\nTeste geri dönmek için İptal\'\'i tıklatın. Değerlendirmeyi göndermek için Tamam\'\'ı tıklatın.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Uyarı: {instructor} tarafından yönetilen seçeneğini veya Kendini Kaydettirme seçeneğini seçin.';
+    JS_RESOURCES['validation.date_equal'] = 'Başlangıç tarihi bitiş tarihine eşit olamaz.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = '{0} karşılık gelen bir {1} değeri olmadan kullanılamaz.';
+    JS_RESOURCES['validation.time.required'] = 'Eksiksiz bir saat değeri belirtilmeli: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Geçerli bir tamsayı sayısal değer girilmeli: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = '255 karakterden fazla olmamalıdır.';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'Seçilen e-postayla kayıt seçeneği, kendini kaydettirme seçimiyle çelişiyor.';
+    JS_RESOURCES['invalid_char.space'] = 'boşluk';
+    JS_RESOURCES['validate.range.morethen.str'] = '{0} Adetten Fazla';
+    JS_RESOURCES['notification.submit'] = 'Eylem zaten gönderildi.\nEylem tamamlanana kadar bekleyin.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Bu belgede denklemleri düzgün görüntülemek için, Akıllı Metin veya HTML formatı seçilmeli.\nSalt Metin formatında kaydetmek için \'Tamam\' düğmesine tıklayın ya da \'İptal\' düğmesine tıklayarak yeni bir format seçin.';
+    JS_RESOURCES['invalid_char.comma'] = 'virgül';
+    JS_RESOURCES['validation.allow_negtive.percent'] = '-100 ve 100 arasında geçerli bir yüzde değeri girilmelidir.';
+    JS_RESOURCES['confirm.remove_item'] = 'Bu eylemin sonucu kalıcıdır ve geri alınamaz. Devam edilsin mi?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Tüm öğelerin seçimini kaldırmak için işareti kaldır';
+    JS_RESOURCES['validation.maximum_length.singular'] = '{1} karakterden fazlasını içermemeli: {0}.\nGirişin boyunu bir karakter azaltın.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Çok fazla ondalık basamak var. En fazla 5 olabilir.';
+    JS_RESOURCES['validation.minimum_length'] = 'En az {0} karakter girilmeli: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Yeniden Kullanılabilir Nesne için bir konum belirtin.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'Aşağıdaki sorular tamamlanmamış olabilir:\n {0}\nAnkete geri dönmek için İptal\'\'i tıklatın. Değerlendirmeyi göndermek için Tamam\'\'ı tıklatın.';
+    JS_RESOURCES['validation.image_type'] = 'Bilinmeyen resim tipi: {0}. Resim düzgün görüntülenemeyebilir.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Boşluk';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'CADDE_1 CADDE_2 ŞEHİR EYALET POSTA_KODU ÜLKE';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\.[0-9]{3})*)|[0-9]*)(\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'Paz Pzt Sal Çar Per Cum Cmt';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMMM][ yyyy]{\'&#8212;\'d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Ocak Şubat Mart Nisan Mayıs Haziran Temmuz Ağustos Eylül Ekim Kasım Aralık';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'İŞ_UNVANI BÖLÜM ŞİRKET İ_TELEFONU_1 İ_TELEFONU_2 İ_FAKS';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Hoş Geldin, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Ocak Şub Mart Nis May Haz Tem Ağu Eyl Ekim Kas Ara';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, dd.MM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'sabah akşam';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'E_TELEFONU_1 E_TELEFONU_2 E_FAKS C_TELEFONU';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Pa Pt Sa Ça Pe Cu Ct';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88599';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Pazar Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'JJ.MM.AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, dd.MM';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'CADDE_1 CADDE_2 ŞEHİR EYALET POSTA_KODU ÜLKE';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\.[0-9]{3})*)|[0-9]*)(\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'Paz Pzt Sal Çar Per Cum Cmt';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMMM][ yyyy]{\'&#8212;\'d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'Ocak Şubat Mart Nisan Mayıs Haziran Temmuz Ağustos Eylül Ekim Kasım Aralık';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'İŞ_UNVANI BÖLÜM ŞİRKET İ_TELEFONU_1 İ_TELEFONU_2 İ_FAKS';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Hoş Geldin, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Ocak Şub Mart Nis May Haz Tem Ağu Eyl Ekim Kas Ara';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, dd.MM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'sabah akşam';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'E_TELEFONU_1 E_TELEFONU_2 E_FAKS C_TELEFONU';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Pa Pt Sa Ça Pe Cu Ct';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88599';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Pazar Pazartesi Salı Çarşamba Perşembe Cuma Cumartesi';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'JJ.MM.AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, dd.MM';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/FD4448C3BEC4FF8059AA587A1AF99F30.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/groupjs/732F141F3C28BD6F8DDA800DEDE924A5.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/groupjs/3FD0EA101E6D5EE7AF8FD8EC1FCE32F5.js?v=3800.0.1-rel.42+75c791f"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <div id="loginPageContainer">
+  <div id="loginPane">
+
+    <div id="loginContainer">
+      <div id="loginHeader" class="clearfix">
+        <h1 class="hideoff">Blackboard Learn &#8482;</h1>
+        
+<h2 class="hideoff">Görünüm Seçenekleri</h2>
+<ul>
+  <li class="font-size">
+    <img src="/images/ci/ng/fonts.gif" alt="" /> 
+    <a href="#" title="Metin Boyutunu Değiştir" 
+          onClick="page.showChangeTextSizeHelp()">Metin Boyutunu Değiştir</a>
+  </li>
+  <li class="contrast">
+    <img src="/images/ci/ng/contrast.gif" alt="" /> 
+    <a href="#" title="Yüksek Kontrast Ayarı" onclick="page.showAccessibilityOptions(); return false;">Yüksek Kontrast Ayarı</a>
+  </li>
+</ul>
+</div>
+
+      <div id="loginLang" tabindex="0" class="clearfix">
+        
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+      <script>
+      function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+        Event.observe( $( 'loginLang' ), 'mouseover', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'mouseout', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'focus', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'blur', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+
+	});
+    </script>
+      
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	 
+    <h2>
+      <a href="#"><span>Kullanılabilir Diller:</span></a>
+      <span>Kullanılabilir Diller:</span>
+    </h2>
+
+    <ul id="langMenu" aria-hidden="true" role="menu">
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('tr_TR_hu');" title="Turkish (Hacettepe)" lang="tr_TR_hu" >Turkish (Hacettepe)</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('tr_TR');" title="Türkçe (Türkiye&#x202D;)&#x202C;" lang="tr_TR" >Türkçe (Türkiye&#x202D;)&#x202C;</a></li>
+
+      
+    </ul>
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+
+      <div class="clearfix loginBody">
+        <div id="loginBox">
+          <h1 class="welcome">Blackboard Learn'e Giri&#351; Yap&#305;n&#305;z</h1>
+          <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Hacettepe_%C3%9Cniversitesi_logo.svg/2000px-Hacettepe_%C3%9Cniversitesi_logo.svg.png" />
+
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Lütfen Blackboard uygulamasını çalıştırmak için tarayıcınızda JavaScript'i etkinleştirin.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/axis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/soap", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/xythosremoteadmin", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloud-profiles", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/visualization", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027979249287-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mindlinks-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mbs-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/social-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Hesabınız var mı?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Lütfen kimlik bilgilerinizi girin ve aşağıdaki <b>Oturum Aç</b> düğmesini tıklatın.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Kullanıcı adı</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Şifre</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Oturum Aç" name="login" class="button expand"/>
+        </li>
+    <li class="clearfix">
+  	  <span class="forgot"><a href="/webapps/blackboard/password" onclick="login_openForgotPassword('/webapps/blackboard/password');return false;" >Parolanızı mı Unuttunuz?</a>
+	  	    <span class="hideoff">(yeni pencere)</span>
+	  	  </span>
+      </li>
+  </ul>
+
+  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='a60502b4-dfb0-49c1-8d77-61b561205b89'>
+</form>
+</div>
+
+<div class="systemAnnouncementsLogin">
+
+<h1>Hacettepe &#220;niversitesi Uzaktan E&#287;itim Portaline Ho&#351;geldiniz!</h1>
+<img class="monumentLogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Hacettepe_%C3%9Cniversitesi_logo.svg/2000px-Hacettepe_%C3%9Cniversitesi_logo.svg.png">
+<p>&#304;lham verici bir d&#252;nya markas&#305; olan; &#246;&#287;rencisi, personeli ve mezunu olmaktan gurur duyulan; de&#287;i&#351;ime ve geli&#351;ime liderlik eden bir &#252;niversite olmakt&#305;r..
+</p>
+<p><b>Daha ileriye.. En iyiye..</b></p>    
+<div class="Coursecataloguespace">
+        </div>
+</div>
+
+<div class="bbResources">
+    <h1>&#214;&#287;rencilerimiz i&#231;in Blackboard Mobil Uygulamas&#305;: Ak&#305;ll&#305; Telefonlar&#305;n&#305;z i&#231;in Mobil Uygulama</h1>
+
+    <div class="blockBTNlogin">
+ <p>Blackboard Mobil Uygulamas&#305; ile t&#252;m ders i&#231;eriklerine, notlar&#305;n&#305;za, ak&#305;ll&#305; geri bildirimlere, s&#305;nav ve &#246;devlerinize ak&#305;ll&#305; telefonlar&#305;n&#305;z ile ula&#351;&#305;n&#305;z</p>
+    <p><b>iOS, Android ve Windows ak&#305;ll&#305; telefonlar&#305;n&#305;za Blackboard uygulamas&#305;n&#305; indiriniz:</b></p>
+    <p>
+      <a class="appimg" href="https://itunes.apple.com/app/blackboard-app/id950424861?mt=8" target="_blank"><img src="https://s3.amazonaws.com/bb-student/images/appstore.png" alt="iTunes" width="70" height="25" style="margin: 5px;"></a>
+      <a class="appimg" href="https://play.google.com/store/apps/details?id=com.blackboard.android.bbstudent&hl=en" target="_blank"><img src="https://s3.amazonaws.com/bb-student/images/google-play.png" alt="Google Play" width="70" height="25" style="margin: 5px;"></a>
+      <a class="appimg" href="https://www.microsoft.com/store/p/blackboard/9nblggh08j8w?rtc=1" target="_blank"><img src="https://s3.amazonaws.com/bb-student/images/ms-store.png" alt="Microsoft Store" width="70" height-"25"="" style="margin: 5px;"></a>
+    </p>
+      </div>
+
+
+      <div class="blockBTNlogin">
+        <h1>Akademisyenlerimiz i&#231;in Blackboard Instructor Mobil Uygulamas&#305;</h1>
+      <p>Ders i&#231;erkilerinizi g&#287;r&#252;nt&#252;lemek, &#246;&#287;rencileriniz ile ileti&#351;ime ge&#231;mek ve derslerinizi y&#246;netmek i&#231;in</p>
+       <p><b>iOS, Android ve Windows ak&#305;ll&#305; telefonlar&#305;n&#305;za Blackboard Instructor uygulamas&#305;n&#305; indiriniz:</b></p>
+    <p>
+      <a class="appimg" href="https://itunes.apple.com/app/blackboard-instructor/id1088457824?ls=1&mt=8" target="_blank"><img src="https://s3.amazonaws.com/bb-student/images/appstore.png" alt="iTunes" width="70" height="25" style="margin: 5px;"></a>
+      <a class="appimg" href="https://play.google.com/store/apps/details?id=com.blackboard.android.bbinstructor" target="_blank"><img src="https://s3.amazonaws.com/bb-student/images/google-play.png" alt="Google Play" width="70" height="25" style="margin: 5px;"></a>
+      <a class="appimg" href="https://www.microsoft.com/store/apps/9n0p65p3g4fv?rtc=1" target="_blank"><img src="https://s3.amazonaws.com/bb-student/images/ms-store.png" alt="Microsoft Store" width="70" height-"25"="" style="margin: 5px;"></a>
+    </p>
+    </div>
+ </div>
+  </div>
+  <div id="loginOptions">
+      
+</div>
+
+
+</div>
+      
+
+<div id="loginImage"><img src="/images/ci/logos/Gateway_Learn.jpg" alt="Blackboard Learn" /></div>
+<div id="loginText">
+<p>İnsanlara ve teknolojiye bağlanarak eğitim yeniliklerini her yerde sağlamak için tasarlanan Blackboard e-Education platformuna&#8212;hoş geldiniz.</p>
+</div></div>
+
+  </div>
+
+  
+<div id="loginAnnouncements">
+  <h3>Sistem Duyuruları</h3>
+  <ul>
+          <li>
+        <strong>2020/2021 Güz Dönemi Sisteme Girişleriniz Hk.</strong> 
+                  <em class="announcementDate">
+            (04 Kasım 2020 Çarşamba)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p>Sevgili Öğrencilerimiz;</p> 
+   <p style="text-align: justify;"><span style="color: #000000;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-size: 10pt; font-family: inherit, serif;">*Sisteme&nbsp;<span style="font-family: inherit; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13.3333px; text-decoration: underline; text-shadow: none !important; letter-spacing: normal !important; color: #ff0000;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0cm; border: 1pt none windowtext; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13.3333px;">kullanıcı adı:</span></span><span style="border: none windowtext 1.0pt; padding: 0cm;"><span style="color: #ff0000;">&nbsp;Öğrenci numaranız</span>;</span>&nbsp;&nbsp;</span></b><span style="color: #ff0000;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; text-decoration: underline;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0cm; border: 1pt none windowtext; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 11pt;">şifre:</span></span></b><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; text-decoration: underline;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0cm; border: 1pt none windowtext; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 10pt;">&nbsp;</span></span></b><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0cm; border: 1pt none windowtext; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 10pt;">TC ilk 6&nbsp;hane</span></b></span><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-size: 10pt; font-family: inherit, serif;">&nbsp;ile giriş yapabilirsiniz.&nbsp;</span></b></span></p> 
+   <p style="text-align: justify;"><span style="color: #000000;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="text-decoration: underline;"><span style="font-size: 10pt; font-family: inherit, serif; border: 1pt none windowtext; padding: 0cm;">**TC numarası olmayan yabancı uyruklu öğrenciler</span></span></b><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-size: 10pt; font-family: inherit, serif;">&nbsp; ise sisteme kullanıcı adı ve şifrelerine öğrenci numaraları ile giriş yapacaktır.</span></b></span></p> 
+   <p style="text-align: justify;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-size: 10.0pt; font-family: 'inherit',serif; color: #666666;">&nbsp;</span></b><b><span style="font-size: 14.0pt; font-family: 'inherit',serif; color: red;">**Sisteme giriş yaptıktan sonra e-posta adresinizi güncelleyeniz,&nbsp;eğer yoksa ekleyiniz.</span></b></p> 
+   <p style="text-align: justify;"><span style="font-size: 13.3333px;"><b>Başarılı bir dönem dileriz..</b></span></p> 
+   <br>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+</div>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Kapat');page.bundle.addKey('inlineconfirmation.refresh','Yenile');page.bundle.addKey('hidden.link.close.menu','Menünün sonu. İlişkilendirilmiş öğeye geri dönmek için tıklatın.');page.bundle.addKey('hidden.link.close.form','Formun sonu. İlişkilendirilmiş öğeye geri dönmek için tıklatın.');page.bundle.addKey('lightbox.loading','Yükleniyor…');page.bundle.addKey('yt.stopped','Durduruldu:');page.bundle.addKey('yt.playing','Yürütülüyor:');page.bundle.addKey('yt.cued','Kuyruğa Alındı:');page.bundle.addKey('yt.buffering','Arabelleğe Alınıyor:');page.bundle.addKey('yt.paused','Duraklatıldı:');page.bundle.addKey('yt.ended','Sonlandı:');page.bundle.addKey('yt.play','Yürüt');page.bundle.addKey('yt.pause','Duraklat');page.bundle.addKey('yt.mute','Sessiz');page.bundle.addKey('yt.unmute','Sesi Aç');page.bundle.addKey('lightbox.overlay','{0} geçerli sayfayı kaplayan bir ışık kutusu olarak açıldı.');page.bundle.addKey('display.playerControls','Yürütücü Denetimleri');page.bundle.addKey('display.videoPlayerControls','Video Yürütücü Denetimleri');page.bundle.addKey('display.play','Yürüt');page.bundle.addKey('display.stop','Durdur');page.bundle.addKey('display.volumeUp','Ses Artır');page.bundle.addKey('display.volumeDown','Ses Azalt');page.bundle.addKey('display.mute','Sessiz');page.bundle.addKey('display.videoStatus','Video Durumu');page.bundle.addKey('display.closePlayerControls','Yürütücü Denetimlerini Kapat');page.bundle.addKey('display.embeddedVideoPlayer','Ekli Video Yürütücü');page.bundle.addKey('display.of','/');page.bundle.addKey('display.view.on.flickr','Fotoğrafı Flickr\'da Görüntüle');page.bundle.addKey('mashups.content.data.msg','Karma içeriğini görüntüleyemiyoruz. Sistem geçersiz bir URL algılarsa bu durum oluşur. Karma öğesini kaldırın ve bu sorunu çözmek için tekrar deneyin.');page.bundle.addKey('contextmenu.frame.title','Menü çerçevesi');page.bundle.addKey('frameset.contentframe.title','İçerik');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script type="text/javascript">
+      function loadLoginPage()
+      {
+    	  if ( top != self )
+    	  {
+    		  top.location.replace( self.location.href );
+    		}
+    	  if(document.forms.login.user_id != undefined)
+    		{
+    		  document.forms.login.user_id.focus();
+    		}
+    	  setTimeout("triggerScreenreaderAlert()", 500);
+      }
+
+      function triggerScreenreaderAlert()
+      {
+    	if ( document.getElementById( 'loginErrorMessage' ) )
+  	    {
+    	  $( 'loginErrorMessage' ).update( $('loginErrorMessage').innerHTML );
+  	    }
+      }
+    </script>
+<script type=âtext/javascriptâ>
+    if(window.location.href.indexOf(âtsuâ) > -1) {
+       //set element styles for custom page//
+    }
+    </script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"e99ceaa32b","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":18,"applicationID":"10073225","transactionName":"YlUEYhdYCkUAWhdfX1sfNUIXTBBFIFoXX19bHwRaBFoPVA5YEVIeQlUEVxVJFxgDVQJVW1dfB0QBFwVDFVEGWERcUwdCDFYKGC1WBF9edFMSXwpX","queueTime":0}</script>
+</body>
+</html>

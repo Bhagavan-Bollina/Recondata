@@ -1,0 +1,54 @@
+https://unisr-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: unisr-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:05:25 GMT
+< Set-Cookie: JSESSIONID=48664DFC81D09C9A72BE14B3D7F9833A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776325,id:898E7864AF926D94D7CA6EF6D9787987,signature:1d432c7bf5ebb45b50d86608036c5a5f6ee3c2a0128b7fddc48de6176d0c2a9c,site:bad76585-be62-4192-8462-8bf37c427761,v:2,xsrf:a56bebe1-21dc-4702-804d-df8797f7505a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=E53F45971A8FBBF48329B971CED7C5B59DCA53CC43E63A80F12AF26F3829FD251A9CAE5A98D344FCC98FBF8A1197CE18DA9349F5470D0C4A4AF4965856725412A433CAF2FC;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=E53F45971A8FBBF48329B971CED7C5B59DCA53CC43E63A80F12AF26F3829FD251A9CAE5A98D344FCC98FBF8A1197CE18DA9349F5470D0C4A4AF4965856725412A433CAF2FC;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: ip-10-148-207-79.eu-central-1.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:05:25 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:05:25 GMT
+< Pragma: private
+< Vary: accept-encoding
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Learn - Universita' Vita-Salute San Raffaele</title>
+<BODY style="font-family: arial,sans-serif;font-size: 24px; color: grey; padding: 1em; ">
+<div align="center">
+<img src="https://intranet.unisr.it/images/unisr_scritta.gif" border="0">
+<br><br><br><br>
+Login with the UniSR Single Sign On<br>
+<a style="color:grey" href="https://bbtest.unisr.it/auth-saml/saml/login?apId=_17_1&redirectUrl=https%3A%2F%2Fbbtest.unisr.it%2Fultra">Go to login page</a><br>
+<br>
+<table width="400" style="font-family: arial,sans-serif;font-size: 18px; color: grey; padding: 1em; ">
+<tr>
+<td>
+use:<br>
+<b>username</b>: email address<br>
+(students: m.rossi@studenti.unisr.it<br>
+teachers: m.rossi@docenti.unisr.it)<br>
+<b>password</b>: intranet password</li><br><br>
+</td>
+</tr>
+</table>
+</div>
+</BODY>
+</HTML>

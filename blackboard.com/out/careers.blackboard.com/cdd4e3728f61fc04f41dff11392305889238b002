@@ -1,0 +1,719 @@
+https://careers.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: careers.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: cisession=a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%222f4f08dd089116ab83bd7d4d88bfff0f%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A10%3A%2210.1.5.179%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A68%3A%22Mozilla%2F5.0+%28compatible%3B+meg%2F0.2%3B+%2Bhttps%3A%2F%2Fgithub.com%2Ftomnomnom%2Fmeg%29%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1609765350%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7Db8ae056f466660c3da8990c9847bc2e3; expires=Mon, 04-Jan-2021 17:02:30 GMT; Max-Age=14400; path=/; secure;HttpOnly
+< Vary: Accept-Encoding,User-Agent
+< Access-Control-Allow-Origin: https://core2.ascendify.com, https://backend.ascendify.com
+< Access-Control-Allow-Methods: PUT, GET, POST, DELETE, OPTIONS
+< Content-Type: text/html; charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:02:30 GMT
+< Server: Apache
+< Strict-Transport-Security: max-age=157680000
+< X-Frame-Options: SAMEORIGIN
+< Access-Control-Allow-Headers: origin, x-requested-with, content-type
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+
+	{'gtm.start': new Date().getTime(),event:'gtm.js'}
+	);var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-KZS68L7');</script>
+	<!-- End Google Tag Manager -->
+
+    
+	<script type="text/javascript">
+		    // Set global APP_VERSION variable
+    var APP_VERSION = '1609305670';
+    var APP_SERVER_TEST = 'https://blackboard.ascendify.com';
+    // Set global client user id
+    var CLIENT_USER_ID = '';
+
+    // Set global google analytics id
+    var GOOGLE_ANALYTICS_ID = 'UA-103141760-1';
+    </script>
+
+    <meta charset="UTF-8"/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="author" content="Ascendify" />
+
+    <meta name="description" content="Interested in working for Blackboard? Take the first step today by joining our talent community."/>
+    <meta name="google-site-verification" content="N4U_I1iL65yGRowpAQy6CnJkwswdpqUiknOVcmoGsZU" />
+    <meta name="google-translate-customization" content="1e1f76a955119afa-a8cdd2c16b6ea422-ge3780e97d5a917e1-11" />
+    <meta name="keywords" content="Blackboard, Ascendify, Talent Community, Jobs, Opportunities" />
+    <meta name="robots" content="INDEX,FOLLOW" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+        		<meta property="og:description" content="Interested in working for Blackboard? Take the first step today by joining our talent community."/>
+		<meta property="og:image" content="https://careers.blackboard.com/img/header/og-logo.png"/>
+		<meta property="og:title" content="Blackboard | Talent Community" />
+		
+    <!--[if lt IE 9]>
+    <script src="/js/polyfills/html5shiv.js"></script>
+    <![endif]-->
+
+    <link href="/css/jquery-ui-1.10.0.custom.min.css" type="text/css" rel="stylesheet"/>
+    <link href="/css/bootstrap/bootstrap.css" rel="stylesheet"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+
+            <link href="https://store.ascendify.com/prod/dist/css/ascendify.client.all.min.css?v1609305670" type="text/css" rel="stylesheet"/>
+    <link href="https://store.ascendify.com/prod/bower_components/intl-tel-input/build/css/intlTelInput.css?v1609305670" type="text/css" rel="stylesheet" />
+    <link href="https://backend.ascendify.com/css" type="text/css" rel="stylesheet"/>
+        <!-- <link href="https://backend.ascendify.com/showfiles/showAsset/VFxGCFbMzKjoKjW/16/16" rel="shortcut icon"  />
+    <link href="https://backend.ascendify.com/showfiles/showAsset/VFxGCFbMzKjoKjW/16/16" rel="icon" type="image/gif"  />
+    <link href="https://backend.ascendify.com/showfiles/showAsset/VFxGCFbMzKjoKjW/16/16" rel="icon" type="image/png"  /> -->
+	<link href="/img/logos/favicon.ico" rel="shortcut icon"  />
+	<link href="/img/logos/favicon.ico" rel="icon" type="image/gif"  />
+	<link href="/img/logos/favicon.ico" rel="icon" type="image/png"  />
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,300italic,400italic' rel='stylesheet' type='text/css' />
+    <link href="/css/style.css?202101045" type="text/css" rel="stylesheet"/>
+    <link href="/css/talentcommunity.css" rel="stylesheet" media="screen"/>
+
+    <script type="text/javascript">
+        if(!ascendify_community_id) {
+            var ascendify_community_id = 'default';
+        }
+    </script>
+
+    <script type="text/javascript" src="/js/core.js"></script>
+    <script type="text/javascript" src="/js/jquery/jquery-1.9.1.min.js"></script>
+
+
+    
+    <title>Blackboard | Talent Community</title>
+</head>
+<body>
+		<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KZS68L7"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+    <!-- GLOBAL SITE TAG (gtag.js) - Google Analytics  - Provided by BlackBoard -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1394520-18"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	
+	gtag('config', 'UA-1394520-18');
+</script>
+<!-- END GLOBAL SITE TAG-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+  passClientUserIdToGoogleAnalytics();
+
+  ga('create', 'UA-103141760-1', 'auto', {'name':'blackboard'});
+  // Sent Tracker Page View
+  ga('blackboard.send', 'pageview');
+
+</script>
+    <nav id="main-nav" class="navbar navbar-fixed-top navbar-default " role="navigation">
+<div id="langbar">
+   <!-- <ul class="utility_bar">
+      <li><a href="https://www.blackboard.com/student-resources" target="_self" title="Students">Students</a></li>
+      <li><a href="https://www.blackboard.com/educator-resources" target="_self" title="">Educators</a></li>
+      <li><a href="https://www.blackboard.com/support" target="_self" title="">Support</a></li>
+   </ul> -->
+   <!-- <div id="google_translate_element"></div>
+   <script type="text/javascript">
+      function googleTranslateElementInit() {
+         new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'cs,en,es,fr,nl,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+      }
+   </script>
+   <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+</div>
+   <div class="navbar-inner">
+    <div id="cookies-acceptance-wrapper" class="row" style="display: none; ">
+		<div class="col-sm-8 message">
+			We use cookies to help us offer you the best online experince. By continuing to use our website and/or clicking OK,
+			you're agreeing to our use of cookies in accordance with our cookies policy
+		</div>
+		<div class="col-sm-4 text-right">
+			<button class="ok-button">
+				OK
+			</button>
+			<div class="tell-me-more-link">
+				Tell me more
+			</div>
+		</div>
+	</div>
+      <div class="navbar-header">
+         <a href="#" class="navbar-toggle" data-toggle="collapse" data-target="#client-nav-system">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+         </a>
+         <a class="brand safari_redirect_link" href="/">
+            <img src="/img/header/logo.png" onclick="window.location.href='/'"  alt="Blackboard Logo" class="link" id="header_logo">
+            <svg role="img" focusable="no" class="Signature" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 17.68">
+               <defs><style>.cls-1{fill:#231f20;}</style></defs>
+               <path d="M13,5a4,4,0,0,1-2.39,3.74c1.95.67,3.31,1.79,3.31,4.08,0,3-2.45,4.6-6.17,4.6H0V.71H7.48C10.84.71,13,2.36,13,5ZM10,5.46C10,4.1,9,3.31,7.1,3.31H2.88V7.74h4C8.77,7.74,10,7,10,5.46Zm.93,7c0-1.43-1.12-2.26-3.43-2.26H2.88V14.8H7.74C9.75,14.8,11,14,11,12.49Z"></path><path d="M15.85,17.4V0h2.88V17.4Z"></path><path d="M29,17.4V15.85a5.09,5.09,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05A10.64,10.64,0,0,1,29,10.2V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.85,10.85,0,0,1,4.8-1c3.71,0,5.52,2,5.52,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.91,0,3.33-1.07,3.33-2.65Z"></path><path d="M39.92,17.68a6.43,6.43,0,0,1-6.51-6.52,6.5,6.5,0,0,1,6.53-6.61,6.27,6.27,0,0,1,5,2.17L43.18,8.65a4.22,4.22,0,0,0-3.26-1.57,3.78,3.78,0,0,0-3.62,4,3.83,3.83,0,0,0,3.76,4.07,4.44,4.44,0,0,0,3.27-1.57l1.74,1.71A6.36,6.36,0,0,1,39.92,17.68Z"></path><path d="M58.29,17.4H55L51.17,12,49.41,13.8v3.6H46.52V0h2.89V10.39l5.21-5.58h3.51l-5,5.13Z"></path><path d="M67,17.66a5.12,5.12,0,0,1-4.26-2.22v2H59.84V0h2.89V6.91A5,5,0,0,1,67,4.55c3,0,5.87,2.36,5.87,6.56S70,17.66,67,17.66ZM66.33,7.05a3.8,3.8,0,0,0-3.68,4.06,3.79,3.79,0,0,0,3.68,4.05c2,0,3.59-1.55,3.59-4.05S68.28,7.05,66.33,7.05Z"></path><path d="M80.6,17.68a6.51,6.51,0,0,1-6.67-6.52,6.71,6.71,0,1,1,6.67,6.52Zm0-10.6a3.79,3.79,0,0,0-3.79,4,3.89,3.89,0,0,0,3.84,4.07,3.79,3.79,0,0,0,3.81-4A3.9,3.9,0,0,0,80.6,7.08Z"></path><path d="M96.78,17.4V15.85a5.07,5.07,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05a10.64,10.64,0,0,1,3.48.52V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.84,10.84,0,0,1,4.79-1c3.72,0,5.54,2,5.54,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.9,0,3.33-1.07,3.33-2.65Z"></path><path d="M104.77,17.4h-2.88V4.81h2.88V7.65a4.45,4.45,0,0,1,4.46-3.07V7.63h-.17c-2.53,0-4.29,1.64-4.29,5Z"></path><path d="M119.67,17.4V15.3a5,5,0,0,1-4.29,2.36c-3,0-5.84-2.36-5.84-6.55s2.83-6.56,5.84-6.56a5.22,5.22,0,0,1,4.29,2.22V0h2.88V17.4Zm-3.6-10.35c-2,0-3.63,1.53-3.63,4.06a3.74,3.74,0,0,0,3.63,4.05,3.79,3.79,0,0,0,3.64-4.05A3.79,3.79,0,0,0,116.07,7.05Z"></path><path d="M126,1a1,1,0,1,1-1-1A1,1,0,0,1,126,1Zm-1.83,0a.82.82,0,0,0,.81.82.83.83,0,1,0-.81-.82Zm.88-.54c.27,0,.39.1.39.33a.27.27,0,0,1-.12.23c.08.05.09.08.1.28s0,.2.07.24h-.3a.42.42,0,0,1,0-.18c0-.22,0-.23-.16-.23h-.18v.41h-.25V.48Zm-.23.46H125c.13,0,.17,0,.17-.12s0-.12-.17-.12h-.19Z"></path>
+            </svg>
+            <span class="careers"><span class="pipe">|</span> Careers</span>
+         </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="client-nav-system">
+        <ul class="nav navbar-nav">
+          <li><a href="/culture/life-at-blackboard">Life at Blackboard</a></li>
+          <li><a href="/culture/why-blackboard">Why Blackboard</a></li>
+          <li class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Search Careers <i class="fa fa-sort-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a href="/careers" class="safari_redirect_link">Search All Openings</a></li>
+                <li><a href="/choose-your-community">Choose Your Community</a></li>
+                <li><a href="/corporate">Corporate</a></li>
+                <li><a href="/marketing">Marketing &amp; Communications</a></li>
+                <li><a href="/sales-business-development">Sales &amp; Business Development</a></li>
+                <li><a href="/technology">Technology</a></li>
+                <li><a href="/internships">Internships</a></li>
+                <li><a href="/contact-center">Contact Center</a></li>
+                <li><a href="/consulting">Consulting</a></li>
+              </ul>
+          </li>
+          <li>
+            <!--
+            Check user login
+            If logged in, join community
+            Else show sign in button
+            -->
+                           <a href="/signin" id="menu_sign_in" class="btn btn-default safari_redirect_link">Sign In</a>
+               <script type="text/javascript">
+                   checkLogin('default');
+           $(function() {
+               $("#cookies-acceptance-wrapper").Ascendify('showCommunityCookieAcceptance',
+               	{
+               		community_id:'default',
+               		 success: function(response){
+                           var showPopup = response.data && response.data.show_popup,
+                           	privacy_policy_url = response.data && response.data.privacy_policy_url ? response.data.privacy_policy_url : "";
+       						$mainNav = $("#main-nav"),
+       						$tellMeMoreLink = $(".tell-me-more-link"),
+                       		$cookieWrapper = $("#cookies-acceptance-wrapper"),
+                       		$okButton = $(".ok-button");
+
+       						if( showPopup )
+       						{
+       	                    	$cookieWrapper.show();
+       	                    	$mainNav.height( 140 );
+       	                    	$tellMeMoreLink.unbind('click').on('click', function(){
+       	                    		window.location= privacy_policy_url;
+       	                        });
+       	                    	$okButton.unbind('click').on('click', function(){
+       	                    		$.ajax({
+       	                    			url: ascendify_server_location+"/communityapi/setCookiePopupAcceptance/"+ascendify_client_id,
+       	                    			dataType: 'jsonp',
+       	                    			success: function( json ) {
+       	        	                    	$mainNav.height( 90 );
+       	        	                    	$cookieWrapper.hide();
+       	                    			}
+       	                    		});
+       	                        });
+       						}
+
+                        }
+               	}
+               );
+           });
+               </script>
+               <!-- <a href="" id="sign-in" class="btn btn-default">Join Our Community</a> -->
+                        </li>
+         </ul>
+      </div>
+   </div>
+</nav>
+    <div id="main_container">
+        <!-- Hero image with central message centered -->
+<section id="hero-careers-blackboard">
+   <div class="hero--container">
+      <!-- Centered blue box -->
+      <div class="hero-wrap">
+         <div class="title--careers-hero-controls">
+            <h3>Careers at Blackboard</h3>
+         </div>
+         <!-- Centered hero message -->
+         <div class="text--careers-hero-controls">
+            <h3>Let’s Advance Learning</h3>
+            <a class="btn btn-primary btn-lg btn-wide" href="/careers">Search Jobs</a>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section id="content-panels">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-10 col-md-offset-1">
+            <div class="col-md-4">
+               <div class="complete-panel">
+               <!-- 
+                  Panel image
+                  These panels use background images
+                  Background images should be specified inline
+                  should not be smaller than 318x173px
+               -->
+                  <div>
+                     <img src="/img/landing/panels/panel-5.jpg" class="panel-image" alt="blackboard locations">
+                  </div>
+                  <div class="panel-bottom">
+                     <h2>Current Openings:</h2>
+                     <p>We’re looking for people to help us advance learning in every region of the world. Our team works each day to push the boundaries of learning through the power of technology.</p>
+                     <a href="/careers" class="btn btn-plain safari_redirect_link">See where you fit in &gt;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="complete-panel">
+                  <div>
+                     <img src="/img/landing/panels/panel-1.jpg" class="panel-image" alt="life at blackboard">
+                  </div>
+                  <div class="panel-bottom">
+                     <h2>Life at Blackboard:</h2>
+                     <p>At Blackboard, we want you to have more than just a job. Our teams are empowered to make a difference and invested in through professional development, competitive benefits, and programs that help you reach your ideal work-life balance.</p>
+                     <a href="/culture/life-at-blackboard" class="btn btn-plain">Working here &gt;</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="complete-panel">
+                  <div>
+                     <img src="/img/landing/panels/panel-2.jpg" class="panel-image" alt="blackboard education">
+                  </div>
+                  <div class="panel-bottom">
+                     <h2>What We Do:</h2>
+                     <p>We advance learning by delivering a dynamic, personalized user experience, fueled by data.</p>
+                     <a href="/choose-your-community" class="btn btn-plain safari_redirect_link">Choose your community &gt;</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>         
+   </div>
+</section>
+
+<!-- Why Join Blackboard -->
+<section id="blackboard-join">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-10 col-md-offset-1">
+            <div class="title--life-blackboard text-center">
+               <h2>Why Join Blackboard’s Talent Community?</h2>
+            </div>
+            <!-- Why Join Blackboard images and titles -->
+            <div class="box__why-join text-center">
+               <div class="icon__why-join">
+                  <img src="/img/new-icons/apply.png" alt="blackboard apply">
+               </div>
+               <div class="text--why-join">
+                  <p>Easily apply for jobs</p>
+               </div>
+            </div>
+            <div class="box__why-join text-center">
+               <div class="icon__why-join">
+                  <img src="/img/new-icons/notify.png" alt="blackboard notify">
+               </div>
+               <div class="text--why-join">
+                  <p>Get notified about recent openings</p>
+               </div>
+            </div>
+            <div class="box__why-join text-center">
+               <div class="icon__why-join">
+                  <img src="/img/new-icons/chat.png" alt="blackboard chat">
+               </div>
+               <div class="text--why-join">
+                  <p>Chat with your hiring manager and team</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<section id="blackboard-join-community">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-10 col-md-offset-1 text-center">
+            <p class="p-quote">
+             
+               Not ready to apply? Join our talent community to stay connected and receive company updates.
+            </p>
+            <a href="/choose-your-community" class="btn btn-primary btn-lg btn-wide safari_redirect_link">Choose Your Community</a>
+         </div>
+               </div>         
+   </div>
+</section>
+
+<script id="video-thumbnail-script" type="text/javascript">
+   $(document).ready(function() {
+
+      //var $videoWrap = $('.video');
+      // Load in YouTube API scripts
+      // These scripts are required for video thumbnails
+      var tag = document.createElement('script');
+      tag.src = "https://www.youtube.com/iframe_api";
+      $('#video-thumbnail-script').before(tag);
+
+      // Init YouTube player 
+      var player_panel_1;
+      // var player_panel_2;
+      // var player_panel_3;
+
+      // onYouTubeIframeAPIReady needs to exist in the global namespace
+      window.onYouTubeIframeAPIReady = function() {
+
+         // Need to init a new player for each video instance on page
+         player_panel_1 = new YT.Player('iframe-panel-1', {
+            width: '100%',
+            videoId: $('#iframe-panel-1').attr('data-src'), // Get video ID from panel 1 thumb
+            playerVars: 
+            {
+               wmode:'opaque'
+            }
+         });
+      }
+
+
+      // Click preview image to play first video
+      $('span[id*=play-btn],a[id=asc-watch-btn]').on('click', function(e) {
+
+         e.preventDefault();
+
+         var player = $(this).siblings('iframe').attr('id');
+
+         // Hide play button
+         $(this).hide();
+
+         // Hide preview image
+         $(this).prev().hide();
+
+         // Play video
+         if(!isAppleMobile())
+         {
+            switch (player) { 
+               case 'iframe-panel-1': 
+                  player_panel_1.playVideo();
+                  break;
+               // case 'iframe-panel-2': 
+               //    player_panel_2.playVideo();
+               //    break;
+               // case 'iframe-panel-3': 
+               //    player_panel_3.playVideo();
+               //    break;    
+               default: 
+                  break;
+            }
+         }
+
+      });
+
+   });
+
+   function isAppleMobile() {
+      if (/iPhone|iPad|iPod/i.test(navigator.userAgent) ) 
+      {
+         return true;
+      }
+         return false;
+   }
+
+   $(document).ready(function() {
+      //imageBlur();
+      sliderSwipe();
+      oldIeRedirect();
+
+      //$("#people-slider").Ascendify('listEmployeesProfileWidget',{height:'120px'});
+
+      $('#button-team').on('click', function() {
+         $(this).toggleClass('open');
+         if ($(this).hasClass('open')) {
+            $('.arrow_container').fadeIn();
+            $('section.choose_community').slideDown();
+            $('#button-team i').removeClass('fa-sort-down').addClass('fa-sort-up');
+         } else {
+            $('.arrow_container').fadeOut();
+            $('section.choose_community').slideUp();
+            $('#button-team i').removeClass('fa-sort-up').addClass('fa-sort-down');
+         }
+      });
+   });
+</script>    </div>
+    <footer>
+<!-- <div class="asc-social-share-wrap"> -->
+<!-- <style>
+.asc-social-share-wrap .chicklets {
+text-indent: -99999px;
+overflow: hidden;
+padding-right: 0px;
+padding-left: 16px;
+}
+.asc-social-share-wrap .stButton {
+margin-right: 2px;
+margin-left: 2px;
+}
+</style> -->
+
+<!-- AddThis Button BEGIN -->
+<!-- <div style="min-width: 200px;">
+<span class="share-span pull-left">
+Share on:
+</span>
+
+<div class="social-buttons-footer">
+<a class="sharer-icon sharer-icon-email email-footer" href="" title="Share by Email" style="float: right;"></a>
+</div>
+
+</div> -->
+<!-- AddThis Button END -->
+<!-- </div> -->
+
+<div class="footer-wrap">
+    <div class="footer__contents">
+        <div class="bb_footer__top">
+            <div class="bb_footer__logo">
+                <a href="https://www.blackboard.com/" target="_blank" aria-label="Blackboard">
+                    <svg role="img" focusable="no" class="Signature" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 17.68">
+                        <defs><style>.cls-1{fill:#231f20;}</style></defs>
+                        <path d="M13,5a4,4,0,0,1-2.39,3.74c1.95.67,3.31,1.79,3.31,4.08,0,3-2.45,4.6-6.17,4.6H0V.71H7.48C10.84.71,13,2.36,13,5ZM10,5.46C10,4.1,9,3.31,7.1,3.31H2.88V7.74h4C8.77,7.74,10,7,10,5.46Zm.93,7c0-1.43-1.12-2.26-3.43-2.26H2.88V14.8H7.74C9.75,14.8,11,14,11,12.49Z"></path><path d="M15.85,17.4V0h2.88V17.4Z"></path><path d="M29,17.4V15.85a5.09,5.09,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05A10.64,10.64,0,0,1,29,10.2V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.85,10.85,0,0,1,4.8-1c3.71,0,5.52,2,5.52,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.91,0,3.33-1.07,3.33-2.65Z"></path><path d="M39.92,17.68a6.43,6.43,0,0,1-6.51-6.52,6.5,6.5,0,0,1,6.53-6.61,6.27,6.27,0,0,1,5,2.17L43.18,8.65a4.22,4.22,0,0,0-3.26-1.57,3.78,3.78,0,0,0-3.62,4,3.83,3.83,0,0,0,3.76,4.07,4.44,4.44,0,0,0,3.27-1.57l1.74,1.71A6.36,6.36,0,0,1,39.92,17.68Z"></path><path d="M58.29,17.4H55L51.17,12,49.41,13.8v3.6H46.52V0h2.89V10.39l5.21-5.58h3.51l-5,5.13Z"></path><path d="M67,17.66a5.12,5.12,0,0,1-4.26-2.22v2H59.84V0h2.89V6.91A5,5,0,0,1,67,4.55c3,0,5.87,2.36,5.87,6.56S70,17.66,67,17.66ZM66.33,7.05a3.8,3.8,0,0,0-3.68,4.06,3.79,3.79,0,0,0,3.68,4.05c2,0,3.59-1.55,3.59-4.05S68.28,7.05,66.33,7.05Z"></path><path d="M80.6,17.68a6.51,6.51,0,0,1-6.67-6.52,6.71,6.71,0,1,1,6.67,6.52Zm0-10.6a3.79,3.79,0,0,0-3.79,4,3.89,3.89,0,0,0,3.84,4.07,3.79,3.79,0,0,0,3.81-4A3.9,3.9,0,0,0,80.6,7.08Z"></path><path d="M96.78,17.4V15.85a5.07,5.07,0,0,1-4.07,1.81c-2.39,0-4.48-1.36-4.48-3.89v0c0-2.72,2.17-4.05,5.1-4.05a10.64,10.64,0,0,1,3.48.52V9.89c0-1.74-1.1-2.69-3.1-2.69a8.68,8.68,0,0,0-3.6.78l-.79-2.31a10.84,10.84,0,0,1,4.79-1c3.72,0,5.54,2,5.54,5.32V17.4Zm.07-5.34a8.09,8.09,0,0,0-2.88-.5c-1.81,0-2.88.74-2.88,2v0c0,1.19,1.07,1.86,2.43,1.86,1.9,0,3.33-1.07,3.33-2.65Z"></path><path d="M104.77,17.4h-2.88V4.81h2.88V7.65a4.45,4.45,0,0,1,4.46-3.07V7.63h-.17c-2.53,0-4.29,1.64-4.29,5Z"></path><path d="M119.67,17.4V15.3a5,5,0,0,1-4.29,2.36c-3,0-5.84-2.36-5.84-6.55s2.83-6.56,5.84-6.56a5.22,5.22,0,0,1,4.29,2.22V0h2.88V17.4Zm-3.6-10.35c-2,0-3.63,1.53-3.63,4.06a3.74,3.74,0,0,0,3.63,4.05,3.79,3.79,0,0,0,3.64-4.05A3.79,3.79,0,0,0,116.07,7.05Z"></path><path d="M126,1a1,1,0,1,1-1-1A1,1,0,0,1,126,1Zm-1.83,0a.82.82,0,0,0,.81.82.83.83,0,1,0-.81-.82Zm.88-.54c.27,0,.39.1.39.33a.27.27,0,0,1-.12.23c.08.05.09.08.1.28s0,.2.07.24h-.3a.42.42,0,0,1,0-.18c0-.22,0-.23-.16-.23h-.18v.41h-.25V.48Zm-.23.46H125c.13,0,.17,0,.17-.12s0-.12-.17-.12h-.19Z"></path>
+                    </svg>
+                    <span class="show-for-sr">Blackboard home</span>
+                </a>
+            </div>
+            <!-- <div class="bb_footer__menu">
+                <nav aria-labelledby="footer-menu">
+                    <h2 id="footer-menu" class="show-for-sr">Footer Menu</h2>
+                    <ul>
+                        <li>
+                            <a href="https://www.blackboard.com/blackboard-accessibility-commitment" data-drupal-link-system-path="node/176">Accessibility</a>
+                        </li>
+                        <li>
+                            <a href="https://community.blackboard.com/community/ideas" target="_blank">Product Suggestions</a>
+                        </li>
+                        <li>
+                            <a href="https://help.blackboard.com/Privacy_Center" target="_blank">Privacy Center</a>
+                        </li>
+                        <li>
+                            <a href="https://help.blackboard.com/Privacy_Statement" target="_blank">Privacy Statement</a>
+                        </li>
+                        <li>
+                            <a href="https://help.blackboard.com/Learn/Administrator/Hosting/Security/Security_Assurance/Vulnerability_Management_Commitment_and_Disclosure_Policy" target="_blank">Security</a>
+                        </li>
+                        <li>
+                            <a href="https://help.blackboard.com/Terms_of_Use" target="_blank">Terms of Use</a>
+                        </li>
+                        <li>
+                            <a href="https://www.blackboard.com/sitemap" data-drupal-link-system-path="node/6276">Sitemap</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> -->
+        </div>
+        <div class="bb_footer__bottom">
+            <div class="bb_footer__social">
+                <a href="https://twitter.com/Blackboard" target="_blank" aria-label="Twitter">
+                    <svg class="svg-inline--fa fa-twitter fa-w-16 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg><!-- <i class="fab fa-twitter fa-2x"></i> -->
+                </a>
+                <a href="https://www.facebook.com/blackboard" target="_blank" aria-label="Facebook">
+                    <svg class="svg-inline--fa fa-facebook-square fa-w-14 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg><!-- <i class="fab fa-facebook-square fa-2x"></i> -->
+                </a>
+                <a href="https://www.youtube.com/user/BlackboardTV" target="_blank" aria-label="YouTube">
+                    <svg class="svg-inline--fa fa-youtube fa-w-18 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg><!-- <i class="fab fa-youtube fa-2x"></i> -->
+                </a>
+                <a href="https://www.linkedin.com/company/blackboard" target="_blank" aria-label="LinkedIn">
+                    <svg class="svg-inline--fa fa-linkedin fa-w-14 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg><!-- <i class="fab fa-linkedin fa-2x"></i> -->
+                </a>
+            </div>
+            <!-- <span class="bb_footer__copyright">
+                Copyright © 2019. Blackboard Inc. All rights reserved.
+                <a href="https://www.blackboard.com/trademarks-patent-numbers">See Blackboard trademarks and patents.</a>
+            </span> -->
+        </div>
+    </div>
+    <div class="container">
+        <p class="copyright">
+            <i>Blackboard endeavors to make Blackboard Career Center accessible to any and all users. If you need assistance filling out this application form, or at any time during the application process, please contact <strong><a class="link trademarks" href="mailto:candidatesupport@blackboard.com">candidatesupport@blackboard.com</a></strong></i>
+        </p>
+        <p class="copyright">
+            <a class="link" target="_blank" href="/img/about-us/2020 EEO Policy Statement.pdf">Blackboard is an Equal Opportunity/Affirmative Action Employer. View our Policy Statement here.</a>
+        </p>
+        <p class="copyright">
+            Copyright &#169; 2021. <a href="https://www.blackboard.com/" target="_blank" aria-label="Blackboard">Blackboard Inc.</a> All Rights Reserved. <strong><a target="_self" href="http://www.blackboard.com/legal/blackboard-patent-numbers.html" class="trademarks">See Blackboard trademarks and patents</a></strong>
+        </p>
+        <p class="ascendify">
+            <span class="asc-logo">
+            <img src="/img/icons/ascendify_blue.png" alt="Powered By Ascendify Logo" height="16" width="16"/></span> Powered by <a class="link" target="_blank" href="http://www.ascendify.com">Ascendify</a>.
+            <a id="asc-terms" class="link" href="/termsprivacy/terms"> User Agreement</a> and
+            <a id="asc-privacy" class="link" href="/termsprivacy/privacy"> Privacy Policy</a>.
+        </p>
+        <!-- <p class="disclosure">Copyright © 1997 - 2015. Blackboard Inc. All rights reserved.&nbsp;Blackboard, the Blackboard Logo, BbWorld, Blackboard Learn, Blackboard Transact, Blackboard Connect, Blackboard Mobile, Blackboard Collaborate, Blackboard Analytics, Blackboard Engage, Blackboard Student Services, the Mosaic logo, Behind the Blackboard, and Connect-ED are trademarks or registered trademarks of Blackboard Inc, or its subsidiaries in the United States and/or other countries. Blackboard products and services may be covered by one or more of the following <a href="http://www.blackboard.com/patents-(1).aspx" title="U.S. Patents">U.S. Patents</a>.</p> -->
+    </div>
+</div>
+<!-- <script type="text/javascript">
+   $(function(){
+      var url = getBaseURL();
+      title = $('[property="og:title"]').attr('content'),
+      desc = $('[property="og:description"]').attr('content'),
+      emailLink = 'mailto:?subject=' + title + '&body=' + desc + url + '. ';
+      $(".email-footer").attr('href',emailLink);
+      setTimeout(function() {
+         //check if icons are already present
+         if(!($(".social-buttons-footer a").length === 5)){
+            $(".social-buttons-footer").footerSharer();
+         } else {
+            return false;
+         }
+      },500);
+   });
+</script> -->
+</footer>
+<style>
+   .social-buttons-footer {
+      display: inline-block;
+   }
+</style>
+
+    <script type="text/javascript">
+        var ascendify_client_id = 'VFxGCFbMzKjoKjW';
+        var ascendify_server_location = 'https://backend.ascendify.com';
+        var ascendify_core2_location = 'https://core2.ascendify.com';
+        var ascendify_rpc_location = 'https://rpc.ascendify.com';
+    </script>
+
+    <script type="text/javascript">
+        $.ajax({
+        	url: '/user/isUserLoggedin',
+			success: function(data) {
+				if (!data.logged_in) {
+					// user has been logged out, clear their ID so we don't keep checking that their session is active
+					CLIENT_USER_ID = '';
+				}
+			}
+        });
+    </script>
+
+    <script type="text/javascript" src="/js/jquery/jquery-ui-1.10.2.custom.js"></script>
+    <script type="text/javascript" src="/js/bootstrap/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/jquery/plugins/touchswipe.js"></script>
+    <script type="text/javascript" src="/js/jquery/plugins/jquery.sharer.js"></script>
+    <script type="text/javascript" src="/js/es5-shim/es5-shim.js"></script>
+
+            <!-- S3 BUCKET URL -->
+        <script type="text/javascript">
+            var ascendify_store = 'https://store.ascendify.com/prod';
+        </script>
+        <script src="https://store.ascendify.com/prod/dist/js/ascendify.client.all.min.js?v1609305670" id="asc-script" type="text/javascript"></script>
+
+        <script type="text/javascript" src="https://store.ascendify.com/prod/bower_components/intl-tel-input/build/js/utils.js?v1609305670"></script>
+    <script type="text/javascript" src="/js/talentcommunity.js?202101045"></script>
+    <script type="text/javascript" src="/js/polyfills/respond.min.js"></script>
+    <script type="text/javascript" src="/js/polyfills/categorizr.js"></script>
+    <script type="text/javascript" src="/js/ios-orientationchange-fix.min.js"></script>
+    <script type="text/javascript" src="/js/jquery/jquery.color.js"></script>
+
+    <script type="text/javascript">
+        if(!new ascendifyWidgetClass().isset(ascendify_community_id))
+        {
+            var ascendify_community_id = 'default';
+        }
+
+        (function(){
+
+                window.ascendify_client_id = 'VFxGCFbMzKjoKjW';
+
+                // Header scroll listeners
+                $(document).ready(function(){
+
+                    var scrolled = false,
+                        $doc = $(document);
+                        $body = $('body')
+
+                    var checkScroll = function() {
+                        if(new ascendifyWidgetClass().isMobile())
+                        {
+                            return false;
+                        }
+                        if (scrolled) {
+                            if ($doc.scrollTop() > 90 && !$body.hasClass('scrolled-down')) {
+                                $body.addClass('scrolled-down');
+                            }
+                            else if ($doc.scrollTop() <= 90) {
+                                $body.removeClass('scrolled-down');
+                            }
+
+                            scrolled = false;
+                        }
+                    }
+
+                    $doc.on('scroll', function(){
+                        scrolled = true;
+                    });
+
+                    setInterval(function(){
+                        checkScroll();
+                    }, 150);
+
+                    setInterval(function(){
+    					// don't check for active session unless we think user is signed in
+    					if (CLIENT_USER_ID)
+						{
+	                        checkIfActive();
+    					}
+    				}, 300000); // Checks if user is active every 5 min
+
+
+                    // init categorizr for device detection
+                    $("body").attr("data-device-type", categorizr());
+
+                    var date_format = false;
+                    
+                    if (!date_format)
+                    {
+                        date_format = 'mm/dd/yy';
+                    }
+
+                    $.datepicker.setDefaults({
+                        dateFormat:date_format,
+                        changeYear: true,
+                        changeMonth: true,
+                        yearRange: "c-70:c+10"
+                    });
+
+                });
+
+        })();
+    </script>
+<div style="display:none" id="asc-page-up-check"></div>
+</body>
+<script type="text/javascript" >
+	_linkedin_partner_id="996468";
+	window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+	window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+</script>
+<script type="text/javascript">
+	(function() {
+		var s = document.getElementsByTagName("script")[0];
+		var b = document.createElement("script");
+		b.type = "text/javascript";
+		b.async = true;
+		b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+		s.parentNode.insertBefore(b, s);
+	})();
+</script>
+<noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=996468&fmt=gif" /></noscript>
+</html>

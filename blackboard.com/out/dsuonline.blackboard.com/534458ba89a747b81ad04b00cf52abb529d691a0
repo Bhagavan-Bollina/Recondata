@@ -1,0 +1,47 @@
+https://dsuonline.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: dsuonline.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776173,id:D98498F04E5936FEE0F20976894B97A5,signature:352a33316f382c01f84988f6eb1c707d2711d904a7d222ce83f12d836da76676,site:4f83ab02-aa85-43e4-a810-25b41deede6f,v:2,xsrf:a8435f6e-cd25-4c38-a56e-cae2f1fb2f28; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=8F570B7B1884C4CF933375DE9A0CC8701FE74A251714668E0DBF297C46A6BF330DE279D2402C93EAD4706DA8969B9CEB22994A13396DFE80682BD6C90EF5E4218844D82FBA;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=8F570B7B1884C4CF933375DE9A0CC8701FE74A251714668E0DBF297C46A6BF330DE279D2402C93EAD4706DA8969B9CEB22994A13396DFE80682BD6C90EF5E4218844D82FBA;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Expires: Sat, 04 Jan 2020 13:02:53 GMT
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:02:53 GMT
+< Vary: accept-encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Appserver: ip-10-146-220-230.ec2.internal
+< P3p: CP="CAO PSA OUR"
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:53 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fdsuonline.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;dsuonline.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,36 @@
+https://grandview-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: grandview-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: ip-10-146-228-235.ec2.internal
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Date: Mon, 04 Jan 2021 13:03:12 GMT
+< Server: openresty/1.9.3.1
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:03:12 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:12 GMT
+< Pragma: private
+< Set-Cookie: JSESSIONID=30B493A53D7E1A6D360F352EB0887692; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776192,id:B17A747CAC0368E5B84CA56669518B95,signature:9ce156b93583963cbf8f614843ca31588c89289bc6f1b12000e266218dc0de72,site:4c5b4d5c-5fd9-446b-8638-14a1c610730d,v:2,xsrf:32298ad4-2d11-4d86-821f-597c57f39e89; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=3551910102C90CF074E45E45A61F09340E549D58873292EE2A4590EF0E8CF97EFB67DDA134128E9C4699328B0EF11F74CBA07338674B88FCEA3702449F40F28E8392D8F7E1;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=3551910102C90CF074E45E45A61F09340E549D58873292EE2A4590EF0E8CF97EFB67DDA134128E9C4699328B0EF11F74CBA07338674B88FCEA3702449F40F28E8392D8F7E1;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+
+<meta http-equiv="REFRESH" content="0;url=https://grandview-test.blackboard.com/auth-saml/saml/login?apId=_102_1&redirectUrl=https%3A%2F%2Fgrandview-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab"></HEAD>
+
+</HTML>

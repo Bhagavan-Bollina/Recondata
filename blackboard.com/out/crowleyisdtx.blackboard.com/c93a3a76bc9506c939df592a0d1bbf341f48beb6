@@ -1,0 +1,27 @@
+https://crowleyisdtx.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: crowleyisdtx.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:02:41 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Appserver: fgprd-328916-sf109794-app003.mhint
+< Accept-Ranges: bytes
+< Etag: W/"89-1532656759000"
+< Set-Cookie: NSC_328916_wjq_192.230.225.111*443=ffffffff090e1a1745525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.1-rel.90+b74efee
+< Last-Modified: Fri, 27 Jul 2018 01:59:19 GMT
+< Expires: Sat, 04 Jan 2020 13:02:41 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Content-Length: 89
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

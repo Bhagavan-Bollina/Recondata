@@ -1,0 +1,27 @@
+https://pitt-dev.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pitt-dev.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgtd-100307-sf149359-app001.mhint
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Thu, 28 Feb 2019 15:37:29 GMT
+< Expires: Sat, 04 Jan 2020 13:04:24 GMT
+< Etag: W/"89-1551368249000"
+< Set-Cookie: NSC_100307_wjq_192.230.225.21*443=ffffffff090d14d445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.4-rel.19+9180e36
+< Pragma: private
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:04:23 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

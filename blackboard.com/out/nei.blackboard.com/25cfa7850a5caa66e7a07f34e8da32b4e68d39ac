@@ -1,0 +1,47 @@
+https://nei.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: nei.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:03:55 GMT
+< Set-Cookie: BbRouter=expires:1609776235,id:5202660A95D93450255735CF117F873F,signature:5045e7f8a5e3c7065cff9c43c112d17cb7f48b86924a46acf977507121e2b687,site:57a006e3-e105-439e-a717-c6469c9bdee8,v:2,xsrf:4e1ea3b7-fe9b-4c3d-ba0d-1be6224c9208; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=A96D658304467B513295EF41B848658F3D67C4A21013D7F4BEA3FBFC24956A6F03DC9BCE8EE0F7DC2735697577EF847CAB5E183240D92579B7089B4E43F516EEC56A8B7539;PATH=/
+< Set-Cookie: AWSELBCORS=A96D658304467B513295EF41B848658F3D67C4A21013D7F4BEA3FBFC24956A6F03DC9BCE8EE0F7DC2735697577EF847CAB5E183240D92579B7089B4E43F516EEC56A8B7539;PATH=/;SECURE;SAMESITE=None
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-145-51-130.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Expires: Sat, 04 Jan 2020 13:03:55 GMT
+< Vary: accept-encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:55 GMT
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fnei.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;nei.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

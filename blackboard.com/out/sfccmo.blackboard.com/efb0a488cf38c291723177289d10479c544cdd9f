@@ -1,0 +1,27 @@
+https://sfccmo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sfccmo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< Etag: W/"89-1566129445000"
+< Set-Cookie: NSC_155684_wjq_69.196.226.59*443=ffffffff090e121e45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgprd-155684-243269-app003.mhint
+< Pragma: private
+< Last-Modified: Sun, 18 Aug 2019 11:57:25 GMT
+< Expires: Sat, 04 Jan 2020 13:04:51 GMT
+< Date: Mon, 04 Jan 2021 13:04:50 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

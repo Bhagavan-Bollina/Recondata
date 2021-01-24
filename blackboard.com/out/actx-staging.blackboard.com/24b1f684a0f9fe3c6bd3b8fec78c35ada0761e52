@@ -1,0 +1,27 @@
+https://actx-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: actx-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:02:07 GMT
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:02:07 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< X-Blackboard-Appserver: fgstg-303061-sf088808-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Pragma: private
+< Last-Modified: Thu, 01 Aug 2019 03:09:15 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Etag: W/"89-1564628955000"
+< Set-Cookie: NSC_303061_wjq_192.230.224.126*443=ffffffff090d133d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

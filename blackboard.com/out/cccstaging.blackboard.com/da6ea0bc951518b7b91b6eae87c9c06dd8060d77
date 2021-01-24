@@ -1,0 +1,27 @@
+https://cccstaging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cccstaging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Mon, 18 Jun 2018 08:02:54 GMT
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:02:29 GMT
+< X-Blackboard-Appserver: fgstg-100195-149106-app001.mhint
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:02:30 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1529308974000"
+< Content-Type: text/html
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Pragma: private
+< Content-Length: 89
+< Set-Cookie: NSC_100195_wjq_69.196.227.74*443=ffffffff090e151445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

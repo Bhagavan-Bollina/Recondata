@@ -1,0 +1,47 @@
+https://ed-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ed-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:54 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:54 GMT
+< Vary: accept-encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< X-Blackboard-Appserver: ip-10-148-203-127.eu-central-1.compute.internal
+< Expires: Sat, 04 Jan 2020 13:02:54 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776174,id:AE0980E14E50787F4D8A623342C08705,signature:39b16978c9b94d817571bb903d042b45ede2fc3ec17b67370ba5e155fc021ecc,site:2acdd579-51a1-4628-bf46-df497dabceec,v:2,xsrf:d084d2bd-1d4e-44e3-b7d3-08344b231db8; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=7FFF3D4914E8B36196948E52B4B2F533DFC5FE6D68B44024DFC0D6FB1129650D028E2517E447F5CA5CC2F7488FD35B47992E309935A4CAB25EEF664AE328AFA9D337FD75C9;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=7FFF3D4914E8B36196948E52B4B2F533DFC5FE6D68B44024DFC0D6FB1129650D028E2517E447F5CA5CC2F7488FD35B47992E309935A4CAB25EEF664AE328AFA9D337FD75C9;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fed\x2Dstaging.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ed-staging.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

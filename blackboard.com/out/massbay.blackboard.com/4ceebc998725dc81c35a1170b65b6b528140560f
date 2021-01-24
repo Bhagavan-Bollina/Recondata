@@ -1,0 +1,47 @@
+https://massbay.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: massbay.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:03:43 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+< Date: Mon, 04 Jan 2021 13:03:43 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776223,id:77153974C5950ECDA3EB028D75C8776E,signature:7787ecdb3c4ee556b96e989a5c0719975b9ea76e0073d00d944e62999c07878b,site:2391b71e-8151-4979-bec8-6e62df18fae7,v:2,xsrf:f9ec7fa9-2650-47a5-acf9-effa498e0c99; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=29B325130A22CE6538E56C9A42D21157CE121BDB8B61D6B27C42C948F87CC1E5B859EF4AE0651F9157C6E34FE6E58E2CE59952424102CE2801AAB8FC7C18FCA023F4CDCF42;PATH=/
+< Set-Cookie: AWSELBCORS=29B325130A22CE6538E56C9A42D21157CE121BDB8B61D6B27C42C948F87CC1E5B859EF4AE0651F9157C6E34FE6E58E2CE59952424102CE2801AAB8FC7C18FCA023F4CDCF42;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:43 GMT
+< X-Blackboard-Appserver: ip-10-145-89-32.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fmassbay.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;massbay.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

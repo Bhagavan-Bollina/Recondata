@@ -1,0 +1,19 @@
+https://mobile.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mobile.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private,no-store
+< Pragma: no-cache
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Date: Mon, 04 Jan 2021 13:03:50 GMT
+< Expires: -1
+< Vary: Accept-Encoding
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: ELOQUA=GUID=E189FABB2F1141A984C14B2B330CA564&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:03:50 GMT; path=/;SameSite=None; secure
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+
+No page available

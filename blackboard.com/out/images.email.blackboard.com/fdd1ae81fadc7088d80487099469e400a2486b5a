@@ -1,0 +1,23 @@
+https://images.email.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: images.email.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Location: https://login.eloqua.com
+< X-Content-Type-Options: nosniff
+< Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+< Content-Length: 141
+< Date: Mon, 04 Jan 2021 13:03:26 GMT
+< Content-Type: text/html; charset=utf-8
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< X-Xss-Protection: 1; mode=block
+< Expires: Mon, 04 Jan 2021 13:03:26 GMT
+< Cache-Control: max-age=0, no-cache, no-store
+< Pragma: no-cache
+< Set-Cookie: culture=en-US; domain=p01.sc.origins.en25.com; path=/; SameSite=None; secure; HttpOnly
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://login.eloqua.com">here</a>.</h2>
+</body></html>

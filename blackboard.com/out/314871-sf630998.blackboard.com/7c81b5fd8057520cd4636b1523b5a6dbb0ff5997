@@ -1,0 +1,41 @@
+https://314871-sf630998.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: 314871-sf630998.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=UTF-8
+< Expires: Tue, 01 Jan 1980 01:00:00 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Last-Modified: Mon, 13 Apr 2020 15:53:36 GMT
+< Accept-Ranges: bytes
+< Content-Length: 1009
+< Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Date: Mon, 04 Jan 2021 13:02:05 GMT
+
+<html lang="en">
+    <link href="/images/learn_favicon.png" rel="icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, maximum-scale=2.0">
+    <title>Service Interruption</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+  </head>
+
+  <body>
+
+  <div class="message-wrapper">
+    <div class="logo">
+      <img src="/images/blackboard_logo_white.svg" alt="Blackboard"/>
+    </div>
+    <h1>Managed Hosting</h1>
+    <img src="/images/not-available.svg" alt="Blackboard" class="service-image" />
+    <p class="main-message">Service Interruption!</p>
+    <p>
+      We appreciate your patience and apologise for the inconvenience. For more information, please contact your System Administrator.
+    </p>
+  </div>
+  </body>
+
+</html>

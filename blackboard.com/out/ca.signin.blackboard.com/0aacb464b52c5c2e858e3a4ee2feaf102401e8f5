@@ -1,0 +1,19 @@
+https://ca.signin.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ca.signin.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:02:27 GMT
+< Content-Length: 52
+< Vary: Accept
+< X-Robots-Tag: noindex, nofollow, nosnippet, noarchive
+< Strict-Transport-Security: max-age=31536000
+< Server: nginx
+< Content-Type: text/plain; charset=utf-8
+< X-Auth0-Requestid: b810505ecb970fd6b35b
+< Location: https://signin.blackboard.com/
+< Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform
+
+Found. Redirecting to https://signin.blackboard.com/

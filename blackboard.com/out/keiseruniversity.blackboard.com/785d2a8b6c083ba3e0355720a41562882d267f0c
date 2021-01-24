@@ -1,0 +1,47 @@
+https://keiseruniversity.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: keiseruniversity.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: BbRouter=expires:1609776212,id:1A170D3306CB9A9FF31B05634CB7FB5D,signature:135b94f321f97827489e6338b9964404d456d31f9a023630e097179bb2157024,site:40defd69-d352-4aa7-b222-41d807c1cffa,v:2,xsrf:28329d30-2e45-4af6-9de7-d8cf56a87e5c; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=2BF3912D02FA997312C46C866FBCFEE46CC6AD2880AFC2B71CC9D535D9C8B63F72C75D4B3A68FE0B62FE7699BFEB64420E6626BB179004EB939AF3E5745BB6EF5C4EAF546E;PATH=/
+< Set-Cookie: AWSELBCORS=2BF3912D02FA997312C46C866FBCFEE46CC6AD2880AFC2B71CC9D535D9C8B63F72C75D4B3A68FE0B62FE7699BFEB64420E6626BB179004EB939AF3E5745BB6EF5C4EAF546E;PATH=/;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:32 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:32 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:03:32 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-146-229-170.ec2.internal
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fkeiseruniversity.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;keiseruniversity.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

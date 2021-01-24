@@ -1,0 +1,23 @@
+https://np-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: np-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< X-Amz-Cf-Id: zxUgTqx4UD1H51lWXXw9p6ExKnvDe80_9ZPqnFxLkzXcfuymJAzmFg==
+< Content-Type: text/html
+< Content-Length: 166
+< X-Cache: Error from cloudfront
+< Via: 1.1 5c0ff4e507a35bec81de5cb65f5c1ed9.cloudfront.net (CloudFront)
+< Date: Mon, 04 Jan 2021 13:04:00 GMT
+< Server: nginx
+< X-Amz-Cf-Pop: HYD50-C2
+
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

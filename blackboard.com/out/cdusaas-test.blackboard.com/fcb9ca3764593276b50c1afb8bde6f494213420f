@@ -1,0 +1,41 @@
+https://cdusaas-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cdusaas-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en-AU
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:02:34 GMT
+< Set-Cookie: JSESSIONID=AA01BAC3D81971F839E1FBF59325B63A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776154,id:D42A1FFA84C5E5AB851BCFDF4412D26F,signature:4657fe0907123c4946112a2b61372e5c41c00b755687d0bffe10fa57e5f41e84,site:f4153441-5467-469e-b5d1-d28f11a70edf,v:2,xsrf:f0ca191d-fdd5-4d3a-8fdd-42f7f07dd7bd; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=DF379BC316055BF96D5A0043E4B54C723F6934ABDF1EEBE494E61022D722A75423520686B2E142EB0A79022F8E399256DA8E670C10AB9EC25A58BFC8106AA9414D22962AE5;PATH=/
+< Set-Cookie: AWSELBCORS=DF379BC316055BF96D5A0043E4B54C723F6934ABDF1EEBE494E61022D722A75423520686B2E142EB0A79022F8E399256DA8E670C10AB9EC25A58BFC8106AA9414D22962AE5;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-144-124-103.ap-southeast-2.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:02:34 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:34 GMT
+
+<!DOCTYPE HTML ><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Learn - Redirect</title>
+<meta http-equiv="REFRESH" content="0;url=https://cdusaas-test.blackboard.com/auth-saml/saml/login?apId=_962_1&redirectUrl=https%3A%2F%2Fcdusaas-test.blackboard.com%2Fultra"></HEAD>
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; ">
+Redirecting... <a style="color:grey" href="https://cdusaas-test.blackboard.com/auth-saml/saml/login?apId=_962_1&redirectUrl=https%3A%2F%2Fcdusaas-test.blackboard.com%2Fultra">Go to login page</a> if you are not automatically redirected.
+</BODY>
+</HTML>
+
+

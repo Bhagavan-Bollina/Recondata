@@ -1,0 +1,25 @@
+https://manage-bbpr.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: manage-bbpr.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Set-Cookie: JSESSIONIDADSSP=223C2DCB192B09BFC61A7F2B8DB3179D; Path=/; Secure; HttpOnly
+< Content-Type: text/html;charset=UTF-8
+< Ntcoent-Length: 242
+< Date: Mon, 04 Jan 2021 13:03:43 GMT
+
+<!-- $Id$ -->
+<html>
+<head>
+	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+	<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+	<META HTTP-EQUIV="Expires" CONTENT="0">
+	<script>
+			location.href = 'showLogin.cc';
+	</script>
+</head>
+</html>

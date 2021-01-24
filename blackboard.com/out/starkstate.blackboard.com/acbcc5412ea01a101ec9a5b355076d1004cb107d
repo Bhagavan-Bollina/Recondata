@@ -1,0 +1,29 @@
+https://starkstate.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: starkstate.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:04:56 GMT
+< Set-Cookie: BbRouter=expires:1609776296,id:D63FCBC2CA2FA3DCF75C505303FD12C5,signature:bc1029391224b160cbe8386579a88f761fbcdfe3229785ec5f407bee2d6dcdf4,site:15be1ac7-0b1b-4dad-a204-c7fbecc36e60,v:2,xsrf:8e450bfd-f754-4437-9028-2ea7df8b3cd5; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=0583F30D0698DD0165AAA2AECC531AF4FCA95A5FEDB90E1818B81B4A541D5E3BDD1E25004F59CD9FC5A8970343BE8D6A72288046E313E6A083DBEF37A16DD103EF2502129B;PATH=/
+< Set-Cookie: AWSELBCORS=0583F30D0698DD0165AAA2AECC531AF4FCA95A5FEDB90E1818B81B4A541D5E3BDD1E25004F59CD9FC5A8970343BE8D6A72288046E313E6A083DBEF37A16DD103EF2502129B;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-145-94-204.ec2.internal
+< Pragma: private
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:56 GMT
+< Location: /auth-saml/saml/login?apId=_1842_1&redirectUrl=https%3A%2F%2Fstarkstate.blackboard.com%2Fultra
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Server: openresty/1.9.3.1
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:04:56 GMT
+< P3p: CP="CAO PSA OUR"
+

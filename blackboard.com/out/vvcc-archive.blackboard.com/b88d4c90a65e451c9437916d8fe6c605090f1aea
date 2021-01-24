@@ -1,0 +1,27 @@
+https://vvcc-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: vvcc-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Sun, 08 Sep 2019 10:48:30 GMT
+< X-Blackboard-Appserver: fgarch-110991-sf729520-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Expires: Sat, 04 Jan 2020 13:05:39 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1567939710000"
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:38 GMT
+< Set-Cookie: NSC_110991_wjq_69.196.229.85*443=ffffffff090d1e2645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,26 @@
+https://um.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: um.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Last-Modified: Thu, 04 Jan 2001 13:05:20 GMT
+< Expires: Sat, 04 Jan 2020 13:05:20 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:05:20 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Length: 0
+< Set-Cookie: s_session_id=5FE58F18C3519B5107BC832D63D3941B; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_188020_wjq_46.183.240.32*443=ffffffff090b1f1d45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: fgarch-188020-sf741958-app001.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.5-rel.26+874a2ce
+< Location: /auth-saml/saml/login?apId=_111_1&redirectUrl=https%3A%2F%2Fum.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+

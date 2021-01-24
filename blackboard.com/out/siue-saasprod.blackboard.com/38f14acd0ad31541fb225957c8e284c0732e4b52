@@ -1,0 +1,47 @@
+https://siue-saasprod.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: siue-saasprod.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Set-Cookie: BbRouter=expires:1609776292,id:C4C8ED528504DAEB01F66694A4B87D2A,signature:725646a6cb10165f6fcca63aa4e2a5818929177bf67f971ca5dc1dcc42678c01,site:39e298f8-c7f0-427f-b7a4-f970a9841c3f,v:2,xsrf:8450dd64-9a16-4992-a82a-5ee7000bcee2; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=73C531191E36B46F8F651949B9860D22361F63BD029830BCAB4C24BD986D916A135928D51D643796723DE4F72F256080CCA9AA6B3D01889E420359DDBA4F67CE669768857C;PATH=/
+< Set-Cookie: AWSELBCORS=73C531191E36B46F8F651949B9860D22361F63BD029830BCAB4C24BD986D916A135928D51D643796723DE4F72F256080CCA9AA6B3D01889E420359DDBA4F67CE669768857C;PATH=/;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< X-Blackboard-Appserver: ip-10-145-84-89.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Expires: Sat, 04 Jan 2020 13:04:52 GMT
+< Pragma: private
+< Vary: accept-encoding
+< Date: Mon, 04 Jan 2021 13:04:52 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:52 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fsiue\x2Dsaasprod.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;siue-saasprod.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

@@ -1,0 +1,17 @@
+https://uasqa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uasqa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 302
+< Content-Type: text/html;charset=UTF-8
+< Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+< X-Frame-Options: SAMEORIGIN
+< Location: /router
+< Content-Length: 0
+< Set-Cookie: JSESSIONID=F54C8E78DC392CF0CA53C648FFBB963D; Path=/; Secure; HttpOnly;HttpOnly;Secure
+< X-Xss-Protection: 1; mode=block
+< Date: Mon, 04 Jan 2021 13:05:13 GMT
+< Server: Apache
+

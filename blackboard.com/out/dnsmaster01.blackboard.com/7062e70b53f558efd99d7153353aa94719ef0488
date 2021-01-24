@@ -1,0 +1,21 @@
+https://dnsmaster01.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: dnsmaster01.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Pad: avoid browser bug
+< Date: Mon, 04 Jan 2021 13:02:51 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Location: https://dnsmaster01.blackboard.com/ui
+< Content-Length: 221
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The document has moved <a href="https://dnsmaster01.blackboard.com/ui">here</a>.</p>
+</body></html>

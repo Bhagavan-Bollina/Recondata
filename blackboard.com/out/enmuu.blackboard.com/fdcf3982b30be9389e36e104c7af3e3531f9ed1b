@@ -1,0 +1,28 @@
+https://enmuu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: enmuu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:58 GMT
+< X-Blackboard-Appserver: fgprd-311182-218990-app001.mhint
+< Pragma: private
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Thu, 29 Mar 2018 23:05:27 GMT
+< Expires: Sat, 04 Jan 2020 13:02:58 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1522364727000"
+< Content-Type: text/html
+< Set-Cookie: JSESSIONID=2B1615CD1969C09B847F13C79AC5FF87;path=/;Secure
+< Set-Cookie: NSC_311182_wjq_69.196.230.90*443=ffffffff090d186845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

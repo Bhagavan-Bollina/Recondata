@@ -1,0 +1,27 @@
+https://rowan.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: rowan.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:04:41 GMT
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:04:41 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: https://rowan.blackboard.com/webapps/bb-auth-provider-cas-BBLEARN/execute/casLogin?cmd=login&authProviderId=_122_1&redirectUrl=https%3A%2F%2Frowan.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.4-rel.9+8bf5305
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:04:41 GMT
+< X-Blackboard-Appserver: fgprd-261553-183397-app002.mhint
+< Set-Cookie: s_session_id=1B105D0D963D81AA57DD0D7FE2E15658; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=5B7BF8D7F1B8A7224CE783431F1EBA25; Path=/; Secure
+< Set-Cookie: NSC_261553_wjq_69.196.224.157*443=ffffffff090e1c1545525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+

@@ -1,0 +1,46 @@
+https://learnonline.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: learnonline.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.9-rel.12+78adef1
+< Set-Cookie: session_id=381AED3A92E690153248A3ADBA1DDD9D; Path=/; HttpOnly
+< Set-Cookie: s_session_id=52D762E999A874F513862749F5B29297; Path=/; Secure; HttpOnly
+< Set-Cookie: web_client_cache_guid=619e146a-e90f-4524-9bd3-d6951e77d3c1; Path=/; Secure
+< Set-Cookie: NSC_555555_wjq_69.196.224.234*443=ffffffff090e117545525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:03:37 GMT
+< Expires: Sat, 04 Jan 2020 13:03:37 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: Accept-Encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:03:37 GMT
+< X-Blackboard-Appserver: fgprd-555555-41817-app001.mhint
+< Content-Type: text/html;charset=ISO-8859-1
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://learnonline.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://learnonline.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

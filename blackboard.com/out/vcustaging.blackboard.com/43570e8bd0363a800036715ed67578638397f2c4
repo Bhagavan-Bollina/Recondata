@@ -1,0 +1,47 @@
+https://vcustaging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: vcustaging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:05:36 GMT
+< Vary: accept-encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:36 GMT
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776336,id:3E28172C67D3CC422FDE49193DCD44D0,signature:6f05117475ff165e18027be5688ffaf159d31b9c294f2b7051788345f384174f,site:ba4700a4-359a-434a-810f-95de8588f9e8,v:2,xsrf:66783761-33fb-4290-8e20-c00063aebab3; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=290151A91A319C752C02AABA1543E6AD8D12E1BB2FD11EBB104BB6869FAECE898720D461975DD55F625E246ED70F5E52D1DBB7BBFD91BC54BA4AB930543E315ADB0418FDC5;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=290151A91A319C752C02AABA1543E6AD8D12E1BB2FD11EBB104BB6869FAECE898720D461975DD55F625E246ED70F5E52D1DBB7BBFD91BC54BA4AB930543E315ADB0418FDC5;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-221-216.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:05:36 GMT
+< P3p: CP="CAO PSA OUR"
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fvcustaging.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;vcustaging.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

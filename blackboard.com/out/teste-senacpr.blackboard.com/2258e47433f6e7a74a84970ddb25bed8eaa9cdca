@@ -1,0 +1,27 @@
+https://teste-senacpr.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: teste-senacpr.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgtd-515118-sf030764-app001.mhint
+< Expires: Sat, 04 Jan 2020 13:05:05 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_515118_wjq_69.196.229.69*443=ffffffff090d1dbf45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:05 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.3-rel.29+ca7bfde
+< Last-Modified: Mon, 20 Aug 2018 07:10:34 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Etag: W/"89-1534749034000"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Type: text/html
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,23 @@
+https://polymall-eval.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: polymall-eval.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 502 Bad Gateway
+< X-Amz-Cf-Pop: MAA51-C2
+< Content-Type: text/html
+< Content-Length: 166
+< X-Cache: Error from cloudfront
+< Via: 1.1 3fb6d3c3e3c039ae89cb973e5e7d6bd3.cloudfront.net (CloudFront)
+< Date: Mon, 04 Jan 2021 13:04:23 GMT
+< Server: nginx
+< X-Amz-Cf-Id: c18higcfFtEUQDAiaAcGi4JGQNWA4N1TUKERWOkr_0LLyhB5jA7hpQ==
+
+<html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

@@ -1,0 +1,15 @@
+https://vpn.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: vpn.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Temporary moved
+< Pragma: no-cache
+< Connection: Close
+< Date: Mon, 04 Jan 2021 13:05:38 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: https://vpngw2.blackboard.com/
+< Content-Length: 0
+< Cache-Control: no-cache
+

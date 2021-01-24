@@ -1,0 +1,31 @@
+https://caanz.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: caanz.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Expires: Sat, 04 Jan 2020 13:02:27 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=UTF-8
+< Set-Cookie: JSESSIONID=AEFC82C8395E16BDA4D0B460D092664C; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776147,id:E4F5961609C64D06DE66C5E3E7C6A803,signature:dceafe765ff49a180fa6138abb3da6a369cf425d99fad9bb9cbe2465b611c5b2,site:d4abd408-d396-4800-bb3d-2720ca123a6a,v:2,xsrf:921439c8-0e47-4430-9f5a-8ae899352ec8; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=9141317F1EB5773F218ED630D0DD0497C8F55A51BA8C0616868C59D08412AACD808856CD0BA8E19229ACF8B53D1682AAD18504FD917FB6B8D1065FBF1CC5C47D7601E92C72;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=9141317F1EB5773F218ED630D0DD0497C8F55A51BA8C0616868C59D08412AACD808856CD0BA8E19229ACF8B53D1682AAD18504FD917FB6B8D1065FBF1CC5C47D7601E92C72;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:02:27 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:27 GMT
+< Location: https://mylearning.caanz.com/auth-saml/saml/login?apId=_5154_1&redirectUrl=https%3A%2F%2Fmylearning.caanz.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Language: en-GB
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-144-121-202.ap-southeast-2.compute.internal
+< X-Frame-Options: SAMEORIGIN
+

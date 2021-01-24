@@ -1,0 +1,27 @@
+https://jkelleydemo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jkelleydemo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:29 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_222222_wjq_69.196.227.130*443=ffffffff090e15f945525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgstg-222222-sf888888-app002.mhint
+< Last-Modified: Thu, 12 Sep 2019 06:20:47 GMT
+< Expires: Sat, 04 Jan 2020 13:03:29 GMT
+< Etag: W/"89-1568269247000"
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

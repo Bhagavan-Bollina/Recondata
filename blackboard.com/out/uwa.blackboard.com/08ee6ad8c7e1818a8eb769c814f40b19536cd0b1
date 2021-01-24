@@ -1,0 +1,30 @@
+https://uwa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uwa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=DDCAC538CD4A7789BF84B0F74D1439CC; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776336,id:FAB632A112AB359CD4F78CAE7B868B8B,signature:54030074907d783be86e4951ae2bca4150ae65962078c424a0739e20714852bd,site:7490e399-1605-4d4c-8e0b-39241e1c0a00,v:2,xsrf:1b4e7c3d-3689-4c5f-b204-714ea50477e6; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=55710D8B046B474477712F70FD781914F861B43C8A0A56CA31654252912FDE5B60A292566BBE097A5BF1DB9FE32B040044028F6529FC574A298BDED6F66FCBD7F03CB78598;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=55710D8B046B474477712F70FD781914F861B43C8A0A56CA31654252912FDE5B60A292566BBE097A5BF1DB9FE32B040044028F6529FC574A298BDED6F66FCBD7F03CB78598;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-144-125-220.ap-southeast-2.compute.internal
+< Date: Mon, 04 Jan 2021 13:05:36 GMT
+< Server: openresty/1.9.3.1
+< Expires: Sat, 04 Jan 2020 13:05:36 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:36 GMT
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: https://lms.uwa.edu.au/auth-saml/saml/login?apId=_573_1
+< P3p: CP="CAO PSA OUR"
+

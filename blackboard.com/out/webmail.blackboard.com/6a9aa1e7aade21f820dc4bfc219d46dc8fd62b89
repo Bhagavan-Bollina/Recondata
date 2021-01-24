@@ -1,0 +1,15 @@
+https://webmail.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: webmail.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-cache
+< Pragma: no-cache
+< Location: https://webmail.blackboard.com/owa/
+< Server: Microsoft-IIS/7.5
+< X-Powered-By: ASP.NET
+< Date: Mon, 04 Jan 2021 13:05:40 GMT
+< Content-Length: 0
+

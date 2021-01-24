@@ -1,0 +1,29 @@
+https://militarycfp.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: militarycfp.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:03:49 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-176-204.us-gov-west-1.compute.internal
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:03:49 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5d9b3fd991058/execute/casLogin?cmd=login&authProviderId=_124_1&redirectUrl=https%3A%2F%2Fmilitarycfp.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776229,id:154D171DE4A59F9C60F0B27B320EB834,signature:69931aad46947086913a8a1f4fb2ae954cca027085fbef768dac77c2286ec6ac,site:d14611b6-d659-4b89-968d-7f299a055745,v:2,xsrf:cd6004d5-c14d-4c1e-bd34-63fa306daa47; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=7F31956718C3E61E326060B9559F3FB45C74983736CABF7A74F55364F19C6AFD009920DA45FAA6B6EE252ED15A1D77CD0670D2D0156830D7088B9892393762AE5BA82D71C5;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=7F31956718C3E61E326060B9559F3FB45C74983736CABF7A74F55364F19C6AFD009920DA45FAA6B6EE252ED15A1D77CD0670D2D0156830D7088B9892393762AE5BA82D71C5;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:49 GMT
+< Content-Length: 0
+

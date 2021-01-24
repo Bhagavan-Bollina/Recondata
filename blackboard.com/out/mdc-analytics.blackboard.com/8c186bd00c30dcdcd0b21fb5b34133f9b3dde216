@@ -1,0 +1,14 @@
+https://mdc-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mdc-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:03:44 GMT
+< Location: https://mdc-analytics.blackboard.com/login/login.html
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ARR/3.0
+< X-Powered-By: ASP.NET
+< Content-Length: 0
+

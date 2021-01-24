@@ -1,0 +1,27 @@
+https://fsa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fsa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Etag: W/"89-1544926353000"
+< Date: Mon, 04 Jan 2021 13:03:07 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-527669-sf558850-app001.mhint
+< Last-Modified: Sun, 16 Dec 2018 02:12:33 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 89
+< Set-Cookie: NSC_527669_wjq_69.196.229.76*443=ffffffff090d162645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.0-rel.21+b070ffd
+< Expires: Sat, 04 Jan 2020 13:03:07 GMT
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

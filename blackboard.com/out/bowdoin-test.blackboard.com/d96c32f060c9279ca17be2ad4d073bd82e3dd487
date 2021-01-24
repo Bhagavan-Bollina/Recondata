@@ -1,0 +1,39 @@
+https://bowdoin-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bowdoin-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:02:23 GMT
+< Set-Cookie: JSESSIONID=D54FB40F614B9FA9ED87C386E36ECB37; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776143,id:E970209EA1F5334210806B94E7B6160F,signature:76aa748ef57ad426361456cb1cbbc5d93559c8b56bbf43e7e656bc41359b0f03,site:3e6f86c1-5d92-4562-bdb0-0e426d3211c1,v:2,xsrf:e31b6b03-aa04-494e-83ce-23190d873862; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=3B1B85070C7B321E08FBFF8D102BCCAACBB1996F05CD649AB2F2F864DC88B5912639A7E77A0BEB1DB94BDA093028AFCE40391C57968FDF84DD6D2B7BB4CD347D0EC8282CA7;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=3B1B85070C7B321E08FBFF8D102BCCAACBB1996F05CD649AB2F2F864DC88B5912639A7E77A0BEB1DB94BDA093028AFCE40391C57968FDF84DD6D2B7BB4CD347D0EC8282CA7;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:02:23 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-221-153.ec2.internal
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:02:23 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Vary: accept-encoding
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Learn - Redirect</title>
+<meta http-equiv="REFRESH" content="0;url=https://bowdoin-test.blackboard.com/auth-saml/saml/login?apId=_1142_1&redirectUrl=https%3A%2F%2Fbowdoin-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab"></HEAD>
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; "><a style="color:grey" href="https://bowdoin-test.blackboard.com/auth-saml/saml/login?apId=_1142_1&redirectUrl=https%3A%2F%2Fbowdoin-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab"></a>
+</BODY>
+
+
+</HTML>

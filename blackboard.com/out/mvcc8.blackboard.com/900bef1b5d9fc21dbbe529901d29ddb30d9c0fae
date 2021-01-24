@@ -1,0 +1,28 @@
+https://mvcc8.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mvcc8.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: JSESSIONID=153F78CDF784173FA9C27010EB243490;path=/;Secure
+< Set-Cookie: NSC_644319_wjq_69.196.226.233*443=ffffffff090e108045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Expires: Sat, 04 Jan 2020 13:03:52 GMT
+< Accept-Ranges: bytes
+< X-Blackboard-Appserver: fgstg-175302-206043-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3100.0.3-rel.51+917ccd3
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:03:52 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Last-Modified: Mon, 18 Jun 2018 08:02:38 GMT
+< Etag: W/"89-1529308958000"
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

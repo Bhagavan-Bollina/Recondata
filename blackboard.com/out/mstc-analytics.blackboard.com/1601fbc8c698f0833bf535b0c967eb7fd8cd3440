@@ -1,0 +1,13 @@
+https://mstc-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mstc-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:03:46 GMT
+< X-Content-Type-Options: nosniff
+< Location: https://MSTC-analytics.blackboard.com/login/login.html
+< Content-Length: 0
+< Set-Cookie: NSC_Bobmzujdt.NTUD2018_TTM_wjq1*443=ffffffff09061e7f45525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 16:22:34 GMT;path=/;secure;SameSite=None
+

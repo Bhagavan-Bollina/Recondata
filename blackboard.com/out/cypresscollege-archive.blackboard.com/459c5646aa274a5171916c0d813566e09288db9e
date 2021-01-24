@@ -1,0 +1,27 @@
+https://cypresscollege-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cypresscollege-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Content-Length: 89
+< Set-Cookie: NSC_305930_wjq_192.230.226.153*443=ffffffff090e1e0c45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:47 GMT
+< X-Blackboard-Appserver: fgarch-305930-sf673542-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Last-Modified: Fri, 06 Jul 2018 06:52:14 GMT
+< Accept-Ranges: bytes
+< Etag: W/"89-1530859934000"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:02:47 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

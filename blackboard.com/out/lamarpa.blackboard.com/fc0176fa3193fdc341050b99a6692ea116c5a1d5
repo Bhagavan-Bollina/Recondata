@@ -1,0 +1,29 @@
+https://lamarpa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: lamarpa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:03:35 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:35 GMT
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:03:35 GMT
+< Location: /auth-saml/saml/login?apId=_408_1&redirectUrl=https%3A%2F%2Flamarpa.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776215,id:8C98F6782987EE23573ADA6CB1F4601D,signature:9c15b0bbba88a2d95fa0599ebb3f5dc5553181d8c5ce8a19d994a840b0a0297f,site:7e427281-d569-4f8a-9b34-97c3f93e3803,v:2,xsrf:cd2f6446-de9c-42b1-85e2-8a686a83cd3e; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=014B6B49107CCD5F14FFE10CA89100369709FA41AB6526BC7855757CC7BEEC43EE0A184CA7D0A1D4B7422872CE93B57E7BF6A528FEF2EA9660DFB2CD44FAA8C53FF1948151;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=014B6B49107CCD5F14FFE10CA89100369709FA41AB6526BC7855757CC7BEEC43EE0A184CA7D0A1D4B7422872CE93B57E7BF6A528FEF2EA9660DFB2CD44FAA8C53FF1948151;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-210-24.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Content-Length: 0
+

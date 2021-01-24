@@ -1,0 +1,13 @@
+https://umayor-pyramid2018-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: umayor-pyramid2018-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: NSC_JOu4f3fseiwoso5btbpgkfcsd40sjc3=ffffffff09061e8045525d5f4f58455e445a4a4229c5;expires=Mon, 04-Jan-2021 16:24:06 GMT;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:22 GMT
+< X-Content-Type-Options: nosniff
+< Location: https://UMAYOR-pyramid2018-analytics.blackboard.com/login/login.html
+< Content-Length: 0
+

@@ -1,0 +1,20 @@
+https://www.support.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: www.support.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Mon, 04 Jan 2021 13:05:46 GMT
+< Server: Microsoft-IIS/6.0
+< Location: https://blackboard.secure.force.com/login
+< Set-Cookie: NSC_10.7.222.17.CFIJOE_wjq8*443=ffffffff096f1c6145525d5f4f58455e445a4a423660;path=/;secure;httponly
+< Content-Length: 158
+< X-Powered-By: ASP.NET
+< X-Aspnet-Version: 2.0.50727
+< Cache-Control: private
+< Content-Type: text/html; charset=utf-8
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://blackboard.secure.force.com/login">here</a>.</h2>
+</body></html>

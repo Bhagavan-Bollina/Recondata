@@ -1,0 +1,27 @@
+https://pearsonintegrationqa3.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pearsonintegrationqa3.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Last-Modified: Sun, 14 Jul 2019 05:54:42 GMT
+< Etag: W/"89-1563083682000"
+< Content-Length: 89
+< Set-Cookie: NSC_313871_wjq_69.196.230.78*443=ffffffff090d1a2a45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Expires: Sat, 04 Jan 2020 13:04:25 GMT
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:04:25 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgstg-313871-200526-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

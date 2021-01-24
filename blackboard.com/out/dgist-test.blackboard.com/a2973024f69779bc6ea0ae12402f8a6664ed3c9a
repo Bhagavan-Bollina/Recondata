@@ -1,0 +1,739 @@
+https://dgist-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: dgist-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:02:50 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:50 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-147-170-222.ap-northeast-2.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Content-Language: ko-KR
+< Date: Mon, 04 Jan 2021 13:02:50 GMT
+< Set-Cookie: JSESSIONID=76BD09DD811BD641D1C4BB802D09240E; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776170,id:A13A63300D0E8E57E7055FC7181BBA9A,signature:3f3a1a961d650ecfae1a89d5925cf26ae80e2846092ca26f0dbb434b53a9aa88,site:7d554273-62de-42f4-b0e4-ea22a1ab11a7,v:2,xsrf:8bfc03c4-865e-4a9a-bbb4-1b6839684dbe; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=81599F0F081B557F5B9093A55B0BA5912D0D5AE96D72E2BB2D8E46C00EE75E9CC74EA41194F8FDB5E5D469DE21E8DE516AF7CF16069CDAAEAEF2F4168BF9C0A8FA0EB4F44A;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=81599F0F081B557F5B9093A55B0BA5912D0D5AE96D72E2BB2D8E46C00EE75E9CC74EA41194F8FDB5E5D469DE21E8DE516AF7CF16069CDAAEAEF2F4168BF9C0A8FA0EB4F44A;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=UTF-8
+< Vary: accept-encoding
+
+<!DOCTYPE HTML >
+<html  lang="ko-KR">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="블랙보드">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 6,988,138. Additional Patents Pending.">
+  <meta name="keywords" content="블랙보드">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3900.4.0-rel.17+f210f75" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2015/theme.css?v=3900.4.0-rel.17+f210f75" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.4.0-rel.17+f210f75" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.4.0-rel.17+f210f75_3900.4.0-rel.17+f210f75" id="css_3">
+          <style type="text/css">
+  ::selection { background: #a4dcec; }
+  ::-moz-selection { background: #a4dcec; }
+  ::-webkit-selection { background: #a4dcec; }
+
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #ccc;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ccc;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ccc;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #ccc !important;
+  }
+
+  /** modal window styles **/
+  #lean_overlay {
+      position: fixed;
+      z-index:100;
+      top: 0px;
+      left: 0px;
+      height:100%;
+      width:100%;
+      background: #000;
+      display: none;
+  }
+
+  .modalform {
+    width: 600px;
+    padding: 15px 20px;
+    background: #f3f6fa;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+
+  #loginform { /* no default styles */ }
+
+  #loginform label { display: block; font-size: 1.1em; font-weight: bold; color: #7c8291; margin-bottom: 3px; }
+
+  .txtfield { 
+    display: block;
+    width: 100%;
+    padding: 8px 0px;
+    margin-bottom: 15px;
+    font-family: 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+    color: #7988a3;
+    font-size: 1.4em;
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#edf3f9), to(#fff));
+    background-image: -webkit-linear-gradient(top, #edf3f9, #fff);
+    background-image: -moz-linear-gradient(top, #edf3f9, #fff);
+    background-image: -ms-linear-gradient(top, #edf3f9, #fff);
+    background-image: -o-linear-gradient(top, #edf3f9, #fff);
+    background-image: linear-gradient(top, #edf3f9, #fff);
+    border: 1px solid;
+    border-color: #abbce8 #c3cae0 #b9c8ef;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: all 0.25s linear;
+    -moz-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+  }
+
+  .txtfield:focus {
+    outline: none;
+    color: #525864;
+    border-color: #84c0ee;
+  }
+
+  /*modal list*/
+  .list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .list-group li:hover {
+      background-color: #EFEFEF;
+      background-position: 8px 45%;
+  }
+
+  .list-group-item {
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+
+  </style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.4.0-rel.17+f210f75">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.4.0-rel.17+f210f75"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = '유효한 이메일(예: info@blackboard.com)을 입력해야 합니다.';
+    JS_RESOURCES['validation.radio.required'] = '계속하려면 선택을 하십시오.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = '다음 문제를 풀지 않았습니다.\n {0}\n설문 조사로 돌아가려면 취소를 클릭하십시오. 문제를 풀지 않고 제출하려면 확인을 클릭하십시오.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = '용어 검색';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = '점수 값은 소수점 5자리로 제한됩니다. {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = '{1} 글자 보다 많으면 안됩니다: {0}.<BR>입력 크기를 {2} 글자 줄이십시오.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = '다음 문제를 풀지 않았습니다.\n {0}\n시험으로 돌아가려면 취소를 클릭하십시오. 문제를 풀지 않고 제출하려면 확인을 클릭하십시오.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = '복수선택 상자에 최소 {0}개 이상의 항목이 있어야합니다.';
+    JS_RESOURCES['validation.cmp_field.required'] = '{1} 필드가 비어있지 않을 때 {0}은 반드시 입력해야 합니다';
+    JS_RESOURCES['warning.email'] = '이메일 주소를 입력하도록 권합니다. 이메일 주소가 없으면 시스템을 부분적으로 사용할 수 없습니다.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = '{0} 글자 보다 많으면 안됩니다: {0}.<BR>입력 크기를 한 글자 줄이십시오.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = '복수선택 상자에 최대 {0}개 이하의 항목이 가능합니다.';
+    JS_RESOURCES['validation.number'] = '성적란에 점수를 입력하십시오. {0}.';
+    JS_RESOURCES['validation.date.required'] = '완료날짜가 반드시 제공되어야 합니다: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = '삭제: {0}?';
+    JS_RESOURCES['show.helptext'] = '도움말 텍스트 표시하기';
+    JS_RESOURCES['validation.password'] = '비밀번호가 비거나 공백만 포함할 수 없습니다.';
+    JS_RESOURCES['validation.percent'] = '0과 100사이의 유효한 백분율 값이 입력되어야 합니다.';
+    JS_RESOURCES['validation.mismatch'] = '입력한 값이 일치하지 않습니다: {0}.<BR>확인: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = '{0} 글자 보다 많으면 안됩니다: {0}.<BR>입력 크기를 {1} 글자 줄이십시오.';
+    JS_RESOURCES['validation.invalid_value'] = '유효하지 않은 숫자값이 입력되었습니다: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' 입력 필드';
+    JS_RESOURCES['validation.required'] = '필수입력 필드입니다: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = '검색 텍스트 필드에 값을 지정하십시오.';
+    JS_RESOURCES['validate.alignment.missing.content'] = '정렬을 선택하였지만 복사할 정렬가능 콘텐츠를 선택하지 않았습니다.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" 는 역할 ID의 시작으로 허용되지 않습니다.';
+    JS_RESOURCES['validation.date_past'] = '종료시간이 시작 시간보다 빠를 수 없습니다.';
+    JS_RESOURCES['validation.invalid_chars'] = '유효하지 않은 글자가 있습니다: {0}.<BR>이 글자를 삭제하십시오: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = '이 항목이 {0} 삭제됩니다. 계속하겠습니까?';
+    JS_RESOURCES['hide.helptext'] = '도움말 텍스트 숨기기';
+    JS_RESOURCES['validate.range.lessthen.str'] = '{0}보다 적음';
+    JS_RESOURCES['validation.date_past.confirm'] = '시간이 지났습니다.<BR>이 시간으로 계속하겠습니까?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = '사용자 ID와 비밀번호를 입력하십시오.';
+    JS_RESOURCES['validation.negative'] = '음의 정수가 아닌 유효한 값이 입력되어야 합니다: {0}.';
+    JS_RESOURCES['validation.url'] = '유효한 URL을 <BR> (e.g http://www.foo.com) 입력해야 합니다.';
+    JS_RESOURCES['validate.range.overlap'] = '기준 ({0}) 와(과) 기준 ({1}) 이(가) 겹칩니다.';
+    JS_RESOURCES['validate.range.between.str'] = '{0} 와(과) {1} 사이';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = '삭제: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = '연계된 항목 정보가 업데이트된 것일 수도 있습니다.\n\'확인\'을 클릭하여 목록을 새로 고치거나 \'취소\'를 클릭하여 현재 페이지를 유지하십시오.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = '엑세스코드 등록 옵션이 {instructor} 주도 등록 옵션의 선택과 충돌됩니다.';
+    JS_RESOURCES['validation.points.decimal.places'] = '점수 값은 소수점 5자리로 제한됩니다.';
+    JS_RESOURCES['validation.option.required'] = '목록에서 하나 이상의 옵션이 선택되어야 합니다.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = '모두 선택하려면 확인표시하십시오.';
+    JS_RESOURCES['active.filter.changed.alert'] = '기준이 포함됨';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = '재사용 가능 객체로 저장하려면 이름을 지정하십시오.';
+    JS_RESOURCES['validate.invalidate.number'] = '{0} 대신 유효한 숫자를 입력하십시오.';
+    JS_RESOURCES['validation.valid_course_id'] = '코스 id가 유효하지 않은 글자나 멀티바이트 글자를 포함하고 있습니다.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = '다음 문제를 풀지 않았습니다.\n {0}\n시험으로 돌아가려면 취소를 클릭하십시오. 시험을 제출하려면 확인을 클릭하십시오.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = '경고: {instructor} 주도 또는 자가 등록 옵션을 선택하십시오.';
+    JS_RESOURCES['validation.date_equal'] = '시작 일시가 완료 일시와 같을 수 없습니다.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = '{0}은 상응하는 {1} 값 없이 사용할 수 없습니다.';
+    JS_RESOURCES['validation.time.required'] = '완료시간은 필수입력 필드입니다: {0}.';
+    JS_RESOURCES['validation.integer_number'] = '유효한 정수 숫자 값을 입력해야 합니다. {0}.';
+    JS_RESOURCES['validation.maximum_length'] = '255자 미만을 포함해야 함';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = '선택한 이메일 등록 옵션이 자가 등록 옵션과 충돌됩니다.';
+    JS_RESOURCES['invalid_char.space'] = '공백';
+    JS_RESOURCES['validate.range.morethen.str'] = '{0}보다 많음';
+    JS_RESOURCES['notification.submit'] = '동작이 이미 제출되었습니다.\n동작이 완료될 때까지 기다리십시오.';
+    JS_RESOURCES['validation.plain_text.confirm'] = '이 문서에 수식을 바르게 표시하려면, 스마트 텍스트나 HTML 포맷이 반드시 선택되어야 합니다.<BR>일반 텍스트 포맷으로 저장하려면 \'OK\'를 누르고, 새 포맷을 선택하려면 \'취소\'를 누르십시오.<br>';
+    JS_RESOURCES['invalid_char.comma'] = '쉼표';
+    JS_RESOURCES['validation.allow_negtive.percent'] = '-100과 100 사이의 유효한 백분율 값이 입력되어야 합니다.';
+    JS_RESOURCES['confirm.remove_item'] = '이 동작은 최종 실행이며 취소될 수 없습니다. 계속하겠습니까?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = '모두 선택취소하려면 확인표시를 취소하십시오.';
+    JS_RESOURCES['validation.maximum_length.singular'] = '{1} 글자 보다 많으면 안됩니다: {0}.<BR>입력 크기를 한 글자 줄이십시오.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = '소수점자리가 너무 많습니다. 최대 5자리입니다.';
+    JS_RESOURCES['validation.minimum_length'] = '최소 {0} 글자가 입력되어야 합니다: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = '재사용 가능 객체의 위치를 지정하십시오.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = '다음 문제를 풀지 않았습니다.\n {0}\n설문 조사로 돌아가려면 취소를 클릭하십시오. 설문 조사를 제출하려면 확인을 클릭하십시오.';
+    JS_RESOURCES['validation.image_type'] = '알수없는 이미지 유형입니다: {0}. 이미지가 바르게 표시되지 않을 수 있습니다.';
+    JS_RESOURCES['validate.invalidate.number.space'] = '스페이스';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'yy/MM/dd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'yyyy년 M월';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'PHM';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{3}{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = '일 월 화 수 목 금 토';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'yyyy년 M월 d{\'&#8212;\'[ yyyy][ M]d}일';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = '1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{3}{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = '안녕하십니까, {1} 님';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = '1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'M월 d일 ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = '오전 오후';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'YMD';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = '일 월 화 수 목 금 토';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'yyyy년 M월 d일 dddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = '일요일 월요일 화요일 수요일 목요일 금요일 토요일';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'YY/MM/DD';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'M월 d일 dddd';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'yy/MM/dd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'yyyy년 M월';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'PHM';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{3}{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = '일 월 화 수 목 금 토';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'yyyy년 M월 d{\'&#8212;\'[ yyyy][ M]d}일';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = '1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{3}{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = '안녕하십니까, {1} 님';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = '1월 2월 3월 4월 5월 6월 7월 8월 9월 10월 11월 12월';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'M월 d일 ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = '오전 오후';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'YMD';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = '일 월 화 수 목 금 토';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'yyyy년 M월 d일 dddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = '일요일 월요일 화요일 수요일 목요일 금요일 토요일';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'YY/MM/DD';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'M월 d일 dddd';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/2CD3D430286DACB156061266254D942A.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/groupjs/E8885824131B5E2627E3C6ABA80D10AE.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.4.0-rel.17+f210f75_3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/bbcswebdav/institution/LoginPage_Custom/jquery.leanModal.min.js?v=3900.4.0-rel.17+f210f75"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery.js?v=3900.4.0-rel.17+f210f75"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <div id="loginPageContainer">
+  <div id="loginPane">
+
+    <div id="loginContainer">
+      <div id="loginHeader" class="clearfix">
+        <h1 class="hideoff">Blackboard Learn &#8482;</h1>
+        <img  src="/images/ci/logos/Bb_newLogo_060.png"  alt="Blackboard Learn &#8482;" class="productLogo"/>
+
+<h2 class="hideoff">옵션 보기</h2>
+<ul>
+  <li class="font-size">
+    <img src="/images/ci/ng/fonts.gif" alt="" /> 
+    <a href="#" title="글자 크기 변경" 
+          onClick="page.showChangeTextSizeHelp()">글자 크기 변경</a>
+  </li>
+  <li class="contrast">
+    <img src="/images/ci/ng/contrast.gif" alt="" /> 
+    <a href="#" title="밝기 조정" onclick="page.showAccessibilityOptions(); return false;">밝기 조정</a>
+  </li>
+</ul>
+</div>
+
+      <div id="loginLang" class="clearfix">
+        
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+      <script>
+      function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+        Event.observe( $( 'loginLang' ), 'mouseover', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'mouseout', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'focus', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'blur', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+
+	});
+    </script>
+      
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	 
+    <h2>
+      <a href="#"><span>다국어 지원: 아래에서 사용할 언어를 선택한 후 로그인하십시오.</span></a>
+      <span>다국어 지원: 아래에서 사용할 언어를 선택한 후 로그인하십시오.</span>
+    </h2>
+
+    <ul id="langMenu" aria-hidden="true" role="menu">
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('ko_KR');" title="한국어 (한국&#x202D;)&#x202C;" lang="ko_KR" >한국어 (한국&#x202D;)&#x202C;</a></li>
+
+      
+    </ul>
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+
+      <div class="clearfix loginBody" style="background:url(/bbcswebdav/xid-2202_1) no-repeat scroll 73px 94px transparent;">
+        <!--  로그인 모듈 수정 -->
+        <div id="loginBox">
+          <noscript>
+            &lt;div class="receipt bad editmode"&gt;당신의 브라우저는 자바스크립트가 사용 가능합니다.&lt;/div&gt;
+          </noscript>
+          <form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login">
+          <script type="text/javascript">
+           function login_openForgotPassword( url )
+           {
+             var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+             passwordWin.focus();
+           }
+          </script>
+          <div id="loginFormTitle">
+            <h2>사용자 계정이 있습니까?</h2>
+          </div>
+           <div id="loginFormText">
+             <p>사용자명과 비밀번호를 입력한 후 로그인 버튼을 누르십시오.
+             </p>
+           </div>
+          <div id="loginFormFields" class="clearfix">
+            <ul id="loginFormList" class="clearfix">
+              <li class="clearfix">
+                <input type="text" name="username" id="portal_username" size="25" maxlength="50" placeholder="사용자명">
+              </li>
+              <li class="clearfix">
+                <input size="25" name="password" id="portal_password" type="password" autocomplete="off" placeholder="비밀번호">
+              </li>
+              <li class="clearfix">
+                <input type="button" value="통합 ID 로그인" id="portal"   class="button expand success submit button-1">
+              </li>
+
+              <!-- <li class="clearfix">
+                <span class="forgot"><a href="/webapps/blackboard/password" onclick="login_openForgotPassword('/webapps/blackboard/password');return false;">비밀번호를 잊으셨나요?
+                 <span class="hideoff">(새 창)</span>
+                </a></span>
+              </li> -->
+
+           </ul>
+          </div>  <input type="hidden" name="action" value="login">
+            <input type="hidden" name="new_loc" value="">
+          </form>
+          </div>
+        <!------------------------------------------------>
+        <!-- <div id="loginRedirectProviders" style="text-align:center;">
+          <h3>Sign in using</h3>
+          <ul id="loginRedirectProviderList">
+              <li>
+                <a href="#modal_login" id="portal_login">포탈 로그인</a>                                             
+              </li>
+          </ul>
+        </div> -->
+
+        <div id="loginOptions">
+          
+  <div id="gatewayButtonsTitle">
+   <h2>사용자 계정이 없습니까?</h2>
+ </div>
+ <div id="gatewayButtonsInstructions">
+   <p>다음의 옵션으로 접근하실 수 있습니다.</p>
+ </div>
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+        <li class="subOption"><a href="/webapps/blackboard/execute/viewCatalog?type=Course">코스 카탈로그 보기</a></li>
+    
+      <li class="subOption" id="preview-as-guest"><a href="/webapps/login/?action=guest_login">게스트로 접근</a></li>
+    
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="개인정보 보호 및 사용 약관">개인정보 보호 및 사용 약관</a></li>
+</ul>
+</div>
+</div>
+      </div>
+
+      
+
+<div id="loginImage"><img src="/images/ci/logos/Gateway_Learn.jpg" alt="Blackboard Learn" /></div>
+<div id="loginText">
+<p>Blackboard e-Education 플랫폼에 오신 것을 환영합니다. — 교육혁신을 위해 디자인 된 교육과 테크놀러지의 만남!</p>
+</div></div>
+
+  </div>
+  
+  
+<div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	  <div class="logo">
+  	    <img src="/images/ci/logos/bb_signature/Bb_Signature_StdMed.png" alt="Blackboard Learn" />
+  	  </div>
+  	  	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 6,988,138. Additional Patents Pending.
+  	</div>
+  	      <div class="additionalInfo">
+        <p><a href="http://access.blackboard.com" id="accessibilityLink">접근 정보</a></p>
+              </div>
+  	  </div>
+
+  </div></div>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','종료');page.bundle.addKey('inlineconfirmation.refresh','새로 고침');page.bundle.addKey('hidden.link.close.menu','메뉴끝. 관련항목으로 돌아가려면 누르십시오.');page.bundle.addKey('hidden.link.close.form','양식끝. 관련항목으로 돌아가려면 누르십시오.');page.bundle.addKey('lightbox.loading','로딩 중...');page.bundle.addKey('yt.stopped','멈춤:');page.bundle.addKey('yt.playing','재생중:');page.bundle.addKey('yt.cued','신호받음:');page.bundle.addKey('yt.buffering','버퍼링:');page.bundle.addKey('yt.paused','일시정지:');page.bundle.addKey('yt.ended','종료:');page.bundle.addKey('yt.play','실행');page.bundle.addKey('yt.pause','일시정지');page.bundle.addKey('yt.mute','소리끄기');page.bundle.addKey('yt.unmute','소리켜기');page.bundle.addKey('lightbox.overlay','{0}이(가) 현재 페이지를 오버레이하는 라이트박스로 열렸습니다.');page.bundle.addKey('display.playerControls','플레이어 설정');page.bundle.addKey('display.videoPlayerControls','비디오 플레이어 설정');page.bundle.addKey('display.play','실행');page.bundle.addKey('display.stop','정지');page.bundle.addKey('display.volumeUp','소리크게');page.bundle.addKey('display.volumeDown','소리작게');page.bundle.addKey('display.mute','소리끄기');page.bundle.addKey('display.videoStatus','비디오 상태');page.bundle.addKey('display.closePlayerControls','플레이어 설정 종료');page.bundle.addKey('display.embeddedVideoPlayer','포함된 비디오 플레이어');page.bundle.addKey('display.of','/');page.bundle.addKey('display.view.on.flickr','Flickr에서 사진 보기');page.bundle.addKey('mashups.content.data.msg','매시업 콘텐츠를 표시할 수 없습니다. 이는 시스템이 유효하지 않은 URL을 감지하는 경우에 발생합니다. 매시업 항목을 제거하고 다시 시도하여 이 문제를 해결하십시오.');page.bundle.addKey('contextmenu.frame.title','메뉴프레임');page.bundle.addKey('frameset.contentframe.title','콘텐츠 프레임');page.bundle.addKey('common.pair.paren','{0}({1})');</script>
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script>$.noConflict();</script>
+    <script type="text/javascript">      
+      jQuery(document).ready(function($){
+        $('#portal_login').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" });
+        $('#portal_id_list').leanModal({ top: 110, overlay: 0.45, closeButton: ".hidemodal" }); 
+
+        $('#portal').click(function(e){            
+            var userId = $('#portal_username').val();
+            var passwd =encodeURIComponent($('#portal_password').val());
+            var contents = null;            
+
+            if(isNull(passwd)) return false;
+            if(isNull(userId)) return false;
+ 
+            $.ajax({
+              dataType: 'jsonp'            
+              ,type: 'POST'
+              ,url: "https://my.dgist.ac.kr/com/member/loginDevBlackBoard.do"
+              ,jsonpCallback: "BlackBoard"
+              ,data: {password:passwd, username:userId} 
+              ,success: function(data){                
+                if (undefined!=data && data.length > 0) {                  
+
+                  if(data.length == 1){
+                    //window.location = "/webapps/bbgs-autosignon-BBLEARN/B2login.jsp?userId=" + data[0].STTS_NO;
+                    //document.atuoSingOnForm.userId.value=data[0].STTS_NO;
+                    document.atuoSingOnForm.action=data[0].returnURL;
+                    document.atuoSingOnForm.submit();
+                    return false;
+                  }
+
+                  $("#list-group").empty(); 
+                  
+                  for (var i = 0; i < data.length; i++) {                  
+                    contents = "<li class='list-group-item' onclick=selectedLogin('"+data[i].returnURL+"')>"
+                      +data[i].POSI_DEPT_CD_NM + "  -  "
+                      +data[i].KOR_REL_PSN_NM + "  -  "
+                      +data[i].STTS_NO 
+                      +"</li>"
+                    
+                    $("#list-group").append(contents);                                      
+                  };
+
+                  $("#portal_id_list").click();
+                } else {                  
+                  alert("로그인 정보가 올바르지 않습니다.");
+                }
+              }
+              ,error: function(request, status, error){                
+                alert("로그인 정보가 올바르지 않습니다.." + error);
+              }
+            });            
+        });
+        
+        // 2016-02-18 추가
+        $('#lean_overlay').click(function(e){
+          $("#list-group").empty();
+        });
+
+        var closeModal = function(id){
+          $('#lean_overlay').hide();     
+          $('#'+id).hide();      
+        };      
+
+
+
+      });   
+
+   /*   function logintest(){
+
+        console.log("js ::"+encodeURIComponent(document.getElementById("portal_password").value));
+
+      }
+     */ 
+      function isNull(obj){
+         return (typeof obj != "undefined" && obj!=null && obj !="" &&obj !="0") ? false : true ;
+      }
+
+      function loadLoginPage()
+      {
+        if ( top != self )
+        {
+          top.location.replace( self.location.href );
+        }
+        if(document.forms.login.user_id != undefined)
+        {
+          document.forms.login.user_id.focus();
+        }
+        setTimeout("triggerScreenreaderAlert()", 500);
+      }
+      
+      function triggerScreenreaderAlert()
+      {
+      if ( document.getElementById( 'loginErrorMessage' ) )
+        {
+        $( 'loginErrorMessage' ).update( $('loginErrorMessage').innerHTML );
+        }
+      }
+
+      function selectedLogin(returnURL){        
+        document.atuoSingOnForm.action=returnURL;
+        document.atuoSingOnForm.submit();
+        //window.location = "/webapps/bbgs-autosignon-BBLEARN/B2login.jsp?userId=" + userId;
+      }
+    </script>
+  
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+</body>
+</html>
+
+v.0.0.1
+
+<a href="#modal_id_list" id="portal_id_list"></a>
+
+<div id="modal_id_list" class="modalform" style="display:none;">
+  <h1 style="text-align:center;">통합 ID 로그인</h1>
+  <ul class="list-group" id="list-group">
+  </ul>
+</div>
+
+<form method="post" name="atuoSingOnForm">
+  <input type="hidden" name="userId" value=""/>
+</form>
+<!--
+<form action="/webapps/bbgs-autosignon-BBLEARN/B2login.jsp" method="post" name="atuoSingOnForm">
+  <input type="hidden" name="userId" value=""/>
+</form>
+-->

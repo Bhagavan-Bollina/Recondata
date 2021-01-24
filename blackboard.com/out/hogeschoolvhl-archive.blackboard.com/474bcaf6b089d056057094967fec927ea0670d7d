@@ -1,0 +1,27 @@
+https://hogeschoolvhl-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hogeschoolvhl-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Content-Length: 89
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< X-Blackboard-Product: Blackboard Learn &#8482; 3300.0.1-rel.60+a05276c
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sun, 01 Apr 2018 05:00:02 GMT
+< Expires: Sat, 04 Jan 2020 13:03:17 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1522558802000"
+< Date: Mon, 04 Jan 2021 13:03:17 GMT
+< Set-Cookie: NSC_524479_wjq_46.183.240.67*443=ffffffff090b1eee45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgarch-524479-sf707598-app001.mhint
+< Pragma: private
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

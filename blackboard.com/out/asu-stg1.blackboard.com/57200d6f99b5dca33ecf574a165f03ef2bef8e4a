@@ -1,0 +1,27 @@
+https://asu-stg1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: asu-stg1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgstg-101256-157810-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3100.0.6-rel.3+cd2a24d
+< Content-Length: 89
+< Last-Modified: Fri, 06 Jul 2018 05:46:12 GMT
+< Expires: Sat, 04 Jan 2020 13:02:14 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Etag: W/"89-1530855972000"
+< Set-Cookie: NSC_101256_wjq_192.230.226.0*443=ffffffff090e142145525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Date: Mon, 04 Jan 2021 13:02:14 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

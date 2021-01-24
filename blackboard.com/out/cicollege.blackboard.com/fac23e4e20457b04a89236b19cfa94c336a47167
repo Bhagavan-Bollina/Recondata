@@ -1,0 +1,22 @@
+http://cicollege.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cicollege.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:39 GMT
+< Location: https://cicollege.blackboard.com/
+< Server: openresty/1.9.3.1
+< Set-Cookie: AWSELB=6D8D7D530E33681CDF741DF684217615BD9CB3AC9C7D56A5CC2DBC2322745132795429CF7655201663A0B5A3278B69E15272CC513FCEF23BA212220DEF12EB02E5D754595B;PATH=/;MAX-AGE=900
+< Content-Length: 190
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty/1.9.3.1</center>
+</body>
+</html>

@@ -1,0 +1,31 @@
+https://sourcewell.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sourcewell.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:04:54 GMT
+< Location: https://sourcewell.geniussis.com/Logout.aspx
+< X-Blackboard-Appserver: ip-10-146-232-207.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:04:54 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:54 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Language: en-US-x-lvariant-pro
+< Content-Type: text/html;charset=UTF-8
+< Set-Cookie: JSESSIONID=D605E0797911AB4A015A5B53A5B825C1; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776294,id:3E3FF10B3CC87782C18498289995884A,signature:81ce8e6682f7c26afe2ab2ffa6c0fd69f47e4a11c8fc406287078dbcea97004f,site:4e049501-f3fd-4606-aded-216f65c858f1,v:2,xsrf:7b739fbf-3b6c-429f-a791-deb0eb6fde80; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=173B8BE85A10BFBC5FB6F9CADC5461BF1E23D6524D335AC524B5A76BA44CE58C611B3FC1A6B5BE8F3CEF48434F3A5AA257F10AA804999DB2E89BAF6E86B3B1CD4D87F2E2;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=173B8BE85A10BFBC5FB6F9CADC5461BF1E23D6524D335AC524B5A76BA44CE58C611B3FC1A6B5BE8F3CEF48434F3A5AA257F10AA804999DB2E89BAF6E86B3B1CD4D87F2E2;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+

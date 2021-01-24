@@ -1,0 +1,735 @@
+https://esiee.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: esiee.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Content-Type: text/html;charset=UTF-8
+< X-Blackboard-Appserver: fgprd-345364-sf197289-app001.mhint
+< Last-Modified: Thu, 04 Jan 2001 13:02:58 GMT
+< Expires: Sat, 04 Jan 2020 13:02:58 GMT
+< Date: Mon, 04 Jan 2021 13:02:57 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.0.0-rel.42+47a7c9a
+< Set-Cookie: s_session_id=4E16A364E2918D6EC1D56A98AF6AC135; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=C1CE56B9D638EE498F46BDDF3B4C3038; Path=/; Secure
+< Set-Cookie: NSC_345364_wjq_46.183.241.224*443=ffffffff090b1ad145525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Vary: accept-encoding
+< Content-Language: fr-FR
+< Keep-Alive: timeout=20
+< Connection: keep-alive
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+
+<!DOCTYPE HTML >
+<html  lang="fr-FR">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Tous droits réservés. U.S. Patent No. 7,493,396 and 7,558,853. Demande de brevet en cours.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"e99ceaa32b",applicationID:"374871738"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3900.0.0-rel.42+47a7c9a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/T_ESIEE_2020_023/theme.css?v=3900.0.0-rel.42+47a7c9a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.0.0-rel.42+47a7c9a" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.0.0-rel.42+47a7c9a_3900.0.0-rel.42+47a7c9a" id="css_3">
+      <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.0.0-rel.42+47a7c9a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.0.0-rel.42+47a7c9a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Vous devez saisir une adresse e-mail valide (par exemple, info@blackboard.com).';
+    JS_RESOURCES['validation.radio.required'] = 'Veuillez effectuer une sélection pour continuer.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'Les questions suivantes sont peut-être incomplètes :\n {0}\nCliquez sur Annuler pour revenir au sondage. Cliquez sur OK pour enregistrer la réponse incomplète.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Termes de recherche';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Les valeurs de points sont limitées à 5 décimales : {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Ne peut pas contenir plus de {1} caractères : {0}.\nSupprimez {2} caractères dans le texte saisi.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'Les questions suivantes sont peut-être incomplètes :\n {0}\nCliquez sur Annuler pour revenir au test. Cliquez sur Ok pour enregistrer la réponse incomplète.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'La zone de sélection multiple doit contenir au moins {0} éléments.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Une valeur doit être indiquée pour {0}\nlorsque le champ {1} n\'\'est pas vide';
+    JS_RESOURCES['warning.email'] = 'Il est recommandé de renseigner le champ Adresse e-mail. Les utilisateurs ne seront pas en mesure d\'utiliser certaines parties du système s\'ils n\'ont pas d\'adresse e-mail.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Ne peut pas contenir plus de {0} caractères.\nSupprimez un caractère dans le texte saisi.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'La zone de sélection multiple ne doit pas contenir plus de {0} éléments.';
+    JS_RESOURCES['validation.number'] = 'Une valeur numérique valide doit être saisie : {0}.';
+    JS_RESOURCES['validation.date.required'] = 'Une date complète doit être indiquée : {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Supprimer : {0} ?';
+    JS_RESOURCES['show.helptext'] = 'Afficher l\'aide';
+    JS_RESOURCES['validation.password'] = 'Le mot de passe ne peut pas être vide ni contenir seulement des espaces.';
+    JS_RESOURCES['validation.percent'] = 'Une valeur valide exprimée en pourcentage et comprise entre 0 et 100 doit être saisie.';
+    JS_RESOURCES['validation.mismatch'] = 'Les valeurs saisies ne correspondent pas : {0}.\nConfirmer : {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Ne peut pas contenir plus de {0} caractères.\nSupprimer {1} caractères dans le texte saisi.';
+    JS_RESOURCES['validation.invalid_value'] = 'Valeur numérique fournie non valide : {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0} champ de saisie';
+    JS_RESOURCES['validation.required'] = 'Une valeur doit être indiquée : {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Spécifier une valeur pour la zone de texte de recherche';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Vous avez sélectionné des alignements, mais aucun contenu alignable à copier.';
+    JS_RESOURCES['validation.system_role.reserve'] = 'Le code du rôle ne peut pas commencer par "bb".';
+    JS_RESOURCES['validation.date_past'] = 'La date de fin doit être postérieure à la date de début.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contient des caractères non autorisés : {0}.\nSupprimer ces caractères : {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Cet élément {0} sera supprimé. Souhaitez-vous continuer ?';
+    JS_RESOURCES['hide.helptext'] = 'Masquer l\'aide';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Inférieur à {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'L\'horaire indiqué est dans le passé.\nSouhaitez-vous continuer avec cet horaire ?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Entrez un nom d\'utilisateur et un mot de passe.';
+    JS_RESOURCES['validation.negative'] = 'Une valeur positive valide doit être saisie : {0}.';
+    JS_RESOURCES['validation.url'] = 'Vous devez saisir une URL valide (par exemple, http://www.myschool.edu).';
+    JS_RESOURCES['validate.range.overlap'] = 'les critères ({0}) chevauchent les critères ({1})';
+    JS_RESOURCES['validate.range.between.str'] = 'Entre {0} et {1}.';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Supprimer : {0} ?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'Les informations sur les éléments associés ont peut-être été mis à jour.\nCliquez sur ’OK’ pour actualiser la liste ou cliquez sur ’Annuler’ pour conserver la page en cours.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'L\'option Inscription par code d\'accès est incompatible avec la sélection de l\'inscription Dirigée par {instructor}.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Les valeurs de points sont limitées à 5 décimales.';
+    JS_RESOURCES['validation.option.required'] = 'Vous devez sélectionner au moins une option dans la liste.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Cocher pour sélectionner tous les éléments';
+    JS_RESOURCES['active.filter.changed.alert'] = 'les critères contiennent maintenant';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Spécifiez un nom pour enregistrer l\'objet comme un objet réutilisable.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Veuillez saisir un nombre valide à la place de {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Le code cours contient des caractères non valides ou des multi-octets.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'Les questions suivantes sont peut-être incomplètes :\n {0}\nCliquez sur Annuler pour revenir au test. Cliquez sur OK pour valider l’évaluation.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Avertissement : choisissez l\'option Dirigé par {instructor} ou l\'option Auto-inscription.';
+    JS_RESOURCES['validation.date_equal'] = 'La date de début doit être différente de la date de fin.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'Le champ {0} ne peut être utilisé sans une valeur {1} correspondante.';
+    JS_RESOURCES['validation.time.required'] = 'Une heure complète doit être indiquée : {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Une valeur numérique entière valide doit être saisie : {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Ne doit pas contenir plus de 255 caractères';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'L\'option d\'inscription par e-mail sélectionnée est incompatible avec la sélection d\'auto-inscription.';
+    JS_RESOURCES['invalid_char.space'] = 'espace';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Supérieur à {0}';
+    JS_RESOURCES['notification.submit'] = 'Action déjà validée.\nVeuillez attendre que l\'action soit terminée.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Pour que les équations s\'affichent correctement dans ce document, vous devez sélectionner le format Saisie assistée ou HTML.\nCliquez sur \'OK\' pour enregistrer en format \'Texte seulement\' ou cliquez sur \'Annuler\' pour sélectionner un autre format.';
+    JS_RESOURCES['invalid_char.comma'] = 'virgule';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Une valeur valide exprimée en pourcentage et comprise entre -100 et 100 doit être saisie.';
+    JS_RESOURCES['confirm.remove_item'] = 'Cette action est définitive et ne peut pas être annulée. Souhaitez-vous continuer ?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Décocher pour désélectionner tous les éléments';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Ne peut pas contenir plus de {1} caractères : {0}.\nSupprimez un caractère dans le texte saisi.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Nombre de décimales trop important. Le nombre maximal est 5.';
+    JS_RESOURCES['validation.minimum_length'] = '{0} caractères au moins doivent être saisis : {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Entrer un emplacement pour l\'objet réutilisable.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'Les questions suivantes sont peut-être incomplètes :\n {0}\nCliquez sur Annuler pour revenir au sondage. Cliquez sur OK pour valider l\'\'évaluation.';
+    JS_RESOURCES['validation.image_type'] = 'Type dimage inconnu : {0}. Il est possible que limage ne puisse pas être affichée correctement.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Espace';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 ZIP_CODE CITY STATE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}([  ][0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'L M M J V S D';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}([  ][0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'janvier février mars avril mai juin juillet août septembre octobre novembre décembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenue, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'jan fév mar avr mai juin juil août sep oct nov déc';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd dd/MM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'L M M J V S D';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'lundi mardi mercredi jeudi vendredi samedi dimanche';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'JJ/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd dd/MM';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 ZIP_CODE CITY STATE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}([  ][0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'L M M J V S D';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}([  ][0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'janvier février mars avril mai juin juillet août septembre octobre novembre décembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenue, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'jan fév mar avr mai juin juil août sep oct nov déc';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd dd/MM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'L M M J V S D';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'lundi mardi mercredi jeudi vendredi samedi dimanche';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'JJ/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ' ';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd dd/MM';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/B8B16EC08271EE71E814F51A8D9A1601.js?v=3900.0.0-rel.42+47a7c9a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.0.0-rel.42+47a7c9a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.0.0-rel.42+47a7c9a"></script>
+    <script type="text/javascript" src="/groupjs/B73D1E5F66FD5C5271745D1A906B1A37.js?v=3900.0.0-rel.42+47a7c9a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.0.0-rel.42+47a7c9a_3900.0.0-rel.42+47a7c9a"></script>
+    <script type="text/javascript" src="/groupjs/FDFDC60C4BA651DB40A21C401FB85BA0.js?v=3900.0.0-rel.42+47a7c9a"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <div id="loginPageContainer">
+  <div id="loginPane">
+
+    <div id="loginContainer">
+      <div id="loginHeader" class="clearfix">
+        <h1 class="hideoff">Blackboard Learn &#8482;</h1>
+        <img  src="/images/ci/logos/Bb_newLogo_060.png"  alt="Blackboard Learn &#8482;" class="productLogo"/>
+
+<h2 class="hideoff">Afficher les options</h2>
+<ul>
+  <li class="font-size">
+    <img src="/images/ci/ng/fonts.gif" alt="" /> 
+    <a href="#" title="Modifier la taille du texte" 
+          onClick="page.showChangeTextSizeHelp()">Modifier la taille du texte</a>
+  </li>
+  <li class="contrast">
+    <img src="/images/ci/ng/contrast.gif" alt="" /> 
+    <a href="#" title="Paramètre de contraste élevé" onclick="page.showAccessibilityOptions(); return false;">Paramètre de contraste élevé</a>
+  </li>
+</ul>
+</div>
+
+      <div id="loginLang" tabindex="0" class="clearfix">
+        
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+      <script>
+      function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+        Event.observe( $( 'loginLang' ), 'mouseover', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'mouseout', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'focus', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'blur', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+
+	});
+    </script>
+      
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	 
+    <h2>
+      <a href="#"><span>Langues disponibles :</span></a>
+      <span>Langues disponibles :</span>
+    </h2>
+
+    <ul id="langMenu" aria-hidden="true" role="menu">
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('fr_FR');" title="Français (France&#x202D;)&#x202C;" lang="fr_FR" >Français (France&#x202D;)&#x202C;</a></li>
+
+      
+    </ul>
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+
+      <div class="clearfix loginBody">
+        <div id="loginBox">
+          
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Activez JavaScript dans le navigateur pour que l'application Blackboard fonctionne.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/unif-linkFiles-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/unif-NodesUsersEnrollments-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-transition-planning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/unif-forumsImport-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027979249287-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Vous avez déjà un compte ?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Entrez vos données d'authentification, puis cliquez sur le bouton <b>Connexion</b> ci-dessous.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Nom d'utilisateur</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Mot de passe</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Connexion" name="login" class="button expand"/>
+        </li>
+  </ul>
+
+  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='eb46570d-6e7f-4c6a-9d59-1df49ad5328c'>
+</form>
+</div>
+
+        <div id="loginOptions">
+          
+  <div id="gatewayButtonsTitle">
+   <h2>Vous n'avez pas de compte ?</h2>
+ </div>
+ <div id="gatewayButtonsInstructions">
+   <p>Choisissez parmi les options ci-dessous.</p>
+ </div>
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+      
+      <li class="subOption" id="preview-as-guest"><a href="/webapps/login/?action=guest_login">Aperçu en tant que visiteur</a></li>
+    
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="Confidentialité et conditions d'utilisation">Confidentialité et conditions d'utilisation</a></li>
+</ul>
+</div>
+</div>
+      </div>
+
+      
+
+<div id="loginImage"><img src="/images/ci/logos/Gateway_Learn.jpg" alt="Blackboard Learn" /></div>
+<div id="loginText">
+<p>Bienvenue dans la plate-forme Blackboard e-Education&#8212;conçue pour promouvoir les innovations en matière de formation en rapprochant hommes et technologie.</p>
+</div></div>
+
+  </div>
+  
+  
+<div id="loginAnnouncements">
+  <h3>Annonces relatives au système</h3>
+  <ul>
+          <li>
+        <strong>Problème de connexion</strong> 
+                  <em class="announcementDate">
+            (vendredi 11 décembre 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p class="annonce-login">Pour vous connecter à BlackBoard, vous devez impérativement avoir un compte informatique ESIEE Paris pour pouvoir participer aux activités de cette plate-forme.</p> 
+   <h4><a id="1"></a>1 - Je suis enseignant, vacataire, intervenant extérieur, … et je n'ai pas de compte informatique ESIEE Paris</h4> 
+   <p>Demander à votre contact principal ESIEE Paris qu'il sollicite l'assistante du département correspondant à votre unité d'enseignement pour que celle ci :</p> 
+   <p>1 - Vous créer une fiche Aurion en vous spécifiant comme "Intervenant",<br>2 - qu'elle fasse la demande de création d'un compte informatique ESIEE Paris (ne pas oublier de communiquer l'ID Aurion).</p> 
+   <p>Vous recevrez par mail vos identifiants.</p> 
+   <p>Si cette procédure est respectée,&nbsp;vous pourrez vous connecter à Blackboard le lendemain.</p> 
+   <h4><a id="2"></a>2 - J'ai un compte informatique ESIEE Paris, je n'arrive pas à me connecter</h4> 
+   <p>Sur l'écran de connexion Blackboard, utilisez :</p> 
+   <p>- Votre login (pas l'adresse mail)<br> - Le mot de passe d'ouverture de session ou d'accès aux applications ESIEE Paris <span style="color: #575d61; font-size: 14px; font-weight: bold;">(pas celui de votre adresse mail GMAIL)</span></p> 
+   <p>Si vous avez un compte informatique ESIEE Paris vous pouvez gérer votre mot de passe à l'adresse suivante : <a href="https://pass.esiee.fr/" target="_blank">https://pass.esiee.fr/.<br> Cet outil vous permettra de vérifier le bon fonctionnement de votre mot de passe et de le changer et savoir quoi faire en cas de problème.</a></p> 
+   <h5><a id="2-1"></a>2.1 - Compte vérouillé</h5> 
+   <p>Votre compte est automatiquement verrouillé si il y a trop de tentatives de&nbsp;connexions avec&nbsp;échec (erreur de mot de passe).</p> 
+   <p>Vous devrez attendre 1 heure pour que votre compte soit automatiquement déverrouillé.</p> 
+   <h5><a id="2-2"></a>2.2 - Je suis enseignant, vacataire, intervenant extérieur, …</h5> 
+   <p>Blackboard est synchronisé avec les informations en provenance d'AURION (Système d'information de la gestion de scolarité).</p> 
+   <p class="annonce-login">Le fait d'avoir un compte informatique ESIEE Paris, ne vous donnera pas systématiquement accès à Blackboard.</p> 
+   <p>Si vous n'avez pas été déclaré comme "Intervenant" dans AURION au moins une fois et/ou que votre ID Aurion n'a pas été communiquée à la création de votre compte,&nbsp;votre login n'aura pas accès à Blackboard.</p> 
+   <p>Si vous êtes dans ce cas :</p> 
+   <p>Demandez à l'enseignant responsable de l'unité de faire le nécessaire auprès de l'assistante de scolarité pour vérifier :</p> 
+   <p>1 - que vous soyez déclaré comme "Intervenant" dans Aurion,<br>2 - vos inscriptions aux unités d'enseignement dans Aurion,<br>3 - votre <a href="mailto:compte-info@esiee.fr?subject=ID%20Aurion%20pour%20compte%20informatique">ID Aurion a bien été communiquée</a> à la création de votre compte informatique ESIEE Paris</p> 
+   <p>Attendre 24h que la prochaine synchronisation Aurion &gt; BlackBoard s'effectue.</p> 
+   <p>Si cette première solution pose problème :</p> 
+   <p>Demandez à l'enseignant responsable de l'unité de faire une demande auprès de <a href="mailto:admin.blackboard@esiee.fr">admin.blackboard@esiee.fr</a> en spécifiant<br> votre Nom, Prénom, Adresse mail ESIEE Paris, Login</p> 
+   <p><span style="color: #575d61; font-size: 14px; font-weight: bold;">Afin de faciliter les choses, merci de privilégier la première solution.</span></p> 
+   <h5><a id="2-3"></a>2.3 - Je suis étudiant</h5> 
+   <p>Vous êtes automatiquement inscrit dans les unités Blackboard.</p> 
+   <p>Utilisez vos login/mot de passe ESIEE Paris.</p>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+<div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	  <div class="logo">
+  	    <img src="/images/ci/logos/bb_signature/Bb_Signature_StdMed.png" alt="Blackboard Learn(tm)" />
+  	  </div>
+  	  	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. Tous droits réservés. U.S. Patent No. 7,493,396 and 7,558,853. Demande de brevet en cours.
+  	</div>
+  	      <div class="additionalInfo">
+        <p><a href="http://access.blackboard.com" id="accessibilityLink">Informations d'accessibilité</a></p>
+              </div>
+  	  </div>
+
+  </div></div>
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Fermer');page.bundle.addKey('inlineconfirmation.refresh','Actualiser');page.bundle.addKey('hidden.link.close.menu','Fin du menu. Cliquez pour revenir à l\'élément associé.');page.bundle.addKey('hidden.link.close.form','Fin du formulaire. Cliquez pour revenir à l\'élément associé.');page.bundle.addKey('lightbox.loading','Chargement en cours...');page.bundle.addKey('yt.stopped','Interrompu :');page.bundle.addKey('yt.playing','Lecture :');page.bundle.addKey('yt.cued','Mis en file d\'attente :');page.bundle.addKey('yt.buffering','Mise en mémoire tampon :');page.bundle.addKey('yt.paused','Interrompu momentanément :');page.bundle.addKey('yt.ended','Terminé :');page.bundle.addKey('yt.play','Lire');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Désactiver le son');page.bundle.addKey('yt.unmute','Annuler la désactivation du son');page.bundle.addKey('lightbox.overlay','{0} a été ouvert(e) en tant que superposition Lightbox sur la page actuelle.');page.bundle.addKey('display.playerControls','Commandes du lecteur');page.bundle.addKey('display.videoPlayerControls','Commandes du lecteur vidéo');page.bundle.addKey('display.play','Lire');page.bundle.addKey('display.stop','Arrêter');page.bundle.addKey('display.volumeUp','Augmenter le volume');page.bundle.addKey('display.volumeDown','Diminuer le volume');page.bundle.addKey('display.mute','Désactiver le son');page.bundle.addKey('display.videoStatus','État de la vidéo');page.bundle.addKey('display.closePlayerControls','Fermer les commandes du lecteur');page.bundle.addKey('display.embeddedVideoPlayer','Lecteur vidéo intégré');page.bundle.addKey('display.of','de');page.bundle.addKey('display.view.on.flickr','Afficher la photo sur Flickr');page.bundle.addKey('mashups.content.data.msg','Nous ne pouvons pas afficher le contenu de l\'application Web hybride. Cela se produit lorsque le système détecte une URL non valide. Supprimez l\'élément d\'application Web hybride et réessayez de résoudre ce problème.');page.bundle.addKey('contextmenu.frame.title','Cadre du menu');page.bundle.addKey('frameset.contentframe.title','Contenu');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script type="text/javascript">
+      function loadLoginPage()
+      {
+    	  if ( top != self )
+    	  {
+    		  top.location.replace( self.location.href );
+    		}
+    	  if(document.forms.login.user_id != undefined)
+    		{
+    		  document.forms.login.user_id.focus();
+    		}
+    	  setTimeout("triggerScreenreaderAlert()", 500);
+      }
+      
+      function triggerScreenreaderAlert()
+      {
+    	if ( document.getElementById( 'loginErrorMessage' ) )
+  	    {
+    	  $( 'loginErrorMessage' ).update( $('loginErrorMessage').innerHTML );
+  	    }
+      }
+    </script>
+  
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"e99ceaa32b","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":19,"applicationID":"374871738","transactionName":"YlUEYhdYCkUAWhdfX1sfNUIXTBBFIFoXX19bHwRaBFoPVA5YEVIeQlUEVxVJFxgDVQJVW1dfB0QBFwVDFVEGWERcUwdCDFYKGC1WBF9edFMSXwpX","queueTime":0}</script>
+</body>
+</html>

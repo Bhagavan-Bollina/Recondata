@@ -1,0 +1,28 @@
+https://macmillanintegrationqa1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: macmillanintegrationqa1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: JSESSIONID=87A5690A41CFF2B00394D6D6F6F89BBE; Path=/; Secure
+< Set-Cookie: NSC_313871_wjq_69.196.230.238*443=ffffffff090d1ec245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-313871-200507-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.2-rel.36+fbf2221
+< Accept-Ranges: bytes
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Etag: W/"89-1564487868000"
+< Content-Length: 89
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:03:41 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Tue, 30 Jul 2019 11:57:48 GMT
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:03:41 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

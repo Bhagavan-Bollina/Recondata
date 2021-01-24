@@ -1,0 +1,27 @@
+https://umassonline-uml-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: umassonline-uml-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.4-rel.68+a1c490e
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:05:23 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< Date: Mon, 04 Jan 2021 13:05:23 GMT
+< Set-Cookie: NSC_120440_wjq_192.230.226.38*443=ffffffff090e10b845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-120440-sf133935-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 11 Oct 2018 12:57:13 GMT
+< Etag: W/"89-1539262633000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,27 @@
+https://bcpss-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bcpss-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:02:20 GMT
+< X-Blackboard-Appserver: fgtd-100423-160008-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.3-rel.75+4185aa5
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1519652816000"
+< Content-Length: 89
+< Set-Cookie: NSC_100423_wjq_69.196.229.190*443=ffffffff090d118645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Last-Modified: Mon, 26 Feb 2018 13:46:56 GMT
+< Expires: Sat, 04 Jan 2020 13:02:20 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

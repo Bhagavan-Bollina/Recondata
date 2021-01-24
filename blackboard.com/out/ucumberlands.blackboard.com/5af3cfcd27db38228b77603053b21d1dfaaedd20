@@ -1,0 +1,29 @@
+https://ucumberlands.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ucumberlands.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:05:15 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:15 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776315,id:F1A037D4868A912DD96B824E89135EF9,signature:3ae2485f0207e2b9bf4eabd4f4f55a80d477ce70aeb9fd4d3277baa95c5d3905,site:599235e5-d4bc-43a0-87e3-650d5e9ceed7,v:2,xsrf:c9516a52-d736-40c6-9651-2f96a946ed13; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=6B29319904B93532AA440EC2FFCBCC91B8A207A51FC0B8C0AD1B645A0DDAB6BA51491F7FE226E314AE738EC8C2B7B06AE3DEF6E32DAB257380707102057B9D297349C92ACC;PATH=/
+< Set-Cookie: AWSELBCORS=6B29319904B93532AA440EC2FFCBCC91B8A207A51FC0B8C0AD1B645A0DDAB6BA51491F7FE226E314AE738EC8C2B7B06AE3DEF6E32DAB257380707102057B9D297349C92ACC;PATH=/;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:15 GMT
+< X-Blackboard-Appserver: ip-10-145-87-244.ec2.internal
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< Location: /auth-saml/saml/login?apId=_1013_1&redirectUrl=https%3A%2F%2Fucumberlands.blackboard.com%2Fultra
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+

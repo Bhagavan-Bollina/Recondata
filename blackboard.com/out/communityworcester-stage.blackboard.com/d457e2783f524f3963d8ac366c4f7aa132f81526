@@ -1,0 +1,27 @@
+https://communityworcester-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: communityworcester-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgstg-100397-0210137-app002.mhint
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Pragma: private
+< Content-Length: 89
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Fri, 06 Jul 2018 06:49:54 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:02:38 GMT
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:02:38 GMT
+< Etag: W/"89-1530859794000"
+< Content-Type: text/html
+< Set-Cookie: NSC_100397_wjq_69.196.225.40*443=ffffffff090e182f45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

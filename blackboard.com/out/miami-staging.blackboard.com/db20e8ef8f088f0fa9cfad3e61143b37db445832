@@ -1,0 +1,48 @@
+https://miami-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: miami-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:03:47 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-146-231-104.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:47 GMT
+< Set-Cookie: JSESSIONID=FA4E421E99421301F8FAC3D2E800F664; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776227,id:8855C2D329916B2BC57CB6B0F265B9BA,signature:880f0c32622a82db54e0743a0e5ddd36e1e0fe4dbfd91a1489c225cecc140ab3,site:4b4dee20-09e7-49bf-a36d-3b54fef5ad61,v:2,xsrf:ef90c731-0dee-4aaa-9190-4e6952e23c58; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=4F315BE10C352DE64FAE02C830C1B28F9EE4E686FF39EE240363F10FE98ABB7DE70F3D4ADE89DA4676647F6835D9A92A76EA9BF5EE5F6CA4DB855D0E16BD3F214FA968D656;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=4F315BE10C352DE64FAE02C830C1B28F9EE4E686FF39EE240363F10FE98ABB7DE70F3D4ADE89DA4676647F6835D9A92A76EA9BF5EE5F6CA4DB855D0E16BD3F214FA968D656;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:03:47 GMT
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fmiami\x2Dstaging.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;miami-staging.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

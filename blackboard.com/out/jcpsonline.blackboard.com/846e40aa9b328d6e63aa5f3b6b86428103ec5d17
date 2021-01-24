@@ -1,0 +1,46 @@
+https://jcpsonline.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jcpsonline.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Connection: keep-alive
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: s_session_id=8C07BFF25BFFC0429157B1AA7C244864; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_304815_wjq_69.196.231.241*443=ffffffff090d19e745525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.0.0-rel.42+47a7c9a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:03:28 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-304815-sf045096-app002.mhint
+< Keep-Alive: timeout=20
+< Expires: Sat, 04 Jan 2020 13:03:28 GMT
+< Date: Mon, 04 Jan 2021 13:03:27 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fjcpsonline.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;jcpsonline.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

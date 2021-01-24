@@ -1,0 +1,29 @@
+https://brandman-stg.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: brandman-stg.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:24 GMT
+< Set-Cookie: BbRouter=expires:1609776144,id:413784B3E5A96F276191156004C925DF,signature:f9cd8d0fa24e0a5f4e4fb21088329df3780c098d7dbee849dd0a54b28e95e0a0,site:22c21306-a02b-4df2-b4ee-62d64756e19c,v:2,xsrf:5dab02d7-c66b-4ee9-a0af-a4b64b71e84d; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=A33F554B106C559D04ABFF098A6D61AFEFAC0478C3515A3553A1A8CECC0BFEEB54F8FEA01C03979A9A7A075583C529E5BFFF4E38BA31534A0C6D06916DEDFD121B414C2BD9;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=A33F554B106C559D04ABFF098A6D61AFEFAC0478C3515A3553A1A8CECC0BFEEB54F8FEA01C03979A9A7A075583C529E5BFFF4E38BA31534A0C6D06916DEDFD121B414C2BD9;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:02:24 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5f58e4b32d8bd/execute/casLogin?cmd=login&authProviderId=_105_1&redirectUrl=https%3A%2F%2Fbrandman-stg.blackboard.com%2Fultra
+< X-Blackboard-Appserver: ip-10-146-221-132.ec2.internal
+< Content-Length: 0
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:02:24 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+

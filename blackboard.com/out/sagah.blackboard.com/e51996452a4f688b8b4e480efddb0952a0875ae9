@@ -1,0 +1,27 @@
+https://sagah.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sagah.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Accept-Ranges: bytes
+< Etag: W/"89-1546757535000"
+< Set-Cookie: NSC_525626_wjq_192.230.224.245*443=ffffffff090d18ba45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-525626-sf163668-app002.mhint
+< Expires: Sat, 04 Jan 2020 13:04:37 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< Last-Modified: Sun, 06 Jan 2019 06:52:15 GMT
+< Date: Mon, 04 Jan 2021 13:04:36 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.0-rel.44+9fb1e0e
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,27 @@
+https://aapc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: aapc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Expires: Sat, 04 Jan 2020 13:02:06 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:05 GMT
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Tue, 16 Jul 2019 02:01:39 GMT
+< Etag: W/"89-1563242499000"
+< Set-Cookie: NSC_313216_wjq_69.196.226.113*443=ffffffff090e1b3c45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgprd-313216-124025-app002.mhint
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

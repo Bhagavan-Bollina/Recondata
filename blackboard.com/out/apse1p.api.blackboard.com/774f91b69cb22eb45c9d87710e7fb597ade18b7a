@@ -1,0 +1,15 @@
+https://apse1p.api.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: apse1p.api.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Content-Length: 42
+< X-Amzn-Requestid: cfa9820e-1763-4425-b729-cf19f5e1d3fe
+< X-Amzn-Errortype: MissingAuthenticationTokenException
+< X-Amz-Apigw-Id: Yn-5BFSqyQ0FQJA=
+< Date: Mon, 04 Jan 2021 13:02:11 GMT
+< Content-Type: application/json
+
+{"message":"Missing Authentication Token"}

@@ -1,0 +1,36 @@
+https://qutengagesaas.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: qutengagesaas.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:04:34 GMT
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-144-117-71.ap-southeast-2.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:04:34 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:34 GMT
+< Set-Cookie: JSESSIONID=D946F16E2E584F1A6A1397FE1B93EE0F; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776274,id:56CF803FE784AC5FE2126B7593334C85,signature:adc327c817dfb0ba8ce2bf06007046b905fc35f4a9950fc5d1eb437a754fde39,site:ad9b59bc-6690-43b6-9e2c-d4defd616236,v:2,xsrf:c56ac3f6-bb4f-4efc-8e30-39e622042f10; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=47A133DB1E32B0C09D54F1A4DB445C14C3635C62A342479F8E996BDAE4CEF473628DBE0D0061DA40A5CABE4D69F72B110AB39A370B7B29554E86BA33E76ADF7EF946586EEC;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=47A133DB1E32B0C09D54F1A4DB445C14C3635C62A342479F8E996BDAE4CEF473628DBE0D0061DA40A5CABE4D69F72B110AB39A370B7B29554E86BA33E76ADF7EF946586EEC;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+
+<html>
+<head>
+<META http-equiv="refresh" content="0;URL=https://engage.qut.edu.au/auth-saml/saml/login?apId=_105_1&redirectUrl=https%3A%2F%2Fengage.qut.edu.au%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab">
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,28 @@
+https://vvc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: vvc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:39 GMT
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgprd-110991-81269-app003.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:05:39 GMT
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Sun, 08 Sep 2019 10:48:30 GMT
+< Etag: W/"89-1567939710000"
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: JSESSIONID=DADC706DACC1FA866DCB67D2E9099671; Path=/; Secure
+< Set-Cookie: NSC_110991_wjq_69.196.228.237*443=ffffffff090d118045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

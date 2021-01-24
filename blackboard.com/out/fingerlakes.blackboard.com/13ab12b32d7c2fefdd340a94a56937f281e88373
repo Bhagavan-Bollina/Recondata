@@ -1,0 +1,46 @@
+https://fingerlakes.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fingerlakes.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:04 GMT
+< Strict-Transport-Security: max-age=63072000
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-305613-sf105262-app002.mhint
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:03:04 GMT
+< Expires: Sat, 04 Jan 2020 13:03:04 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: session_id=B43E34689F7B60CD2C32FE7ACD3D5C6C; Path=/; HttpOnly
+< Set-Cookie: s_session_id=3D4D55D1F4EA6E845E298F4145C1769D; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_305613_wjq_69.196.230.229*443=ffffffff090d0e5145525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.14-rel.5+77f16ee
+< Vary: Accept-Encoding
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://fingerlakes.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://fingerlakes.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

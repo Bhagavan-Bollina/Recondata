@@ -1,0 +1,31 @@
+https://cdss.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cdss.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< Last-Modified: Thu, 04 Jan 2001 13:02:31 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-208-144.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:02:31 GMT
+< Location: https://cdsslearningmanagement.dss.ca.gov/Logout.aspx
+< Content-Language: en-US-x-lvariant-pro
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=CA4A0C988EEA933BEE663C0697CD509A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776151,id:5CF7E737C5036E42758B2F46C4248BE8,signature:ffdd1f545143b75dd9f69fee4780c1c3e93a0d9fd5386c165a56f0a1c750b2fe,site:c0952ef5-ec7e-48ef-b580-ad690cc58228,v:2,xsrf:b6bc2dd3-913c-4d69-b46c-5fd83cfbf535; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=33C7356B021CFEF16FA66CC530F03DB25E7BC10AE00DC4B0AE341791E7D99077F76001758FB322E929E2335394B6F7502DEB5BE903844DCFD4F9E63351331082EEDFBAE851;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=33C7356B021CFEF16FA66CC530F03DB25E7BC10AE00DC4B0AE341791E7D99077F76001758FB322E929E2335394B6F7502DEB5BE903844DCFD4F9E63351331082EEDFBAE851;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:02:31 GMT
+

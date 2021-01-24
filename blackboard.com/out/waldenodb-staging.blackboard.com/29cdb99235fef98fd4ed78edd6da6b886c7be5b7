@@ -1,0 +1,27 @@
+https://waldenodb-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: waldenodb-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:05:39 GMT
+< Etag: W/"89-1523182529000"
+< Content-Type: text/html
+< Content-Length: 89
+< X-Blackboard-Appserver: fgstg-122312-sf238804-app001.mhint
+< Pragma: private
+< Last-Modified: Sun, 08 Apr 2018 10:15:29 GMT
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NSC_122312_wjq_69.196.227.191*443=ffffffff090e1a0445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.6-rel.144+bd33835
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:39 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

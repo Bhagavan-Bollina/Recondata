@@ -1,0 +1,27 @@
+https://powertrain-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: powertrain-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:04:22 GMT
+< X-Blackboard-Appserver: fgtd-523471-sf196212-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Etag: W/"89-1560158197000"
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.10-rel.32+b296913
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:04:22 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_523471_wjq_69.196.224.114*443=ffffffff090e0e8045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Mon, 10 Jun 2019 09:16:37 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,27 @@
+https://ccc-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ccc-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:02:30 GMT
+< Accept-Ranges: bytes
+< X-Blackboard-Appserver: fgarch-100195-sf682459-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Pragma: private
+< Set-Cookie: NSC_100195_wjq_192.230.226.162*443=ffffffff090e1ed345525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:29 GMT
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Fri, 06 Jul 2018 05:45:34 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1530855934000"
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

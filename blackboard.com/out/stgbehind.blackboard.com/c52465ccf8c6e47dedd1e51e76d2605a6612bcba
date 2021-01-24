@@ -1,0 +1,16 @@
+https://stgbehind.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: stgbehind.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Redirect
+< Date: Mon, 04 Jan 2021 13:04:58 GMT
+< Content-Length: 161
+< Content-Type: text/html
+< Location: http://qax-blackboard.cs169.force.com/
+< Server: Microsoft-IIS/6.0
+< X-Powered-By: ASP.NET
+
+<head><title>Document Moved</title></head>
+<body><h1>Object Moved</h1>This document may be found <a HREF="http://qax-blackboard.cs169.force.com/">here</a></body>

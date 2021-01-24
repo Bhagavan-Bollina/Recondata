@@ -1,0 +1,27 @@
+https://bryantstratton-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bryantstratton-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 18 Jul 2019 01:23:34 GMT
+< Content-Length: 89
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: NSC_311735_wjq_69.196.227.204*443=ffffffff090e1cbf45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgstg-311735-sf118431-app002.mhint
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:25 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.2-rel.36+fbf2221
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:02:25 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors self' https://bryantstratton-stage.blackboard.com https://mybsc.bryantstratton.edu http://cloud.scorm.com/'dummy.com
+< Etag: W/"89-1563413014000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

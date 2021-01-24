@@ -1,0 +1,26 @@
+https://bbbb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bbbb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Expires: -1
+< X-Xss-Protection: 1; mode=block
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< Date: Mon, 04 Jan 2021 13:02:20 GMT
+< Pragma: no-cache
+< Content-Type: text/html; charset=utf-8
+< Vary: Accept-Encoding
+< Set-Cookie: ELOQUA=GUID=3787EEC668C24FF69D98693D20189B3F&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:02:20 GMT; path=/;SameSite=None; secure
+< X-Content-Type-Options: nosniff
+< Cache-Control: private,no-store
+
+<html>
+<head>
+</head>
+<body>
+We are sorry but this is temporarily unavailable.
+<!-- The requested landing page is not available -->
+</body>
+</html>

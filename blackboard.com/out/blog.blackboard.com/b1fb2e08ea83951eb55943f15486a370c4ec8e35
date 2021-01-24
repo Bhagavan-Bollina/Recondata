@@ -1,0 +1,743 @@
+https://blog.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: blog.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Edge-Location-Klb: UXJgqHdb87zdRQWFTtJM0VGX852b12a4897e1a447a70d8207183510a
+< Link: <https://blog.blackboard.com/wp-json/>; rel="https://api.w.org/"
+< Vary: Accept-Encoding
+< X-Kinsta-Cache: HIT
+< Server: nginx
+< Date: Mon, 04 Jan 2021 13:00:30 GMT
+< Content-Type: text/html; charset=UTF-8
+
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<!-- OneTrust Cookies Consent Notice start for blackboard.com -->
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="d1b0d0e9-5953-4238-b77a-52e9d01b22ff" ></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice end for blackboard.com -->
+	<!-- This site is optimized with the Yoast SEO plugin v15.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Blackboard Blog - Join the conversation</title>
+	<meta name="description" content="Join the conversation" />
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://blog.blackboard.com/" />
+	<link rel="next" href="https://blog.blackboard.com/page/2/" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Blackboard Blog - Join the conversation" />
+	<meta name="twitter:description" content="Join the conversation" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://blog.blackboard.com/#website","url":"https://blog.blackboard.com/","name":"Blackboard Blog","description":"Join the conversation","potentialAction":[{"@type":"SearchAction","target":"https://blog.blackboard.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://blog.blackboard.com/#webpage","url":"https://blog.blackboard.com/","name":"Blackboard Blog - Join the conversation","isPartOf":{"@id":"https://blog.blackboard.com/#website"},"description":"Join the conversation","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://blog.blackboard.com/"]}]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//widgets.getsitecontrol.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Blackboard Blog &raquo; Feed" href="https://blog.blackboard.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blackboard Blog &raquo; Comments Feed" href="https://blog.blackboard.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.blackboard.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://blog.blackboard.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='easy_author_image-css'  href='https://blog.blackboard.com/wp-content/plugins/easy-author-image/css/easy-author-image.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='blackboard-blog-style-css'  href='https://blog.blackboard.com/wp-content/themes/blackboard-blog/style.css?ver=1543025747' type='text/css' media='all' />
+<link rel='stylesheet' id='boostrap-css-css'  href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='addtoany-css'  href='https://blog.blackboard.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.15' type='text/css' media='all' />
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/plugins/enable-jquery-migrate-helper/js/jquery/jquery-1.12.4-wp.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/plugins/enable-jquery-migrate-helper/js/jquery-migrate/jquery-migrate-1.4.1-wp.js?ver=1.4.1-wp' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1' id='addtoany-js'></script>
+<link rel="https://api.w.org/" href="https://blog.blackboard.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.blackboard.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.blackboard.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.5.3" />
+
+<script data-cfasync="false">
+window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};
+(function(d,s,a,b){a=d.createElement(s);b=d.getElementsByTagName(s)[0];a.async=1;a.src="https://static.addtoany.com/menu/page.js";b.parentNode.insertBefore(a,b);})(document,"script");
+</script>
+
+        <script type="text/javascript">
+            var jQueryMigrateHelperHasSentDowngrade = false;
+
+			window.onerror = function( msg, url, line, col, error ) {
+				// Break out early, do not processing if a downgrade reqeust was already sent.
+				if ( jQueryMigrateHelperHasSentDowngrade ) {
+					return true;
+                }
+
+				var xhr = new XMLHttpRequest();
+				var nonce = 'e61bc9bb16';
+				var jQueryFunctions = [
+					'andSelf',
+					'browser',
+					'live',
+					'boxModel',
+					'support.boxModel',
+					'size',
+					'swap',
+					'clean',
+					'sub',
+                ];
+				var match_pattern = /\)\.(.+?) is not a function/;
+                var erroredFunction = msg.match( match_pattern );
+
+                // If there was no matching functions, do not try to downgrade.
+                if ( typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf( erroredFunction[1] ) ) {
+                    return true;
+                }
+
+                // Set that we've now attempted a downgrade request.
+                jQueryMigrateHelperHasSentDowngrade = true;
+
+				xhr.open( 'POST', 'https://blog.blackboard.com/wp-admin/admin-ajax.php' );
+				xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+				xhr.onload = function () {
+					var response,
+                        reload = false;
+
+					if ( 200 === xhr.status ) {
+                        try {
+                        	response = JSON.parse( xhr.response );
+
+                        	reload = response.data.reload;
+                        } catch ( e ) {
+                        	reload = false;
+                        }
+                    }
+
+					// Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
+					if ( reload ) {
+						location.reload();
+                    }
+				};
+
+				xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce ) );
+
+				// Suppress error alerts in older browsers
+				return true;
+			}
+        </script>
+
+				<style type="text/css" id="wp-custom-css">
+			body h2{
+    font-size: 20px!important;
+	  font-weight: bold!important;
+}
+.cn-button.wp-default {
+	  height: 28px;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    color: #000;
+    background: #f9a21d;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    font-size: 1.5rem;
+		text-shadow: none;
+}
+
+.cn-button.wp-default:hover {
+    background: #ffd191;
+}
+#lang_menu li.globe-na a:after{background: url(https://blog.blackboard.com/wp-content/themes/blackboard-blog/assets/images/icon-globe-white.svg) no-repeat center !important; background-size: 25px !important;}
+#lang_menu li a:after{background:url(https://blog.blackboard.com/wp-content/themes/blackboard-blog/assets/images/icon-globe-white.svg) no-repeat center !important; background-size: 25px !important;}
+#lang_menu li.globe-eme a:after{background: url(https://blog.blackboard.com/wp-content/themes/blackboard-blog/assets/images/icon-globe-white.svg) no-repeat center !important; background-size: 25px !important;}
+#lang_menu li.globe-apac a:after{background: url(https://blog.blackboard.com/wp-content/themes/blackboard-blog/assets/images/icon-globe-white.svg) no-repeat center !important; background-size: 25px !important;}
+#lang_menu li.globe-sa a:after{background: url(https://blog.blackboard.com/wp-content/themes/blackboard-blog/assets/images/icon-globe-white.svg) no-repeat center !important; background-size: 25px !important;}		</style>
+		    
+     <script type="text/plain" class="optanon-category-C0004">
+
+//Eloqua tracking start
+var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2376']);
+    _elqQ.push(['elqUseFirstPartyCookie', '<tracking.blackboard.com>']);
+    _elqQ.push(['elqTrackPageView']);
+	
+    (function() {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//img.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+        if(window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load);
+    })();
+//End Eloqua Tracking
+</script>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-W27BPV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W27BPV');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/plain" class="optanon-category-C0002" async src="https://www.googletagmanager.com/gtag/js?id=UA-8393086-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-8393086-1", {"groups":"default","anonymize_ip":true});</script>
+
+<meta name="google-site-verification" content="uzJtDG__3dCQBpXo0l_f-RyZ30Yu-8hhPLEBQJ7gmuQ" />
+	
+<!-- Site Improve -->
+<script type="text/plain" class="optanon-category-C0002">
+/*<![CDATA[*/
+(function() {
+	var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+	sz.src = '//siteimproveanalytics.com/js/siteanalyze_6004134.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script></head>
+
+<body class="home blog hfeed no-sidebar">
+
+ 
+<div id="page" class="site">
+	
+	<div class="skipnav"><a class="skip-link screen-reader-text" aria-title="Skip to Content" href="#content">Skip to Content</a></div>
+	
+	<header id="bb_header" class="bb-header container-fluid" role="banner">
+		
+		<div class="row">
+			
+			<div class="bb-logo">
+				<h1 class="site-title"><a href="https://blog.blackboard.com/" rel="home" aria-label="Blackboard Home"><img src="https://blog.blackboard.com/wp-content/uploads/blackboard-blog-logo.svg" alt=""></a></h1>			</div><!-- bb-logo -->
+            
+            <div class="bb-menu-btn" aria-label="Toggle Mobile Navigation">
+				
+			</div>
+						
+			
+            
+            
+			<script>
+			jQuery(document).ready(function($){
+				
+				
+				$(window).click(function() {
+					$('.bb-tool').removeClass('active');
+					$('.bb-tool-drop').removeClass('active');
+					$('.bb-close-btn').css({display: 'none'});
+                    
+                    if( $('.bb-lightbox').hasClass('active')){
+                        $('.bb-lightbox').removeClass('active');
+                        $('.gform_wrapper').appendTo('#form_wrapper .form-container');
+                    }
+                    
+				});
+				
+				$('.bb-tools .bb-tool').bind('click', function(event){
+					event.stopPropagation();
+					var tool_index = $(this).index() + 1;
+										
+					if($(this).hasClass('active')){
+						$(this).removeClass('active');
+						$('.bb-tool-drop').removeClass('active');
+					} else{
+						$('.bb-tool').removeClass('active');
+                        $('.bb-tool-drop').removeClass('active');
+						$(this).addClass('active');
+                        $(this).find('.bb-tool-drop').addClass('active');
+					}
+					
+				});
+				
+				
+				
+				$('.bb-menu-btn').bind('click', function(){
+					if($(this).hasClass('active')){
+						$(this).removeClass('active');
+						$('.bb-blog-menu-wrap').removeClass('active');
+						$('.bb-tools').removeClass('active');
+						$('#bb_nav').removeClass('active');
+					} else{
+						$(this).addClass('active');
+						$('.bb-blog-menu-wrap').addClass('active');
+						$('.bb-tools').addClass('active');
+						
+						$('#bb_nav').addClass('active');
+					}
+				});
+				
+				$('.menu-item-has-children').bind('click', function(){
+					if($(this).hasClass('active')){
+						$(this).removeClass('active');
+					} else{
+						$('.menu-item-has-children').removeClass('active');
+						$(this).addClass('active');
+					}
+				});
+                
+                
+                $('.email-btn').bind('click', function(event){
+                    event.stopPropagation();
+                    $('.bb-lightbox').addClass('active');
+                    $('.gform_wrapper').appendTo('.bb-form-wrap .form-container');
+                });
+                
+                $('.bb-form-wrap, .bb-tool-drop').bind('click', function(event){
+                   event.stopPropagation(); 
+                });
+                
+                $('.bb-lightbox .close-btn').bind('click', function(){
+                    $('.bb-lightbox').removeClass('active');
+                    $('.gform_wrapper').appendTo('#form_wrapper .form-container');
+                });
+								
+			});
+			</script>
+			
+		</div>
+        
+    <nav id="bb_nav" class="bb-nav container-fluid" aria-label="Primary" role="navigation">
+        <div class="row">
+                    <div class="bb-main-menu">
+<ul class="menu">
+<li class="item menu-item-has-children has-mega-menu"><a href="#" class="">Higher Education</a><ul class="sub-menu">
+<div class="row"><div class="col-md-7 col-lg-5 p-0"><li class="item">
+<a href="/markets/higher-education/?category=education-accessibility&title=Accessibility" class="">Accessibility</a>
+</li>
+<li class="item">
+<a href="/markets/higher-education/?category=educational-data-privacy&title=Educational%20Data%20and%20Privacy" class="">Educational Data & Privacy</a>
+</li>
+<li class="item">
+<a href="/markets/higher-education/?category=blackboard-elearning&title=eLearning" class="">eLearning</a>
+</li>
+<li class="item">
+<a href="/markets/higher-education/?category=blackboard-learning-analytics&title=Learning%20Analytics" class="">Learning Analytics</a>
+</li>
+<li class="item">
+<a href="/markets/higher-education/?category=marketing-enrollment&title=Marketing%20and%20Enrollment" class="">Marketing and Enrollment</a>
+</li>
+<li class="item">
+<a href="/markets/higher-education/?category=mobile-education&title=Mobile%20Education" class="">Mobile Education</a>
+</li>
+<li class="item">
+<a href="/markets/higher-education/?category=student-support-services&title=Student%20Support%20Services" class="">Student Support Services</a>
+</li>
+</div><div class="menu-promo-wrap col-md-5 col-lg-7 p-0"><div class="row"><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="410" height="145" src="https://blog.blackboard.com/wp-content/uploads/Blog_Header-410x145.png" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/Blog_Header-410x145.png 410w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-300x105.png 300w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-622x220.png 622w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-820x290.png 820w" sizes="(max-width: 410px) 100vw, 410px" /></div><p class="title"><a href="https://blog.blackboard.com/our-commitment-to-diversity-equity-and-inclusion/">Our Commitment to Diversity, Equity, and Inclusion</a></p></div><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="410" height="145" src="https://blog.blackboard.com/wp-content/uploads/iStock_000073398389_Double-scaled-e1591890077872-410x145.jpg" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/iStock_000073398389_Double-scaled-e1591890077872-410x145.jpg 410w, https://blog.blackboard.com/wp-content/uploads/iStock_000073398389_Double-scaled-e1591890077872-622x220.jpg 622w, https://blog.blackboard.com/wp-content/uploads/iStock_000073398389_Double-scaled-e1591890077872-820x290.jpg 820w, https://blog.blackboard.com/wp-content/uploads/iStock_000073398389_Double-scaled-e1591890077872-1400x495.jpg 1400w" sizes="(max-width: 410px) 100vw, 410px" /></div><p class="title"><a href="https://blog.blackboard.com/ai-improves-the-higher-ed-student-experience/">Survey Results: Higher Ed Leaders Say AI Can Improve the Student Experience</a></p></div></div></div></div></ul>
+</li>
+<li class="item menu-item-has-children has-mega-menu"><a href="#" class="">K12</a><ul class="sub-menu">
+<div class="row"><div class="col-md-7 col-lg-5 p-0"><li class="item">
+<a href="/markets/k-12/?category=education-accessibility&title=Accessibility" class="">Accessibility</a>
+</li>
+<li class="item">
+<a href="/markets/k-12/?category=blackboard-elearning&title=eLearning" class="">eLearning</a>
+</li>
+<li class="item">
+<a href="/markets/k-12/?category=parent-community-engagement&title=Parent%20and%20Community%20Engagement" class="">Parent and Community Engagement</a>
+</li>
+<li class="item">
+<a href="/markets/k-12/?category=safety-security&title=Safety%20and%20Security" class="">Safety and Security</a>
+</li>
+<li class="item">
+<a href="/markets/k-12/?category=virtual-collaboration&title=Virtual%20Collaboration" class="">Virtual Collaboration</a>
+</li>
+</div><div class="menu-promo-wrap col-md-5 col-lg-7 p-0"><div class="row"><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="410" height="145" src="https://blog.blackboard.com/wp-content/uploads/Blog_Header-410x145.png" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/Blog_Header-410x145.png 410w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-300x105.png 300w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-622x220.png 622w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-820x290.png 820w" sizes="(max-width: 410px) 100vw, 410px" /></div><p class="title"><a href="https://blog.blackboard.com/our-commitment-to-diversity-equity-and-inclusion/">Our Commitment to Diversity, Equity, and Inclusion</a></p></div><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="410" height="145" src="https://blog.blackboard.com/wp-content/uploads/thumbnail-e1589811725824-410x145.jpg" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/thumbnail-e1589811725824-410x145.jpg 410w, https://blog.blackboard.com/wp-content/uploads/thumbnail-e1589811725824-622x220.jpg 622w, https://blog.blackboard.com/wp-content/uploads/thumbnail-e1589811725824-820x290.jpg 820w, https://blog.blackboard.com/wp-content/uploads/thumbnail-e1589811725824-1400x495.jpg 1400w" sizes="(max-width: 410px) 100vw, 410px" /></div><p class="title"><a href="https://blog.blackboard.com/inittogether-during-covid-19-k12/">#InItTogether During COVID-19 and Beyond: How K-12 Districts and Schools are Staying Connected &#038; Delivering Remote Instruction</a></p></div></div></div></div></ul>
+</li>
+<li class="item menu-item-has-children has-mega-menu"><a href="#" class="">Corporation/Government</a><ul class="sub-menu">
+<div class="row"><div class="col-md-7 col-lg-5 p-0"><li class="item">
+<a href="/markets/corporation-government/?category=education-accessibility&title=Accessibility" class="">Accessibility</a>
+</li>
+<li class="item">
+<a href="/markets/corporation-government/?category=elearning-development&title=eLearning%20and%20Development" class="">eLearning and Development</a>
+</li>
+<li class="item">
+<a href="/markets/corporation-government/?category=virtual-collaboration&title=Virtual%20Collaboration" class="">Virtual Collaboration</a>
+</li>
+</div><div class="menu-promo-wrap col-md-5 col-lg-7 p-0"><div class="row"><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="410" height="145" src="https://blog.blackboard.com/wp-content/uploads/Blog_Header-410x145.png" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/Blog_Header-410x145.png 410w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-300x105.png 300w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-622x220.png 622w, https://blog.blackboard.com/wp-content/uploads/Blog_Header-820x290.png 820w" sizes="(max-width: 410px) 100vw, 410px" /></div><p class="title"><a href="https://blog.blackboard.com/our-commitment-to-diversity-equity-and-inclusion/">Our Commitment to Diversity, Equity, and Inclusion</a></p></div><div class="col-lg-6"><div class="bb-thumb-wrap"><img src=https://blog.blackboard.com/wp-content/uploads/NewDefaultImageBLOG.jpg alt=""></div><p class="title"><a href=""></a></p></div></div></div></div></ul>
+</li>
+<li class="item menu-item-has-children has-mega-menu hide"><a href="#" class="">Further Education</a><ul class="sub-menu">
+<div class="row"><div class="col-md-7 col-lg-5 p-0"><li class="item">
+<a href="/markets/further-education/?category=education-accessibility&title=Accessibility" class="">Accessibility</a>
+</li>
+<li class="item">
+<a href="/markets/further-education/?category=educational-data-privacy&title=Educational%20Data%20and%20Privacy" class="">Educational Data & Privacy</a>
+</li>
+</div><div class="menu-promo-wrap col-md-5 col-lg-7 p-0"><div class="row"><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="322" height="145" src="https://blog.blackboard.com/wp-content/uploads/analytics-blog-image.png" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/analytics-blog-image.png 999w, https://blog.blackboard.com/wp-content/uploads/analytics-blog-image-300x135.png 300w, https://blog.blackboard.com/wp-content/uploads/analytics-blog-image-768x346.png 768w" sizes="(max-width: 322px) 100vw, 322px" /></div><p class="title"><a href="https://blog.blackboard.com/introducing-blackboard-data-accelerating-impact-through-education-insight/">Introducing Blackboard Data: Accelerating Impact Through Education Insight</a></p></div><div class="col-lg-6"><div class="bb-thumb-wrap"><img width="410" height="145" src="https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-410x145.jpg" class="attachment-sm-feat size-sm-feat wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-410x145.jpg 410w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-300x106.jpg 300w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-768x272.jpg 768w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-1024x363.jpg 1024w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-622x220.jpg 622w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-820x290.jpg 820w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652-1400x495.jpg 1400w, https://blog.blackboard.com/wp-content/uploads/Monash-College-e1540581171652.jpg 1500w" sizes="(max-width: 410px) 100vw, 410px" /></div><p class="title"><a href="https://blog.blackboard.com/challenging-the-status-quo-through-an-education-transformation-monash-college/">Challenging the Status Quo Through an Education Transformation: Monash College</a></p></div></div></div></div></ul>
+</li>
+<li class="item ">
+<a href="https://blog.blackboard.com/tag/covid-19" class="">COVID-19</a>
+</li>
+</li>
+</li>
+</li>
+</ul>
+</div>
+            
+        <div class="skipnav"><a class="skip-link screen-reader-text" aria-title="Skip to Content" href="#content">Skip to Content</a></div>
+
+        <a href="#" class="email-btn" aria-label="Sign Up for Email Updates" title="Email Updates">Sign Up for Email Updates</a>
+            
+        <div class="bb-tools">
+				<ul>
+					<li class="bb-tool" aria-title="Search the Blog">
+						<a href="#"></a>
+                        <ul class="bb-tool-drop">
+                            <li>
+                            
+                                <p id="bb_search" class="bb-title">Search</p>
+                                <div class="bb-tools-content">
+                                    <form >
+                                        <label for="search">Search</label>
+                                        <input type="search" name="s" placeholder="Enter search term(s)" id="search">
+                                        <input type="submit" value="GO">
+                                    </form>
+                                </div><!-- bb-tools-content -->
+                                
+                            </li>
+                        </ul>
+					</li>
+							
+					<li class="bb-tool" aria-label="RSS Signup">
+						<a href="#"></a>
+                        <ul class="bb-tool-drop">
+                            <li>
+                            
+                            <p class="bb-title">Keep in Touch</p>
+                            <div class="bb-tools-content">
+                                <p>Sign up for our RSS feed to get news delivered to your inbox, or simply click the "SUBSCRIBE" button below.</p><a href="https://feeds.feedburner.com/blackboard/Seah" target="_blank" type="application/rss+xml" title="Subscribe to RSS feed" rel="Subscribe to RSS feed" aria-label="Subscribe to RSS feed" class="bb-btn">Subscribe to our RSS</a>                            
+                                <a href="#" class="email-btn" aria-label="Sign Up for Email Updates" title="Email Updates">Sign Up for Email Updates</a>
+
+                                <div class="bb-rss-social-wrap"><ul class="bb-sm"><li><a href="https://twitter.com/Blackboard" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/blackboard" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li><li><a href="https://www.youtube.com/user/BlackboardTV" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li><li><a href="https://www.linkedin.com/company/blackboard" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a></li><li><a href="https://plus.google.com/+BlackboardOnGoogle/posts" aria-label="Google Plus"><i class="fab fa-google-plus-g"></i></a></li></ul><!-- bb-sm --></div><!-- social-media -->
+                            </div><!-- bb-tools-content -->
+                            
+                            </li>
+                        </ul>
+					</li>
+					
+					<li class="bb-tool" aria-label="View content by Region">
+                        <a href="#"></a>
+                        <ul class="bb-tool-drop">
+                            <li>
+                            
+                                <p class="bb-title">Location</p>
+                                <div class="bb-tools-content">
+                                    
+                                    <p><strong>Select Your Region</strong></p><p>We help transform teaching and learning all across the globe. Make sure you're getting the most relevant information for your needs, no matter where you are.</p>                                
+                                    <div class="bb-lang-menu"><ul id="lang_menu" class="menu"><li id="menu-item-37692" class="globe-na menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37692"><a href="https://blog.blackboard.com/category/north-america/">North America</a></li>
+<li id="menu-item-37691" class="globe-sa menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37691"><a href="https://blog.blackboard.com/category/latin-america/">Latin America &#038; Caribbean</a></li>
+<li id="menu-item-37689" class="globe-apac menu-item menu-item-type-taxonomy menu-item-object-category menu-item-37689"><a href="https://blog.blackboard.com/category/apac/">Asia Pacific</a></li>
+<li id="menu-item-42818" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42818"><a href="https://blog.blackboard.com/category/europe/">Europe</a></li>
+<li id="menu-item-42819" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-42819"><a href="https://blog.blackboard.com/category/middle-east-africa/">Middle East &#038; Africa</a></li>
+</ul></div>
+                                </div><!-- bb-tools-content -->
+                                
+                            </li>
+                        </ul>
+					</li>
+                    
+				</ul>
+			</div><!-- bb-tools -->	
+            
+        </div><!-- row -->
+    </nav><!-- bb-nav -->
+        
+	</header><!-- bb-header -->
+    
+    <div class="bb-lightbox">
+        <div class="bb-form-wrap">
+            <div class="close-btn"></div>
+            <h5 class="bb-title">Sign Up for Email Updates</h5>
+            <div class="form-container"></div>
+                        <p class="bb-note"><p>Your privacy is important to us. You can <a href="https://go.blackboard.com/preferences" target="_blank" rel="noopener">change your preferences or unsubscribe at any time</a>. We will only use the information you have provided to send you blog updates unless we have permission to send you other email communications. We may share your information with the relevant local Blackboard channel partners (resellers) if your organization is located in an area managed by Blackboard partners (<a href="https://www.blackboard.com/about-us/locations/find-a-channel-partner.html" target="_blank" rel="noopener">see list here</a>). <a href="https://help.blackboard.com/Privacy_Statement" target="_blank" rel="noopener">View our Privacy Statement for more details.</a></p>
+</p>
+            
+        </div><!-- bb-form-wrap -->
+    </div><!-- bb-lightbox -->
+
+<img class="bb-banner-feat-img" src="https://blog.blackboard.com/wp-content/uploads/Untitled-design.png" alt="">
+
+<section class="container-fluid bb-banner" style="background:url(https://blog.blackboard.com/wp-content/uploads/Untitled-design.png) no-repeat center top; background-size:cover;">
+	<div class="row align-items-center">
+		
+		<article class="feat-story col-lg-6"><p class="bb-post-type">FEATURED STORY</p><h3 class="bb-title"><a href="https://blog.blackboard.com/breaking-for-belonging-empowered-inclusion/" aria-label="Breaking for Belonging: Empowered Inclusion">Breaking for Belonging: Empowered Inclusion</a></h3><p>For our fourth installment of the inclusive learning blog series, we chatted with Dr. Sean Turner. Dr. Turner has been teaching high school, undergraduate, and graduate students in New York City for over 20 years. </p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/john-scott/" aria-label="Post written by John Scott">John Scott</a></span>  |  <span class="bb-date">December 3, 2020</span></p></article>		
+		
+	</div>
+</section>
+
+	
+		<section class="bb-sub-banner container-fluid">
+	               <div class="row"><article class="feat-story pl-lg-0 col-lg-6"><a href="https://blog.blackboard.com/how-to-transition-your-face-to-face-course-to-online/" title="Guest Blog: How to Transition Your Face to Face Course to Online" aria-label="Guest Blog: How to Transition Your Face to Face Course to Online" class="bb-feat-thumb"><img width="622" height="220" src="https://blog.blackboard.com/wp-content/uploads/GettyImages-1181068197-1-e1600956012308-622x220.jpg" class="feat-img wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/GettyImages-1181068197-1-e1600956012308-622x220.jpg 622w, https://blog.blackboard.com/wp-content/uploads/GettyImages-1181068197-1-e1600956012308-410x145.jpg 410w, https://blog.blackboard.com/wp-content/uploads/GettyImages-1181068197-1-e1600956012308-820x290.jpg 820w, https://blog.blackboard.com/wp-content/uploads/GettyImages-1181068197-1-e1600956012308-1400x495.jpg 1400w" sizes="(max-width: 622px) 100vw, 622px" /></a><p class="bb-post-type">FEATURED STORY</p><h3 class="bb-title"><a href="https://blog.blackboard.com/how-to-transition-your-face-to-face-course-to-online/">Guest Blog: How to Transition Your Face to Face Course to Online</a></h3><p><span class="bb-author"><a href="https://blog.blackboard.com/author/blackboard/">Blackboard</a></span>  |  <span class="bb-date">September 24, 2020</span></p><p class="bb-cats">, <a href="https://blog.blackboard.com/category/virtual-collaboration/blackboard-collab/" rel="category tag">Blackboard Collaborate</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/blackboard-learn-lms/" rel="category tag">Blackboard Learn</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/" rel="category tag">eLearning</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/blackboard-learning-management-system/" rel="category tag">Learning Management System (LMS)</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/blackboard-online-learning/" rel="category tag">Online Learning</a>, <a href="https://blog.blackboard.com/category/blackboard-thought-leadership/" rel="category tag">Thought Leadership &amp; Client Success</a></p></article><article class="feat-story pr-lg-0 col-lg-6"><a href="https://blog.blackboard.com/building-the-foundations-for-a-better-student-experience-online/" title="Guest Blog: Building the Foundations for a Better Student Experience Online" aria-label="Guest Blog: Building the Foundations for a Better Student Experience Online" class="bb-feat-thumb"><img width="622" height="220" src="https://blog.blackboard.com/wp-content/uploads/Canva-Person-Using-Laptop-scaled-e1586545910977-1536x703-1-622x220.jpg" class="feat-img wp-post-image" alt="" loading="lazy" srcset="https://blog.blackboard.com/wp-content/uploads/Canva-Person-Using-Laptop-scaled-e1586545910977-1536x703-1-622x220.jpg 622w, https://blog.blackboard.com/wp-content/uploads/Canva-Person-Using-Laptop-scaled-e1586545910977-1536x703-1-410x145.jpg 410w, https://blog.blackboard.com/wp-content/uploads/Canva-Person-Using-Laptop-scaled-e1586545910977-1536x703-1-820x290.jpg 820w, https://blog.blackboard.com/wp-content/uploads/Canva-Person-Using-Laptop-scaled-e1586545910977-1536x703-1-1400x495.jpg 1400w" sizes="(max-width: 622px) 100vw, 622px" /></a><p class="bb-post-type">FEATURED STORY</p><h3 class="bb-title"><a href="https://blog.blackboard.com/building-the-foundations-for-a-better-student-experience-online/">Guest Blog: Building the Foundations for a Better Student Experience Online</a></h3><p><span class="bb-author"><a href="https://blog.blackboard.com/author/blackboard/">Blackboard</a></span>  |  <span class="bb-date">November 4, 2020</span></p><p class="bb-cats">, <a href="https://blog.blackboard.com/category/education-accessibility/" rel="category tag">Accessibility</a>, <a href="https://blog.blackboard.com/category/archives/" rel="category tag">Archives</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/blackboard-learn-lms/" rel="category tag">Blackboard Learn</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/" rel="category tag">eLearning</a>, <a href="https://blog.blackboard.com/category/elearning-development/" rel="category tag">eLearning &amp; Development</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/blackboard-learning-management-system/" rel="category tag">Learning Management System (LMS)</a>, <a href="https://blog.blackboard.com/category/blackboard-elearning/blackboard-online-learning/" rel="category tag">Online Learning</a></p></article></div>
+</section>
+<section id="content" class="bb-main container-fluid">
+	<div class="row">
+		
+		<section class="bb-posts-wrap p-0 col-lg-8">
+			<div class="row">
+				
+			
+							<section class="bb-text-only px-lg-0 col-12">
+					<div class="bb-text-post">
+						<h4 class="bb-title">Explore the Latest Posts</h4>						<p class="bb-desc"><h2>Hear directly from our clients, leaders and partners on how they are using EdTech solutions and best practices to navigate what&#8217;s next in education.</h2>
+</p>					</div><!-- bb-text-post -->
+				</section><!-- bb-text-only -->
+							
+			
+			<div class="col-md-9 bb-filters pl-md-0 pb-4">
+
+				<div class="row">
+				
+				<div class="dropdown col-md-4 px-0 pr-md-4 pl-md-0 pb-4 filter-main">
+					<button class="bb-button dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View All</button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					  <li><a class="dropdown-item" href="#!">View by Category</a></li>
+					  <li><a class="dropdown-item" href="#!">View by Market</a></li>
+					  <li><a class="dropdown-item" href="#!">View by Author</a></li>
+				  </ul>
+				</div>
+				
+				<div class="dropdown col-md-4 px-0 pl-md-4 pr-md-0 pb-4 filter-category d-none filter-conditional">
+					<button class="bb-button dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">- Select Category -</button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					  
+					<li><a class="dropdown-item" href="#!" data-slug="about-blackboard">About Blackboard</a></li><li><a class="dropdown-item" href="#!" data-slug="education-accessibility">Accessibility</a></li><li><a class="dropdown-item" href="#!" data-slug="educational-assessment">Assessment</a></li><li><a class="dropdown-item" href="#!" data-slug="campus-solutions-payments">Campus Solutions</a></li><li><a class="dropdown-item" href="#!" data-slug="parent-community-engagement">Community Engagement</a></li><li><a class="dropdown-item" href="#!" data-slug="corporate-learning-training">Corporate Learning</a></li><li><a class="dropdown-item" href="#!" data-slug="educational-data-privacy">Data & Privacy</a></li><li><a class="dropdown-item" href="#!" data-slug="blackboard-elearning">eLearning</a></li><li><a class="dropdown-item" href="#!" data-slug="blackboard-learning-analytics">Learning Analytics</a></li><li><a class="dropdown-item" href="#!" data-slug="marketing-enrollment">Marketing & Enrollment</a></li><li><a class="dropdown-item" href="#!" data-slug="mobile-education">Mobile Education</a></li><li><a class="dropdown-item" href="#!" data-slug="blackboard-news">News</a></li><li><a class="dropdown-item" href="#!" data-slug="blackboard-partnership">Partnerships</a></li><li><a class="dropdown-item" href="#!" data-slug="safety-security">Safety & Security</a></li><li><a class="dropdown-item" href="#!" data-slug="blackboard-student-retention">Student Retention</a></li><li><a class="dropdown-item" href="#!" data-slug="student-support-services">Student Support Services</a></li><li><a class="dropdown-item" href="#!" data-slug="virtual-collaboration">Virtual Collaboration</a></li>					  
+				  </ul>
+				</div>
+					
+				<div class="dropdown col-md-4 px-0 pl-md-4 pr-md-0 pb-4 filter-market d-none filter-conditional">
+					<button class="bb-button dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">- Select Market -</button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					  <li><a class="dropdown-item" href="#!" data-slug="higher-education">Higher Education</a></li><li><a class="dropdown-item" href="#!" data-slug="k-12">K-12</a></li><li><a class="dropdown-item" href="#!" data-slug="corporation-government">Corporate/Government</a></li><li><a class="dropdown-item" href="#!" data-slug="further-education">Further Education</a></li>				  </ul>
+				</div>
+					
+				<div class="dropdown col-md-4 px-0 pl-md-4 pr-md-0 pb-4 filter-author d-none filter-conditional">
+					<button class="bb-button dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">- Select Author -</button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<li><a class="dropdown-item" href="#!" name="188" >Blackboard</a></li><li><a class="dropdown-item" href="#!" name="257" >Timothy Harfield</a></li><li><a class="dropdown-item" href="#!" name="201" >Christina Fleming</a></li><li><a class="dropdown-item" href="#!" name="265" >Katie Gallagher</a></li><li><a class="dropdown-item" href="#!" name="267" >Bill Ballhaus</a></li><li><a class="dropdown-item" href="#!" name="285" >Hope Warner</a></li><li><a class="dropdown-item" href="#!" name="310" >John Scott</a></li><li><a class="dropdown-item" href="#!" name="227" >Van Davis</a></li><li><a class="dropdown-item" href="#!" name="295" >Stephan Geering</a></li><li><a class="dropdown-item" href="#!" name="264" >Demetra Katsifli</a></li><li><a class="dropdown-item" href="#!" name="95" >Lee Perlis</a></li><li><a class="dropdown-item" href="#!" name="204" >Phill Miller</a></li><li><a class="dropdown-item" href="#!" name="334" >Emily Ward</a></li><li><a class="dropdown-item" href="#!" name="273" >Nicolaas Matthijs</a></li><li><a class="dropdown-item" href="#!" name="281" >Kathy Vieira</a></li>	
+				  </ul>
+				</div>
+					
+				<button class="col-md-3 ml-md-5 clear-filter d-none">Clear Filter</button>			
+					
+				</div>
+
+			</div><!-- filters -->
+			<div class="col-md-6 bb-pagination pr-md-0">
+			</div><!-- pagination -->
+
+			<div class="post-results col-12 px-0"></div>
+				
+			</div><!-- row -->
+		</section><!-- bb-posts-wrap -->
+				
+			<aside class="col-lg-4 pr-lg-0 px-md-0 pl-lg-5 bb-sidebar">
+				<div class="row">
+				
+				<div class="bb-widget col-12"><h5 class="bb-title">Blackboard News</h5><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/we-are-here-for-you-during-coronavirus/">We Are Here for You During Coronavirus</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/bill-ballhaus/">Bill Ballhaus</a></span>  |  <span class="bb-date">March 13, 2020</span></p></div><!-- bb-post --><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/sharing-coronavirus-contingency-planning-best-practices/">Sharing Coronavirus Contingency Planning Best Practices (Updated August 2020)</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/brent-mundy/">Brent Mundy</a></span>  |  <span class="bb-date">August 3, 2020</span></p></div><!-- bb-post --><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/lets-advance-learning/">Let’s Advance Learning</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/bill-ballhaus/">Bill Ballhaus</a></span>  |  <span class="bb-date">July 19, 2020</span></p></div><!-- bb-post --><a href="/category/blackboard-news/" class="bb-more-btn">View More Articles</a></div><!-- bb-widget -->				
+				
+				<div class="bb-widget col-12"><h5 class="bb-title">Product Updates</h5><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/blackboard-unite-for-k12/">Announcing Blackboard Unite for K-12:  Partnering With K-12 Districts Through a Comprehensive Shift to Virtual Learning</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/christina-fleming/">Christina Fleming</a></span>  |  <span class="bb-date">April 14, 2020</span></p></div><!-- bb-post --><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/hey-google-meet-blackboard-learn/">Hey Google, Meet Blackboard Learn</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/jace-howard/">Jace Howard</a></span>  |  <span class="bb-date">April 15, 2020</span></p></div><!-- bb-post --><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/supporting-continuity-of-education-with-blackboard-learn-and-microsoft-teams/">Supporting Continuity of Education with Blackboard Learn and Microsoft Teams</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/jace-howard/">Jace Howard</a></span>  |  <span class="bb-date">March 20, 2020</span></p></div><!-- bb-post --><a href="/category/blackboard-product-updates/" class="bb-more-btn">View More Articles</a></div><!-- bb-widget -->						
+						
+				<div class="bb-widget col-12"><h5 class="bb-title">Thought Leadership & Client Success</h5><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/online-strategy-checklist/">Updating Your Online Learning Strategy</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/darcy-hardy/">Darcy Hardy</a></span>  |  <span class="bb-date">April 15, 2020</span></p></div><!-- bb-post --><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/ai-chatbot-playbook-for-higher-ed/">AI-Powered Chatbots in Higher Ed: How to Prepare Your Institution</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/danielwoodcock/">Daniel Woodcock</a></span>  |  <span class="bb-date">June 25, 2020</span></p></div><!-- bb-post --><div class="bb-post"><p class="bb-title"><a href="https://blog.blackboard.com/4-tips-for-virtual-it-support-success/">4 Tips for Virtual IT Support Success</a></p><p><span class="bb-author"><a href="https://blog.blackboard.com/author/danielwoodcock/">Daniel Woodcock</a></span>  |  <span class="bb-date">May 27, 2020</span></p></div><!-- bb-post --><a href="/category/blackboard-thought-leadership/" class="bb-more-btn">View More Articles</a></div><!-- bb-widget -->				
+
+			</div><!-- row -->
+		</aside><!-- bb-sidebar -->
+		
+	</div>
+</section><!-- bb-main -->
+
+<script>
+jQuery(document).ready( function($){	
+	$('.dropdown-menu li a').click(function(){
+		$(this).parents('.dropdown').find('.bb-button').html($(this).text());
+		$(this).parents('.dropdown').find('.bb-button').val($(this).data(''));
+        $(this).parents('.dropdown').find('.bb-button').val($(this).data('slug'));
+		
+		if($(this).text() == 'View by Category'){
+			$('.filter-conditional').removeClass('d-block').addClass('d-none');
+			$('.filter-market .bb-button').text('- Select Market -');
+			$('.filter-author .bb-button').text('- Select Author -');
+			$('.filter-category, .clear-filter').removeClass('d-none').addClass('d-block');
+            
+		}
+		
+		if($(this).text() == 'View by Market'){
+			$('.filter-conditional').removeClass('d-block').addClass('d-none');
+			$('.filter-category .bb-button').text('- Select Category -');
+			$('.filter-author .bb-button').text('- Select Author -');
+			$('.filter-market, .clear-filter').removeClass('d-none').addClass('d-block');
+		}
+		
+		if($(this).text() == 'View by Author'){
+			$('.filter-conditional').removeClass('d-block').addClass('d-none');
+			$('.filter-market .bb-button').text('- Select Market -');
+			$('.filter-category .bb-button').text('- Select Category -');
+			$('.filter-author, .clear-filter').removeClass('d-none').addClass('d-block');
+		}
+        
+        if( $(this).parents('.dropdown').hasClass('filter-author') ){
+            $(this).parents('.dropdown').find('.bb-button').attr('name', $(this).attr('name'));
+        }
+        
+	});
+	
+	$('.clear-filter').click(function(){
+        $('.filter-main .bb-button').text('View All')
+		$('.filter-market .bb-button').text('- Select Market -');
+		$('.filter-category .bb-button').text('- Select Category -');
+		$('.filter-author .bb-button').text('- Select Author -');
+		$('.filter-author, .filter-category, .filter-market, .clear-filter').removeClass('d-block').addClass('d-none');
+		
+		$('.bb-filters .dropdown').each(function(){
+			$(this).find('.bb-button').val($(this).data(''));
+            $(this).find('.bb-button').attr('name', '');
+		});
+		
+		
+	});
+
+});
+</script>
+
+
+	<section class="container-fluid bb-widget-wrap">
+		<div class="row">
+			
+			<div class="col-md-8 bb-widgets pl-md-0 mb-md-0 mb-5">
+				<div class="row">
+				<div id="nav_menu-2" class="bb-widget pl-0 col-lg-3 col-md-6 widget_nav_menu"><h5 class="bb-title">About Blackboard</h5><div class="menu-widget-menu-container"><ul id="menu-widget-menu" class="menu"><li id="menu-item-39283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39283"><a href="https://www.blackboard.com/about-us/index.html">Learn More About Blackboard</a></li>
+<li id="menu-item-37698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37698"><a href="https://www.blackboard.com/about-us/leadership/leadership-team.html">Leadership</a></li>
+<li id="menu-item-37699" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37699"><a href="https://careers.blackboard.com/">Work at Blackboard</a></li>
+<li id="menu-item-37700" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37700"><a href="http://press.blackboard.com/">News</a></li>
+<li id="menu-item-37701" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37701"><a href="https://eventcalendar.blackboard.com/c/calendar/1e1845ad-c5de-443a-bbed-a18ea4f941ac">Events</a></li>
+<li id="menu-item-37702" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37702"><a href="https://www.blackboard.com/blackboard-insights.html">Blackboard Insights</a></li>
+</ul></div></div>				</div>
+				
+			</div><!-- bb-widgets -->
+						
+				<div id="form_wrapper" class="col-md-4 bb-form pl-md-5 pr-md-0"><h5 class="bb-title">Sign Up for Email Updates</h5>
+                <div class="form-container">
+				
+                <div class='gf_browser_chrome gform_wrapper' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data'  id='gform_1'  action='/'>
+                        <div class='gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id='field_1_1'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_1' >First Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='medium'    placeholder='First Name' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_2'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_2' >Last Name<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_text'><input name='input_2' id='input_1_2' type='text' value='' class='medium'    placeholder='Last Name' aria-required="true" aria-invalid="false" /></div></li><li id='field_1_3'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_3' >Email Address<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_email'>
+                            <input name='input_3' id='input_1_3' type='email' value='' class='medium'   placeholder='Email Address' aria-required="true" aria-invalid="false" />
+                        </div></li><li id='field_1_18'  class='gfield gfield_contains_required field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_18' >Blog Region/Language Preference<span class='gfield_required'>*</span></label><div class='ginput_container ginput_container_select'><select name='input_18' id='input_1_18' class='medium gfield_select'   aria-required="true" aria-invalid="false"><option value='' selected='selected' class='gf_placeholder'>(Blog Region Preference)</option><option value='NA' >North America (English)</option><option value='LAC' >Latin America &amp; Caribbean (English &amp; Spanish)</option><option value='APAC' >Asia Pacific (English)</option><option value='EU' >Europe (English)</option><option value='MEA' >Middle East &amp; Africa (English)</option></select></div></li><li id='field_1_5'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_5' id='input_1_5' type='hidden' class='gform_hidden'  aria-invalid="false" value='on' /></li><li id='field_1_15'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_15' id='input_1_15' type='hidden' class='gform_hidden'  aria-invalid="false" value='0' /></li><li id='field_1_16'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_16' id='input_1_16' type='hidden' class='gform_hidden'  aria-invalid="false" value='Blog' /></li><li id='field_1_14'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_14' id='input_1_14' type='hidden' class='gform_hidden'  aria-invalid="false" value='0' /></li><li id='field_1_6'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_6' id='input_1_6' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_1_7'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_7' id='input_1_7' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_1_8'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_8' id='input_1_8' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_1_9'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_9' id='input_1_9' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_1_10'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_10' id='input_1_10' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li><li id='field_1_17'  class='gfield field_sublabel_below field_description_below gfield_visibility_visible' ><label class='gfield_label' for='input_1_17' >CAPTCHA</label><div id='input_1_17' class='ginput_container ginput_recaptcha' data-sitekey='6Let43sUAAAAAAc_wDj_4glwXyGwiNjugKg0xJMs'  data-theme='light' data-tabindex='0'  data-badge=''></div></li><li id='field_1_19'  class='gfield gform_hidden field_sublabel_below field_description_below gfield_visibility_visible' ><input name='input_19' id='input_1_19' type='hidden' class='gform_hidden'  aria-invalid="false" value='' /></li>
+                            </ul></div>
+        <div class='gform_footer top_label'> <input type='submit' id='gform_submit_button_1' class='gform_button button' value='Sign Up'  onclick='if(window["gf_submitting_1"]){return false;}  if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  ' onkeypress='if( event.keyCode == 13 ){ if(window["gf_submitting_1"]){return false;} if( !jQuery("#gform_1")[0].checkValidity || jQuery("#gform_1")[0].checkValidity()){window["gf_submitting_1"]=true;}  jQuery("#gform_1").trigger("submit",[true]); }' /> 
+            <input type='hidden' class='gform_hidden' name='is_submit_1' value='1' />
+            <input type='hidden' class='gform_hidden' name='gform_submit' value='1' />
+            
+            <input type='hidden' class='gform_hidden' name='gform_unique_id' value='' />
+            <input type='hidden' class='gform_hidden' name='state_1' value='WyJbXSIsIjIwNTUxNDk2MThiNTFiMjEwNjVhMWVlMjBiOGY0YzJkIl0=' />
+            <input type='hidden' class='gform_hidden' name='gform_target_page_number_1' id='gform_target_page_number_1' value='0' />
+            <input type='hidden' class='gform_hidden' name='gform_source_page_number_1' id='gform_source_page_number_1' value='1' />
+            <input type='hidden' name='gform_field_values' value='' />
+            
+        </div>
+                        </form>
+                        </div><script type='text/javascript'> jQuery(document).bind('gform_post_render', function(event, formId, currentPage){if(formId == 1) {if(typeof Placeholders != 'undefined'){
+                        Placeholders.enable();
+                    }} } );jQuery(document).bind('gform_post_conditional_logic', function(event, formId, fields, isInit){} );</script><script type='text/javascript'> jQuery(document).ready(function(){jQuery(document).trigger('gform_post_render', [1, 1]) } ); </script>                </div><!-- form-container -->
+                    <p class="bb-note"><p>Your privacy is important to us. You can <a href="https://go.blackboard.com/preferences" target="_blank" rel="noopener">change your preferences or unsubscribe at any time</a>. We will only use the information you have provided to send you blog updates unless we have permission to send you other email communications. We may share your information with the relevant local Blackboard channel partners (resellers) if your organization is located in an area managed by Blackboard partners (<a href="https://www.blackboard.com/about-us/locations/find-a-channel-partner.html" target="_blank" rel="noopener">see list here</a>). <a href="https://help.blackboard.com/Privacy_Statement" target="_blank" rel="noopener">View our Privacy Statement for more details.</a></p>
+</p>
+				</div><!-- bb-form -->
+			
+						
+		</div>
+	</section>
+
+	<footer id="bb_footer" class="bb-footer container-fluid" role="contentinfo">
+		<div class="row px-4 px-sm-0">
+			<nav id="bb_footer_nav" class="bb-footer-nav row" role="navigation" aria-label="Secondary">
+				<div class="bb-footer-menu col-md-8"><ul id="footer_menu" class="menu"><li id="menu-item-37693" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37693"><a href="https://www.blackboard.com/html-sitemap.html">Sitemap</a></li>
+<li id="menu-item-37694" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37694"><a href="https://www.blackboard.com/legal/security-policy.html">Security</a></li>
+<li id="menu-item-37695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37695"><a href="https://www.blackboard.com/legal/privacy-center.html">Privacy Policy</a></li>
+<li id="menu-item-37696" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37696"><a href="https://www.blackboard.com/legal/terms-of-use.html">Terms of Use</a></li>
+<li id="menu-item-37697" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37697"><a href="https://www.blackboard.com/accessibility.html">Accessibility</a></li>
+</ul></div>				
+				<div class="bb-social-wrap col-md-4"><ul class="bb-sm"><li><a href="https://twitter.com/Blackboard" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li><li><a href="https://www.facebook.com/blackboard" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li><li><a href="https://www.youtube.com/user/BlackboardTV" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li><li><a href="https://www.linkedin.com/company/blackboard" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a></li><li><a href="https://plus.google.com/+BlackboardOnGoogle/posts" aria-label="Google Plus"><i class="fab fa-google-plus-g"></i></a></li></ul><!-- bb-sm --></div><!-- social-media -->				
+			</nav><!-- bb-nav -->
+
+			<div class="copyright"  role="contentinfo">
+				<p style="text-align: center;">Copyright © 2021. Blackboard Inc. All rights reserved. <strong><a href="https://www.blackboard.com//legal/blackboard-patent-numbers.html" target="_self" aria-label="Blackboard Trademarkets and patents">See Blackboard trademarks and patents</a></strong>.</p>
+			</div>
+		</div><!-- row -->
+	</footer><!-- bb-footer -->
+
+<script>
+jQuery(document).ready(function($){
+    $('.bb-toggle li').bind('click', function(){
+       if( $(this).hasClass('gchoice_1_13_0') ){
+           $('.bb-conditional').addClass('active');
+       } else{
+           $('.bb-conditional').removeClass('active');
+       }
+    });
+});
+</script>
+
+<link rel='stylesheet' id='gforms_reset_css-css'  href='https://blog.blackboard.com/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.4.22' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_formsmain_css-css'  href='https://blog.blackboard.com/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.4.22' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_ready_class_css-css'  href='https://blog.blackboard.com/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.4.22' type='text/css' media='all' />
+<link rel='stylesheet' id='gforms_browsers_css-css'  href='https://blog.blackboard.com/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.4.22' type='text/css' media='all' />
+<script type='text/javascript' data-cfasync="false" async src='//widgets.getsitecontrol.com/163554/script.js?ver=3.0.0' id='gsc_widget_script-js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js?ver=20151215' id='popper-js'></script>
+<script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js?ver=20151215' id='bootstrap-js-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/themes/blackboard-blog/js/navigation.js?ver=20151215' id='blackboard-blog-navigation-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/themes/blackboard-blog/js/skip-link-focus-fix.js?ver=20151215' id='blackboard-blog-skip-link-focus-fix-js'></script>
+<script type='text/javascript' id='ajax-filter-js-extra'>
+/* <![CDATA[ */
+var ajax_filter_params = {"ajax_url":"https:\/\/blog.blackboard.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/themes/blackboard-blog/js/ajax-filter.js?ver=1.0' id='ajax-filter-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.4.22' id='gform_json-js'></script>
+<script type='text/javascript' id='gform_gravityforms-js-extra'>
+/* <![CDATA[ */
+var gf_global = {"gf_currency_config":{"name":"U.S. Dollar","symbol_left":"$","symbol_right":"","symbol_padding":"","thousand_separator":",","decimal_separator":".","decimals":2},"base_url":"https:\/\/blog.blackboard.com\/wp-content\/plugins\/gravityforms","number_formats":[],"spinnerUrl":"https:\/\/blog.blackboard.com\/wp-content\/plugins\/gravityforms\/images\/spinner.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.4.22' id='gform_gravityforms-js'></script>
+<script type='text/javascript' src='https://blog.blackboard.com/wp-content/plugins/gravityforms/js/placeholders.jquery.min.js?ver=2.4.22' id='gform_placeholder-js'></script>
+<script type='text/javascript' src='https://www.google.com/recaptcha/api.js?hl=en&#038;render=explicit&#038;ver=5.5.3' id='gform_recaptcha-js'></script>
+		<script type="text/javascript">
+			( function( $ ) {
+				$( document ).bind( 'gform_post_render', function() {
+					var gfRecaptchaPoller = setInterval( function() {
+						if( ! window.grecaptcha || ! window.grecaptcha.render ) {
+							return;
+						}
+						renderRecaptcha();
+						clearInterval( gfRecaptchaPoller );
+					}, 100 );
+				} );
+			} )( jQuery );
+		</script>
+
+		
+<script type="text/plain" class="optanon-category-C0004">
+_linkedin_partner_id = "58245"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script><script type="text/javascript"> (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); </script> <noscript> <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=58245&fmt=gif" /> 
+</noscript>
+
+
+</body>
+</html>

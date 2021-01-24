@@ -1,0 +1,20 @@
+https://us.api.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: us.api.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 401 Unauthorized
+< Content-Type: application/json
+< Content-Length: 71
+< X-Amzn-Requestid: 75a9ae27-1dc1-424b-8a9a-6ac4e6a684a1
+< X-Amzn-Errortype: MissingAuthenticationTokenException
+< X-Amz-Apigw-Id: Yn_YJHZPoAMF9Zg=
+< X-Amzn-Trace-Id: Root=1-5ff3129a-7b5206ce024d2ed15bf4f3a1
+< Date: Mon, 04 Jan 2021 13:05:30 GMT
+
+{
+  "statusCode": 401,
+  "message": "not authorized",
+  "details": ""
+}

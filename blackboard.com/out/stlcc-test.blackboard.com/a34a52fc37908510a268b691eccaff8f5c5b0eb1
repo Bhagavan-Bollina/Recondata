@@ -1,0 +1,28 @@
+https://stlcc-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: stlcc-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Mon, 15 Oct 2018 15:53:13 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1539618793000"
+< X-Blackboard-Appserver: fgtd-100082-sf064022-app001.mhint
+< Pragma: private
+< Date: Mon, 04 Jan 2021 13:04:58 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< Set-Cookie: JSESSIONID=B97F6EC96B8035DFB495CE0A749AD36F; Path=/; Secure
+< Set-Cookie: NSC_100082_wjq_192.230.226.4*443=ffffffff090e12f645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.4-rel.68+a1c490e
+< Expires: Sat, 04 Jan 2020 13:04:58 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

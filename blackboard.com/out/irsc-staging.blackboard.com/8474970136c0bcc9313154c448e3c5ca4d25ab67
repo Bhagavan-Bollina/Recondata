@@ -1,0 +1,600 @@
+https://irsc-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: irsc-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:25 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:25 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:25 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=F14D4B2D553C09EBA8F99D13AFB8CA28; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776205,id:C4EA51AE738C6AEB7C65A9B8F618B962,signature:2e6c767b8ce42bfa8fd2c8d25029a29a226a553cc1d6c86f0172cc55a80b36d0,site:3278144b-00f0-44df-8155-1cd31f89ab63,v:2,xsrf:0db2cf9d-55ba-4ac6-8a91-befc91a4f514; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=9D57EB650CF5E63118278542F99EADE16B66D6758AAD72A17873BBFB96DADA7DA012DBCAE5A2778C781AE6FD4891334FC99F861E06BA213829038358009FA0E998E4FF76DF;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=9D57EB650CF5E63118278542F99EADE16B66D6758AAD72A17873BBFB96DADA7DA012DBCAE5A2778C781AE6FD4891334FC99F861E06BA213829038358009FA0E998E4FF76DF;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-252-172.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Vary: accept-encoding
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta id="request-method" name="request-method" content="GET">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Blackboard">
+        <meta name="copyright" content="&copy; 1997-2014 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+        <meta name="keywords" content="Blackboard">
+        <meta http-equiv="Pragma" content="no-cache">
+
+        <title>IRSC | Blackboard Learn</title>
+        
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"f48c6e732c",applicationID:"496261609"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script><link rel="icon" type="image/x-ico" href="https://irsc.blackboard.com/bbcswebdav/xid-51085976_1"></link>
+        <link rel="stylesheet" type="text/css" href="https://irsc.blackboard.com/bbcswebdav/xid-51078476_1"></link>
+            </head>
+    <body id="page-top" class="index">
+    <bb-login-nav></bb-login-nav>
+    <div class="container">
+        
+        
+
+
+<script type="text/javascript" src="/javascript/cookie.js?v=3900.4.0-rel.17+f210f75"></script>
+<script type="text/javascript" src="/javascript/validate_login.js?v=3900.4.0-rel.17+f210f75"></script>
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Please enable JavaScript in your browser for the Blackboard application to function.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/evidenceCollection", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-internships_integration-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-evidence-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ea-eacvis-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sclk-softchalk7-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Teg-Tegrity-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sclk-sclk-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/unm-unmmymessages-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/EINC-ExamityIRSCSSO-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sims-simsplugin-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/echo-ech-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/expl-200irsc.bluera.com/irscBPI/-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/usf-impersonate-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/QW-qwickly-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/EINC-ExamityEDI-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/HLS-CourseSyncTool-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/expl-210irsc.bluera.com/irscBPI/-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/IDLA-gradecenter_duedates-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osc-BasicLTI-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mindlinks-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/hl-hlB2-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/swin-studentview-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/york-dsk-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/oslt-jshack-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-bb_learn_analytics-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/expl-BluePulse-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-SmartView-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wa-webassign-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ee-Eesypluginv2-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mylab_mastering_b2-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-WileyPLUS-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BB5ec86fb991633", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Have an account?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Please enter your credentials and click the <b>Login</b> button below.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Username</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Password</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Login" name="login" class="button expand"/>
+        </li>
+    <li class="clearfix">
+  	  <span class="forgot"><a href="https://irsc.okta.com/signin/forgot-password" onclick="login_openForgotPassword('https://irsc.okta.com/signin/forgot-password');return false;" >Forgot Your Password?</a>
+	  	    <span class="hideoff">(new window)</span>
+	  	  </span>
+      </li>
+  </ul>
+
+
+</div>
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='db939782-8f0c-4109-b6a1-10e36999ca5a'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Sign in with third-party account</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_775_1&redirectUrl=https%3A%2F%2Firsc-staging.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>Student MyPioneerPortal Login</a></li>
+               <li><a href="/auth-saml/saml/login?apId=_255_1&redirectUrl=https%3A%2F%2Firsc-staging.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>Faculty/Staff Login</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+<div id="sysannounce" class="sysannounce">
+    <div class="animated fadeInUp">
+      <h3 class="animated fadeInUp">System Announcements</h3>
+      
+<div id="loginAnnouncements">
+  <h3>System Announcements</h3>
+  <ul>
+          <li>
+        <strong>Science Lab Updates</strong> 
+                  <em class="announcementDate">
+            (Wednesday, April 29, 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">Dear Students,</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">As most of you know, we are currently under a Safer At Home- declaration that limits access to our College campuses. While we have been well-positioned to shift the majority of our courses to an on-line environment, some courses are not as easily transitioned. This is particularly true for science-based laboratory courses.</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">We know many of you need these labs to progress forward, so we-re happy to bring you some good news! IRSC science faculty are diligently working to transition our health science majors (pre-requisite) coursework to online for Summer B. These courses include:</span></p> 
+   <p style="margin-left: .25in; text-indent: -.25in;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black;">·<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">BSC 1020/1020L - Biology for Health Sciences Lecture and Laboratory</span></p> 
+   <p style="margin-left: .25in; text-indent: -.25in;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black;">·<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">BSC 2093/2093L - Anatomy & Physiology I Lecture and Laboratory</span></p> 
+   <p style="margin-left: .25in; text-indent: -.25in;"><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black;">·<span style="font: 7.0pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">BSC 2094/2094L - Anatomy & Physiology II Lecture and Laboratory</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">&nbsp;</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">For students looking to complete their general education science requirements this summer the following classes are available:</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; AST 1002 - General Astronomy Lecture (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; BSC1005/BSC 1005L - Life Science Lecture and Laboratory (Summer B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; BSC 1084 - Survey of the Human Body (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; CHM 1020 - Intro to Chemistry Lecture (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; GLY 1010 - Intro to Geology Lecture (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; OCB 1000 - Intro to Marine Biology Lecture (Summer A)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; OCE 2001 - Intro to Oceanography Lecture (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; PCB 1030 - Intro to Ecology Lecture (Summer B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; PHY 1020 - Principles of Physics Lecture (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">·&nbsp;&nbsp;&nbsp; PSC 1121 - Survey of Physical Science Lecture (Summer A & B)</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">&nbsp;</span></p> 
+   <p><span style="font-size: 10.0pt; font-family: 'Arial',sans-serif; color: black; background: white;">For those of you that are majoring in biology, chemistry or physics, we have not forgotten about you. The complex nature of these laboratories will require additional time for us to create a viable solution for the Fall term.&nbsp; Should you have any questions or concerns, we ask that you reach out to Anthony Dribben, Assistant Dean of Mathematics & Natural Sciences (adribben@irsc.edu) or Lynne O-Dell, Mathematics & Science Student Success Coordinator (lodell@irsc.edu) for more information.</span></p>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+</div>
+  </div>    </div>
+<!-- The Modal Navi Video-->
+<div align="center" class="mm-product-video-modal-container">
+    <div class="mm-product-video-modal dropper">
+        <div class="embed-responsive embed-responsive-16by9">
+        <h1>Blackboard Navigation Tutorial</h1>
+            <div id="video-placeholder"></div>
+            <footer class="w3-container">
+            </footer>
+        </div>
+    </div>
+    
+    <div class="mm-video-overlay"></div>
+</div>
+<div id="modal-container">
+  <div class="modal-background">
+    <div class="modal modalwhite">
+        <div id="modal-close" style="position: relative; float: right; top: -2em;"><i class="fa fa-2x fa-times" aria-hidden="true"></i></div>
+        <div class="modal-inject">
+        </div>
+
+        
+        <button class="w3-button previousAlert w3-hide">Previous</button>
+        <button class="w3-button nextAlert w3-hide">Next</button>
+    </div>
+  </div>
+</div>
+
+
+<script id="bb-messages-step" type="text/template">
+    <h2>::title::</h2>
+    ::message::
+</script>    
+    <template id="bb-login-nav-tmpl">
+            <link rel="stylesheet" href="https://irsc.blackboard.com/bbcswebdav/xid-51078476_1">
+        
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+            * {
+                font-family: 'Open Sans', sans-serif;
+            }
+            .top-bar-panels * {
+                color: white;
+            }
+        </style>
+
+<nav role="navigation" class="site-nav">
+
+<div class="top-bar">
+    <web-alerts></web-alerts>
+    <div class="top-bar-panels">
+        <div class="menu-links" aria-expanded="false" role="tabpanel" id="menuLinks">
+            <a href="https://irsc.edusupportcenter.com/sims/helpcenter/common/layout/SelfHelpHome.seam?inst_name=irsc">BB Help Center</a>
+            <a href="http://virtualcampusfacultysupport.weebly.com/">Faculty Support</a>
+            <a href="http://virtualcampus.irsc.edu/">Virtual Campus</a>
+            <a href="https://youtu.be/TLJBm4wiHmk" target="_blank">BB Navigation</a>
+        </div>
+
+        <div class="quick-links" aria-expanded="false" role="tabpanel" id="quickLinks">
+            <a href="https://www.bookstore.irsc.edu/" target="_blank">Bookstore</a>
+            <a href="https://www.irsc.edu/calendar/index.php" target="_blank">Events</a>
+            <a href="http://www.irsc.edu/libraries/libraries.aspx" target="_blank">Libraries</a>
+            <a href="https://www.irsc.edu/about/campuses.html" target="_blank">Campus &amp; Maps</a>
+        </div>
+
+        <div class="login-links" aria-expanded="false" role="tabpanel" id="loginLinks">
+            <a href="https://portal.office.com/" target="_blank">Rivermail</a>
+            <a href="https://irsc.okta.com/login/default" target="_blank">My Pioneer Portal | Workday</a>
+            
+            <a href="http://www.irsc.edu/" target="_blank">IRSC</a>
+        </div>
+
+        <div class="site-search fill-remaining" aria-expanded="false" role="tabpanel">
+            <span class="site-search-icon">
+                <i class="material-icons">search</i>
+            </span>
+            <input type="text" placeholder="Search...">
+        </div>
+    </div>
+
+    <div class="control-btns">
+        <div class="ctl-left">
+            <!-- <img src="https://blackboard.irsc.edu/bbcswebdav/xid-1778872_1" alt="Blackboard-Logo"> -->
+            <a href="https://www.facebook.com/VCIRSC" target="_blank">
+                <i class="social fa fa-2x fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/VCIRSC" target="_blank">
+                <i class="social fa fa-2x fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.youtube.com/user/virtualcampusirsc/videos" target="_blank">
+                <i class="social fa fa-2x fa-youtube-play" aria-hidden="true"></i>
+            </a>
+        </div>
+        <div class="ctl-center">
+
+            <img src="https://irsc.blackboard.com/bbcswebdav/xid-17395960_1" alt="IRSC-Logo">
+        </div>
+        <div class="ctl-right" role="tablist">
+            <button 
+                    class ="hide-mobile"
+                    type="button"
+                    aria-expanded="false"
+                    data-control="#loginLinks"
+                    aria-pressed="false"
+                    aria-selected="false">
+                
+                <i class="fas fa-user"></i>
+                <span>Logins</span>
+            </button>
+
+            <button type="button"
+                    class ="hide-mobile"
+                    aria-expanded="false"
+                    data-control="#quickLinks"
+                    aria-pressed="false"
+                    aria-selected="false">
+                
+                <i class="fas fa-list"></i>
+                <span>Quick Links</span>
+            </button>
+            
+            <button id="btnBbMenu"
+                    type="button"
+                    aria-expanded="false"
+                    data-control="#menuLinks"
+                    aria-pressed="false"
+                    aria-selected="false">
+                
+                <i class="fas fa-bars"></i>
+                <span>Menu</span>
+            </button>
+        </div>
+    </div>
+</div><div class="main-nav">
+    <div class="main-left">
+        <div class="logo">
+            <img src="https://irsc.blackboard.com/bbcswebdav/xid-14291974_1" alt="Indian River State College Logo"/>
+            <div class="slide">
+                <img class="no-oval" src="https://irsc.blackboard.com/bbcswebdav/xid-14291975_1" alt="Indian River State College"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-right">
+        <!--     <div class="secondary-links">
+      <ul>
+        <li><a href="#">Students</a></li>
+        <li><a href="#">Faculty &amp; Staff</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Alumni &amp; Donors</a></li>
+      </ul>
+    </div> -->
+
+        <div class="primary-links">
+            <ul>
+                <li>
+                    <a class="button" href="https://irsc.edusupportcenter.com/sims/helpcenter/common/layout/SelfHelpHome.seam?inst_name=irsc" target="_blank">Bb Help Center</a>
+                </li>
+                <li>
+                    <a class="button" href="http://virtualcampusfacultysupport.weebly.com/" target="_blank">Faculty Support</a>
+                </li>
+                <li>
+                    <a class="button" href="http://virtualcampus.irsc.edu/" target="_blank">Virtual Campus</a>
+                </li>
+                <li>
+                    <a class="button video-launch" href="https://youtu.be/TLJBm4wiHmk" target="_blank">Blackboard Tutorial</a>
+                </li>
+                <li id="alerts">
+                    <a id="one"
+                        style="margin-right: 0.5em"
+                        class="modal-button button show-bb-maintenance w3-red"
+                        data-toggle="modal"
+                        data-target="#bb-messages">
+                        Alerts! <span id="alerts-count"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></nav>    </template>
+
+    <template id="web-alerts-tmpl">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <style>
+            :host, #web-alerts {
+                width: 100%;
+                min-height: 3rem;
+                background: #dedede;
+                color: #0c5460;
+                font-weight: bold;
+                text-align: center;
+                padding: 2rem;
+            }
+
+            .web-alert-close {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 2rem;
+                height: 2rem;
+                font-weight: bold;
+                font-size: 1.5rem;
+                cursor: pointer;
+                color: #ec2d2d;
+            }
+
+            .web-alert-close:hover {
+                color: #282c34;
+            }
+        </style>
+<div class="web-alerts">
+    <div id="web-alert-close" class="web-alert-close">
+        <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <div class="web-alert-title">
+        <slot name="title"></slot>
+    </div>
+
+    <div class="web-alert-pub-date">
+        <slot name="pubdate"></slot>
+    </div>
+
+    <div class="web-alert-description">
+        <slot name="description"></slot>
+    </div>
+    
+    <div class="web-alert-link">
+        <slot name="link"></slot>
+    </div>
+</div>    </template>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://learn.blackboardcdn.com/3800.6.0-rel.13+fa0f5ed/javascript/i18n.js?v=3800.6.0-rel.13+fa0f5ed"></script>
+        <script src="https://www.youtube.com/iframe_api"></script>
+        <script src="/vendors/rxjs.umd.min.js"></script>
+        <script src="https://irsc.blackboard.com/bbcswebdav/xid-51085972_1"></script>
+
+    
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"f48c6e732c","agent":"","beacon":"bam.nr-data.net","applicationTime":17,"applicationID":"496261609","transactionName":"ZgcGNkNWC0AHUEIPXl9NNxZDQhFAJ1BCD15fTQYOUFQOUQlSRAIfRgcGA0FHFh0EX1cFWlMNBRBVGQRGEltTCEVYAQUWWFgLHSpcUQ9fcAEQC15Z","queueTime":0}</script></body>
+</html>

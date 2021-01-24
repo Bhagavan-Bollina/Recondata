@@ -1,0 +1,32 @@
+https://upc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: upc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:05:28 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-236-38.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:28 GMT
+< Content-Length: 104
+< Date: Mon, 04 Jan 2021 13:05:28 GMT
+< Set-Cookie: JSESSIONID=835E4FDE599DF06726A3394EBDEA9A52; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776328,id:938D6EBBDFCCC91A2EF8C6A91C8B8402,signature:2e5f590cd29a8629e805feb51a4a6be8c2b50ba3dc49bf2a88f21c9b07785eb7,site:c599f56f-4ef7-4596-8c66-c6173296bc96,v:2,xsrf:980f951d-cc20-4ca3-81f2-318bcefe6d74; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=11956BE108E31E271ED9D798BE129A29AF8A09A3191C4970B3B04070160EF9650A964E80098D2A7F8C891AE05CFB19EED47563F53351B32BDE803B9518A13CE9281D1EEAE7;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=11956BE108E31E271ED9D798BE129A29AF8A09A3191C4970B3B04070160EF9650A964E80098D2A7F8C891AE05CFB19EED47563F53351B32BDE803B9518A13CE9281D1EEAE7;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+
+<script type="text/javascript">
+  window.location.replace("https://aulavirtual.upc.edu.pe");
+</script>

@@ -1,0 +1,13 @@
+https://latinoamerica.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: latinoamerica.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Mon, 04 Jan 2021 13:03:36 GMT
+< Content-Type: application/json;charset=UTF-8
+< X-Application-Context: application:production,prod:8151
+< Server: Jetty(9.2.19.v20160908)
+
+{"timestamp":1609765416792,"status":404,"error":"Not Found","message":"Unknown target site named [latinoamerica.blackboard.com]","path":"/"}

@@ -1,0 +1,25 @@
+https://app.email.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: app.email.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: no-store
+< Pragma: no-cache
+< Content-Type: text/html; charset=utf-8
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< X-Content-Type-Options: nosniff
+< Expires: -1
+< Vary: Accept-Encoding
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:02:13 GMT
+
+<html>
+<head>
+</head>
+<body>
+We are sorry but this is temporarily unavailable.
+<!-- Site Not Found. -->
+</body>
+</html>

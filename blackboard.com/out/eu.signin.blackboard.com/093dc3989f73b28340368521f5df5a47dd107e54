@@ -1,0 +1,29 @@
+https://eu.signin.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: eu.signin.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/plain; charset=utf-8
+< Ot-Tracer-Spanid: 6182d9f7756daa22
+< X-Content-Type-Options: nosniff
+< Content-Length: 52
+< Cache-Control: private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0, no-transform
+< Ot-Tracer-Traceid: 7c5839651a362da9
+< Vary: Accept, Accept-Encoding
+< Cf-Cache-Status: DYNAMIC
+< Cf-Request-Id: 076f177899000031a5c81cc000000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Ot-Baggage-Auth0-Request-Id: 60c5283a8ebf31a5
+< Date: Mon, 04 Jan 2021 13:03:00 GMT
+< Location: https://signin.blackboard.com/
+< Ot-Tracer-Sampled: true
+< X-Auth0-Requestid: fce3770cc93ea9012b8f
+< Server: cloudflare
+< Set-Cookie: __cfduid=dbd20cee58663c77740bc1535f3bee0d51609765380; expires=Wed, 03-Feb-21 13:03:00 GMT; path=/; domain=.eu.signin.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Set-Cookie: __cf_bm=9a98977710e66235eda2e4cc8817550baf5f2281-1609765380-1800-AX53ZgmxumUxE94062Ru6AeVqm0VpZUg8dVnbEg4WOlC2tzqaSGMBI0dcVTcL8XOMhv6ZlmI+/IyrAJYiQKW6qE=; path=/; expires=Mon, 04-Jan-21 13:33:00 GMT; domain=.eu.signin.blackboard.com; HttpOnly; Secure; SameSite=None
+< Cf-Ray: 60c5283a8ebf31a5-BOM
+< Strict-Transport-Security: max-age=31536000
+
+Found. Redirecting to https://signin.blackboard.com/

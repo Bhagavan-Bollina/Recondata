@@ -1,0 +1,20 @@
+https://try.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: try.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Set-Cookie: ELOQUA=GUID=BF2973B847B9453A8B9C021914E69A15&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:05:08 GMT; path=/;SameSite=None; secure
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< Cache-Control: private,no-store
+< Content-Type: text/html; charset=utf-8
+< Date: Mon, 04 Jan 2021 13:05:08 GMT
+< Strict-Transport-Security: max-age=31536000
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< Expires: -1
+< X-Xss-Protection: 1; mode=block
+
+No page available

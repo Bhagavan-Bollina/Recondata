@@ -1,0 +1,23 @@
+https://ae.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ae.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Vary: Accept-Encoding
+< Content-Type: text/html; charset=us-ascii
+< Set-Cookie: __cfduid=d48728b5ad813c23d57501460d7d79add1609765326; expires=Wed, 03-Feb-21 13:02:06 GMT; path=/; domain=.blackboard.com; HttpOnly; SameSite=Lax; Secure
+< Cf-Cache-Status: EXPIRED
+< Cf-Request-Id: 076f16a87b00002e3a5e1bc000000001
+< Server: cloudflare
+< Cf-Ray: 60c526ed9f7c2e3a-BOM
+< Date: Mon, 04 Jan 2021 13:02:07 GMT
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Not Found</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Not Found</h2>
+<hr><p>HTTP Error 404. The requested resource is not found.</p>
+</BODY></HTML>

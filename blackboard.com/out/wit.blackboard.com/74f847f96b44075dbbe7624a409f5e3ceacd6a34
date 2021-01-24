@@ -1,0 +1,29 @@
+https://wit.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wit.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Last-Modified: Thu, 04 Jan 2001 13:05:43 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Set-Cookie: BbRouter=expires:1609776343,id:B2C08563C6CD663B9CEE5AACFF956E75,signature:fa0627bb715e2a21558f267835f887eb146b418b084fd190dd1aae7581ec5a3c,site:9d4d6cbb-c95c-4606-82d6-d320b7456db4,v:2,xsrf:e13dcfd5-5903-4f49-b369-08085b7ef984; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=3539311B1C72C38B4F90E3C33D895919F632DD426BB33659A4466A453B21246E3DC4614CDEA67AEDC67875B5EE9FD3FA81A8EF940CD28F4018F87B0727F8ECF7C894E2056F;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=3539311B1C72C38B4F90E3C33D895919F632DD426BB33659A4466A453B21246E3DC4614CDEA67AEDC67875B5EE9FD3FA81A8EF940CD28F4018F87B0727F8ECF7C894E2056F;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-219-255.ec2.internal
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:05:43 GMT
+< Expires: Sat, 04 Jan 2020 13:05:43 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Location: /auth-saml/saml/login?apId=_176_1&redirectUrl=https%3A%2F%2Fwit.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+

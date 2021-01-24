@@ -1,0 +1,29 @@
+https://nwciowa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: nwciowa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Last-Modified: Thu, 04 Jan 2001 13:04:08 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:04:08 GMT
+< Location: /auth-saml/saml/login?apId=_159_1&redirectUrl=https%3A%2F%2Fnwciowa.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Expires: Sat, 04 Jan 2020 13:04:08 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Set-Cookie: BbRouter=expires:1609776248,id:BB6787627D33AD2238A417A1688BADA3,signature:7ab4bff43c94f98af4f29d29da2aa2c55bcbce72641f029da603d9a9e2c159ad,site:6a02769c-6c8b-4651-a5da-70d929544992,v:2,xsrf:4a75c90a-9071-4b2a-b1f1-e6a17a9a2568; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=3F8349BF082F962B997AC9B349C19B028A21E32F81DCA1938875AA5896508A1DC281378891D02889C1712169EB001EFFFBE99B1D63B4FD3D8435297BF309A3C452C829FE3C;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=3F8349BF082F962B997AC9B349C19B028A21E32F81DCA1938875AA5896508A1DC281378891D02889C1712169EB001EFFFBE99B1D63B4FD3D8435297BF309A3C452C829FE3C;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-230-153.ec2.internal
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+

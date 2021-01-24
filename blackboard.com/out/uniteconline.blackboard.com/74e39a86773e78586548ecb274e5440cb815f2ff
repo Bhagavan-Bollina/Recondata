@@ -1,0 +1,1752 @@
+https://uniteconline.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uniteconline.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:05:27 GMT
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Server: openresty/1.9.3.1
+< Content-Language: es-ES-x-lvariant-Q220
+< Date: Mon, 04 Jan 2021 13:05:27 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:05:27 GMT
+< Set-Cookie: JSESSIONID=DF7B12AC4C39CBF29664B43B1BD65A46; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776327,id:7D03C7138E0884877A822DB17DD385C8,signature:b91244a9b342602391be1d98ff47dd6e4604b5235e34a4f6542178c53bd85d9a,site:c3cbd0d2-a0bc-4d5e-af51-215aa6e60fe9,v:2,xsrf:2914cd2b-a624-43c3-8308-c05513353222; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=D9231FAB1616BBBE1D6082042B3B5F7C0152E6CC53141D081AAD3F51B71C627FFA92FBC823A2845286B1310D0A002CA67CAD0FB4390DF882999456F2BB39F9BFD914E25C0B;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=D9231FAB1616BBBE1D6082042B3B5F7C0152E6CC53141D081AAD3F51B71C627FFA92FBC823A2845286B1310D0A002CA67CAD0FB4390DF882999456F2BB39F9BFD914E25C0B;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: ip-10-146-228-94.ec2.internal
+
+<!DOCTYPE HTML ><!DOCTYPE html>
+<html lang="es">
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41910738-1', 'blackboard.com');
+  ga('send', 'pageview');
+
+
+</script>
+
+
+<head>
+	<meta name="apple-itunes-app" content="app-id=376413870">
+	<meta charset=UTF-8>
+	<meta name=viewport content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name=theme-color content=#f68b1f>
+	<title>UNITEC Campus en L&iacute;nea</title>
+	<meta name="keywords" content="Blackboard, UNITEC, Blackboard UNITEC">
+
+	
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"880416378"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script><script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function() {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+			
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+
+	<script type='text/javascript'>
+		googletag.cmd.push(function() {
+			googletag.defineSlot('/7847748/Campus_virtual', [2512, 950], 'div-gpt-ad-1377877310765-0').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
+	</script>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/bootstrap/css/bootstrap.css" crossorigin="anonymous"/>
+	<link rel="stylesheet" type="text/css" href="https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/bootstrap/css/fullpage.css" crossorigin="anonymous"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/assets/jquery.fullpage.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/bootstrap/js/bootstrap.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<html  lang="es-ES-Q220">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Todos los derechos reservados. Número de patente 7.493.396 y 7.558.853 de Estados Unidos. Resto de patentes en trámite.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3900.2.0-rel.34+4ad580a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/UNITEC_Q2_2018/theme.css?v=3900.2.0-rel.34+4ad580a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/branding/_1_1/brand.css?ts=1556306412000&v=3900.2.0-rel.34+4ad580a" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.2.0-rel.34+4ad580a" id="css_3">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a" id="css_4">
+          <style type="text/css">
+			@font-face { font-family: Raleway; src: url(https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/fonts/Raleway-Bold.ttf) format("truetype"); font-weight: 700; font-style: normal; }
+			@font-face { font-family: Raleway; src: url(https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/fonts/Raleway-Light.ttf) format("truetype"); font-weight: 200; font-style: normal; }
+			@font-face { font-family: Raleway; src: url(https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/fonts/Raleway-Regular.ttf) format("truetype"); font-weight: 400; font-style: normal; }
+			@font-face { font-family: Raleway; src: url(https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/fonts/Raleway-SemiBold.ttf) format("truetype"); font-weight: 600; font-style: normal; }
+			body {color: #757575;background-color:#fff; font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+			a{color: #757575}
+			a:hover{color:#f68b1f}
+			a.dark{color: #757575;}
+			a.dark:hover{color: #757575;border-bottom: 2px solid #757575;}
+			a.blanco:hover{color: #FFF;}
+			.gris{background-color: #E5E5E5;}
+			.blanco{color: #FFF;}
+			.azul{background-color: #3fa7f3; color: #FFF!important}
+			.naranja{background-color: #ff911e;}
+			.opciones>div{ height: 100% }
+			.container_block{padding: 15px 30px 15px 30px;}
+			.dfp{position: relative;}
+					.iframedfp iframe {
+    width: 100%!important;
+}
+			.paddingmenu{padding-top: 50px}
+			.footer {background-color: #002640;}
+			.footer, .sub-footer {padding: 30px;color: #FFF;}
+			.sub-footer {background-color: #ff911e;}
+			.footer, .sub-footer {    padding: 5px 30px 5px 20px;color: #FFF;}
+			.cta {color: #FFF;background-color: #F68B1F;padding: 20px 0;text-align: center;}
+			.sub-footer a {color: #FFF;}
+			li, section.fp-section ul, section.modalidades ul {padding: 0;margin: 0;list-style: none;}
+			.btn-default {background-color: transparent;border: 1px solid #FFF;color: #FFF;}
+			.mesa{background-color: #006fba;color: #FFF;}
+			.text-muted-light{color: #FFF;text-align: justify;}
+			.icon-big{ font-size: 80px }
+			ul{text-align: left;}
+			.itemfaq{ margin-bottom: 90px }
+			li.dropdown {display: block!important;}
+			/* Medium Devices, Desktops */
+			.login_form {position: absolute; z-index: 9;background-color: rgba(255, 255, 255, 0.69);top: 8%;right: 0%;}
+			#loginBox ul, #loginRedirectProviders { margin-left:-20px; width: 300px;} 
+			label{ font-weight: normal!important;}
+
+		    @media only screen and (min-width : 992px) {
+				.row-padded{margin-top: 40px;}
+				.itemfaq{ margin-bottom: 0px }
+				.login_form{
+    position: absolute;
+    z-index: 9;
+    background-color: rgba(255, 255, 255, 0.69);
+    top: 56px;
+    right: 22px;
+}
+				#loginBox ul {margin: 0 auto;margin-left:-20px;width: 100%;}
+		    }
+			.small{height: 80px;}    
+			a.light{color: #FFF!important;}
+			
+
+			
+			/*LOGIN*/
+
+@media (max-width: 480px) {
+    .iframedfp iframe {
+        width:100%!important;
+        height: 430px!important
+    }
+}
+
+@media (max-width: 1024px) {
+    .iframedfp iframe {
+        width:1024px!important
+    }
+}
+
+@media (max-width: 780px) {
+    .iframedfp iframe {
+        width:768px!important;
+        height: 500px!important
+    }
+}
+
+@media (max-width: 580px) {
+    .iframedfp iframe {
+        width:580px!important;
+        height: 500px!important
+    }
+}
+
+
+.content .container .containerPortal{
+	min-height: 0px;
+}
+
+.container {
+	height: 50px;
+	padding-left:15px;
+	padding-bottom: 0px;
+	padding-right: 15px;
+	padding-top: 0px;
+	min-height: 50px;
+  margin: auto;
+  
+  element.style{
+	height: 50px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-left:30px;
+}
+  
+}
+
+
+
+
+div.landing-form{
+	width: 400px;
+  height: 450px;
+	/*	padding: 0;*/
+}
+
+   .mesa {
+    background-color: #006fba;    
+}
+
+
+
+
+
+h1,h2,h3,h4,h5,h6,strong,b{
+font-weight: normal;
+font-size: 24px;
+}
+
+
+
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+input#entry-login.button.expand{
+	  width: 100px;
+    height: 22px;
+    font-size: 16px;
+	  background-color: #f0ad4e;
+    border-color: #eea236;
+    border-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    text-decoration-color: rgb(255, 255, 255);
+    block-size: 47px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    caret-color: rgb(255, 255, 255);
+    column-rule-color: rgb(255, 255, 255);
+    height: 47px;
+    inline-size: 153px;
+    outline-color: rgb(255, 255, 255);
+    touch-action: manipulation;
+    white-space: nowrap;
+    -webkit-border-before-style: solid;
+    -webkit-border-start-style: solid;
+    -webkit-text-emphasis-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-border-start-width: 1px;
+}
+
+
+.btn-warning{
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning:focus,
+.btn-warning.focus {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #985f0d;
+}
+.btn-warning:hover {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  color: #ffffff;
+  background-color: #ec971f;
+  border-color: #d58512;
+}
+.btn-warning:active:hover,
+.btn-warning.active:hover,
+.open > .dropdown-toggle.btn-warning:hover,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus,
+.open > .dropdown-toggle.btn-warning.focus {
+  color: #ffffff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+.btn-warning:active,
+.btn-warning.active,
+.open > .dropdown-toggle.btn-warning {
+  background-image: none;
+}
+.btn-warning.disabled:hover,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning:hover,
+.btn-warning.disabled:focus,
+.btn-warning[disabled]:focus,
+fieldset[disabled] .btn-warning:focus,
+.btn-warning.disabled.focus,
+.btn-warning[disabled].focus,
+fieldset[disabled] .btn-warning.focus {
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+.btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #ffffff;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+
+.btn-warning::hover,
+.btn-warning.active:hover,
+.open > .dropdown-toggle.btn-warning:hover,
+.btn-warning:active:focus,
+.btn-warning.active:focus,
+.open > .dropdown-toggle.btn-warning:focus,
+.btn-warning:active.focus,
+.btn-warning.active.focus,
+.open > .dropdown-toggle.btn-warning.focus {
+  color: #ffffff;
+  background-color: #d58512;
+  border-color: #985f0d;
+}
+
+
+#loginBox li label,.portlet #loginBoxFull li label{
+		color: #757575;
+	  font-size: 16.8px;
+	  
+	  }
+
+
+div.container.paddingmenu{
+	  background-color: transparent;
+    color: #005BBF;
+    border-radius: unset;
+	}
+
+
+
+.fp-section.fp-table, .fp-slide.fp-table {
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+}
+
+span.forgot{
+	font-size:14px;
+	 /* padding: 0; */
+}
+
+.hideoff{
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	/*overflow: unset;*/
+	
+}
+#contentFrame, #schemePreview, body, .ineditmode, .topFrame, .breadcrumbs, .paneTabs, .paneTabs ul li.active, .paneTabs ul li, .wizardBody .containerWizard {
+    background: url(https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/images/bblearn_2011_bg.png) repeat 0 0;
+    background-color: #EFEDE3;
+    color: #000000;
+}
+
+.wizardBody .containerWizard {
+    background: url(https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/images/bblearn_2011_bg.png) repeat 0 0;
+    background-color:#EFEDE3;
+    color:#000000;
+}
+
+
+
+html,body,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption{
+	  /* margin:0;
+	   padding: 0; */   
+    border:0;  
+    outline:0; 
+    font-weight:inherit;
+    font-style:inherit;
+    font-family:inherit
+    font-size:100%;
+    } 
+
+ul#loginFormList.clearfix{
+	 padding-left: 50px; 
+}
+
+#loginBox li input,
+#loginRedirectProviders button {
+    -moz-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    font-size: 120%;
+    padding: 10px;
+    width: 80%;
+}
+
+#loginBox input[type="text"], #loginBox input[type="password"]{
+	    width: 280px;
+	    
+}
+
+li.clearfix{
+	  padding: 0px 0px 0px 0px;
+}
+
+ul.nav.navbar-nav.navbar-right{
+	font-size:14px;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'Glyphicons Halflings';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  *
+  margin-right: .3em;
+  }
+
+#loginBox li label, .portlet #loginBoxFull li label {
+    font-size: 16.8px;
+}
+
+
+#loginBox input[type="text"],#loginBox input[type="password"]{
+	-moz-border-radius:5px 5px 5px 5px
+	;-webkit-border-radius:5px 5px 5px 5px;
+	border-radius:5px 5px 5px 5px;
+	background:#efefef;
+	padding:6px;border:1px solid #777;
+	color:#666;
+	font-weight:bold;
+	margin:0 0 0 -10px;
+	box-sizing:border-box}
+	
+	
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+	
+.forgot a{
+		margin-right: 320px;
+	}
+
+
+#loginBox li label,.portlet #loginBoxFull li label{
+	color:#757575;
+	display:block;
+	font-size:100%;l
+	etter-spacing:1px;
+	padding:0 0 3px;
+	text-align:left;
+	text-transform:none;
+	width:100%;
+	font-size: 16.8px;
+	}
+	
+	
+div.loginBody{
+	display: block;
+	margin:0 auto;
+	padding: 0;
+	background-size: 150px;
+	/* width: 50%; */
+	}	
+	
+	div.clearfix.loginBody{
+	
+		display: block;
+		margin:0 auto;
+		padding: 0;
+		background-size: 150px;
+		/* width: 50%; */
+		/*background*/
+		}
+
+.cmdiv ul{
+	width:210px;
+	box-sizing:border-box
+	}
+	div.loginBody{
+
+		background-position: 80px 10px
+		/*background-size: scroll 94px 10px;*/
+		/* width:600px; */
+		margin:0 auto; 
+		/* padding-top:224px; */}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 668px)
+theme2.css?v=32â€¦l.6+3dd6b56:58
+div.loginBody {
+    background-position: 80px 10px; */
+    background-size: 57%;
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 224px; 
+}
+
+
+check-previos,#frm_inf_btn,.cursor,.frm_btn{cursor:pointer}.campus-frm{color:#D8D8D8}.item-available{color:#222}.item-selected{font-weight:700;color:#f68b1f}.item-unavailable{color:#E6E6E6}.ui-tabs .ui-tabs-nav .ui-tabs-anchor{padding:.5em .1em!important}.tt-dropdown-menu{color:#555;width:100%;margin-top:-8px;padding:8px 12px;background-color: #FFF;border:1px solid #ccc;border:1px solid rgba(0,0,0,.2);-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-box-shadow:0 5px 10px rgba(0,0,0,.2);-moz-box-shadow:0 5px 10px rgba(0,0,0,.2);box-shadow:0 5px 10px rgba(0,0,0,.2)}.politicas a{color:#f68b1f}.tt-suggestion p{margin:10px 0 24px;line-height:0;font-size:1.2em}.frm_choosed_blue{color:#FFF;font-weight:700;background-color:#006FBA!important;border-color:#adadad}.frm_btn{width:49%;background:rgba(95,95,95,.8);outline:0;color:#FFF;display:inline-block;padding:6px 12px;font-size:14px;font-weight:400;line-height:1.428571429;text-align:center;white-space:nowrap;vertical-align:middle;border:1px solid #FFF;-webkit-box-shadow:1px 1px 5px -2px rgba(0,0,0,.46);-moz-box-shadow:1px 1px 5px -2px rgba(0,0,0,.46);box-shadow:1px 1px 5px -2px rgba(0,0,0,.46);border-radius:3px;margin-bottom:20px}.ui-tabs{font-family:Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif!important;margin-bottom:13px!important}.frm_btn:hover{border:1px solid #FFF;outline:0;color:#F68B1F;background-color:#FFF}.fancybox-skin{background:rgba(0,0,0,.6)!important;background-color:#fff!important;color:#006FBA}.frm_contenedor{height:780px;overflow:hidden}.fancybox-skin h1,.fancybox-skin h2,.fancybox-skin label,.fancybox-skin p{color:#006FBA!important}.error-form{margin-top:-8px}.alinear-center .frm-tradicional-cl{text-align:left;color:#777!important;font-size:11px;font-weight:400!important;width:100%}.alinear-center .frm-tradicional-cl a{color:#006FBA;text-decoration:underline!important}.frm-button-submit{margin-top:10px}#frm-registro .form-control:focus,#frm-registro2 .form-control:focus{border-color:#00778d7;border-width:3px}#frm-registro input,#frm-registro2 input{border-width:2px}#tabs-1,.titulo-oferta{border-bottom:2px solid #E8E8E8!important}#frmTradicional h2{margin-top:30px}.fila-formulario{margin-top:70px}.col-gif-animado-frm{padding-right:35px}.div-button-frm{margin-top:20px}.frm-err{margin-top:-8px;background-color:#FFFCAB!important;color:#F68B1F!important}@media (max-width:480px){#frmTradicional h2{margin-top:50px}.fila-formulario{margin-top:40px}.div-button-frm{margin-top:20px}.frm-err{margin-top:-7px}#check-previos{font-size:12px!important}}#frm_inf_btn{position:relative;width:20px;height:20px;top:6px;right:5px;border-radius:4px}#check-previos{font-size:15px!important;margin-right:10px}.titulo-oferta{padding:5px 0 0!important;color:#0571BB!important;font-weight:700!important;background:#fff!important;font-size:15px!important}.res-quiero-estudiar{border-top:0 solid #e8e8e8!important;font-size:14px!important;color:#000!important;margin-top:17px!important}.res-quiero-estudiar label{color:#000!important;font-weight:400}#bread2,#bread3,#bread4{font-weight:600!important}#secLineas{margin-bottom:-40px;margin-top:6px}.nomobi{padding-top:12px!important}.frm_content h4{color:#0571BB!important}@media (max-width:480px){#check-previos{font-size:12px!important}}
+
+
+#loginBox li { padding: 0 0 12px }
+
+/*Forgot password*/
+#loginBox li + li + li {
+    padding: 5px 0px 5px 106px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+}
+
+/*Login button*/
+#loginBox li + li + li + li {
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    vertical-align: top;
+    float: right;
+    background.color: transparent;
+
+}
+
+
+
+#loginBox li label,
+.portlet #loginBoxFull li label {
+    /*color: #666;
+    display: block;
+    letter-spacing: 1px;
+    padding: 0 0 3px;
+    text-align: left;*/
+    font-size: 14px;
+    width: 100%;
+}
+
+.portlet #loginBoxFull li label {
+    font-weight: normal;
+    font-size: 90%;
+    padding: 0 0 2px;
+}
+
+#loginBox li input {
+    -moz-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.1);
+    font-size: 140%;
+    padding: 10px;
+    width: 100%;
+}
+
+/*#loginBox input[type="text"],
+#loginBox input[type="password"] {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background: #efefef;
+   
+    padding: 6px;
+    border: 4px solid #777;
+    color: #666;
+    font-weight: bold;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+
+#loginBox input[type="text"]:focus,
+#loginBox input[type="password"]:focus,
+#loginBox input[type="text"]:hover,
+#loginBox input[type="password"]:hover {
+    background: #fff;
+    border-color: #0188A3;
+    color: #333;
+}
+
+#loginBox input:-webkit-autofill {
+    background: #336699!important;
+    color: #333!important;
+}
+
+#loginBox li input[type="submit"] {
+    font-size: 80%;
+    padding: 5px 5px;
+    margin: 0;
+    width: auto;
+    min-width: 124px;
+}
+
+/*Hidden login page elements*/
+#loginFormTitle,
+#loginFormText,
+#loginHeader h1,
+#loginHeader h2,
+#loginHeader .productLogo,
+#loginOptions #gatewayButtonsTitle,
+#loginOptions #gatewayButtonsInstructions{
+    position: absolute;
+    top:-10000px;
+    left: -10000px;
+}
+
+div.portlet #loginFormTitle,
+div.portlet #loginFormText {
+    position: static;
+    display: block;
+}
+
+#loginOptions {
+    margin: 38px auto 26px;
+    width: 600px;
+    text-align: center;
+}
+
+#loginOptions h2 { margin: 10px }
+
+#loginOptions p {
+    margin: 10px;
+    font-size: 0.85em;
+    color: #444;
+}
+
+#loginOptions ul li,
+#loginOptions ul li.subOption {
+    display: inline-block;
+    margin: 0 9px 6px;
+}
+
+#loginOptions ul li a,
+#loginOptions ul li.subOption a {
+    font-size: 130%;
+    border-bottom: 1px dotted #0099B6;
+}
+
+.forgot a { border-bottom: 1px dotted #0099B6 }
+
+#loginOptions ul li a:hover,
+#loginOptions ul li a:focus,
+#loginOptions ul li.subOption a:hover,
+#loginOptions ul li.subOption a:focus,
+.forgot a:hover,
+.forgot a:focus { border-bottom-style: solid }
+
+#loginText {
+    padding: 12px 80px 18px 80px;
+    background: #5f6062;
+    border-top: 1px solid #777;
+    text-align: center;
+    display: none;
+}
+
+#loginText p span {
+    font-weight: bold;
+    font-size: 105%;
+    color: #fff;
+}
+
+#loginText p {
+    margin: 0;
+    font-size: 95%;
+    color: #ededed;
+}
+
+#loginImage {
+    text-align: center;
+    background-color: #fff;
+    padding: 0;
+    display: none;
+}
+
+#loginImage img { margin: 0 auto }
+
+#loginAnnouncements {
+    clear: both;
+    padding: 5px 0 7px 0;
+    margin: 0 auto;
+}
+
+#loginAnnouncements h3 {
+    margin: 0 9px 0 9px;
+    padding: 6px 3px;
+    font-size: 110%;
+    color: #555;
+    border-bottom: 1px solid #bbb;
+    display: none;
+}
+
+#loginAnnouncements ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 600px;
+}
+
+#loginAnnouncements ul li:before,
+#loginAnnouncements ul li:after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    width: 50%;
+    height: 20%;
+    max-width: 300px;
+    -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.5);
+    z-index: -2;
+}
+
+#loginAnnouncements ul li:before {
+    left: 8px;
+    -moz-transform: rotate(-2deg);
+    -webkit-transform: rotate(-2deg);
+}
+
+#loginAnnouncements ul li:after {
+    right: 8px;
+    -moz-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
+}
+
+#loginAnnouncements li {
+    background: #FFF; 
+    color: #666;
+    font-size: 95%;
+    padding: 18px 24px 12px;
+    text-align: justify;
+    vertical-align: top;
+    margin: 0 0 12px 0;
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+    position: relative;
+    zoom: 1;
+}
+
+#loginAnnouncements ul li strong:first-child {
+    color: #000;
+    margin: 0 0 12px;
+    font-size: 115%;
+}
+
+#loginAnnouncements ul li strong + em {
+    text-align: right;
+    margin: 0;
+}
+
+#loginAnnouncements ul li strong + em + br { display: none }
+
+#loginAnnouncements .announcementDate { float: right }
+
+#loginAnnouncements ul li .vtbegenerated {
+    clear: both;
+    line-height: 1.38;
+}
+
+#loginAnnouncements ul li:first-child { border-top: 0 }
+
+#loginAnnouncements a { border-bottom: 1px dotted #128FA8 }
+
+#loginAnnouncements a:hover,
+#loginAnnouncements a:focus { border-bottom-style: solid }
+
+#loginOptions #gatewayButtonsTitle,
+#loginOptions #gatewayButtonsInstructions { display: none }
+
+
+/* @end LOGIN PAGE*/
+
+/* @group LOGIN PAGE COPYRIGHT */
+
+.login-page #copyright {
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 24px;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+}
+
+#loginAnnouncements + #copyright {
+    position: relative
+}
+
+.loginCopyright {
+    width: 580px!important
+}
+
+.login-page #copyright .logo {
+    margin: 0 0 6px;
+    padding: 0;
+    position: relative;
+    background: #EFEDE3;
+    display: inline-block;
+}
+
+.login-page #copyright  .newCopyright {
+    margin: 0;
+    padding: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.loginCopyright  .legal,
+.loginCopyright  .additionalInfo {
+    width: 24em;
+    min-height: 2.5em;
+    border: 1px solid red;
+}
+
+.loginCopyright .legal {
+    border-left: none;
+    padding: 3px 12px 6px 12px;
+    width: 24.5em;
+}
+
+#loginPane + #copyright .legal p,
+#loginPane + #copyright .additionalInfo p {
+    margin: 0;
+    display: inline;
+}
+
+.login-page .copyrightDetailContents {
+    min-height: 6.5em;
+}
+
+#loginRedirectProviders {
+    visibility: hidden;
+    margin: -10 auto;
+    width: 434px;
+    
+}
+
+#loginRedirectProviders ul{
+    z-index: 2;
+}
+ul#loginRedirectProviders.clearfix{
+	 padding-left: 50px; 
+}
+#loginRedirectProviders {
+  margin: 0px auto 30px auto;
+}
+#loginRedirectProviders button {
+  font-weight: normal;
+  margin-bottom: 5px;
+  outline-offset: -2px;
+  /*position: relative;*/
+  text-align: left;
+}
+
+#loginRedirectProviders button:after {
+  border-color: transparent;
+  border-top-color: #777777;
+  border-width: 4px;
+  border-top-width: 6px;
+  border-style: solid;
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 6px;
+  top: 45%;
+}
+
+/* @end LOGIN PAGE COPYRIGHT*/
+
+
+        </style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.2.0-rel.34+4ad580a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.2.0-rel.34+4ad580a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Se debe introducir una dirección de correo electrónico válida (por ejemplo, info@blackboard.com).';
+    JS_RESOURCES['validation.radio.required'] = 'Para continuar, realice una selección.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la encuesta. Haga clic en Aceptar para guardar la respuesta incompleta.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Términos de búsqueda';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Los valores en puntos pueden tener 5 lugares decimales como máximo: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'No debe contener más de {1} caracteres: {0}.\nReduzca el tamaño de la entrada en {2} caracteres.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a al examen Haga clic en Aceptar para guardar la respuesta incompleta.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'El cuadro de multiselección debe contener al menos {0} elementos.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Se debe proporcionar un valor de {0}\ncuando el campo {1} no está vacío';
+    JS_RESOURCES['warning.email'] = 'La dirección de correo electrónico es un campo recomendado. Los usuarios no podrán utilizar ciertas partes del sistema sin una dirección de correo electrónico.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'No debe contener más de {0} caracteres.\nReducir el tamaño de la entrada en un carácter.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'El cuadro de multiselección no debe contener más de {0} elementos.';
+    JS_RESOURCES['validation.number'] = 'Se debe introducir un valor numérico válido: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'Es necesario proporcionar un valor de fecha completo: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = '¿Eliminar: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Mostrar texto de ayuda';
+    JS_RESOURCES['validation.password'] = 'La contraseña no puede estar vacía ni contener solo espacios.';
+    JS_RESOURCES['validation.percent'] = 'Se debe introducir un valor de porcentaje entre 0 y 100 válido.';
+    JS_RESOURCES['validation.mismatch'] = 'Los valores que introdujo no coinciden: {0}.\nConfirmar: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'No debe contener más de {0} caracteres.\nReducir {1} caracteres el tamaño de la entrada.';
+    JS_RESOURCES['validation.invalid_value'] = 'Se ha proporcionado un valor numérico no válido: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'Campo de entrada {0}.';
+    JS_RESOURCES['validation.required'] = 'Es necesario suministrar un valor: {0}';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Especifique un valor para el campo de texto de búsqueda.';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Ha seleccionado las alineaciones pero no ha seleccionado ningún contenido alineable que copiar.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" no se permite al comienzo de una ID de rol.';
+    JS_RESOURCES['validation.date_past'] = 'La fecha de finalización no puede ser anterior a la fecha de inicio.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contiene caracteres no válidos: {0}.\nElimine estos caracteres: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Este elemento {0} se eliminará. ¿Desea continuar?';
+    JS_RESOURCES['hide.helptext'] = 'Ocultar texto de ayuda';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Menos de {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'La hora indicada ya ha pasado.\n¿Desea continuar con esta hora?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Introduzca un nombre de usuario y una contraseña.';
+    JS_RESOURCES['validation.negative'] = 'Se debe introducir un valor no negativo válido: {0}.';
+    JS_RESOURCES['validation.url'] = 'Se debe introducir una dirección URL válida (por ejemplo, http://www.miuniversidad.es).';
+    JS_RESOURCES['validate.range.overlap'] = 'criterios ({0}) se superpone a los criterios ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Entre {0} y {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = '¿Eliminar: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'Es posible que la información de los elementos asociados se haya actualizado.\nHaga clic en "Aceptar" para actualizar la lista o haga clic en "Cancelar" para continuar en la página actual.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'La opción Inscripción por código de acceso no es compatible con la selección de inscripción dirigida por {instructor}.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Los valores en puntos pueden tener 5 lugares decimales como máximo.';
+    JS_RESOURCES['validation.option.required'] = 'Debe seleccionar como mínimo una opción de la lista.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Para seleccionar todos los elementos, active esta casilla';
+    JS_RESOURCES['active.filter.changed.alert'] = 'los criterios ahora contienen';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Especifique un nombre para guardar como objeto reutilizable.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Introduzca un número válido en lugar de {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'La ID del curso contiene caracteres ilegales o caracteres multibyte.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a al examen Haga clic en Aceptar para enviar la evaluación.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Advertencia: debe seleccionar la opción Dirigida por {instructor} o Autoinscripción.';
+    JS_RESOURCES['validation.date_equal'] = 'La fecha de inicio no puede ser la misma que la fecha de finalización.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'No se puede utilizar el {0} sin un valor {1} correspondiente.';
+    JS_RESOURCES['validation.time.required'] = 'Es necesario proporcionar un valor de hora completo: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Se debe introducir un valor numérico entero válido: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'No debe contener más de 255 caracteres';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'La opción de inscripción por correo electrónico seleccionada no es compatible con la selección de autoinscripción.';
+    JS_RESOURCES['invalid_char.space'] = 'espacio';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Más de {0}';
+    JS_RESOURCES['notification.submit'] = 'Esta acción ya fue enviada.\nEspere hasta que haya finalizado la acción.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Para mostrar las ecuaciones correctamente en este documento, se debe seleccionar formato Texto inteligente o HTML.\nHaga clic en "Aceptar" para guardar en formato Solo texto seleccionado, o haga clic en "Cancelar" para seleccionar un formato nuevo.';
+    JS_RESOURCES['invalid_char.comma'] = 'coma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Debe introducirse un valor válido entre -100 y 100.';
+    JS_RESOURCES['confirm.remove_item'] = 'Esta acción es definitiva y no se puede deshacer. ¿Desea continuar?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Para anular la selección de todos los elementos, desactive esta casilla';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'No debe contener más de {1} caracteres: {0}.\nReduzca el tamaño de la entrada en un carácter.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Demasiados espacios decimales. El máximo es 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'Se debe introducir un mínimo de {0} caracteres: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Especifique una ubicación para el objeto reutilizable.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la encuesta. Haga clic en Aceptar para enviar la evaluación.';
+    JS_RESOURCES['validation.image_type'] = 'Tipo de imagen desconocido: {0}. Es posible que la imagen no se visualice correctamente.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Espacio';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'LUN MAR MIÉ JUE VIE SÁB DOM';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM \'de\' yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Mu?arram,?afar,Rab??\'al-Awwal,Rab??\'ath-Th?n?,Jum?d?\'al-?l?,Jum?d?\'ath-Th?niya,Rajab,Sha?b?n,Rama??n,Shaww?l,Dh?\'al-Qa?da,Dh?\'al-?ijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenido, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'ene feb mar abr may jun jul ago sep oct nov dic';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'lun mar mié jue vie sáb dom';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Mu?arram,?afar,Rab??\'I,Rab??\'II,Jum?d?\'I,Jum?d?\'II,Rajab,Sha?b?n,Rama??n,Shaww?l,Dh?\'al-Qa?da,Dh?\'al-?ijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d \'de\' MMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Lunes Martes Miércoles Jueves Viernes Sábado Domingo';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\,';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'LUN MAR MIÉ JUE VIE SÁB DOM';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM \'de\' yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Mu?arram,?afar,Rab??\'al-Awwal,Rab??\'ath-Th?n?,Jum?d?\'al-?l?,Jum?d?\'ath-Th?niya,Rajab,Sha?b?n,Rama??n,Shaww?l,Dh?\'al-Qa?da,Dh?\'al-?ijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenido, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'ene feb mar abr may jun jul ago sep oct nov dic';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'lun mar mié jue vie sáb dom';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Mu?arram,?afar,Rab??\'I,Rab??\'II,Jum?d?\'I,Jum?d?\'II,Rajab,Sha?b?n,Rama??n,Shaww?l,Dh?\'al-Qa?da,Dh?\'al-?ijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d \'de\' MMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Lunes Martes Miércoles Jueves Viernes Sábado Domingo';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\,';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/D90E5B0784E7223D992BDFCF73253B2B.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/55FEBF63DFF4A8A4FD0F0F248E6246E1.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/4DEE87E0312E581AD7497F81E6F48956.js?v=3900.2.0-rel.34+4ad580a"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <script language="javascript">
+
+window.open("https://uniteconline.blackboard.com/bbcswebdav/institution/anuncioAlumnosBb.png", "aviso","width=650,height=250,scrollbars=NO")
+
+function ShowLoginForm()
+{
+	var x = document.getElementById("loginBox");
+	
+  if (x.style.visibility === "hidden") {
+    x.style.visibility = "visible";
+  } else {
+    x.style.visibility = "hidden";
+  }
+  
+}
+</script>
+
+<body>
+    <!-- Fixed navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top" style="height:50px">
+		<div class="container" style="height:50px; border: #005BBF";>
+    	<div class="navbar-header">
+      	<a class="navbar-brand" href="http://www.unitec.mx/">
+ 	      	<img class="img-responsive unitec-logo-desktop" src="https://www.unitec.mx/content/dam/unitec/campus-virtual/unitec.svg" width="143" height="34"  alt="UNITEC">
+        </a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse" >
+      	<ul class="nav navbar-nav  navbar-right">
+        	<li class="active"><a href="http://www.unitec.mx/colegiaturas" target="_blank">Colegiaturas</a></li>
+          <li><a href="http://www.unitec.mx/correo" target="blank">Correo MY UNITEC</a></li>
+          <li><a href="http://uniselphx.unitec.mx/ssel/login.jsp" target="_blank">Servicios en Linea</a></li>
+          <li class="dropdown">
+          	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ayuda <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+            	<!-- <li><a href=" javascript:$zopim.livechat.window.show()">Chat</a></li> -->
+              <li><a href="javascript:irFAQ()">Preguntas Frecuentes</a></li>
+              <li><a href="https://comunidad.unitec.mx" target="_blank">Comunidad UNITEC</a></li> 
+           	</ul>
+          </li>
+        </ul> 
+     	</div><!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div id="fullpage" style="height:100%; position:relative;">
+		<div class="section" style="height: 520px">
+	  	<div data-resize="65" class="row dfp" style="height:550px;">
+	  		
+	  		<div class="col-md-3 col-xs-12 login_form">
+	  			
+	  			<div class="landing-form" >
+						<div class="frm_content_expuesto frm-expuesto-fancy" style="width:325px;">
+	  					<div id="loginHeader" class="clearfix">
+	      				
+<h2 class="hideoff">Ver opciones</h2>
+<ul>
+  <li class="font-size">
+    <img src="/images/ci/ng/fonts.gif" alt="" /> 
+    <a href="#" title="Cambiar el tamaño de texto" 
+          onClick="page.showChangeTextSizeHelp()">Cambiar el tamaño de texto</a>
+  </li>
+  <li class="contrast">
+    <img src="/images/ci/ng/contrast.gif" alt="" /> 
+    <a href="#" title="Configuración de contraste alto" onclick="page.showAccessibilityOptions(); return false;">Configuración de contraste alto</a>
+  </li>
+</ul>
+</div>
+	      			<h2 class="text-center" style="margin-bottom: 3px;color: #006fba;font-size: 22px; width:325px; margin-top:10px;">Ingresa aqu&iacute;</h2>
+	      			<hr style="border-color: orange;border-width: 1px;margin-bottom: 1em;margin-top: 7px!important;">
+	  					<div id="login_cuenta" >
+	    					<div class="clearfix loginBody" style="background-color: transparent; border-top: none; border-bottom: none;  padding-top: 10px;">
+		      				<div id="OpcionesBtn" style="width:325px;">
+		      					<font face=Arial size=3 style="color: #006fba;">
+		      					<font face=Arial size=3 style="font-weight: bold;" >Alumnos:</font> Acceso por medio del correo MyUnitec<br />
+		      						<center><a href="https://uniteconline.blackboard.com/auth-saml/saml/login?apId=_118_1&redirectUrl=https%3A%2F%2Funiteconline.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" > 
+		      							<img src="https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/images/myUNITECv2_N.png" width="129" height="54"></img>
+		      						</a></center>
+		      						<!--	
+		      						<font face=Arial size=4><a href="javascript:ShowLoginForm()"> 
+		      						<img src="https://uniteconline.blackboard.com/branding/themes/UNITEC_Q2_2018/images/d&a_N.png" width="138" height="53"></a></font><br />
+		      						<hr style="border-color: orange;border-width: 2px;margin-bottom: 1em;margin-top: 7px!important;"><a href="javascript:ShowLoginForm()"></img></a>-->
+		      					<hr style="border-color: orange;border-width: 1px;margin-bottom: 1em;margin-top: 7px!important;">
+		      					<font face=Arial size=3 style="font-weight: bold;" >Alumnos / Docentes:</font> Acceso con usuario (numero de cuenta) y contraseña Blackboard</font>
+			      				<div id="loginBox" style="visibility: visible">
+									<center><font face=Arial size=2>
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Habilite JavaScript en su navegador para que funcione la aplicación Blackboard.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/acr-gradebook-sync-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/lnoh-datos_usuario-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dur-browserCheck-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-GradebookExtract-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sen-whosonline-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/oslt-jshack-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/lmsU-chatsop-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-transition-planning-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/unol-community-template-var-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-dshbrdfrmwrk-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-WileyPLUS-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mcmo-unreadmsgs-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/lnoh-edusoft-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/hw-po-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027979249287-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/usf-impersonate-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-qa-fit-fixtures-BB5fdd41fee8c15", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>¿Dispone de una cuenta?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Introduzca aquí la información de inicio de sesión  y haga clic en el botón <b>Iniciar sesión</b> que aparece a continuación.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Nombre de usuario</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Contraseña</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Iniciar sesión" name="login" class="button expand"/>
+        </li>
+  </ul>
+
+  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='a85e6d28-db65-4de4-b883-b9f2617fe83a'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Iniciar sesión con una cuenta de terceros</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_118_1&redirectUrl=https%3A%2F%2Funiteconline.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>Acceso Alumnos por Office 365</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+</font><br /></center>
+								</div>
+		      				</div>
+		      				</div>
+							</div>
+						</div>
+					</div>
+	  		</div>
+	  		<P>123</p>
+	  		<div id='div-gpt-ad-1377877310765-0'  class="iframedfp">
+	  			
+					<script type='text/javascript'>
+						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1377877310765-0'); });
+					</script>
+				</div>
+			</div>
+		</div>
+		<div data-resize="35" class="row opciones" style="height:230px; font-size:14px;">
+					
+			<div class="col-md-4 gris">
+				<div class="container_block">
+					<p class="">
+						<h3><a class="dark" target="_blank" href="https://comunidad.unitec.mx" style="font-size: 24px">COMUNIDAD<i class="fa fa-chevron-right hidden-lg hidden-md hidden-sm"></i></a></h3>
+		    	</p>		
+					<p class="hidden-xs">
+						&iexcl;&Uacute;nete a la conversaci&oacute;n! Aclara tus dudas y comenta con otros usuarios todas tus inquietudes acerca de la vida universitaria.
+					</p>
+					<p class="hidden-xs">
+						<a class="btn btn-info dark" href="https://comunidad.unitec.mx" target="_blank">Entra aqu&iacute;<i class="glyphicon glyphicon-chevron-right"></i></a>
+					</p>
+		    </div>
+		  </div>
+		  <div class="col-md-4 azul">
+		  	<div class="container_block" >
+					<p class="">
+						<h3><a class="blanco" href="https://ventanilla-virtual.unitec.mx/login" target="_blank" style="font-size: 24px">VENTANILLA VIRTUAL<i class="fa fa-chevron-right hidden-lg hidden-md hidden-sm"></i></a></h3>
+					</p>	
+					<p class="hidden-xs">
+						Aqu&iacute; podr&aacute;s obtener informaci&oacute;n valiosa como: tu tira de materias, avance porcentual de tu carrera, etc.
+					</p>
+					<p class="hidden-xs">
+						<a class="btn btn-info blanco" href="https://ventanilla-virtual.unitec.mx/login" target="_blank" >Ingresa aqu&iacute;<i class="glyphicon glyphicon-chevron-right"></i></a>
+					</p>
+				</div>
+			</div>
+		
+			<div class="col-md-4 naranja">
+				<div class="container_block">
+					<p class="">
+						<h3><a class="light blanco" href="mailto:campusvirtual@mail.unitec.mx">SOPORTE T&Eacute;CNICO</a><i class="fa fa-chevron-right hidden-lg hidden-md hidden-sm"></i></h3>
+					</p>	
+					<p class="hidden-xs" >
+					Si tienes alg&uacute;n problema para acceder a la plataforma cont&aacute;ctanos: <a class="light blanco" href="mailto:campusvirtual@mail.unitec.mx">campusvirtual@mail.unitec.mx</a>	
+		      <p class="hidden-xs" >Estamos disponibles las 24 hrs los 7 d&iacute;as de la semana</p>
+					</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="section mesa fp-section fp-table active" >
+			<div class="row row-padded homepage-grid row-bordered p-t text-center" style="width:100%; font-size:14px;">
+				
+				<div class="col-sm-4 itemfaq">
+					<div class="row"><i class="glyphicon glyphicon-info-sign icon-big"></i></div>
+					<h5><strong>Requerimientos</strong></h5>
+					<p class="text-muted-light">
+			      	Pasos para ingresar:<br>
+			      	1. Para ingresra por primera vez descarga JAVA <a class="light blanco" target="_blank" href="http://www.java.com/es/">(puedes descargalo aqu&iacute;)</a> <br>
+			      	2. Ingresa tu nombre de usuario (N&uacute;mero de cuenta)<br>
+			      	3. Ingresa tu contrase&ntilde;a. Estar&aacute; en tu horario de clases
+			    </p>		      	
+			  </div>
+	
+			  <div class="col-sm-4 itemfaq">
+			  	<i class="glyphicon glyphicon-wrench icon-big"></i>
+		    	<h5><a class="blanco" href="javascript:irFAQ()" style="font-size: 24px"><strong>Ayuda</strong></a></h5>
+		      <p class="text-muted-light">Escr&iacute;benos para que un asesor especializado te ofrezca la informaci&oacute;n que requieres as&iacute; como m&aacute;s posibilidades para realizar tus estudios.</p>
+		      <p class="hidden-xs">
+						<a class="btn btn-info blanco" href="javascript:irFAQ()">Cont&aacute;ctanos<i class="glyphicon glyphicon-chevron-right"></i></a>
+					</p>
+		    </div>
+		    
+			  <div class="col-sm-4 itemfaq">
+		      <i class="glyphicon glyphicon-calendar icon-big"></i>
+		      <h5><strong>Servicios Escolares:</strong></h5>
+		      <p class="text-muted-light">Si tienes alguna duda escr&iacute;benos a<a class="light blanco" href="mailto:onlinese@mail.unitec.mx"> campusvirtual@mail.unitec.mx </a> donde te apoyaremos con pendientes en tu documentaci&oacute;n, aclaraci&oacute;n de calificaciones y otros servicios m&aacute;s.
+		      	<br /> Escr&iacute;benos <a class="light blanco" href="mailto:onlinese@mail.unitec.mx">aqu&iacute;! </a></p>
+		    </div>		    
+			</div>
+		</div>
+	    
+		<div class="section fp-auto-height" id="section2">
+			<div class="container-fluid">
+				<div class="row footer">
+					<div class="col-xs-12 col-md-8 margins-vert" style="font-size:14px;">
+				  	<p class="margins-vert"><a target="_blank" href="http://www.unitec.mx/terminos-y-condiciones">Consulta los t&eacute;rminos y condiciones |</a> <a target="_blank" href="http://www.unitec.mx/politicas-de-privacidad">Pol&iacute;ticas de privacidad |</a> <a target="_blank" href="//comunidad.unitec.mx/unitec">Comunidad UNITEC |</a> <a target="_blank" href="https://my.laureate.net/pages/fbalogin.aspx?ReturnUrl=%2fstaff%2fPages%2fhome.aspx">Portal Administrativo</a></p>
+				    <br>
+				    <p class="small">Contamos con el Acuerdo Secretarial 142 de la SEP de fecha 24 de octubre de 1988</p>
+				    <p class="small">Universidad Tecnol&oacute;gica de M&eacute;xico. Derechos Reservados 2016 UNITEC. Direcci&oacute;n: Av. Parque Chapultepec No. 56, Piso 1, Col. El Parque. Mun. Naucalpan de Juarez, EdoM&eacute;x., 53398. Laureate Education Inc.</p>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":18,"applicationID":"880416378","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script></body>
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Cerrar');page.bundle.addKey('inlineconfirmation.refresh','Actualizar');page.bundle.addKey('hidden.link.close.menu','Fin del menú. Haga clic para volver al elemento asociado.');page.bundle.addKey('hidden.link.close.form','Fin del formulario. Haga clic para volver al elemento asociado.');page.bundle.addKey('lightbox.loading','Cargando...');page.bundle.addKey('yt.stopped','Detenido:');page.bundle.addKey('yt.playing','Reproduciendo:');page.bundle.addKey('yt.cued','Puesto en cola:');page.bundle.addKey('yt.buffering','Almacenando en búfer:');page.bundle.addKey('yt.paused','En pausa:');page.bundle.addKey('yt.ended','Finalizada:');page.bundle.addKey('yt.play','Reproducir');page.bundle.addKey('yt.pause','Pausa');page.bundle.addKey('yt.mute','Silenciar');page.bundle.addKey('yt.unmute','Desactivar silenciado');page.bundle.addKey('lightbox.overlay','{0} se ha abierto como un lightbox superponiéndose a la página actual.');page.bundle.addKey('display.playerControls','Controles del reproductor');page.bundle.addKey('display.videoPlayerControls','Controles del reproductor de video');page.bundle.addKey('display.play','Reproducir');page.bundle.addKey('display.stop','Detener');page.bundle.addKey('display.volumeUp','Subir volumen');page.bundle.addKey('display.volumeDown','Bajar volumen');page.bundle.addKey('display.mute','Silenciar');page.bundle.addKey('display.videoStatus','Estado del video');page.bundle.addKey('display.closePlayerControls','Cerrar controles del reproductor');page.bundle.addKey('display.embeddedVideoPlayer','Reproductor de video incrustado');page.bundle.addKey('display.of','de');page.bundle.addKey('display.view.on.flickr','Ver foto en Flickr');page.bundle.addKey('mashups.content.data.msg','No podemos mostrar el contenido de las herramientas combinadas. Esto sucede cuando el sistema detecta una dirección URL que no es válida. Para solucionar este problema, elimine el elemento de herramienta combinada y vuelva a intentarlo.');page.bundle.addKey('contextmenu.frame.title','Marco de menú');page.bundle.addKey('frameset.contentframe.title','Contenido');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script type="text/javascript">
+
+    jQuery(document).ready(function() {
+	    jQuery('#fullpage').fullpage({
+	    	responsiveWidth:992,
+	        scrollBar: true
+	    });
+	    escala();
+	    jQuery('link[rel=stylesheet][id~="css_0"]').remove();
+	    jQuery('link[rel=stylesheet][id~="css_1"]').remove();
+	    jQuery('link[rel=stylesheet][id~="css_2"]').remove();
+	    jQuery('#entry-login').addClass('btn.btn-warning');
+	    jQuery('input[type=text]').addClass('form-control');
+	    jQuery('input[type=password]').addClass('form-control');
+	    jQuery('font').removeAttr('style');
+	    jQuery('font').removeAttr('face');
+	    jQuery('font').removeAttr('size');
+	
+		});
+
+    function irFAQ(){
+        jQuery.fn.fullpage.moveTo(2);
+    }
+      function loadLoginPage()
+      {
+    	  if ( top != self )
+    	  {
+    		  top.location.replace( self.location.href );
+    		}
+    	  if(document.forms.login.user_id != undefined)
+    		{
+    		  document.forms.login.user_id.focus();
+    		}
+    	  setTimeout("triggerScreenreaderAlert()", 500);
+      }
+      
+      function triggerScreenreaderAlert()
+      {
+    	if ( document.getElementById( 'loginErrorMessage' ) )
+  	    {
+    	  $( 'loginErrorMessage' ).update( $('loginErrorMessage').innerHTML );
+  	    }
+      }
+     
+    </script>
+    <script type="text/javascript">
+    	
+    	 function escala() {
+    		var pantallaCompleta = jQuery(window).height();
+    		if (jQuery(window).width() > 768) {
+	        jQuery('[data-resize]').each(function(index) {
+	            medida = Math.floor((jQuery(this).attr("data-resize") * pantallaCompleta) / 100) - .3;
+	            jQuery(this).css("height", medida);
+	        });
+	        //console.log("ponlo fixed");
+	        jQuery('footer').css({
+	            "position": "fixed"
+	        })
+	        jQuery('#closeFooterButton').hide();
+
+    		} else {
+	        jQuery('footer').css({
+	            "position": "relative"
+        	})
+    		}
+
+	    //console.log("conviertiendo menu");
+	    jQuery('.levelHolderClass ul').css({
+	        "height": pantallaCompleta - 100
+	    });
+	
+	    jQuery('[data-resizem]').each(function(index) {
+	
+	        medida = Math.floor((jQuery(this).attr("data-resizem") * pantallaCompleta) / 100) - .3;
+	        jQuery(this).css("height", medida);
+	
+	    });
+	    ;
+		}
+	</script>
+  
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+</body>
+</html>
+</html>

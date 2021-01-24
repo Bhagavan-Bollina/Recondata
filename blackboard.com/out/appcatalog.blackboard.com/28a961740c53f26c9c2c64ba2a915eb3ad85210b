@@ -1,0 +1,1431 @@
+https://appcatalog.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: appcatalog.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Link: <https://appcatalog.blackboard.com/wp-json/>; rel="https://api.w.org/"
+< Date: Mon, 04 Jan 2021 13:02:13 GMT
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding
+< Vary: Accept-Encoding,Cookie
+< X-Cache: HIT: 1
+< Server: nginx
+< Content-Type: text/html; charset=UTF-8
+< Cache-Control: max-age=600, must-revalidate
+< X-Cache-Group: normal
+< X-Powered-By: WP Engine
+< X-Cacheable: SHORT
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Blackboard App Catalog - A collection of integrations for Blackboard Learn">
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="shortcut icon" href="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/favicon.ico" />
+
+<link rel="canonical" href="https://appcatalog.blackboard.com"><title>Blackboard App Catalog &#8211; A collection of integrations for Blackboard Learn</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Blackboard App Catalog &raquo; Feed" href="https://appcatalog.blackboard.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blackboard App Catalog &raquo; Comments Feed" href="https://appcatalog.blackboard.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/appcatalog.blackboard.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://appcatalog.blackboard.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='bp-parent-css-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/buddypress/css/buddypress.css?ver=4.2.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='fau-admin-bar-style-css'  href='https://appcatalog.blackboard.com/wp-content/plugins/oc-plugin-admin-ui/css/fau_styles_adminbar_front.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-styles-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/style.css?ver=1569171601' type='text/css' media='all' />
+<link rel='stylesheet' id='source-sans-pro-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A300%2C400%2C600%2C700&#038;ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='toastr-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/css/toastr.css?ver=2.1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/font-awesome/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/bootstrap/css/bootstrap.min.css?ver=4.0.0-alpha.6' type='text/css' media='all' />
+<link rel='stylesheet' id='ocmarketplace-styles-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/css/oc-marketplace.css?ver=5.5.3' type='text/css' media='all' />
+<link rel='stylesheet' id='stylish-support-style-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/style.css?ver=1595777315' type='text/css' media='all' />
+<style id='stylish-support-style-inline-css' type='text/css'>
+#content-title{color:#000}.btn-primary.focus,.btn-primary:focus{-webkit-box-shadow:0 0 0 2px rgba(249,162,29,0.5);box-shadow:0 0 0 2px rgba(249,162,29,0.5)}
+</style>
+<link rel='stylesheet' id='kirki-styles-stylish-support-css'  href='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/inc/customizer/kirki/assets/css/kirki-styles.css?ver=3.0.22' type='text/css' media='all' />
+<style id='kirki-styles-stylish-support-inline-css' type='text/css'>
+.site-header, .sticky-wrapper{background-color:#000000;}.site-branding a, .site-description, .main-navigation ul.menu a, .menu-toggle, .main-navigation ul.menu a:focus, .main-navigation ul.menu .menu-item:focus > a{color:#ffffff;}.site-branding a:hover, .main-navigation ul.menu a:hover, .main-navigation ul.menu .menu-item:hover > a, .main-navigation ul.menu .current-menu-item > a, .main-navigation ul.menu li.current_page_item > a, .main-navigation ul.menu li.current-menu-item > a, .main-navigation ul.menu li.current-page-ancestor > a, .main-navigation ul.menu li.current-menu-ancestor > a{color:#ffffff;}.main-navigation ul.menu .current-menu-item > a, .main-navigation ul.menu li.current_page_item > a, .main-navigation ul.menu li.current-menu-item > a, .main-navigation ul.menu > .menu-item > a:hover{border-color:#ffffff;}.site-footer{background-color:#ffffff;}.site-footer p{color:#000000;}.site-footer a{color:#0a0a0a;}.site-footer a:hover{color:#4776be;}body{background-color:#fff;color:#000000;font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:1rem;font-weight:400;line-height:1.5;}a{color:#f9a21d;}a:hover, a:focus{color:#f9a21d;}h1, h2, h3, h4, h5, h6{color:#000000;}.btn-primary, .btn-primary.disabled, .btn-primary:disabled{background-color:#f9a21d;border-color:#f9a21d;color:#000000;}.btn-primary.focus, .btn-primary:focus, .btn-primary.active, .btn-primary:active, .btn-primary:hover:not(.disabled):not(:disabled){background-color:#f9a21d;border-color:#f9a21d;color:#000000;}.btn-secondary, .btn-secondary.disabled, .btn-secondary:disabled{background-color:#fff;border-color:#ccc;color:#292b2c;}.btn-secondary.focus, .btn-secondary:focus, .btn-secondary.active, .btn-secondary:active, .btn-secondary:hover:not(.disabled):not(:disabled){background-color:#e6e6e6;border-color:#adadad;color:#292b2c;}h1,.h1{font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:2.5rem;font-weight:700;line-height:1.25;}h2,.h2{font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:2rem;font-weight:700;line-height:1.25;}h3,.h3{font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:1.75rem;font-weight:600;line-height:1.25;}h4,.h4{font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:1.5rem;font-weight:600;line-height:1.25;}h5,.h5{font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:1.25rem;font-weight:600;line-height:1.25;}h6,.h6{font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;font-size:1rem;font-weight:600;line-height:1.25;}pre, code{font-family:Monaco,"Lucida Sans Typewriter","Lucida Typewriter","Courier New",Courier,monospace;font-size:0.875rem;font-weight:400;line-height:1.5;}.ocdeveloper-pages .main-title{background-color:#f7f7f7;border-color:#e5e5e5;}.ocdeveloper-pages .breadcrumb, .ocdeveloper-pages .breadcrumb a{color:#777777;}.add-app .action-title{color:#fff;}.add-app .action-container{background-color:#465a61;}.add-app a.btn{color:#fff;}.add-app a.btn:hover{background-color:#fff;color:#54555a;}.my-apps .action-title{color:#4a4a4a;}#ocdeveloper-apps .card{background-color:#fff;}#ocdeveloper-apps .card-overlay .btn-bg{background-color:#fff;color:#4d5c74;border-color:#fff;}.ocdeveloper-pages .modal-content{background-color:#fff;}@media screen and (min-width: 992px){.main-navigation ul.menu .sub-menu{background-color:#ffffff;}.main-navigation ul.menu > li > ul:before{border-color:transparent transparent #ffffff transparent;}.main-navigation ul.menu .menu-item:hover > .sub-menu a, .main-navigation ul.menu .menu-item.focus > .sub-menu a{color:#000000;}.main-navigation ul.menu .menu-item:hover > .sub-menu a{border-color:#f7f7f7;}.main-navigation ul.menu .menu-item:hover > .sub-menu a:hover{color:#000000;}.main-navigation ul.menu .sub-menu a:hover, .main-navigation ul.menu .sub-menu a:focus{background-color:#f7f7f7;}}
+</style>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+<script type='text/javascript' id='bp-confirm-js-extra'>
+/* <![CDATA[ */
+var BP_Confirm = {"are_you_sure":"Are you sure?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/plugins/buddypress/bp-core/js/confirm.min.js?ver=4.2.0' id='bp-confirm-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/plugins/buddypress/bp-core/js/widget-members.min.js?ver=4.2.0' id='bp-widget-members-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/plugins/buddypress/bp-core/js/jquery-query.min.js?ver=4.2.0' id='bp-jquery-query-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-cookie.min.js?ver=4.2.0' id='bp-jquery-cookie-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/plugins/buddypress/bp-core/js/vendor/jquery-scroll-to.min.js?ver=4.2.0' id='bp-jquery-scroll-to-js'></script>
+<script type='text/javascript' id='bp-legacy-js-js-extra'>
+/* <![CDATA[ */
+var BP_DTheme = {"accepted":"Accepted","close":"Close","comments":"comments","leave_group_confirm":"Are you sure you want to leave this group?","mark_as_fav":"Favorite","my_favs":"My Favorites","rejected":"Rejected","remove_fav":"Remove Favorite","show_all":"Show all","show_all_comments":"Show all comments for this thread","show_x_comments":"Show all comments (%d)","unsaved_changes":"Your profile has unsaved changes. If you leave the page, the changes will be lost.","view":"View","store_filter_settings":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/plugins/buddypress/bp-templates/bp-legacy/js/buddypress.min.js?ver=4.2.0' id='bp-legacy-js-js'></script>
+<link rel="https://api.w.org/" href="https://appcatalog.blackboard.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://appcatalog.blackboard.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://appcatalog.blackboard.com/wp-includes/wlwmanifest.xml" /> 
+
+	<script type="text/javascript">var ajaxurl = 'https://appcatalog.blackboard.com/wp-admin/admin-ajax.php';</script>
+
+        <!--ocAdmin Custom CSS Code-->
+                                    <!--/ocAdmin Custom CSS Code-->
+        </head>
+
+<body class="home-page bp-legacy home blog wp-custom-logo hfeed full-width no-js">
+<div id="page" class="site">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+	<header id="masthead" class="site-header" role="banner">
+		<div class="container">
+			<div class="site-branding">
+				<a href="https://appcatalog.blackboard.com" class="custom-logo-link" rel="home" itemprop="url"><img src="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/img/logo.svg" class="custom-logo" alt="Blackboard App Catalog" itemprop="logo"><span>App Catalog</span></a>
+									<h1 class="site-title"><a href="https://appcatalog.blackboard.com/" rel="home">Blackboard App Catalog</a></h1>
+									<p class="site-description">A collection of integrations for Blackboard Learn</p>
+							</div><!-- .site-branding -->
+
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">Primary Menu</button>
+				<div class="container"><ul id="primary-menu" class="menu"><li id="menu-item-100" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-100"><a href="https://appcatalog.blackboard.com/apps/">Browse</a></li>
+<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="https://appcatalog.blackboard.com/list-partners/">Partners</a></li>
+<li id="menu-item-262" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-262"><a href="http://docs.blackboard.com/learn/App%20Catalog/Blackboard%20App%20Catalog%20FAQ.html">FAQ</a></li>
+<li id="menu-item-114" class="bp-menu bp-login-nav menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://appcatalog.blackboard.com/wp-login.php?redirect_to=https%3A%2F%2Fappcatalog.blackboard.com%2F">Log In</a></li>
+</ul></div>			</nav><!-- #site-navigation -->
+
+		</div><!-- .container -->
+	</header><!-- #masthead -->
+	<div id="content" class="site-content">
+<div id="ocmarketplace-apps">
+        <div class="section-hero">
+		<div class="container">
+                			<p class="hero-subtitle">A collection of integrations for Blackboard Learn</p>
+                    </div>
+    </div>
+    <div class="content">
+        <div class="container mb-5">
+            <div class="row">
+                <!-- sidebar -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="category-filter pull-right">
+                        <i class="fa fa-bars"></i>
+                        <i class="fa fa-close d-none"></i>
+                    </div>
+                    <div class="sidebar">
+                                                <div class="filter-group">
+                                                        <h4 class="heading">Integration Type</h4>
+                                <ul class="type-lists">
+                                                                        <li>
+                                            <a class="type-link" href="https://appcatalog.blackboard.com/apps/?type=LTI%20%2B%20REST"><input type="checkbox" class="checkbox type-link" id="type-lti-rest">
+                                            <label for="type-lti-rest">LTI + REST</label></a><a class="popup" href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="LTI + REST apps are compatible across all flavors and delivery methods of Blackboard Learn (Original and Ultra experiences) and have no association with legacy Blackboard Building Blocks."><i class="fa fa-info-circle"></i></a>                                        </li>
+                                                                        <li>
+                                            <a class="type-link" href="https://appcatalog.blackboard.com/apps/?type=Building%20Blocks"><input type="checkbox" class="checkbox type-link" id="type-building-blocks">
+                                            <label for="type-building-blocks">Building Blocks</label></a><a class="popup" href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="Building Block apps are only fully functional in the Original Experience of Blackboard Learn. If a Building Block is installed on a Blackboard Learn environment with the Ultra Experience enabled, the functionality of the integration will only be available in courses using the Original course view."><i class="fa fa-info-circle"></i></a>                                        </li>
+                                                                        <li>
+                                            <a class="type-link" href="https://appcatalog.blackboard.com/apps/?type=Partner%20Cloud"><input type="checkbox" class="checkbox type-link" id="type-partner-cloud">
+                                            <label for="type-partner-cloud">Partner Cloud</label></a><a class="popup" href="javascript:void(0);" data-toggle="tooltip" data-placement="right" title="Partner Cloud apps are natively available in all flavors and delivery methods of Blackboard Learn (Original and Ultra experiences) and have no association with a legacy Blackboard Building Block."><i class="fa fa-info-circle"></i></a>                                        </li>
+                                                                </ul>
+                                                            <h4 class="heading">Category</h4>
+                                <ul class="categories-lists">
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Accessibility"><input type="checkbox" class="checkbox categories-link" id="categories-#accessibility">
+                                            <label for="categories-#accessibility">Accessibility</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Admin%2FSupport%20Tool"><input type="checkbox" class="checkbox categories-link" id="categories-#adminsupport-tool">
+                                            <label for="categories-#adminsupport-tool">Admin/Support Tool</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Assessment"><input type="checkbox" class="checkbox categories-link" id="categories-#assessment">
+                                            <label for="categories-#assessment">Assessment</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Classroom%20Tool"><input type="checkbox" class="checkbox categories-link" id="categories-#classroom-tool">
+                                            <label for="categories-#classroom-tool">Classroom Tool</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Consulting%2FDev%20Services"><input type="checkbox" class="checkbox categories-link" id="categories-#consultingdev-services">
+                                            <label for="categories-#consultingdev-services">Consulting/Dev Services</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Content"><input type="checkbox" class="checkbox categories-link" id="categories-#content">
+                                            <label for="categories-#content">Content</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Data%20Insights"><input type="checkbox" class="checkbox categories-link" id="categories-#data-insights">
+                                            <label for="categories-#data-insights">Data Insights</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Multimedia"><input type="checkbox" class="checkbox categories-link" id="categories-#multimedia">
+                                            <label for="categories-#multimedia">Multimedia</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=Safety%2FSecurity"><input type="checkbox" class="checkbox categories-link" id="categories-#safetysecurity">
+                                            <label for="categories-#safetysecurity">Safety/Security</label></a>                                        </li>
+                                                                        <li>
+                                            <a class="categories-link" href="https://appcatalog.blackboard.com/apps/?categories=SIS%2FSystem%20Integrator"><input type="checkbox" class="checkbox categories-link" id="categories-#sissystem-integrator">
+                                            <label for="categories-#sissystem-integrator">SIS/System Integrator</label></a>                                        </li>
+                                                                </ul>
+                                                                            </div>
+                        <div class="info-boxes mt-5">
+                            <a href="https://go.blackboard.com/suggestanintegration" class="item"><div class="header"><img class="icon" src="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/img/suggest-app.png"/><div class="title">Can't find what you're looking for?</div></div><div class="link">Suggest an App</div></a>
+                            <a href="https://www.blackboard.com/partnerships/become-a-partner" class="item mt-4 mb-4"><div class="header"><img class="icon" src="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/img/become-partner.png"/><div class="title">Want to list your Apps?</div></div><div class="link">Become a Partner</div></a>
+                        </div>
+                    </div>
+                </div><!-- end sidebar -->
+
+                <!-- search conatiner -->
+                <div class="col-sm-12 col-md-8 col-lg-9">
+                    <div class="main-content apps-lists">
+                                                    <form accept-charset="UTF-8" action="https://appcatalog.blackboard.com/apps/" class="search-form search-marketplace" method="get">
+                                <div class="input-group">
+                                    <div class="left input-group-addon"><img class="normal" src="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/img/icon-search.svg"/><img class="on-hover" src="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/img/icon-search-hover.svg"/></div>
+                                    <input value="" type="text" name="query" placeholder="Search" aria-label="Search" id="integrationsearch" class="form-control search">
+                                </div>
+                            </form>
+                        
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Accessibility</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Accessibility">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/readspeaker-textaid">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f61040960638c467a878cf1.jpg">    <div class="integration-detail">
+        <h3>ReadSpeaker TextAid</h3>
+        <p class="app-tags">Accessibility</p>
+        <div class="integration-tagline">
+            <span class="summary-text">ReadSpeaker TextAid provides literacy support for individuals through a personal reading, writing and studying tool.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/readspeaker-for-lms">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f60ebd160638c467a878be9.jpg">    <div class="integration-detail">
+        <h3>ReadSpeaker for LMS</h3>
+        <p class="app-tags">Accessibility</p>
+        <div class="integration-tagline">
+            <span class="summary-text">With ReadSpeaker text-to-speech solutions, students can listen to any online content, providing an enhanced learning experience.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Admin/Support Tool</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Admin%2FSupport%20Tool">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/eesysoft-connector">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e874e4422511d20addfed47.png">    <div class="integration-detail">
+        <h3>EesySoft Connector</h3>
+        <p class="app-tags">Admin/Support Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Helping Faculty and Students Use Educational Technology.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/eesysoft-in-ultra">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87a25122511d20ade00e4c.png">    <div class="integration-detail">
+        <h3>EesySoft in Ultra</h3>
+        <p class="app-tags">Admin/Support Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Communication &amp; Support for your EdTech Ecosystem.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/labster">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5eba70a1e00dec615180bf6a.jpg">    <div class="integration-detail">
+        <h3>Labster</h3>
+        <p class="app-tags">Admin/Support Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Labster gives students access to a realistic lab experience that will let them perform experiments and practice their skills.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/beacon-alerts-and-updates">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5fb28ac5cb00c545541cf92b.jpg">    <div class="integration-detail">
+        <h3>Beacon Alerts and Updates</h3>
+        <p class="app-tags">Admin/Support Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Faculty and staff can easily submit alerts and updates into Beacon via Blackboard</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Assessment</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Assessment">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/webassign">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f246dbbec4ad046ff9eb78d.png">    <div class="integration-detail">
+        <h3>WebAssign</h3>
+        <p class="app-tags">Assessment</p>
+        <div class="integration-tagline">
+            <span class="summary-text">WebAssign enables faculty to easily customize the learning experience to meet any teaching style and encourages critical-thinking skills.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/lockdown-browser">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87afdd22511d20ade01165.png">    <div class="integration-detail">
+        <h3>LockDown Browser</h3>
+        <p class="app-tags">Assessment</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Prevent cheating during online exams.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/lockdown-browser-1">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87b18922511d20ade0118d.png">    <div class="integration-detail">
+        <h3>LockDown Browser</h3>
+        <p class="app-tags">Assessment</p>
+        <div class="integration-tagline">
+            <span class="summary-text">LockDown Browser® is a custom browser that locks down the testing environment within a learning management system.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/eac-visual-data">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5eba9e9e336b3943ea7b9b6e.jpg">    <div class="integration-detail">
+        <h3>EAC Visual Data</h3>
+        <p class="app-tags">Assessment</p>
+        <div class="integration-tagline">
+            <span class="summary-text">EAC Visual Data leverages Blackboard Learn™ for detailed course and program level assessment data on student learning.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/group-member-evaluation-by-feedbackfruits">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5ebadb56336b3943ea7bb0dc.jpg">    <div class="integration-detail">
+        <h3>Group Member Evaluation by FeedbackFruits</h3>
+        <p class="app-tags">Assessment</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Easy-to-use tool for group member feedback on individual contributions to improve soft skills and reduce free-riding.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/assignment-review-by-feedbackfruits">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5ebae33b336b3943ea7bb198.jpg">    <div class="integration-detail">
+        <h3>Assignment Review by FeedbackFruits</h3>
+        <p class="app-tags">Assessment</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Easy-to-use tool to provide in-line feedback on assignments and reduce teacher workload.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Classroom Tool</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Classroom%20Tool">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/onedrive">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e868033c43c4b033eb9f5cb.png">    <div class="integration-detail">
+        <h3>OneDrive</h3>
+        <p class="app-tags">Classroom Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">OneDrive is a file hosting service and synchronization service operated by Microsoft as part of its suite of Office Online services.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/teams">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e868f6522511d20addfd90e.png">    <div class="integration-detail">
+        <h3>Teams</h3>
+        <p class="app-tags">Classroom Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Through this integration, users will be able to launch Microsoft Teams Meetings directly within any Learn course.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/onenote-class-notebook">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e86906ec43c4b033eb9f6d9.png">    <div class="integration-detail">
+        <h3>OneNote Class Notebook</h3>
+        <p class="app-tags">Classroom Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">OneNote Class Notebooks have a workspace for each student, a content library for handouts, and collaboration space for lessons and activities.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/iclicker-classic">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e8788c022511d20ade00836.png">    <div class="integration-detail">
+        <h3>iClicker Classic</h3>
+        <p class="app-tags">Classroom Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">iClicker is the market-leader in audience response systems for Higher Education, recognized for ease-of-use, reliability, and focus on pedagogy.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/iclicker-cloud">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e878a0f22511d20ade009c9.png">    <div class="integration-detail">
+        <h3>iClicker Cloud</h3>
+        <p class="app-tags">Classroom Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">iClicker is the market-leader in audience response systems for Higher Education, recognized for ease-of-use, reliability, and focus on pedagogy.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/academic-writer">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e879fc622511d20ade00d61.png">    <div class="integration-detail">
+        <h3>Academic Writer</h3>
+        <p class="app-tags">Classroom Tool</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Help students master academic writing with APA’s essential teaching and learning resource.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Content</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Content">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/cengage-integration">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e77c2fddee38c04f11b1d33.png">    <div class="integration-detail">
+        <h3>Cengage Integration</h3>
+        <p class="app-tags">Content</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Cengage and Blackboard have partnered to offer LMS Integration with our premier digital solutions to power a more seamless learning experience.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">Partner Cloud</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/wileyplus">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87851922511d20ade003c6.png">    <div class="integration-detail">
+        <h3>WileyPLUS</h3>
+        <p class="app-tags">Content</p>
+        <div class="integration-tagline">
+            <span class="summary-text">An Easier Way to Teach and Learn.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">Partner Cloud</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/macmillan-learning">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e878c4a22511d20ade00a13.png">    <div class="integration-detail">
+        <h3>Macmillan Learning</h3>
+        <p class="app-tags">Content</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Improving lives through learning. Find the best content, digital products, and solutions for higher education at Macmillan Learning.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">Partner Cloud</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/connect">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e878d9722511d20ade00a35.png">    <div class="integration-detail">
+        <h3>Connect</h3>
+        <p class="app-tags">Content</p>
+        <div class="integration-tagline">
+            <span class="summary-text">A course management and adaptive learning solution that enhances your unique voice and teaching style.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">Partner Cloud</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/connect2">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e878f71c43c4b033eba295c.png">    <div class="integration-detail">
+        <h3>Connect2</h3>
+        <p class="app-tags">Content</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Discover a digital teaching &amp; learning tool designed to adjust to your students&#039; needs and yours.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">Partner Cloud</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/simnet">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e8790a122511d20ade00a8a.png">    <div class="integration-detail">
+        <h3>SIMnet</h3>
+        <p class="app-tags">Content</p>
+        <div class="integration-tagline">
+            <span class="summary-text">SIMnet is McGraw-Hill Education&#039;s leading solution for learning and assessment of Microsoft Office skills and beyond!</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">Partner Cloud</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Data Insights</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Data%20Insights">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/automated-feedback-by-feedbackfruits">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5ebbac00336b3943ea7bcef7.jpg">    <div class="integration-detail">
+        <h3>Automated Feedback by FeedbackFruits</h3>
+        <p class="app-tags">Data Insights</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Easy-to-use tool to improve your students&#039; academic writing skills with AI-powered instant feedback on their work.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/intelliboard">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5ed517c39233da06ec1b9b14.jpg">    <div class="integration-detail">
+        <h3>IntelliBoard</h3>
+        <p class="app-tags">Data Insights</p>
+        <div class="integration-tagline">
+            <span class="summary-text">IntelliBoard provides analytic and reporting services to education communities and institutions that want expanded reporting and analytics.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/blue">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f10ac6558af943404062bd3.jpg">    <div class="integration-detail">
+        <h3>Blue</h3>
+        <p class="app-tags">Data Insights</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Blue is an adaptive course evaluation solution that offers you flexibility, personalization, and control when gathering student feedback.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/bluepulse">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f10acf058af943404062be3.jpg">    <div class="integration-detail">
+        <h3>Bluepulse</h3>
+        <p class="app-tags">Data Insights</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Bluepulse is an engagement network that allows you to easily connect with everyone across your entire network in real time.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/qwickly-attendance-pro">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f11f016d8651101a55a0785.jpg">    <div class="integration-detail">
+        <h3>Qwickly Attendance Pro</h3>
+        <p class="app-tags">Data Insights</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Streamline enterprise attendance reporting, easily identified student trends, and meet attendance compliance mandates more easily.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/evasys">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f2a5c398ff1af7f2fc21871.jpg">    <div class="integration-detail">
+        <h3>EvaSys</h3>
+        <p class="app-tags">Data Insights</p>
+        <div class="integration-tagline">
+            <span class="summary-text">EvaSys provides an unrivaled level of automation of the entire survey process when collecting student feedback.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">Multimedia</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=Multimedia">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/kaltura-video">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e8775f1c43c4b033eba13a8.png">    <div class="integration-detail">
+        <h3>Kaltura Video</h3>
+        <p class="app-tags">Multimedia</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Seamlessly add video to your Blackboard Learn Ultra environment.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/kaltura-video-4">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87820922511d20ade0000b.png">    <div class="integration-detail">
+        <h3>Kaltura Video</h3>
+        <p class="app-tags">Multimedia</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Seamlessly add video to your Blackboard Learn Original environment.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/acrobatiq">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e8794cac43c4b033eba2a0a.png">    <div class="integration-detail">
+        <h3>Acrobatiq</h3>
+        <p class="app-tags">Multimedia</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Acrobatiq enables educators and instructional designers to personalize learning for every student.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/panopto">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87b51c22511d20ade011e8.png">    <div class="integration-detail">
+        <h3>Panopto</h3>
+        <p class="app-tags">Multimedia</p>
+        <div class="integration-tagline">
+            <span class="summary-text">This LTI + REST integration allows instructors to easily access Panopto from inside their courses and quickly record, upload and manage videos.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/panopto-1">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87b9a322511d20ade0123c.png">    <div class="integration-detail">
+        <h3>Panopto</h3>
+        <p class="app-tags">Multimedia</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Panopto&#039;s Building Block now enables: single sign-on, course provisioning, rolling synchronization for user access, and immediate video viewing.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/interactive-video-by-feedbackfruits">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5ebad550336b3943ea7bb042.jpg">    <div class="integration-detail">
+        <h3>Interactive Video by FeedbackFruits</h3>
+        <p class="app-tags">Multimedia</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Videos that initiate deeper learning. Activate student thinking through in-line discussions and practice questions.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                                                    <div class="row">
+                                                        <div class="heading col-sm-12 mt-3 mb-2">
+                                                            <h4 class="category-title">SIS/System Integrator</h4>
+                                                            <a class="category-link" href="https://appcatalog.blackboard.com/apps/?categories=SIS%2FSystem%20Integrator">See All</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/sharp-mfp-assignment-submission">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5e87b2b322511d20ade011b0.png">    <div class="integration-detail">
+        <h3>Sharp MFP Assignment Submission</h3>
+        <p class="app-tags">SIS/System Integrator</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Sharp’s integration with Blackboard Learn enables students to print and scan assignments from a Sharp MFP directly to a Blackboard Learn course.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+                        <span class="type">Building Block</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/enrole-blackboard-integration">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5ef64a64d18b5c6c12a20352.jpg">    <div class="integration-detail">
+        <h3>Enrole-Blackboard Integration</h3>
+        <p class="app-tags">SIS/System Integrator</p>
+        <div class="integration-tagline">
+            <span class="summary-text">Integrate Entrinsik Enrole registration &amp; course management software with Blackboard learn for an immediate start to learning.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                            <div class="col-sm-6 col-lg-4">
+                                                        <a class="card integration-box" href="https://appcatalog.blackboard.com/details/cirqlive-meets">
+    <img class="integration-icon" src="//d3grfap2l5ikgv.cloudfront.net/5d03fe3c2931b70d4417db18/public/5f1c74a1d8651101a55b676c.jpg">    <div class="integration-detail">
+        <h3>CirQlive MEETS</h3>
+        <p class="app-tags">SIS/System Integrator</p>
+        <div class="integration-tagline">
+            <span class="summary-text">CirQlive MEETS- Managing, Organizing, and Scaling your Online Learning Platforms- Maximizing the LIVE  interaction between teachers and students.</span>            <span class="nav-right"><svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="1---Marketplace" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="1.3---App-Store-Search-Results-Page" transform="translate(-1484.000000, -405.000000)" fill="#000000">
+                    <g id="Main" transform="translate(690.000000, 258.000000)">
+                        <g id="Search-Results" transform="translate(0.000000, 84.000000)">
+                            <g id="Item-1">
+                                <g id="Arrow" transform="translate(797.500000, 69.000000) scale(-1, 1) translate(-797.500000, -69.000000) translate(794.000000, 63.000000)">
+                                    <polygon id="Arrow-Copy-3" points="7 10.59 2.6734143 6 7 1.41 5.66801619 0 0 6 5.66801619 12"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            </svg></span>
+        </div>
+                <div class="app-type-indicator">
+            <span class="ultra">Ultra Ready</span>            <span class="type">LTI + REST</span>
+        </div>
+            </div>
+</a>
+                                                        </div>
+                                                                                                        </div>
+                                                                    </div>
+        		</div>
+            </div>
+        </div>
+	</div>
+</div>
+
+	</div><!-- #content -->
+	<footer id="colophon" class="site-footer" role="contentinfo">
+		<div class="container">
+			<div class="row">
+				<div class="site-info col-md-4 col-lg-3">
+					<a href="https://appcatalog.blackboard.com" class="custom-logo-link" rel="footer" itemprop="url"><img src="https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/img/logo-footer.svg" class="custom-logo" alt="Blackboard App Catalog" itemprop="footer-logo"></a>
+				</div><!-- .site-info -->
+				<div class="footer-links col-md-8 col-lg-9 text-md-right mt-3 mt-md-0">
+					<div class="footer-menu">
+						<section id="text-2" class="widget widget_text">			<div class="textwidget"><ul>
+<li><a href="https://www.blackboard.com/blackboard-accessibility-commitment">Accessibility</a></li>
+<li><a href="https://help.blackboard.com/CA_Privacy_Notice#your-california-consumer-privacy-rights_OTP-4" target="_blank" rel="noopener noreferrer">Do Not Sell My PI</a></li>
+<li><a href="https://help.blackboard.com/Privacy_Statement" target="_blank" rel="noopener noreferrer">Privacy Statement</a></li>
+<li><a href="https://help.blackboard.com/Learn/Administrator/Hosting/Security/Security_Assurance/Vulnerability_Management_Commitment_and_Disclosure_Policy" target="_blank" rel="noopener noreferrer">Security</a></li>
+<li><a href="https://help.blackboard.com/Terms_of_Use" target="_blank" rel="noopener noreferrer">Terms of Use</a></li>
+<li><a href="https://www.blackboard.com/sitemap" data-drupal-link-system-path="node/6276">Sitemap</a></li>
+</ul>
+</div>
+		</section>					</div>
+				</div>
+				<div class="social-links col-md-6 mt-3 mt-md-4">
+					<ul>
+						<li><a class="twitter" href="https://twitter.com/Blackboard"><svg class="svg-inline--fa fa-twitter fa-w-16 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></li>
+						<li><a class="facebook" href="https://www.facebook.com/blackboard"><svg class="svg-inline--fa fa-facebook-square fa-w-14 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"></path></svg></a></li>
+						<li><a class="youtube" href="https://www.youtube.com/user/BlackboardTV"><svg class="svg-inline--fa fa-youtube fa-w-18 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg=""><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></a></li>
+						<li><a class="linkedin" href="https://www.linkedin.com/company/blackboard"><svg class="svg-inline--fa fa-linkedin fa-w-14 fa-2x" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg></a></li>
+					</ul>
+				</div><!-- .footer-links -->
+				<div class="copyright col-md-6 text-md-right mt-3 mt-md-4">
+					<p>Copyright &#x000A9;&nbsp;2021 <a href="https://appcatalog.blackboard.com">Blackboard App Catalog</a>. All rights reserved. <a class="trademarks" href="https://www.blackboard.com/trademarks-patent-numbers">See Blackboard trademarks and patents.</a>
+</p>
+				</div><!-- .footer-links -->
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<a href="#" class="return-to-top"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+        <!--ocAdmin Custom Script Code-->
+                                    <!--/ocAdmin Custom Script Code-->
+        <script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/js/fitvids.min.js?ver=1.1' id='fitvids-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/js/Chart.min.js?ver=2.8.0' id='chartjs-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/js/toastr.min.js?ver=2.1.4' id='toastr-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/js/jqBootstrapValidation.min.js?ver=1.3.6' id='jqBootstrapValidation-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-blackboard/assets/js/custom.js?ver=1584548195' id='custom-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/js/tether/tether.min.js?ver=1.4.0' id='tether-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/bootstrap/js/bootstrap.min.js?ver=4.0.0-alpha.5' id='bootstrap-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/js/bxslider.js?ver=4.2.1' id='bxslider-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/js/magnific-popup.min.js?ver=1.1.0' id='magnific-popup-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-content/themes/oc-theme-marketplace-base/assets/js/stylish-support.js?ver=1569171600' id='stylish-support-js'></script>
+<script type='text/javascript' src='https://appcatalog.blackboard.com/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js?ver=3.0.22' id='webfont-loader-js'></script>
+<script type='text/javascript' id='webfont-loader-js-after'>
+WebFont.load({google:{families:['Source Sans Pro:400,700,600']}});
+</script>
+
+</body>
+</html>
+
+<script type="text/javascript">
+jQuery(function($){
+    if($('a[data-toggle=tooltip]').length)
+        $('a[data-toggle=tooltip]').tooltip();
+    $(document).on('click', '[type=checkbox].checkbox', function(){
+        location.href = $(this).parents('a').attr('href');
+    });
+});
+</script>

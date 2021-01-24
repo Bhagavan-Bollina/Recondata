@@ -1,0 +1,28 @@
+https://csub-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: csub-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Accept-Ranges: bytes
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Last-Modified: Sun, 08 Sep 2019 17:53:46 GMT
+< Expires: Sat, 04 Jan 2020 13:02:42 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: JSESSIONID=8624C1747E67F56EFA0C5ACFD497C723; Path=/; Secure
+< Set-Cookie: NSC_546519_wjq_192.230.224.178*443=ffffffff090d1e1345525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Etag: W/"89-1567965226000"
+< Date: Mon, 04 Jan 2021 13:02:41 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgtd-546519-131202-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,29 @@
+https://wncc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wncc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:05:44 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:05:44 GMT
+< Expires: Sat, 04 Jan 2020 13:05:44 GMT
+< Location: /auth-saml/saml/login?apId=_148_1&redirectUrl=https%3A%2F%2Fwncc.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-219-165.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Set-Cookie: BbRouter=expires:1609776344,id:DAA7E05D9C63BD784B6F99B498BEA289,signature:fb428707fb03e70548fa4c9548929c2d7f147888410c18f27a3a0b604c7872d3,site:2d620465-97a1-4546-aefc-8a5edca29603,v:2,xsrf:a8be9316-ec77-44a7-887e-f75437a79531; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=8D8361530605FA86A3A5AA0F69D4852C257A26CF4F04898797BAC1E6A1CB7E243E4A8942DDC80F55D35AE951CE1BD410725EC4C79E416D2C60722C7FAB026F649DCC299711;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=8D8361530605FA86A3A5AA0F69D4852C257A26CF4F04898797BAC1E6A1CB7E243E4A8942DDC80F55D35AE951CE1BD410725EC4C79E416D2C60722C7FAB026F649DCC299711;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+

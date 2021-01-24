@@ -1,0 +1,27 @@
+https://pfwpreview.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: pfwpreview.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Blackboard-Appserver: fgtd-304785-196124-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.0-rel.23+4c6d4de
+< Last-Modified: Sat, 29 Jun 2019 22:14:35 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:13 GMT
+< Set-Cookie: NSC_304785_wjq_69.196.225.120*443=ffffffff090e1e7a45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Expires: Sat, 04 Jan 2020 13:04:14 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Content-Length: 89
+< Accept-Ranges: bytes
+< Etag: W/"89-1561846475000"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,27 @@
+https://a4m.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: a4m.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: NSC_526608_wjq_192.230.224.27*443=ffffffff090d1a1845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:05 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 09 May 2019 02:29:17 GMT
+< Expires: Sat, 04 Jan 2020 13:02:05 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.5-rel.48+1fc210f
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1557368957000"
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-526608-sf631675-app002.mhint
+< Pragma: private
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

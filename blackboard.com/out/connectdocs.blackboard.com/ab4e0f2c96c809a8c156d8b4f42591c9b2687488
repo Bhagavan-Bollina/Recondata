@@ -1,0 +1,13 @@
+https://connectdocs.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: connectdocs.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Moved Temporarily
+< Server: Apache-Coyote/1.1
+< Location: https://connectdocs.blackboard.com/xythoswfs
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:02:38 GMT
+< Set-Cookie: NSC_336984_wjq_69.196.229.81*443=ffffffff090d131445525d5f4f58455e445a4a423660;path=/;secure;SameSite=None
+

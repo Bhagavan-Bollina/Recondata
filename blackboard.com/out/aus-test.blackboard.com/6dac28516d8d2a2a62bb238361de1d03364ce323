@@ -1,0 +1,29 @@
+https://aus-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: aus-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:16 GMT
+< Pragma: private
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:16 GMT
+< Location: /auth-saml/saml/login?apId=_7_1&redirectUrl=https%3A%2F%2Faus-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-148-203-124.eu-central-1.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:02:16 GMT
+< Set-Cookie: BbRouter=expires:1609776136,id:0E91E8BE6CDA710C5AA179CE946C56AA,signature:7fcfccfa77c81ae0d84a07d57c0846f13493fc64ad3dbf1fc8576686092e1144,site:1ed3c25b-364a-459b-afe0-9cdb8c47c695,v:2,xsrf:3fb8fbc8-1c45-41b4-b4cb-208118e0ac9b; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=71F31DEF1AB0FFC17AB0FC3E5508C31589B08EFD9D783464D28CBBE47C5BC4DAC8FFD255766DD82E4F88289C9B90AAC023CD40B1411CEBBE9B6F7D608DC00724B265652382;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=71F31DEF1AB0FFC17AB0FC3E5508C31589B08EFD9D783464D28CBBE47C5BC4DAC8FFD255766DD82E4F88289C9B90AAC023CD40B1411CEBBE9B6F7D608DC00724B265652382;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+

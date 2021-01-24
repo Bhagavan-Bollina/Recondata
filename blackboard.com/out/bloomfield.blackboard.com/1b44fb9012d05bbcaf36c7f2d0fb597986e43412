@@ -1,0 +1,29 @@
+https://bloomfield.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bloomfield.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-217-56.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Date: Mon, 04 Jan 2021 13:02:22 GMT
+< Set-Cookie: BbRouter=expires:1609776142,id:4C3B3D822F3408EC7C6EE7B1850C849F,signature:a3c50a421f2ca3561171030979b5a9c6b41b52cc7b6267aa2d7ca4a1bc091302,site:f3ce1057-12fd-4acb-9d3c-fc4cb8519637,v:2,xsrf:3b24adba-589d-4e01-b149-1ecd3a4cf022; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=4DDB634D04EB952AA4953A5D6D88CBA4C96B85E32068DF928D7501DDC5DDAC1FDF43623F8F16C29BF6616AFF78721DA8D87EB8DDA066866485674B49305BC8A2EA9F86FDB1;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=4DDB634D04EB952AA4953A5D6D88CBA4C96B85E32068DF928D7501DDC5DDAC1FDF43623F8F16C29BF6616AFF78721DA8D87EB8DDA066866485674B49305BC8A2EA9F86FDB1;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Location: /auth-saml/saml/login?apId=_130_1&redirectUrl=https%3A%2F%2Fbloomfield.blackboard.com%2Fultra
+< Last-Modified: Thu, 04 Jan 2001 13:02:22 GMT
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:02:22 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+

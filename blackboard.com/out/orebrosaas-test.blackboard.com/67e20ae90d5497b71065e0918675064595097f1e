@@ -1,0 +1,59 @@
+https://orebrosaas-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: orebrosaas-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: JSESSIONID=0024C54A4C7F2F85D64B67FEE497A948; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776247,id:F7F1DD3E90341D7F6BB9BA6A0A09CE3A,signature:74143b883dff7a524bcb710e9f73a09fe2ae017e7aababad5d75ef067b7b9d12,site:ae80270f-739c-4eac-8d56-ea9d69031857,v:2,xsrf:f0269334-213f-4c03-b314-7f45afe4806e; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=5D1557AF0494AC9D71860A1CAE98C917FB003B57D91A716A9C551E093E152458294F1A831DE9EDBF084BE7892559ED5ED5195B022A33B3A90C75B493135FCE57C5C890A445;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=5D1557AF0494AC9D71860A1CAE98C917FB003B57D91A716A9C551E093E152458294F1A831DE9EDBF084BE7892559ED5ED5195B022A33B3A90C75B493135FCE57C5C890A445;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-148-199-68.eu-central-1.compute.internal
+< Date: Mon, 04 Jan 2021 13:04:07 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:04:07 GMT
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:04:07 GMT
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Test - Redirect</title>
+</HEAD>
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; ">
+<script type="text/javascript">
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return '';
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var redirectUrl = getParameterByName('new_loc');
+
+if (redirectUrl) {
+  redirectUrl = encodeURIComponent(window.location.origin + redirectUrl);
+} else {
+  redirectUrl = encodeURIComponent(window.location.origin);
+}
+
+//alert(redirectUrl);
+window.location.href = window.location.origin + "/webapps/bb-auth-provider-cas-BB5c6204f14162b/execute/casLogin?cmd=login&authProviderId=_122_1&redirectUrl=" + redirectUrl;
+</script>
+</BODY>
+</HTML>

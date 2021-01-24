@@ -1,0 +1,27 @@
+https://reportabusepa-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: reportabusepa-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Tue, 16 Apr 2019 01:16:38 GMT
+< Etag: W/"89-1555377398000"
+< Content-Type: text/html
+< Set-Cookie: NSC_526389_wjq_192.230.226.32*443=ffffffff090e121a45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:04:32 GMT
+< Pragma: private
+< Accept-Ranges: bytes
+< Content-Length: 89
+< X-Blackboard-Appserver: fgtd-526389-sf202264-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.5-rel.48+1fc210f
+< Expires: Sat, 04 Jan 2020 13:04:32 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

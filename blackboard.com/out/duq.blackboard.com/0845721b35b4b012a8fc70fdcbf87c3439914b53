@@ -1,0 +1,45 @@
+https://duq.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: duq.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Content-Type: text/html;charset=ISO-8859-1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: Accept-Encoding
+< Date: Mon, 04 Jan 2021 13:02:53 GMT
+< X-Blackboard-Appserver: fgprd-100549-164541-app001.mhint
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:02:53 GMT
+< Set-Cookie: session_id=8E710791E4B59C309F391BB02A844076; Path=/; HttpOnly
+< Set-Cookie: s_session_id=315B011A941135607641C16F369BA554; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_100549_wjq_69.196.229.164*443=ffffffff090d1bf045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.10-rel.12+2ad3637
+< Expires: Sat, 04 Jan 2020 13:02:53 GMT
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://duq.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://duq.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

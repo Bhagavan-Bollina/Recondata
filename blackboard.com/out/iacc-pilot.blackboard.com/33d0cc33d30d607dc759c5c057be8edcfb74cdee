@@ -1,0 +1,1217 @@
+https://iacc-pilot.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: iacc-pilot.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Vary: accept-encoding
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=UTF-8
+< P3p: CP="CAO PSA OUR"
+< Content-Language: es-ES
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+< Set-Cookie: JSESSIONID=96C3D33FA46C19470DB88AF8146471B3; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776200,id:AA6682BC9BBBD489BEEF41350FC380B8,signature:64d0f8315b2b4d867c3ddf192dc1631ef368eba59436c1e617e5bd17bfb6f8bf,site:25eaaff0-4fea-4981-943d-2539665baedd,v:2,xsrf:9807a13f-dcfc-41b5-91c6-fed1cc3929e2; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=3D5DBD5304C9F93F9BA6EB9EA6D5C5220E679A012C5C722EAA768C133DEB3FAAD6DC154BBA562C16907E05E10C34209FF55CA6625E675A3F6E592BD88107FAE6BF17434627;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=3D5DBD5304C9F93F9BA6EB9EA6D5C5220E679A012C5C722EAA768C133DEB3FAAD6DC154BBA562C16907E05E10C34209FF55CA6625E675A3F6E592BD88107FAE6BF17434627;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-249-39.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:03:20 GMT
+
+<!DOCTYPE HTML >
+<html  lang="es-ES">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Todos los derechos reservados. Número de patente 7.493.396 y 7.558.853 de Estados Unidos. Resto de patentes en trámite.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"299721123"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon3.ico">
+     <link rel="stylesheet" type="text/css" href="/ui-ultra/css/ultra.css?v=3900.2.0-rel.34+4ad580a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.2.0-rel.34+4ad580a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a" id="css_2">
+      <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.2.0-rel.34+4ad580a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.2.0-rel.34+4ad580a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Se debe introducir una dirección de correo electrónico válida (por ejemplo, info@blackboard.com).';
+    JS_RESOURCES['validation.radio.required'] = 'Para continuar, realice una selección.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la encuesta. Haga clic en Aceptar para guardar la respuesta incompleta.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Términos de búsqueda';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Los valores en puntos pueden tener 5 lugares decimales como máximo: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'No debe contener más de {1} caracteres: {0}.\nReduzca el tamaño de la entrada en {2} caracteres.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a al examen Haga clic en Aceptar para guardar la respuesta incompleta.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'El cuadro de multiselección debe contener al menos {0} elementos.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Se debe proporcionar un valor de {0}\ncuando el campo {1} no está vacío';
+    JS_RESOURCES['warning.email'] = 'La dirección de correo electrónico es un campo recomendado. Los usuarios no podrán utilizar ciertas partes del sistema sin una dirección de correo electrónico.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'No debe contener más de {0} caracteres.\nReducir el tamaño de la entrada en un carácter.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'El cuadro de multiselección no debe contener más de {0} elementos.';
+    JS_RESOURCES['validation.number'] = 'Se debe introducir un valor numérico válido: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'Es necesario proporcionar un valor de fecha completo: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = '¿Eliminar: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Mostrar texto de ayuda';
+    JS_RESOURCES['validation.password'] = 'La contraseña no puede estar vacía ni contener solo espacios.';
+    JS_RESOURCES['validation.percent'] = 'Se debe introducir un valor de porcentaje entre 0 y 100 válido.';
+    JS_RESOURCES['validation.mismatch'] = 'Los valores que introdujo no coinciden: {0}.\nConfirmar: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'No debe contener más de {0} caracteres.\nReducir {1} caracteres el tamaño de la entrada.';
+    JS_RESOURCES['validation.invalid_value'] = 'Se ha proporcionado un valor numérico no válido: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'Campo de entrada {0}.';
+    JS_RESOURCES['validation.required'] = 'Es necesario suministrar un valor: {0}';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Especifique un valor para el campo de texto de búsqueda.';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Ha seleccionado las alineaciones pero no ha seleccionado ningún contenido alineable que copiar.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" no se permite al comienzo de una ID de rol.';
+    JS_RESOURCES['validation.date_past'] = 'La fecha de finalización no puede ser anterior a la fecha de inicio.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contiene caracteres no válidos: {0}.\nElimine estos caracteres: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Este elemento {0} se eliminará. ¿Desea continuar?';
+    JS_RESOURCES['hide.helptext'] = 'Ocultar texto de ayuda';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Menos de {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'La hora indicada ya ha pasado.\n¿Desea continuar con esta hora?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Introduzca un nombre de usuario y una contraseña.';
+    JS_RESOURCES['validation.negative'] = 'Se debe introducir un valor no negativo válido: {0}.';
+    JS_RESOURCES['validation.url'] = 'Se debe introducir una dirección URL válida (por ejemplo, http://www.miuniversidad.es).';
+    JS_RESOURCES['validate.range.overlap'] = 'criterios ({0}) se superpone a los criterios ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Entre {0} y {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = '¿Eliminar: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'Es posible que la información de los elementos asociados se haya actualizado.\nHaga clic en "Aceptar" para actualizar la lista o haga clic en "Cancelar" para continuar en la página actual.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'La opción Inscripción por código de acceso no es compatible con la selección de inscripción dirigida por {instructor}.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Los valores en puntos pueden tener 5 lugares decimales como máximo.';
+    JS_RESOURCES['validation.option.required'] = 'Debe seleccionar como mínimo una opción de la lista.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Para seleccionar todos los elementos, active esta casilla';
+    JS_RESOURCES['active.filter.changed.alert'] = 'los criterios ahora contienen';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Especifique un nombre para guardar como objeto reutilizable.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Introduzca un número válido en lugar de {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'La ID del curso contiene caracteres ilegales o caracteres multibyte.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a al examen Haga clic en Aceptar para enviar la evaluación.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Advertencia: debe seleccionar la opción Dirigida por {instructor} o Autoinscripción.';
+    JS_RESOURCES['validation.date_equal'] = 'La fecha de inicio no puede ser la misma que la fecha de finalización.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'No se puede utilizar el {0} sin un valor {1} correspondiente.';
+    JS_RESOURCES['validation.time.required'] = 'Es necesario proporcionar un valor de hora completo: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Se debe introducir un valor numérico entero válido: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'No debe contener más de 255 caracteres';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'La opción de inscripción por correo electrónico seleccionada no es compatible con la selección de autoinscripción.';
+    JS_RESOURCES['invalid_char.space'] = 'espacio';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Más de {0}';
+    JS_RESOURCES['notification.submit'] = 'Esta acción ya fue enviada.\nEspere hasta que haya finalizado la acción.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Para mostrar las ecuaciones correctamente en este documento, se debe seleccionar formato Texto inteligente o HTML.\nHaga clic en "Aceptar" para guardar en formato Solo texto seleccionado, o haga clic en "Cancelar" para seleccionar un formato nuevo.';
+    JS_RESOURCES['invalid_char.comma'] = 'coma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Debe introducirse un valor válido entre -100 y 100.';
+    JS_RESOURCES['confirm.remove_item'] = 'Esta acción es definitiva y no se puede deshacer. ¿Desea continuar?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Para anular la selección de todos los elementos, desactive esta casilla';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'No debe contener más de {1} caracteres: {0}.\nReduzca el tamaño de la entrada en un carácter.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Demasiados espacios decimales. El máximo es 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'Se debe introducir un mínimo de {0} caracteres: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Especifique una ubicación para el objeto reutilizable.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la encuesta. Haga clic en Aceptar para enviar la evaluación.';
+    JS_RESOURCES['validation.image_type'] = 'Tipo de imagen desconocido: {0}. Es posible que la imagen no se visualice correctamente.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Espacio';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'LUN MAR MIÉ JUE VIE SÁB DOM';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM \'de\' yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenido, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'ene feb mar abr may jun jul ago sep oct nov dic';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'lun mar mié jue vie sáb dom';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d \'de\' MMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Lunes Martes Miércoles Jueves Viernes Sábado Domingo';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'LUN MAR MIÉ JUE VIE SÁB DOM';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM \'de\' yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenido, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'ene feb mar abr may jun jul ago sep oct nov dic';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'lun mar mié jue vie sáb dom';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d \'de\' MMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Lunes Martes Miércoles Jueves Viernes Sábado Domingo';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/D90E5B0784E7223D992BDFCF73253B2B.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/ui-ultra/js/hide-focus-outline.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/ui-ultra/js/login-page.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/55FEBF63DFF4A8A4FD0F0F248E6246E1.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/4DEE87E0312E581AD7497F81E6F48956.js?v=3900.2.0-rel.34+4ad580a"></script>
+    </head>
+  <body id="learn-oe-body" class='bb-login hide-focus-outline'>
+  
+  <style>
+    body 
+    {
+      background-image: url("https://vra.iacc.cl/blackboard/fondo_blanco.png");
+      color: #97bb13;
+      overflow: hidden;
+      height: 100vh;
+    }
+
+    .login-logo {
+      display: none;
+    }
+    .new-logo {
+      display: none;
+    }
+    .bb-login .login-form ul label 
+    {
+      color: #7fbc03;
+    }
+
+    #login-block {
+      background-color: #ebebeb;
+      color: #7fbc03;
+      border-radius: 15px;
+      margin-top: 5rem;
+    }
+
+    .bb-login .login-form-footer a 
+    {
+      color:black;
+    }
+    
+    #loginFormList
+    {
+      padding-top: 20px;
+    }
+
+
+    .bb-login .login-form ul label {
+    color: #7fbc03;
+    cursor: text;
+    font-size: .875rem;
+    font-weight: 700;
+    position: static;
+    text-align: left;
+    }
+
+    #user_id 
+    {
+      border-radius: 5px;
+      border: 1px solid#97bb13;
+      color:#97bb13;
+      background-color:white;
+      margin-top: 0px;
+    }
+
+    #password
+    {
+      border-radius: 5px;
+      border: 1px solid#97bb13;
+      color:#97bb13;
+      background-color:white;
+      margin-top: 0px;
+    }
+
+    .bb-login .login-form ul label
+    {
+        color: #97bb13;
+        transform: none;
+    }
+    
+    .bb-login .login-form ul label.float-above 
+    {
+        color: #97bb13;
+        transform: none;
+    }
+
+    #entry-login
+    {
+      flex: 1 1 auto;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      border: 0px;
+      border-radius: 10px;
+      background-image: linear-gradient(to right, #ff0020 0%, #ff7d01 100%);
+      margin-top: 0px;
+    }
+
+    #loginRedirectProviders
+    {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea, .prefix, .postfix, select {
+    height: auto;
+    min-height: 2.375rem;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transform: none;
+    }
+
+    #iacc
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #logoiacc
+    {
+      padding-top: 5rem;
+    }
+
+    #mensajeiacc
+    {
+      padding-top: 5rem;
+    }
+
+    #redirectProvidersDropdownButton
+    {
+      display: none;
+    }
+
+    #developer
+    {
+      height: 100vh;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .toasted .primary.success, .toasted.toasted-primary.success {
+      background: lightslategrey;
+    }
+
+    #personaje
+    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-self: flex-end;
+    }
+
+    @media only screen and (max-width: 960px) {
+		  body {
+		    background-image: url("https://vra.iacc.cl/blackboard/background-fondo.png");
+        background-size: cover;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+		  }
+
+      #iacc
+      {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      #login-block {
+        margin-left: 0px;
+      }
+      #logoiacc
+      {
+        padding-top: 3rem;
+      }
+
+      #mensajeiacc
+      {
+        padding-top: 3rem;
+      }
+
+      #personaje
+    {
+      display: none;
+    }
+    }
+    
+
+.modal {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 40;
+}
+
+.modal.is-active {
+  display: flex;
+}
+
+.modal-background {
+  background-color: rgba(10, 10, 10, 0.86);
+}
+
+    .modal, .modal-background{
+      bottom: 0;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .modal-content {
+  margin: 0 20px;
+  max-height: calc(100vh - 160px);
+  overflow: auto;
+  position: relative;
+  width: 100%;
+}
+
+@media screen and (min-width: 769px), print {
+  .modal-content {
+    margin: 0 auto;
+    max-height: calc(100vh - 40px);
+    width: 640px;
+  }  
+}
+
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: -5px;
+  text-align: center;
+  top: -5px;
+  width: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 0px 12px;
+  -moz-border-radius: 0px 12px;
+  border-radius: 0px 12px;
+  box-shadow: 0 0 10px #000;
+  -moz-box-shadow: 0 0 10px #000;
+  -webkit-box-shadow: 0 0 10px #000;
+  -moz-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -transition-delay: 0.2s;
+}
+.close .ie7 {
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3);
+}
+.close:hover {
+  background: #00d9ff;
+  -moz-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+.boton_cerrar {
+  background-color: #44c767;
+-webkit-border-top-left-radius: 28px;
+-moz-border-radius-topleft: 28px;
+border-top-left-radius: 28px;
+-webkit-border-top-right-radius: 28px;
+-moz-border-radius-topright: 28px;
+border-top-right-radius: 28px;
+-webkit-border-bottom-right-radius: 28px;
+-moz-border-radius-bottomright: 28px;
+border-bottom-right-radius: 28px;
+-webkit-border-bottom-left-radius: 28px;
+-moz-border-radius-bottomleft: 28px;
+border-bottom-left-radius: 28px;
+text-indent: 0;
+border: 1px solid #18ab29;
+display: inline-block;
+color: #ffffff;
+font-family: arial;
+font-size: 15px;
+font-weight: bold;
+font-style: normal;
+height: 50px;
+line-height: 50px;
+width: 140px;
+text-decoration: none;
+text-align: center;
+text-shadow: 0px 1px 0px #2f6627;
+padding-top: 0px;
+padding-bottom: 0px;
+margin-top: 20px;
+}
+
+.boton_cerrar:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cbf2a), color-stop(1, #44c767) );
+	background:-moz-linear-gradient( center top, #5cbf2a 5%, #44c767 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cbf2a', endColorstr='#44c767');
+	background-color:#5cbf2a;
+}.boton_cerrar:active {
+	position:relative;
+  top:1px;
+} 
+
+#mensajedia{
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    border-width: 5px;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+  }
+
+  #c{
+    /* position: absolute; */
+  }
+
+  .box { background-color: #fff; border-radius: 15px; padding: 80px 15px; text-align: center; margin-bottom: 10px; margin-top: 10px;}
+  .box p { font-family: montserratregular; font-size: 12px; line-height: 15px; margin-bottom: 25px; color: #333333; }
+  .box p b { font-family: montserratbold; }
+  .box a span { width: 20px; display: inline-block; }
+  .box a span img { max-width: 100%; height: auto; }
+  .box a { font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; color: #fff; background-color: #2199e8; padding: 14px 15px; font-size: 14px; display: inline-block; }
+  .box a:hover { background-color: #187abb; }
+
+  </style>
+<div id="developer">
+  <div id="loginLang" class="clearfix">
+    
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+    <script>
+  function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+
+	      function displayLanguages() {
+	     	 var $langButton = $('lang-select-button');
+			   var $langMenu = $('lang-list');
+
+		    function showMenu() {
+		        $langMenu.removeClassName('hide');
+		        $langMenu.setAttribute('aria-hidden', 'false');
+		        $langMenu.setAttribute('aria-expanded', 'true');
+		        $langMenu.setAttribute('aria-pressed', 'true');
+		        $langButton.setAttribute('aria-expanded', 'true');
+		        $langButton.addClassName('expanded');
+            $langMenu.firstDescendant().firstDescendant().focus();
+		    }
+
+		    function hideMenu() {
+		        $langMenu.addClassName('hide');
+		        $langMenu.setAttribute('aria-hidden', 'true');
+		        $langMenu.setAttribute('aria-expanded', 'false');
+		        $langMenu.setAttribute('aria-pressed', 'false');
+		        $langButton.setAttribute('aria-expanded', 'false');
+		        $langButton.removeClassName('expanded');
+		    }
+
+		    //toggle logic
+		    if ($langMenu.hasClassName('hide')) {
+		        showMenu();
+		    } else {
+		        hideMenu();
+		    }
+
+		    //Press ESC hides the menu
+		    $(document).on('keydown', function (e) {
+		        if (e.which == 27) {
+		            hideMenu();
+		        }
+		    });
+
+        $(document).on('click', function (e) {
+            hideMenu();
+        });
+	    }
+
+		// reveal available languages on click
+	  $('lang-select-button').on('click', 'button', function (e) {
+        displayLanguages();
+        e.stopPropagation();
+    });
+
+		});
+  </script>
+    
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	
+	<button type="button" class="icon-languages" id="lang-select-button" aria-haspopup="true" aria-expanded="false" aria-controls="lang-list" aria-owns="lang-list" aria-pressed="false" aria-label="Seleccionar idioma Idioma actual Español (España&#x202D;)&#x202C;"></button>
+	<ul id="lang-list" class="hide" aria-hidden="true" aria-expanded="false" role="menu">
+              <li aria-label="English (United States&#x202D;)&#x202C;"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+              <li aria-label="Español (España&#x202D;)&#x202C;"><a href="javascript:loadLocale('es_ES');" title="Español (España&#x202D;)&#x202C;" lang="es_ES" >Español (España&#x202D;)&#x202C;</a></li>
+          </ul>
+
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+  
+  <!-- <div class="row"> -->
+  <div id = "iacc" class="row">
+    <div class="grid-x grid-padding-x align-center">
+      <div class="columns small-12 large-expand">
+          <img id = "logoiacc" src="https://vra.iacc.cl/blackboard/logo.png" alt="Iacc">
+      </div>
+    </div>
+    <div class="grid-x grid-padding-x align-center">
+      <div class="columns small-12 large-expand">
+        <div id="login-block" class="columns">
+          
+<h1 class="login-logo new-logo customized-logo" >
+    <span>Blackboard Learn &#8482;</span>
+    <img src="/branding/_1_1/loginLogo/CustomLoginLogo.png?m=k9svbauy" alt="" />
+</h1>
+<div v-if="o365 ">
+            <div class="box">
+              <p><b>Pincha aqu&#237; e ingresa</b><br>a tu Plataforma de Estudio</p>
+              <a href="https://iacc-test.blackboard.com/auth-saml/saml/login?apId=_762_1&redirectUrl=https%3A%2F%2Fiacc-test.blackboard.com%2Fultra" title="Microsoft"><span><img src="https://www.microsoft.com/favicon.ico"></span> Microsoft Office 365</a>
+            </div>
+          </div>
+          <div v-else>
+            <div id="login-form" class="login-form">
+              
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Habilite JavaScript en su navegador para que funcione la aplicación Blackboard.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbmh-info-gathering-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-reportingfrmwrk-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-log-file-downloader-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-sence-int-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-GradeJourney-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-autosignon-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5bfc47e587d3b", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Nombre de usuario</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Contraseña</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Iniciar sesión" name="login" class="button expand inverse outline"/>
+        </li>
+  </ul>
+
+	<div class="login-form-footer row collapse">
+		<div class="stay-signed-in small-6 columns text-left">
+    		</div>
+				<div class="small-6 columns text-right">
+	  		<a href="http://credenciales.iacc.cl/request" onclick="login_openForgotPassword('http://credenciales.iacc.cl/request');return false;">¿Ha olvidado su contraseña?</a>
+		</div>
+			</div>
+	  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='4fa0012b-1290-47f3-bd7b-7f16d771eede'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Iniciar sesión con una cuenta de terceros</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_722_1&redirectUrl=https%3A%2F%2Fiacc-pilot.blackboard.com%2Fultra" ><div class="defaultProviderIcon"></div>Office 365 IACC</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="grid-x grid-padding-x align-center">
+      <div class="columns small-12 large-expand">
+        <img id = "mensajeiacc" src="https://vra.iacc.cl/blackboard/mensaje.png" alt="Bienvenidos a la plataforma de Estudio">
+      </div>
+    </div>
+    <div id = "footer" class="row grid-padding-x align-center">
+      <div class="columns small-12 large-expand">
+        <div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. Todos los derechos reservados.
+  	</div>
+  	  </div>
+
+  </div>
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+      
+    
+      <li id="help-link"><a href="https://help.blackboard.com/es-es" target="_blank" title="Ayuda de inicio de sesión de Bb">Ayuda</a></li>
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="Privacidad y condiciones de uso">Privacidad y condiciones de uso</a></li>
+</ul>
+</div>
+<div class="login-page-announcements">
+          
+</div>
+      </div>
+    </div>
+  </div>
+  <div id = "personaje" class="row">
+    <div class="responsive-embed">
+      <img src="https://vra.iacc.cl/blackboard/bg.png" alt="iacc">
+    </div>
+  </div>
+  <div class="modal" :class="{ 'is-active': isModalActive }">
+    <div class="modal-background"></div>
+      <div class="modal-content">
+            <!-- <div><img src="https://vra.iacc.cl/blackboard/c_iz.png" alt="C"></div> -->
+            <div class="responsive-embed">
+              <div id="c"><img src="https://vra.iacc.cl/blackboard/informaciones.png" alt="INFORMACIÃN">
+              </div>
+            </div>
+            <div class="flex-container">
+              
+              <div><p id="mensajedia">{{ mostrar }}</p></div>
+              <button class="boton_cerrar" title="Cerrar" @click='isModalActive2=false'>Entendido ...</button>
+            </div>
+            <!-- <div><img src="https://vra.iacc.cl/blackboard/c_de.png" alt="Ï½"></div>   -->
+      </div>
+      <button class="close" title="Cerrar" @click='isModalActive=false'></button>
+    </div>
+    <div v-if="stop > 0" class="modal modal" :class="{ 'is-active': isModalActive2 }">
+      <div class="modal-background"></div>
+        <div class="modal-content">
+              <div class="responsive-embed">
+                <a href="https://www.facebook.com/iacc.cl/" target="_blank"><img src="https://vra.iacc.cl/blackboard/aviso_6_4_2020-min.png" alt="informaciones IACC"></a>
+              </div>
+              <div class="flex-container">
+                <!-- <br><br>
+                
+                <div><p id="mensajedia">&#161;Todos nuestros estudiantes pueden concursar a trav&#233;s de nuestro Facebook IACC!</p></div> -->
+                <button class="boton_cerrar" title="Cerrar" @click='isModalActive2=false'>Entendido ...</button>
+              </div> 
+        </div>
+        <button class="close" title="Cerrar" @click='isModalActive2=false'>X</button>
+      </div>      
+    </div>
+</div> <!--- developer -->
+  
+  
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Cerrar');page.bundle.addKey('inlineconfirmation.refresh','Actualizar');page.bundle.addKey('hidden.link.close.menu','Fin del menú. Haga clic para volver al elemento asociado.');page.bundle.addKey('hidden.link.close.form','Fin del formulario. Haga clic para volver al elemento asociado.');page.bundle.addKey('lightbox.loading','Cargando...');page.bundle.addKey('yt.stopped','Detenido:');page.bundle.addKey('yt.playing','Reproduciendo:');page.bundle.addKey('yt.cued','Puesto en cola:');page.bundle.addKey('yt.buffering','Almacenando en búfer:');page.bundle.addKey('yt.paused','En pausa:');page.bundle.addKey('yt.ended','Finalizada:');page.bundle.addKey('yt.play','Reproducir');page.bundle.addKey('yt.pause','Pausa');page.bundle.addKey('yt.mute','Silenciar');page.bundle.addKey('yt.unmute','Desactivar silenciado');page.bundle.addKey('lightbox.overlay','{0} se ha abierto como un lightbox superponiéndose a la página actual.');page.bundle.addKey('display.playerControls','Controles del reproductor');page.bundle.addKey('display.videoPlayerControls','Controles del reproductor de video');page.bundle.addKey('display.play','Reproducir');page.bundle.addKey('display.stop','Detener');page.bundle.addKey('display.volumeUp','Subir volumen');page.bundle.addKey('display.volumeDown','Bajar volumen');page.bundle.addKey('display.mute','Silenciar');page.bundle.addKey('display.videoStatus','Estado del video');page.bundle.addKey('display.closePlayerControls','Cerrar controles del reproductor');page.bundle.addKey('display.embeddedVideoPlayer','Reproductor de video incrustado');page.bundle.addKey('display.of','de');page.bundle.addKey('display.view.on.flickr','Ver foto en Flickr');page.bundle.addKey('mashups.content.data.msg','No podemos mostrar el contenido de las herramientas combinadas. Esto sucede cuando el sistema detecta una dirección URL que no es válida. Para solucionar este problema, elimine el elemento de herramienta combinada y vuelva a intentarlo.');page.bundle.addKey('contextmenu.frame.title','Marco de menú');page.bundle.addKey('frameset.contentframe.title','Contenido');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+      function loadLoginPage() {
+        if(document.forms.login.user_id != undefined)
+        {
+          verify_username_password(document.forms.login);
+        }
+        setTimeout("triggerScreenreaderAlert()", 500);
+      }
+
+      function triggerScreenreaderAlert() {
+        if (document.getElementById('loginErrorMessage')) {
+          $('loginErrorMessage').update($('loginErrorMessage').innerHTML);
+        }
+      }
+    </script>
+  
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":14,"applicationID":"299721123","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script>
+</body>
+</html>
+<!-- Vue -->   
+<script src="https://unpkg.com/vue"></script>
+<!-- Axios -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/vue-toasted"></script>
+<script src="https://unpkg.com/moment"></script>
+<script>
+
+
+  Vue.use(Toasted);
+  
+  var app = new Vue({
+    el: '#developer',
+    data: {
+      messages: null,
+      mostrar: '',
+      error:'',
+      isModalActive: false,
+      isModalActive2: true,
+      o365: false,
+      stop: '',
+    },
+    mounted() {
+      this.getAll();
+    },
+    methods: {
+      getAll(){
+        axios.get('https://dae.datanetwork.cl/api/mensaje')
+          .then( response => {
+            this.messages = response.data;
+            console.log('aqui toma la api');
+            console.log(this.messages.length);
+            
+            var dia = new Date();
+            // 2019-08-26
+            if(dia.getMonth() +1 < 10){
+              //var fecha = dia.getFullYear() +"-0"+ (dia.getMonth() +1) + "-" + dia.getDate()
+              var fecha = dia.getFullYear() +"-0"+ (dia.getMonth() +1)
+            }else{
+              //var fecha = dia.getFullYear() +"-"+ (dia.getMonth() +1) + "-" + dia.getDate()
+              var fecha = dia.getFullYear() +"-"+ (dia.getMonth() +1)
+            }
+            if(dia.getDate() < 10){
+              var fecha = fecha + "-0" + dia.getDate()
+            }else{
+              var fecha = fecha + "-" + dia.getDate()
+            }
+            var fecha1 = moment('2021-04-30');
+            var fecha2 = moment();
+            var alarmas = moment().format('dddd');
+            console.log(alarmas);
+            var activar = 0;
+            
+            this.stop = fecha1.diff(fecha2, 'days');
+
+            for (i = 0; i < this.messages.length; i++) {
+                if(this.messages[i]['mensajes'] != undefined ){
+                  if( alarmas === 'Monday' && this.messages[i]['lunes'] == 1 )
+                  {
+                    activar = 1;
+                  }
+                  else if( alarmas === 'Tuesday' && this.messages[i]['martes'] == 1)
+                  {
+                    activar = 1;
+                  }
+                  else if( alarmas === 'Wednesday' && this.messages[i]['miercoles'] == 1 )
+                  {
+                    activar = 1;
+                  }
+                  else if( alarmas === 'Sunday' && this.messages[i]['jueves'] == 1)
+                  {
+                    activar = 1;
+                  }
+                  else if( alarmas === 'Friday' && this.messages[i]['viernes'] == 1)
+                  {
+                    activar = 1;
+                  }
+                  else if( alarmas === 'Saturday' && this.messages[i]['sabado'] == 1)
+                  {
+                    activar = 1;
+                  }
+                  else if( alarmas === 'Sunday' && this.messages[i]['domingo'] == 1)
+                  {
+                    activar = 1;
+                  }
+                  else if (this.messages[i]['alarma'] === fecha)
+                  {
+                    activar = 1;
+                  }
+                  if( activar == 1){
+                    console.log(this.messages[i]['tipo'])
+                    console.log(this.messages[i]['mensajes']);
+                    if( this.messages[i]['tipo'] === "Mensaje" )
+                    {
+                      this.mostrar = this.messages[i]['mensajes'];
+                      this.isModalActive = true; 
+                      this.isModalActive2 = false; 
+                    }
+                    if( this.messages[i]['tipo'] === "informaci\u00f3n" || this.messages[i]['tipo'] === "informaciÃ³n")
+                    {
+                      this.$toasted.success(this.messages[i]['mensajes'], {  
+                          position: "bottom-center", 
+                          duration : null,
+                          action : {
+                                text : 'Cerrar',
+                                onClick : (e, toastObject) => {
+                                    toastObject.goAway(0);
+                                }
+                            },
+                        });
+                    }
+                  }
+                };
+              };
+          //}
+          })
+          .catch( e => console.log(e) )
+      }
+    },
+  })
+  </script>

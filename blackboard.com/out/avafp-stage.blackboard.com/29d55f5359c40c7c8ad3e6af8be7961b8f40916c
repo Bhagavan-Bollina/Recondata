@@ -1,0 +1,817 @@
+https://avafp-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: avafp-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:02:18 GMT
+< Date: Mon, 04 Jan 2021 13:02:18 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.4-rel.20+ded7cc5
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Type: text/html;charset=UTF-8
+< Vary: Accept-Encoding
+< X-Blackboard-Appserver: fgstg-344463-sf043066-app002.mhint
+< Last-Modified: Thu, 04 Jan 2001 13:02:18 GMT
+< Set-Cookie: session_id=52548E021FE73684605AC72A08C9CD46; Path=/; HttpOnly
+< Set-Cookie: s_session_id=6B60BCD0C9401FE30C0CD4B28134D74A; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=E01D1648EA28E7EA080EC8ABD9C1F41A; Path=/; Secure
+< Set-Cookie: NSC_344463_wjq_69.196.231.11*443=ffffffff090d1b5b45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Language: es-ES
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+<!DOCTYPE HTML >
+<html  lang="es-ES">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. Todos los derechos reservados. Número de patente 7.493.396 y 7.558.853 de Estados Unidos. Resto de patentes en trámite.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"17849af587",applicationID:"10474739"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3700.0.4-rel.20+ded7cc5" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2012/theme.css?v=3700.0.4-rel.20+ded7cc5" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/themes/as_2012/app_nav.css?v=3700.0.4-rel.20+ded7cc5" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/branding/colorpalettes/AVAFP-Paleta/generated/colorpalette.generated.modern.css?v=3700.0.4-rel.20+ded7cc5" id="css_3">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3700.0.4-rel.20+ded7cc5_3700.0.4-rel.20+ded7cc5" id="css_4">
+          <style type="text/css">
+#formulario ul li{
+text-transform: uppercase;
+color: #0E5EA4;
+font-weight: bold;
+width: 180px;
+font-size: 11px;
+padding-bottom: 6px;
+}
+#loginAnnouncements ul {  
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+    position: absolute;
+    z-index: 5000000;
+    top: 150px;
+    right: 150px;
+    overflow: scroll;
+    height: 500px;
+        
+    }
+.legal,.additionalInfo a {
+
+color: #fff!important;
+    
+}
+
+#formulario input[type="text"], input[type="password"]{
+font-size: 90%;
+padding: 3px 2px;
+font-size: 12px;
+border: 2px #0E5EA4 solid;
+}
+
+a:link {
+color: #0C4A57;
+text-decoration: none;
+font-size: 9px;
+}
+a:hover {
+text-decoration: none;
+font-size: 9px;
+}
+a:visited{
+text-decoration: none;
+font-size: 9px
+}
+.login-page{
+    height: 70%;
+    background-repeat: no-repeat;
+    background: url(https://avafp-stage.blackboard.com/bbcswebdav/xid-22212963_1) no-repeat center center fixed;
+    background-size: 100% 100%;
+}
+form {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: rgba(239, 239, 239, 0.7);
+    box-sizing: border-box;
+}
+.superior,.inferior {
+ 
+     padding: 10px 15px;
+}
+.superior {
+    background: #Fff;
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    
+}
+.inferior {
+    
+    width: 100%;
+    position:relative;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.88);
+    text-align:center;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    
+}
+#loginFormFields label {
+    
+    color: #000000; 
+    display:block;
+}
+#formulario input[type="text"], input[type="password"] {
+    border-radius: 10px;
+    padding: 5px 2px;
+    border: 1px #939496 solid;
+    outline: 0;
+     width: 100%;
+    
+}
+#formulario input[type="submit"]{
+    background: #085f7d;
+    border: 1px solid #085f7d;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+#formulario ul li {
+    
+    width: 100%;
+    text-align:left;
+}
+.decoration {
+    
+    width: 100%;
+    height: 12px;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.decoration span {
+    
+    width:20%;
+    height: 12px;
+    display: inline;
+    float: left;
+}
+.decoration .one{
+    background-color: #e1ac42;
+}
+.decoration .two{
+    background-color: #f80101;
+}
+.decoration .three {
+    background-color: #010101;
+}
+.decoration .four {
+    
+    background-color: #447ba2;
+}
+.decoration .five { 
+    background-color: #007934; 
+} 
+div {
+    box-sizing: border-box;
+} 
+
+.bad {
+    width: 350px;
+}
+.login-page #copyright {
+        
+    width: 100%;
+        
+    }
+    .superior img {
+        
+        width: 150px;
+    }
+    
+    
+    @media screen and(max-width: 600px){
+        
+        #loginAnnouncements ul {
+            
+         position: relative;
+         top: 0;
+         width: auto;    
+            
+        }
+    }    
+</style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3700.0.4-rel.20+ded7cc5">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3700.0.4-rel.20+ded7cc5"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'Se debe introducir una dirección de correo electrónico válida (por ejemplo, info@blackboard.com).';
+    JS_RESOURCES['validation.radio.required'] = 'Para continuar, realice una selección.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la encuesta. Haga clic en Aceptar para guardar la respuesta incompleta.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Términos de búsqueda';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Los valores de puntaje pueden tener 5 lugares decimales como máximo: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'No debe contener más de {1} caracteres: {0}.\nReduzca el tamaño de la entrada en {2} caracteres.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la prueba. Haga clic en Aceptar para guardar la respuesta incompleta.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'El cuadro de multiselección debe contener al menos {0} elementos.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'Se debe proporcionar un valor de {0}\ncuando el campo {1} no está vacío';
+    JS_RESOURCES['warning.email'] = 'La dirección de correo electrónico es un campo recomendado. Los usuarios no podrán utilizar ciertas partes del sistema sin una dirección de correo electrónico.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'No debe contener más de {0} caracteres.\nReducir el tamaño de la entrada en un carácter.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'El cuadro de multiselección no debe contener más de {0} elementos.';
+    JS_RESOURCES['validation.number'] = 'Se debe introducir un valor numérico válido: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = '¿Eliminar: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Mostrar texto de ayuda';
+    JS_RESOURCES['validation.date.required'] = 'Es necesario proporcionar un valor de fecha completo: {0}.';
+    JS_RESOURCES['validation.password'] = 'La contraseña no puede estar vacía ni contener solo espacios.';
+    JS_RESOURCES['validation.mismatch'] = 'Los valores que introdujo no coinciden: {0}.\nConfirmar: {0}.';
+    JS_RESOURCES['validation.percent'] = 'Se debe introducir un valor de porcentaje entre 0 y 100 válido.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'No debe contener más de {0} caracteres.\nReducir {1} caracteres el tamaño de la entrada.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'Campo de entrada {0}.';
+    JS_RESOURCES['validation.invalid_value'] = 'Se ha proporcionado un valor numérico no válido: {0}.';
+    JS_RESOURCES['validation.required'] = 'Es necesario suministrar un valor: {0}';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'Ha seleccionado las alineaciones pero no ha seleccionado ningún contenido alineable que copiar.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Especifique un valor para el campo de texto de búsqueda.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" no se permite al comienzo de una ID de rol.';
+    JS_RESOURCES['validation.date_past'] = 'La fecha de finalización no puede ser anterior a la fecha de inicio.';
+    JS_RESOURCES['confirm.delete_item_value'] = 'Este elemento {0} se eliminará. ¿Desea continuar?';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contiene caracteres no válidos: {0}.\nElimine estos caracteres: {1}';
+    JS_RESOURCES['hide.helptext'] = 'Ocultar texto de ayuda';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Menos de {0}';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Introduzca un nombre de usuario y una contraseña.';
+    JS_RESOURCES['validation.date_past.confirm'] = 'La hora indicada ya ha pasado.\n¿Desea continuar con esta hora?';
+    JS_RESOURCES['validation.negative'] = 'Se debe introducir un valor no negativo válido: {0}.';
+    JS_RESOURCES['validation.url'] = 'Se debe introducir una dirección URL válida (por ejemplo, http://www.miuniversidad.es).';
+    JS_RESOURCES['validate.range.overlap'] = 'criterios ({0}) se superpone a los criterios ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Entre {0} y {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = '¿Eliminar: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'Es posible que la información de los elementos asociados se haya actualizado.\nHaga clic en "Aceptar" para actualizar la lista o haga clic en "Cancelar" para continuar en la página actual.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'La opción Inscripción por código de acceso no es compatible con la selección de inscripción dirigida por {instructor}.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Los valores de puntaje pueden tener 5 lugares decimales como máximo.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Para seleccionar todos los elementos, active esta casilla';
+    JS_RESOURCES['validation.option.required'] = 'Debe seleccionar como mínimo una opción de la lista.';
+    JS_RESOURCES['active.filter.changed.alert'] = 'los criterios ahora contienen';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Especifique un nombre para guardar como objeto reutilizable.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Introduzca un número válido en lugar de {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'La ID del curso contiene caracteres ilegales o caracteres multibyte.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la prueba. Haga clic en Aceptar para enviar la evaluación.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Advertencia: debe seleccionar la opción Dirigida por {instructor} o Autoinscripción.';
+    JS_RESOURCES['validation.date_equal'] = 'La fecha de inicio no puede ser la misma que la fecha de finalización.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'No se puede utilizar el {0} sin un valor {1} correspondiente.';
+    JS_RESOURCES['validation.time.required'] = 'Es necesario proporcionar un valor de hora completo: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'Se debe introducir un valor numérico entero válido: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'No debe contener más de 255 caracteres';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'La opción de inscripción por correo electrónico seleccionada no es compatible con la selección de autoinscripción.';
+    JS_RESOURCES['validate.range.morethen.str'] = 'Más de {0}';
+    JS_RESOURCES['invalid_char.space'] = 'espacio';
+    JS_RESOURCES['notification.submit'] = 'Esta acción ya fue enviada.\nEspere hasta que haya finalizado la acción.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'Para mostrar las ecuaciones correctamente en este documento, se debe seleccionar formato Texto inteligente o HTML.\nHaga clic en "Aceptar" para guardar en formato Solo texto seleccionado, o haga clic en "Cancelar" para seleccionar un formato nuevo.';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'Debe introducirse un valor válido entre -100 y 100.';
+    JS_RESOURCES['invalid_char.comma'] = 'coma';
+    JS_RESOURCES['confirm.remove_item'] = 'Esta acción es definitiva y no se puede deshacer. ¿Desea continuar?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Para anular la selección de todos los elementos, desactive esta casilla';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'No debe contener más de {1} caracteres: {0}.\nReduzca el tamaño de la entrada en un carácter.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Demasiados espacios decimales. El máximo es 5.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Especifique una ubicación para el objeto reutilizable.';
+    JS_RESOURCES['validation.minimum_length'] = 'Se debe introducir un mínimo de {0} caracteres: {1}.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'Las siguientes preguntas podrían estar incompletas:\n {0}\nHaga clic en Cancelar para volver a la encuesta. Haga clic en Aceptar para enviar la evaluación.';
+    JS_RESOURCES['validation.image_type'] = 'Tipo de imagen desconocido: {0}. Es posible que la imagen no se visualice correctamente.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Espacio';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'LUN MAR MIÉ JUE VIE SÁB DOM';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM \'de\' yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenido, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'ene feb mar abr may jun jul ago sep oct nov dic';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'lun mar mié jue vie sáb dom';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d \'de\' MMM \'de\' yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Lunes Martes Miércoles Jueves Viernes Sábado Domingo';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM \'de\' yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\.[0-9]{3})*(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'LUN MAR MIÉ JUE VIE SÁB DOM';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\.[0-9]{3})*)|[-]?[0-9]*)(\\,[0-9]+)?|\\,[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\,[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd[ MMM][ yyyy]{\'&#8212;\'d MMM \'de\' yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Bienvenido, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'ene feb mar abr may jun jul ago sep oct nov dic';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd, d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'lun mar mié jue vie sáb dom';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d \'de\' MMM \'de\' yyyy';
+    LOCALE_SETTINGS['number_format.decimal_point'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Lunes Martes Miércoles Jueves Viernes Sábado Domingo';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/AA';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = '\\.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd, d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/1017464CDB11AF8AF035AAE08F4FB093.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/groupjs/33FA15FA21D63E0760F240173EA4D837.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3700.0.4-rel.20+ded7cc5_3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/groupjs/82E0B50236D2E15B64A468586226A321.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/javascript/dwr/engine.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/javascript/dwr/util.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/groupjs/49A5EA77787F342D801671BCC53C03B9.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDWRFacade.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/portal/overlay/welcomeOverlay.js?v=3700.0.4-rel.20+ded7cc5_3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/ToolActivityService.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/bb-gate-BBLEARN/js/tool_service.js?v=3700.0.4-rel.20+ded7cc5_3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/bb-social-learning-BBLEARN/js/social.js?v=3700.0.4-rel.20+ded7cc5_3700.0.4-rel.20+ded7cc5"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/ProfileProviderService.js?v=3700.0.4-rel.20+ded7cc5"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  <div id="globalNavPageContentArea">
+
+  <div style="width:100%; height:100%; margin: 0; display:flex;">
+  <div id="formulario" style="float:left; padding-top: 150px; margin: 0 auto;">
+      <div class="superior" aling="center">
+      <img src="https://avafp.blackboard.com/bbcswebdav/xid-14599130_1" alt="Ministerio de defensa"/>
+ </div>
+	
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Habilite JavaScript en su navegador para que funcione la aplicación Blackboard.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/axis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/soap", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/xythosremoteadmin", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloud-profiles", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/intb-handler-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cgn-visorBackups-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbmh-info-gathering-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/oslt-jshack-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/kdra-authBBSSO-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/kdra-cygnusGrades-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/turn-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bgsg-Send Two-Way SMS-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-word-cleanup-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ebry-ebrary-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027008845953-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/zen-cognos-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027979249287-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/social-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/time-time-plgnhndl-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cgn-sqlManager-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027721203705-BBLEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>¿Dispone de una cuenta?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Introduzca aquí la información de inicio de sesión  y haga clic en el botón <b>Iniciar sesión</b> que aparece a continuación.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Nombre de usuario</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Contraseña</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Iniciar sesión" name="login" class="button expand"/>
+        </li>
+    <li class="clearfix">
+  	  <span class="forgot"><a href="/webapps/blackboard/password" onclick="login_openForgotPassword('/webapps/blackboard/password');return false;" >¿Ha olvidado su contraseña?</a>
+	  	    <span class="hideoff">(nueva ventana)</span>
+	  	  </span>
+      </li>
+  </ul>
+
+
+
+
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='88d5194a-2d40-4ba1-9350-b22b2c5a50f1'>
+</form>
+<div class="inferior">
+        <img src="https://avafp.blackboard.com/bbcswebdav/xid-14598934_1" alt="Avafp" width="130" />
+         <div class="decoration">
+            <span class="one"></span>
+            <span class="two"></span>
+            <span class="three"></span>
+            <span class="four"></span>
+<span class="five"></span>
+        </div>
+        </div>
+       
+  </div>
+  
+  </div>
+  
+
+  
+  
+</div>
+
+
+</div>
+
+
+<!-- START HACK : custom_home_page -->
+<!-- This snippet binds a function to the "dom:loaded" event.
+You can put your own javascript into the function, or replace
+the entire snippet. -->
+<!--document.getElementById("modulo_cursos").style.width = "1140px";
+ Event.observe(document,"dom:loaded", function() {
+  });
+-->
+<script type="text/javascript">
+        
+        
+      var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1} 
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none"; 
+    }
+    x[slideIndex-1].style.display = "block"; 
+}
+
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 6000); // Cambia imagen automático cada 6 segundos
+}
+
+</script>
+
+<!-- END HACK : custom_home_page -->
+
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Cerrar');page.bundle.addKey('inlineconfirmation.refresh','Actualizar');page.bundle.addKey('hidden.link.close.menu','Fin del menú. Haga clic para volver al elemento asociado.');page.bundle.addKey('hidden.link.close.form','Fin del formulario. Haga clic para volver al elemento asociado.');page.bundle.addKey('lightbox.loading','Cargando...');page.bundle.addKey('yt.stopped','Detenido:');page.bundle.addKey('yt.playing','Reproduciendo:');page.bundle.addKey('yt.cued','Puesto en cola:');page.bundle.addKey('yt.buffering','Almacenando en búfer:');page.bundle.addKey('yt.paused','En pausa:');page.bundle.addKey('yt.ended','Finalizada:');page.bundle.addKey('yt.play','Reproducir');page.bundle.addKey('yt.pause','Pausa');page.bundle.addKey('yt.mute','Silenciar');page.bundle.addKey('yt.unmute','Desactivar silenciado');page.bundle.addKey('lightbox.overlay','{0} se ha abierto como un lightbox superponiéndose a la página actual.');page.bundle.addKey('display.playerControls','Controles del reproductor');page.bundle.addKey('display.videoPlayerControls','Controles del reproductor de video');page.bundle.addKey('display.play','Reproducir');page.bundle.addKey('display.stop','Detener');page.bundle.addKey('display.volumeUp','Subir volumen');page.bundle.addKey('display.volumeDown','Bajar volumen');page.bundle.addKey('display.mute','Silenciar');page.bundle.addKey('display.videoStatus','Estado del video');page.bundle.addKey('display.closePlayerControls','Cerrar controles del reproductor');page.bundle.addKey('display.embeddedVideoPlayer','Reproductor de video incrustado');page.bundle.addKey('display.of','de');page.bundle.addKey('display.view.on.flickr','Ver foto en Flickr');page.bundle.addKey('mashups.content.data.msg','No podemos mostrar el contenido de las herramientas combinadas. Esto sucede cuando el sistema detecta una dirección URL que no es válida. Para solucionar este problema, elimine el elemento de herramienta combinada y vuelva a intentarlo.');page.bundle.addKey('contextmenu.frame.title','Marco de menú');page.bundle.addKey('frameset.contentframe.title','Contenido');page.bundle.addKey('common.pair.paren','{0} ({1})');page.bundle.addKey('tool.activity.description','actualizaciones de actividad');page.bundle.addKey('accessDeniedMsg','Acceso denegado');</script>
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script type='text/javascript'>globalNavigation.init(); Event.observe(window, 'resize', globalNavigation.onResize);</script>
+  <script type='text/javascript'> social.Profile.MY_PROFILE_TOOL_ID='BB-CORE_____myProfile'; social.Profile.MY_PROFILE_TOOL_URI='/webapps/bb-social-learning-BBLEARN/execute/mybb?cmd=display&toolId=BB-CORE_____myProfile&location='; </script>
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                welcomeOverlay.initOverlay();
+                                                             tool_service.init ('300000', 'Suppress-Session-Timestamp-Update' );
+                                                             cookieConsent = new CookieConsent('/webapps/privacy-disclosure/'); cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=ffb433fb-9501-4310-b84f-70af4cd5d492',true );
+                                                             if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                if (document.forms.login.user_id != undefined) document.forms.login.user_id.focus();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"17849af587","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":92,"applicationID":"10474739","transactionName":"MlBTN0FRVxdSABcMWgsaYhdBRU0XcgAXDFoLGlMPUlNSBlwCEQEbElBTAkNASkpRDwIGXgdaUBFXHlgRRwsGC0EMVlAXWl9XSn8MBAxbJFZFClxe","queueTime":0}</script>
+</body>
+</html>

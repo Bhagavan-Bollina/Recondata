@@ -1,0 +1,19 @@
+https://analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Set-Cookie: ELOQUA=GUID=0A7F491C29FA468091BBBE7614A30EF4&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:02:12 GMT; path=/;SameSite=None; secure
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< Date: Mon, 04 Jan 2021 13:02:11 GMT
+< Cache-Control: private,no-store
+< Expires: -1
+< X-Xss-Protection: 1; mode=block
+< Vary: Accept-Encoding
+< X-Content-Type-Options: nosniff
+< Pragma: no-cache
+< Content-Type: text/html; charset=utf-8
+
+No page available

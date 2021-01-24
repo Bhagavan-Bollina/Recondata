@@ -1,0 +1,27 @@
+https://test9-academictechnologies.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: test9-academictechnologies.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Accept-Ranges: bytes
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.1-rel.29+a963bd8
+< Expires: Sat, 04 Jan 2020 13:05:04 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1561473659000"
+< X-Blackboard-Appserver: fgtd-337293-178398-app001.mhint
+< Last-Modified: Tue, 25 Jun 2019 14:40:59 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:05:04 GMT
+< Set-Cookie: NSC_337293_wjq_69.196.224.233*443=ffffffff090e1e4845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

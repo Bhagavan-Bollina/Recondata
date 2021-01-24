@@ -1,0 +1,13 @@
+https://apse1c.api.blackboard.com
+https://apse1p.api.blackboard.com
+https://apics.blackboard.com
+https://api.cloudbb.blackboard.com
+https://api-prod02.cloudbb.blackboard.com
+https://au.api.blackboard.com
+https://ca.api.blackboard.com
+https://eu.api.blackboard.com
+https://excelsior-api.blackboard.com
+https://korea.api.blackboard.com
+https://mobileorderdemoapi.blackboard.com
+https://mobileorderprodapi.blackboard.com
+https://us.api.blackboard.com

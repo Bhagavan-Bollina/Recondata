@@ -1,0 +1,26 @@
+https://wit-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wit-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:05:43 GMT
+< X-Blackboard-Appserver: fgtd-300071-sf055862-app001.mhint
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 0
+< Last-Modified: Thu, 04 Jan 2001 13:05:43 GMT
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:05:43 GMT
+< Set-Cookie: s_session_id=4F81937553B193D11B872B4701051932; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_300071_wjq_69.196.229.176*443=ffffffff090d1b8445525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Location: /auth-saml/saml/login?apId=_103_1&redirectUrl=https%3A%2F%2Fwit-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.5-rel.26+874a2ce
+

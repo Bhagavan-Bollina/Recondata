@@ -1,0 +1,28 @@
+https://brand2-bblearndemo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: brand2-bblearndemo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-222222-213558-app002.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.0-rel.23+4c6d4de
+< Last-Modified: Sat, 25 May 2019 06:22:23 GMT
+< Etag: W/"89-1558765343000"
+< Content-Length: 89
+< Set-Cookie: JSESSIONID=0F9D06C921CBE7284E67B4DEB1E4D9E5; Path=/; Secure
+< Set-Cookie: NSC_222222_wjq_69.196.231.40*443=ffffffff090d1c7345525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:02:24 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:24 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

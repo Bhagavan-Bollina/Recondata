@@ -1,0 +1,27 @@
+https://mhdba2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mhdba2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_525632_wjq_64.125.200.12*443=ffffffff091f1e7045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Etag: W/"89-1536270883000"
+< X-Blackboard-Appserver: fgprd-525632-sf642735-app001.mhint
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:45 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:03:46 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.0-rel.9+304e69c
+< Last-Modified: Thu, 06 Sep 2018 21:54:43 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

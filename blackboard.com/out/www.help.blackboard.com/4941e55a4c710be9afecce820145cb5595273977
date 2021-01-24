@@ -1,0 +1,19 @@
+https://www.help.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: www.help.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: cloudflare
+< Date: Mon, 04 Jan 2021 13:05:44 GMT
+< Cache-Control: max-age=3600
+< Expires: Mon, 04 Jan 2021 14:05:44 GMT
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=2592000; preload
+< X-Content-Type-Options: nosniff
+< Location: https://help.blackboard.com
+< Cf-Request-Id: 076f19fbc00000d5f09ebeb000000001
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Cf-Ray: 60c52c3f99edd5f0-BOM
+

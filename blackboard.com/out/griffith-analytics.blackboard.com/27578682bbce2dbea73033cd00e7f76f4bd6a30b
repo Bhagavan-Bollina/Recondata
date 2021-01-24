@@ -1,0 +1,14 @@
+https://griffith-analytics.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: griffith-analytics.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< X-Powered-By: ARR/3.0
+< X-Powered-By: ASP.NET
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:03:13 GMT
+< Location: https://griffith-analytics.blackboard.com/login/login.html
+

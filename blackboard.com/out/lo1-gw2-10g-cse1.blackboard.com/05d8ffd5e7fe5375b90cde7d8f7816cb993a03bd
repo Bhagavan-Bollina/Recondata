@@ -1,0 +1,19 @@
+http://lo1-gw2-10g-cse1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: lo1-gw2-10g-cse1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: Apache
+< Content-Length: 198
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Mon, 04 Jan 2021 13:03:39 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL / was not found on this server.</p>
+</body></html>

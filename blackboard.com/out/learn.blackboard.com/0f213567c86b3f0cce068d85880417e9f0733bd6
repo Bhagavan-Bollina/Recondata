@@ -1,0 +1,19 @@
+https://learn.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: learn.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private,no-store
+< Expires: -1
+< Vary: Accept-Encoding
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< Date: Mon, 04 Jan 2021 13:03:38 GMT
+< Pragma: no-cache
+< Content-Type: text/html; charset=utf-8
+< X-Xss-Protection: 1; mode=block
+< Set-Cookie: ELOQUA=GUID=F3EA1367460B4C99855DEFC5243BD30E&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:03:38 GMT; path=/;SameSite=None; secure
+< X-Content-Type-Options: nosniff
+
+No page available

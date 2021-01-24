@@ -1,0 +1,27 @@
+https://csub2integrationqa5.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: csub2integrationqa5.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:02:43 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1555832504000"
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:43 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.5-rel.48+1fc210f
+< Content-Type: text/html
+< Set-Cookie: NSC_313871_wjq_69.196.231.21*443=ffffffff090d157045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgtd-313871-244615-app001.mhint
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sun, 21 Apr 2019 07:41:44 GMT
+< Accept-Ranges: bytes
+< P3p: CP="CAO PSA OUR"
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

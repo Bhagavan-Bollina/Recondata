@@ -1,0 +1,27 @@
+https://bcpss-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: bcpss-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.6-rel.16+7744aa6
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:02:20 GMT
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:02:20 GMT
+< Content-Length: 89
+< Set-Cookie: NSC_100423_wjq_69.196.229.98*443=ffffffff090d11f645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgstg-100423-sf232288-app002.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sat, 03 Aug 2019 03:13:24 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1564802004000"
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

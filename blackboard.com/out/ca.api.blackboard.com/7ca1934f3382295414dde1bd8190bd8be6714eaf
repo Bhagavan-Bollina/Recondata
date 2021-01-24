@@ -1,0 +1,15 @@
+https://ca.api.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ca.api.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< X-Amz-Apigw-Id: Yn-7eGlJ4osFeEw=
+< Date: Mon, 04 Jan 2021 13:02:26 GMT
+< Content-Type: application/json
+< Content-Length: 42
+< X-Amzn-Requestid: edece83e-45b6-41b0-b8e6-794c39dc7b8a
+< X-Amzn-Errortype: MissingAuthenticationTokenException
+
+{"message":"Missing Authentication Token"}

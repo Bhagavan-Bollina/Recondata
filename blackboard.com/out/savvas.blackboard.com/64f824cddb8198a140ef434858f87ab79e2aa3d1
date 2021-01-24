@@ -1,0 +1,28 @@
+https://savvas.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: savvas.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Blackboard-Appserver: fgprd-529517-sf576106-app002.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1530254233000"
+< Date: Mon, 04 Jan 2021 13:04:45 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Set-Cookie: NSC_529517_wjq_69.196.231.217*443=ffffffff090d1fcd45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Expires: Sat, 04 Jan 2020 13:04:46 GMT
+< Content-Length: 89
+< Server: Apache-Coyote/1.1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.2-rel.52+af05c84
+< Pragma: private
+< Last-Modified: Fri, 29 Jun 2018 06:37:13 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

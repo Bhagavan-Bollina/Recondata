@@ -1,0 +1,48 @@
+https://hamptonu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hamptonu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:15 GMT
+< X-Blackboard-Appserver: ip-10-146-225-103.ec2.internal
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=3CA127BFCAC38967603D1E4E5D8A12DF; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776195,id:3F3BD3D87B0DEE8785A0E1B88078E5AE,signature:ee38ff6a5e082e0f4f7066cdaecbad6bee5ef9779fc0eb32bdc3a67893119a43,site:0a6578f8-70db-4036-96e4-5bdcfecf95ab,v:2,xsrf:88fabf84-ed34-42c0-86cc-6d952e9d7177; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=37E305A11ADF5EA4D7736C4DA0455E656F0F28D029F6E6703AB64EC77BBD21A60E9CEE60549FC8540848A2752DD86E8F681EEC1F779DA82F20F34E14FE7C414ACE890CF87C;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=37E305A11ADF5EA4D7736C4DA0455E656F0F28D029F6E6703AB64EC77BBD21A60E9CEE60549FC8540848A2752DD86E8F681EEC1F779DA82F20F34E14FE7C414ACE890CF87C;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:15 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:15 GMT
+< Pragma: private
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fhamptonu.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;hamptonu.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

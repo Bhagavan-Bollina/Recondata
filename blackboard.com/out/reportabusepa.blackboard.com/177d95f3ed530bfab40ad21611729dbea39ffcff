@@ -1,0 +1,45 @@
+https://reportabusepa.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: reportabusepa.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:04:38 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.10-rel.12+2ad3637
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors self' https://*.pitt.edu https://*.blackboard.com 'dummy.local
+< Content-Type: text/html;charset=ISO-8859-1
+< Vary: Accept-Encoding
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:04:38 GMT
+< Set-Cookie: session_id=19DA741102AA5A03ECDE1E4AE4E81742; Path=/; HttpOnly
+< Set-Cookie: s_session_id=9D1010DFBEA8EBEDE8AECE7EA8236025; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_526389_wjq_69.196.243.219*443=ffffffff090e115c45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgprd-526389-sf202269-app003.mhint
+< Last-Modified: Thu, 04 Jan 2001 13:04:38 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://reportabusepa.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://reportabusepa.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

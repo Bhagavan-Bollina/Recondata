@@ -1,0 +1,3203 @@
+https://texsu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: texsu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=UTF-8
+< Last-Modified: Thu, 04 Jan 2001 13:05:05 GMT
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-145-31-187.ec2.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Language: en-US
+< Date: Mon, 04 Jan 2021 13:05:05 GMT
+< Expires: Sat, 04 Jan 2020 13:05:05 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=483E6B7499D3367829BDC868C391C0B8; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776305,id:227D8F4686627B1C2D490141D9BDE22C,signature:380a42ff6d7667c39b25540235f66f84b7265bece9dbdb36a4f177fe3e3982f5,site:9aa0fc40-91b0-47c3-9c37-11a974c7c67a,v:2,xsrf:513d6ca3-1759-4c01-8f71-f3994d7f43f7; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=EF5BCD11100B1FCE5A8DBB5D64B307CA5EE6B581221B72EBF5A4364AF5DF74AF156D3339EA8D0F52106008604B74D2280562F30B95A48B39A2B17DA0F05344367949754BEE;PATH=/
+< Set-Cookie: AWSELBCORS=EF5BCD11100B1FCE5A8DBB5D64B307CA5EE6B581221B72EBF5A4364AF5DF74AF156D3339EA8D0F52106008604B74D2280562F30B95A48B39A2B17DA0F05344367949754BEE;PATH=/;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE HTML >
+<html  lang="en-US">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"114282943"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3900.2.0-rel.34+4ad580a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/2016ThemeUpdated/theme.css?v=3900.2.0-rel.34+4ad580a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/branding/_1_1/brand.css?ts=1603202980471&v=3900.2.0-rel.34+4ad580a" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.2.0-rel.34+4ad580a" id="css_3">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a" id="css_4">
+          <link rel="stylesheet" href="http://tsuonlinelearning.com/blackboard/css/linearicons.css">
+			<link rel="stylesheet" href="http://tsuonlinelearning.com/blackboard/css/font-awesome.min.css">
+			<link rel="stylesheet" href="http://tsuonlinelearning.com/blackboard/css/bootstrap.css">
+							
+			<link rel="stylesheet" href="http://tsuonlinelearning.com/blackboard/css/animate.min.css">
+
+			<link rel="stylesheet" href="http://tsuonlinelearning.com/blackboard/css/main.css">
+<style type="text/css">
+/* Custom styles start */
+    
+    /* BOOTSTRAP */
+    
+   
+    
+    /* BOOTSTRAP END */
+    
+    
+    /* MAIN THEME STYLES */
+    
+    .container {border: none;}
+    
+    ::-moz-selection {
+    background-color: #3bacf0;
+    color: #fff
+}
+
+::selection {
+    background-color: #3bacf0;
+    color: #fff
+}
+
+::-webkit-input-placeholder {
+    color: #777777;
+    font-weight: 300
+}
+
+:-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+    font-weight: 300
+}
+
+::-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #777777;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #777777;
+    font-weight: 300
+}
+
+body {
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    position: relative
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+select {
+    display: block
+}
+
+figure {
+    margin: 0
+}
+
+a {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+iframe {
+    border: 0
+}
+
+a,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: 0
+}
+
+.card-panel {
+    margin: 0;
+    padding: 60px
+}
+
+.btn i,
+.btn-large i,
+.btn-floating i,
+.btn-large i,
+.btn-flat i {
+    font-size: 1em;
+    line-height: inherit
+}
+
+.gray-bg {
+    background: #f9f9ff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Poppins", sans-serif;
+    color: #222;
+    line-height: 1.2em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 600
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #222
+}
+
+h1,
+.h1 {
+    font-size: 36px
+}
+
+h2,
+.h2 {
+    font-size: 30px
+}
+
+h3,
+.h3 {
+    font-size: 24px
+}
+
+h4,
+.h4 {
+    font-size: 18px
+}
+
+h5,
+.h5 {
+    font-size: 16px
+}
+
+h6,
+.h6 {
+    font-size: 14px;
+    color: #222
+}
+
+td,
+th {
+    border-radius: 0px
+}
+
+.clear::before,
+.clear::after {
+    content: " ";
+    display: table
+}
+
+.clear::after {
+    clear: both
+}
+
+.fz-11 {
+    font-size: 11px
+}
+
+.fz-12 {
+    font-size: 12px
+}
+
+.fz-13 {
+    font-size: 13px
+}
+
+.fz-14 {
+    font-size: 14px
+}
+
+.fz-15 {
+    font-size: 15px
+}
+
+.fz-16 {
+    font-size: 16px
+}
+
+.fz-18 {
+    font-size: 18px
+}
+
+.fz-30 {
+    font-size: 30px
+}
+
+.fz-48 {
+    font-size: 48px !important
+}
+
+.fw100 {
+    font-weight: 100
+}
+
+.fw300 {
+    font-weight: 300
+}
+
+.fw400 {
+    font-weight: 400 !important
+}
+
+.fw500 {
+    font-weight: 500
+}
+
+.f700 {
+    font-weight: 700
+}
+
+.fsi {
+    font-style: italic
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-15 {
+    margin-top: 15px
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-25 {
+    margin-top: 25px
+}
+
+.mt-30 {
+    margin-top: 30px
+}
+
+.mt-35 {
+    margin-top: 35px
+}
+
+.mt-40 {
+    margin-top: 40px
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mt-60 {
+    margin-top: 60px
+}
+
+.mt-70 {
+    margin-top: 70px
+}
+
+.mt-80 {
+    margin-top: 80px
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.mt-120 {
+    margin-top: 120px
+}
+
+.mt-150 {
+    margin-top: 150px
+}
+
+.ml-0 {
+    margin-left: 0 !important
+}
+
+.ml-5 {
+    margin-left: 5px !important
+}
+
+.ml-10 {
+    margin-left: 10px
+}
+
+.ml-15 {
+    margin-left: 15px
+}
+
+.ml-20 {
+    margin-left: 20px
+}
+
+.ml-30 {
+    margin-left: 30px
+}
+
+.ml-50 {
+    margin-left: 50px
+}
+
+.mr-0 {
+    margin-right: 0 !important
+}
+
+.mr-5 {
+    margin-right: 5px !important
+}
+
+.mr-15 {
+    margin-right: 15px
+}
+
+.mr-10 {
+    margin-right: 10px
+}
+
+.mr-20 {
+    margin-right: 20px
+}
+
+.mr-30 {
+    margin-right: 30px
+}
+
+.mr-50 {
+    margin-right: 50px
+}
+
+.mb-0 {
+    margin-bottom: 0px
+}
+
+.mb-0-i {
+    margin-bottom: 0px !important
+}
+
+.mb-5 {
+    margin-bottom: 5px
+}
+
+.mb-10 {
+    margin-bottom: 10px
+}
+
+.mb-15 {
+    margin-bottom: 15px
+}
+
+.mb-20 {
+    margin-bottom: 20px
+}
+
+.mb-25 {
+    margin-bottom: 25px
+}
+
+.mb-30 {
+    margin-bottom: 30px
+}
+
+.mb-40 {
+    margin-bottom: 40px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+.mb-60 {
+    margin-bottom: 60px
+}
+
+.mb-70 {
+    margin-bottom: 70px
+}
+
+.mb-80 {
+    margin-bottom: 80px
+}
+
+.mb-90 {
+    margin-bottom: 90px
+}
+
+.mb-100 {
+    margin-bottom: 100px
+}
+
+.pt-0 {
+    padding-top: 0px
+}
+
+.pt-10 {
+    padding-top: 10px
+}
+
+.pt-15 {
+    padding-top: 15px
+}
+
+.pt-20 {
+    padding-top: 20px
+}
+
+.pt-25 {
+    padding-top: 25px
+}
+
+.pt-30 {
+    padding-top: 30px
+}
+
+.pt-40 {
+    padding-top: 40px
+}
+
+.pt-50 {
+    padding-top: 50px
+}
+
+.pt-60 {
+    padding-top: 60px
+}
+
+.pt-70 {
+    padding-top: 70px
+}
+
+.pt-80 {
+    padding-top: 80px
+}
+
+.pt-90 {
+    padding-top: 90px
+}
+
+.pt-100 {
+    padding-top: 100px
+}
+
+.pt-120 {
+    padding-top: 120px
+}
+
+.pt-150 {
+    padding-top: 150px
+}
+
+.pt-170 {
+    padding-top: 170px
+}
+
+.pb-0 {
+    padding-bottom: 0px
+}
+
+.pb-10 {
+    padding-bottom: 10px
+}
+
+.pb-15 {
+    padding-bottom: 15px
+}
+
+.pb-20 {
+    padding-bottom: 20px
+}
+
+.pb-25 {
+    padding-bottom: 25px
+}
+
+.pb-30 {
+    padding-bottom: 30px
+}
+
+.pb-40 {
+    padding-bottom: 40px
+}
+
+.pb-50 {
+    padding-bottom: 50px
+}
+
+.pb-60 {
+    padding-bottom: 60px
+}
+
+.pb-70 {
+    padding-bottom: 70px
+}
+
+.pb-80 {
+    padding-bottom: 80px
+}
+
+.pb-90 {
+    padding-bottom: 90px
+}
+
+.pb-100 {
+    padding-bottom: 100px
+}
+
+.pb-120 {
+    padding-bottom: 120px
+}
+
+.pb-150 {
+    padding-bottom: 150px
+}
+
+.pr-30 {
+    padding-right: 30px
+}
+
+.pl-30 {
+    padding-left: 30px
+}
+
+.pl-90 {
+    padding-left: 90px
+}
+
+.p-40 {
+    padding: 40px
+}
+
+.float-left {
+    float: left
+}
+
+.float-right {
+    float: right
+}
+
+.text-italic {
+    font-style: italic
+}
+
+.text-white {
+    color: #fff
+}
+
+.text-black {
+    color: #000
+}
+
+.transition {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.section-full {
+    padding: 100px 0
+}
+
+.section-half {
+    padding: 75px 0
+}
+
+.text-center {
+    text-align: center
+}
+
+.text-left {
+    text-align: left
+}
+
+.text-rigth {
+    text-align: right
+}
+
+.flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.inline-flex {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+.flex-grow {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.flex-wrap {
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.flex-left {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    justify-content: flex-start
+}
+
+.flex-middle {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    align-items: center
+}
+
+.flex-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    justify-content: flex-end
+}
+
+.flex-top {
+    -webkit-align-self: flex-start;
+    -moz-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center
+}
+
+.flex-bottom {
+    -webkit-align-self: flex-end;
+    -moz-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end
+}
+
+.space-between {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between
+}
+
+.space-around {
+    -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
+    -moz-justify-content: space-around;
+    justify-content: space-around
+}
+
+.flex-column {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+.flex-cell {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -moz-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.display-table {
+    display: table
+}
+
+.light {
+    color: #fff
+}
+
+.dark {
+    color: #222
+}
+
+.relative {
+    position: relative
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+.container.fullwidth {
+    width: 100%
+}
+
+.container.no-padding {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.no-padding {
+    padding: 0
+}
+
+.section-bg {
+    background: #f9fafc
+}
+
+@media (max-width: 767px) {
+    .no-flex-xs {
+        display: block !important
+    }
+}
+
+.row.no-margin {
+    margin-left: 0;
+    margin-right: 0
+}
+
+.sample-text-area {
+    background: #fff;
+    padding: 100px 0 70px 0
+}
+
+.text-heading {
+    margin-bottom: 30px;
+    font-size: 24px
+}
+
+b,
+sup,
+sub,
+u,
+del {
+    color: #3bacf0
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+h4 {
+    font-size: 18px
+}
+
+h5 {
+    font-size: 16px
+}
+
+h6 {
+    font-size: 14px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.5em
+}
+
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6 {
+    color: #777
+}
+
+.button-area {
+    background: #fff
+}
+
+.button-area .border-top-generic {
+    padding: 70px 15px;
+    border-top: 1px dotted #eee
+}
+
+.button-group-area .genric-btn {
+    margin-right: 10px;
+    margin-top: 10px
+}
+
+.button-group-area .genric-btn:last-child {
+    margin-right: 0
+}
+
+.genric-btn {
+    display: inline-block;
+    outline: none;
+    line-height: 40px;
+    padding: 0 30px;
+    font-size: .8em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.genric-btn:focus {
+    outline: none
+}
+
+.genric-btn.e-large {
+    padding: 0 40px;
+    line-height: 50px
+}
+
+.genric-btn.large {
+    line-height: 45px
+}
+
+.genric-btn.medium {
+    line-height: 30px
+}
+
+.genric-btn.small {
+    line-height: 25px
+}
+
+.genric-btn.radius {
+    border-radius: 3px
+}
+
+.genric-btn.circle {
+    border-radius: 20px
+}
+
+.genric-btn.arrow {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.genric-btn.arrow span {
+    margin-left: 10px
+}
+
+.genric-btn.default {
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.default:hover {
+    border: 1px solid #f9f9ff;
+    background: #fff
+}
+
+.genric-btn.default-border {
+    border: 1px solid #f9f9ff;
+    background: #fff
+}
+
+.genric-btn.default-border:hover {
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.primary {
+    color: #fff;
+    background: #3bacf0;
+    border: 1px solid transparent
+}
+
+.genric-btn.primary:hover {
+    color: #3bacf0;
+    border: 1px solid #3bacf0;
+    background: #fff
+}
+
+.genric-btn.primary-border {
+    color: #3bacf0;
+    border: 1px solid #3bacf0;
+    background: #fff
+}
+
+.genric-btn.primary-border:hover {
+    color: #fff;
+    background: #3bacf0;
+    border: 1px solid transparent
+}
+
+.genric-btn.success {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent
+}
+
+.genric-btn.success:hover {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff
+}
+
+.genric-btn.success-border {
+    color: #4cd3e3;
+    border: 1px solid #4cd3e3;
+    background: #fff
+}
+
+.genric-btn.success-border:hover {
+    color: #fff;
+    background: #4cd3e3;
+    border: 1px solid transparent
+}
+
+.genric-btn.info {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.info:hover {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff
+}
+
+.genric-btn.info-border {
+    color: #38a4ff;
+    border: 1px solid #38a4ff;
+    background: #fff
+}
+
+.genric-btn.info-border:hover {
+    color: #fff;
+    background: #38a4ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.warning {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent
+}
+
+.genric-btn.warning:hover {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff
+}
+
+.genric-btn.warning-border {
+    color: #f4e700;
+    border: 1px solid #f4e700;
+    background: #fff
+}
+
+.genric-btn.warning-border:hover {
+    color: #fff;
+    background: #f4e700;
+    border: 1px solid transparent
+}
+
+.genric-btn.danger {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent
+}
+
+.genric-btn.danger:hover {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff
+}
+
+.genric-btn.danger-border {
+    color: #f44a40;
+    border: 1px solid #f44a40;
+    background: #fff
+}
+
+.genric-btn.danger-border:hover {
+    color: #fff;
+    background: #f44a40;
+    border: 1px solid transparent
+}
+
+.genric-btn.link {
+    color: #222;
+    background: #f9f9ff;
+    text-decoration: underline;
+    border: 1px solid transparent
+}
+
+.genric-btn.link:hover {
+    color: #222;
+    border: 1px solid #f9f9ff;
+    background: #fff
+}
+
+.genric-btn.link-border {
+    color: #222;
+    border: 1px solid #f9f9ff;
+    background: #fff;
+    text-decoration: underline
+}
+
+.genric-btn.link-border:hover {
+    color: #222;
+    background: #f9f9ff;
+    border: 1px solid transparent
+}
+
+.genric-btn.disable {
+    color: #222, 0.3;
+    background: #f9f9ff;
+    border: 1px solid transparent;
+    cursor: not-allowed
+}
+
+.generic-blockquote {
+    padding: 30px 50px 30px 30px;
+    background: #f9f9ff;
+    border-left: 2px solid #3bacf0
+}
+
+.progress-table-wrap {
+    overflow-x: scroll
+}
+
+
+
+
+@media (max-width: 673px) {
+    #logo {
+        margin-left: 20px
+    }
+}
+
+#header #logo h1 {
+    font-size: 34px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px
+}
+
+#header #logo h1 a,
+#header #logo h1 a:hover {
+    color: #fff;
+    padding-left: 10px;
+    border-left: 4px solid #3bacf0
+}
+
+#header #logo img {
+    padding: 0;
+    margin: 0
+}
+
+@media (max-width: 768px) {
+    #header #logo h1 {
+        font-size: 28px
+    }
+    #header #logo img {
+        max-height: 40px
+    }
+}
+
+.ticker-btn {
+    background: #88d200;
+    color: #fff;
+    padding: 6px 20px !important;
+    text-transform: uppercase
+}
+
+
+.sf-arrows .sf-with-ul {
+    padding-right: 30px
+}
+
+.sf-arrows .sf-with-ul:after {
+    content: "\f107";
+    position: absolute;
+    right: 15px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal
+}
+
+.sf-arrows ul .sf-with-ul:after {
+    content: "\f105"
+}
+
+#nav-menu-container {
+    margin: 0
+}
+
+@media (min-width: 1024px) {
+    #nav-menu-container {
+        padding-right: 60px
+    }
+}
+
+@media (max-width: 768px) {
+    #nav-menu-container {
+        display: none
+    }
+}
+
+.nav-menu a {
+    padding: 6px 10px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none
+}
+
+.nav-menu>li {
+    margin-left: 10px
+}
+
+.nav-menu ul {
+    margin: 16px 0 0 0;
+    padding: 10px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    background: #fff
+}
+
+.nav-menu ul li {
+    transition: 0.3s
+}
+
+.nav-menu ul li a {
+    padding: 10px;
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 12px;
+    text-transform: none
+}
+
+.nav-menu ul li:hover>a {
+    color: #3bacf0
+}
+
+.nav-menu ul ul {
+    margin: 0
+}
+
+#mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    z-index: 999;
+    top: 16px;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    display: none;
+    transition: all 0.4s;
+    outline: none;
+    cursor: pointer
+}
+
+#mobile-nav-toggle i {
+    color: #fff;
+    font-weight: 900
+}
+
+@media (max-width: 800px) {
+    #mobile-nav-toggle {
+        display: inline
+    }
+    #nav-menu-container {
+        display: none
+    }
+}
+
+#mobile-nav {
+    position: fixed;
+    top: 0;
+    padding-top: 18px;
+    bottom: 0;
+    z-index: 998;
+    background: rgba(0, 0, 0, 0.8);
+    left: -260px;
+    width: 260px;
+    overflow-y: auto;
+    transition: 0.4s
+}
+
+#mobile-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+#mobile-nav ul li {
+    position: relative
+}
+
+#mobile-nav ul li a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 10px 22px 10px 15px;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    outline: none;
+    font-weight: 700
+}
+
+#mobile-nav ul li a:hover {
+    color: #fff
+}
+
+#mobile-nav ul li li {
+    padding-left: 30px
+}
+
+#mobile-nav ul .menu-has-children i {
+    position: absolute;
+    right: 0;
+    z-index: 99;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff
+}
+
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+    color: #3bacf0
+}
+
+#mobile-nav ul .menu-has-children li a {
+    text-transform: none
+}
+
+#mobile-nav ul .menu-item-active {
+    color: #3bacf0
+}
+
+#mobile-body-overly {
+    width: 100%;
+    height: 100%;
+    z-index: 997;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+    display: none
+}
+
+body.mobile-nav-active {
+    overflow: hidden
+}
+
+body.mobile-nav-active #mobile-nav {
+    left: 0
+}
+
+body.mobile-nav-active #mobile-nav-toggle {
+    color: #fff
+}
+
+.section-gap {
+    padding: 120px 0
+}
+
+.section-title {
+    padding-bottom: 30px
+}
+
+.section-title h2 {
+    margin-bottom: 20px
+}
+
+.section-title p {
+    font-size: 16px;
+    margin-bottom: 0
+}
+
+@media (max-width: 991.98px) {
+    .section-title p br {
+        display: none
+    }
+}
+
+.primary-btn {
+    background-color: #88d200;
+    line-height: 42px;
+    padding-left: 30px;
+    padding-right: 60px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative
+}
+
+.primary-btn:focus {
+    outline: none
+}
+
+.primary-btn span {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-60%);
+    right: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.primary-btn:hover {
+    color: #fff
+}
+
+.primary-btn:hover span {
+    color: #fff;
+    right: 20px
+}
+
+.primary-btn.white {
+    border: 1px solid #fff;
+    color: #fff
+}
+
+.primary-btn.white span {
+    color: #fff
+}
+
+.primary-btn.white:hover {
+    background: #fff;
+    color: #3bacf0
+}
+
+.primary-btn.white:hover span {
+    color: #3bacf0
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0
+}
+
+.banner-area {
+    background: url(../img/header-bg.jpg) center;
+    background-size: cover
+}
+
+.banner-area .overlay-bg {
+    background-color: rgba(59, 172, 240, 0.9)
+}
+
+.banner-content {
+    margin-top: -90px;
+    text-align: center
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1em;
+    margin-top: 20px
+}
+
+.banner-content h1 span {
+    font-weight: 700
+}
+
+@media (max-width: 991.98px) {
+    .banner-content h1 {
+        font-size: 36px
+    }
+}
+
+@media (max-width: 991.98px) {
+    .banner-content h1 br {
+        display: none
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .banner-content h1 {
+        font-size: 45px
+    }
+}
+
+@media (max-width: 414px) {
+    .banner-content h1 {
+        font-size: 32px
+    }
+}
+
+@media (max-width: 1280px) {
+    .banner-content br {
+        display: none
+    }
+}
+
+@media (max-width: 763px) {
+    .banner-content p {
+        color: #222
+    }
+}
+
+.primary-btn {
+    background: #fff;
+    border: 1px solid transparent;
+    color: #222;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 50px
+}
+
+.primary-btn:hover {
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff
+}
+
+.mockup-container {
+    margin-top: -20em
+}
+
+.mockup-container img {
+    z-index: 2
+}
+
+@media (max-width: 960px) {
+    .mockup-container {
+        margin-top: -16em
+    }
+}
+
+@media (max-width: 480px) {
+    .mockup-container {
+        margin-top: -10em
+    }
+}
+
+.single-feature {
+    text-align: center;
+    background-color: #f9f9ff;
+    padding: 40px;
+    border-radius: 10px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.single-feature h4,
+.single-feature .lnr {
+    color: #222
+}
+
+.single-feature .lnr {
+    font-size: 30px
+}
+
+.single-feature h4 {
+    padding: 20px 0
+}
+
+.single-feature:hover {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(59, 172, 240, 0.2)
+}
+
+.single-feature:hover h4,
+.single-feature:hover .lnr {
+    color: #3bacf0
+}
+
+@media (max-width: 960px) {
+    .single-feature {
+        margin-bottom: 30px
+    }
+}
+
+.about-area {
+    background-color: #f9f9ff
+}
+
+.about-area .owl-dots {
+    text-align: center;
+    bottom: 5px;
+    margin-top: 20px;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.about-area .owl-dot {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: rgba(127, 127, 127, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+    @inlcude transition()
+}
+
+.about-area .owl-dot.active {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    padding: 0px 25px 0px 0px;
+    background: #3bacf0
+}
+
+.about-left h6 {
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #3bacf0
+}
+
+.about-left h1 {
+    padding: 20px 0
+}
+
+.about-left p span {
+    font-weight: 500;
+    color: #222
+}
+
+.about-left .primary-btn {
+    border-radius: 0;
+    background-color: #3bacf0;
+    color: #fff;
+    border: 1px solid transparent;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.about-left .primary-btn:hover {
+    background-color: transparent;
+    color: #222;
+    border-color: #222
+}
+
+@media (max-width: 960px) {
+    .about-left {
+        text-align: center;
+        margin-bottom: 60px
+    }
+}
+
+.single-service .icon {
+    
+}
+    
+    [class^="icon"] {
+  width: 30px;
+  height: 30px;
+    float: left;
+  position: relative;
+  color:#777;
+}
+    
+    .single-service .desc {
+        margin-left: 40px;
+    }
+
+
+.single-service .icon h1 {
+    font-weight: 200;
+    color: #6b0d1d;
+    }
+
+.single-service .desc h4 {
+    margin-bottom: 18px;
+    font-size:26px;
+    margin-top: 5px;
+    color: #6b0d1d;
+    
+}
+
+.callto-action-area {
+    background-color: #3bacf0
+}
+
+.callto-action-area .primary-btn {
+    background-color: #88d200;
+    border-radius: 0;
+    color: #fff;
+    text-transform: capitalize;
+    border: 1px solid transparent
+}
+
+.callto-action-area .primary-btn:hover {
+    background-color: transparent;
+    border-color: #fff
+}
+
+.home-video-area {
+    background-color: #f9f9ff
+}
+
+.video-area {
+    padding: 200px 0 200px 0;
+    position: relative;
+    background: url(../img/f1.jpg) no-repeat center center/cover
+}
+
+.video-area .overlay-bg {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: .6
+}
+
+.video-area .video-content {
+    text-align: center;
+    position: relative;
+    z-index: 2
+}
+
+.video-area {
+    background-color: #f9f9ff
+}
+
+.video-right {
+    padding-right: 10%
+}
+
+.video-right p span {
+    font-weight: 500;
+    color: #222
+}
+
+.video-right .top-title {
+    color: #3bacf0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.video-right h1 {
+    margin-bottom: 20px
+}
+
+@media (max-width: 1366px) {
+    .video-right {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding-right: 15px;
+        padding-left: 15px
+    }
+}
+
+@media (max-width: 990px) {
+    .video-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+}
+
+.home-aboutus-area .top-title {
+    color: #3bacf0;
+    letter-spacing: 2px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px
+}
+
+.home-aboutus-area .about-right {
+    padding-right: 8%
+}
+
+.home-aboutus-area .about-right h1 {
+    margin-bottom: 20px
+}
+
+.home-aboutus-area .about-right p span {
+    font-weight: 500
+}
+
+@media (max-width: 1366px) {
+    .home-aboutus-area .about-right {
+        padding: 10px
+    }
+    .home-aboutus-area .about-right h1 {
+        font-size: 24px
+    }
+    .home-aboutus-area .about-right p span {
+        font-size: 10px
+    }
+}
+
+.
+
+.testimonial-area {
+    background-color: #f9f9ff
+}
+
+.testimonial-area .owl-dots {
+    text-align: center;
+    bottom: 5px;
+    margin-top: 20px;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.testimonial-area .owl-dot {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    background: rgba(127, 127, 127, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+    @inlcude transition()
+}
+
+.testimonial-area .owl-dot.active {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    padding: 0px 25px 0px 0px;
+    background: #3bacf0
+}
+
+.single-testimonial {
+    background-color: #fff;
+    padding: 25px 30px 12px 30px
+}
+
+.single-testimonial .thumb {
+    margin-right: 30px
+}
+
+.single-testimonial h4 {
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 5px
+}
+
+.single-testimonial h4:hover {
+    color: #3bacf0;
+    cursor: pointer
+}
+
+.star .checked {
+    color: orange
+}
+
+.footer-area {
+    padding-top: 100px;
+    background-color: #04091e
+}
+
+.footer-area h6 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.copy-right-text i,
+.copy-right-text a {
+    color: #3bacf0
+}
+
+.footer-social a {
+    padding-right: 25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+.footer-social a:hover i {
+    color: #3bacf0
+}
+
+.footer-social i {
+    color: #cccccc;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+
+@media (max-width: 991.98px) {
+    .footer-social {
+        text-align: left
+    }
+}
+
+.single-footer-widget input {
+    border: none;
+    width: 80% !important;
+    font-weight: 300;
+    background: #fff;
+    color: #eee;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px 18px
+}
+
+.single-footer-widget input:focus {
+    background-color: #fff
+}
+
+.single-footer-widget .bb-btn {
+    color: #3bacf0;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 0;
+    z-index: 9999;
+    cursor: pointer
+}
+
+.single-footer-widget .info {
+    position: absolute;
+    margin-top: 20%;
+    color: #fff;
+    font-size: 12px
+}
+
+.single-footer-widget .info.valid {
+    color: green
+}
+
+.single-footer-widget .info.error {
+    color: red
+}
+
+.single-footer-widget .click-btn {
+    background-color: #3bacf0;
+    color: #fff;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 8px 12px;
+    border: 0
+}
+
+.single-footer-widget::-moz-selection {
+    background-color: #191919 !important;
+    color: #777
+}
+
+.single-footer-widget::selection {
+    background-color: #191919 !important;
+    color: #777
+}
+
+.single-footer-widget::-webkit-input-placeholder {
+    color: #777;
+    font-weight: 300
+}
+
+.single-footer-widget:-moz-placeholder {
+    color: #777;
+    opacity: 1;
+    font-weight: 300
+}
+
+.single-footer-widget::-moz-placeholder {
+    color: #777;
+    opacity: 1;
+    font-weight: 300
+}
+
+.single-footer-widget:-ms-input-placeholder {
+    color: #777;
+    font-weight: 300
+}
+
+.single-footer-widget::-ms-input-placeholder {
+    color: #777;
+    font-weight: 300
+}
+
+@media (max-width: 991.98px) {
+    .single-footer-widget {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width: 800px) {
+    .social-widget {
+        margin-top: 30px
+    }
+}
+
+.footer-text {
+    padding-top: 20px
+}
+
+.footer-text a,
+.footer-text i {
+    color: #3bacf0
+}
+
+.whole-wrap {
+    background-color: #fff
+}
+
+.generic-banner {
+    background-color: #3bacf0;
+    text-align: center
+}
+
+.generic-banner .height {
+    height: 600px
+}
+
+@media (max-width: 767.98px) {
+    .generic-banner .height {
+        height: 400px
+    }
+}
+
+.generic-banner .generic-banner-content h2 {
+    line-height: 1.2em;
+    margin-bottom: 20px
+}
+
+@media (max-width: 991.98px) {
+    .generic-banner .generic-banner-content h2 br {
+        display: none
+    }
+}
+
+.generic-banner .generic-banner-content p {
+    text-align: center;
+    font-size: 16px
+}
+
+@media (max-width: 991.98px) {
+    .generic-banner .generic-banner-content p br {
+        display: none
+    }
+}
+
+.generic-content h1 {
+    font-weight: 600
+}
+
+.about-generic-area {
+    background: #fff
+}
+
+.about-generic-area p {
+    margin-bottom: 20px
+}
+
+.white-bg {
+    background: #fff
+}
+
+.section-top-border {
+    padding: 70px 0;
+    border-top: 1px dotted #eee
+}
+
+.switch-wrap {
+    margin-bottom: 10px
+}
+
+.switch-wrap p {
+    margin: 0
+}
+    
+    /* MAIN THEME STYLES END */
+    
+    
+    
+    /* custom bb css */
+    body.login-page {
+        min-height: 100% !important;
+    }
+    #contentFrame, #schemePreview, .schemePreviewBody, body {
+    background: none !important;
+        background-color: none !important;
+}
+    
+    #contentArea, #schemePreviewBody, .container {
+    background-color: none !important;
+    color: #444;
+}
+    
+    .login-page{
+        background-color: #fff;
+    }
+    
+    div.loginBody { background: none !important; padding: 0 !important; }
+    
+
+    
+    .cs-login-w {
+        
+        text-align:center;
+        padding: 0 50px;
+        
+        
+       
+        
+    }
+    
+    .cs-login-header {
+        
+        margin: auto;
+        min-width: 240px;
+        margin: 20px auto;
+    }
+    
+    .cs-login-header h1 {
+        
+        font-size:24px;
+    }
+    
+    .cs-loginbox-w {
+        text-align:center;
+        padding: 0 50px;
+        
+    }
+    
+    #loginBox {
+        position: relative;
+    }
+    
+    #loginBox ul, #loginRedirectProviders {
+    margin: 20px auto;
+    width: 100% !important;
+    font-size: 10px;
+  
+}
+    
+    #loginOptions {
+    margin: 38px auto 26px;
+    width: 100% !important;
+    text-align: center;
+    }
+    
+    #loginBox li input, #loginRedirectProviders button {
+    -moz-box-shadow: 0 rgba(0,0,0,0) !important;
+    -webkit-box-shadow: 0 rgba(0,0,0,0) !important;
+    font-size: 140%;
+    padding: 10px;
+    width: 100%;
+}
+    
+    
+    #loginBox li label {
+        font-size:12px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    #loginBox input[type="text"]:focus, #loginBox input[type="password"]:focus, #loginRedirectProviders button:focus, #loginBox input[type="text"]:hover, #loginBox input[type="password"]:hover, #loginRedirectProviders button:hover {
+    background: #fff;
+    border-color: #6b0d1d;
+    outline: none;
+    color: #333;
+    }
+        
+    #loginBox input[type="text"], #loginBox input[type="password"], #loginRedirectProviders button {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    background: #efefef;
+    padding: 4px;
+    border: 2px solid #777;
+    color: #666;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+    
+    #loginBox li input[type="submit"] {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 0;
+    width: auto;
+    min-width: 124px;
+}
+
+    
+    .cs-btn {
+        margin:10px 0;
+        border:2px solid #6b0d1d;
+        background-color: #6b0d1d;
+        color: #ffffff !important;
+        padding: 5px;
+        width: 150px !important;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .cs-btn:hover{
+     
+        border:2px solid #6b0d1d;
+        background-color: #ffffff !important;
+        color: #777777;
+        text-decoration: none;
+      
+    }
+        
+    .content, .container, .containerPortal {
+    min-width: auto;
+    display: block;
+    zoom: 1;
+    min-height: 100px;
+}
+    
+    
+    #loginAnnouncements ul {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+    
+    #loginAnnouncements li {
+    background: #fff;
+    color: #666;
+    font-size: 95%;
+    padding: 18px 24px 12px;
+    text-align: justify;
+    vertical-align: top;
+    margin: 0 0 12px 0;
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    zoom: 1;
+    
+    }
+    
+    #loginAnnouncements ul li::before, #loginAnnouncements ul li::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    max-width: 300px;
+    -webkit-box-shadow: 0 15px 10px rgba(0,0,0,0);
+    -moz-box-shadow: 0 15px 10px rgba(0,0,0,0);
+    box-shadow: 0 15px 10px rgba(0,0,0,0);
+    z-index: -2;
+}
+    
+    .cs-footer-w {
+        
+        background-color: #6b0d1d;
+    }
+    .cs-footer {
+        
+        color: #fff;
+          background-color: #6b0d1d !important;
+    }
+    
+    
+    
+    .cs-footer-content {
+        margin:0 auto;
+        
+    }
+    
+    .cs-footer h3 {
+        font-size: 20px;
+        margin:10px 0;
+        color:#999;
+    }
+    
+    .cs-footer-menu-w {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    }
+    
+    .cs-footer-menu {
+  
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    }
+    
+    ul.cs-footer-menu li::before {
+    color: #fdc800;
+    content: "\f105";
+    font-family: FontAwesome;
+    left: 0;
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+    
+     ul.cs-footer-menu li {
+     
+        padding-left: 15px;
+        position: relative;
+        color:#fff;
+        
+    }
+    
+    ul.cs-footer-menu li a {
+        color:#fff !important;
+    }
+    
+    a {
+        color: #6b0d1d !important;
+    }
+    
+    a:hover {
+        color: #777 !important;
+    }
+    
+   
+    
+    
+/* Custom styles end */    
+    
+</style>
+
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.2.0-rel.34+4ad580a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.2.0-rel.34+4ad580a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Point Values are limited to 5 decimal places: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments but did not select any alignable content to copy.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myschool.edu) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrollment option conflicts with the selection of {instructor} Led enrollment.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Point Values are limited to 5 decimal places.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Check to select all items';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contains';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrollment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrollment option conflicts with the self-enrollment selection.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid percent value between -100 and 100 must be entered.';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Uncheck to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Too many decimal places. Maximum is 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/D90E5B0784E7223D992BDFCF73253B2B.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/55FEBF63DFF4A8A4FD0F0F248E6246E1.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/4DEE87E0312E581AD7497F81E6F48956.js?v=3900.2.0-rel.34+4ad580a"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<!-- Start home-aboutus Area -->
+			
+    <div class="container-fluid no-padding" style="background-color: #f5f5f5;">
+    <div class="row no-padding">
+    <div class="col-sm-12">
+				<div class="container" style="background-color: #f5f5f5;">
+					<div class="row" >
+                        
+                        
+                   
+                        
+                        
+                        <div class="col-lg-4 col-md-12 no-padding" style="background-color: #f5f5f5;">
+                            <div class="cs-login-w">
+                            <div class="cs-login-header ">
+							<p class="top-title"><img src="http://www.tsu.edu/images/logo-tsu-maroon.png" /></p>
+                             <div class="" style="text-align: center; margin: auto;"><img src="http://www.tsu.edu/academics/online-programs/images/bb_logo-2.png" /></div>  
+                            
+							</div>
+                            </div>
+							
+								<div class="cs-loginbox-w">
+        <!--<div id="loginBox">
+          
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Please enable JavaScript in your browser for the Blackboard application to function.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/images-ltr", null, true);
+      deleteCookie("JSESSIONID", "/images-rtl", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-hyperlinking", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce-ephox-spelling", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-log-file-downloader-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-McGrawHill-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027720613048-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-1027954530152-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-lockdown-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xplor-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dropbox-integration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wa-webassign-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/es-examsoftv2-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/turn-plgnhndl-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/es-examsoft-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/mdb-sa-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbmh-info-gathering-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ultraui", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-SISFrameworkController-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/insight-report", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-qa-fit-fixtures-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mylab_mastering_b2-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ss-xml-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mindlinks-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-WileyPLUS-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-LoginAs-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-health-check-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/any-acrbb-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-ims-xml-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb32-Blackboard-TurningPoint-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ams-my-course-eval-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-nbc-content-integration-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bnbn-bnbn-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ILP-IntegrationService-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-word-cleanup-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/intb-handler-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/WA04-webassign-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rs-studymate_intg-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/hl-horizonlive-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wvms-bb-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/trat-Blackboard-TurningPoint-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cs-coursesmart-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/trat-Registration_Block-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-oneBox-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-goolgeScholar-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sen-tools-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-link-checker-BB5a3298256260a", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Have an account?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Please enter your credentials and click the <b>Login</b> button below.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Username</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Password</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Login" name="login" class="button expand"/>
+        </li>
+  </ul>
+
+  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='e0f2f24d-512d-42db-a6af-c3955ef574d1'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Sign in with third-party account</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_251_1&redirectUrl=https%3A%2F%2Ftexsu.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>TSU Login</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+</div> -->
+                                    
+         <div id="customLoginBox">
+
+<div id="login">
+
+<p style="text-align: center; font-weight: bold; font-size: large;">You are not logged in</p>
+
+<ul style="list-style: none; margin: 0; display: flex; -webkit-flex-flow: row wrap; justify-content: space-evenly; flex-flow: column wrap; align-items: center; padding-left: 0px;">
+
+ 
+
+<li style="text-decoration: none; padding: .5em; border: 2px outset gray; border-radius: .25em; background-color: #f2f2f2; font-weight: bold; font-size: 1em; text-align: center; width: 140px; margin: .25em;"><a href="/auth-saml/saml/login?apId=_251_1&amp;redirectUrl=https%3A%2F%2Ftexsu.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" target="_top">TSU Login</a></li>
+    
+    <li><a href="https://mypassword.tsu.edu">Reset Password</a></li>
+
+<li style="text-decoration: none; padding: .5em; font-size: 1em; text-align: justify;
+
+text-justify: inter-word; margin: .25em; width:90%;">Log in here if you have a TSU campus network account. This login uses the same username and password as campus email and the TSU campus network.</li>
+
+</ul>
+
+ 
+
+</div>
+
+<div id="links">
+
+<ul style="list-style: none; margin: 0; display: flex; -webkit-flex-flow: row wrap; justify-content: center; flex-flow: row wrap; align-items: center; padding-left: 0px;">
+
+ 
+
+<li style="text-decoration: none; display: block; padding: 1em;"><img src="/images/ci/ng/fonts.gif" alt="" /><a href="#" title="Change Text Size" onclick="page.showChangeTextSizeHelp()">Change Text Size</a></li>
+
+<li style="text-decoration: none; display: block; padding: 1em;"><img src="/images/ci/ng/contrast.gif" alt="" /><a href="#" title="High Contrast Setting" onclick="page.showAccessibilityOptions(); return false;">High Contrast Setting</a></li>
+
+</ul>
+
+</div>         
+        </div>                           
+
+        <div id="loginOptions">
+          
+</div>
+      </div>
+							
+						</div>
+                        <!-- col END-->
+                        
+                        
+                        
+                        
+                        
+						<div class="col-lg-8 col-md-12 ">
+								
+							<img class="img-responsive" src="http://www.tsu.edu/academics/online-programs/images/bb-login-slider.jpg"  alt="all">
+						</div>
+						
+					</div>
+				</div>	
+        
+        </div>
+        </div>
+        </div>
+			
+			<!-- End home-aboutus Area -->	
+			
+			
+			
+			
+			<!-- Start service Area -->
+			
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						
+					</div>					
+					<div class="row">
+						<div class="col-lg-6 secvice-left">
+                            
+                              <div class="single-service d-flex flex-row pb-30">
+								<div class="icon">
+								<i class="fas fa-question fa-2x"></i>
+								</div>
+								<div class="desc">
+									<h4>24/7 Helpdesk @ (713) 313-4357</h4>
+									<p>
+									Need help?  Please feel free to give us a call or send us a detailed email about your issues or concerns. 
+									</p>
+                                    <p><strong>Reset your password:</strong> <a href="https://mypassword.tsu.edu/showLogin.cc">Reset Password</a><br>
+                                    <strong>Phone:</strong>&nbsp;(713) 313-4357 &nbsp; | &nbsp;<strong>Email:</strong>&nbsp;tsuonline@tsu.edu <br><strong>Web:</strong>&nbsp;<a href="http://tsu.edu/academics/online-programs/learning-technologies/index.html">TSU Online Department</a> &nbsp; | &nbsp;<strong>In Person:</strong>&nbsp;Hannah Hall 320</p>
+                                    
+								</div>
+							</div>
+                            
+							<div class="single-service d-flex flex-row pb-30">
+								<div class="icon">
+									<i class="fas fa-search fa-2x"></i>
+								</div>
+								<div class="desc">
+									<h4>Find A Course</h4>
+									<p>
+										The class search tool is designed to help you quickly find classes that fit your schedule. Instantly search for online classes by instruction mode and get easy access to course descriptions, instructor contact information and how many seats are still available.
+									</p>
+                                    <p><a href="http://tsu.edu/academics/online-programs/online-course-finder.html" target="_blank" class="cs-btn">Click Here</a></p>
+								</div>
+							</div>
+							<div class="single-service d-flex flex-row pb-30">
+								<div class="icon">
+								<i class="fas fa-desktop fa-2x"></i>
+								</div>
+								<div class="desc">
+									<h4>Browser check</h4>
+									<p>
+									Clicking the button below checks whether Blackboard Learn supports your browser and operating system.
+									</p>
+                                    <p><a href="https://help.blackboard.com/Learn/Student/Getting_Started/Browser_Support/Browser_Checker" target="_blank" class="cs-btn">Click Here</a></p>
+								</div>
+							</div>
+                            
+                      
+                            
+                                <div class="single-service d-flex flex-row pb-30">
+								<div class="icon">
+								<i class="fab fa-bootstrap fa-2x"></i>
+								</div>
+								<div class="desc">
+									<h4>Using Blackboard @ TSU</h4>
+									<p>
+									Take a tour! Click the button below to watch a brief orientation on using blackboard for coursework @ TSU
+									</p>
+                                    <p><a href="https://www.youtube.com/watch?v=iy_Xkq1VCHI" target="_blank" class="cs-btn">Click Here</a></p>
+								</div>
+							</div>
+                            
+                                  <div class="single-service d-flex flex-row pb-30">
+								<div class="icon">
+								<i class="fas fa-info-circle fa-2x"></i>
+								</div>
+								<div class="desc">
+									<h4>Find My Major</h4>
+									<p>
+									Need Help deciding which major?   Start by clicking the button below to find the best match. 
+									</p>
+                                    <p><a href="https://tsu.mymajors.com/quiz/?" target="_blank" class="cs-btn">Click Here</a></p>
+								</div>
+							</div>
+                            
+                            
+                          
+																				
+						</div>
+						<div class="col-lg-6 secvice-right">
+							<div class="single-service d-flex flex-row pb-30">
+								
+								<div class="desc">
+									<h4>Announcements</h4>
+									<p>
+										
+</p>
+								</div>
+							</div>
+							
+																					
+						</div>						
+					</div>
+				</div>	
+			
+			<!-- End service Area -->
+				
+
+			
+
+			<!-- start footer Area -->		
+			
+				<div class="container-fluid cs-footer-w">
+                    <div class="row no-padding">
+                     <div class="col-sm-12 no-padding"> 
+                         
+                        <div class="container cs-footer">
+                    <div class="row">
+                    <div class="col-md-4 col-sm-12">
+                        <h3>The Vision</h3>
+                        <p>
+                        Texas Southern University will become one of the nation's preeminent comprehensive metropolitan universities. We will be recognized by the excellence of our programs, the quality of our instruction, our innovative research and creative activities, and our commitment to be a contributing partner to our community, state, nation, and world.
+                        </p>
+                        
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-12">
+                        <h3>Quick Links</h3>
+                        <div class="cs-footer-menu-w">
+                        <ul class="cs-footer-menu">
+                            <li><a href="https://texsu.blackboard.com/webapps/login/">Blackboard Login</a></li>
+                            <li><a href="http://tsu.edu/admissions/">Admissions</a></li>
+                            <li><a href="http://tsu.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=61051&catalogId=10001&langId=-1">Book Store</a></li>
+                            <li><a href="http://www.tsu.edu/alumni/">Alumni</a></li>
+                            <li><a href="http://tsu.edu/academics/online-programs/learning-technologies/index.html">Blackboard Support</a></li>
+                            <li><a href="http://online.tsu.edu/">About Us</a></li>
+                            <li><a href="http://tsu.edu/academics/online-programs/faqs.html">FAQs</a></li>
+                      
+                        
+                        </ul>
+                        </div>
+                        
+                    </div>
+                        
+                    <div class="col-md-4 col-sm-12">
+                       <h3>How To Reach Us</h3>
+                        
+                        <ul class="">
+                        <li><i class="fas fa-map-marker-alt"></i>&nbsp; &nbsp; &nbsp;3100 Cleburne Street, Houston, TX 77004</li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; &nbsp; (713) 313-7011</li>
+                        <li><i class="fa fa-fax" aria-hidden="true"></i>&nbsp; &nbsp; (713) 313-7851</li>
+                        
+                        </ul>
+                        
+                    </div>
+                    
+                    </div>
+                    </div> 
+                    
+					
+                </div>
+                </div>  
+				</div>
+				
+			<!-- End footer Area -->		
+    
+    
+    
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <script type="text/javascript">
+      function loadLoginPage()
+      {
+    	  if ( top != self )
+    	  {
+    		  top.location.replace( self.location.href );
+    		}
+    	  if(document.forms.login.user_id != undefined)
+    		{
+    		  document.forms.login.user_id.focus();
+    		}
+    	  setTimeout("triggerScreenreaderAlert()", 500);
+      }
+      
+      function triggerScreenreaderAlert()
+      {
+    	if ( document.getElementById( 'loginErrorMessage' ) )
+  	    {
+    	  $( 'loginErrorMessage' ).update( $('loginErrorMessage').innerHTML );
+  	    }
+      }
+    </script>
+  
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":21,"applicationID":"114282943","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script>
+</body>
+</html>

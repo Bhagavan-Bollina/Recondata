@@ -1,0 +1,429 @@
+https://uclb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uclb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:05:14 GMT
+< Set-Cookie: JSESSIONID=1F8FFD221DA61145A581B067BC2F8F3A; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776314,id:775D0F2C3CB1463EB6C31C7C4E884F1B,signature:1fcfdd0acf2b2b929e64927ea4dcf31b51d9e314a6473842b451978e4d2b3406,site:2c15ca33-41f2-4d39-ada2-8433f04fdef8,v:2,xsrf:b9e187a8-1b87-4903-aa68-90db31d461c8; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=859D3BA31A4E72EA3F000E68B7A37D047263142431FC349839CA06C8212881AF1E31E1F0752F973DE92A43084E5D1BCC36E62DA9DB5495CB440100D503FCCAFACFE66C0F41;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=859D3BA31A4E72EA3F000E68B7A37D047263142431FC349839CA06C8212881AF1E31E1F0752F973DE92A43084E5D1BCC36E62DA9DB5495CB440100D503FCCAFACFE66C0F41;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-148-213-35.eu-central-1.compute.internal
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:05:14 GMT
+< P3p: CP="CAO PSA OUR"
+< Date: Mon, 04 Jan 2021 13:05:14 GMT
+< Pragma: private
+< Vary: accept-encoding
+< Content-Type: text/html;charset=ISO-8859-1
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<title>BBoard Cloud Migration</title>
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"711549412"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script></head> 
+<style>
+html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	background-color: transparent;
+}
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 0.85em;
+	background-color: transparent;
+	overflow: hidden;
+	overflow-y: scroll !important;
+}
+a:link, a:visited, a:active {
+	color: #1E5C97;
+	text-decoration: underline;
+}
+a:hover {
+	color: #666666;
+	text-decoration: none;
+}
+p, td, div, label, input, button, ul, li, h1 { 
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.00em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+	padding: 0 0 15px 0;
+}
+ul { 
+	margin-left: 20px;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style-type: square;
+}
+img, iframe, table {
+	margin: 0;
+	padding: 0;
+	border: 0; 
+}
+table {
+	border-spacing: 5px;
+	margin-bottom: 150px;
+	width: 97%;
+}
+td {
+	vertical-align: top;
+	text-align: left;
+	width: 50%;
+	border: 0;
+}
+
+.Title { 
+	font-size: 1.15em;
+	font-weight: bold;
+	color: #02478C;
+	padding: 20px 0 3px 3px;
+	width: 100%;
+}
+.Alert {
+	margin: 0 0 15px 3px;
+	width: 285px;
+	font-weight: bold;
+	color: #F30;
+}
+.LabelU, .LabelP, .LabelH {
+	margin: 10px 0 0 3px;
+	float: left;
+	width: 80px;
+}
+.Input {
+	font-size: 1.00em;
+	margin: 0 0 5px 5px;
+	padding: 8px 0 8px 8px;
+	border: 1px solid #cccccc;
+	width: 200px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-appearance: none;
+}
+.Button {
+	font-size: 1.00em;
+	margin: 0 0 0 5px;
+	padding: 8px;
+	border: 1px solid #cccccc;
+	background-color: #02478C;
+	width: 200px;
+	color: #FFF;
+	text-align: center;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-appearance: none;
+}
+input[type='checkbox'] {
+	-webkit-appearance: checkbox;
+}
+input[type="radio"] { 
+	-webkit-appearance: radio; 
+}
+input[type="submit"], input[type="button"] { 
+	-webkit-appearance: button; 
+}
+select { 
+	-webkit-appearance: textfield; 
+}
+
+
+#container {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%; 
+	height: 100%; 
+	position: fixed;
+	top: 60px;
+	z-index: -1;
+	background-image: url(https://login.unibocconi.it/shibboleth/grafica/sfondo.jpg);
+	background-repeat: no-repeat;
+	background-position: top; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	opacity:0.4;
+	filter: alpha(opacity=40);
+}
+
+
+#containerHeader {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #333333;
+	position: fixed; 
+	top: 0px;
+	z-index: 1;
+	clear: both;
+	overflow-y: hidden;
+}
+.imgHeader {
+	margin: 15px 0 10px 15px;
+	padding: 0;
+	border: 0;
+	float: left;
+}
+.titleHeader {
+	margin-right: 15px;
+	padding: 0;
+	border: 0;
+	float: right; 
+}
+.titleHeader p {
+	margin-top: 8px;
+	color: #FFF;
+  font-family: Georgia, 'Times New Roman', Sans-Serif;
+	font-size: 41px; 
+}
+.titleHeader img {
+	height: 60px;
+}
+
+
+#containerFooter {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 58px;
+	background-color: #333333;
+	position: fixed;
+	bottom: 0px;
+	z-index: 1;
+	clear: both;
+	overflow-y: hidden;
+}
+.textFooter {
+	margin: 20px 10px 20px 15px;
+	border: 0;
+	padding: 0;
+	color: #FFFFFF;
+	float: left;
+}
+.logoFooter {
+	margin: 5px 20px 5px 0;
+	border: 0;
+	padding: 0;
+	float: right;
+}
+
+
+#containerPage {
+	margin: 80px 0 0 0;
+	border: 0;
+	padding: 0; 
+	clear: both;
+}
+.textPage {
+	margin: 0 0 0 15px;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	clear: both;
+}
+.iframePage {
+	width: 100%;
+	margin: 40px 0 0 15px;
+	padding: 0;
+	border: 0;
+	-webkit-overflow-scrolling: touch !important; 
+	overflow-y: scroll !important;
+	overflow-x: hidden;
+}
+.Iframe {
+	width: 100%; 
+	height: 100%; 
+	height: 75vh;
+	background-color: transparent;
+}
+#Dframe {
+	width: 100%; 
+	height: 30px; 
+	background-color: transparent;
+}
+
+
+@media only screen and (max-width: 400px) { 
+	p { font-size: 1.05em; }
+	table { margin-bottom: 300px; }
+	.imgHeader img { width: 110px; height: 23px; margin-top: 8px; }
+	.titleHeader img { height: 41px; margin-top: 15px; }
+	.titleHeader p { margin-top: 25px; font-size: 21px; }
+	.Alert  { font-size: 1.10em; text-align: center; margin: 0 auto; }
+	.LabelH { font-size: 1.10em; width: 95%; height: 5px; }
+	.LabelU, .LabelP { font-size: 1.10em; width: 95%; text-align: center; padding: 0 8px 3px 8px; margin-top: 9px; float: none; }
+	.Input  { font-size: 1.10em; width: 95%; text-align: center; padding: 8px; margin: 0; } 
+	.Button { font-size: 1.10em; width: 95%; text-align: center; padding: 8px; margin: 0; }
+	.textPage { text-align: center; width: 95%; margin: 0 0 0 7px; }
+}
+
+@media only screen and (max-width: 500px) { 
+	p { font-size: 1.05em; }
+	td { border-bottom: 3px solid #999; }
+	table { margin-bottom: 250px;	}
+	table td {display:inline;} 
+	table td:nth-child(1) {display:block;width:100%;float:left;}
+	table td:nth-child(2) {display:block;width:100%;}
+	table td:nth-child(3) {}
+}
+
+@media only screen and (max-device-width: 667px) {
+	.imgHeader img { margin-left: 5px; }
+	.titleHeader img { margin-right: 15px; }
+	.Alert  { width: 100%; text-align: center; margin-bottom: 10px; }
+	.LabelU, .LabelP  { padding: 0 8px 3px 8px; margin-top: 3px; }
+	.Input  { padding: 8px; margin: 0 0 5px 5px; }
+	.Button { padding: 8px; margin: 0 0 0 5px; }
+	#container { top: 0px; }
+	#containerPage { margin: 15px; }
+	#containerHeader { position: static; height: 60px; top: auto; z-index: 0; }
+	#containerFooter { position: static; height: 58px; bottom: auto; z-index: 0; } 
+}
+
+@media only screen and (max-device-width: 667px) and (orientation: landscape) {
+	.Alert  { font-size: 1.20em; margin-bottom: 10px; }
+	.LabelH  { width: 100px; float: left; }
+	.LabelU, .LabelP  { font-size: 1.20em; width: 100px;  float: left; }
+	.Input  { font-size: 1.20em; } 
+	.Button { font-size: 1.20em; }
+	.iframePage { margin: 10px 0 0 0; }
+	.textPage { margin: 0; }
+}
+
+@media only screen and (max-device-width: 667px) and (orientation: portrait) {
+	.Alert  { font-size: 1.15em; margin: 0 auto; margin-bottom: 10px; }
+	.LabelH { height: 3px; }
+	.LabelU, .LabelP { font-size: 1.15em; width: 100%; text-align: center;  float: none; }
+	.Input  { font-size: 1.15em; width: 100%; text-align: center; } 
+	.Button { font-size: 1.15em; width: 100%; text-align: center; }
+	.iframePage { margin: 30px 0 0 0; }
+	.textPage { text-align: center; margin: 0; }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait), 
+	only screen and (min-resolution: 192dpi) and (orientation: portrait), 
+	only screen and (min-resolution: 2dppx) and (orientation: portrait) {
+	#container {
+		top: 60px;
+	}
+	#containerPage {
+		margin: 80px 0 0 0;
+	}
+	#containerHeader {
+		position: fixed; 
+		height: 60px;
+		top: 0px;
+		z-index: 1;
+	}
+	#containerFooter {
+		position: fixed;
+		height: 58px;
+		bottom: 0px;
+		z-index: 1;
+	}
+	.textPage { margin-left: 5px; }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape), 
+	only screen and (min-resolution: 192dpi) and (orientation: landscape), 
+	only screen and (min-resolution: 2dppx) and (orientation: landscape) {
+	td { font-size: 0.65em; }
+}
+@media only screen and (max-device-width: 1279px) and (orientation: portrait) {
+	p { font-size: 1.15em; }
+	td { border-bottom: 3px solid #999; }
+	table { margin-bottom: 150px; }
+	table td {display:inline; } 
+	table td:nth-child(1) {display:block;width:100%;float:left;}
+	table td:nth-child(2) {display:block;width:100%;}
+	table td:nth-child(3) {}
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) {
+	p { margin-left: 10px; }
+}
+
+</style>
+
+<body>
+
+        <div id="containerHeader">
+        <div class="imgHeader"><a href="https://www.unibocconi.it/" target="_blank"><img src="https://idp.unibocconi.it/idp/images/logo_bocconi.png" alt="Bocconi" width="140" height="30"></a></div>
+        <div class="titleHeader">
+  
+
+            <p>BBoard</p>
+    
+  </div>
+</div>
+<div id="containerPage">
+  <div class="textPage">
+
+    <div class="Alert" style="white-space: nowrap;">
+</div>
+
+
+  </div>
+  <div class="iframePage">
+  <div id="Iframe"><table>
+<tbody><tr>
+  <td><p>
+    Gentile Utente, <br>
+    Nell'ottica di fornire un servizio più efficiente, sicuro e innovativo la piattaforma BBoard verrà migrata su architettura cloud AWS.
+    Pertanto essa non sarà accessibile da <span style="font-weight:bold;">lunedì 17 agosto 2020 incluso</span> a <span style="font-weight:bold;">mercoledì 19 agosto 2020 incluso</span>.<br>
+    <br>
+    <span style="font-weight:bold;">Learning Technologies Competence Centre</span> 
+  </p></td>
+  <td><p style="font-style:italic;">
+    Dear User, <br>
+    In order to provide a more efficient, secure and innovative service the BBoard platform will be moved to AWS cloud architecture.
+    Thus it will be unavailable from <span style="font-weight:bold;">Monday August 17, 2020 included</span> to <span style="font-weight:bold;">Wednesday August 19, 2020 included</span>.<br>
+    <br>
+    <span style="font-weight:bold;">Learning Technologies Competence Centre</span> 
+  </p></td>
+</tr>
+</tbody></table>
+</div>
+  
+  </div>
+</div>
+
+    <div id="containerFooter">
+      <div class="textFooter"> Università Bocconi - Via Sarfatti, 25 Milano</div>
+    </div>
+
+    <div id="container">
+
+
+
+</div>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":9,"applicationID":"711549412","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script></body>

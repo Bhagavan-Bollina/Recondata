@@ -1,0 +1,29 @@
+https://alasu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: alasu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Pragma: private
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Location: /auth-saml/saml/login?apId=_842_1&redirectUrl=https%3A%2F%2Falasu.blackboard.com%2Fultra
+< Content-Length: 0
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:08 GMT
+< Expires: Sat, 04 Jan 2020 13:02:08 GMT
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Set-Cookie: BbRouter=expires:1609776128,id:91DD552CE2E3E623B1768F3EBF8ACCE7,signature:44c5ca60fe1e2b9b35b6c2b597fd84b8aa0d86cdc1c777f2025dbf16dfa407d0,site:5d165900-707d-4631-bbcb-aaca798ebb00,v:2,xsrf:08ee6a1a-cac1-486d-95f1-9900ff9e811c; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=8BA7535B0EACB48DFE06B12C05D5A639DB0B1F27301DCE0CD2A224F767A6E02901CBBC3F53B3108B2A3EFBE43CF9A7892BCAFFEBD81B476BC7E05372BF0E5C1CB2AC1FB0AA;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=8BA7535B0EACB48DFE06B12C05D5A639DB0B1F27301DCE0CD2A224F767A6E02901CBBC3F53B3108B2A3EFBE43CF9A7892BCAFFEBD81B476BC7E05372BF0E5C1CB2AC1FB0AA;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:02:08 GMT
+< X-Blackboard-Appserver: ip-10-146-219-117.ec2.internal
+

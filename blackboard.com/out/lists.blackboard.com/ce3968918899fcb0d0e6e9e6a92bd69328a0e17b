@@ -1,0 +1,29 @@
+http://lists.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: lists.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Mon, 04 Jan 2021 05:00:00 GMT
+< Etag: "0c8487456e2d61:0"
+< Vary: Accept-Encoding
+< Server: Microsoft-IIS/8.5
+< X-Powered-By: ASP.NET
+< Content-Type: text/html
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:03:39 GMT
+
+<!-- use dynamic index -->
+<html>
+<head>
+<!-- dynamic index ignore -->
+<META HTTP-EQUIV="Refresh" CONTENT="0;URL=http://lists.blackboard.com/scripts/wa-BLACKBOARD.exe?INDEX">
+<!-- dynamic index print -->
+</head>
+<body>
+<!--
+<dt><a href="abug.html">ABUG</a><dd>Aussie-BbUG <i>(157 subscribers)</i><br>The Aussie Blackboard Users Group Listserv. Members from any part of ANZ are welcome!
+-->
+</body>
+</html>

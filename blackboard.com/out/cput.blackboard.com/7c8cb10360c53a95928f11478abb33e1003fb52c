@@ -1,0 +1,1392 @@
+https://cput.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cput.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=UTF-8
+< Expires: Sat, 04 Jan 2020 13:02:40 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:40 GMT
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=E878967FC873AAB1FFF72AFDBDB120DB; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776160,id:AF463728AC536D006AA78B3F784EF354,signature:58d4218b62c16e291ced6bd698ab01212a617b698efbccb3eb4fdb13b0d4ef22,site:9f427e4d-e811-4081-8210-2c35a85ac27e,v:2,xsrf:40524a1f-159f-46f1-a0b4-40f6274b15fc; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=F517752F100BCEA9434BDA9621E598FC04BF7975CD157D704191548A0C618662A9E4A92306E92B3DF99A9B92E0A10FAC646292A88511B896F9E47021DCE43626CFA25BD1AA;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=F517752F100BCEA9434BDA9621E598FC04BF7975CD157D704191548A0C618662A9E4A92306E92B3DF99A9B92E0A10FAC646292A88511B896F9E47021DCE43626CFA25BD1AA;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-148-209-163.eu-central-1.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Language: en-GB
+< Date: Mon, 04 Jan 2021 13:02:40 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+
+<!DOCTYPE HTML >
+<html  lang="en-GB">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. US Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"351264651"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3900.2.0-rel.34+4ad580a" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/Ultra_2018/theme.css?v=3900.2.0-rel.34+4ad580a" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/webapps/vtbe-tinymce/css/prism/prism.css?v=3900.2.0-rel.34+4ad580a" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a" id="css_3">
+          <style type="text/css">
+  	html {
+		background-color: #2980b9 !important;
+	}
+	body {
+		background-color: #2980b9 !important;
+	}
+.hero_unit{
+	padding: 15px !important;
+ 	background-color: rgba(255, 255, 255, 0.71) !important;
+    border: 3px solid white !important;
+    border-radius: 6px !important;
+}
+
+.navbar-fixed-top {
+box-shadow: 0 1px 1px #6A6A6A;
+
+}
+.sidebar-nav {
+padding: 9px 0;
+}
+
+.less_padding,.form-horizontal
+{
+ width: 100%;
+}
+.logo_top
+{ 
+margin-top: 1%;
+margin-left: 2%;
+position:absolute;
+z-index:2;
+}
+.logo_myclassroom
+{
+left: 17%;
+position: absolute;
+top: 1px;
+width: 296px;
+z-index: 3;
+}
+.logo_pencils
+{
+position: absolute;
+
+right: -2%;
+top: -3%;
+z-index: 3;
+}
+.panel_top
+{ width: 100%;
+height: 139px;
+background: #1e5799;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzI5ODlkOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzIwN2NjYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(50%,#2989d8), color-stop(51%,#207cca), color-stop(100%,#7db9e8));
+background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: -o-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: -ms-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+}
+.panel_header
+{
+
+width: 100%;
+height: 111px;
+
+}
+.menu_icons
+{
+	position: absolute;
+	left: -555px;
+}
+.panel_split
+{
+width: 100%;
+
+background-color:#FFFFFF;
+height: 0;
+}
+.panel_line
+{
+width: 100%;
+
+}
+.panel_line2
+{
+width: 100%;
+
+}
+.panel_left
+{
+position:absolute;
+width: 100%; 
+}
+.panel_right
+{
+position:absolute;
+width: 100%; 
+}
+.panel_footer
+{
+background-color:#99FF00;
+height: 25px;
+width: 100%; position: absolute;
+width: 100%;
+background: #1e5799;
+
+}
+.have_account
+{
+width: 100% !important;
+}
+.announcements
+{
+width: 100% !important;
+}
+p {
+font-family: helvetica, arial, sans-serif !important;
+font-size: 14px !important;
+color:#3399FF;
+}
+
+.well
+{
+padding: 0px !important;
+}
+.content
+{
+padding: 6px 5% 6px 6% !important;
+}
+.box_height
+{
+height:34px !important;
+}
+.form_margin
+{
+margin: 0 0 -37px;
+}
+.panel_split
+{
+width: 100%;
+
+background-color:#FFFFFF;
+height: 0;
+}
+.panel_line
+{
+width: 100%;
+
+}
+.panel_line2
+{
+width: 100%;
+
+}
+
+.less_padding
+{
+
+    padding: 2px !important;
+
+ }
+.shift_down
+{
+
+padding-top: 53px !important;
+}
+
+.alert-info, .alert-success
+{
+color:#000033;
+font-size:14px;
+}
+.cput_footer {
+	color: white !important;
+}
+
+.well {
+background-color: #F5F5F5;
+border: 1px solid #E3E3E3;
+border-radius: 4px 4px 4px 4px;
+box-shadow: 1px 1px 2px #C7C7C7 inset !important;
+	-moz-box-shadow:inset -1px 2px 0 #000;
+	-webkit-box-shadow:inset -1px 2px 0 #000;
+	box-shadow:inset -1px 2px 0 #000;
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#C7C7C7') !important;
+margin-bottom: 2px !important;
+min-height: 20px;
+padding: 9px !important;
+}
+
+.top_hero-units {
+    border: 6px solid white;
+    border-radius: 20px !important;
+    height: 219px !important;
+    padding: 15px !important;
+	width: 50%;
+	margin: auto;
+}
+form {
+margin: 0 !important;
+}
+.form-horizontal .control-group {
+margin-bottom: 0px !important;
+}
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append {
+display: inline !important;
+margin-bottom: 7px !important;
+vertical-align: middle;
+}
+label {
+display: inline !important;
+margin-bottom: 5px;
+vertical-align: text-bottom;
+}
+input, textarea, .uneditable-input {
+    width: 50% !important;
+	display: inline !important;
+}
+	body {
+
+padding-bottom: 40px;
+    background-color: #2980b9 !important;
+	background-image: none !important;
+
+}
+
+@media(min-width: 800px) {
+	
+	
+	.shift_down
+	{
+	padding-top: 5px !important;
+	}
+	.container-fluid {
+		padding-top: 32px !important;
+		width: 100% !important;
+	
+padding-left: 12% !important;
+background-image: none !important;
+}
+	input, textarea, .uneditable-input {
+		width: 67% !important;
+	}
+
+		#gatewayButtonsTitle {
+    	margin-bottom: 4% !important;
+	}#gatewayButtons {
+    margin-top: 9% !important;
+}
+
+}
+
+@media(max-width: 1400px) {
+		.container-fluid {
+
+			padding-left: 1% !important;
+	}
+		#gatewayButtonsTitle {
+    	margin-bottom: 5% !important;
+	}
+		#gatewayButtons {
+    margin-top: 1% !important;
+	}
+	
+	.cput_footer > a > img {
+		width: 24% !important;	
+	}
+}
+@media(max-width: 960px) {
+
+	
+	 .shift_down
+	{
+	padding-top: 5px !important;
+	}
+	.container-fluid {
+		padding-top: 32px !important;
+		width: 50% !important;
+			padding-left: 0px !important;
+	}
+	input, textarea, .uneditable-input {
+		width: 67% !important;
+	}
+	.menu_icons {
+	top: 510px !important;
+	margin-left: 70% !important;
+	}
+	body {
+
+		min-width: 100% !important;
+
+	}
+	.span6,.span3,.span12
+	{
+		width: 100% !important;
+		margin-left: 1% !important;
+	}
+
+	img {
+	 width: 70% !important;
+	}
+	.logo_top {
+	margin-top: 8% !important;	
+	}
+		#gatewayButtonsTitle {
+    	margin-bottom: 1% !important;
+	}
+	#gatewayButtons {
+    margin-top: 1%;
+	}
+		
+	.cput_footer > a > img {
+		width: 24% !important;	
+	}
+}
+@media(max-width: 450px) {
+	.logo_top {
+	margin-top: 17% !important;	
+	}
+	#gatewayButtonsTitle {
+    	margin-bottom: 1% !important;
+	}
+		
+	.cput_footer > a > img {
+		width: 24% !important;	
+	}
+}
+
+
+
+/* Override some defaults */
+.hero_unit
+{
+	padding: 15px !important;
+ 	background-color: rgba(255, 255, 255, 0.71) !important;
+    border: 4px solid white !important;
+    border-radius: 6px !important;
+}
+
+.container {
+width: 80%;
+}
+/* The white background content wrapper */
+.container > .content {
+
+padding: 20px;
+margin: 0 -20px; -webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+border-radius: 10px 10px 10px 10px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+box-shadow: 7px 8px 17px #333333;
+filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=5, Color='#19000000'), progid:DXImageTransform.Microsoft.dropshadow(OffX=5, OffY=10, Color='#19000000'), progid:DXImageTransform.Microsoft.dropshadow(OffX=10, OffY=15, Color='#19000000'), progid:DXImageTransform.Microsoft.dropshadow(OffX=15, OffY=20, Color='#19000000'); }
+.login-form {
+
+margin-left: 3%;
+padding-top: 9px;
+}
+.nav-tabs, .nav-pills {
+background-color: #FFFFFF;
+border-bottom-left-radius: 10px;
+font-family: arial;
+font-size: 14px;
+}
+.top_icons {
+
+filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=0, OffY=1, Color='#19000000'), progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=2, Color='#19000000'), progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=3, Color='#19000000'), progid:DXImageTransform.Microsoft.dropshadow(OffX=3, OffY=4, Color='#19000000'); 
+
+box-shadow: 4px 2px 7px #272727;
+
+background-color: #2FA4E7;
+
+}
+.nav-pills > li > a {
+color: #FFFFFF;
+font-weight:300;
+
+}
+legend {
+margin-right: -50px;
+font-weight: bold;
+color: #404040;
+}
+.alert-info {
+color: #000000 !important;
+}
+.login_width
+{
+width: 45%;
+}
+
+
+.font_resize{
+font-size: 11pt;
+font-family: arial;
+color: #2FA4E7;
+font-weight:bold;
+}
+.input_height,.input-append .add-on, .input-prepend .add-on 
+{
+height: 25px !important;
+    padding: 1px 6px !important;
+}
+.list_font {
+font-weight: bold;
+}
+.announcements_font {
+font-family:Arial, Helvetica, sans-serif !important;
+font-size: 11pt !important;
+}
+.form-search input, .form-inline input, .form-horizontal input, .form-search textarea, .form-inline textarea, .form-horizontal textarea, .form-search select, .form-inline select, .form-horizontal select, .form-search .help-inline, .form-inline .help-inline, .form-horizontal .help-inline, .form-search .uneditable-input, .form-inline .uneditable-input, .form-horizontal .uneditable-input, .form-search .input-prepend, .form-inline .input-prepend, .form-horizontal .input-prepend, .form-search .input-append, .form-inline .input-append, .form-horizontal .input-append {
+
+    vertical-align: baseline !important;
+}
+.nav > li > a:hover {
+    background-color:#FFFFFF !important;
+	color: #2FA4E7;
+	font-weight: normal;
+}
+hr
+{
+	border-color: #CCCCCC !important;
+}
+.nav-tabs.nav-stacked {
+    
+    box-shadow: 1px 1px 2px #B7B7B7 inset !important;
+		-moz-box-shadow:inset -1px 2px 0 #000;
+	-webkit-box-shadow:inset -1px 2px 0 #000;
+	box-shadow:inset -1px 2px 0 #000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#B7B7B7') !important;
+}
+
+
+#loginBox li label, .portlet #loginBoxFull li label {
+
+    font-size: 11pt !important;
+
+}
+
+
+#loginBox li input {
+    font-size: 12pt !important;
+    padding: 7px !important;
+
+}
+#loginBox ul {
+    margin: -12px auto !important;
+	width: 80% !important;
+}
+.clearfix, .clearfixParent > div, .clearfixParent > li {
+    display: inline !important;
+}
+
+select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+height: -1px !important;
+/*end of stuff*/
+
+}
+#loginBox li input {
+    font-size: 12pt !important;
+	padding: 0 0 0 9px !important;
+}
+label {
+
+   display: inline !important;
+    margin-bottom: 8px !important;
+}
+#loginBox li input[type="submit"] {
+    margin: 0 0 0 20% !important;
+    padding: 3px 0 !important;
+    width: 146px !important;
+	font-weight:none !important;
+}
+#loginBox input[type="text"], #loginBox input[type="password"] {
+
+    height: 32px !important;
+	box-shadow: 1px 1px 2px #B7B7B7 inset !important;
+	-moz-box-shadow:inset -1px 2px 0 #000;
+	-webkit-box-shadow:inset -1px 2px 0 #000;
+	box-shadow:inset -1px 2px 0 #000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#B7B7B7') !important;
+	
+	 padding : -1px !important;
+     margin: 5px 5px 2px 0 !important;
+	 background: none repeat scroll 0 0 #fff !important; border-color: #0188a3 !important;
+	 
+	 font-weight:normal !important;
+	 font-family:helvetica,arial,sans-serif !important;
+}
+
+
+#loginBox li label, .portlet #loginBoxFull li label {
+       
+    font-size: 12pt !important;
+	padding: 0 0 1px !important;
+}
+label {
+    display: inline !important;
+	font-size: 12pt !important;
+
+}
+#user_id, #password {
+    margin-left: 7px !important;
+    margin-right: 18px !important;
+    margin-top: 2px !important;
+}
+#loginBox li + li + li {
+  
+    padding: 0 !important;
+    float: inherit !important;
+}
+
+
+
+.list_shift_down
+{
+
+padding-top: 37px !important;
+}
+
+#loginAnnouncements {
+    
+	 width: 99% !important;
+	 padding: 9px 0 4px !important;
+}
+
+#loginAnnouncements ul {
+
+    width: 98% !important;
+}
+#loginAnnouncements ul li:before, #loginAnnouncements ul li:after {
+
+    width: 98% !important;
+}
+#loginAnnouncements li {
+    box-shadow: 1px 1px 2px #B7B7B7 inset !important;
+		-moz-box-shadow:inset -1px 2px 0 #000;
+	-webkit-box-shadow:inset -1px 2px 0 #000;
+	box-shadow:inset -1px 2px 0 #000;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#B7B7B7') !important;
+	font-family: Georgia,serif;
+    font-size: 12pt !important;
+    margin: 0 0 9px;
+	 padding: 12px 18px 10px;
+}
+
+#loginAnnouncements ul li strong:first-child {
+    font-size: 10pt !important;
+}
+p {
+    font-size: 12px !important;
+}
+.shift_nav_middle
+{
+ position: absolute; 
+ right: 0pt;
+}
+#globalNavPageContentArea
+{
+	background-color: none !important;
+}
+#primaryButton, input[type="submit"].submit, .rumble .mainButton>a, .rumble_top .mainButton>a, .button-1, .button-1-img {
+
+*/
+background-image: -moz-linear-gradient(100% 100% 90deg,#076d88,#0099b6) !important;
+
+}
+#primaryButton, input[type="submit"].submit, .mainButton a, .mainButton a:hover, .mainButton a:focus, .mainButton a, .actionBarMicro .mainButton a:hover, .actionBarMicro .mainButton a:focus, .rumble .mainButton > a, .rumble_top .mainButton > a:focus, .rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus, .rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus, .button-1, .button-1-img, .button-1:hover, .button-1-img:hover, .button-1:focus, .button-1-img:focus {
+background-color: #0099B6 !important;
+
+}
+h2 {
+line-height: 18px !important;
+ font-family: helvetica !important;
+    font-size: 31.5px !important;
+    font-weight: normal !important;
+}
+#gatewayButtons > ul > li > a {
+
+text-decoration: none !important;
+}
+#gatewayButtons > ul > li > a:hover {
+
+text-decoration: none !important;
+color:#999 !important;
+}
+.vtbegenerated > p {
+    color: black !important;
+}
+
+.hero-unit.login-unit.less_padding.top_hero-units {}.login-unit h2 
+{ display: none;
+}
+
+.top_hero-units 
+{ height: inherit !important;
+}
+
+#loginBox li label, .portlet #loginBoxFull li label 
+{ color: #083158; text-transform: inherit !important;
+}
+
+
+ .extra-info-unit h2 
+ { font-size: 100% !important;
+ }
+ 
+ p { color: #000 !important
+ ;}
+ 
+ #gatewayButtons > ul > li > a {
+  color: #2c3e50 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+ }
+ 
+ .hero-unit.extra-info-unit.less_padding.top_hero-units > div {}
+ #gatewayButtons > ul {
+	  margin: 0 !important;
+	  }
+	  
+.extra-info-unit #gatewayButtons li {
+	 line-height: 20px !important;
+} 
+.subOption {
+
+    font-family: helvetica,arial;
+    line-height: 29px !important;
+    list-style-position: inside !important;
+    list-style-type: circle !important;
+    padding-left: 8px !important;
+    text-indent: -2px !important;
+}
+.inline-list>li:first-child {
+	display: none !important; 
+ }
+
+.announceBlock {
+    clear: both !important;
+}
+
+#gatewayButtonsTitle h2 {
+    font-family: helvetica,arial !important;
+    font-size: 12pt !important;
+	text-indent: 5px !important;
+}
+#gatewayButtonsInstructions p {
+    font-size: 8pt !important;
+    line-height: 8px !important;
+	text-indent: 6px;
+
+}
+.cput-advertisment img {
+    height: auto !important;
+    width: 100%;
+}
+.span4 .less_padding {
+    padding: 2px !important;
+}
+
+.forgot {
+
+    font-family: helvetica,arial,sans-serif !important;
+    font-size: 9pt !important;
+    margin-right: -20%;
+	display:none !important;
+
+}
+
+.forgot a {
+    border-bottom: 1px dotted #0099b6;
+    color: red !important;
+    text-decoration: none !important;
+	display:none !important;
+
+}
+.forgot a:hover {
+
+    color: gray !important;
+	display:none !important;
+
+}
+#loginBox {
+ margin-top: 19px;
+    text-align: center;
+}
+
+#primaryButton, input.submit[type="submit"], .rumble .mainButton > a, .rumble_top .mainButton > a, .button-1, .button-1-img {
+	text-shadow: none !important;
+	 font-weight: normal !important;
+	 font-family: helvetica,arial !important;
+}
+.navbar-default {
+ background-color: #0099cc !important;
+ background-image: none !important;
+ border-color: #0099cc !important;
+}
+.navbar-default .navbar-nav > li > a {
+ color: white !important;	
+}
+.navbar-default .navbar-nav > li > a:hover {
+ color: gray !important;	
+ text-shadow: none !important;
+}
+.hero-unit.top_hero-units > h2 {
+    margin-bottom: 6px;
+}
+</style>
+    <style>
+	.myButton {
+		box-shadow: 0px 1px 0px 0px #f0f7fa;
+		background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+		background-color:#33bdef;
+		border-radius:6px;
+		border:1px solid #057fd0;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:6px 24px;
+		text-decoration:none;
+		text-shadow:0px -1px 0px #5b6178;
+		width:50%;
+	}
+	.myButton:hover {
+		background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+		background-color:#019ad2;
+	}
+	.myButton:active {
+		position:relative;
+		top:1px;
+	}
+	</style>
+  
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3900.2.0-rel.34+4ad580a">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3900.2.0-rel.34+4ad580a"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click OK to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Point Values are limited to five decimal places: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click OK to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.percent'] = 'A valid per-cent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments, but did not select any alignable content to copy.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myuniversity.ac.uk) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrolment option conflicts with the selection of {instructor} Led enrolment.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Point Values are limited to five decimal places.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Tick to select all items';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contain';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course ID contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click OK to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrolment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrolment option conflicts with the self-enrolment selection.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid per-cent value between -100 and 100 must be entered.';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Untick to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Too many decimal places. Maximum is five.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click OK to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd MMM[ yyyy]{\'&#8212;\'d MMM, yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Monday Tuesday Wednesday Thursday Friday Saturday Sunday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'dd/MM/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^([0-9]{1,3}(\\,[0-9]{3})*(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'd MMM[ yyyy]{\'&#8212;\'d MMM, yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd d/M';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['number_format.negative_prefix'] = '-';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'DMY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'MON TUE WED THU FRI SAT SUN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '1';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, d MMM, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Monday Tuesday Wednesday Thursday Friday Saturday Sunday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'DD/MM/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['number_format.negative_suffix'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd d/M';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/groupjs/D90E5B0784E7223D992BDFCF73253B2B.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/groupjs/55FEBF63DFF4A8A4FD0F0F248E6246E1.js?v=3900.2.0-rel.34+4ad580a"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3900.2.0-rel.34+4ad580a_3900.2.0-rel.34+4ad580a"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <div align="center">
+    <h5><font face="Arial, Helvetica, sans-serif" class="nav-tabs"><a href="https://www.cput.ac.za/">CPUT - Homepage</a></font></h5>
+</div>
+<style>
+h1 {
+    text-shadow: 10px 10px #FF0000;
+    text-align: center;    
+    color: white;
+    text-shadow: 4px 4px 4px #000000;
+    font-size:40px;
+    
+}
+#loginAnnouncements {
+	width: 90% !important;
+}
+</style>
+
+<h1 align="center">Welcome to the new 2020 &quot;MyClassroom&quot;<font color="#FFFFFF"><strong><font size="6"></strong></font>site,</h1>
+<h2 align="center"><font color="#FFFFFF">the official CPUT Learner 
+  Management System</font></h2>
+<h2 align="center"><font color="#FFFFFF"> for registered staff and students</font>
+  </div>
+</h2>
+
+
+<div id="loginPageContainer">
+  <div id="loginPane">
+
+    <div id="loginContainer">
+
+
+      <div id="loginLang" tabindex="0" class="clearfix">
+        
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+      <script>
+      function loadLocale(code)
+      {
+        document.locale_picker.locale.value = code;
+        document.locale_picker.submit();
+      }
+      FastInit.addOnLoad( function() {
+        Event.observe( $( 'loginLang' ), 'mouseover', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'mouseout', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'focus', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "false" );
+        }.bind( this ) );
+        Event.observe( $( 'loginLang' ), 'blur', function( event )
+        {
+          $( 'langMenu' ).setAttribute( "aria-hidden", "true" );
+        }.bind( this ) );
+
+	});
+    </script>
+      
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+
+  
+	 
+    <h2>
+      <a href="#"><span>Available languages:</span></a>
+      <span>Available languages:</span>
+    </h2>
+
+    <ul id="langMenu" aria-hidden="true" role="menu">
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_GB');" title="English (United Kingdom&#x202D;)&#x202C;" lang="en_GB" >English (United Kingdom&#x202D;)&#x202C;</a></li>
+
+              <li aria-haspopup="true" role="menuitem"><a href="javascript:loadLocale('en_US');" title="English (United States&#x202D;)&#x202C;" lang="en_US" >English (United States&#x202D;)&#x202C;</a></li>
+
+      
+    </ul>
+        <input type="hidden" name="locale">
+
+    
+  
+
+  </form>
+</div>
+
+      <div class="clearfix loginBody">
+        <div class="hero-unit top_hero-units">
+			<div style="text-align:center">
+			<p id = "staff-login-button" >
+				<a id = "staff-login-link" class="myButton" href="/auth-saml/saml/login/?apId=_127_1&redirectUrl=">Staff Login</a>
+			</p>
+			<br/>		
+			<br/>
+			<p id = "student-login-button" >
+				<a id = "student-login-link" class="myButton" href="/auth-saml/saml/login/?apId=_128_1&redirectUrl=">Student Login</a>
+			</p>
+			<br/>		
+			<br/>
+			<p id = "external-login-button" >		
+				<a id = "admin-link" class="myButton" href="/webapps/login/?action=default_login">External users Account Login</a>
+			</p>
+			</div>
+	      </div>
+        <div id="loginOptions">
+          
+  <div id="gatewayButtonsTitle">
+   <h2>Don't have an account?</h2>
+ </div>
+ <div id="gatewayButtonsInstructions">
+   <p>Please choose from the options below.</p>
+ </div>
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+        <li class="subOption"><a href="/webapps/blackboard/execute/viewCatalog?type=Course">View Course Catalogue</a></li>
+    
+      <li class="subOption" id="preview-as-guest"><a href="/webapps/login/?action=guest_login">Preview as Guest</a></li>
+    
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="Privacy and Terms of Use">Privacy and Terms of Use</a></li>
+</ul>
+</div>
+</div>
+      </div>
+
+		
+
+<div id="loginImage"><img src="/images/ci/logos/Gateway_Learn.jpg" alt="Blackboard Learn" /></div>
+<div id="loginText">
+<p>Welcome to the Blackboard e-Education platform,&#8212;designed to enable educational innovations everywhere by connecting people and technology.</p>
+</div><div class="hero-unit top_hero-units">
+			
+<div id="loginAnnouncements">
+  <h3>System Announcements</h3>
+  <ul>
+          <li>
+        <strong>Attention All Staff and  Students: Mobile Apps</strong> 
+                  <em class="announcementDate">
+            (Tuesday, 22 December 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">Dear Staff and Students,</span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;"></span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">The <strong>Blackboard Student app </strong>and <strong>Blackboard Instructor app</strong> will be unavailable beginning December 26, 2020 at 12:00 AM EST (UTC -5) until December 26, 2020 at 4:00 AM EST (UTC -5) for a scheduled maintenance update.</span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;"></span></p> 
+   <p><strong><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">South African time, this will be from December 26, 2020 at 07:00 AM until December 26, 2020 at 11:00 AM.</span></strong></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;"></span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;"> Please access Blackboard Learn in a web browser during this four-hour window.</span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;"></span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">Thank you.</span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;"></span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">Regards,</span></p> 
+   <p><span style="font-size: 12.0pt; font-family: Arial, sans-serif; color: black;">Centre for Innovative Educational Technology&nbsp; (CIET)</span></p>
+  </div>
+ </body>
+</html>
+      </li>
+          <li>
+        <strong>VPN Solution for Students, for Off Campus Access</strong> 
+                  <em class="announcementDate">
+            (Tuesday, 15 September 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p class="xmsonormal" style="background: white;"><span face="Calibri Light, sans-serif" style="font-family: 'Calibri Light', sans-serif;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-family: arial, helvetica, sans-serif; font-size: medium;">Attention All Students:</span><br style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important;"></b></span></p> 
+   <p class="xmsonormal" style="background: white;"><span style="font-family: arial, helvetica, sans-serif;">CPUT will be introducing a new VPN solution (<b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">Global Protect VPN</b>) which will replace the current student data allocations, provided by the university. The new VPN solution will allow students to securely access CPUT network resources, at no cost, when off-campus. This solution has been successfully implemented within universities both locally and internationally with great success.&nbsp;</span></p> 
+   <p class="xmsonormal" style="line-height: 11.75pt; background: white;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="font-family: 'Calibri Light',sans-serif; color: black;"></span></b><span style="font-family: arial, helvetica, sans-serif;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">How to Prepare</b></span></p> 
+   <p class="xmsonormal" style="background: white;"><span style="font-family: arial, helvetica, sans-serif; color: black;">The&nbsp;GlobalProtect&nbsp;VPN client can be downloaded via the following links:</span></p> 
+   <p class="xmsonormal" style="background: white;"><span style="color: #1f497d;">&nbsp;</span><strong>iPhone&nbsp;Installation:<br></strong><em><strong>Apple&nbsp;App&nbsp;Store:</strong>&nbsp;</em><strong style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-size: 13px;">&nbsp;<a href="https://apps.apple.com/us/app/globalprotect/id1400555706" style="font-family: arial, helvetica, sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: 13px; color: #1874a4; text-decoration: underline; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;">https://apps.apple.com/us/app/globalprotect/id1400555706</a>&nbsp;<br></strong><span style="font-family: 'Calibri Light',sans-serif; color: red;"><span style="font-family: arial, helvetica, sans-serif;"><a href="https://cputacza-my.sharepoint.com/:b:/g/personal/vandeventera_cput_ac_za/Ecn_iRl6txFKs9bUal7pxaYB9Ww_TymVaw0HF3EeKemKzA?e=L6HckC" title="Student VPN for iPhone" target="_blank" rel="noreferrer noopener" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;">Student VPN for&nbsp;iPhone</a></span></span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><strong><span style="color: black;">Android Installation:<br></span></strong></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><em><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">Google Play</b><span style="font-family: arial, helvetica, sans-serif; font-size: 13px;">:&nbsp;</span></em><a href="https://play.google.com/store/apps/details?id=com.paloaltonetworks.globalprotect&gl=ZA" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;">https://play.google.com/store/apps/details?id=com.paloaltonetworks.globalprotect&gl=ZA<br></a><span style="font-family: arial, helvetica, sans-serif;"><span style="color: red;"><a href="https://cputacza-my.sharepoint.com/:b:/g/personal/vandeventera_cput_ac_za/EYx7ildmF8JLklX3FEShwG4Bqlu3BapjYLkFu7a9uTRgJQ?e=vDY3tM" title="Student VPN for Android" target="_blank" rel="noreferrer noopener" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;">Student VPN for Android</a>&nbsp;</span></span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><span style="font-family: 'Calibri Light',sans-serif; color: #1f497d;">&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><strong><span style="color: black;">Installation on Laptop/PC:</span></strong></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><span style="font-family: arial, helvetica, sans-serif; color: black;">Instructions to download and install the VPN client can be found via the&nbsp;<b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">video</b>&nbsp;and&nbsp;<b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">VPN</b>&nbsp;<b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">installation guide</b>&nbsp;below:&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><a href="https://cputacza-my.sharepoint.com/:v:/g/personal/vandeventera_cput_ac_za/EYZAaGPq1SZAn9wKPL964MsBvlSF61ywlA__2P8LR8KClA?e=8ul2v6" title="Instruction Video" target="_blank" rel="noreferrer noopener" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;"><span style="font-family: arial, helvetica, sans-serif; color: black;"></span><span style="font-family: arial, helvetica, sans-serif;"><span style="background: white;">Video Instructions</span></span></a></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; background: white;"><span style="font-family: arial, helvetica, sans-serif; background: white;"><a href="https://cputacza-my.sharepoint.com/:b:/g/personal/vandeventera_cput_ac_za/EZ_o9_TOzexFlYC2unZv5l8BFc-OgVdRTGNmK9P2d8h_Tg?e=7X4wsA" title="Global Protect Installation Guide" target="_blank" rel="noreferrer noopener" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;">Global Protect Installation Guide</a>&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt;"><span style="font-family: 'Calibri Light',sans-serif; color: black;">&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"><span style="font-family: arial, helvetica, sans-serif;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="color: black;">Connecting from Off-Campus&nbsp;</span></b></span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"><span style="font-family: arial, helvetica, sans-serif;"><span style="color: black;">Once you've installed the VPN client, you navigate to the VPN Portal (</span><span style="color: black;"><a href="https://sop.cput.ac.za/" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;"><span style="color: black; border: 1pt none windowtext; padding: 0cm;">https://sop.cput.ac.za</span></a></span><span style="color: black;">)&nbsp; with your device to connect to CPUT&nbsp;online&nbsp;resources.</span></span></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 8.0pt; margin-left: 0cm; line-height: 11.75pt; background: white;"><span style="color: black; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"><span style="font-family: arial, helvetica, sans-serif;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="color: black;">Which device platforms are supported?&nbsp;</span></b></span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"><span style="font-family: arial, helvetica, sans-serif;"><span style="color: black;">The GlobalProtect&nbsp;VPN can be installed on the following device platforms:</span></span></p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"><span style="font-family: arial, helvetica, sans-serif;"><span style="color: black;"></span></span></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; line-height: 11.75pt; background: white;"></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; line-height: 11.75pt; background: white;">Android</p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; line-height: 11.75pt; background: white;">Windows</p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; line-height: 11.75pt; background: white;">Mac&nbsp; OS</p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; line-height: 11.75pt; background: white;">iOS&nbsp;(iPhone and iPad)</p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 0.0001pt; line-height: 11.75pt; background: white;">Linux</p> 
+   <p class="xmsonormal" style="margin: 0cm; margin-bottom: .0001pt; line-height: 11.75pt; background: white;"><span style="font-family: arial, helvetica, sans-serif; color: black;">&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 8.0pt; margin-left: 0cm; line-height: 105%;"><span style="font-family: arial, helvetica, sans-serif;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="color: black;">Important Dates&nbsp;</span></b></span></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 8.0pt; margin-left: 0cm; line-height: 105%;"><span style="font-family: arial, helvetica, sans-serif;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="color: black;"></span></b></span><span style="font-family: arial, helvetica, sans-serif; color: #342f2e;">September 2020 – Global Protect VPN available to CPUT students&nbsp;</span></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 8.0pt; margin-left: 0cm; line-height: 105%;"></p> 
+   <p class="xmsonormal" style="margin-top: 0cm; margin-right: 0cm; margin-bottom: 8.0pt; margin-left: 0cm; line-height: 105%;"><span style="font-family: arial, helvetica, sans-serif;"><span style="color: black;"><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;">Support</b></span><b style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important; font-weight: bold;"><span style="color: #342f2e;">&nbsp;</span></b></span></p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: small;"><span style="font-family: 'Calibri Light', sans-serif; color: black;"><span style="font-family: arial, helvetica, sans-serif;">If you experience issues using the&nbsp;GlobalProtect&nbsp;VPN, please contact the CTS Service Desk&nbsp;</span></span><span style="font-family: arial, helvetica, sans-serif;">at&nbsp;<a href="mailto:ctsservicedesk@cput.ac.za" style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px; color: #1874a4; text-decoration: underline;"><span style="color: windowtext;">ctsservicedesk@cput.ac.za</span></a>&nbsp;or alternatively at&nbsp;</span></span><span style="font-size: small;"><span style="font-family: arial, helvetica, sans-serif;">021 959 6407.</span></span></p> 
+   <br>
+  </div>
+ </body>
+</html>
+      </li>
+          <li>
+        <strong>Respondus 2020 Activation Details and Software Update (Lecturers ONLY, NOT for students!)</strong> 
+                  <em class="announcementDate">
+            (Tuesday, 4 August 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="color: #800080;"><strong style="margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: bold; font-style: inherit; font-family: inherit; font-size: 13px;">Attention All Lecturing Staff:</strong></span></p> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="font-size: 13px;">The Respondus&nbsp;2020 Activation Details are available on the&nbsp;</span><span style="color: #800080;"><strong style="font-size: 13px;">2020_eLearning</strong><strong style="font-size: 13px;">_BP: Best Practice</strong></span><span style="font-size: 13px;">&nbsp;subject:</span></p> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="color: #800080;"><a href="https://cput.blackboard.com/bbcswebdav/xid-12242770_1" title="Installation of Respondus Software" target="_blank" rel="noreferrer noopener"><span style="color: #800080;"><span color="#00748b" face="inherit" style="color: #00748b; font-family: inherit;"><span style="border-style: initial; border-color: initial; border-image: initial; outline-color: initial; outline-style: initial; font-weight: inherit; font-style: inherit; text-decoration-style: initial; text-decoration-color: initial;"><span style="text-decoration: underline;">Installation of Respondus Software</span></span></span></span></a></span></p> 
+   <div class="details" style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"> 
+    <div class="vtbegenerated" style="overflow-x: auto; padding: 0px !important; margin: 0px !important; background: transparent !important; font-size: small; display: block !important;"> 
+     <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px;"><span style="font-family: arial, helvetica, sans-serif; font-size: small;">You need to download&nbsp;the latest version of Respondus in order for Respondus to publish tests/surveys successfully to Bb Learn:</span></p> 
+    </div> 
+   </div> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><span style="color: #800080;"><span style="font-size: small; color: #800080;"><span color="#00748b" face="inherit" style="color: #00748b; font-family: inherit;"><span style="border-style: initial; border-color: initial; border-image: initial; outline-color: initial; outline-style: initial; font-weight: inherit; font-style: inherit; text-decoration-style: initial; text-decoration-color: initial;"><span style="text-decoration: underline;"><a href="https://cput.blackboard.com/bbcswebdav/xid-12242769_1" title="Download Respondus 4" target="_blank" rel="noreferrer noopener">Download Respondus&nbsp;4</a></span></span></span></span></span></p> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong>NB:</strong> After you installed Respondus, or if you already have Respondus installed, click on <strong>Help</strong> and on&nbsp;<strong>Check for Update,&nbsp;</strong>within Respondus<strong>.&nbsp;</strong>If you're not running the latest version of Respondus, Respondus will pick it up and the update process will automatically start. Just follow the screen prompts.</p> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">We had to make changes to the MyClassroom login page, for security reasons. These changes now have an effect on the publishing process. Please access the below link to familiarize yourself with the new process:</p> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><a href="https://cput.blackboard.com/bbcswebdav/xid-12233878_1" title="New Server Setup" target="_blank" rel="noreferrer noopener">Publishing Tests/Surveys from Respondus&nbsp;4 to Blackboard with Preconfigured Server Settings</a></p> 
+   <p style="margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Regards,<br>Centre&nbsp;for Innovative Education Technology (CIET)</p>
+  </div>
+ </body>
+</html>
+      </li>
+          <li>
+        <strong>Attention All Staff and  Students: New Mobile App Login Procedure</strong> 
+                  <em class="announcementDate">
+            (Wednesday, 15 July 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Dear Staff and Students,</p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Please take note that the login procedure for the&nbsp;BB Mobile&nbsp;<span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px;">apps</span></span>&nbsp;(BB Student&nbsp;<span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px;">App</span></span>&nbsp;and BB Instructor&nbsp;<span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px;"><span style="font-family: inherit; text-shadow: none !important; letter-spacing: normal !important; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-size: 13px;">App</span></span>), have changed.</p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Please delete the BB Mobile App&nbsp;from your phone OR remove the institution's name from the login screen and retype it in. Both methods will work.&nbsp;</p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">You will get the following message on the screen:</p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><strong>This school requires that you log in through their website. Tap the web login button to continue.</strong></p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Tap on the Web Login button, and it will take you to the MyClassroom&nbsp;Login Page.<br>Accept the Terms and Conditions and&nbsp;log in as you would log into Blackboard via a PC.</p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;"><a href="https://drive.google.com/file/d/1TouJT5uWj3R_E9uee8LbiYEKYbIMkci6/view?usp=sharing" title="New Mobile App Login Procedure" target="_blank" rel="noreferrer noopener">New Mobile App&nbsp;Login Procedure</a></p> 
+   <p style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal; margin: 0px 0px 1em; padding: 0px; border: 0px; outline: 0px; font-weight: 400; font-style: normal; font-size: small; color: #000000; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial;">Regards,<br style="font-family: 'Open Sans', sans-serif; text-shadow: none !important; letter-spacing: normal !important;">CIET&nbsp;</p> 
+   <br>
+  </div>
+ </body>
+</html>
+      </li>
+          <li>
+        <strong>BB Student Guide</strong> 
+                  <em class="announcementDate">
+            (Monday, 6 July 2020)
+          </em>
+                <br /><html>
+ <head></head>
+ <body>
+  <div class="vtbegenerated">
+   <p><span style="font-size: medium;"><strong>Attention All Students</strong></span></p> 
+   <p>CIET created a Blackboard Student Guide to assist you with the use of Blackboard. Click on the below link to access the guide:</p> 
+   <p><a href="https://bit.ly/36qOWUw%20" title="BB Student Guide" target="_blank" rel="noreferrer noopener">BB Student Guide</a></p> 
+   <p>The Fundani&nbsp;SLU Unit created the below SMART Guidelines for students, to assist students with Remote Learning. Click on the below link to access the guide:&nbsp;</p> 
+   <p><a href="https://drive.google.com/file/d/131SS3EORX5asTw_NBZTaYRgqzSKiWIYk/view?usp=sharing" title="SMART Guidelines for students " target="_blank" rel="noreferrer noopener">Student Remote Learning Guide</a></p> 
+   <p>Regards,<br>Centre for Innovative Educational Technology (CIET)</p>
+  </div>
+ </body>
+</html>
+      </li>
+      </ul>
+</div>
+</div>
+		<div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	  <div class="logo">
+  	    <img src="/images/ci/logos/bb_signature/Bb_Signature_StdMed.png" alt="Blackboard Learn" />
+  	  </div>
+  	  	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. All Rights Reserved. US Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.
+  	</div>
+  	      <div class="additionalInfo">
+        <p><a href="http://access.blackboard.com" id="accessibilityLink">Accessibility information</a></p>
+              </div>
+  	  </div>
+
+  </div></div>
+  </div>
+  </div>
+
+</div>
+  <script type="text/javascript">
+	function getParameterByName(name, url) {
+		if (!url) url = window.location.href;
+		name = name.replace(/[\[\]]/g, '\$&');
+		var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+			results = regex.exec(url);
+		if (!results) return '';
+		if (!results[2]) return '';
+		return decodeURIComponent(results[2].replace(/\+/g, ' '));
+	}
+
+	var redirectUrl = getParameterByName('redirectUrl');
+	var link = ""
+	if (!redirectUrl || 0 === redirectUrl.length) {
+		redirectUrl = getParameterByName('new_loc');
+	}
+		
+	link = document.getElementById("admin-link").getAttribute("href") + "&new_loc=" + encodeURIComponent(redirectUrl);
+	document.getElementById("admin-link").setAttribute("href",link);
+	
+	if (redirectUrl) redirectUrl = window.location.origin + redirectUrl;
+
+	link = document.getElementById("staff-login-link").getAttribute("href") + encodeURIComponent(redirectUrl);
+	document.getElementById("staff-login-link").setAttribute("href",link);
+	link = document.getElementById("student-login-link").getAttribute("href") + encodeURIComponent(redirectUrl);
+	document.getElementById("student-login-link").setAttribute("href",link);
+
+ </script>
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.checkCookieAcceptance( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    </script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":14,"applicationID":"351264651","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script>
+</body>
+</html>

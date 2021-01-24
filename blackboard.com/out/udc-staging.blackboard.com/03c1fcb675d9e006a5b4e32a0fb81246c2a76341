@@ -1,0 +1,29 @@
+https://udc-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: udc-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Type: text/html;charset=ISO-8859-1
+< Set-Cookie: BbRouter=expires:1609776316,id:8EFF8E5DA4BFA5CA41204F14C2505880,signature:91a32d72c288438610d461359313f00bd64b58e89b295244f9d5c17491be1d8c,site:d8c26e34-51f7-4bb0-accc-460601d8a4c0,v:2,xsrf:8b7ed0cd-3ac9-4c88-a75b-eccb9971493c; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=09F741BB0ABD31A5F9C385351191A4582F11DADEAC413B6E25B416DDFA61C3C768E6969A18C8A049A53126DD66689459126CEEA815C24F9DFA0C0183AC8D243FC7B1F97868;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=09F741BB0ABD31A5F9C385351191A4582F11DADEAC413B6E25B416DDFA61C3C768E6969A18C8A049A53126DD66689459126CEEA815C24F9DFA0C0183AC8D243FC7B1F97868;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-146-254-146.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:05:16 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:16 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5d13827eace09/execute/casLogin?cmd=login&authProviderId=_149_1&redirectUrl=https%3A%2F%2Fudc-staging.blackboard.com%2Fultra
+< Content-Length: 0
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:16 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+

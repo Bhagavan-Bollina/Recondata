@@ -1,0 +1,27 @@
+https://utdallas.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: utdallas.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: s_session_id=8AAD9255F8B9879C48DEC16751D0E98F; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=CA74E6C70DDAFCC99BF93F80F1768B0E; Path=/; Secure
+< Set-Cookie: NSC_100946_wjq_69.196.229.253*443=ffffffff090d14b245525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Length: 0
+< X-Blackboard-Appserver: fgprd-100946-205964-app011.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Location: https://elearning.utdallas.edu/auth-saml/saml/login?apId=_130_1&redirectUrl=https%3A%2F%2Felearning.utdallas.edu%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.7-rel.16+bf839b4
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:05:33 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:05:33 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:05:33 GMT
+

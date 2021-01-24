@@ -1,0 +1,27 @@
+https://rowantest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: rowantest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Appserver: fgtd-261553-200259-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.4-rel.9+8bf5305
+< Expires: Sat, 04 Jan 2020 13:04:40 GMT
+< Content-Length: 0
+< Set-Cookie: s_session_id=F35A6F32B97092B407E41043599988D2; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=DC47715D9755811D77D9324CC696CA00; Path=/; Secure
+< Set-Cookie: NSC_261553_wjq_69.196.231.164*443=ffffffff090d1af645525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Location: https://rowantest.blackboard.com/webapps/bb-auth-provider-cas-BBLEARN/execute/casLogin?cmd=login&authProviderId=_104_1&redirectUrl=https%3A%2F%2Frowantest.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:04:39 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:04:40 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+

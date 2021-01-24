@@ -1,0 +1,27 @@
+https://asubb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: asubb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1530855937000"
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-101256-12060-app001.mhint
+< Expires: Sat, 04 Jan 2020 13:02:15 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3100.0.6-rel.3+cd2a24d
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:15 GMT
+< Set-Cookie: NSC_101256_wjq_69.196.227.194*443=ffffffff090e10c045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Fri, 06 Jul 2018 05:45:37 GMT
+< Accept-Ranges: bytes
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

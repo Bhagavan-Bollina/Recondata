@@ -1,0 +1,19 @@
+http://eth1-1-gw2-mgh.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: eth1-1-gw2-mgh.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Mon, 04 Jan 2021 13:02:59 GMT
+< Server: Apache
+< Content-Length: 198
+< Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL / was not found on this server.</p>
+</body></html>

@@ -1,0 +1,31 @@
+https://nwfsc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: nwfsc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Language: en-US
+< Expires: Sat, 04 Jan 2020 13:04:09 GMT
+< Set-Cookie: JSESSIONID=C93075BD5011A6938AFF5F0DC17FA06F; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776249,id:CD77BB80A054DEF56253C798304E5D90,signature:9086f8ae598aec86ed82ec9deaaa35d141e0de546830d6385b0a0924f50d57c5,site:c19941d4-121c-4907-9a2c-ef858ccbc797,v:2,xsrf:010e3a40-566c-4757-bbd9-8688ae413dfa; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=B92B1DF918B953FD21824B2E7C2FA86664312DE04479AAE720B24AFBDCCF264A7085051025ABCDAB9D345500223599D3DC7A0304593E857A23D2DAC8B11822DCA9D9EBB89F;PATH=/
+< Set-Cookie: AWSELBCORS=B92B1DF918B953FD21824B2E7C2FA86664312DE04479AAE720B24AFBDCCF264A7085051025ABCDAB9D345500223599D3DC7A0304593E857A23D2DAC8B11822DCA9D9EBB89F;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-145-81-82.ec2.internal
+< Last-Modified: Thu, 04 Jan 2001 13:04:09 GMT
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:04:09 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=UTF-8
+< Location: https://nwfsc.blackboard.com/webapps/bb-auth-provider-cas-BB5a43b82ac2a26/execute/casLogin?cmd=login&authProviderId=_182_1&redirectUrl=https%3A%2F%2Fnwfsc.blackboard.com%2Fultra
+< Content-Length: 0
+

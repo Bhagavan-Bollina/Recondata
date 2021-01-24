@@ -1,0 +1,48 @@
+http://av02.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: av02.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Powered-By: ASP.NET
+< Date: Mon, 04 Jan 2021 13:02:10 GMT
+< Server: Microsoft-IIS/8.5
+< Content-Length: 701
+< Content-Type: text/html
+< Last-Modified: Mon, 14 May 2018 03:28:51 GMT
+< Accept-Ranges: bytes
+< Etag: "5274e6ad33ebd31:0"
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>IIS Windows Server</title>
+<style type="text/css">
+<!--
+body {
+	color:#000000;
+	background-color:#0072C6;
+	margin:0;
+}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}
+
+a img {
+	border:none;
+}
+
+-->
+</style>
+</head>
+<body>
+<div id="container">
+<a href="http://go.microsoft.com/fwlink/?linkid=66138&amp;clcid=0x409"><img src="iis-85.png" alt="IIS" width="960" height="600" /></a>
+</div>
+</body>
+</html>

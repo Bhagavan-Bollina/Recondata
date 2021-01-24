@@ -1,0 +1,47 @@
+https://ufv.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ufv.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Set-Cookie: BbRouter=expires:1609776318,id:BA7CC7A15445B545C0070AE486E9B7DF,signature:ff42c2ac3923592a2f358a83ee044319c235ab50e3c8c24f452ca6894edbd623,site:5d108170-1290-426a-b1ac-3ab63b579c5c,v:2,xsrf:b7db0630-cd63-453e-9c26-94d70bb90f70; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=4BA9F7570489FC165EA7D135ADE9C20943F4702726CA3C3A4DDEFBF2323B07C84CC0730F69C61842D635F0CAB6892D772F29AFC19F00E25DE6A55DDD17945679E21B8BF807;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=4BA9F7570489FC165EA7D135ADE9C20943F4702726CA3C3A4DDEFBF2323B07C84CC0730F69C61842D635F0CAB6892D772F29AFC19F00E25DE6A55DDD17945679E21B8BF807;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Last-Modified: Thu, 04 Jan 2001 13:05:18 GMT
+< P3p: CP="CAO PSA OUR"
+< Vary: accept-encoding
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:05:18 GMT
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Expires: Sat, 04 Jan 2020 13:05:18 GMT
+< X-Blackboard-Appserver: ip-10-147-130-119.ca-central-1.compute.internal
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fufv.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ufv.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

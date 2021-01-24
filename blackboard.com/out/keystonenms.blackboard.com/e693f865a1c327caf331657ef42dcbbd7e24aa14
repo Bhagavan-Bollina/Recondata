@@ -1,0 +1,28 @@
+https://keystonenms.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: keystonenms.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:03:33 GMT
+< Set-Cookie: NSC_113175_wjq_69.196.231.72*443=ffffffff090d14e445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.7-rel.7+2fae8ea
+< Pragma: private
+< Date: Mon, 04 Jan 2021 13:03:33 GMT
+< Server: Apache-Coyote/1.1
+< Last-Modified: Sat, 24 Feb 2018 19:54:46 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgprd-113175-216310-app003.mhint
+< Etag: W/"89-1519502086000"
+< Content-Length: 89
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

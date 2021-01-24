@@ -1,0 +1,21 @@
+https://lyncdiscover.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: lyncdiscover.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Expires: -1
+< Vary: Accept-Encoding
+< X-Powered-By: ASP.NET
+< X-Powered-By: ARR/3.0
+< Content-Type: application/json
+< X-Ms-Server-Fqdn: lyncfe1.bbbb.net
+< X-Content-Type-Options: nosniff
+< Date: Mon, 04 Jan 2021 13:03:34 GMT
+< Server: Microsoft-IIS/8.5
+< X-Aspnet-Version: 4.0.30319
+< Cache-Control: no-cache
+< Pragma: no-cache
+
+{"_links":{"self":{"href":"https://lync13webext.blackboard.com/Autodiscover/AutodiscoverService.svc/root?originalDomain=blackboard.com"},"user":{"href":"https://lync13webext.blackboard.com/Autodiscover/AutodiscoverService.svc/root/oauth/user?originalDomain=blackboard.com"},"xframe":{"href":"https://lync13webext.blackboard.com/Autodiscover/XFrame/XFrame.html"}}}

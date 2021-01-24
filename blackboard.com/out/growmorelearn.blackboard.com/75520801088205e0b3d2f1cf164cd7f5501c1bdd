@@ -1,0 +1,41 @@
+https://growmorelearn.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: growmorelearn.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Jan 2021 13:03:12 GMT
+< Server: Apache/2.2.15 (Red Hat)
+< Accept-Ranges: bytes
+< Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+< Pragma: no-cache
+< Last-Modified: Wed, 28 Oct 2015 18:43:21 GMT
+< Content-Length: 1105
+< Expires: Tue, 01 Jan 1980 01:00:00 GMT
+< Content-Type: text/html; charset=UTF-8
+
+<html lang="en">
+    <link href="/images/learn_favicon.png" rel="icon" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, maximum-scale=2.0">
+    <title>This instance of Learn is no longer available</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+  </head>
+
+  <body>
+
+  <div class="message-wrapper">
+    <div class="logo">
+      <img src="/images/blackboard_logo_white.svg" alt="Blackboard"/>
+    </div>
+    <h1>Managed Hosting</h1>
+    <img src="/images/not-available.svg" alt="Blackboard" class="service-image" />
+    <p class="main-message">This instance of Learn is no longer available</p>
+    <p>
+If you are a student or faculty member please contact your System Administrator for more information. System Administrators may contact Blackboard Support or their Account Executive.
+   </p>
+  </div>
+  </body>
+
+</html>

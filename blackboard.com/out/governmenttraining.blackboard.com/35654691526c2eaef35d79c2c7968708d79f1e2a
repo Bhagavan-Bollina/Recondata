@@ -1,0 +1,27 @@
+https://governmenttraining.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: governmenttraining.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< Last-Modified: Sat, 14 Sep 2019 13:24:01 GMT
+< Expires: Sat, 04 Jan 2020 13:03:12 GMT
+< Pragma: private
+< Etag: W/"89-1568467441000"
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.3-rel.35+ec64a31
+< Content-Length: 89
+< Set-Cookie: NSC_528328_wjq_192.230.225.226*443=ffffffff090d1a6d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:12 GMT
+< X-Blackboard-Appserver: fgprd-528328-sf632645-app002.mhint
+< X-Frame-Options: SAMEORIGIN
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

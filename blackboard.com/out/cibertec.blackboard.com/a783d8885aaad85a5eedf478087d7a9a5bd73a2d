@@ -1,0 +1,44 @@
+https://cibertec.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cibertec.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Mon, 04 Jan 2021 12:53:38 GMT
+< Pragma: no-cache
+< Accept-Ranges: bytes
+< Content-Length: 971
+< Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+< Expires: Tue, 01 Jan 1980 01:00:00 GMT
+< Content-Type: text/html; charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:02:35 GMT
+< Server: Apache/2.2.15 (Red Hat)
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Blackboard splash page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                margin: 0;
+                background-color: #333333;
+            }
+            .splash{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="splash" src="/images/pagina_mantenimiento_saas.png" alt="splash_page" />
+    </body>
+</html>

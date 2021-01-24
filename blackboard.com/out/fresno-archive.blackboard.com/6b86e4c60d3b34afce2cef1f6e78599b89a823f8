@@ -1,0 +1,27 @@
+https://fresno-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fresno-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Date: Mon, 04 Jan 2021 13:03:07 GMT
+< X-Blackboard-Appserver: fgarch-100197-sf708714-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Last-Modified: Mon, 01 Jul 2019 12:11:27 GMT
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NSC_100197_wjq_192.230.225.175*443=ffffffff090d1f0e45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:03:07 GMT
+< P3p: CP="CAO PSA OUR"
+< Etag: W/"89-1561983087000"
+< Content-Type: text/html
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

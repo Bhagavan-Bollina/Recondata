@@ -1,0 +1,14 @@
+https://ui.cloudbb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ui.cloudbb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Date: Mon, 04 Jan 2021 13:05:19 GMT
+< Set-Cookie: bbcssupport=s%3Aj%3A%7B%22passport%22%3A%7B%7D%7D.NmrzNJdslrfTzaFD64B5%2F7p%2B1sREAxFKLZAZnu1bZTo; Path=/; Expires=Mon, 04 Jan 2021 14:05:19 GMT; HttpOnly; Secure
+< Vary: Accept-Encoding
+< X-Powered-By: Express
+< Content-Type: text/plain
+
+Cannot GET /

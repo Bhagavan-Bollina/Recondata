@@ -1,0 +1,10 @@
+https://saint_paul_test2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: saint_paul_test2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 400 
+< Date: Mon, 04 Jan 2021 13:04:43 GMT
+< Set-Cookie: NSC_507122_wjq_192.230.226.117*443=ffffffff090e180b45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+

@@ -1,0 +1,29 @@
+https://callutheran.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: callutheran.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Set-Cookie: BbRouter=expires:1609776147,id:4E89A2E6CBA715614356CBFEEC4ABEA9,signature:ddc1db420eff488597a84288de1906a4ec4eb645430d5384bf2b887ce2b8571a,site:2f59a4ad-b127-4b9f-a005-ee85cb20dc59,v:2,xsrf:d4bb666b-d092-4ad4-b454-768bad312550; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=CFD5017B14EA46B3ABC0E71CF2EA993192398C8173018A67C2C5E6B3719E0887731522161354D5C7EEE7082169BCCC443CE230429CF156153FF6982158B9E2E8E65A850A69;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=CFD5017B14EA46B3ABC0E71CF2EA993192398C8173018A67C2C5E6B3719E0887731522161354D5C7EEE7082169BCCC443CE230429CF156153FF6982158B9E2E8E65A850A69;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Location: /webapps/bb-auth-provider-cas-BB5deeb78a2367c/execute/casLogin?cmd=login&authProviderId=_4_1&redirectUrl=https%3A%2F%2Fcallutheran.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< X-Blackboard-Appserver: ip-10-146-219-28.ec2.internal
+< Content-Length: 0
+< Last-Modified: Thu, 04 Jan 2001 13:02:27 GMT
+< X-Frame-Options: SAMEORIGIN
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:27 GMT
+< Expires: Sat, 04 Jan 2020 13:02:27 GMT
+< P3p: CP="CAO PSA OUR"
+

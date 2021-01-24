@@ -1,0 +1,19 @@
+https://targetprocess.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: targetprocess.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Cache-Control: private
+< Location: /login.aspx?ReturnUrl=%2f
+< Date: Mon, 04 Jan 2021 13:05:04 GMT
+< X-Ua-Compatible: IE=edge
+< Content-Length: 142
+< Content-Type: text/html; charset=utf-8
+< Server: Microsoft-IIS/7.5
+< X-Aspnet-Version: 4.0.30319
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/login.aspx?ReturnUrl=%2f">here</a>.</h2>
+</body></html>

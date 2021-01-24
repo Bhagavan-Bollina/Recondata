@@ -1,0 +1,29 @@
+https://angelo.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: angelo.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Date: Mon, 04 Jan 2021 13:02:11 GMT
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:02:11 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5fb6991aeccdc/execute/casLogin?cmd=login&authProviderId=_150_1&redirectUrl=https%3A%2F%2Fangelo.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Set-Cookie: BbRouter=expires:1609776131,id:9CB664D05960783FBDA5BB910602DC93,signature:424e9299d22af58f2b82ed5f09dadc3fe78d1707c445ababaf5b6cae1f9f0417,site:bec54d52-9948-49d4-8be2-da7077e27e33,v:2,xsrf:6e39c561-f96d-413d-b365-d178f5c23cad; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=E9E72B01049DBF834C7D3A96AB50095A5ABE6613EB051213C15B5A1E1F2AFE8F69FB4E8521056A933F08E9F054D7B1D74E9829B95C81D341716C4BFB1C8AD800234B2BE24F;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=E9E72B01049DBF834C7D3A96AB50095A5ABE6613EB051213C15B5A1E1F2AFE8F69FB4E8521056A933F08E9F054D7B1D74E9829B95C81D341716C4BFB1C8AD800234B2BE24F;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:11 GMT
+< X-Blackboard-Appserver: ip-10-146-214-90.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+

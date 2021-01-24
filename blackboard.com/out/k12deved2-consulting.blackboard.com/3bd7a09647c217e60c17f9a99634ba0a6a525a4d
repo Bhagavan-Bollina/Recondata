@@ -1,0 +1,285 @@
+https://k12deved2-consulting.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: k12deved2-consulting.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Jan 2021 13:03:30 GMT
+< Server: Apache/1.3.37 (Unix) mod_ssl/2.8.28 OpenSSL/0.9.8d mod_jk/1.2.25
+< X-Blackboard-Product: Blackboard Academic Suite&#8482; 8.0.422.0
+< Keep-Alive: timeout=5, max=100
+< Connection: Keep-Alive
+< Set-Cookie: JSESSIONID=54FB05A2B8CF7FC6591D4EF600691545.root; Path=/; Secure
+< Set-Cookie: NSC_777777_wjq_69.196.225.35.hspvq=ffffffff090e110345525d5f4f58455e445a4a42378b;path=/;SameSite=None
+< Content-Type: text/html;charset=UTF-8
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+	<title>Blackboard Academic Suite</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Blackboard">
+	<meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 6,988,138. Additional Patents Pending.">
+	<meta name="keywords" content="Blackboard">
+	<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+	<META HTTP-EQUIV="Expires" CONTENT="-1">
+	<link type="text/css" rel="stylesheet" href="/ui/styles/blackboard.css" />
+	<link type="text/css" rel="stylesheet" href="/ui/styles/palette.css" />
+	<link type="text/css" rel="stylesheet" href="/ui/styles/grid.css" />
+	<link type="image/x-icon" rel="SHORTCUT ICON" href="/ui/bb-icon2.ico" />
+
+<script type='text/javascript' language='javascript' src='/javascript/i18n.js'></script>
+
+<script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['field_name.substitute'] = '\'{0}\' input field';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['deployment.create.copyfromexisting.mustSelectOne'] = 'Select an existing Deployment using the Browse button.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['announcement.instrument.name'] = 'the name of the instrument ';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address \n(e.g. info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nRemove these characters: {1}';
+    JS_RESOURCES['validation.url'] = 'A valid URL \n (e.g http://www.foo.com) must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['announcement.affiliation.owner'] = 'the owner of the affiliation';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['announcement.deployment.deploymentUrl'] = 'the url of the deployment';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['announcement.deployment.name'] = 'the name of the deployment';
+    JS_RESOURCES['assessment.incomplete.confirm.single'] = 'Question may be incomplete: {0}. Continue?';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nContinue?';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a name for the Reusable Object.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['announcement.instrument_context.owner'] = 'the Owner of the instrument';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Remove: {0}?';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Remove: {0}?';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME_ORDER_HORIZONTAL_SHORT.07848'] = '{last_name}, {first_name} {middle_name}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^[-]?[0-9]*(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME_SHORT_ORDER'] = '{first_name} {last_name}';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['float.format'] = '^[0-9]*(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME_ORDER_HORIZONTAL.07847'] = '{title} {first_name} {middle_name} {last_name}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME_ORDER_VERTICAL.07846'] = 'title,first_name,middle_name,last_name';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME_GREETING'] = 'Welcome, {first_name}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+<script language='javascript' type='text/javascript' src='/javascript/validateForm.js'></script>
+
+
+
+
+<script language='javascript' type='text/javascript' src='/javascript/accessibleSelect.js'></script>
+
+
+</head>
+
+
+
+
+<BODY class="bbDefault">
+<SCRIPT LANGUAGE="JAVASCRIPT" TYPE="TEXT/JAVASCRIPT">
+<!--
+if (self != top){top.location.href = self.location;href;}
+//-->
+</SCRIPT>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<!--Begin Gateway page header-->
+	<tr>
+		<td >
+		<table width="100%" style="border-bottom: 2px #dddddd solid;" cellpadding="10" cellspacing="0">
+			<tr>
+				<td  valign="top"><img alt="Blackboard" src="/images/ci/logos/Bblogo_Gateway_Large.gif" border="0"></td>
+				<td valign="middle" >
+				<p><span style="font-size:24px;font-weight:bold;font-style:oblique;"><span dir="ltr"><I>Blackboard Academic Suite&#8482;</I></span></span><br>
+				Welcome to the Blackboard e-Education platform-- designed to enable educational innovations everywhere by connecting people and technology.</p>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+<!--End Gateway page header-->
+
+
+<!--Begin main content-->
+	<tr>
+		<td align="center" valign="middle">
+		<table width="100%"  cellpadding="10" cellspacing="0">
+			<tr>
+				<td align="center">
+				<p align="center" style="margin-bottom:1.5em">
+				<DIV class="gatewayButton" style="width:180px" ><a href="/webapps/login" title="User Login" class="gatewayButton">User Login</a></DIV>
+				</p>
+
+				<p align="center" style="margin-bottom:1.5em">
+				<DIV class="gatewayButton" style="width:180px" ><a href="/webapps/blackboard/execute/selfCreateUser?context=self_add&src=gateway" title="Create Account" class="gatewayButton" >Create Account</a></DIV>
+				</p>
+
+
+				<p align="center" style="margin-bottom:1.5em">
+				<DIV class="gatewayButton" style="width:180px" ><a href="/webapps/blackboard/execute/viewCatalog?type=Course" title="Course Catalog" class="gatewayButton">Course Catalog</a></DIV>
+				</p>
+
+				
+				<p align="center" style="margin-bottom:1.5em">
+				<DIV class="gatewayButton" style="width:180px" ><a href="http://www.blackboard.com/docs/documentation.htm?id=3003Bbackpack_en_US" title="Get Blackboard Backpack&#8482;" class="gatewayButton">Get Blackboard Backpack&#8482;</a></DIV>
+				</p>
+
+				</td>
+                
+				<!--User can modify this content-->
+				<td >
+				<img src="/images/ci/logos/Gateway_AS.jpg" alt="Blackboard Academic Suite" border="0" >
+				</td>
+				<!--End section that user can modify-->
+                
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<!--End main content-->
+    
+    <!-- locale picker widget -->
+    <tr>
+		<td>
+    
+
+
+<!-- Start Locale Picker UI -->
+
+
+<form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+<script>
+function loadLocale(code) {
+  document.locale_picker.locale.value=code;
+  document.locale_picker.submit();
+}
+</SCRIPT>
+<TABLE CELLSPACING="0" BORDER="0" CELLPADDING="0" ALIGN="CENTER" WIDTH="100%">
+
+<TR>
+  <TD ALIGN="center" ROWSPAN="2">
+  <IMG SRC="/images/spacer.gif" height="10" width="1" hspace="0" vspace="0" alt="" border="0" />
+  </TD>
+  <TD ALIGN="CENTER">
+
+<INPUT TYPE="hidden" NAME="target" value="/index.html">
+
+
+
+</TR>
+</TABLE>
+</form>
+
+        </td>
+	</tr>
+    <!-- end of locale picker widget -->
+    
+	<!--Begin license information-->
+	<tr>
+		<td>
+		<table width="100%" cellpadding="0" cellspacing="0">
+			<tr>
+			<td align="center">    
+                <script type="text/javascript">function showCopyrightDetail(){    if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }    else    {        document.getElementById('copyrightDetail').style.display="none";    }}</script>                          <div style="text-align:center">    <div class="newCopyright">                <a href="Javascript:showCopyrightDetail()"><I>Blackboard Academic Suite&#8482;</I></a><br/>        &copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 6,988,138. Additional Patents Pending.<br/>        Accessibility information can be found at <a href="http://access.blackboard.com">http://access.blackboard.com</a>.    </div>    <div class="copyrightDetailContents" id="copyrightDetail" onClick="showCopyrightDetail()">    <div style="float:right">(Click to close)</div>    <I>Blackboard Academic Suite&#8482;</I><BR/>&nbsp;&nbsp;<I>Blackboard Learning System&#8482;</I> (8.0.422.0)<BR/>&nbsp;&nbsp;<I> Blackboard Community System&#8482;</I> (8.0.422.0)<BR/>&nbsp;&nbsp;<I> Blackboard Content System&#8482;</I> (8.0.422.0)    </div>     </div> 
+            </td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+	<!--End license information-->
+</table>
+</BODY>
+</HTML>
+
+

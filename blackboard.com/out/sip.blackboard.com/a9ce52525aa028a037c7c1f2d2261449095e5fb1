@@ -1,0 +1,15 @@
+https://sip.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: sip.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Server: RTC/5.0
+< X-Ms-Server-Fqdn: LYNCEDGE02.bbbb.net
+< Content-Type: text/plain
+< Content-Length: 67
+
+Status: 404 Not Found
+Server: RTC/5.0
+FQDN: LYNCEDGE02.bbbb.net

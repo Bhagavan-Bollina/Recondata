@@ -1,0 +1,30 @@
+https://hvcclearn.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: hvcclearn.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Appserver: ip-10-145-83-144.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors self' * 'dummy.local
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Expires: Sat, 04 Jan 2020 13:03:19 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:19 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:03:19 GMT
+< Location: https://oldbbprod.hvcc.edu/webapps/bb-auth-provider-cas-BB57b4adf217ab9/execute/casLogin?cmd=login&authProviderId=_124_1&redirectUrl=https%3A%2F%2Foldbbprod.hvcc.edu%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Set-Cookie: JSESSIONID=03575D2999431D008C14512C4F2A8F01; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776199,id:411BF826BDC5392BF48B623F2D109571,signature:80dff435665473347d0f8186b26077bf85cfd852bb0b34844dcd90bb10130a49,site:0d096f18-eed9-4b30-a253-6c6e0f862f9c,v:2,xsrf:19e9b724-252b-4985-8d2c-c6740dd5dcbf; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=F9172B391083FEADC66EB77FD3A35274E6606990FEF8B6EE7ABF4D75637C6477B826990922DC4F920D582BD8CF552E0996AE7FA9CDA33DECA59FEEE030DAD26C8358FB855C;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=F9172B391083FEADC66EB77FD3A35274E6606990FEF8B6EE7ABF4D75637C6477B826990922DC4F920D582BD8CF552E0996AE7FA9CDA33DECA59FEEE030DAD26C8358FB855C;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+

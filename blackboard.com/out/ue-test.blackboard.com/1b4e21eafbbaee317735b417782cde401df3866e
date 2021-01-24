@@ -1,0 +1,28 @@
+https://ue-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ue-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Blackboard-Appserver: fgtd-450025-sf191861-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Tue, 12 Jun 2018 10:49:27 GMT
+< Content-Type: text/html
+< Content-Length: 89
+< Set-Cookie: NSC_450025_wjq_69.196.228.213*443=ffffffff090d11bb45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Server: Apache-Coyote/1.1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.5-rel.94+071908f
+< Expires: Sat, 04 Jan 2020 13:05:17 GMT
+< Etag: W/"89-1528800567000"
+< Date: Mon, 04 Jan 2021 13:05:17 GMT
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

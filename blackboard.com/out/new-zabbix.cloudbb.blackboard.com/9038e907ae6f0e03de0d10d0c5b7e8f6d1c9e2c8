@@ -1,0 +1,99 @@
+https://new-zabbix.cloudbb.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: new-zabbix.cloudbb.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Jan 2021 13:03:57 GMT
+< Content-Type: text/html; charset=UTF-8
+< X-Powered-By: PHP/5.3.3
+< Server: nginx/1.0.15
+
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<title>Zabbix</title>
+		<meta name="Author" content="Zabbix SIA" />
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="images/general/zabbix.ico" />
+<link rel="stylesheet" type="text/css" href="styles/default.css" />
+<link rel="stylesheet" type="text/css" href="styles/color.css" />
+<link rel="stylesheet" type="text/css" href="styles/icon.css" />
+<link rel="stylesheet" type="text/css" href="styles/blocks.css" />
+<link rel="stylesheet" type="text/css" href="styles/pages.css" />
+<link rel="stylesheet" type="text/css" href="styles/themes/originalblue/main.css" />
+<script>var PHP_TZ_OFFSET = 0;</script><script src="js/browsers.js"></script>
+<script src="jsLoader.php?ver=2.2.1&amp;lang=en_gb&showGuiMessaging=1"></script>
+</head>
+<body class="originalblue">
+<div id="message-global-wrap"><div id="message-global"></div></div>
+<div class="login">
+	<div id="glow">
+		<div class="loginForm">
+			<div style="position: relative; color: #FFF; height: 100%;">
+				<!-- Help & Support -->
+				<div style="position: absolute; top: 0px; right: 10px;">
+					<a class="highlight" href="http://www.zabbix.com/documentation">Help</a>
+					&nbsp;|&nbsp;
+					<a class="highlight" href="https://support.zabbix.com">Support</a>
+				</div>
+
+				<!-- Copyright -->
+				<div style="float: left; width: 250px; height: 100%;">
+					<div style="position: absolute; top: 39%; left: 30px;" class="loginLogo"></div>
+					<div style="position: absolute; bottom: 2px;">
+							<span class="bold textwhite" style="margin: 0 0 4px 4px; font-size: 0.9em;">
+								Zabbix 2.2.1 Copyright 2001-2013 by Zabbix SIA							</span>
+					</div>
+				</div>
+
+				<!-- Login Form -->
+				<div style="height: 100%; padding-top: 58px; padding-right: 40px; margin-left: 275px;">
+					<div style="float: right;">
+						<form action="index.php" method="post">
+							<input type="hidden" name="request" class="input hidden" value="" />
+							<ul style="list-style-type: none;">
+								<li style="padding-right: 6px; height: 22px;">
+									<div class="ui-corner-all textwhite bold" style="padding: 2px 4px; float: right; background-color: #D60900; visibility: hidden" >
+										<span class="nowrap"></span>
+									</div>
+								</li>
+								<li style="margin-top: 10px; padding-top: 1px; height: 22px; width: 265px; white-space: nowrap;" >
+									<div class="label">Username</div><input type="text" id="name" name="name" class="input" />
+								</li>
+								<li style="margin-top: 10px; padding-top: 1px; height: 22px; width: 265px; white-space: nowrap;" >
+									<div class="label">Password</div><input type="password" id="password" name="password" class="input"/>
+								</li>
+								<li style="margin-top: 8px; text-align: center;">
+									<input type="checkbox" id="autologin" name="autologin" value="1" checked="checked" />
+									<label for="autologin" class="bold" style="line-height: 20px; vertical-align: top;">
+										Remember me for 30 days									</label>
+									<div style="height: 8px;"></div>
+									<input type="submit" class="input jqueryinput" name="enter" id="enter" value="Sign in" />
+																	</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery('body').css('background-color', '#E8EAEF');
+		jQuery('#enter').button();
+		jQuery('#name').focus();
+	});
+</script>
+<script type="text/javascript">// <![CDATA[
+var page_refresh = null;
+jQuery(function() {
+cookie.init();
+chkbxRange.init();
+});
+
+// ]]></script></body>
+</html>

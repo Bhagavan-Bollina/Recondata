@@ -1,0 +1,27 @@
+https://cssstage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cssstage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Length: 89
+< Set-Cookie: NSC_300482_wjq_192.230.224.87*443=ffffffff090d14a545525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:02:42 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Etag: W/"89-1546298457000"
+< Content-Type: text/html
+< X-Blackboard-Product: Blackboard Learn &#8482; 3300.0.6-rel.49+ecc5c16
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Blackboard-Appserver: fgstg-300482-160713-app001.mhint
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Mon, 31 Dec 2018 23:20:57 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:02:42 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

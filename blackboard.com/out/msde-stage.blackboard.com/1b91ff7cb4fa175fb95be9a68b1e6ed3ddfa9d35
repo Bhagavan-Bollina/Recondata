@@ -1,0 +1,44 @@
+https://msde-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: msde-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Last-Modified: Thu, 04 Jan 2001 13:03:50 GMT
+< Expires: Sat, 04 Jan 2020 13:03:50 GMT
+< X-Frame-Options: SAMEORIGIN
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: s_session_id=1CF5C96717F3B9FD108D17AF59752533; Max-Age=473040000; Expires=Tue, 01-Jan-2036 13:03:50 GMT; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_199100_wjq_69.196.224.143*443=ffffffff090e188045525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:50 GMT
+< Pragma: private
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: Accept-Encoding
+< X-Blackboard-Appserver: fgstg-199100-226615-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.3-rel.12+b4d1082
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://msde-stage.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://msde-stage.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

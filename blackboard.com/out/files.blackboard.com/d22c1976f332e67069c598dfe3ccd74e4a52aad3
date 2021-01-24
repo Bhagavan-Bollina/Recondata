@@ -1,0 +1,13 @@
+https://files.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: files.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://files.blackboard.com/xythoswfs
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:03:09 GMT
+< Server: XythosHTTPServer
+< Set-Cookie: NSC_337027_wjq_69.196.229.123*443=ffffffff090d12ee45525d5f4f58455e445a4a423660;path=/;secure;SameSite=None
+

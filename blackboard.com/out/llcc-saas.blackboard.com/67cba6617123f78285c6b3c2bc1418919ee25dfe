@@ -1,0 +1,47 @@
+https://llcc-saas.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: llcc-saas.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Expires: Sat, 04 Jan 2020 13:03:39 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Date: Mon, 04 Jan 2021 13:03:39 GMT
+< Set-Cookie: BbRouter=expires:1609776219,id:A64A845F259DD029CD745CA92B490941,signature:e8109f1d6cc1ad919f3a8a5986a97c29a4d8e92718de8ec79b4b73957f734aca,site:84d9cd94-9c3a-4c7e-a89a-4f93bd87a168,v:2,xsrf:be1d2b63-d52b-4d1b-94d1-e99952e4c5ff; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=952DC593020D4F8696452BD58646A5A52F409CF164F2B2080BCE16574692104CBBBADDF53F15EE571A41133E8DF4DD9B74607E73EB21B444365BC16195A1EFE26EE3BA91B7;PATH=/
+< Set-Cookie: AWSELBCORS=952DC593020D4F8696452BD58646A5A52F409CF164F2B2080BCE16574692104CBBBADDF53F15EE571A41133E8DF4DD9B74607E73EB21B444365BC16195A1EFE26EE3BA91B7;PATH=/;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-145-51-209.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Last-Modified: Thu, 04 Jan 2001 13:03:39 GMT
+< P3p: CP="CAO PSA OUR"
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fllcc\x2Dsaas.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;llcc-saas.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

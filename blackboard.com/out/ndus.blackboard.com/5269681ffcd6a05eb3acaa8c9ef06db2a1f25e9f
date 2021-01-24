@@ -1,0 +1,47 @@
+https://ndus.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ndus.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Expires: Sat, 04 Jan 2020 13:03:55 GMT
+< Set-Cookie: BbRouter=expires:1609776235,id:9F39EB67A89BDBF1D12EFE3EF9A98B8B,signature:b0cfcb177f8394b0719e82e5efb5ef06a8371fa56316e18402211456a825d742,site:679cea4c-4bed-4538-848d-71eed0b98717,v:2,xsrf:c3fc62d4-92c5-47d5-a019-4d48261b6188; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=C11FCBE9088EDC0D853BE8BD91868DB004CEB9C0FF9459D4918240FC20A2965F212B07C3BE94265429E19C8E5EC45C94FB29D851990418CA9119B81FB121B845FC13E49019;PATH=/
+< Set-Cookie: AWSELBCORS=C11FCBE9088EDC0D853BE8BD91868DB004CEB9C0FF9459D4918240FC20A2965F212B07C3BE94265429E19C8E5EC45C94FB29D851990418CA9119B81FB121B845FC13E49019;PATH=/;SECURE;SAMESITE=None
+< Last-Modified: Thu, 04 Jan 2001 13:03:55 GMT
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-145-80-218.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Server: openresty/1.9.3.1
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:55 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fndus.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;ndus.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

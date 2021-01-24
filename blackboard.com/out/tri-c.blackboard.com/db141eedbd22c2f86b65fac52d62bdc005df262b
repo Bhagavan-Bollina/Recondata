@@ -1,0 +1,30 @@
+https://tri-c.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: tri-c.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-146-250-170.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:05:07 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:05:07 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:05:07 GMT
+< Location: https://bblearn.tri-c.edu/webapps/bb-auth-provider-cas-BB5d2dddd0100bb/execute/casLogin?cmd=login&authProviderId=_7_1&redirectUrl=https%3A%2F%2Fbblearn.tri-c.edu%2Fultra
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=9E3A00DF841E6EB592CECF5040CFC050; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776307,id:544E379ECFD3F264927FC746C99B0118,signature:c23a6703a7b95837271e28fb3097eedffa09d064401dc73df1a712e59037504b,site:fc80c3f8-abc4-4f60-9c8d-92e339080f19,v:2,xsrf:fab7db8f-8718-4f74-bd38-cba2b73bc4ca; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=852B2BEF16712290A3C42817B6AE155B2927686A769B5597518D575E5681AE9739652B2C315C10A9C606CD175A945B3F889490FE98ADE9650AB6E94688E6683025C862E25C;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=852B2BEF16712290A3C42817B6AE155B2927686A769B5597518D575E5681AE9739652B2C315C10A9C606CD175A945B3F889490FE98ADE9650AB6E94688E6683025C862E25C;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+

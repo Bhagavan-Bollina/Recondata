@@ -1,0 +1,27 @@
+https://courtslearnstaging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: courtslearnstaging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.2-rel.36+fbf2221
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Sun, 04 Aug 2019 14:44:54 GMT
+< Expires: Sat, 04 Jan 2020 13:02:39 GMT
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_100066_wjq_69.196.228.56*443=ffffffff090d1e4c45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgstg-100066-sf134195-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Etag: W/"89-1564929894000"
+< Date: Mon, 04 Jan 2021 13:02:39 GMT
+< Pragma: private
+< Content-Type: text/html
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

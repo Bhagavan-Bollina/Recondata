@@ -1,0 +1,30 @@
+https://nipissingu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: nipissingu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: JSESSIONID=BFED6055C096F56139CC3DFB32D18FBF; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776242,id:81E2192E20DEC04E5FB529CF11A95752,signature:4f8d5c8fccd55996127cfb7b196a553257f922f9a29b3d7e93e80e27dcebc503,site:e82762ec-7fff-46cb-8b5d-0647eb90461a,v:2,xsrf:5a78bd39-1b6d-42ec-b9d0-0dbb2860354d; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=35A5D5C9140AE1558A0F22D24DF23315819E6FD30C86A44374FCC018A9F9244A0D77619FEAF0B6DB51CB7835BA5EBE2D1BBBF740E494E02D853A705E825A8DF4D9D981391B;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=35A5D5C9140AE1558A0F22D24DF23315819E6FD30C86A44374FCC018A9F9244A0D77619FEAF0B6DB51CB7835BA5EBE2D1BBBF740E494E02D853A705E825A8DF4D9D981391B;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Appserver: ip-10-147-129-245.ca-central-1.compute.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Expires: Sat, 04 Jan 2020 13:04:02 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:04:02 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:04:02 GMT
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< Location: https://learn.nipissingu.ca/auth-saml/saml/login?apId=_404_1&redirectUrl=https%3A%2F%2Flearn.nipissingu.ca%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+

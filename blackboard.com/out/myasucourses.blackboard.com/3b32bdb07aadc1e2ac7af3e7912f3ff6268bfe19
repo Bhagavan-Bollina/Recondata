@@ -1,0 +1,27 @@
+https://myasucourses.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: myasucourses.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:03:52 GMT
+< Content-Type: text/html
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:03:52 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-101256-12060-app011.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3100.0.6-rel.3+cd2a24d
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Fri, 06 Jul 2018 05:46:12 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_101256_wjq_69.196.227.193*443=ffffffff090e101345525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1530855972000"
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

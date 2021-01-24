@@ -1,0 +1,20 @@
+https://xythossupport.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: xythossupport.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Length: 158
+< Server: Microsoft-IIS/6.0
+< X-Powered-By: ASP.NET
+< Location: https://blackboard.secure.force.com/login
+< Cache-Control: private
+< Date: Mon, 04 Jan 2021 13:05:46 GMT
+< X-Aspnet-Version: 2.0.50727
+< Content-Type: text/html; charset=utf-8
+< Set-Cookie: NSC_10.7.222.17.CFIJOE_wjq8*443=ffffffff096f1c6145525d5f4f58455e445a4a423660;path=/;secure;httponly
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://blackboard.secure.force.com/login">here</a>.</h2>
+</body></html>

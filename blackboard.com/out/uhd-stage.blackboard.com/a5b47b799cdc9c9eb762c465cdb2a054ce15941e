@@ -1,0 +1,27 @@
+https://uhd-stage.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uhd-stage.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: NSC_500810_wjq_192.230.224.123*443=ffffffff090d10cc45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Appserver: fgstg-500810-sf205337-app002.mhint
+< Accept-Ranges: bytes
+< Etag: W/"89-1551249329000"
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:19 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Last-Modified: Wed, 27 Feb 2019 06:35:29 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.4-rel.19+9180e36
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:05:19 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

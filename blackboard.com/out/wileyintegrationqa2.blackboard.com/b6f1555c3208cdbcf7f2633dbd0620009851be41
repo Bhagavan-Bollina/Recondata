@@ -1,0 +1,28 @@
+https://wileyintegrationqa2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wileyintegrationqa2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Mon, 04 Jan 2021 13:05:43 GMT
+< X-Blackboard-Appserver: fgstg-313871-200530-app001.mhint
+< Last-Modified: Mon, 18 Jun 2018 08:02:41 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:05:43 GMT
+< Set-Cookie: NSC_313871_wjq_69.196.230.195*443=ffffffff090d173245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Length: 89
+< Accept-Ranges: bytes
+< Etag: W/"89-1529308961000"
+< Server: Apache-Coyote/1.1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3000.1.0-rel.52+991d2bf
+< Content-Security-Policy: frame-ancestors 'self'
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

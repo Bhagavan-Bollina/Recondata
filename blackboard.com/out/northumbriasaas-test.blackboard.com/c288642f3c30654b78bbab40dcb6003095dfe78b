@@ -1,0 +1,68 @@
+https://northumbriasaas-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: northumbriasaas-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-148-196-78.eu-central-1.compute.internal
+< Content-Type: text/html;charset=ISO-8859-1
+< Last-Modified: Thu, 04 Jan 2001 13:03:59 GMT
+< X-Frame-Options: SAMEORIGIN
+< Vary: accept-encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:59 GMT
+< Expires: Sat, 04 Jan 2020 13:03:59 GMT
+< Set-Cookie: JSESSIONID=57A53E59D736AE7A477FE99E73946ADA; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776239,id:50152B8C970C4BA58F19C21A2F1AF578,signature:2efd6e9676011fc100352b603ca897b274632c7eeee4f8cff4ceb0eee64aad49,site:fa08b370-76e2-4b85-abee-15a7149605b7,v:2,xsrf:f1cd35ea-85ab-4a71-b60b-5ceca2edc467; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=7361A77B0468659BD0767A43871E4BBAB42D65B4FA9E9E2D9ACB7C43F7882B3447811B9DFA08EE79ED4D8162B704965C26E177D4366AF08A2B0816404D5CA70E7BFE77BA48;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=7361A77B0468659BD0767A43871E4BBAB42D65B4FA9E9E2D9ACB7C43F7882B3447811B9DFA08EE79ED4D8162B704965C26E177D4366AF08A2B0816404D5CA70E7BFE77BA48;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Pragma: private
+< Server: openresty/1.9.3.1
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Blackboard Learn - SSO Redirect</title>
+<style> body { background-color: #000000; } </style>
+</head>
+
+<BODY style="font-family: arial,sans-serif;font-size: small; color: grey; padding: 1em; ">
+
+<script type="text/javascript">
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+var redirectUrl = getParameterByName('redirectUrl');
+
+if (!redirectUrl || 0 === redirectUrl.length) {
+    redirectUrl = getParameterByName('new_loc');
+}
+redirectUrl = encodeURIComponent(window.location.origin + redirectUrl);
+
+//alert(redirectUrl);
+
+setTimeout(function() {
+    window.location.href = "https://elptest.northumbria.ac.uk/auth-saml/saml/login?apId=_182_1&redirectUrl=" + redirectUrl;}, 1000);
+</script>
+
+
+Redirecting... <a style="color:grey" href="https://elptest.northumbria.ac.uk/auth-saml/saml/login?//apId=_182_1&redirectUrl=https%3A%2F%2Felptest.northumbria.ac.uk%2Fultra">Go to login page</a> if you are not automatically redirected.
+</BODY>
+</HTML>
+
+

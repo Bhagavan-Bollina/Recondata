@@ -1,0 +1,48 @@
+https://enmur.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: enmur.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:58 GMT
+< Set-Cookie: JSESSIONID=AFA32FA25923D169E795C4A8FE0FED12; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776178,id:62CFA17130F2D5A3BAF843D128B90281,signature:fc011b8b526e8a50bbf9218140c18bd331bbeb6ed0f67548aa8508d7493cf146,site:03fe2458-0899-4ceb-bdde-b7dee654c5be,v:2,xsrf:602ef9d4-6fad-45d3-a571-0b578c512309; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=83FD637B0A8430929965F903E3B65788DD972FC2BB51A9582E4E235F3B0273F9453DC9A5B2C3CE757A77CB0A293F6503D0914220FE79069FB6346D30C012DAF7D9B0D59F32;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=83FD637B0A8430929965F903E3B65788DD972FC2BB51A9582E4E235F3B0273F9453DC9A5B2C3CE757A77CB0A293F6503D0914220FE79069FB6346D30C012DAF7D9B0D59F32;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Vary: accept-encoding
+< X-Blackboard-Appserver: ip-10-146-210-60.ec2.internal
+< Expires: Sat, 04 Jan 2020 13:02:58 GMT
+< Server: openresty/1.9.3.1
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:58 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https\x3A\x2F\x2Fenmur.blackboard.com\x2Fwebapps\x2Fportal\x2Fexecute\x2FdefaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https&#x3a;&#x2f;&#x2f;enmur.blackboard.com&#x2f;webapps&#x2f;portal&#x2f;execute&#x2f;defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

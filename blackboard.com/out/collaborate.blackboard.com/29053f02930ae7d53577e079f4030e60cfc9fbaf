@@ -1,0 +1,19 @@
+https://collaborate.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: collaborate.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html; charset=utf-8
+< Expires: -1
+< P3p: CP="IDC DSP COR DEVa TAIa OUR BUS PHY ONL UNI COM NAV CNT STA",
+< Cache-Control: private,no-store
+< Pragma: no-cache
+< Set-Cookie: ELOQUA=GUID=341719B33A5B4E189388F21A7724B7CE&FPCVISITED=1; domain=blackboard.com; expires=Fri, 04-Feb-2022 13:02:38 GMT; path=/;SameSite=None; secure
+< X-Content-Type-Options: nosniff
+< Date: Mon, 04 Jan 2021 13:02:37 GMT
+< Vary: Accept-Encoding
+< X-Xss-Protection: 1; mode=block
+
+No page available

@@ -1,0 +1,31 @@
+https://morton.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: morton.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Content-Length: 0
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=UTF-8
+< Location: https://morton.blackboard.com/auth-saml/saml/login?apId=_228_1&redirectUrl=https%3A%2F%2Fmorton.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+< Server: openresty/1.9.3.1
+< Last-Modified: Thu, 04 Jan 2001 13:03:49 GMT
+< Pragma: private
+< X-Blackboard-Appserver: ip-10-145-86-21.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:03:49 GMT
+< Set-Cookie: JSESSIONID=5A375CD5AB29D38E8B74A1B53351C1BB; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776229,id:85F1DE08FEC30DBB924BD87128ECD991,signature:d788f10706ece8c37d478b803ee951f9299206e049b3b33e03f97eef460e1dff,site:ad22dfc0-d4de-4cf5-9f72-43cbfd29ab21,v:2,xsrf:8d0f5545-49b9-43d5-a8a5-4ddbb27ae647; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=1F291B6D1439590B13F5678F805585495BBCACEF43C491EC95ACF2A806C4607FE229371CDA1C18D0BB62FD07E895CEF0A4B49024BBD518F302453D2831AC8EE50DB4FB52BD;PATH=/
+< Set-Cookie: AWSELBCORS=1F291B6D1439590B13F5678F805585495BBCACEF43C491EC95ACF2A806C4607FE229371CDA1C18D0BB62FD07E895CEF0A4B49024BBD518F302453D2831AC8EE50DB4FB52BD;PATH=/;SECURE;SAMESITE=None
+< Content-Language: en-US
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:49 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+

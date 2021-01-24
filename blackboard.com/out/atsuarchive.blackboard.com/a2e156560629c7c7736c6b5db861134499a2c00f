@@ -1,0 +1,27 @@
+https://atsuarchive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: atsuarchive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgarch-308919-sf706676-app001.mhint
+< Etag: W/"89-1530254229000"
+< Content-Length: 89
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.5-rel.6+3dd6b56
+< Expires: Sat, 04 Jan 2020 13:02:15 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_308919_wjq_69.196.229.88*443=ffffffff090d1ec045525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Fri, 29 Jun 2018 06:37:09 GMT
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:15 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

@@ -1,0 +1,30 @@
+https://jcusaas-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: jcusaas-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Expires: Sat, 04 Jan 2020 13:03:28 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:28 GMT
+< Set-Cookie: JSESSIONID=E1CB14C36E3A58815F3F9D9F8ED21C19; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776208,id:399F2EADB7C37032EA947D78C154C7CE,signature:891e503fb9d7e19236f689a4c78d7e584808a3a2193169f75a1b269ebacff795,site:2fabc3aa-6c35-4554-82ff-37c0cd94be7e,v:2,xsrf:f37ca4dd-1b47-4bde-b19f-58f764f2e662; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=49E5B7951C7161568FBB8348DD7D66005D0903035E190BA7D8C985EBD8C25430832E584B103F7C53BA624906F779A32AF1457C42F6F5168360616E9E5C8895D0158D6E0A81;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=49E5B7951C7161568FBB8348DD7D66005D0903035E190BA7D8C985EBD8C25430832E584B103F7C53BA624906F779A32AF1457C42F6F5168360616E9E5C8895D0158D6E0A81;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:28 GMT
+< Location: https://www.jcu.edu.au/learn
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-144-124-48.ap-southeast-2.compute.internal
+

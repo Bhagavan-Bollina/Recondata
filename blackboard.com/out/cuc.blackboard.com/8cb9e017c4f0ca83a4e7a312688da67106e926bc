@@ -1,0 +1,30 @@
+https://cuc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cuc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Server: openresty/1.9.3.1
+< Set-Cookie: JSESSIONID=CDB4D9DA4B21C077102A593D7CD71018; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776165,id:81B92721E175428EDEBF58DFA2FA30E8,signature:5cbc0c13c1bf12bbb9f32aeec05626b588da8b1bbb78993157efb4b96d46ad1f,site:0e208bd8-3838-4574-b4e3-6ed9dc38c50a,v:2,xsrf:1f78aec6-50c1-41c8-995c-60182cfa682a; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=93C7ADE02DEC5B9B3810F40A7ECF207E1C5C560149FD45F2F93AFE0BC5340BF5874F6C9572B978821F80D17F1D4E49AE0E5C579E68910DDD2B2E98E59C3142AB133ABD54;PATH=/
+< Set-Cookie: AWSELBCORS=93C7ADE02DEC5B9B3810F40A7ECF207E1C5C560149FD45F2F93AFE0BC5340BF5874F6C9572B978821F80D17F1D4E49AE0E5C579E68910DDD2B2E98E59C3142AB133ABD54;PATH=/;SECURE;SAMESITE=None
+< X-Frame-Options: SAMEORIGIN
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:02:45 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:02:45 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5a32b5d33f67b/execute/casLogin?cmd=login&authProviderId=_5_1&redirectUrl=https%3A%2F%2Fcuc.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Expires: Sat, 04 Jan 2020 13:02:45 GMT
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: ip-10-145-20-97.ec2.internal
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=ISO-8859-1
+

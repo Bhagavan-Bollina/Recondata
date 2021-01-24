@@ -1,0 +1,27 @@
+https://tctc-migtemp2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: tctc-migtemp2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Length: 89
+< Set-Cookie: NSC_111111_wjq_69.196.228.3*443=ffffffff090d1d8245525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.3-rel.26+06aa766
+< Last-Modified: Tue, 06 Aug 2019 02:13:44 GMT
+< Expires: Sat, 04 Jan 2020 13:05:04 GMT
+< Etag: W/"89-1565057624000"
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< X-Frame-Options: SAMEORIGIN
+< Date: Mon, 04 Jan 2021 13:05:03 GMT
+< X-Blackboard-Appserver: fgstg-111111-sf083222-app002.mhint
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

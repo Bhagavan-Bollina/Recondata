@@ -1,0 +1,46 @@
+https://harfordtest.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: harfordtest.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:03:15 GMT
+< Expires: Sat, 04 Jan 2020 13:03:15 GMT
+< Vary: Accept-Encoding
+< Set-Cookie: JSESSIONID=CDD0617CC499A4A4475A4AEB0A82E586; Path=/; Secure
+< Set-Cookie: session_id=C702E8E1C31A2C4204D8187FA33067B2; Path=/; HttpOnly
+< Set-Cookie: s_session_id=8FBB3A8D278028EA989BC3459A5BFB71; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_305211_wjq_69.196.229.151*443=ffffffff090d1f9645525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.4-rel.20+ded7cc5
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:03:15 GMT
+< X-Blackboard-Appserver: fgtd-305211-164675-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< P3p: CP="CAO PSA OUR"
+< X-Frame-Options: SAMEORIGIN
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://harfordtest.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://harfordtest.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

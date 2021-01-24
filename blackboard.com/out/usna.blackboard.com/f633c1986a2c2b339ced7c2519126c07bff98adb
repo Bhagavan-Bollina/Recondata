@@ -1,0 +1,44 @@
+https://usna.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: usna.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.5-rel.26+874a2ce
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:05:32 GMT
+< Expires: Sat, 04 Jan 2020 13:05:32 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Vary: Accept-Encoding
+< X-Blackboard-Appserver: fgprd-100317-64622-app005.mhint
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: s_session_id=EB8062214F49D9884E5E4323FDAAE040; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_100317_wjq_69.196.231.137*443=ffffffff090d1ccd45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:05:32 GMT
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://usna.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://usna.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

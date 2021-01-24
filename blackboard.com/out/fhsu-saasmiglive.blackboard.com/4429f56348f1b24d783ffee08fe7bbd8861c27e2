@@ -1,0 +1,29 @@
+https://fhsu-saasmiglive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: fhsu-saasmiglive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-146-255-82.ec2.internal
+< Content-Length: 0
+< Date: Mon, 04 Jan 2021 13:03:03 GMT
+< Expires: Sat, 04 Jan 2020 13:03:03 GMT
+< Location: /webapps/bb-auth-provider-cas-BB5df3da6377577/execute/casLogin?cmd=login&authProviderId=_164_1&redirectUrl=https%3A%2F%2Ffhsu-saasmiglive.blackboard.com%2Fultra
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: BbRouter=expires:1609776183,id:F6628C3FEB8BAC476DD5A423FB0B5597,signature:45d0c1a780af21c07d825c170247243676dc6d44dcc02d195e765e2a79cdb2b6,site:112ada76-7b0b-4f21-9703-bf8c0288adbe,v:2,xsrf:6c615f98-4277-44e4-9086-209e11436511; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=6B29895316EFD1ECFFEAFA5E4EF02360C6AEC08BDF1C56EB3E4015DB2DAD7F110A4F5442BB6CF9A11FFB67371B8DDCED885777B0BB610B2132852CC1DA1AB3FCB53868613F;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=6B29895316EFD1ECFFEAFA5E4EF02360C6AEC08BDF1C56EB3E4015DB2DAD7F110A4F5442BB6CF9A11FFB67371B8DDCED885777B0BB610B2132852CC1DA1AB3FCB53868613F;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Last-Modified: Thu, 04 Jan 2001 13:03:03 GMT
+< Pragma: private
+

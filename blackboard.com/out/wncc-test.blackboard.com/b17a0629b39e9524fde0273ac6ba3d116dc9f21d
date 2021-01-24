@@ -1,0 +1,26 @@
+https://wncc-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wncc-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Appserver: fgtd-300152-sf087099-app001.mhint
+< Set-Cookie: s_session_id=E357BE0D0C02F9C5BFBBE14540BDB5AC; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_300152_wjq_192.230.224.105*443=ffffffff090d15b545525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Location: /auth-saml/saml/login?apId=_109_1&redirectUrl=https%3A%2F%2Fwncc-test.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Date: Mon, 04 Jan 2021 13:05:44 GMT
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Length: 0
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 04 Jan 2001 13:05:44 GMT
+< Expires: Sat, 04 Jan 2020 13:05:44 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.4-rel.9+8bf5305
+< Pragma: private
+

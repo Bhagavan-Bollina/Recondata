@@ -1,0 +1,27 @@
+https://integrationtest2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: integrationtest2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:03:23 GMT
+< Set-Cookie: NSC_313871_wjq_69.196.230.61*443=ffffffff090d1f1845525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.0-rel.21+b070ffd
+< Last-Modified: Sun, 28 Oct 2018 13:41:41 GMT
+< Etag: W/"89-1540734101000"
+< X-Blackboard-Appserver: fgtd-313871-203469-app001.mhint
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:03:23 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

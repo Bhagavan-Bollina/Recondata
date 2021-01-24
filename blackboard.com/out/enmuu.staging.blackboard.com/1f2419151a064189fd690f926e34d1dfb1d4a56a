@@ -1,0 +1,28 @@
+https://enmuu.staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: enmuu.staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Product: Blackboard Learn &#8482; 3200.0.2-rel.37+f07d42b
+< Etag: W/"89-1529308964000"
+< X-Blackboard-Appserver: fgstg-311182-sf233908-app001.mhint
+< Pragma: private
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:02:57 GMT
+< P3p: CP="CAO PSA OUR"
+< Set-Cookie: JSESSIONID=43EDC8F175396BFE57B08A11ED3A7E28;path=/;Secure
+< Set-Cookie: NSC_340775_wjq_192.230.224.111*443=ffffffff090d1b0d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Accept-Ranges: bytes
+< Content-Length: 89
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Mon, 18 Jun 2018 08:02:44 GMT
+< Expires: Sat, 04 Jan 2020 13:02:57 GMT
+< X-Frame-Options: SAMEORIGIN
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

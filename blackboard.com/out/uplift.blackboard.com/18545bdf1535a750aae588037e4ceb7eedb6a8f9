@@ -1,0 +1,27 @@
+https://uplift.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: uplift.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Last-Modified: Thu, 14 Mar 2019 08:32:06 GMT
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_517630_wjq_69.196.231.155*443=ffffffff090d1bc445525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Appserver: fgprd-517630-sf053075-app001.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:05:29 GMT
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:29 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.4-rel.19+9180e36
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1552552326000"
+< Content-Type: text/html
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

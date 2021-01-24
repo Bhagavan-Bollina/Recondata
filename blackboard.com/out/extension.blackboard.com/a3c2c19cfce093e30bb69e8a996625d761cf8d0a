@@ -1,0 +1,19 @@
+https://extension.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: extension.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 503 Service Unavailable
+< Content-Type: text/html; charset=us-ascii
+< Server: Microsoft-HTTPAPI/2.0
+< Date: Mon, 04 Jan 2021 13:03:01 GMT
+< Content-Length: 326
+< Set-Cookie: NSC_JOzn2udlesbdw20czryeeje2x0kycc3=ffffffff090afeb345525d5f4f58455e445a4a423660;path=/;secure;httponly
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
+<HTML><HEAD><TITLE>Service Unavailable</TITLE>
+<META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
+<BODY><h2>Service Unavailable</h2>
+<hr><p>HTTP Error 503. The service is unavailable.</p>
+</BODY></HTML>

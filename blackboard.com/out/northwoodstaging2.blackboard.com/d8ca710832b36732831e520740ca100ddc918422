@@ -1,0 +1,2075 @@
+https://northwoodstaging2.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: northwoodstaging2.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Last-Modified: Thu, 04 Jan 2001 13:04:01 GMT
+< X-Blackboard-Appserver: fgstg-303505-56678-app001.mhint
+< Set-Cookie: s_session_id=825179FBED8FF47FC73BD64359839AF0; Path=/; Secure; HttpOnly
+< Set-Cookie: JSESSIONID=085C4BF90C0306C5454170079A8A7EFD; Path=/; Secure
+< Set-Cookie: NSC_303505_wjq_69.196.230.184*443=ffffffff090d14e145525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Content-Language: en-US
+< Date: Mon, 04 Jan 2021 13:04:01 GMT
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:04:01 GMT
+< Content-Type: text/html;charset=UTF-8
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.1-rel.42+75c791f
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Vary: Accept-Encoding
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+
+<!DOCTYPE HTML >
+<html  lang="en-US">
+ <head>
+  <title>Blackboard Learn</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta id="request-method" name="request-method" content="GET">
+  <meta name="author" content="Blackboard">
+  <meta name="copyright" content="&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.">
+  <meta name="keywords" content="Blackboard">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="-1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"17849af587",applicationID:"10477869"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script>
+  <link rel="SHORTCUT ICON" type="image/x-icon" href="/ui/bb-icon2.ico">
+     <link rel="stylesheet" type="text/css" href="/common/shared.css?v=3800.0.1-rel.42+75c791f" id="css_0">
+     <link rel="stylesheet" type="text/css" href="/branding/themes/NU_2016_THEME/theme.css?v=3800.0.1-rel.42+75c791f" id="css_1">
+     <link rel="stylesheet" type="text/css" href="/branding/colorpalettes/Palette_Q4_2015/generated/colorpalette.generated.modern.css?v=3800.0.1-rel.42+75c791f" id="css_2">
+     <link rel="stylesheet" type="text/css" href="/webapps/videointegration/css/video-integration.css?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f" id="css_3">
+     <link rel="stylesheet" type="text/css" href="/webapps/allyintegration/css/ally-integration.css?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f" id="css_4">
+          <link href="https://nusites.northwood.edu/_includes/css/normalize.css" rel="stylesheet" type="text/css"/>
+	<link href="https://nusites.northwood.edu/_includes/css/nu-grid-responsive.css" rel="stylesheet" type="text/css"/>
+	<link href="https://nusites.northwood.edu/_includes/css/responsive.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" type="text/css" href="/branding/themes/NU_2016_THEME/app_nav.css" id="css_2">
+	<link rel="stylesheet" type="text/css" href="/branding/colorpalettes/Palette_Q4_2015/generated/colorpalette.generated.modern.css" id="css_3">
+	<link rel="stylesheet" type="text/css" href="/branding/_1_1/brand.css" id="css_4">
+	<link rel="stylesheet" type="text/css" href="/webapps/allyintegration/css/ally-integration.css" id="css_5">
+	<style>
+body {
+	/*background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/bg_brushed_metal_4.png');*/
+	background-image:none !important;
+	/*background-color:#ADBBC7;*/
+	background-color: #eaeaea;
+}
+html {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f8f8f8;
+}
+h2 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 4em;
+	margin-bottom: .4em;
+	color: #081E3F;
+	font-weight: 300;
+	line-height: 1em;
+	margin-top: 0px;
+}
+h3 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin-top: 0px;
+}
+a {
+	color: #081E3F;
+}
+hr {
+	height: 2px;
+	border: none;
+	display: block;
+	width: 100%;
+	background: #6F7D8E;
+}
+.rsb-shade {
+	background-color: #D8E1E7;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+.btn {
+	display: block;
+	text-align: center;
+	width: 100%;
+	/*border-radius: 25px;*/
+	padding: 15px 0px;
+	text-decoration: none;
+	font-size: 1.2em;
+	opacity: 1;
+	/*-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);*/
+	border-radius: 4px;
+	margin-bottom: 5px;
+	border: 2px solid #002148;
+	position: relative;
+	font-weight: bold;
+}
+.btn:hover {
+	bottom: 2px;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3) !important;
+	-moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3) !important;
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3) !important;
+	text-decoration: none;
+}
+.btn.ltblue {
+	border-color: #0076BB;
+}
+.btn.dkgray {
+	border-color: #6f7d8e;
+}
+.submitbtn {
+	display: block;
+	text-align: center;
+	width: 100%;
+	/*border-radius: 25px;*/
+	padding: 15px 0px !important;
+	/*font-weight: normal;*/
+	text-decoration: none;
+	font-size: 1.2em;
+	opacity: 1;
+	background-color: #0076BB;
+	color: #FFF;
+	margin-bottom: 20px;
+	border: 2px solid #294e79;
+	line-height: 20px;
+	/*-webkit-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 2px 2px 2px 0px rgba(0,0,0,0.75);*/
+}
+a.btn:hover, input.submitbtn:hover {
+	/*opacity: 0.8;
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+	text-decoration: none;*/
+}
+a.social-icon {
+	display: inline-block;
+	padding: 5px;
+	color: #707D8E;
+	min-width: 21px;
+	font-size: 25px;
+	width: auto;
+}
+a.social-icon i {
+	font-size: 28px;
+}
+.ltblue {
+	background-color: #00C1DE;
+	color: #FFF;
+}
+.dkblue {
+	background-color: #081E3F;
+	color: #FFF;
+}
+.ltgreen {
+	background-color: #F0F0F0;
+	color: #FFF;
+}
+.dkgreen {
+	background-color: #175E00;
+	color: #FFF;
+}
+.dkred {
+	background-color: #B90E0E;
+	color: #FFF;
+}
+
+.help {
+	color: #081E3F;
+}
+.ltgray {
+	background-color: #F0F7F9;
+}
+.dkgray {
+	background-color: #C1C4C6;
+	color: #081E3F;
+}
+.aup {
+	font-size: .8em;
+	font-style: italic;
+	color: #999;
+	line-height: 1.1em;
+	overflow: hidden;
+	display: block;
+	float: left;
+	margin: 15px 0;
+}
+.logininput {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border-width: 0;
+	border: 1px solid #333;
+	height: 1.8em;
+}
+.hidden {
+	display: none;
+}
+#emergency_alerts {
+	background-color: #8C0000;
+	color: #FFF;
+	padding: 5px;
+	padding-bottom: 0px;
+}
+#emergency_alerts h2 {
+	font-family: inherit;
+	font-size: 1.3em;
+	font-weight: 700;
+	color: #FFF;
+	margin: 0px;
+	display: inline;
+}
+#emergency_alerts a {
+	color: #FFF;
+	font-size: .8em;
+}
+#emergency_alerts a:hover {
+	color: #FF0;
+}
+/*.login-alert {
+	background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/AlertLoginBackground.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+}*/
+.outage-alert {
+	background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/OutageBackground.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-top: 35px;
+}
+.outage-notice, .outage-notice-today {
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 38px;
+	background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/outage-icon.png');
+}
+.outage-notice-today {
+	background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/outage-icon-today.png');
+}
+#tabheader {
+	/*background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/MyNorthwoodHeader.png');*/
+	/*background-image: url('/branding/_1_1/Header.jpg');*/
+	background: #011e40; /* Old browsers */
+	background: -moz-linear-gradient(top, #081E3F 0%, #034275 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #081E3F 0%,#034275 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #081E3F 0%,#034275 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081E3F', endColorstr='#034275',GradientType=0 ); /* IE6-9 */
+	background-repeat: no-repeat;
+	height: 85px;
+	text-align: right;
+	vertical-align: bottom;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 5px;
+	padding-right: 20px;
+	position: fixed;
+	z-index: 1000;
+}
+#tabheader a.util-nav {
+	color: #FFF;
+	font-size: 11px;
+	text-decoration: none;
+}
+#tabheader a.util-nav:hover {
+	text-decoration: underline;
+}
+#tabheader .tab-btn {
+	width: 130px;
+	height: 30px;
+	background-color: #F0F7F9;
+	padding: 3px;
+	color: #081E3F;
+	text-decoration: none;
+	font-size: 13px;
+	padding: 5px 15px;
+}
+img.headerlogo {
+	display: block;
+	height: 40px;
+	width: auto;
+	padding: 15px 5px 15px 15px;
+}
+@media screen and (max-width: 767px) {
+	html #tabheader {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	html #tabheader a {
+		font-size: 11px;
+	}
+	html #tabheader .tab-btn {
+		font-size: 11px;
+		padding: 5px 7px;
+		margin-right: -3px;
+	}
+	text#home {
+		display: none;
+	}
+	text#help {
+		display: none;
+	}
+	text#login {
+		display: none;
+	}
+}
+#tabheader .active {
+	background-color: #0076BB;
+	background-image: url('/branding/themes/NU_BRUSH_METAL_Q4/images/gradient_black_short_bt.png');
+	color: #fff;
+	font-weight: bold;
+}
+#mobile-header {
+	background-color: #FFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: fixed;
+	z-index: 1000;
+}
+#loginPanel {
+	border-radius: 4px;
+}
+.status-maintenances {
+	margin-bottom: 30px;
+}
+.status-outage {
+	padding: 10px 40px 10px 15px;
+	margin-bottom: 10px;
+	
+	display:block;
+	color: black;
+	text-decoration: none;
+	border-radius: 4px;
+	border: 2px solid #7194a9;
+	position:relative;
+}
+.status-outage:hover {
+	
+	bottom: 2px;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3);
+}
+.status-outage:after {
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	position:absolute;
+	right: 15px;
+	top: 15px;
+}
+.status-outage:after {
+	border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 8px solid #2c546d;
+}
+.status-outage.open:after {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid #2c546d;
+}
+
+.status-outage .details {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #222;
+	border-left: 2px solid #222;
+	display: none;
+}
+.status-outage.open .details { display: block; }
+.status-outage.critical { background-color:#ffffff; border-color: #e74c3c; }
+.status-outage.major { background-color:#ffffff; border-color: #e67e22; }
+.status-outage.minor { background-color:#ffffff; border-color: #f1c40f; }
+.status-outage.none { background-color:#ffffff; border-color: #7f9eb1; }
+.status-outage.maintenance { background-color:#ffffff; border-color: #365e88; }
+.status-outage.critical:hover { background-color:#ffffff; }
+.status-outage.major:hover { background-color:#ffffff; }
+.status-outage.minor:hover { background-color:#ffffff; }
+.status-outage.none:hover { background-color:#ffffff; }
+.status-outage.maintenance:hover { background-color:#ffffff; }
+.status-outage.critical:after { border-left: 8px solid #822117; }
+.status-outage.major:after { border-left: 8px solid #8e4e16; }
+.status-outage.minor:after { border-left: 8px solid #9c8217; }
+.status-outage.none:after { border-left: 8px solid #2c546d; }
+.status-outage.maintenance:after { border-left: 8px solid #1b4f6f; }
+.status-outage.critical.open:after { border-top: 8px solid #822117; border-left: 5px solid transparent; }
+.status-outage.major.open:after { border-top: 8px solid #8e4e16; border-left: 5px solid transparent; }
+.status-outage.minor.open:after { border-top: 8px solid #9c8217; border-left: 5px solid transparent; }
+.status-outage.none.open:after { border-top: 8px solid #2c546d; border-left: 5px solid transparent; }
+.status-outage.maintenance.open:after { border-top: 8px solid #1b4f6f; border-left: 5px solid transparent; }
+.status-incidents .status-outage.none { background-color:#ffea97; border-color: #f1c40f; }
+.status-incidents .status-outage.none:hover { background-color:#ffea97; }
+.status-incidents .status-outage.none:after { border-left: 8px solid #9c8217; }
+.status-incidents .status-outage.none.open:after { border-top: 8px solid #9c8217; border-left: 5px solid transparent; }
+}
+
+.status-maintenances .status-outage,
+.status-maintenances .status-outage:hover {
+  background-color: #ffffff;
+}
+
+#currentOutage {
+	border: 1px solid #FFC926;
+	background-color: #FFF1C6;
+	padding: 5px;
+	color: #333;
+	margin-bottom: .4em;
+}
+#loginMessage {
+	border: 1px solid #FF9966;
+	background-color: #CC3300;
+	padding: 5px;
+	color: #FFFFFF;
+	margin-bottom: .4em;
+	display: block;
+	font-size: 2em;
+	line-height: 1em;
+}
+#loginMessage a {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+/*	IE unsupported message	*/
+@supports not (-ms-high-contrast: none) {
+   div#loginMessage {
+	   display: none;
+   }
+}
+
+/*	Tabs on mobile devices	*/
+	@media screen and (max-width: 1024px) {
+		div#tabDisplay {
+			display: block;
+		    margin: 10px 2px 0px 2px;
+		    overflow: hidden;
+		    text-align: center;
+		}
+	}
+	@media screen and (min-width: 1025px) {
+		div#tabDisplay {
+			display: none;
+			margin: 0px 0px 0px 0px;
+		}
+	}
+	span.mobileTabs {
+	    background-color: #0076BB;
+	    color: #FFFFFF;
+	    width: 27%;
+	    height: 100%;
+	    min-height: 40px;
+	    border-radius: 5px;
+	    text-decoration: none;
+	    float: left;
+	    margin-top: 0px;
+	    margin-left: 2%;
+	    padding: 2px;
+	    display: inline-block;
+	    font-weight: bold;
+	    border: 2px solid #294e79;
+	    
+	}
+	.mobileTabs a {
+		color: #FFFFFF;
+		text-align: center;
+	}
+
+/*	End Tabs on mobile devices	*/
+
+.outageLink {
+	cursor: pointer;
+}
+@media only screen 
+and (max-width:1024px) {
+
+	.main {
+		padding-top: 85px;
+	}
+}
+.noheader {
+	padding-top: 5px;
+}
+/*
+ * SimpleModal Basic Modal Dialog
+ */
+
+#basic-modal-content {
+	display: none;
+}
+/* Overlay */
+#simplemodal-overlay {
+	background-color: #000;
+}
+/* Container */
+#simplemodal-container {
+	height: 425px;
+	width: 450px;
+}
+#simplemodal-container .simplemodal-data {
+	padding: 0px;
+}
+#simplemodal-container a.modalCloseImg {
+	background: url('/branding/themes/NU_BRUSH_METAL_Q4/images/x.png') no-repeat;
+	width: 25px;
+	height: 29px;
+	display: inline;
+	z-index: 3200;
+	position: absolute;
+	top: -15px;
+	right: -16px;
+	cursor: pointer;
+}
+.simplemodal-data h2 {
+	font-size: 2.5em;
+	padding: 5px;
+}
+/* Battle the demons of the BB login form */
+#loginFormFields, #loginFormList {
+	width: 100%;
+}
+#loginFormTitle, #loginFormText {
+	display: none;
+}
+label {
+	display: block;
+	font-weight: bold;
+}
+#loginFormList input {
+	width: 100%;
+	display: block;
+}
+#currentOutage {
+	display: none;
+}
+#loginFormList, #loginFormList li {
+	display: none !important;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#loginErrorMessage {
+	margin-top: -10px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	padding: 10px;
+	background: #e27777;
+	border-width: 2px;
+}
+
+#loginRedirectProviders {
+	width: 100%;
+	margin: 0px auto 0px auto;
+}
+#loginRedirectProviderList {
+	display: block;
+	background-color: transparent;
+	position: relative;
+	border: none;
+	box-shadow: none;
+}
+
+#loginRedirectProviderList li div.defaultProviderIcon {
+	display: none;
+}
+
+#loginRedirectProviderList li a.submitbtn {
+	background-color: #0076BB;
+	color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/*	IE unsupported message	*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   #loginRedirectProviderList li a.submitbtn {
+	   display: none;
+   }
+}
+
+div.helpSection {
+	border-bottom: 1px grey solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+span.helpSectionRight {
+	float:right;
+	font-weight:normal;
+}
+
+.footer {
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 10px 0px;
+	text-align: center;
+	display: block;
+	background-color:white;
+	font-size: 90%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Localist */
+@media only screen and (min-width: 62.5em) {
+	.localist-widget-hl .event-list>li.event {
+		width: 23%;
+	}
+}
+	
+.localist-widget-hl .event-title {
+	background: rgba(0,0,0,0.8) left top !important;
+}
+
+.localist-widget-hl .event-card .event-short-date {
+	background: #3B5B78 !important;
+}	
+
+.localist-widget-hl .event-card .content p, .localist-widget-hl .event-card span.start-time{
+	color: #585855;
+}
+
+/*#twitter-widget-0 {
+	border: 2px solid #8099b7!important;
+	border-radius: 5px;
+}*/
+</style>
+<style>
+/*	IE unsupported message	*/
+@media all {
+   div#loginMessage {
+	   display: none;
+   }
+}
+
+@media (-ms-high-contrast: active) {
+   div#loginMessage {
+	   display: block;
+   }
+}
+
+@media (-ms-high-contrast: none)  {
+   div#loginMessage {
+	   display: block;
+   }
+}
+
+</style>
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	
+      <style>
+							@media only screen 
+							and (min-width:768px) {
+								div#statusDesktop {
+									display: block;
+								}
+								div#statusMobile {
+									display: none;
+									margin-top: 0px;
+								}
+							}
+							@media only screen 
+							and (max-width:767px) {
+								div#statusDesktop {
+									display: none;
+								}
+								div#statusMobile {
+									display: block;
+									margin-top: 10px;
+								}
+							}
+						.color-dot {
+							border-radius: 4px;
+							display: block;
+							padding: 12px 40px 12px 18px;
+							text-decoration: none;
+							margin-bottom: 10px;
+							position:relative;
+						}
+						.color-dot.critical { background-color:#e74c3c; }
+						.color-dot.major { background-color:#e67e22; }
+						.color-dot.minor { background-color:#f1c40f; }
+						.color-dot.none { background-color:#2fcc66; }
+						.color-dot.maintenance { background-color: #3498DB; }
+						.color-dot:after {
+							content: "";
+							display: block;
+							width: 0;
+							height: 0;
+							position:absolute;
+							right: 16px;
+							top: 17px;
+							border-top: 5px solid transparent;
+							border-bottom: 5px solid transparent;
+							border-left: 8px solid white;
+						}
+						.color-description {
+							font-weight: bold;
+							font-size: 18px;
+							color: white;
+							text-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+							display: block;
+						}
+			 	</style>
+				 						
+      <style type="text/css">#lhnHelpOutCenter div.lhnCustomerMessage > span, #lhnHelpOutCenter div.lhnOperatorMessage > span {
+		display: block !important;
+	}
+	#lhnHocButton.unavailable {
+		display: none !important;
+}
+	#lhnHelpOutCenter div.lhnCustomerMessage > span.lhnStatus,
+	#lhnHelpOutCenter div.lhnOperatorMessage > span.lhnStatus,
+	#lhnHelpOutCenter div.lhnCustomerMessage > span.lhnTime,
+	#lhnHelpOutCenter div.lhnOperatorMessage > span.lhnTime {
+		display: none !important;
+	}
+	#lhnHelpOutCenter div.hocSecureForm div.form_not_filled {
+        background-color: #880000;
+        font-weight: bold;
+        color: #ffffff;
+	}
+</style>
+	
+       <link rel="stylesheet" type="text/css" media="print" href="/ui/styles/print.css?v=3800.0.1-rel.42+75c791f">
+    <script type="text/javascript" src="/javascript/i18n.js?v=3800.0.1-rel.42+75c791f"></script>
+      <script language='javascript' type='text/javascript'>
+
+var JS_RESOURCES = new Object();
+
+function _init_bundle_JS_RESOURCES() {
+
+    JS_RESOURCES['validation.email'] = 'A fully qualified email address (for example, info@blackboard.com) must be entered.';
+    JS_RESOURCES['validation.radio.required'] = 'Make a selection to continue.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['common.list.separator.comma'] = '{0}, {1}';
+    JS_RESOURCES['active.filter.search.terms'] = 'Search Terms';
+    JS_RESOURCES['validation.points.decimal.places.error.location'] = 'Point Values are limited to 5 decimal places: {0}.';
+    JS_RESOURCES['validation.maximum_length.plural'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by {2} characters.';
+    JS_RESOURCES['assessment.incomplete.confirm.backtrackProhibited'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to save the incomplete answer.';
+    JS_RESOURCES['validation.multiSelect.minItems'] = 'Multiselect box should contain at least {0} number of items.';
+    JS_RESOURCES['validation.cmp_field.required'] = 'A value must be provided for {0}\nwhen {1} field is not empty';
+    JS_RESOURCES['warning.email'] = 'Email address is a recommended field. Users will be unable to use parts of the system without an email address.';
+    JS_RESOURCES['validation.maximum_length.no_name.singular'] = 'Must not contain more than {0} characters.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.multiSelect.maxItems'] = 'Multiselect box should not contain more than {0} number of items.';
+    JS_RESOURCES['validation.number'] = 'A valid numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.date.required'] = 'A complete date value must be provided: {0}.';
+    JS_RESOURCES['portalmodule.section.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['show.helptext'] = 'Show Help Text';
+    JS_RESOURCES['validation.password'] = 'Password cannot be empty or contain only spaces.';
+    JS_RESOURCES['validation.percent'] = 'A valid percent value between 0 and 100 must be entered.';
+    JS_RESOURCES['validation.mismatch'] = 'The values entered do not match: {0}.\nConfirm: {0}.';
+    JS_RESOURCES['validation.maximum_length.no_name.plural'] = 'Must not contain more than {0} characters.\nReduce the size of the input by {1} characters.';
+    JS_RESOURCES['validation.invalid_value'] = 'Invalid numeric value provided: {0}.';
+    JS_RESOURCES['field_name.substitute'] = '\'\'{0}\'\' input field';
+    JS_RESOURCES['validation.required'] = 'A value must be provided: {0}.';
+    JS_RESOURCES['active.filter.free.form.text.blank'] = 'Specify a value for the search text field';
+    JS_RESOURCES['validate.alignment.missing.content'] = 'You selected alignments but did not select any alignable content to copy.';
+    JS_RESOURCES['validation.system_role.reserve'] = '"bb" is not permitted at the beginning of a role ID.';
+    JS_RESOURCES['validation.date_past'] = 'The end date cannot be earlier than the start date.';
+    JS_RESOURCES['validation.invalid_chars'] = 'Contains illegal characters: {0}.\nDelete these characters: {1}';
+    JS_RESOURCES['confirm.delete_item_value'] = 'This item {0} will be deleted. Continue?';
+    JS_RESOURCES['hide.helptext'] = 'Hide Help Text';
+    JS_RESOURCES['validate.range.lessthen.str'] = 'Less Than {0}';
+    JS_RESOURCES['validation.date_past.confirm'] = 'The time is in the past.\nContinue with this time?';
+    JS_RESOURCES['validate.login.invalid.username.or.pass'] = 'Enter a username and password.';
+    JS_RESOURCES['validation.negative'] = 'A valid non-negative value must be entered: {0}.';
+    JS_RESOURCES['validation.url'] = 'A valid URL (for example, http://www.myschool.edu) must be entered.';
+    JS_RESOURCES['validate.range.overlap'] = 'criteria ({0}) overlaps criteria ({1}).';
+    JS_RESOURCES['validate.range.between.str'] = 'Between {0} and {1}';
+    JS_RESOURCES['validation.portal.tool.items.remove'] = 'Delete: {0}?';
+    JS_RESOURCES['validation.association.refresh.confirm'] = 'The associated items information might have been updated.\nClick \'OK\' to refresh the list or click \'Cancel\' to keep the current page.';
+    JS_RESOURCES['validate.enrolloptions.error.codeconflict'] = 'The Access Code Enrollment option conflicts with the selection of {instructor} Led enrollment.';
+    JS_RESOURCES['validation.points.decimal.places'] = 'Point Values are limited to 5 decimal places.';
+    JS_RESOURCES['validation.option.required'] = 'At least one option must be selected from the list.';
+    JS_RESOURCES['list.checkToSelectAllItems'] = 'Check to select all items';
+    JS_RESOURCES['active.filter.changed.alert'] = 'criteria now contains';
+    JS_RESOURCES['vtbe.artifact.footer.validate.nameIfSaveArtifact'] = 'Specify a Name in order to Save as a Reusable Object.';
+    JS_RESOURCES['validate.invalidate.number'] = 'Please input valid number instead of {0}.';
+    JS_RESOURCES['validation.valid_course_id'] = 'Course id contains illegal characters or multibyte characters.';
+    JS_RESOURCES['assessment.incomplete.confirm'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the test. Click Ok to submit assessment.';
+    JS_RESOURCES['validate.enrolloptions.error.nooption'] = 'Warning: Choose either the {instructor} Led or the Self-Enrollment option.';
+    JS_RESOURCES['validation.date_equal'] = 'The start date cannot be equal to the end date.';
+    JS_RESOURCES['validation.cmp_field.rejected'] = 'The {0} cannot be used without a corresponding {1} value.';
+    JS_RESOURCES['validation.time.required'] = 'A complete time value must be provided: {0}.';
+    JS_RESOURCES['validation.integer_number'] = 'A valid integer numeric value must be entered: {0}.';
+    JS_RESOURCES['validation.maximum_length'] = 'Must not contain more than 255 characters';
+    JS_RESOURCES['validate.enrolloptions.error.emailrequestconflict'] = 'The selected email enrollment option conflicts with the self-enrollment selection.';
+    JS_RESOURCES['invalid_char.space'] = 'space';
+    JS_RESOURCES['validate.range.morethen.str'] = 'More Than {0}';
+    JS_RESOURCES['notification.submit'] = 'Action already submitted.\nWait until the action is complete.';
+    JS_RESOURCES['validation.plain_text.confirm'] = 'To display equations correctly in this document, Smart Text or HTML format must be selected.\nClick \'OK\' to save in selected Plain Text format or click \'Cancel\' to select a new format.';
+    JS_RESOURCES['invalid_char.comma'] = 'comma';
+    JS_RESOURCES['validation.allow_negtive.percent'] = 'A valid percent value between -100 and 100 must be entered.';
+    JS_RESOURCES['confirm.remove_item'] = 'This action is final and cannot be undone. Continue?';
+    JS_RESOURCES['list.uncheckToDeselectAllItems'] = 'Uncheck to deselect all items';
+    JS_RESOURCES['validation.maximum_length.singular'] = 'Must not contain more than {1} characters: {0}.\nReduce the size of the input by one character.';
+    JS_RESOURCES['validation.rubric.decimalplaces'] = 'Too many decimal places. Maximum is 5.';
+    JS_RESOURCES['validation.minimum_length'] = 'A minimum of {0} characters must be entered: {1}.';
+    JS_RESOURCES['vtbe.artifact.footer.validate.saveLocationIfSaveArtifact'] = 'Specify a location for the Reusable Object.';
+    JS_RESOURCES['assessment.incomplete.confirm.survey'] = 'The following questions may be incomplete:\n {0}\nClick cancel to return to the survey. Click Ok to submit assessment.';
+    JS_RESOURCES['validation.image_type'] = 'Unknown image type: {0}. Image may not display correctly.';
+    JS_RESOURCES['validate.invalidate.number.space'] = 'Space';
+
+    JS_RESOURCES.getString = i18n_get_string;
+    JS_RESOURCES.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_JS_RESOURCES();
+
+</script>
+<script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+      <script language='javascript' type='text/javascript'>
+
+var LOCALE_SETTINGS = new Object();
+
+function _init_bundle_LOCALE_SETTINGS() {
+
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_FIELD_ORDER'] = 'STREET_1 STREET_2 CITY STATE ZIP_CODE COUNTRY';
+    LOCALE_SETTINGS['number_format.exponent'] = 'eE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.2'] = '{1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.YEAR_CHARACTER.03255'] = '';
+    LOCALE_SETTINGS['BBI18N.SOLARIS_CHARSET'] = 'ISO8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN.1'] = '{0}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_MONTH.03255'] = 'ddd';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.internal_date_format'] = 'MM/dd/yy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_MONTH.03259'] = 'MMMM yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.TIME_ORDER.00519'] = 'HMP';
+    LOCALE_SETTINGS['float.format'] = '^(([0-9]{1,3}(\\,[0-9]{3})*)|[0-9]*)(\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.SORT_COLUMN'] = 'familyName';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT'] = '{1} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_SHORT.02097'] = 'SUN MON TUE WED THU FRI SAT';
+    LOCALE_SETTINGS['float.allow.negative.format'] = '^((([-]?[0-9]{1,3}(\\,[0-9]{3})*)|[-]?[0-9]*)(\\.[0-9]+)?|\\.[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TYPE'] = 'GREGORIAN';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GIVEN_INITIAL_FAMILY_NAME'] = '{4} {3}';
+    LOCALE_SETTINGS['efloat.format'] = '^[+-]?[0-9]*(\\.[0-9]+)?([eE][+-]?[0-9]+)?$';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_WEEK.03260'] = 'MMM d[ yyyy]{ \'&#8212;\'[ MMM] d yyyy}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL.02100'] = 'January February March April May June July August September October November December';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI_LOCALIZED.00521'] = 'NO';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.LONG'] = '{0} {1} {2} {3}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.WORK_FIELD_ORDER'] = 'JOB_TITLE DEPARTMENT COMPANY B_PHONE_1 B_PHONE_2 B_FAX';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_NAME.03169'] = 'ARIAL.TTF';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_FULL_HIJRI.02100'] = 'Muḥarram,Ṣafar,Rabīʿ\'al-Awwal,Rabīʿ\'ath-Thānī,Jumādā\'al-Ūlā,Jumādā\'ath-Thāniya,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.GREETING'] = 'Welcome, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT.00520'] = 'Jan Feb  Mar Apr  May Jun Jul Aug Sep Oct Nov Dec';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_SIZE.03168'] = '8';
+    LOCALE_SETTINGS['number_format.thousands_sep'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_WEEK.03256'] = 'ddd M/d';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.SHORT_SURNAME'] = '{3}, {1}';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.AM_PM.00522'] = 'AM PM';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DATE_ORDER.00519'] = 'MDY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.PHONE_FIELD_ORDER'] = 'H_PHONE_1 H_PHONE_2 H_FAX M_PHONE';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_MIN.02099'] = 'Su Mo Tu We Th Fr Sa';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.24HR_SUPPORT.03208'] = '0';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.REPORT_FONT_PATH.03170'] = 'C:/WINNT/Fonts';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.FIRST_DAY_OF_WEEK.03207'] = '0';
+    LOCALE_SETTINGS['BBI18N.WINDOWS_CHARSET'] = 'ISO-8859-1';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_SHORT_HIJRI.00520'] = 'Muḥarram,Ṣafar,Rabīʿ\'I,Rabīʿ\'II,Jumādā\'I,Jumādā\'II,Rajab,Shaʿbān,Ramaḍān,Shawwāl,Dhū\'al-Qaʿda,Dhū\'al-Ḥijja';
+    LOCALE_SETTINGS['BBI18N.LINUX_CHARSET'] = 'iso88591';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_CHARACTER.03253'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.MONTH_CHARACTER.03254'] = '';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NAME.COLUMN_ORDER'] = 'title,givenName,middleName,familyName,suffix,otherName';
+    LOCALE_SETTINGS['number_format.decimal_point'] = '.';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_TITLE_FORMAT_DAY.03258'] = 'dddd, MMM d, yyyy';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAYS.00521'] = '01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.DAY_FULL.02098'] = 'Sunday Monday Tuesday Wednesday Thursday Friday Saturday';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.date_display_pattern'] = 'MM/DD/YY';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.EXTENDED_SURNAME'] = '{3}';
+    LOCALE_SETTINGS['thousand.sep.format'] = ',';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.NUMBERS_HIJRI.00521'] = '0 1 2 3 4 5 6 7 8 9';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.ADDRESS_ORDER.07832'] = 'street,city,region,postal_code,country';
+    LOCALE_SETTINGS['LOCALE_SETTINGS.CALENDAR_COLUMN_FORMAT_DAY.03257'] = 'dddd M/d';
+
+    LOCALE_SETTINGS.getString = i18n_get_string;
+    LOCALE_SETTINGS.getFormattedString = i18n_get_formatted_string;
+
+}
+
+_init_bundle_LOCALE_SETTINGS();
+
+</script>
+
+         <script type="text/javascript" src="/javascript/cdn.js"></script>
+    <script type="text/javascript" src="/javascript/prototype.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery.min.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/jquery/jquery-noconflict.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/fastinit.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/ngui/page.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/validateForm.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/numberLocalizer.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/popup.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/cookie.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/lz-string.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/client_cache.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/ngui/globalNavigation.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/UserDataDWRFacade.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/login/dwr_open/interface/MashupDWRFacade.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/esapi-compressed.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/i18n/ESAPI_Standard_en_US.properties.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/esapi4js/resources/Base.esapi.properties.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/effects.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/ngui/lightbox.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/privacy-disclosure/js/cookieConsent.js?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/validate_login.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/browserSpecificBehavior.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/videointegration/js/video-integration.js?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/webapps/allyintegration/js/ally-integration.js?v=3800.0.1-rel.42+75c791f_3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/builder.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/dragdrop.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/controls.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/scriptaculous/slider.js?v=3800.0.1-rel.42+75c791f"></script>
+    <script type="text/javascript" src="/javascript/quick_links.js?v=3800.0.1-rel.42+75c791f"></script>
+    </head>
+  <body id="learn-oe-body" class='login-page'>
+  
+  <!-- <div id="loginPageContainer">
+	<div id="loginPane">
+
+	<div id="loginContainer">
+	 <div id="loginHeader" class="clearfix">
+		<h1 class="hideoff">Blackboard Learn &#8482;</h1>
+		<img  src="/images/ci/logos/Bb_newLogo_060.png"  alt="Blackboard Learn &#8482;" class="productLogo"/>
+
+<h2 class="hideoff">View Options</h2>
+<ul>
+  <li class="font-size">
+    <img src="/images/ci/ng/fonts.gif" alt="" /> 
+    <a href="#" title="Change Text Size" 
+          onClick="page.showChangeTextSizeHelp()">Change Text Size</a>
+  </li>
+  <li class="contrast">
+    <img src="/images/ci/ng/contrast.gif" alt="" /> 
+    <a href="#" title="High Contrast Setting" onclick="page.showAccessibilityOptions(); return false;">High Contrast Setting</a>
+  </li>
+</ul>
+</div>
+</div>
+</div>
+</div> -->
+	<div class="nu-sr-only">
+		<a href="#maincontent">Skip to main content</a> 
+	</div>
+	<div class="global-nav-bar-wrap">
+		<div class="global-nav-bar logout clearfix">
+			<div id="hotSpots" class="hotItems hotSpots u_floatThis-left">
+				<span class="funZone">
+					<div class="nutf"> &nbsp; 
+						<a class="nutf" href="http://www.northwood.edu" alt="Northwood Website">
+							<img src="/webapps/nu-sysadmintool-bb_bb60/images/NU2Color.jpg" width="16" height="16" alt=""> Public Website 
+						</a>&nbsp; 
+						<br />&nbsp; 
+						<a class="nutf" href="/webapps/nu-urlForward-bb_bb60/module/hdForward.jsp" target="_blank" alt="Submit an IT Request"> Submit an IT Request </a>
+						&nbsp; 
+					</div>
+				</span>
+			</div>
+			<div class="topGlobalLinks u_floatThis-right" id="login">
+				<h2 class="hideoff">Utility Links</h2>
+				<ul class="clearfix">
+					<li>
+						<a id="topframe.home.label" target="_top" href="https://mystaging.northwood.edu" class="home topLevel" title="Home"> Home<span class="link-icon"></span></a>
+					</li>
+					<li>
+						<a id="topframe.help.label" href="#" onclick="globalNavigation.openHelpWindow('http://knowledgebase.northwood.edu/');" class="help topLevel" title="Help"> Help<span class="link-icon"></span></a>
+					</li>
+					<li>
+						<a id="topframe.login.label" target="_top" href="/webapps/login/?action=relogin" class="logout topLevel" title="Login"> Login<span class="link-icon"></span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<!--	 <div id="loginLang" tabindex="0" class="clearfix">
+		
+  <form action="/webapps/portal/execute/changeLocale" method="post" name="locale_picker" target="_top">
+  
+  <INPUT TYPE="hidden" NAME="target" value="/webapps/login/?action=login">
+
+  
+
+  </form>
+</div> -->
+	<div id="globalNavPageNavArea">
+		<table class="bouncer" summary="Top frame table" role="presentation">
+			<tbody>
+				<tr>
+					<td>
+						<div class="topTabs bgBanner" id="topTabs">
+							<div class="brandingImgWrap">
+								<a href="https://mystaging.northwood.edu" target="_blank" title="My.northwood.edu">
+									<img src="/branding/_1_1/Logo.png" alt="Mystaging.northwood.edu" title="Mystaging.northwood.edu" class="bannerImage">
+								</a>
+							</div>
+
+<!--	 <div class="clearfix loginBody">
+		</div> -->
+						<div class="tabWrapper-right">
+							<h2 class="hideoff">Top Frame Tabs</h2>
+								<table class="appTabs round" id="appTabList" summary="Tab List table" role="presentation">
+									<tbody>
+										<tr>
+											<td id="My NU" class="active">
+												<a href="/webapps/login/?action=relogin"><span>My NU</span>
+													<span class="hideoff"> Tab 1 of 4&nbsp;(active tab)</span>
+												</a>
+											</td>
+											<td id="Search for Classes">
+												<a href="/webapps/login?action=guest_login&new_loc=%2Fwebapps%2Fportal%2Fframeset.jsp%3Ftab_tab_group_id%3D_17_1" target="_top"><span>Search for Classes</span>
+													<span class="hideoff"> Tab 2 of 4</span>
+												</a>
+											</td>
+											<td id="Parents">
+												<a href="/webapps/login?action=guest_login&new_loc=%2Fwebapps%2Fportal%2Fframeset.jsp%3Ftab_tab_group_id%3D_34_1" target="_top"><span>Parents/Proxy</span>
+													<span class="hideoff"> Tab 3 of 4</span>
+												</a>
+											</td>
+											<td id="Bb Help">
+												<a href="/webapps/login?action=guest_login&new_loc=%2Fwebapps%2Fportal%2Fframeset.jsp%3Ftab_tab_group_id%3D_330_1" target="_top"><span>Bb Help</span>
+													<span class="hideoff"> Tab 4 of 4</span>
+												</a>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="clearfloats"></div>
+							</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="main" style="">
+		<div class="page sub grid-container" style="padding:0px;">
+	 		<div class="content grid-parent grid-100 tablet-grid-100 mobile-grid-100" style="background-color:#FFF;">
+				<div class="featured-visual"> </div>
+					<div class="meta grid-container grid-parent">
+						<div id="emergency_alerts" class="grid-parent grid-100 tablet-grid-100 mobile-grid-100 hidden"><!--<div class="grid-100 tablet-grid-100 mobile-grid-100 mb10"><h2>ALERT TITLE</h2> - Alert Message <a href="http://nusites.northwood.edu/webapps/alerts/?msg_id=" target="_blank"><em>Details...</em></a></div>--></div>
+					</div>
+					<div class="grid-container grid-parent bg-white eqHeightParent" style="padding-bottom:0px;">
+						<div class="grid-container grid-parent grid-33 mobile-grid-100 tablet-grid-33 tablet-push-66 push-66 bg-white pr20 pl20 eqHeightContent"> 
+							<!-- LOGIN START -->
+							<div id="loginPanel" class="grid-100 tablet-grid-100 mobile-grid-100 rsb-shade mt10 pt20 pr20 pb20 pl20">
+								<p style="width:100%; text-align: center; font-size:90%; margin-bottom:3px;"><a href="https://northwood.teamdynamix.com/TDClient/KB/ArticleDet?ID=43108" target="_blank">Issues logging in? Click here</a></p>
+								<div id="currentOutage"> </div>
+								<div id="loginMessage">
+									<strong>ALERT:</strong> It looks like you are trying to access Blackboard using Internet Explorer, which is no longer supported.  You <strong>MUST</strong> use another supported browser,  <a href="https://help.blackboard.com/Learn/Student/Getting_Started/Browser_Support" target="_blank">click here for currently supported browsers</a>
+								</div>
+			
+									<div class="grid-container grid-parent grid-100 mobile-grid-100 tablet-grid-100">
+										<main id="maincontent">
+<!--	<div id="loginBox"> -->
+<!--									
+
+
+<noscript>
+  <div class="receipt bad editmode alert-box alert">Please enable JavaScript in your browser for the Blackboard application to function.</div>
+</noscript>
+
+<form action="/webapps/login/" onsubmit="return validate_form( this, false, true );" method="POST" name="login" >
+  
+
+<script type="text/javascript">
+ function login_openForgotPassword( url )
+ {
+   var passwordWin = window.open( url, 'forgotPasswordWindow', 'menubar=1,resizable=1,scrollbars=1,status=1,width=850,height=480' );
+   passwordWin.focus();
+ }
+
+  FastInit.addOnLoad(function()
+ {
+   
+  if( typeof ClientCache !== 'undefined' )
+  {
+    ClientCache.clear();
+  }
+      var startingJSessionCookie = getCookie("JSESSIONID");
+  var guestLocaleCookie = getCookie("guest.session.locale");
+      deleteCookie("JSESSIONID", "/@@", null, true);
+      deleteCookie("JSESSIONID", "/courses", null, true);
+      deleteCookie("JSESSIONID", "/sessions", null, true);
+      deleteCookie("JSESSIONID", "/systemdata", null, true);
+      deleteCookie("JSESSIONID", "/images", null, true);
+      deleteCookie("JSESSIONID", "/reportbranding", null, true);
+      deleteCookie("JSESSIONID", "/reports", null, true);
+      deleteCookie("JSESSIONID", "/modules", null, true);
+      deleteCookie("JSESSIONID", "/groupjs", null, true);
+      deleteCookie("JSESSIONID", "/branding", null, true);
+      deleteCookie("JSESSIONID", "/queue_tasks", null, true);
+      deleteCookie("JSESSIONID", "/sponsors", null, true);
+      deleteCookie("JSESSIONID", "/course_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/course_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_main_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_2_images", null, true);
+      deleteCookie("JSESSIONID", "/org_image_nav_images", null, true);
+      deleteCookie("JSESSIONID", "/avatar", null, true);
+      deleteCookie("JSESSIONID", "/bannerthumbnail", null, true);
+      deleteCookie("JSESSIONID", "/deployment", null, true);
+      deleteCookie("JSESSIONID", "/content_area", null, true);
+      deleteCookie("JSESSIONID", "/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/evidence_area", null, true);
+      deleteCookie("JSESSIONID", "/public", null, true);
+      deleteCookie("JSESSIONID", "/webapps/axis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/chalkbox", null, true);
+      deleteCookie("JSESSIONID", "", null, true);
+      deleteCookie("JSESSIONID", "/webapps/login", null, true);
+      deleteCookie("JSESSIONID", "/webapps/soap", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taglibs", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ws", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wysiwyg", null, true);
+      deleteCookie("JSESSIONID", "/xythosremoteadmin", null, true);
+      deleteCookie("JSESSIONID", "/bbcswebdav", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsmain", null, true);
+      deleteCookie("JSESSIONID", "/webapps/xythoswfs", null, true);
+      deleteCookie("JSESSIONID", "/admin", null, true);
+      deleteCookie("JSESSIONID", "/colorpalettes", null, true);
+      deleteCookie("JSESSIONID", "/coursethemes", null, true);
+      deleteCookie("JSESSIONID", "/common", null, true);
+      deleteCookie("JSESSIONID", "/fonts", null, true);
+      deleteCookie("JSESSIONID", "/javascript", null, true);
+      deleteCookie("JSESSIONID", "/lib", null, true);
+      deleteCookie("JSESSIONID", "/login", null, true);
+      deleteCookie("JSESSIONID", "/themes", null, true);
+      deleteCookie("JSESSIONID", "/ui", null, true);
+      deleteCookie("JSESSIONID", "/ui-ultra", null, true);
+      deleteCookie("JSESSIONID", "/learn/api", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dataIntegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-gate-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/software-updates", null, true);
+      deleteCookie("JSESSIONID", "/webapps/goal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-social-learning-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/api-gateway", null, true);
+      deleteCookie("JSESSIONID", "/webapps/rubric", null, true);
+      deleteCookie("JSESSIONID", "/webapps/streamViewer", null, true);
+      deleteCookie("JSESSIONID", "/webapps/submission-services", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-content-model-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-group-mgmt-LEARN", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ultra-conversion", null, true);
+      deleteCookie("JSESSIONID", "/webapps/gradebook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/videointegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assessment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-common-styles-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-whitelist-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-filter-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/vtbe-tinymce", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcms", null, true);
+      deleteCookie("JSESSIONID", "/webapps/inline-grading", null, true);
+      deleteCookie("JSESSIONID", "/webapps/spreview", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-xss-input-validation-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portfolio", null, true);
+      deleteCookie("JSESSIONID", "/webapps/operational-data-store", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-wiki-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/discussionboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/assignment", null, true);
+      deleteCookie("JSESSIONID", "/webapps/allyintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-selfpeer-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/partner-cloud", null, true);
+      deleteCookie("JSESSIONID", "/webapps/caliper", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mygrades-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/taskprogress", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blogs-journals", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloud-profiles", null, true);
+      deleteCookie("JSESSIONID", "/webapps/visualization", null, true);
+      deleteCookie("JSESSIONID", "/auth-saml", null, true);
+      deleteCookie("JSESSIONID", "/webapps/telemetry", null, true);
+      deleteCookie("JSESSIONID", "/webapps/collab-ultra", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-survey-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-telephony-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/calendar", null, true);
+      deleteCookie("JSESSIONID", "/webapps/blackboard", null, true);
+      deleteCookie("JSESSIONID", "/webapps/tp-bluejeans-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/attendance", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-lis-final-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-vitalsource-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/enterpriseSurvey", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-autosignon-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ILP-IntegrationService-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-studentroster-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ubsh-lti-integration-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-mir3-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/wa-webassign-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Bb-mobile-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/hbsp-hbp-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-roster-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sofo-mediasite-content-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-menulist-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/date-management", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-financial-aid-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bgsg-Send Two-Way SMS-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/osv-kaltura-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cloudstorageintegration", null, true);
+      deleteCookie("JSESSIONID", "/webapps/portal", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-goal-performance-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/sclk-softchalk7-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/cmsadmin", null, true);
+      deleteCookie("JSESSIONID", "/webapps/plugins", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-fin-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mylab_mastering_b2-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-mindlinks-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/usf-impersonate-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-message-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/privacy-disclosure", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-alerts-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/ebry-ebrary-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-theme-diff-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/retention", null, true);
+      deleteCookie("JSESSIONID", "/webapps/item-analysis", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-vista-plgnhndl-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-angel-plgnhndl-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbtextbook", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-vista-ext-plgnhndl-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/dur-browserCheck-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/achievements", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-slideshare-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/social-connector", null, true);
+      deleteCookie("JSESSIONID", "/webapps/consulting-central", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-nautilus-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-shibboleth-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-ldap-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-collaborate-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-data-integration-flatfile-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/Teg-Tegrity-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-youtube-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-integration-gateway-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cx-ext-ce4-plgnhndl-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-cas-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-crs_link-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-cafescribe-integration-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/york-dsk-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-bookmark-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-crs-list-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbgs-course-attendance-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/turn-plgnhndl-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cntplayer-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-nusso-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-auth-provider-ldap-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/grcc-XIDdecode-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/scor-scormengine-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-mashups-flickr-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bbcxcommoncartridge", null, true);
+      deleteCookie("JSESSIONID", "/webapps/astr-1025622397760-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-urlForward-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-nuorgapp-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-ANNCCAL-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-academics-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-cs-reports-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/nu-sysadmintool-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/bb-ce4-ext-plgnhndl-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/usfl-ezproxy-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/any-echo360trial-bb_bb60", null, true);
+      deleteCookie("JSESSIONID", "/webapps/searchwidgets", null, true);
+    
+  if (guestLocaleCookie != null)
+  {
+    setCookie("guest.session.locale", guestLocaleCookie);
+  }
+  setCookie("JSESSIONID", startingJSessionCookie);
+   });
+ </script>
+
+<div id="loginFormTitle">
+  <h2>Have an account?</h2>
+</div>
+
+ <div id="loginFormText">
+   <p>Please enter your credentials and click the <b>Login</b> button below.
+    </p>
+ </div>
+
+<div id="loginFormFields" class="clearfix">
+  <ul id="loginFormList" class="clearfix">
+    <li class="clearfix">
+      <label for="user_id">Username</label>
+      <input type="text" name="user_id" id="user_id" size="25" maxlength="50" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+      <label for="password">Password</label>
+      <input size="25" name="password" id="password" type="password" autocomplete="off"/>
+    </li>
+    <li class="clearfix">
+          <input id="entry-login" type="submit" value="Login" name="login" class="button expand"/>
+        </li>
+  </ul>
+
+  
+</div>
+
+
+
+  <input type="hidden" name="action" value="login" />
+  <input type="hidden" name="new_loc" value="" />
+  <input type='hidden' name='blackboard.platform.security.NonceUtil.nonce' value='38952fe2-0ece-44bb-a9f7-cbd0220d4fe5'>
+</form>
+  <div id="loginRedirectProviders">
+  <button id="redirectProvidersDropdownButton" class="button dropdown expand">Sign in with third-party account</button>
+  <ul id="loginRedirectProviderList">
+           <li><a href="/auth-saml/saml/login?apId=_135_1&redirectUrl=https%3A%2F%2Fnorthwoodstaging2.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab" ><div class="defaultProviderIcon"></div>Northwood Login</a></li>
+         </ul>
+ </div>
+ <script type="text/javascript">
+   var providerListDropdownButton = $('redirectProvidersDropdownButton');
+   var providerList = $('loginRedirectProviderList');
+   // Open/ close providers list dropdown
+   providerListDropdownButton.on('click', function(event, element) {
+     providerList.toggleClassName('open');
+     providerList.writeAttribute('aria-hidden', !providerList.hasClassName( 'open' ));
+   });
+
+   // Close provider list when clicking elsewhere on the page
+   $$("body").first().on('click', function(event) {
+     if (!$(event.target).hasClassName('dropdown') && providerList.hasClassName('open')){
+       providerList.removeClassName('open');
+     }
+   });
+ </script>
+	-->
+										
+			 							<iframe src="https://nusites.northwood.edu/apps/bbdown/" width="100%" height="200" frameborder="0" scrolling="auto" ></iframe> 
+									</div>
+<!--			</div> -->
+									<p><a href="https://nusites.northwood.edu/pwreset/" target="_blank" class="btn dkblue">Reset My Password</a></p>
+									<p style="width:100%; text-align: center; font-size:90%; margin-top:3px;"><a href="http://www.northwood.edu/it/AUP" target="_blank">Acceptable Use Policy</a></p>
+			
+								</div>
+
+<!--		<div id="loginOptions">
+		
+  <div id="gatewayButtonsTitle">
+   <h2>Don't have an account?</h2>
+ </div>
+ <div id="gatewayButtonsInstructions">
+   <p>Please choose from the options below.</p>
+ </div>
+ 
+<div id="gatewayButtons">
+<ul class="inline-list">
+
+      
+      <li class="subOption" id="preview-as-guest"><a href="/webapps/login/?action=guest_login">Preview as Guest</a></li>
+    
+  
+  <li id="privacy-link"><a href="#" onClick="showPrivacyPolicy();" title="Privacy and Terms of Use">Privacy and Terms of Use</a></li>
+</ul>
+</div>
+</div> -->
+<!-- LOGIN END --> 
+								<div id='tabDisplay'>
+								    <span class='mobileTabs'>
+								    	<a href='https://webadvisor.northwood.edu/WebAdvisor/WebAdvisor?type=P&amp;pid=ST-WESTS12A' target='_blank'>Search for Classes</a>
+								    </span>
+								    <span class='mobileTabs'>
+								    	<a href='/webapps/login?action=guest_login&amp;new_loc=%2Fwebapps%2Fportal%2Fframeset.jsp%3Ftab_tab_group_id%3D_34_1'>Parents / Proxy</a>
+								    </span>
+								    <span class='mobileTabs'>
+								    	<a href='https://northwood.teamdynamix.com/TDClient/KB/?CategoryID=6363' target='_blank'>Bb Help</a>
+								    </span>
+								</div>
+								<link href="https://northwood.teamdynamix.com/TDClient/Styles/font-awesome.min.css" rel="stylesheet" type="text/css" />
+								<div id="statusMobile" class="grid-100 tablet-grid-100 mobile-grid-100 statuspage">
+			 						<a href="http://status.northwood.edu" class="color-dot" target="_blank">
+										<span class="color-description"></span>
+									</a>
+									<div class="status-incidents"></div>
+									<div class="status-maintenances"></div>
+			 					</div>
+								<div class="grid-container grid-parent grid-100 mobile-grid-100 tablet-grid-100" style="margin-top: 10px;">
+								<div class="grid-100 tablet-grid-100 mobile-grid-100 mb10"> <a href="https://www.studentclearinghouse.org/secure_area/Transcript/login.asp?FICEcode=00407200" target="_blank" class="btn help dkgray">Request a Transcript</a>
+			 	<!-- <p class="mt0">Alumni, current and former students may request an eTranscript 24-7.</p> -->
+								</div>
+							</div>
+							<div class="grid-container grid-parent grid-100 mobile-grid-100 tablet-grid-100" style="margin-top:10px; border-radius:5px; border:2px solid #6f7d8e;">
+								<div style="background-color: lightgray;border-bottom: 1px grey solid;font-size: 110%;font-weight: bold;padding: 0px 10px;">
+									<span style="float:right;margin-left: 10px;font-weight: normal;">
+										<a href="http://helpdesk.northwood.edu/" target="_blank">Hours</a>
+									</span>
+									Contact the IT Help Desk
+								</div>
+								<div style="font-weight:bold;">
+									<div class="helpSection">
+										<span class="helpSectionRight">877.209.HELP</span><span class="fa fa-phone" style="color:rgb(6, 64, 115)"></span> Telephone
+									</div>
+									<div class="helpSection">
+										<span class="helpSectionRight"><a href="mailto:helpdesk@northwood.edu">helpdesk@northwood.edu</a></span><span class="fa fa-envelope" style="color:rgb(6, 64, 115)"></span> Email
+									</div>
+									<div class="helpSection">
+										<span class="helpSectionRight"><a href="https://www.google.com/maps/place/Griswald+Communications+Center,+Whiting+Dr,+Midland,+MI+48640/@43.6287213,-84.2782392,218m/data=!3m2!1e3!4b1!4m5!3m4!1s0x88222ac9d58cde75:0x37bceea89ce61a49!8m2!3d43.6286645!4d-84.2776687" target="_blank">Griswold Center</a> | Room 201</span><span class="fa fa-user" style="color:rgb(6, 64, 115)"></span> In Person
+									</div>
+									<div class="helpSection" style="border-bottom:0px;">
+										<span class="helpSectionRight">
+											<a style="float:right;" href="/webapps/nu-urlForward-bb_bb60/module/hdForward.jsp" target="_blank" alt="Submit an IT Request">Submit an IT Request</a>
+											<br />
+											<a style="float:right;" href="http://helpdesk.northwood.edu/" target="_blank" alt="Frequently Asked Questions">FAQs</a>
+										</span>
+										<span class="fa fa-question-circle" style="color:rgb(6, 64, 115)"></span> Client Portal
+									</div>
+								</div>
+							 </div>
+
+<!--	 
+
+<div id="loginImage"><img src="/images/ci/logos/Gateway_Learn.jpg" alt="Blackboard Learn" /></div>
+<div id="loginText">
+<p>Welcome to the Blackboard e-Education platform&#8212;designed to enable educational innovations everywhere by connecting people and technology.</p>
+</div> -->
+							<div class="grid-parent grid-100 tablet-grid-100 mobile-grid-100">
+								<div class="grid-parent grid-100 tablet-grid-100 mobile-grid-100" style="margin-top: 20px; margin-bottom: 20px;"> 		
+									</div>
+			 					<div class="grid-parent grid-100 tablet-grid-100 mobile-grid-100" style="margin-bottom: 20px;">
+									<a class="twitter-timeline" href="https://twitter.com/NUITHelpDesk" data-tweet-limit="1" data-widget-id="621329429114028032">Tweets by @NUITHelpDesk</a>
+									<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+							 	</div>
+								<div class="grid-100 tablet-grid-100 mobile-grid-100 text-center pb20">
+									<a href="https://www.facebook.com/NorthwoodU/" class="social-icon" target="_blank" ><i class="ion-social-facebook" aria-label="Northwood Facebook" ></i><span class='nu-sr-only'>Northwood Facebook</span></a>
+								 	<a href="https://twitter.com/northwoodu" class="social-icon" target="_blank" ><i class="ion-social-twitter" aria-label="Northwood Twitter" ></i><span class='nu-sr-only'>Northwood Twitter</span></a>
+								 	<a href="https://www.linkedin.com/school/20201" class="social-icon" target="_blank" ><i class="ion-social-linkedin" aria-label="Northwood LinkedIn" ></i><span class='nu-sr-only'>Northwood LinkedIn</span></a>
+								 	<a href="https://www.youtube.com/user/northwooduniversity" class="social-icon" target="_blank" ><i class="ion-social-youtube" aria-label="Northwood Youtube" ></i><span class='nu-sr-only'>Northwood Youtube</span></a>
+								</div>
+							</div>
+			<!-- OUTAGES END --> 
+						</div>
+						<div class="grid-container grid-parent grid-66 mobile-grid-100 tablet-grid-66 pull-33 tablet-pull-33 eqHeightContent">
+							<div class="grid-container grid-100 tablet-grid-100 mobile-grid-100 mb20"> 
+							</div>
+							<div class="grid-container grid-100 tablet-grid-100 mobile-grid-100"> 
+			<!-- NEED HELP START -->
+								<div class="grid-100 tablet-grid-100 mobile-grid-100">
+			
+			 						<div id="statusDesktop" class="grid-100 tablet-grid-100 mobile-grid-100 statuspage">
+										<a href="http://status.northwood.edu" class="color-dot" target="_blank">
+											<span class="color-description"></span>
+										</a>
+										<div class="status-incidents"></div>
+										<div class="status-maintenances"></div>
+			 						</div>
+			 					<div style='margin-left:10px'>
+			 						<div style="font-size:110%; font-weight:bold; margin-bottom: 3px;">Featured Events</div>
+			 						<div>
+			 							<script type="text/javascript"src="https://calendar.northwood.edu/widget/view?schools=northwood&days=31&num=4&tags=home&show_times=0&target_blank=1&expand_descriptions=1&hide_past=1&template=card"></script>
+			 						</div>
+			 					</div>
+
+				
+								<layer id="imgRotator"></layer><div id="imgRotatordiv" style="margin-left:10px; max-width:740px;"></div>
+
+<!--	
+ -->
+
+								<div id="copyright" class="clearfix">
+  <script type="text/javascript">
+      function showCopyrightDetail(){
+        if(document.getElementById('copyrightDetail').style.display=="none" || document.getElementById('copyrightDetail').style.display=="")    {        document.getElementById('copyrightDetail').style.display="block";    }
+        else    {        document.getElementById('copyrightDetail').style.display="none";    }}
+  </script>
+  <div class="newCopyright">
+      	  <div class="logo">
+  	    <img src="/images/ci/logos/bb_signature/Bb_Signature_StdMed.png" alt="Blackboard Learn" />
+  	  </div>
+  	  	<div class="legal">
+  		&copy; 1997-2021 Blackboard Inc. All Rights Reserved. U.S. Patent No. 7,493,396 and 7,558,853. Additional Patents Pending.
+  	</div>
+  	      <div class="additionalInfo">
+        <p><a href="http://access.blackboard.com" id="accessibilityLink">Accessibility information</a></p>
+              </div>
+  	  </div>
+
+  </div></div>
+
+						</div>
+					</div>
+				</div>
+	 		</div>
+		</div>
+	</div>
+	<div class="footer">
+		<a href='https://help.blackboard.com/Learn/Student/Accessibility' target='_blank'>Accessibility Information</a>
+		 | 
+		<a href='https://help.blackboard.com/Learn/Student/Getting_Started/Browser_Support' target='_blank'>Compatibility Information</a>
+	</div>
+
+
+  <script type="text/javascript">page.bundle.addKey('inlineconfirmation.close','Close');page.bundle.addKey('inlineconfirmation.refresh','Refresh');page.bundle.addKey('hidden.link.close.menu','End of menu. Click to return to associated item.');page.bundle.addKey('hidden.link.close.form','End of form. Click to return to associated item.');page.bundle.addKey('lightbox.loading','Loading...');page.bundle.addKey('yt.stopped','Stopped:');page.bundle.addKey('yt.playing','Playing:');page.bundle.addKey('yt.cued','Cued:');page.bundle.addKey('yt.buffering','Buffering:');page.bundle.addKey('yt.paused','Paused:');page.bundle.addKey('yt.ended','Ended:');page.bundle.addKey('yt.play','Play');page.bundle.addKey('yt.pause','Pause');page.bundle.addKey('yt.mute','Mute');page.bundle.addKey('yt.unmute','Unmute');page.bundle.addKey('lightbox.overlay','{0} has been opened as a lightbox overlaying the current page.');page.bundle.addKey('display.playerControls','Player Controls');page.bundle.addKey('display.videoPlayerControls','Video Player Controls');page.bundle.addKey('display.play','Play');page.bundle.addKey('display.stop','Stop');page.bundle.addKey('display.volumeUp','Volume Up');page.bundle.addKey('display.volumeDown','Volume Down');page.bundle.addKey('display.mute','Mute');page.bundle.addKey('display.videoStatus','Video Status');page.bundle.addKey('display.closePlayerControls','Close Player Controls');page.bundle.addKey('display.embeddedVideoPlayer','Embedded Video Player');page.bundle.addKey('display.of','of');page.bundle.addKey('display.view.on.flickr','View Photo on Flickr');page.bundle.addKey('mashups.content.data.msg','We are unable to display the mashup content. This happens if the system detects an invalid URL. Remove the mashup item and try again to resolve this issue.');page.bundle.addKey('contextmenu.frame.title','Menu frame');page.bundle.addKey('frameset.contentframe.title','Content');page.bundle.addKey('common.pair.paren','{0} ({1})');</script>
+  <script type="text/javascript">
+    function showPrivacyPolicy() {
+      cookieConsent = new CookieConsent('/webapps/privacy-disclosure/');
+      cookieConsent.showPolicy( 'blackboard.platform.security.NonceUtil.nonce=login', true );
+    }
+  </script>
+
+  <!-- Use Google's jQuery. Fall back to ours if they don't have it or can't load it -->
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript">
+		$.noConflict();
+	</script> -->
+	<script type="text/javascript">
+	 
+	 function loadLoginPage()
+	 {
+			if ( top != self )
+			{
+				top.location.replace( self.location.href );
+			}
+			if(document.forms.login.user_id != undefined)
+			{
+				document.forms.login.user_id.focus();
+			}
+			setTimeout("triggerScreenreaderAlert()", 500);
+	 }
+	 
+	 function triggerScreenreaderAlert()
+	 {
+		if ( document.getElementById( 'loginErrorMessage' ) )
+			{
+			jQuery( 'loginErrorMessage' ).update( jQuery('loginErrorMessage').innerHTML );
+			}
+	 }
+	</script>
+<script type="text/javascript">
+		window.onload = function() {
+			var loginForm = document.querySelector('form[name=login]');
+			loginForm.remove();
+			var loginError = document.getElementById("loginErrorMessage");
+			if(loginError.innerHTML=="You've been logged out due to inactivity. Log in again to continue.")
+			{	loginError.innerHTML="";
+				loginError.style.visibility="hidden";
+			}
+		} 
+	</script>
+
+
+<!-- START NU CUSTOM JS -->
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+	<meta content="width=device-width, initial-scale=1" name="viewport"/>
+	<script src="https://nusites.northwood.edu/_includes/js/init/modernizr.js" type="text/javascript"></script>
+	<!-- Internet Explorer Media Query Shim -->
+	<!--[if lt IE 9]>
+		<link href="https://nusites.northwood.edu/_includes/css/nu-grid-ie.css" rel="stylesheet" type="text/css"/>
+		<![endif]-->
+	<!-- Internet Explorer 7 (and maybe 6) Fix-er-up -->
+	<!--[if lt IE 8]>
+		<link href="https://nusites.northwood.edu/_includes/css/ie.css" rel="stylesheet" />
+		<link href="https://nusites.northwood.edu/_includes/css/ie7.css" rel="stylesheet" />
+		<![endif]-->
+	<link href="https://nusites.northwood.edu/_includes/css/helpers.css" rel="stylesheet" type="text/css"/>
+	
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			var width = jQuery(document).width();
+
+			//If we are in a frame, hide the tab header
+			if(window.top !== window.self) {
+				// embedded
+				jQuery('#tabheader').addClass('hide-on-desktop');
+				jQuery('#tabheader').addClass('hide-on-tablet');
+				jQuery('div[class=main]').addClass('noheader');
+			}
+			// Load NU NOW dialog on click
+			jQuery('#basic-modal .basic').click(function (e) {
+				jQuery('#basic-modal-content').modal({overlayClose:true});
+				return false;
+			});
+	
+			//Battle the demons of the bb login widget
+			jQuery('#loginFormList>li').removeClass('clearfix');
+			jQuery('input[type="submit"], button[type="submit"]').removeClass('submit');
+			jQuery('input[type="submit"], button[type="submit"]').removeClass('button-1');
+			jQuery('input[type="submit"], button[type="submit"]').addClass('btn submitbtn');
+			
+			
+			jQuery('input[type="submit"], button[type="submit"]').css('display','none');
+			//jQuery('#user_id, #password').addClass('logininput');
+			//jQuery('#user_id, #password').parent().addClass('grid-50');
+			//jQuery('#user_id, #password').parent().addClass('mobile-grid-100');
+			//jQuery('#user_id, #password').parent().addClass('tablet-grid-100');
+			//jQuery('#user_id, #password').parent().css('padding-left','10px');
+			//jQuery('#user_id, #password').parent().css('padding-right','10px');
+			jQuery('#user_id, #password').parent().css('display','none');
+			
+			jQuery('#redirectProvidersDropdownButton').css('display','none');
+			
+			jQuery('#loginRedirectProviderList').css('display','block !important');
+			jQuery('#loginRedirectProviderList>li>a').addClass('button expand btn submitbtn');
+			jQuery('#loginRedirectProviderList>li').css('width','100%');
+			
+			
+			jQuery('input[type="submit"], button[type="submit"]').parent().prepend('<!-- <p class="aup"></p> -->');
+			//Remove @northwood.edu from userid
+			jQuery('#user_id').on('blur', function(){
+			 jQuery('#user_id').val(jQuery('#user_id').val().replace("\@northwood.edu", ""));
+			});
+
+			//START ALERT NOTICES
+			jQuery.ajax({
+				url: '//nusites.northwood.edu/webapps/alerts/jsonptest.aspx?callback=?',
+				type: 'GET',
+				async: false,
+				jsonpCallback: 'alertCallback',
+				contentType: "application/json",
+				dataType: 'jsonp',
+				success: function(result) {
+					//alert(JSON.stringify(result));
+					console.log('success loading alerts');
+					if(JSON.stringify(result) != "[]") {
+					jQuery("#emergency_alerts").removeClass('hidden');
+					}
+					jQuery.each(result, function(key){
+						jQuery("#emergency_alerts").append('<div class="grid-100 tablet-grid-100 mobile-grid-100 mb10"><h2>'+ result[key].msg_title +'</h2> - ' + result[key].msg_body + ' <a href="http://nusites.northwood.edu/webapps/alerts/?msg_id=' + result[key].msg_id + '" target="_blank"><em>Details...</em></a></div>');
+					});
+				},
+				error: function(e) {
+					console.log(e.message);
+				}
+			});
+			//END ALERT NOTICES
+			//START REMOVE INACTIVITY LOGIN ERROR
+			if(jQuery.trim(jQuery("#loginErrorMessage").text()) == jQuery.trim("You've been logged out due to inactivity. Log in again to continue.")){
+				jQuery('#loginErrorMessage').hide();
+			}
+			//END REMOVE INACTIVITY LOGIN ERROR
+		});
+
+
+
+function nunowreg(){
+	jQuery('input[name=user_id]').val(jQuery('input[name=NUNOW_user_id]').val());
+	jQuery('input[name=password]').val(jQuery('input[name=NUNOW_password]').val());
+	jQuery('input[name=new_loc]').val('/webapps/nu-mir3-bb_bb60/module/mir3Reg.jsp');
+	jQuery('form[name=login]').submit();
+}
+
+/*jQuery(document).ready(function(){
+	jQuery('#loginErrorMessage').replace("You've been logged out due to inactivity. Log in again to continue.","");
+});*/
+
+
+/*
+ * SimpleModal 1.4.4 - jQuery Plugin
+ * http://simplemodal.com/
+ * Copyright (c) 2013 Eric Martin
+ * Licensed under MIT and GPL
+ */
+(function(b){"function"===typeof define&&define.amd?define(["jquery"],b):b(jQuery)})(function(b){var j=[],n=b(document),k=navigator.userAgent.toLowerCase(),l=b(window),g=[],o=null,p=/msie/.test(k)&&!/opera/.test(k),q=/opera/.test(k),m,r;m=p&&/msie 6./.test(k)&&"object"!==typeof window.XMLHttpRequest;r=p&&/msie 7.0/.test(k);b.modal=function(a,h){return b.modal.impl.init(a,h)};b.modal.close=function(){b.modal.impl.close()};b.modal.focus=function(a){b.modal.impl.focus(a)};b.modal.setContainerDimensions=
+function(){b.modal.impl.setContainerDimensions()};b.modal.setPosition=function(){b.modal.impl.setPosition()};b.modal.update=function(a,h){b.modal.impl.update(a,h)};b.fn.modal=function(a){return b.modal.impl.init(this,a)};b.modal.defaults={appendTo:"body",focus:!0,opacity:50,overlayId:"simplemodal-overlay",overlayCss:{},containerId:"simplemodal-container",containerCss:{},dataId:"simplemodal-data",dataCss:{},minHeight:null,minWidth:null,maxHeight:null,maxWidth:null,autoResize:!1,autoPosition:!0,zIndex:1E3,
+close:!0,closeHTML:'<a class="modalCloseImg" title="Close"></a>',closeClass:"simplemodal-close",escClose:!0,overlayClose:!1,fixed:!0,position:null,persist:!1,modal:!0,onOpen:null,onShow:null,onClose:null};b.modal.impl={d:{},init:function(a,h){if(this.d.data)return!1;o=p&&!b.support.boxModel;this.o=b.extend({},b.modal.defaults,h);this.zIndex=this.o.zIndex;this.occb=!1;if("object"===typeof a){if(a=a instanceof b?a:b(a),this.d.placeholder=!1,0<a.parent().parent().size()&&(a.before(b("<span></span>").attr("id",
+"simplemodal-placeholder").css({display:"none"})),this.d.placeholder=!0,this.display=a.css("display"),!this.o.persist))this.d.orig=a.clone(!0)}else if("string"===typeof a||"number"===typeof a)a=b("<div></div>").html(a);else return alert("SimpleModal Error: Unsupported data type: "+typeof a),this;this.create(a);this.open();b.isFunction(this.o.onShow)&&this.o.onShow.apply(this,[this.d]);return this},create:function(a){this.getDimensions();if(this.o.modal&&m)this.d.iframe=b('<iframe src="javascript:false;"></iframe>').css(b.extend(this.o.iframeCss,
+{display:"none",opacity:0,position:"fixed",height:g[0],width:g[1],zIndex:this.o.zIndex,top:0,left:0})).appendTo(this.o.appendTo);this.d.overlay=b("<div></div>").attr("id",this.o.overlayId).addClass("simplemodal-overlay").css(b.extend(this.o.overlayCss,{display:"none",opacity:this.o.opacity/100,height:this.o.modal?j[0]:0,width:this.o.modal?j[1]:0,position:"fixed",left:0,top:0,zIndex:this.o.zIndex+1})).appendTo(this.o.appendTo);this.d.container=b("<div></div>").attr("id",this.o.containerId).addClass("simplemodal-container").css(b.extend({position:this.o.fixed?
+"fixed":"absolute"},this.o.containerCss,{display:"none",zIndex:this.o.zIndex+2})).append(this.o.close&&this.o.closeHTML?b(this.o.closeHTML).addClass(this.o.closeClass):"").appendTo(this.o.appendTo);this.d.wrap=b("<div></div>").attr("tabIndex",-1).addClass("simplemodal-wrap").css({height:"100%",outline:0,width:"100%"}).appendTo(this.d.container);this.d.data=a.attr("id",a.attr("id")||this.o.dataId).addClass("simplemodal-data").css(b.extend(this.o.dataCss,{display:"none"})).appendTo("body");this.setContainerDimensions();
+this.d.data.appendTo(this.d.wrap);(m||o)&&this.fixIE()},bindEvents:function(){var a=this;b("."+a.o.closeClass).bind("click.simplemodal",function(b){b.preventDefault();a.close()});a.o.modal&&a.o.close&&a.o.overlayClose&&a.d.overlay.bind("click.simplemodal",function(b){b.preventDefault();a.close()});n.bind("keydown.simplemodal",function(b){a.o.modal&&9===b.keyCode?a.watchTab(b):a.o.close&&a.o.escClose&&27===b.keyCode&&(b.preventDefault(),a.close())});l.bind("resize.simplemodal orientationchange.simplemodal",
+function(){a.getDimensions();a.o.autoResize?a.setContainerDimensions():a.o.autoPosition&&a.setPosition();m||o?a.fixIE():a.o.modal&&(a.d.iframe&&a.d.iframe.css({height:g[0],width:g[1]}),a.d.overlay.css({height:j[0],width:j[1]}))})},unbindEvents:function(){b("."+this.o.closeClass).unbind("click.simplemodal");n.unbind("keydown.simplemodal");l.unbind(".simplemodal");this.d.overlay.unbind("click.simplemodal")},fixIE:function(){var a=this.o.position;b.each([this.d.iframe||null,!this.o.modal?null:this.d.overlay,
+"fixed"===this.d.container.css("position")?this.d.container:null],function(b,e){if(e){var f=e[0].style;f.position="absolute";if(2>b)f.removeExpression("height"),f.removeExpression("width"),f.setExpression("height",'document.body.scrollHeight > document.body.clientHeight ? document.body.scrollHeight : document.body.clientHeight + "px"'),f.setExpression("width",'document.body.scrollWidth > document.body.clientWidth ? document.body.scrollWidth : document.body.clientWidth + "px"');else{var c,d;a&&a.constructor===
+Array?(c=a[0]?"number"===typeof a[0]?a[0].toString():a[0].replace(/px/,""):e.css("top").replace(/px/,""),c=-1===c.indexOf("%")?c+' + (t = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop) + "px"':parseInt(c.replace(/%/,""))+' * ((document.documentElement.clientHeight || document.body.clientHeight) / 100) + (t = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop) + "px"',a[1]&&(d="number"===typeof a[1]?
+a[1].toString():a[1].replace(/px/,""),d=-1===d.indexOf("%")?d+' + (t = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft) + "px"':parseInt(d.replace(/%/,""))+' * ((document.documentElement.clientWidth || document.body.clientWidth) / 100) + (t = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft) + "px"')):(c='(document.documentElement.clientHeight || document.body.clientHeight) / 2 - (this.offsetHeight / 2) + (t = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop) + "px"',
+d='(document.documentElement.clientWidth || document.body.clientWidth) / 2 - (this.offsetWidth / 2) + (t = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft) + "px"');f.removeExpression("top");f.removeExpression("left");f.setExpression("top",c);f.setExpression("left",d)}}})},focus:function(a){var h=this,a=a&&-1!==b.inArray(a,["first","last"])?a:"first",e=b(":input:enabled:visible:"+a,h.d.wrap);setTimeout(function(){0<e.length?e.focus():h.d.wrap.focus()},
+10)},getDimensions:function(){var a="undefined"===typeof window.innerHeight?l.height():window.innerHeight;j=[n.height(),n.width()];g=[a,l.width()]},getVal:function(a,b){return a?"number"===typeof a?a:"auto"===a?0:0<a.indexOf("%")?parseInt(a.replace(/%/,""))/100*("h"===b?g[0]:g[1]):parseInt(a.replace(/px/,"")):null},update:function(a,b){if(!this.d.data)return!1;this.d.origHeight=this.getVal(a,"h");this.d.origWidth=this.getVal(b,"w");this.d.data.hide();a&&this.d.container.css("height",a);b&&this.d.container.css("width",
+b);this.setContainerDimensions();this.d.data.show();this.o.focus&&this.focus();this.unbindEvents();this.bindEvents()},setContainerDimensions:function(){var a=m||r,b=this.d.origHeight?this.d.origHeight:q?this.d.container.height():this.getVal(a?this.d.container[0].currentStyle.height:this.d.container.css("height"),"h"),a=this.d.origWidth?this.d.origWidth:q?this.d.container.width():this.getVal(a?this.d.container[0].currentStyle.width:this.d.container.css("width"),"w"),e=this.d.data.outerHeight(!0),f=
+this.d.data.outerWidth(!0);this.d.origHeight=this.d.origHeight||b;this.d.origWidth=this.d.origWidth||a;var c=this.o.maxHeight?this.getVal(this.o.maxHeight,"h"):null,d=this.o.maxWidth?this.getVal(this.o.maxWidth,"w"):null,c=c&&c<g[0]?c:g[0],d=d&&d<g[1]?d:g[1],i=this.o.minHeight?this.getVal(this.o.minHeight,"h"):"auto",b=b?this.o.autoResize&&b>c?c:b<i?i:b:e?e>c?c:this.o.minHeight&&"auto"!==i&&e<i?i:e:i,c=this.o.minWidth?this.getVal(this.o.minWidth,"w"):"auto",a=a?this.o.autoResize&&a>d?d:a<c?c:a:f?
+f>d?d:this.o.minWidth&&"auto"!==c&&f<c?c:f:c;this.d.container.css({height:b,width:a});this.d.wrap.css({overflow:e>b||f>a?"auto":"visible"});this.o.autoPosition&&this.setPosition()},setPosition:function(){var a,b;a=g[0]/2-this.d.container.outerHeight(!0)/2;b=g[1]/2-this.d.container.outerWidth(!0)/2;var e="fixed"!==this.d.container.css("position")?l.scrollTop():0;this.o.position&&"[object Array]"===Object.prototype.toString.call(this.o.position)?(a=e+(this.o.position[0]||a),b=this.o.position[1]||b):
+a=e+a;this.d.container.css({left:b,top:a})},watchTab:function(a){if(0<b(a.target).parents(".simplemodal-container").length){if(this.inputs=b(":input:enabled:visible:first, :input:enabled:visible:last",this.d.data[0]),!a.shiftKey&&a.target===this.inputs[this.inputs.length-1]||a.shiftKey&&a.target===this.inputs[0]||0===this.inputs.length)a.preventDefault(),this.focus(a.shiftKey?"last":"first")}else a.preventDefault(),this.focus()},open:function(){this.d.iframe&&this.d.iframe.show();b.isFunction(this.o.onOpen)?
+this.o.onOpen.apply(this,[this.d]):(this.d.overlay.show(),this.d.container.show(),this.d.data.show());this.o.focus&&this.focus();this.bindEvents()},close:function(){if(!this.d.data)return!1;this.unbindEvents();if(b.isFunction(this.o.onClose)&&!this.occb)this.occb=!0,this.o.onClose.apply(this,[this.d]);else{if(this.d.placeholder){var a=b("#simplemodal-placeholder");this.o.persist?a.replaceWith(this.d.data.removeClass("simplemodal-data").css("display",this.display)):(this.d.data.hide().remove(),a.replaceWith(this.d.orig))}else this.d.data.hide().remove();
+this.d.container.hide().remove();this.d.overlay.hide();this.d.iframe&&this.d.iframe.hide().remove();this.d.overlay.remove();this.d={}}}}});
+
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
+<script language="JavaScript1.2">
+	var howOften = 3; //number often in seconds to rotate
+	var current = 0; //start the counter at 0
+	var timer;
+	var ns6 = document.getElementById&&!document.all; //detect netscape 6
+	
+	// place your images, text, etc in the array elements here
+	var items = new Array();
+		items[0]="<a href='http://www.northwood.edu/it/my-northwood-mobile' target='_blank'><img alt='My Northwood Mobile' src='https://nusites.northwood.edu/bbfiles/MYNORTHWOOD.png' style='border: 1px black solid;' onMouseover='pauseImg();' onMouseout='playImg();' /></a>";
+		items[1]="<a href='https://help.blackboard.com/Mobile_Learn' target='_blank'><img alt='Blackboard Learn' src='https://nusites.northwood.edu/bbfiles/BB.png' onMouseover='pauseImg();' style='border: 1px black solid;' onMouseout='playImg();' /></a>";
+		items[2]="<a href='https://www.northwood.edu/campus-life/security/northwood-now' target='_blank'><img alt='Rave Guardian' src='https://nusites.northwood.edu/bbfiles/RAVE.png' style='border: 1px black solid;' onMouseover='pauseImg();' onMouseout='playImg();' /></a>";
+		items[3]="<a href='https://northwood.teamdynamix.com/TDClient/KB/ArticleDet?ID=30162' target='_blank'><img alt='Office 365' src='https://nusites.northwood.edu/bbfiles/office365c.png' style='border: 1px black solid;' onMouseover='pauseImg();' onMouseout='playImg();' /></a>";
+		items[4]="<a href='https://getrave.com/login/northwood' target='_blank'><img alt='Northwood NOW! Emergency Alert System' src='https://nusites.northwood.edu/bbfiles/NORTHWOODNOW.png' style='border: 1px black solid;' onMouseover='pauseImg();' onMouseout='playImg();' /></a>";
+	//function rotater() {
+	//	document.getElementById("imgRotator").innerHTML = items[current];
+	//	current = (current==items.length-1) ? 0 : current + 1;
+	//	setTimeout("rotater()",howOften*1000);
+	//}
+	
+	function rotater() {
+		if(document.layers) {
+			document.imgRotatorlayer.document.write(items[current]);
+			document.imgRotatorlayer.document.close();
+		}
+		if(ns6)document.getElementById("imgRotatordiv").innerHTML=items[current]
+			if(document.all)
+				imgRotatordiv.innerHTML=items[current];
+	
+		current = (current==items.length-1) ? 0 : current + 1; //increment or reset
+		timer=setTimeout("rotater()",howOften*1000);
+	}
+	function pauseImg() {
+		clearTimeout(timer);
+	}
+	function playImg() {
+		rotater();
+	}
+	window.onload=rotater;
+	//-->
+</script>
+
+	<!-- END NU CUSTOM JS -->
+	
+  <!-- This code must be installed within the body tags
+					<script type="text/javascript">
+						var lhnAccountN = "24865-1";
+						var lhnButtonN = 8602;
+						var lhnChatPosition = 'default';
+						var lhnInviteEnabled = 1;
+						var lhnWindowN = 0;
+						var lhnDepartmentN = 0;
+						var lhnInviteN = 40256;
+					</script> 
+					<a href="https://www.livehelpnow.net/products/live-chat-system" target="_blank" style="font-size:10px;" id="lhnHelp">livechat</a> 
+					<style>
+						img#lhnchatimg {
+							max-width: 100%;
+							height: auto;
+							margin: 0;
+							/*border: 2px solid #8099b7;*/
+							border-radius: 5px;
+							position:relative;
+						}
+						img#lhnchatimg:hover {
+							/*bottom: 2px;*/
+							cursor: pointer;
+							/*-webkit-box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3);
+							-moz-box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3);
+							box-shadow: 0px 2px 5px rgba(0,0,0,0.2), 0px 1px 2px rgba(0,0,0,0.3);*/
+						}
+					</style>
+					<script src="//www.livehelpnow.net/lhn/widgets/chatbutton/lhnchatbutton-current.min.js" type="text/javascript" id="lhnscript"></script> 
+					<script type="text/javascript">
+						function LHN_button_onLoad() {
+							//if (bLHNOnline == 0) {
+							//	//All operators are offline
+							//	document.getElementById('lhnChatButton').style.display='none';
+							//	document.getElementById('lhnDivider').style.display='none';
+							//} else {
+								//There are operators online
+								document.getElementById('lhnChatButton').style.display='block';		
+								document.getElementById('lhnDivider').style.display='block';
+							//}
+						}
+					</script>	--> 
+									
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.1/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="https://cdn.statuspage.io/se-v2.js"></script>
+<script>
+	var mDone = false;
+	var amDone = false;
+	var iDone = false;
+	var sp = new StatusPage.page({ page : 'dpd0rtb0h6k9' });
+	// Get conglomerate component statuses
+	sp.summary({
+		success: function(data) {
+			// adds the text description to the dropdown
+			jQuery('.color-description').text("Northwood University System Status - " + data.status.description);
+			// appends the status indicator as a class name so we can use the right color for the status light thing
+			jQuery('.color-dot').addClass(data.status.indicator);
+		}
+	});
+	// Incidents
+
+    sp.incidents({
+        filter: 'unresolved',
+        success: function(data) {
+            var i;
+            for (i = 0; i < data.incidents.length; i++) {
+                var outage = data.incidents[i];
+                var outage_name = outage.name;
+                var outage_impact = outage.impact;
+				var outage_link = outage.shortlink;
+				var outage_start = outage.created_at;
+				var outage_end = outage.resolved_at;
+				var outage_updated = outage.updated_at;
+				var outage_details = "";
+				var outage_comps = [];
+				for (var oc = 0; oc < outage.components.length; oc++) {
+					if (outage.components[oc].status != "operational") {
+						outage_comps.push(outage.components[oc].name);
+					}
+				}
+				outage_comps.sort(function(a,b){
+					return a.toLowerCase().localeCompare(b.toLowerCase());
+				});
+
+				var x;
+				for (x = 0; x < outage.incident_updates.length; x++) {
+					if (x + 1 == outage.incident_updates.length) {
+							outage_details = outage_details + "<p><span class='update-status' style='font-weight:bold;text-transform:capitalize;'>" + outage.incident_updates[x].status + "</span> - " + outage.incident_updates[x].body + "</p>";
+					}
+					else {
+							outage_details = outage_details + "<p><span class='update-status' style='font-weight:bold;text-transform:capitalize;'>Update</span> - " + outage.incident_updates[x].body + "</p>";
+					}
+				}
+				var comps_string = "<p>Affected components: </p><ul style='list-style:initial;list-style-position:inside;margin-bottom:1rem;font-size:12px;' class='outage-comps'>";
+				for (var c = 0; c < outage_comps.length; c++) {
+					comps_string += "<li>" + outage_comps[c] + "</li>";
+				}
+				comps_string += "</ul>";
+				if (outage_updated != outage_start) {
+					var outage_string = "<div class='status-outage "+outage_impact+"'><strong><span class='name'>" + outage_name + "</span></strong> - Last updated " + moment(outage_updated).format('MM/DD/YYYY h:mm a') + " - Began <span class='start'>"+moment(outage_start).format('MM/DD/YYYY h:mm a')+"</span><div class='details'>"+comps_string+outage_details+"</div></div>";
+				}
+				else {
+					var outage_string = "<div class='status-outage "+outage_impact+"'><strong><span class='name'>" + outage_name + " - Began <span class='start'>"+moment(outage_start).format('MM/DD/YYYY h:mm a')+"</span><div class='details'>"+outage_details+"</div></div>";
+				}
+				jQuery('.status-incidents').prepend(outage_string);
+			}
+			iDone = true;
+		}
+    });
+
+	// Active Maintenances
+	sp.scheduled_maintenances({
+		filter: 'active',
+		success: function(data) {
+			var i;
+			for (i = 0; i < data.scheduled_maintenances.length; i++) {
+				var outage = data.scheduled_maintenances[i];
+				console.log(outage);
+				var outage_name = outage.name;
+				var outage_link = outage.shortlink;
+				var outage_start = outage.scheduled_for;
+				var outage_end = outage.scheduled_until;
+				var outage_details = "";
+				var x;
+				for (x = 0; x < outage.incident_updates.length; x++) {
+					outage_details = outage_details + "" + outage.incident_updates[x].body + "<br>";
+				}
+				var outage_string = "<div class='status-outage maintenance'><strong><span class='name'>" + outage_name + "</span></strong> - <span class='start'>"+moment(outage_start).format('MM/DD/YYYY h:mm a')+"</span><span class='to'> to </span><span class='end'>"+moment(outage_end).format('MM/DD/YYYY h:mm a')+"</span><div class='details'>"+outage_details+"</div></div>";
+				// console.log(outage_string);
+				var start = moment(outage_start);
+				var end = moment(outage_end);
+				jQuery('.status-maintenances').prepend(outage_string);
+				console.log('maintenance added');
+			}
+			amDone = true;
+			console.log('mDone set to true');
+		}
+	});
+	// Upcoming
+	sp.scheduled_maintenances({
+		filter: 'upcoming',
+		success: function(data) {
+			var i;
+			for (i = 0; i < data.scheduled_maintenances.length; i++) {
+				var outage = data.scheduled_maintenances[i];
+				console.log(outage);
+				var outage_name = outage.name;
+				var outage_link = outage.shortlink;
+				var outage_start = outage.scheduled_for;
+				var outage_end = outage.scheduled_until;
+				var outage_details = "";
+				var x;
+				for (x = 0; x < outage.incident_updates.length; x++) {
+					outage_details = outage_details + "" + outage.incident_updates[x].body + "<br>";
+				}
+				var outage_string = "<div class='status-outage'><strong><span class='name'>" + outage_name + "</span></strong> - <span class='start'>"+moment(outage_start).format('MM/DD/YYYY h:mm a')+"</span><span class='to'> to </span><span class='end'>"+moment(outage_end).format('MM/DD/YYYY h:mm a')+"</span><div class='details'>"+outage_details+"</div></div>";
+				// console.log(outage_string);
+				var start = moment(outage_start);
+				var end = moment(outage_end);
+				if(end.isBetween(moment(), moment().add(7, 'days'))){
+					jQuery('.status-maintenances').append(outage_string);
+				}
+				console.log('maintenance added');
+			}
+			mDone = true;
+			console.log('mDone set to true');
+		}
+	});
+	
+
+	var outageClickInterval = setInterval(function(){
+		if(mDone === true && iDone === true && amDone === true){
+			jQuery('.status-outage').delay(400).click(function(event) {
+				jQuery(this).toggleClass('open',(!jQuery(this).hasClass('open')));
+				event.preventDefault();
+				return false;
+			});
+			clearInterval(outageClickInterval);
+		}
+	}, 500);
+</script>
+
+<script type="text/javascript">
+	window.lhnJsSdkInit = function () {
+		lhnJsSdk.setup = {
+		application_id: "b7fe29b5-5072-4c2a-8627-61045daf14c9",
+		application_secret: "4ce9d03460bf4ea3a2bf8b0a6f46d34e53bf88eb99244efe95"
+		};
+		lhnJsSdk.controls = [{
+		type: "hoc",
+		id: "382911b8-19e3-45b2-a308-e9a6c15596e3"
+		}];
+	};
+
+	(function (d, s) {
+	var newjs, lhnjs = d.getElementsByTagName(s)[0];
+	newjs = d.createElement(s);
+	newjs.src = "https://developer.livehelpnow.net/js/sdk/lhn-jssdk-current.min.js";
+	lhnjs.parentNode.insertBefore(newjs, lhnjs);
+	}(document, "script"));
+	</script><script>
+function lhnStatusUpdate(){
+	//if(lhnJsSdk.isOnline == false){
+	//	document.getElementById('lhnHocButton').style.display = 'none';
+	//}else{
+	 document.getElementById('lhnHocButton').style.display = 'block';
+	//}
+	}
+</script>
+	
+ 
+   <script type="text/javascript">
+   FastInit.addOnLoad( function()
+   {
+            if ( window.DWREngine )
+       {
+        try {DWREngine.beginBatch();} catch(ignore) {}
+       } 
+                if (typeof(initEditors) == 'function') { initEditors(); }; 
+                                                             if (window['org'] && window['org']['owasp']) { org.owasp.esapi.ESAPI.initialize(); }; 
+                                                             AllyIntegration.initJWT('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJBTExZIiwic3ViIjoiQUxMWV9UT0tFTiIsImZpbGVJZHMiOltdLCJjb3Vyc2VSb2xlIjoiIiwiaXNzIjoiNWpqTkNGaXVtZkJSd2JwNzhKZnNSWHF4WTA4NkpqRXoiLCJleHAiOjE2MDk3NjU3NDEsImlhdCI6MTYwOTc2NTQ0MSwiY291cnNlSWQiOiIiLCJ1c2VySWQiOiIifQ.HrGjTN5drGvCbkGFGo16EPenw_G9523gRiU-cWZYXyo');
+                                                             AllyIntegration.initAllyJSConfigs('prod.ally.ac','198');
+                                                             jQuery.getScript('//' + window.ALLY_CFG.baseUrl + '/integration/learn/ally.js');
+                                                             quickLinks.createHelper();
+                                                                  if ( window.DWREngine )
+       {
+         try {DWREngine.endBatch();} catch(ignore) {}
+       }
+                          BrowserSpecific.registerListeners();
+                loadLoginPage();
+               });
+   </script>
+       <!-- INSERT GOOGLE TRACKING CODE HERE -->
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2103675-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"17849af587","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":123,"applicationID":"10477869","transactionName":"MlBTN0FRVxdSABcMWgsaYhdBRU0XcgAXDFoLGlMPUlNSBlwCEQEbElBTAkNASkpRDwIGXgdaUBFXHlgRRwsGC0EMVlAXWl9XSn8MBAxbJFZFClxe","queueTime":0}</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+https://mobileorderprodapi.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: mobileorderprodapi.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html;charset=ISO-8859-1
+< Request-Context: appId=cid-v1:95c40fa2-8420-434c-91e5-3077fc6aeae7
+< X-Powered-By: ASP.NET
+< Server: Apache-Coyote/1.1
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Date: Mon, 04 Jan 2021 13:03:48 GMT
+< Cache-Control: no-store
+< Vary: Accept-Encoding
+< Content-Security-Policy: script-src 'none';
+< Strict-Transport-Security: max-age=15768000;includeSubdomains
+< Referrer-Policy: strict-origin
+
+<html><head></head><body><p>BACKEND API</p><br/>Build: 2.1.23<br/>Slot: TRANSACT PRODUCTION - MAIN SLOT<br/>Instance: 69e773f2a9c1f64efde6a16e27e80702b636e76f3187c575565bb2b8f8a626ab<br/>Live: Yes<br/>Bb: Yes<br/><br/>Runtime Max: 3186 M<br/>Heap: 3186 M<br/><br/>DB Pool Main: 30<br/>Idle: 30<br/>Active: 0<br/><br/>DB Pool Background: 30<br/>Idle: 30<br/>Active: 0<br/><br/>DB Pool Priority: 6<br/>Idle: 6<br/>Active: 0<br/><br/>DB Pool ReadOnly: 30<br/>Idle: 29<br/>Active: 1<br/><br/>Redis Cache Pool: 30<br/>Idle: 30<br/>Active: 0<br/><br/>Background Thread Pool: 10<br/>Idle: 10<br/>Active: 0<br/><br/>Priority Thread Pool: 6<br/>Idle: 6<br/>Active: 0<br/><br/>POS Thread Pool: 4<br/>Idle: 3<br/>Active: 1<br/><br/>Auto-Release Thread Pool: 2<br/>Idle: 2<br/>Active: 0<br/><br/>Redis Thread Pool: 2<br/>Idle: 2<br/>Active: 0<br/><br/><br/><br/><br/><br/><p><a href="/licenses">Licenses and Acknowledgements</a></p><br/><br/><p><a href="https://gethangry.com">Copyright © 2020 Hangry Solutions Inc. All Rights Reserved.</a></p><br/><br/><br/></body></html>

@@ -1,0 +1,27 @@
+https://umassonline-mycourses-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: umassonline-mycourses-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Thu, 11 Oct 2018 12:57:16 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 89
+< Set-Cookie: NSC_120440_wjq_192.230.226.12*443=ffffffff090e10ba45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.4-rel.68+a1c490e
+< Accept-Ranges: bytes
+< Date: Mon, 04 Jan 2021 13:05:21 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1539262636000"
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgtd-120440-sf132995-app001.mhint
+< Pragma: private
+< Expires: Sat, 04 Jan 2020 13:05:21 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

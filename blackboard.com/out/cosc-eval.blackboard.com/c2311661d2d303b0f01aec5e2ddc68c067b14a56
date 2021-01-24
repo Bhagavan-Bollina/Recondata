@@ -1,0 +1,27 @@
+https://cosc-eval.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cosc-eval.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< P3p: CP="CAO PSA OUR"
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: NSC_198910_wjq_192.230.225.103*443=ffffffff090d1fab45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.1-rel.59+219b762
+< Pragma: private
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1546711916000"
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< X-Blackboard-Appserver: fgeval-198910-sf680433-app001.mhint
+< Last-Modified: Sat, 05 Jan 2019 18:11:56 GMT
+< Expires: Sat, 04 Jan 2020 13:02:39 GMT
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:02:39 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

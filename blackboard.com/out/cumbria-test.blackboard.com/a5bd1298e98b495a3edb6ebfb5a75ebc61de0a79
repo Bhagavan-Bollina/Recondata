@@ -1,0 +1,44 @@
+https://cumbria-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: cumbria-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Appserver: fgtd-134720-234841-app001.mhint
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< X-Blackboard-Product: Blackboard Learn &#8482; 3800.0.0-rel.32+f2f0da9
+< Last-Modified: Thu, 04 Jan 2001 13:02:45 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Set-Cookie: s_session_id=1FFED69869D5D43997487738F3F070E4; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_134720_wjq_46.183.241.233*443=ffffffff090b1b1e45525d5f4f58455e445a4a4229a1;path=/;secure;SameSite=None
+< Date: Mon, 04 Jan 2021 13:02:45 GMT
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:02:45 GMT
+
+<HTML dir='ltr'><HEAD>
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache"><META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+<script language="Javascript">
+  cookie_name = "cookies_enabled";
+  document.cookie=cookie_name+"=yes";
+  if (!document.cookie) {
+    document.location.href="/webapps/login/nocookies.jsp";
+  }
+  document.cookie=cookie_name+"yes;expires=Thu, 01-Jan-1970 00:00:01 GMT";
+</script>
+<SCRIPT language="Javascript"><!--
+document.location.replace('https://cumbria-test.blackboard.com/webapps/portal/execute/defaultTab');
+//--></SCRIPT></HEAD>
+<BODY BGCOLOR='#FFFFFF' LINK='#000000' ALINK='#000000'>
+<br><br><br><br><div style="text-align: center;"><hr width='350' height='5'><br>
+<strong>You are being redirected to another page</strong>
+<p><strong>Please Wait...</strong><br><br><hr width='350' height='5'>
+<br><A HREF=https://cumbria-test.blackboard.com/webapps/portal/execute/defaultTab><strong>Click here to access the page to which you are being forwarded.</strong></A></div>
+</BODY></HTML>

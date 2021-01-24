@@ -1,0 +1,29 @@
+https://ccccblackboard.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: ccccblackboard.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Set-Cookie: BbRouter=expires:1609776150,id:75FC5A48F3EC080EE8E81ED11C1C6F25,signature:e1fac6566f04c0d14b2de77bf378be8462a0e5b5c5b0452e35639499ba03f9d1,site:56dc2a5e-70f3-4fd1-bfc8-229ad3a56cfd,v:2,xsrf:56740c44-ac8f-4870-bbd5-91f51623f369; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=DBA3291D14EBD33C13FEBDBA1FBB22A0DA6B25A540609685A7FE056AD301D44B756D87DAE6FA9C435C1202ED33E6C5FBC65BF0CB42BE617DC1BEDCF90583AA228A477232D0;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=DBA3291D14EBD33C13FEBDBA1FBB22A0DA6B25A540609685A7FE056AD301D44B756D87DAE6FA9C435C1202ED33E6C5FBC65BF0CB42BE617DC1BEDCF90583AA228A477232D0;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html;charset=ISO-8859-1
+< Date: Mon, 04 Jan 2021 13:02:30 GMT
+< Location: /auth-saml/saml/login?apId=_129_1&redirectUrl=https%3A%2F%2Fccccblackboard.blackboard.com%2Fultra
+< Expires: Sat, 04 Jan 2020 13:02:30 GMT
+< P3p: CP="CAO PSA OUR"
+< Content-Length: 0
+< X-Blackboard-Appserver: ip-10-146-212-132.ec2.internal
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:30 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+

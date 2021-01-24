@@ -1,0 +1,27 @@
+https://wbu-test.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: wbu-test.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< X-Blackboard-Appserver: fgtd-167450-sf140192-app001.mhint
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.2-rel.36+fbf2221
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Sun, 28 Jul 2019 10:53:19 GMT
+< Pragma: private
+< Accept-Ranges: bytes
+< Set-Cookie: NSC_167450_wjq_69.196.231.112*443=ffffffff090d147f45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Expires: Sat, 04 Jan 2020 13:05:40 GMT
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:05:40 GMT
+< X-Frame-Options: SAMEORIGIN
+< Etag: W/"89-1564311199000"
+< Content-Length: 89
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

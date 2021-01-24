@@ -1,0 +1,917 @@
+https://koreaedu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: koreaedu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Set-Cookie: JSESSIONID=6B5FA36CF2BF6D35F67192C05EDCD174; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776215,id:98E3F3085EDFD55C9E44B66838D6A6BE,signature:2507e3d0d482453e6381378b2da4dfb4373ec5606dd8a98042f6fded2f14826e,site:0bd4ec57-f43f-45fd-95e7-229798a48048,v:2,xsrf:83a99767-8455-4be9-9c79-45ed5a308016; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=A3350FBF041D77DF1BDA93A00D3D6E804F8646383561077EA637DFD62D227D8D74DCAB99EB34C30657BA9153DA9B76900B7B1813FDD647DBB89BD2C90CC23F62E1E9F0B7B6;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=A3350FBF041D77DF1BDA93A00D3D6E804F8646383561077EA637DFD62D227D8D74DCAB99EB34C30657BA9153DA9B76900B7B1813FDD647DBB89BD2C90CC23F62E1E9F0B7B6;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Content-Security-Policy: frame-ancestors 'self'
+< Expires: Sat, 04 Jan 2020 13:03:35 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< Content-Type: text/html;charset=UTF-8
+< Last-Modified: Thu, 04 Jan 2001 13:03:35 GMT
+< P3p: CP="CAO PSA OUR"
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Vary: accept-encoding
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Date: Mon, 04 Jan 2021 13:03:35 GMT
+< X-Blackboard-Appserver: ip-10-147-167-173.ap-northeast-2.compute.internal
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Bootstrap core CSS -->
+    
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"232bf20b67",applicationID:"390461942"};window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var i=t[n]={exports:{}};e[n][0].call(i.exports,function(t){var i=e[n][1][t];return r(i||t)},i,i.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(e,t,n){function r(){}function i(e,t,n){return function(){return o(e,[u.now()].concat(c(arguments)),t?null:this,n),t?void 0:this}}var o=e("handle"),a=e(6),c=e(7),f=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(e,t){s[t]=i(p+t,!0,"api")}),s.addPageAction=i(p+"addPageAction",!0),s.setCurrentRouteName=i(p+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,i="function"==typeof t;return o(l+"tracer",[u.now(),e,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return t.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],n),e}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=i(l+t)}),newrelic.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,t])}},{}],2:[function(e,t,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=e(8);t.exports=r,t.exports.offset=a,t.exports.getLastTimestamp=i},{}],3:[function(e,t,n){function r(e,t){var n=e.getEntries();n.forEach(function(e){"first-paint"===e.name?d("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&d("timing",["fcp",Math.floor(e.startTime)])})}function i(e,t){var n=e.getEntries();n.length>0&&d("lcp",[n[n.length-1]])}function o(e){e.getEntries().forEach(function(e){e.hadRecentInput||d("cls",[e])})}function a(e){if(e instanceof m&&!g){var t=Math.round(e.timeStamp),n={type:e.type};t<=p.now()?n.fid=p.now()-t:t>p.offset&&t<=Date.now()?(t-=p.offset,n.fid=p.now()-t):t=p.now(),g=!0,d("timing",["fi",t,n])}}function c(e){d("pageHide",[p.now(),e])}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d=e("handle"),p=e("loader"),l=e(5),m=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){f=new PerformanceObserver(r);try{f.observe({entryTypes:["paint"]})}catch(v){}u=new PerformanceObserver(i);try{u.observe({entryTypes:["largest-contentful-paint"]})}catch(v){}s=new PerformanceObserver(o);try{s.observe({type:"layout-shift",buffered:!0})}catch(v){}}if("addEventListener"in document){var g=!1,y=["click","keydown","mousedown","pointerdown","touchstart"];y.forEach(function(e){document.addEventListener(e,a,!1)})}l(c)}},{}],4:[function(e,t,n){function r(e,t){if(!i)return!1;if(e!==i)return!1;if(!t)return!0;if(!o)return!1;for(var n=o.split("."),r=t.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}t.exports={agent:i,version:o,match:r}},{}],5:[function(e,t,n){function r(e){function t(){e(a&&document[a]?document[a]:document[i]?"hidden":"visible")}"addEventListener"in document&&o&&document.addEventListener(o,t,!1)}t.exports=r;var i,o,a;"undefined"!=typeof document.hidden?(i="hidden",o="visibilitychange",a="visibilityState"):"undefined"!=typeof document.msHidden?(i="msHidden",o="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(i="webkitHidden",o="webkitvisibilitychange",a="webkitVisibilityState")},{}],6:[function(e,t,n){function r(e,t){var n=[],r="",o=0;for(r in e)i.call(e,r)&&(n[o]=t(r,e[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],7:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,i=n-t||0,o=Array(i<0?0:i);++r<i;)o[r]=e[t+r];return o}t.exports=r},{}],8:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function i(e){function t(e){return e&&e instanceof r?e:e?f(e,c,o):o()}function n(n,r,i,o){if(!p.aborted||o){e&&e(n,r,i);for(var a=t(i),c=v(n),f=c.length,u=0;u<f;u++)c[u].apply(a,r);var d=s[w[n]];return d&&d.push([b,n,r,a]),a}}function l(e,t){h[e]=v(e).concat(t)}function m(e,t){var n=h[e];if(n)for(var r=0;r<n.length;r++)n[r]===t&&n.splice(r,1)}function v(e){return h[e]||[]}function g(e){return d[e]=d[e]||i(n)}function y(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var h={},w={},b={on:l,addEventListener:l,removeEventListener:m,emit:n,get:g,listeners:v,context:t,buffer:y,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var c="nr@context",f=e("gos"),u=e(6),s={},d={},p=t.exports=i();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(i.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[t]=r,r}var i=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){i.buffer([e],r),i.emit(e,t,n)}var i=e("ee").get("handle");t.exports=r,r.ee=i},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!E++){var e=b.info=NREUM.info,t=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return u.abort();f(h,function(t,n){e[t]||(e[t]=n)});var n=a();c("mark",["onload",n+b.offset],null,"api"),c("timing",["load",n]);var r=p.createElement("script");r.src="https://"+e.agent,t.parentNode.insertBefore(r,t)}}function i(){"complete"===p.readyState&&o()}function o(){c("mark",["domContent",a()+b.offset],null,"api")}var a=e(2),c=e("handle"),f=e(6),u=e("ee"),s=e(4),d=window,p=d.document,l="addEventListener",m="attachEvent",v=d.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:v,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var y=""+location,h={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1184.min.js"},w=v&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),b=t.exports={offset:a.getLastTimestamp(),now:a,origin:y,features:{},xhrWrappable:w,userAgent:s};e(1),e(3),p[l]?(p[l]("DOMContentLoaded",o,!1),d[l]("load",r,!1)):(p[m]("onreadystatechange",i),d[m]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var E=0},{}],"wrap-function":[function(e,t,n){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(7),a="nr@original",c=Object.prototype.hasOwnProperty,f=!1;t.exports=function(e,t){function n(e,t,n,i){function nrWrapper(){var r,a,c,f;try{a=this,r=o(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){p([u,"",[r,a,i],c])}s(t+"start",[r,a,i],c);try{return f=e.apply(a,r)}catch(d){throw s(t+"err",[r,a,d],c),d}finally{s(t+"end",[r,a,f],c)}}return r(e)?e:(t||(t=""),nrWrapper[a]=e,d(e,nrWrapper),nrWrapper)}function u(e,t,i,o){i||(i="");var a,c,f,u="-"===i.charAt(0);for(f=0;f<t.length;f++)c=t[f],a=e[c],r(a)||(e[c]=n(a,u?c+i:i,o,c))}function s(n,r,i){if(!f||t){var o=f;f=!0;try{e.emit(n,r,i,t)}catch(a){p([a,n,r,i])}f=o}}function d(e,t){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(e);return n.forEach(function(n){Object.defineProperty(t,n,{get:function(){return e[n]},set:function(t){return e[n]=t,t}})}),t}catch(r){p([r])}for(var i in e)c.call(e,i)&&(t[i]=e[i]);return t}function p(t){try{e.emit("internal-error",t)}catch(n){}}return e||(e=i),n.inPlace=u,n.flag=a,n}},{}]},{},["loader"]);</script><link rel="stylesheet" href="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <!-- MDBootstrap Steppers Pro  -->
+    <link href="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/css/addons-pro/steppers.min.css"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eb9d0e9035.js" crossorigin="anonymous"></script>
+    <title>고려대학교-원활한 강의 진행을 위한 블랙보드 안내 페이지</title>
+    <meta name="robots" content="noindex">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+        .w3-container {}
+
+
+        @media (max-width: 740px) {
+
+            .w3-container {}
+        }
+
+        @media (min-width: 800px) and (max-width: 850px) {
+
+            .w3-container {}
+        }
+
+        .btn .fa {
+            margin-left: 3px;
+        }
+
+        .top-nav-collapse {
+            background-color: #424f95 !important;
+        }
+
+        .navbar:not(.top-nav-collapse) {
+            background: transparent !important;
+        }
+
+        @media (max-width: 991px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #424f95 !important;
+            }
+        }
+
+        .section_title {
+            font-weight: bold;
+            font-size: xx-large;
+            color: #fff;
+        }
+
+        .section_title a {
+            display: inline-block;
+        }
+
+        .btn-white {
+            color: black !important;
+        }
+
+        h6 {
+            line-height: 1.7;
+        }
+
+        .hidden {
+            display: none !important;
+            visibility: hidden !important;
+        }
+
+        .modal-header .close {
+            margin: auto !important;
+        }
+
+        .rgba-gradient {
+            background: -moz-linear-gradient(45deg, rgba(221, 205, 117, 0.2), rgba(241, 67, 81, 0.3) 100%);
+            background: -webkit-linear-gradient(45deg, rgba(221, 205, 117, 0.2), rgba(241, 67, 81, 0.3) 100%);
+            background: -webkit-gradient(linear, 45deg, from(rgba(221, 205, 117, 0.2)), to(rgba(241, 67, 81, 0.3)));
+            background: -o-linear-gradient(45deg, rgba(2221, 205, 117, 0.2), rgba(241, 67, 81, 0.3) 100%);
+            background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(241, 67, 81, 0.3) 100%);
+        }
+
+        .timeline {
+            position: relative;
+            list-style: none;
+            padding: 1rem 0;
+            margin: 0;
+            zoom: 0.9;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            margin-left: -1px;
+            background-color: #fff;
+        }
+
+        .timeline-element {
+            position: relative;
+            width: 50%;
+            padding: 1rem 0;
+            padding-right: 2.5rem;
+            text-align: right;
+            list-style: none;
+        }
+
+        .timeline-element::before {
+            content: '';
+            position: absolute;
+            right: -8px;
+            top: 1.35rem;
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            border: 2px solid #baac4f;
+            background-color: #fff;
+        }
+
+        .timeline-element:nth-child(even)::before {
+            right: auto;
+            left: -8px;
+        }
+
+        .timeline-element:nth-child(even) {
+            margin-left: 50%;
+            padding-left: 2.5rem;
+            padding-right: 0;
+            text-align: left;
+        }
+
+        @media screen and (min-width: 769px) {}
+
+
+        @media (max-width: 767.98px) {
+            .timeline::before {
+                left: 8px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-element {
+                width: 100%;
+                text-align: left;
+                padding-left: 2.5rem;
+                padding-right: 0;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-element::before {
+                top: 1.25rem;
+                left: 1px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-element:nth-child(even) {
+                margin-left: 0rem;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-element {
+                width: 100%;
+                text-align: left;
+                padding-left: 2.5rem;
+                padding-right: 0;
+                list-style: none;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-element:nth-child(even)::before {
+                left: 1px;
+            }
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-element::before {
+                top: 1.25rem;
+            }
+        }
+    </style>
+
+
+    <!-- Channel Plugin Scripts -->
+    <script>
+        (function () {
+            var w = window;
+            if (w.ChannelIO) {
+                return (window.console.error || window.console.log || function () { })('ChannelIO script included twice.');
+            }
+            var d = window.document;
+            var ch = function () {
+                ch.c(arguments);
+            };
+            ch.q = [];
+            ch.c = function (args) {
+                ch.q.push(args);
+            };
+            w.ChannelIO = ch;
+            function l() {
+                if (w.ChannelIOInitialized) {
+                    return;
+                }
+                w.ChannelIOInitialized = true;
+                var s = document.createElement('script');
+                s.type = 'text/javascript';
+                s.async = true;
+                s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
+                s.charset = 'UTF-8';
+                var x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            }
+            if (document.readyState === 'complete') {
+                l();
+            } else if (window.attachEvent) {
+                window.attachEvent('onload', l);
+            } else {
+                window.addEventListener('DOMContentLoaded', l, false);
+                window.addEventListener('load', l, false);
+            }
+        })();
+        ChannelIO('boot', {
+            "pluginKey": "71705aed-e8c1-4fbc-88cb-6d4b3cd8faf6"
+        });
+    </script>
+    <!-- End Channel Plugin -->
+    <script>
+        var theLanguage = $('html').attr('lang');
+        alert(theLanguage);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        var language = window.navigator.userLanguage || window.navigator.language;
+        var lang = language.substr(0, 2).toLowerCase()
+        jQuery(document).ready(function ($) { $('body').addClass(lang); });
+
+        jQuery(document).ready(function ($) {
+            if ($('body').hasClass('ko')) {
+                $(".lang").addClass("hidden");
+                return $("." + lang).removeClass("hidden");
+            }
+            //else if ($('body').hasClass('zh')) {
+            //    $(".lang").addClass("hidden");
+            //    return $("." + lang).removeClass("hidden");
+            //}
+        });
+    </script>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return '';
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, ' '));
+        }
+
+        var redirectUrl = getParameterByName('redirectUrl');
+
+        if (!redirectUrl || 0 === redirectUrl.length) {
+            redirectUrl = getParameterByName('new_loc');
+        }
+        if (redirectUrl) redirectUrl = encodeURIComponent(window.location.origin + redirectUrl);
+
+        //alert(redirectUrl);
+
+        function newLocation()
+        {
+            window.location.assign(window.location.origin + "/auth-saml/saml/login?apId=_147_1&redirectUrl=" + redirectUrl);
+        }
+    </script>
+    <!--Modal: modalPush-->
+    <div class="modal fade bottom" id="modalPush" tabindex="-1" role="dialog" aria-labelledby="announcementModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-full-height modal-bottom modal-danger" role="document">
+            <!--Content-->
+            <div class="modal-content text-center">
+                <!--Header-->
+                <div class="modal-header flex-center d-flex justify-content-center danger-color-dark">
+
+                    <button type="button" class="close text-center" data-dismiss="modal" aria-label="Close">
+
+                        <span class="lang en" aria-hidden="true">Close</span>
+                        <span class="lang ko hidden" aria-hidden="true">공지사항 닫기</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-2 mb-2">
+                            <p class="pt-3 pr-2">
+                            <div class="lang en">
+                                <span style="font-weight: bold; font-size: 25px;"> Prepare for DDoS Attacks<br /></span>
+                                An external DDoS attack on the computer network of Korea University is expected.<br />
+                                Please check the announcement and prepare for a online lecture.<br />
+                                <a href="https://kultips.korea.ac.kr/kultips/announcements/elearning.do?mode=view&articleNo=184502&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo="
+                                    class="btn btn-outline-danger waves-effect" target="_blank">Instructor</a>
+                                <a href="https://kultips.korea.ac.kr/kultips/announcements/elearning.do?mode=view&articleNo=185574&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo="
+                                    class="btn btn-outline-danger waves-effect" target="_blank">Student</a>
+                            </div>
+                            <div class="lang ko hidden">
+                                <span style="font-weight: bold; font-size: 25px;"> 디도스 공격 대비<br /></span>
+                                우리 대학의 전산망에 대한 외부 세력의 디도스 공격이 예상됩니다.<br />
+                                원활한 온라인 강의를 위해 공지사항을 읽고 준비해주시기 부탁드립니다.<br />
+                                <a href="https://kultips.korea.ac.kr/kultips/announcements/elearning.do?mode=view&articleNo=184502&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo="
+                                    class="btn btn-outline-danger waves-effect" target="_blank">교수자 확인</a>
+                                <a href="https://kultips.korea.ac.kr/kultips/announcements/elearning.do?mode=view&articleNo=185574&article.offset=0&articleLimit=10&totalNoticeYn=N&totalBoardNo="
+                                    class="btn btn-outline-danger waves-effect" target="_blank">학습자 확인</a>
+                            </div>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-2 mb-2">
+                            <p class="pt-3 pr-2">
+                            <div class="lang en">
+                                <span style="font-weight: bold; font-size: 25px;">Activate the synchronous
+                                    tools<br /></span>
+                                Instructors, please activate the synchronous tool.
+                                <br />The right side of menu(Collaborate, Kaltura, Zoom) <i
+                                    class="fas fa-chevron-circle-down cc_pointer"></i> > Click "Show Link"
+                            </div>
+                            <div class="lang ko hidden">
+                                <span style="font-weight: bold; font-size: 25px;">실시간 강의 도구 활성<br /></span>
+                                교수자는 실시간 강의도구를 활성화 해주시기 바랍니다.
+                                <br />Collaborate, Kaltura, Zoom 메뉴에서 오른쪽 <i
+                                    class="fas fa-chevron-circle-down cc_pointer"></i> > 메뉴 보이기
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-2 mb-2">
+                            <p class="pt-3 pr-2">
+                            <div class="lang en">
+                                <span style="font-weight: bold; font-size: 25px;">Log in to Blackboard<br /></span>
+                                Freshman/New faculty <a href="http://portal.korea.ac.kr">must regist single-ID through
+                                    KUPID</a>(Korea University Portal to Information Depository).<br />Single-ID is the
+                                basic ID to use all services of Korea University.<a
+                                    href="https://kultips.korea.ac.kr/kultips/lms/how-to-login.do"> more...</a>
+                            </div>
+                            <div class="lang ko hidden">
+                                <span style="font-weight: bold; font-size: 25px;">블랙보드 로그인 시<br /></span>
+                                신입생/신임교원은 <a href="http://portal.korea.ac.kr">포털시스템</a>을 경유하여 싱글 아이디 신청을 반드시 하시기 바랍니다.
+                                <br />싱글 아이디는
+                                고려대학교의 모든 서비스를 이용하기 위한 기본 아이디 입니다. <a
+                                    href="https://kultips.korea.ac.kr/kultips/lms/how-to-login.do">자세히 보기</a>
+                            </div>
+                            </p>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 mt-2 mb-2">
+                            <p class="pt-3 pr-2">
+                            <div class="lang en">
+                                <span style="font-weight: bold; font-size: 25px;">Use KU Zoom in Blackboard<br /></span>
+                                "ONLY instructors need" to activate the Zoom account.
+                                <br />Students do not need to change or activate the Zoom account.</a>
+                            </div>
+                            <div class="lang ko hidden">
+                                <span style="font-weight: bold; font-size: 25px;">Zoom 블랙보드 이용<br /></span>
+                                다시 한 번 안내드립니다. 교수자 역할만 Zoom 인증이 필요합니다.
+                                <br />학습자는 별도 인증, 이메일 변경이 필요 없습니다.</a>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.Content-->
+        </div>
+    </div>
+    <!--Modal: modalPush-->
+
+    <div class="w3-container"
+        style="padding: 0 !important; background-image: url('https://kulms.korea.ac.kr/bbcswebdav/xid-29548469_1'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="mask rgba-gradient justify-content-center align-items-center" style="width:100%;">
+
+            <!-- Content -->
+            <div class="container">
+
+                <!-- Section -->
+                <section>
+
+
+                    <div class="container">
+
+
+
+
+                        <div class="d-flex align-items-center justify-content-center">
+
+
+                            <!-- Grid row -->
+                            <div class="row">
+
+                                <!-- Grid column -->
+                                <div class="col-lg-12 col-md-12 mt-5 mb-5">
+
+                                    <!--Card Primary-->
+                                    <div class="card mdb-color text-center elegant-color-dark z-depth-2">
+                                        <div class="lang en card-body">
+
+                                            <h3 class="text-uppercase font-weight-bold white-text mt-2 mb-3">
+                                                <strong>
+                                                    <a href="#" onclick="newLocation()" class="text-white">Log in to Blackboard<br /><span style="font-size:12px"><img src="https://kulms.korea.ac.kr/bbcswebdav/xid-12354108_1" height="24px" />&nbsp;Log in and all functions work normally in Chrome browser.<br />If you need to using iOS devices(not macOS), log into blackboard in Safari.</span></a>
+                                                </strong>
+                                            </h3>
+                                        </div>
+                                        <div class="lang ko hidden card-body">
+                                            <h3 class="text-uppercase font-weight-bold white-text mt-2 mb-3">
+                                                <strong>
+                                                    <a href="#" onclick="newLocation()" class="text-white">블랙보드 로그인<br /><span style="font-size:12px"><img src="https://kulms.korea.ac.kr/bbcswebdav/xid-12354108_1" height="24px" />&nbsp;크롬에서 로그인 및 블랙보드의 모든 기능이 정상 동작합니다.<br />iOS(모바일) 장치를 이용하시면 사파리에서 로그인 하십시오.</span></a>
+                                                </strong>
+                                            </h3>
+                                        </div>
+                                    </div>
+                                    <!--/.Card Primary-->
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                            <div class="col-lg-3 col-md-6 col-sm-3 mb-4">
+
+                                <!--Card-->
+                                <div class="card brown darken-1 mt-5">
+
+                                    <!--Card image-->
+                                    <div class="view">
+                                        <img src="https://kulms.korea.ac.kr/bbcswebdav/xid-27840856_1"
+                                            class="card-img-top" alt="photo">
+                                        <a href="#" target="_blank">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!--Card content-->
+                                    <div class="card-body text-center">
+                                        <div class="lang en">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">Update Visual Editor</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">New version of WYSIWYG has been updated.</p>
+                                            <a href="https://kultips.korea.ac.kr/kultips/announcements/elearning.do?mode=view&articleNo=251728" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">Check the details</a>
+                                        </div>
+                                        <div class="lang ko hidden">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">편집기 업데이트</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">새로운 편집기가 업데이트<br />되었습니다.</p>
+                                            <a href="https://kultips.korea.ac.kr/kultips/announcements/elearning.do?mode=view&articleNo=251728" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">자세히 보기</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-lg-3 col-md-6 col-sm-3 mb-4">
+
+                                <!--Card-->
+                                <div class="card brown darken-1 mt-5">
+
+                                    <!--Card image-->
+                                    <div class="view">
+                                        <img src="https://kulms.korea.ac.kr/bbcswebdav/xid-23300525_1"
+                                            class="card-img-top" alt="photo">
+                                        <a href="#">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!--Card content-->
+                                    <div class="card-body text-center">
+                                        <div class="lang en">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">Synchronous Lecture</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">Set the tool of "Show Link"<br />for students.</p>
+                                            <p class="card-text white-text">Please let students know what kind of synchronous tools you will use.</p>
+                                        </div>
+                                        <div class="lang ko hidden">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">실시간 강의 도구</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">학습자에게 실시간 강의 도구<br />"메뉴 보이기"를 설정하세요.</p>
+                                            <p class="card-text white-text">어떤 도구를 활용할 것인지<br />공지사항에 명확히 안내하세요.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-lg-3 col-md-6 col-sm-3 mb-4">
+
+                                <!--Card-->
+                                <div class="card brown darken-1 mt-5">
+
+                                    <!--Card image-->
+                                    <div class="view">
+                                        <img src="https://kulms.korea.ac.kr/bbcswebdav/xid-23300526_1"
+                                            class="card-img-top" alt="photo">
+                                        <a href="#">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!--Card content-->
+                                    <div class="card-body text-center">
+                                        <div class="lang en">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">Upload Materials</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text"><br />Refer to <a href="http://kultips.korea.ac.kr/lms/resources.do"
+                                                target="_blank" class="text-white">KULTIPS</a> if this is the first time using Blackboard.</p>
+                                                <a href="https://kultips.korea.ac.kr/" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">Check the details</a>
+                                        </div>
+                                        <div class="lang ko hidden">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">강의자료 올리기</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">블랙보드를 처음 쓰시는 분들은 <a href="http://kultips.korea.ac.kr/lms/resources.do"
+                                                    target="_blank" class="text-white">KULTIPS</a>를 참고하세요.</p>
+                                                    <a href="https://kultips.korea.ac.kr/" target="_blank"
+                                                    class="btn btn-outline-white btn-md waves-effect">꿀팁 바로가기</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-lg-3 col-md-6 col-sm-3 mb-4">
+
+                                <!--Card-->
+                                <div class="card brown darken-1 mt-5">
+
+                                    <!--Card image-->
+                                    <div class="view">
+                                        <img src="https://kulms.korea.ac.kr/bbcswebdav/xid-23300528_1"
+                                            class="card-img-top" alt="photo">
+                                        <a href="#">
+                                            <div class="mask rgba-white-slight"></div>
+                                        </a>
+                                    </div>
+
+                                    <!--Card content-->
+                                    <div class="card-body text-center">
+                                        <div class="lang en">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">KU Zoom</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">For instructors, activate the account.<br />
+                                                For students, the way to participate the session.</p>
+                                            <a href="https://kultips.korea.ac.kr/kultips/ku-zoom-verification.do" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">Instructor</a>
+                                            <a href="https://kultips.korea.ac.kr/kultips/synchronous/zoom-how-to-join-a-session.do" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">Student</a>
+                                        </div>
+                                        <div class="lang ko hidden">
+                                            <!--Title-->
+                                            <h4 class="card-title white-text">KU Zoom</h4>
+                                            <!--Text-->
+                                            <p class="card-text white-text">교수자는 인증 진행<br />
+                                                학습자는 참여 방법 확인</p>
+                                            <a href="https://kultips.korea.ac.kr/kultips/ku-zoom-verification.do" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">인증</a>
+                                            <a href="https://kultips.korea.ac.kr/kultips/synchronous/zoom-how-to-join-a-session.do" target="_blank"
+                                                class="btn btn-outline-white btn-md waves-effect">참여</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+
+                            </div>
+                            <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-lg-12 col-md-12">
+
+                                    <!--Card Primary-->
+                                    <div class="text-center text-white">
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+
+                                        <div class="lang en">
+                                            <h3>Please refer to <a href="http://kultips.korea.ac.kr"
+                                                    class="text-white">KULTIPS</a> for the details</a></h3>
+                                        </div>
+                                        <div class="lang ko hidden">
+                                            <h3>자세한 사항은 <a href="http://kultips.korea.ac.kr"
+                                                    class="text-white">KULTIPS</a>를 참고하시기 바랍니다.</h3>
+                                        </div>
+
+                                        <h5><img src="https://kulms.korea.ac.kr/bbcswebdav/xid-27846073_1"
+                                                height="48px" />
+                                        </h5>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                    </div>
+                                    <!--/.Card Primary-->
+
+                                </div>
+                                <!-- Grid column -->
+
+                            </div>
+                            <!-- Grid row -->
+
+                        </div>
+
+
+
+                    </div>
+                </section>
+                <!-- Section -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+
+        </div>
+
+
+    </div>
+    <main style="background: #212121;">
+        <div class="container">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-md-12 text-center">
+                    <!-- Footer -->
+                    <footer class="page-footer font-small elegant-color-dark">
+
+                        <!-- Footer Links -->
+                        <div class="container text-center text-md-left">
+
+                            <!-- Grid row -->
+                            <div class="row">
+
+
+                                <!-- Grid column -->
+                                <div class="col-md-4 mx-auto">
+
+                                    <!-- Content -->
+                                    <p>&nbsp;</p>
+
+                                    <div class="text-center"
+                                        style="background-image: url('https://kulms.korea.ac.kr/bbcswebdav/xid-15670224_1'); background-repeat: no-repeat; background-size: contain; background-position: center center; height: 60px;">
+                                    </div>
+                                    <div class="lang en">
+                                        <p class="text-center">02841 145 Anam-ro, Seongbuk-gu, Seoul</p>
+                                    </div>
+                                    <div class="lang ko hidden">
+                                        <p class="text-center">02841 서울특별시 성북구 안암로 145</p>
+                                    </div>
+
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <hr class="clearfix w-100 d-md-none">
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 mx-auto">
+
+                                    <div class="lang en">
+                                        <!-- Links -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">KOREA UNIVERSITY</h5>
+
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="http://www.korea.edu" target="_blank">Explore</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://registrar.korea.edu/" target="_blank">Academic
+                                                    Affairs</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://ctl.korea.ac.kr" target="_blank">CTL</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://data.korea.ac.kr" target="_blank">Digital@KU</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="lang ko hidden">
+                                        <!-- Links -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">고려대학교</h5>
+
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="http://www.korea.ac.kr" target="_blank">대표 홈페이지</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://registrar.korea.ac.kr/" target="_blank">교육정보</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://ctl.korea.ac.kr" target="_blank">교수학습개발원</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://data.korea.ac.kr" target="_blank">디지털정보처</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <hr class="clearfix w-100 d-md-none">
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 mx-auto">
+                                    <div class="lang en">
+                                        <!-- Links -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">ONLINE CHANNEL</h5>
+
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="https://ctl.channel.io" target="_blank">RoarTalk</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://kultips.korea.ac.kr" target="_blank">KULTIPS</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="lang ko hidden">
+                                        <!-- Links -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">채널안내</h5>
+
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="https://ctl.channel.io" target="_blank">어흥Talk</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://kultips.korea.ac.kr" target="_blank">꿀팁가이드</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <!-- Grid column -->
+
+                                <hr class="clearfix w-100 d-md-none">
+
+                                <!-- Grid column -->
+                                <div class="col-md-2 mx-auto">
+
+                                    <div class="lang en">
+                                        <!-- Links -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">PRIVACY POLICY</h5>
+
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="http://kultips.korea.ac.kr">Policy</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://kultips.korea.ac.kr">Login</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="lang ko hidden">
+                                        <!-- Links -->
+                                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">개인정보</h5>
+
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="http://kultips.korea.ac.kr">개인정보처리방침</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://kultips.korea.ac.kr">로그인 정책</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <!-- Grid column -->
+
+
+                            </div>
+                            <!-- Grid row -->
+
+                        </div>
+                        <!-- Footer Links -->
+
+                        <hr>
+
+
+
+                        <!-- Copyright -->
+                        <div class="lang en text-center py-3">© 2020 KOREA UNIVERSITY
+                        </div>
+                        <div class="lang ko hidden text-center py-3">© 2020 고려대학교
+                        </div>
+                        <!-- Copyright -->
+
+                    </footer>
+                    <!-- Footer -->
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+    </main>
+    <!--Main Layout-->
+
+
+    <script type="text/javascript"
+        src="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript"
+        src="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/js/mdb.min.js"></script>
+    <!-- MDBootstrap Steppers Pro  -->
+    <script type="text/javascript"
+        src="https://kulms.korea.ac.kr/bbcswebdav/institution/kultips/js/addons-pro/steppers.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    <script type="text/javascript">
+
+
+
+
+        $(document).ready(function () {
+
+            if ($.cookie('pop') == null) {
+                $('#frameModalBottom').modal('show');
+                $('#modalPush').modal('show');
+            }
+            else {
+                $('#frameModalBottom').modal('hide');
+
+            }
+
+
+        });
+
+        $('.modal-footer').click(function () {
+            $('.modal-footer').modal('close');
+        });
+
+        $('.close').click(function () {
+            $.cookie('pop', '3');
+
+        });
+
+
+
+
+
+    </script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam-cell.nr-data.net","licenseKey":"232bf20b67","agent":"","beacon":"bam-cell.nr-data.net","applicationTime":9,"applicationID":"390461942","transactionName":"M1NbN0oCDxFYU0JaXAoZahdKFhUReFNCWlwKGVsPWQAKAFZRRFcdE1NbAkgTEkxbXFdQWAZZWBFcTQAXTVhTXUcNVVgXUQwPTHVfUVpdJVVNClcN","queueTime":0}</script></body>
+
+</html>

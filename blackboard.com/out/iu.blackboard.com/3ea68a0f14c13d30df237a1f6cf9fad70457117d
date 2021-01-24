@@ -1,0 +1,27 @@
+https://iu.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: iu.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< X-Blackboard-Appserver: fgprd-342837-0sf046899-app005.mhint
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:03:26 GMT
+< P3p: CP="CAO PSA OUR"
+< Last-Modified: Thu, 04 Jan 2001 13:03:26 GMT
+< X-Frame-Options: SAMEORIGIN
+< Location: /webapps/bb-auth-provider-cas-BBLEARN/execute/casLogin?cmd=login&authProviderId=_102_1&redirectUrl=https%3A%2F%2Fiu.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Length: 0
+< X-Blackboard-Product: Blackboard Learn &#8482; 3700.0.11-rel.23+c620db7
+< Pragma: private
+< Set-Cookie: session_id=4C766242A72690D185FE0CD01C5DE33F; Path=/; HttpOnly
+< Set-Cookie: s_session_id=AB6848CF3DD293ECF8C379E2B4287CD4; Path=/; Secure; HttpOnly
+< Set-Cookie: NSC_342837_wjq_37.216.222.17*443=ffffffff09791f6c45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Expires: Sat, 04 Jan 2020 13:03:26 GMT
+

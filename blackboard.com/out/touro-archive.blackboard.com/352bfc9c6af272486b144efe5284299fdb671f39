@@ -1,0 +1,27 @@
+https://touro-archive.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: touro-archive.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Accept-Ranges: bytes
+< Content-Type: text/html
+< P3p: CP="CAO PSA OUR"
+< X-Blackboard-Product: Blackboard Learn &#8482; 3400.0.9-rel.28+b95bdac
+< Expires: Sat, 04 Jan 2020 13:05:06 GMT
+< Etag: W/"89-1560758766000"
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Blackboard-Appserver: fgarch-100081-sf687441-app001.mhint
+< Pragma: private
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< X-Frame-Options: SAMEORIGIN
+< Set-Cookie: NSC_100081_wjq_192.230.226.247*443=ffffffff090e181d45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< Last-Modified: Mon, 17 Jun 2019 08:06:06 GMT
+< Content-Length: 89
+< Date: Mon, 04 Jan 2021 13:05:06 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

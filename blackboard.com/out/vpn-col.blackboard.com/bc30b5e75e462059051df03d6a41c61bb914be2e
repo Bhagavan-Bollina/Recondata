@@ -1,0 +1,24 @@
+https://vpn-col.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: vpn-col.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Frame-Options: SAMEORIGIN
+< Pragma: no-cache
+< Cache-Control: no-store
+< Content-Type: text/html; charset=UTF-8
+< Date: Mon, 04 Jan 2021 13:05:38 GMT
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Vary: User-Agent
+< Content-Length: 147
+< Server: CPWS
+< Location: /sslvpn/Login/Login
+
+
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<BODY>
+Please see: <A HREF="/sslvpn/Login/Login">/sslvpn/Login/Login</A></BODY></HTML>

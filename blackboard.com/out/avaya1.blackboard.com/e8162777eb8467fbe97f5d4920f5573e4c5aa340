@@ -1,0 +1,13 @@
+https://avaya1.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: avaya1.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Supported
+< Pragma: no-cache
+< Server: nginx
+< Date: Mon, 04 Jan 2021 12:58:17 GMT
+< Content-Length: 0
+< Cache-Control: no-cache
+

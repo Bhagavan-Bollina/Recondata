@@ -1,0 +1,29 @@
+https://dundee-staging.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: dundee-staging.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Last-Modified: Thu, 04 Jan 2001 13:02:52 GMT
+< Content-Length: 0
+< Content-Type: text/html;charset=ISO-8859-1
+< Pragma: private
+< Server: openresty/1.9.3.1
+< X-Blackboard-Appserver: ip-10-148-213-163.eu-central-1.compute.internal
+< X-Frame-Options: SAMEORIGIN
+< Content-Security-Policy: frame-ancestors 'self'
+< Date: Mon, 04 Jan 2021 13:02:52 GMT
+< Location: /auth-saml/saml/login?apId=_213_1&redirectUrl=https%3A%2F%2Fdundee-staging.blackboard.com%2Fultra
+< Set-Cookie: BbRouter=expires:1609776172,id:C327C9D8C3D4E983A7D7AC5C82072E31,signature:706c935cfc838b0ff64e7e5b8bd169bfeb295561194e8f0cd739499a7a69e82d,site:02d53d0e-1907-44b0-9485-a06841c2748d,v:2,xsrf:868028b8-2fb3-4859-844a-8e00b0073d36; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=D5D595450E9B3A00EB9E697164DD814BE3B146991854EDBC5944986F49B9CF4C4E6A552BB96A216E084804E41DEF8F7CC0F90AB277BF4FD70A4B98980117CC549C719C89BC;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=D5D595450E9B3A00EB9E697164DD814BE3B146991854EDBC5944986F49B9CF4C4E6A552BB96A216E084804E41DEF8F7CC0F90AB277BF4FD70A4B98980117CC549C719C89BC;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.4.0-rel.17+f210f75
+< Expires: Sat, 04 Jan 2020 13:02:52 GMT
+< P3p: CP="CAO PSA OUR"
+

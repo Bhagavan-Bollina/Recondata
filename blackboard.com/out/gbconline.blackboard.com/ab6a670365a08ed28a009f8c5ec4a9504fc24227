@@ -1,0 +1,27 @@
+https://gbconline.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: gbconline.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 
+< Pragma: private
+< Set-Cookie: NSC_305078_wjq_69.196.225.233*443=ffffffff090e19bf45525d5f4f58455e445a4a4229a0;path=/;secure;SameSite=None
+< P3p: CP="CAO PSA OUR"
+< Content-Security-Policy: frame-ancestors 'self'
+< Content-Length: 89
+< Etag: W/"89-1546261127000"
+< Content-Type: text/html
+< Date: Mon, 04 Jan 2021 13:03:09 GMT
+< X-Blackboard-Product: Blackboard Learn &#8482; 3500.0.1-rel.59+219b762
+< X-Frame-Options: SAMEORIGIN
+< Accept-Ranges: bytes
+< Expires: Sat, 04 Jan 2020 13:03:09 GMT
+< X-Blackboard-Appserver: fgprd-305078-200060-app002.mhint
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Last-Modified: Mon, 31 Dec 2018 12:58:47 GMT
+
+<html><head><meta http-equiv="refresh" content="0; url=/webapps/login/" /></head></html>

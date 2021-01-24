@@ -1,0 +1,30 @@
+https://muskegoncc.blackboard.com/
+
+> GET / HTTP/1.1
+> Host: muskegoncc.blackboard.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 
+< Cache-Control: private
+< Cache-Control: max-age=0
+< Cache-Control: no-store
+< Cache-Control: must-revalidate
+< Cache-Control: no-cache="set-cookie"
+< Content-Type: text/html;charset=ISO-8859-1
+< X-Blackboard-Product: Blackboard Learn &#8482; 3900.2.0-rel.34+4ad580a
+< X-Blackboard-Appserver: ip-10-146-222-8.ec2.internal
+< X-Frame-Options: SAMEORIGIN
+< Expires: Sat, 04 Jan 2020 13:03:51 GMT
+< Last-Modified: Thu, 04 Jan 2001 13:03:51 GMT
+< Set-Cookie: JSESSIONID=D4A294058D7A212BC2CFAAF90F4B548B; Path=/; Secure
+< Set-Cookie: BbRouter=expires:1609776231,id:5FF4DA98C95C7BB8B6EA3675D144BD96,signature:b556c75ac8da3ff98fcc390e599c07a7c4786b5ba2397ce5ccce80247f622e10,site:5aebbffd-a65a-48c5-862a-ced2f503e9f1,v:2,xsrf:7f4876e8-98c2-4008-860e-e5942bf72810; Path=/; Secure; HttpOnly
+< Set-Cookie: AWSELB=B5935B44B98A29F88621D9CCF79D89A18FB1CA4AA5DB6B7C423D2DD13C4276CCA7495E5E114FB330D2CCC909175AA0708BFD8028B00F7E532DA61EA635513D65D4F8C352;PATH=/;MAX-AGE=900
+< Set-Cookie: AWSELBCORS=B5935B44B98A29F88621D9CCF79D89A18FB1CA4AA5DB6B7C423D2DD13C4276CCA7495E5E114FB330D2CCC909175AA0708BFD8028B00F7E532DA61EA635513D65D4F8C352;PATH=/;MAX-AGE=900;SECURE;SAMESITE=None
+< Date: Mon, 04 Jan 2021 13:03:51 GMT
+< Pragma: private
+< Server: openresty/1.9.3.1
+< Content-Length: 0
+< Content-Security-Policy: frame-ancestors 'self'
+< Location: /auth-saml/saml/login?apId=_4_1&redirectUrl=https%3A%2F%2Fmuskegoncc.blackboard.com%2Fwebapps%2Fportal%2Fexecute%2FdefaultTab
+< P3p: CP="CAO PSA OUR"
+
